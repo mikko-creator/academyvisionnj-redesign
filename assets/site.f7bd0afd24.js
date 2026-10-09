@@ -21,8 +21,21 @@
   const btnOf = (m) => m.querySelector(':scope > button');
   const timers = new WeakMap();
   const clearTimer = (m) => { const t = timers.get(m); if (t) { window.clearTimeout(t); timers.delete(m); } };
+  /* Services mega-menu art (operator, 2026-10-09): the card images carry data-src only, so the closed menu downloads
+     nothing on page load. They load on the first hover intent (before the 90 ms open delay) or when the menu opens
+     (click / keyboard), and fade in when decoded (chrome.css .mega-card). */
+  const primeArt = (m) => {
+    m.querySelectorAll('img[data-src]').forEach((i) => {
+      const done = () => i.classList.add('is-loaded');
+      i.addEventListener('load', done, { once: true });
+      i.src = i.getAttribute('data-src');
+      i.removeAttribute('data-src');
+      if (i.complete && i.naturalWidth) done();
+    });
+  };
   const setOpen = (m, open) => {
     clearTimer(m);
+    if (open) primeArt(m);
     m.classList.toggle('is-open', open);
     const b = btnOf(m);
     if (b) b.setAttribute('aria-expanded', open ? 'true' : 'false');   /* also when opened by hover (R-6) */
@@ -44,6 +57,7 @@
     /* hover intent: open 90 ms after the pointer enters, close 260 ms after it leaves */
     m.addEventListener('pointerenter', (e) => {
       if (e.pointerType !== 'mouse' || !finePointer.matches || m.classList.contains('is-dismissed')) return;
+      primeArt(m);
       clearTimer(m);
       timers.set(m, window.setTimeout(() => { closeAll(m); setOpen(m, true); }, 90));
     });
