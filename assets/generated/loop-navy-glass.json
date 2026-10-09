@@ -1,0 +1,51 @@
+{
+  "tool": "tools/make-loop.mjs",
+  "input": "tmp/imagery-run/motion/navy-pp/pingpong.mp4",
+  "inputDuration": 10,
+  "fps": 24,
+  "fade": 1.5,
+  "loopDuration": 8.5,
+  "outputs": {
+    "assets/generated/loop-navy-glass.mp4": 666481,
+    "assets/generated/loop-navy-glass.webm": 168085,
+    "assets/generated/loop-navy-glass-poster.webp": 25848
+  },
+  "calmness": {
+    "metric": "ffmpeg signalstats YDIF (mean absolute luma change between consecutive frames, 0-255), measured over two plays of the loop",
+    "frames": 407,
+    "max": 1.20769,
+    "p95": 0.3424,
+    "mean": 0.199,
+    "framesOver20": 0,
+    "seamChange": 1.20769
+  },
+  "aiLabel": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video). Not footage of this practice, its people, its patients or its results.",
+  "generatedAt": "2026-10-08T04:49:59.022Z",
+  "provenanceRemux": {
+    "at": "2026-10-09",
+    "note": "INTEGRATOR stream-copy remux (ffmpeg -map 0 -c copy -fflags +bitexact, no re-encode) adding the comment tag \"AI-generated with Higgsfield (Kling image-to-video); IPTC digital source type trainedAlgorithmicMedia\"; packet and decoded-frame framemd5 identical before/after (tmp/integrate/remux/report.json)",
+    "files": [
+      {
+        "file": "assets/generated/loop-navy-glass.mp4",
+        "previousBytes": 666571,
+        "bytes": 666481,
+        "previousSha256": "e0be8246cdefb6be82fea2c37678404125363fd463bff403d917e6b52e9ad728",
+        "sha256": "10bc3b4c6121086f85a051f5ad5b68f8dbf694053416bb6a2689cb1c7443e04c"
+      },
+      {
+        "file": "assets/generated/loop-navy-glass.webm",
+        "previousBytes": 168185,
+        "bytes": 168085,
+        "previousSha256": "0a2230474bd87dab76e285c6262edfa2cf48a0a9a2a91ea23f5b7af65ebf87f5",
+        "sha256": "140a24dbe3d3aaa0733844010d8160424c3100d1eadf265ffba55a52df6d61a0"
+      },
+      {
+        "file": "assets/generated/loop-navy-glass-960.mp4",
+        "previousBytes": 164240,
+        "bytes": 164150,
+        "previousSha256": "6a239831179cb8c557345c005af8bb317bb68437a1bb314aa026ec5828155e49",
+        "sha256": "d730770ff2ba57fbadf6650b17141ca464a74d2d61afb394e2380d8abb1ccb28"
+      }
+    ]
+  }
+}

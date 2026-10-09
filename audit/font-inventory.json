@@ -1,0 +1,80 @@
+{
+  "schema": "site-reforge/fonts@1",
+  "generated": "2026-10-08T00:58:21.228Z",
+  "discovered": [
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANPjuM.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iDgNP.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"
+  ],
+  "saved": [
+    {
+      "url": "https://cdn.patientengage.cloud/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANPjuM.woff2",
+      "savedAs": "kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANPjuM.woff2",
+      "bytes": 21272,
+      "sha256": "3fc071cd0f715bfcf79df9aa61fe6112278ac62f859b486d3956fe19b64a02fb"
+    },
+    {
+      "url": "https://cdn.patientengage.cloud/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iDgNP.woff2",
+      "savedAs": "kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iDgNP.woff2",
+      "bytes": 20108,
+      "sha256": "3eb80fbca70498126925ce16ff5c20b2fa35e67ae7123ddb46302d2778dfbf0e"
+    },
+    {
+      "url": "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
+      "savedAs": "JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
+      "bytes": 26368,
+      "sha256": "0f7f5f2fbb4eae126790fe6f01659ab3ee0806e8038a941908e893020569f51a"
+    },
+    {
+      "url": "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+      "savedAs": "JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+      "bytes": 23828,
+      "sha256": "a187b077090fe8ae3fd2d7496aabbeae604819c718a282e0afc92df72b450766"
+    },
+    {
+      "url": "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+      "savedAs": "JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+      "bytes": 12928,
+      "sha256": "26b2403f995ed65fb49037a6498c074d3ec3c36031a69fc368c4c2180e2c01fa"
+    },
+    {
+      "url": "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+      "savedAs": "JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+      "bytes": 70688,
+      "sha256": "54d9a78b7ff60b689ad9f3017ffac8547b5d871afec733f6c1c3ae36577ee504"
+    },
+    {
+      "url": "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+      "savedAs": "JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+      "bytes": 37956,
+      "sha256": "06b16db7a969135d48d38c49183be7fb88d4452e2a3011957c7851941f4e4879"
+    }
+  ],
+  "map": {
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANPjuM.woff2": "/fonts/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANPjuM.woff2",
+    "//cdn.patientengage.cloud/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANPjuM.woff2": "/fonts/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANPjuM.woff2",
+    "/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANPjuM.woff2": "/fonts/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iAANPjuM.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iDgNP.woff2": "/fonts/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iDgNP.woff2",
+    "//cdn.patientengage.cloud/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iDgNP.woff2": "/fonts/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iDgNP.woff2",
+    "/global/fonts/google-fonts/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iDgNP.woff2": "/fonts/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4iDgNP.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
+    "//cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
+    "/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+    "//cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+    "/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+    "//cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+    "/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+    "//cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+    "/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+    "https://cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+    "//cdn.patientengage.cloud/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+    "/global/fonts/google-fonts/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2": "/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"
+  }
+}

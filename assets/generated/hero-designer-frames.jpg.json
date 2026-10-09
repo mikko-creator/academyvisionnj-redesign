@@ -1,0 +1,57 @@
+{
+  "id": "hero-designer-frames",
+  "file": "assets/generated/hero-designer-frames.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the adopted designer frames page (Academy Vision's /eyeglasses/ page keeps its own designer-frames section and brand grid)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Two pairs of folded eyeglasses, tortoiseshell and clear, resting on navy and cream pouches",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Still-life photograph of a neat row of exactly three pairs of acetate eyeglasses lying folded on cream linen in the right third of the frame, from left to right one tortoiseshell pair, one solid deep navy pair and one crystal clear pair, each pair folded with both temples tucked behind the lenses, soft directional daylight with gentle shadows, the left half of the frame empty cream linen softly blurred for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no metal studs, no emblems, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2130764246,
+  "requestId": "01a119e4-d31d-7e50-aa85-d02094909aa2",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-designer-frames.a3.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "2936e0b9c34c7d0f71c3be19e6363f2c8c4ae8b4b0fb9f19fa3438c08b11da40",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: two folded pairs (tortoiseshell, clear/champagne) on plain navy and cream pouches; subject 52-90% x; calm left half",
+      "100% both pairs + 400% both top hinges: no text, logos or emblems; two small silver rivet dots on the tortoiseshell front (prompt said no rivets) - minor",
+      "COUNT FLAG: plan asks for three frames; all three attempts drew two; alt rewritten to match"
+    ],
+    "notes": "retry 2 (last)",
+    "at": "2026-10-08T05:07:14.432Z",
+    "retries": 2
+  },
+  "promotedAt": "2026-10-08T05:07:19.591Z",
+  "refuterFix": {
+    "at": "2026-10-08T07:19:59.588Z",
+    "replacedSha256": "2656befd1f94a45cc6870d8ed2c8a026e3da121372c6afc66f272b0164b1b1e8",
+    "attempts": [
+      {
+        "attempt": "r1",
+        "kind": "local (no API call)",
+        "file": "tmp/verify-imagery/gen/attempts/hero-designer-frames.r1.q1.jpg",
+        "cost": 0,
+        "verdict": "accept",
+        "what": "ffmpeg removelogo inpaint inside two ellipses over the spiral emblems on the clear frame bridge (2252,674 r13; 2256,776 16x22), inpainted pixels pasted back only inside the mask (dilated 2 px, feathered sigma 1.2); JPEG q1 4:4:4 re-encode (outside the mask: max channel diff 9, mean 1.80 of 255 = JPEG generation only; a lossless control copy is exact outside the mask)"
+      }
+    ],
+    "finalChecks": [
+      "400% both former emblem spots: plain gold bridge metal, no emblem or glyph",
+      "100% bridge context: natural, no smear visible",
+      "rest of frame unchanged (pixel diff outside the mask = JPEG re-encode only)",
+      "alt unchanged (2 folded pairs; count deviation stays as IMAGERY recorded)"
+    ],
+    "note": "IMAGE REFUTER fix; the fields above this block describe the IMAGERY generation the fix starts from"
+  }
+}

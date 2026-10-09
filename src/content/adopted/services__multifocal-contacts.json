@@ -1,0 +1,112 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/multifocal-contacts",
+  "etSource": "services/multifocal-contacts",
+  "title": "Multifocal Contact Lenses in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Holding your phone farther away to read? Multifocal contacts handle near and far in one lens. See how a contact lens exam at Academy Vision in Pine Beach works.",
+  "h1": "Multifocal Contacts for Near and Far in Pine Beach",
+  "kicker": "Reaching for Readers More Often?",
+  "lede": "<p>If you’ve started holding your phone or a menu at arm’s length to read it, you’re far from alone. Multifocal contact lenses build more than one prescription into a single lens, so many people can see across the room and read up close with less need for reading glasses.</p><p>Academy Vision’s contact lens options include two multifocal lenses, DAILIES TOTAL1® Multifocal and TOTAL30® Multifocal. We’ll talk through how you use your eyes each day and help you find out whether one of them is a good fit.</p>",
+  "sections": [
+    {
+      "id": "near-vision-changes",
+      "heading": "Why Close-Up Vision Changes in Your Forties",
+      "html": "<p>Somewhere in their early to mid-forties, most people notice that small print has gotten harder to read. This is called presbyopia. The natural lens inside your eye gradually becomes less flexible, so it can’t shift focus to close-up tasks the way it once did. It happens to nearly everyone, whether or not you’ve needed glasses before, and it usually keeps progressing into your sixties.</p><p>Common signs include holding things farther away to read, needing brighter light, and tired eyes or headaches after close work. If you already wear contacts for distance, you may see far away just fine but struggle with your phone, a label or a recipe card.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "fitting-steps",
+      "heading": "What a Multifocal Fitting Involves",
+      "html": "<p>Multifocals take more back-and-forth to fit than single-vision lenses, because your eyes and brain have to adjust to the lens together. Here’s what to expect at a contact lens exam at Academy Vision:</p><ol><li>We check your vision and the health of your eyes.</li><li>We take measurements so your lenses fit properly.</li><li>We evaluate your tear film to help keep your eyes comfortable.</li><li>We fit you with trial lenses so you can experience how they feel.</li><li>We fine-tune based on comfort and clarity.</li></ol><p>Come ready to talk about your day: how much time you spend driving, reading, on a screen or outdoors. With multifocals, those details help decide which lens and which balance of near and far will suit you.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "what-you-gain",
+      "heading": "What a Careful Fitting Can Give You",
+      "html": "<ul><li><strong>Fewer trips to the readers.</strong> Many people can read a phone or a menu without hunting for another pair.</li><li><strong>Clear vision through your day.</strong> A well-chosen lens can cover driving, conversation and screen time with less switching.</li><li><strong>A lens matched to how you see.</strong> The right balance for someone who reads all evening isn’t the same as for someone who drives for a living, and a careful fitting accounts for that.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "continuity",
+      "heading": "Fine-Tuning Goes Better With a Doctor Who Knows You",
+      "html": "<p>Multifocal lenses often work best after a tweak or two, once you’ve worn them through your normal routine. That’s easier when the doctor making the changes has followed your eyes over time.</p><p>Our optometrists take the time to listen, explain what they find and make sure you feel comfortable. It’s one reason families throughout Pine Beach, Beachwood and Toms River keep returning year after year.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "more-than-a-trial-box",
+      "heading": "Why a Box of Trial Lenses Isn’t Enough",
+      "html": "<p>Multifocal lenses are hard to judge from an exam chair alone. How they work for you shows up in everyday life: reading in dim light, driving at dusk, working at a screen. Being handed a box of lenses with no plan to check how they’re doing can leave you thinking multifocals just aren’t for you, when a different lens or a small change might have made the difference.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "more-options",
+      "heading": "Other Contact Lens Pages",
+      "html": "<ul><li><a href=\"/services/contact-lens-exams/\">Contact lens exams</a>: each step of a fitting, explained</li><li><a href=\"/services/toric-contacts/\">Contacts for astigmatism</a>: lenses that correct uneven focus</li><li><a href=\"/products/contact-lenses/\">Contact lens options</a>: daily and longer-wear lenses</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who tends to do well with multifocal contacts?",
+      "a": "<p>People who want to see far and near without switching to readers often do well, especially if they’re already comfortable in contacts and their eyes are healthy and not prone to dryness. Patience helps, since vision may take some time to settle. If your work involves long stretches of very fine detail, your eye doctor may suggest another approach.</p>"
+    },
+    {
+      "q": "Will I see as sharply as I do in glasses?",
+      "a": "<p>For everyday tasks, many people find multifocal contacts work well, but they work differently from glasses. Because the lens offers near and far at once, very fine print or night driving may look a little less crisp, and some people notice halos around lights, especially at first. Telling your eye doctor what you notice makes it easier to adjust the fit or try another lens.</p>"
+    },
+    {
+      "q": "What if multifocal contacts aren’t right for me?",
+      "a": "<p>You still have good options. Our Pine Beach optical offers Varilux® progressive lenses, which let you see near, far and in between with one pair of glasses. <a href=\"/products/varilux-lenses/\">Learn about Varilux® lenses</a>.</p>"
+    },
+    {
+      "q": "Can I wear multifocal contacts if my eyes feel dry?",
+      "a": "<p>Dry eyes can make any lens less comfortable and can blur vision on and off, which multifocal wearers tend to notice. If your eyes often feel dry or gritty, mention it at your exam. At Academy Vision, dry eye care starts with finding out what’s causing your discomfort. <a href=\"/services/dry-eye-treatment/\">Read about dry eye treatment</a>.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Curious Whether Multifocals Could Work for You?",
+    "html": "<p>If close-up vision has started to slow you down, a contact lens exam is a good place to start. Call us at (732) 978-9306 to schedule your visit at our Pine Beach office.</p>"
+  },
+  "related": [
+    "services/contact-lens-exams",
+    "services/toric-contacts",
+    "products/varilux-lenses",
+    "products/contact-lenses"
+  ],
+  "claims": [
+    { "text": "Multifocal Contact Lenses in Pine Beach, NJ | Academy Vision", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "Explore our Contact Lens Options in Pine Beach DAILIES TOTAL1® Multifocal" },
+    { "text": "See how a contact lens exam at Academy Vision in Pine Beach works.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "Multifocal Contacts for Near and Far in Pine Beach", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "Explore our Contact Lens Options in Pine Beach DAILIES TOTAL1® Multifocal" },
+    { "text": "Academy Vision’s contact lens options include two multifocal lenses, DAILIES TOTAL1® Multifocal and TOTAL30® Multifocal.", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "DAILIES TOTAL1® Multifocal" },
+    { "text": "Academy Vision’s contact lens options include two multifocal lenses, DAILIES TOTAL1® Multifocal and TOTAL30® Multifocal.", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "TOTAL30® Multifocal" },
+    { "text": "We’ll talk through how you use your eyes each day and help you find out whether one of them is a good fit.", "factId": "service-contact-lens-fittings", "page": "/contact-lenses/", "quote": "We’ll measure your eyes, talk through your lifestyle, and make sure your lenses feel comfortable and work the way they should." },
+    { "text": "Here’s what to expect at a contact lens exam at Academy Vision:", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "We check your vision and the health of your eyes.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We check your vision and overall eye health" },
+    { "text": "We take measurements so your lenses fit properly.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We take measurements to ensure the best possible fit" },
+    { "text": "We evaluate your tear film to help keep your eyes comfortable.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We evaluate your tear film to make sure your eyes stay comfortable" },
+    { "text": "We fit you with trial lenses so you can experience how they feel.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We fit you with trial lenses so you can experience how they feel" },
+    { "text": "We fine-tune based on comfort and clarity.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We make adjustments based on comfort and clarity" },
+    { "text": "Our optometrists take the time to listen, explain what they find and make sure you feel comfortable.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "It’s one reason families throughout Pine Beach, Beachwood and Toms River keep returning year after year.", "factId": "address-area-served", "page": "/", "quote": "It’s one of the reasons families throughout Pine Beach, Beachwood, and Toms River continue to come back year after year." },
+    { "text": "Our Pine Beach optical offers Varilux® progressive lenses, which let you see near, far and in between with one pair of glasses.", "factId": "lens-varilux", "page": "/eyeglasses/varilux-lenses/", "quote": "Varilux® Eyeglass Lenses in Pine Beach" },
+    { "text": "Our Pine Beach optical offers Varilux® progressive lenses, which let you see near, far and in between with one pair of glasses.", "factId": "service-varilux", "page": "/eyeglasses/varilux-lenses/", "quote": "Varilux® lenses are a type of progressive lens, which means they allow you to see at multiple distances without the visible line you might remember from traditional bifocals." },
+    { "text": "At Academy Vision, dry eye care starts with finding out what’s causing your discomfort.", "factId": "service-dry-eye", "page": "/eye-care-services/dry-eye-treatment/", "quote": "At Academy Vision, we look beyond quick fixes to find out what’s causing your discomfort and help you feel better for the long run." },
+    { "text": "Call us at (732) 978-9306 to schedule your visit at our Pine Beach office.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "Call us at (732) 978-9306 to schedule your visit at our Pine Beach office.", "factId": "address-display", "page": "/", "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741" }
+  ],
+  "flags": [
+    "The live site lists multifocal contacts only (DAILIES TOTAL1® Multifocal and TOTAL30® Multifocal on /contact-lenses/). It mentions neither bifocal contacts nor monovision, so this page offers neither.",
+    "The live site describes no multifocal-specific fitting. The five steps listed are the general contact lens exam steps from /contact-lenses/contact-lenses-exams/; presbyopia, adaptation, halos and night driving are explained as general information, not as Academy Vision’s own procedure or results."
+  ],
+  "review": {
+    "overlapLongest": 0,
+    "checkedBy": "checker-G4-contacts",
+    "notes": "Overlap gate (tools/overlap-check.mjs, 6-word shingles, fail at 8): longest shared span 0; the --control run detected an inserted Eye Trends sentence. A stricter 5-word pass leaves only generic 5-word phrases. A 7-word idiom flagged in the first draft was rewritten. Every claim quote was matched against its client-facts.json record and the raw Academy Vision page it cites. || CHECKER checker-G4-contacts, 2026-10-08: re-ran tools/overlap-check.mjs --fail 8 (6-word shingles) on this final file: longest shared span 0 words; the --control run reported DETECTED; a 5-word pass leaves only generic phrases or Academy Vision’s own (its exam step and its area-served quote). Re-verified all 19 claims with tmp/checker-G4-contacts/audit.mjs: each factId exists in facts/client-facts.json, its page equals the fact’s page, the quote sits in the fact record and on the cited audit/raw page, and the claim text is a whole visible sentence; the script’s 12 planted-defect controls all fired. Raw context read: ‘our Pine Beach optical’ is Academy Vision’s own phrase (on /eyeglasses/varilux-lenses/ among others), and the two multifocal lenses are 2 of the 7 on /contact-lenses/. Every we/our/us/Academy Vision sentence is backed by a claim. Change: (1) FAQ ‘Will I see as sharply as I do in glasses?’: before ‘very fine print or night driving can take getting used to, and some people notice halos around lights at first’, after ‘very fine print or night driving may look a little less crisp, and some people notice halos around lights, especially at first’; why: medical accuracy, a lens that offers near and far at once can leave fine print and night vision a little less crisp than glasses for some wearers, and the old wording implied that always fades with adaptation; the answer now meets the question directly. Medical read: presbyopia onset and progression, adaptation, halos and dry eye statements match standard guidance (UNVERIFIED against a citation this run). Body 872 words (886 with h1 and kicker); links 5, all new-site paths; tags and schema pass."
+  }
+}

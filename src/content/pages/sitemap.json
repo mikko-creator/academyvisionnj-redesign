@@ -1,0 +1,307 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/sitemap/",
+  "source": "audit/raw/sitemap.html",
+  "rendered": "tmp/extract/rendered/sitemap.html",
+  "meta": {
+    "title": "Academy Vision | Local Eye Clinic in Pine Beach, Pine Beach",
+    "description": "Family Optometrist & Contact Lenses near you in Pine Beach, New Jersey. Call (732) 736-1700",
+    "canonical": "https://www.academyvisionnj.com/sitemap/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/sitemap/",
+      "type": "website",
+      "title": "Academy Vision | Local Eye Clinic in Pine Beach, Pine Beach",
+      "description": "Family Optometrist & Contact Lenses near you in Pine Beach, New Jersey. Call (732) 736-1700",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/sitemap/",
+        "url": "https://www.academyvisionnj.com/sitemap/",
+        "name": "Sitemap",
+        "datePublished": "2026-03-26T17:15:53.628Z",
+        "dateModified": "2026-03-26T18:53:12.851Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Sitemap",
+  "counts": {
+    "blocks": 1,
+    "nodes": 2,
+    "static": 2,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section",
+      "id": "wIuhfulmhH",
+      "at": 68746,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Sitemap",
+          "html": "Sitemap",
+          "id": "DWQ0dsjt7T",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "list",
+          "kind": "sitemap",
+          "items": [
+            {
+              "label": "Homepage",
+              "href": "/",
+              "depth": 0
+            },
+            {
+              "label": "About Us",
+              "href": "/about-us/",
+              "depth": 0
+            },
+            {
+              "label": "Our Eye Doctors",
+              "href": "/our-eye-doctor/",
+              "depth": 0
+            },
+            {
+              "label": "Eye Care Services",
+              "href": "/eye-care-services/",
+              "depth": 0
+            },
+            {
+              "label": "Comprehensive Eye Exams",
+              "href": "/eye-care-services/comprehensive-eye-exams/",
+              "depth": 1
+            },
+            {
+              "label": "Dry Eye Treatment",
+              "href": "/eye-care-services/dry-eye-treatment/",
+              "depth": 1
+            },
+            {
+              "label": "Eye Disease Management",
+              "href": "/eye-care-services/eye-disease-management/",
+              "depth": 1
+            },
+            {
+              "label": "Myopia Management",
+              "href": "/eye-care-services/myopia-management/",
+              "depth": 1
+            },
+            {
+              "label": "Pediatric Eye care",
+              "href": "/eye-care-services/pediatric-eye-care/",
+              "depth": 1
+            },
+            {
+              "label": "LASIK Co-Management",
+              "href": "/eye-care-services/lasik-co-management/",
+              "depth": 1
+            },
+            {
+              "label": "Eyeglasses",
+              "href": "/eyeglasses/",
+              "depth": 0
+            },
+            {
+              "label": "Varilux Lenses",
+              "href": "/eyeglasses/varilux-lenses/",
+              "depth": 1
+            },
+            {
+              "label": "Avulux Migraine Lenses",
+              "href": "/eyeglasses/avulux-migraine-lenses/",
+              "depth": 1
+            },
+            {
+              "label": "Stellest® Lenses",
+              "href": "/eyeglasses/stellest-lenses/",
+              "depth": 1
+            },
+            {
+              "label": "Contact Lenses",
+              "href": "/contact-lenses/",
+              "depth": 0
+            },
+            {
+              "label": "Contact Lenses Exams",
+              "href": "/contact-lenses/contact-lenses-exams/",
+              "depth": 1
+            },
+            {
+              "label": "Orthokeratology (Ortho-K)",
+              "href": "/contact-lenses/orthokeratology-ortho-k/",
+              "depth": 1
+            },
+            {
+              "label": "Scleral Lenses",
+              "href": "/contact-lenses/scleral-lenses/",
+              "depth": 1
+            },
+            {
+              "label": "Insurance",
+              "href": "/insurance/",
+              "depth": 0
+            },
+            {
+              "label": "Hours & Location",
+              "href": "/hours-location/",
+              "depth": 0
+            },
+            {
+              "label": "Appointment Request Form",
+              "href": "/appointment-request-form/",
+              "depth": 0
+            },
+            {
+              "label": "Patient Registration Form",
+              "href": "/patient-registration-form/",
+              "depth": 0
+            },
+            {
+              "label": "Sitemap",
+              "href": "/sitemap/",
+              "depth": 0
+            },
+            {
+              "label": "Website Accessibility Policy",
+              "href": "/website-accessibility-policy/",
+              "depth": 0
+            },
+            {
+              "label": "Disclaimer",
+              "href": "/disclaimer/",
+              "depth": 0
+            },
+            {
+              "label": "Privacy Policy",
+              "href": "/privacy-policy/",
+              "depth": 0
+            }
+          ],
+          "id": "jl4btHWp3w",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

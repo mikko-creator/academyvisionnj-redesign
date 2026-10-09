@@ -1,0 +1,287 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/team/dr-tyler-lesko-od/",
+  "source": "audit/raw/team-dr-tyler-lesko-od.html",
+  "rendered": "tmp/extract/rendered/team-dr-tyler-lesko-od.html",
+  "meta": {
+    "title": "Dr. Tyler Lesko, O.D. | The Local Pine Beach NJ Optometrist",
+    "description": "Dr. Tyler Lesko is a local eye care professional born and raised in Lacey Township, NJ. Dr. Lesko is passionate about preserving vision through advanced technology and personalized care.",
+    "canonical": "https://www.academyvisionnj.com/our-eye-doctor/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od/",
+      "type": "website",
+      "title": " Dr. Tyler Lesko, O.D. | The Local Pine Beach NJ Optometrist",
+      "description": "Dr. Tyler Lesko is a local eye care professional born and raised in Lacey Township, NJ. Dr. Lesko is passionate about preserving vision through advanced technology and personalized care.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od/",
+        "url": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od/",
+        "name": "Dr. Tyler Lesko, O.D.",
+        "datePublished": "2026-10-03T06:41:28.029Z",
+        "dateModified": "2026-10-03T06:41:28.029Z"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": [
+          "Person",
+          "IndividualPhysician"
+        ],
+        "@id": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od/#physician",
+        "name": "Dr. Tyler Lesko",
+        "givenName": "Tyler",
+        "familyName": "Lesko",
+        "honorificPrefix": "Dr.",
+        "jobTitle": "Optometric",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/36311/a16c6b98-de22-4441-9064-dbc2f9cb7f66.png",
+        "url": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od/",
+        "description": "Dr. Tyler Lesko is a local eye care professional born and raised in Lacey Township, NJ. He graduated Summa Cum Laude from Georgian Court University before earning his Doctor of Optometry degree from the Pennsylvania College of Optometry (PCO), where he also graduated Summa Cum Laude. During his doctoral studies, Dr. Lesko was a powerhouse of leadership and academic excellence. He served as the President of the Student Volunteer Optometric Services to Humanity (SVOSH) and the New Jersey Student Society of Optometric Physicians. Notably, he was the 2021 National Optometry Student Bowl Champion, outperforming students from all 23 optometry schools in the nation. Clinical Specialties &amp; Interests Dr. Lesko is passionate about preserving vision through advanced technology and personalized care. His expertise includes: Pediatrics &amp; Myopia Management: Utilizing orthokeratology and MiSight to change the trajectory of children's lives. Specialty Contact Lenses: Providing life-changing vision for patients through complex lens fittings. Ocular Disease: Early detection and monitoring of glaucoma, macular degeneration, and cataracts. Advanced Certifications: He is certified in Light Adjustable Lens technology and Orthokeratology. Beyond the clinic, Dr. Lesko has participated in humanitarian mission trips to Panama and local vision screenings for the Special Olympics and Lions Club. At home, he enjoys spending time with his wife, son, and two cats.",
+        "medicalSpecialty": "Optometric",
+        "knowsAbout": [
+          "Comprehensive Eye Exams",
+          "Emergency Eye Care",
+          "Contact Lens Exams",
+          "Eye Disease Management",
+          "Dry Eyes",
+          "Diabetic Retinopathy",
+          "Glaucoma Treatment",
+          "Macular Degeneration",
+          "Keratoconus Treatment",
+          "Cataract Surgery Co-Management",
+          "Myopia Management",
+          "Orthokeratology (CRT & VST)",
+          "Ocular Surface Disease",
+          "Pediatric Eye Care",
+          "Avulux",
+          "Senior Vision",
+          "Scleral Lenses"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "practicesAt": {
+          "@type": "MedicalOrganization",
+          "@id": "https://www.academyvisionnj.com/#organization",
+          "url": "https://www.academyvisionnj.com",
+          "name": "Academy Vision",
+          "telephone": "(732) 736-1700",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "90 Atlantic City Blvd",
+            "addressLocality": "Pine Beach",
+            "addressRegion": "New Jersey",
+            "postalCode": "08741",
+            "addressCountry": "United States"
+          },
+          "medicalSpecialty": "Optometric"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Dr. Tyler Lesko, O.D.",
+  "counts": {
+    "blocks": 1,
+    "nodes": 6,
+    "static": 6,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section",
+      "id": "HuBILlCI4b",
+      "at": 76519,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          },
+          {
+            "group": 1,
+            "span": 8,
+            "spanMobile": 12
+          },
+          {
+            "group": 1,
+            "span": 4,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Dr. Tyler Lesko, O.D.",
+          "html": "Dr. Tyler Lesko, O.D.",
+          "id": "CLfHt9Uc52",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "positions",
+          "items": [],
+          "empty": true,
+          "id": "BAspfYtJPk",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "biography",
+          "html": "<p>Dr. Tyler Lesko is a local eye care professional born and raised in Lacey Township, NJ. He graduated Summa Cum Laude from Georgian Court University before earning his Doctor of Optometry degree from the Pennsylvania College of Optometry (PCO), where he also graduated Summa Cum Laude.</p><p>During his doctoral studies, Dr. Lesko was a powerhouse of leadership and academic excellence. He served as the President of the Student Volunteer Optometric Services to Humanity (SVOSH) and the New Jersey Student Society of Optometric Physicians. Notably, he was the 2021 National Optometry Student Bowl Champion, outperforming students from all 23 optometry schools in the nation.</p><p><strong>Clinical Specialties &amp; Interests</strong></p><p>Dr. Lesko is passionate about preserving vision through advanced technology and personalized care. His expertise includes:</p><ul><li><strong>Pediatrics &amp; Myopia Management:</strong> Utilizing orthokeratology and MiSight to change the trajectory of children's lives.</li><li><strong>Specialty Contact Lenses:</strong> Providing life-changing vision for patients through complex lens fittings.</li><li><strong>Ocular Disease:</strong> Early detection and monitoring of glaucoma, macular degeneration, and cataracts.</li><li><strong>Advanced Certifications:</strong> He is certified in Light Adjustable Lens technology and Orthokeratology.</li></ul><p>Beyond the clinic, Dr. Lesko has participated in humanitarian mission trips to Panama and local vision screenings for the Special Olympics and Lions Club. At home, he enjoys spending time with his wife, son, and two cats.</p>",
+          "id": "PNHAc7l7c5",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "languages",
+          "items": [],
+          "empty": true,
+          "id": "MIMrXzB8jo",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "highlights",
+          "items": [],
+          "empty": true,
+          "id": "nATbtv8e5l",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "photo",
+          "image": {
+            "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/36311/a16c6b98-de22-4441-9064-dbc2f9cb7f66.png",
+            "file": "assets/source/ba75953f-a16c6b98-de22-4441-9064-dbc2f9cb7f66.png",
+            "alt": "Tyler Lesko",
+            "w": 223,
+            "h": 300
+          },
+          "id": "racbEtNY3z",
+          "col": 2,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

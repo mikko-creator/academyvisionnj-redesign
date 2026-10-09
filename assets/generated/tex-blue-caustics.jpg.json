@@ -1,0 +1,68 @@
+{
+  "id": "tex-blue-caustics",
+  "file": "assets/generated/tex-blue-caustics.jpg",
+  "kind": "background-texture",
+  "planPurpose": "mid-blue CTA band background",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Abstract photograph of light refracting through clear glass lenses, soft round out-of-focus discs in mid blue and pale blue over a navy-to-blue gradient, no objects, no people, smooth gradients, gentle and low contrast, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 1894084651,
+  "requestId": "01a119b4-49b1-7b10-a4da-7885f9eb7b9d",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/tex-blue-caustics.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "3ac509d2fae351c6ef4ce024b7418edf293e0b0614b4589a1346db8bb46d4cd5",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: soft pale-blue/cream discs over navy-to-blue gradient as prompted",
+      "100% disc edge + 400% gradient: soft edges, no fringe, no letter shapes, no banding",
+      "hue: saturated px 100% in 180-240deg bins (no rainbow); neon 0",
+      "meanS 0.484 (> plan 0.35 ceiling; brand #3974a0 itself is 0.644)",
+      "contrast: Ystd 0.261, Yp05 0.141, Yp95 0.915 - not low contrast"
+    ],
+    "notes": "FALLBACK: passes hard checks; one lower-contrast retry (a2) requested per the plan constraint 'soft and low contrast'; keep the better",
+    "at": "2026-10-08T04:13:48.479Z",
+    "retries": 1
+  },
+  "promotedAt": "2026-10-08T04:16:36.229Z",
+  "refuterFix": {
+    "at": "2026-10-08T07:19:59.588Z",
+    "replacedSha256": "7242afcda1cce2e6c4eca6a36e0392baca443700220d5ba4e3cac5c59e536a3e",
+    "attempts": [
+      {
+        "attempt": "r1",
+        "kind": "paid fal-ai/flux-pro/v1.1-ultra regeneration (plan prompt rules + default style)",
+        "file": "tmp/verify-imagery/gen/attempts/tex-blue-caustics.r1.jpg",
+        "cost": 0.06,
+        "requestId": "01a11a54-f2b7-7380-be55-f1f7aba48077",
+        "seed": 3961267352,
+        "promptFile": "tmp/verify-imagery/gen/prompts/tex-blue-caustics.r1.txt",
+        "verdict": "reject",
+        "what": "measured Ystd 0.240, Yp95 0.854 against the pre-set bar Ystd <= 0.18 and Yp95 <= 0.75; still busy with bright pale and cream/peach discs (the default style suffix \"warm cream and white\" keeps pulling them in)"
+      },
+      {
+        "attempt": "r2 (gm1)",
+        "kind": "local (no API call)",
+        "file": "tmp/verify-imagery/gen/attempts/tex-blue-caustics.gm1.jpg",
+        "cost": 0,
+        "verdict": "accept",
+        "what": "brand gradient map of the IMAGERY a1 texture: t = luma rescaled between its 2nd and 99.5th percentiles, colour = ramp #0f2a4a (0) -> #3974a0 (0.55) -> #7cacd0 (1); keeps a1's soft disc structure, takes every hue from the brand blues (plan constraint: colour fields must match #0f2a4a, #3974a0, #4489bc); JPEG q1 4:4:4"
+      }
+    ],
+    "finalChecks": [
+      "measured Ystd 0.138 (was 0.261), Yp95 0.603 (was 0.915), Ymean 0.405, neon share 0.00%, chromatic hues 203-213 deg, white-text AA fail share 41.2% (was 59.2%)",
+      "whole frame + 4 tiles at 100%: soft mid-blue discs over a navy-to-blue gradient, no banding, no letter shapes; 400% dark corner: smooth, no JPEG blocking"
+    ],
+    "note": "IMAGE REFUTER fix; the fields above this block describe the IMAGERY generation the fix starts from"
+  }
+}

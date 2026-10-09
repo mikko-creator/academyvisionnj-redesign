@@ -1,0 +1,151 @@
+{
+  "schema": "site-reforge/project@1",
+  "name": "academyvisionnj-com",
+  "targetUrl": "https://www.academyvisionnj.com/",
+  "origin": "https://www.academyvisionnj.com",
+  "createdAt": "2026-10-08T00:48:13.021Z",
+  "updatedAt": "2026-10-09T01:11:37.396Z",
+  "config": {
+    "maxPages": 300,
+    "concurrency": 2,
+    "includeSubdomains": false,
+    "breakpoints": [
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "pixelDiffThreshold": 0.02,
+    "contentRecallFloor": 0.95,
+    "requestDelayMs": 400,
+    "requestHeaders": {}
+  },
+  "tooling": {
+    "browser": "unknown",
+    "imageGen": "unknown",
+    "detectedAt": null
+  },
+  "stages": {
+    "intake": {
+      "status": "done",
+      "at": "2026-10-08T00:48:13.021Z",
+      "note": "workspace created"
+    },
+    "crawl": {
+      "status": "done",
+      "at": "2026-10-08T00:57:25.105Z",
+      "note": "31 pages, 0 failed"
+    },
+    "extract": {
+      "status": "done",
+      "at": "2026-10-08T00:57:48.323Z",
+      "note": "31 pages extracted"
+    },
+    "assets": {
+      "status": "done",
+      "at": "2026-10-08T01:06:18.054Z",
+      "note": "1131/1131 assets on disk"
+    },
+    "capture": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "tokens": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "motion": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "presets": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "ux": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "brand": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "implement": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "clone": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "cloneVerify": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "responsive": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "seo": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "performance": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "decontaminate": {
+      "status": "done",
+      "at": "2026-10-09T01:11:37.093Z",
+      "note": "CLEAN (0 traces)"
+    },
+    "parity": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "fabrication": {
+      "status": "fail",
+      "at": "2026-10-09T01:11:37.396Z",
+      "note": "FABRICATION — 6 findings"
+    },
+    "pixeldiff": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "sweep": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "functional": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "gate": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "package": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    }
+  },
+  "notes": []
+}

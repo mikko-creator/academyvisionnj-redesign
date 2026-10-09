@@ -1,0 +1,38 @@
+{
+  "id": "hero-sunglasses",
+  "file": "assets/generated/hero-sunglasses.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the sunglasses page (gap)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Navy sunglasses with blue gradient lenses on sunny boardwalk planks",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Still-life photograph of a pair of navy-framed sunglasses with blue gradient lenses resting on sun-warmed pale boardwalk planks in the right third of the frame, the whole pair fully in frame with clear space around it, soft out-of-focus ocean and sky behind, bright summer light, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no metal studs, no emblems, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 3699184444,
+  "requestId": "01a119e8-ed36-7b01-a76f-9fa621553612",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-sunglasses.a2.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "ced257035149010f1316e276e5a399411d2230471b3fe08ec8ffdc0a3a1b8a1a",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: whole pair of navy sunglasses with blue gradient lenses on boardwalk planks, beach behind; no people",
+      "400% both hinge studs: blank gold bars, no marks",
+      "50% temple through the lens: clean",
+      "100% both upper lens corners: no text",
+      "COMPOSITION FLAG: front view centred (14-91% x), not the right third; left half not calm"
+    ],
+    "notes": "a1 cut off at the left edge with a cross stud; a3 has lens text; a2 is the only clean attempt",
+    "at": "2026-10-08T05:24:28.318Z",
+    "retries": 2
+  },
+  "promotedAt": "2026-10-08T05:24:28.666Z"
+}

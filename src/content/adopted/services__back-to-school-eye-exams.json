@@ -1,0 +1,120 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/back-to-school-eye-exams",
+  "etSource": "services/back-to-school-eye-exams",
+  "title": "Back-to-School Eye Exams for Pine Beach Kids | Academy Vision",
+  "metaDescription": "A school screening is a helpful start, not a full eye exam. Book your child’s exam before classes start at Academy Vision in Pine Beach, NJ.",
+  "h1": "Start the School Year with a Complete Eye Exam in Pine Beach",
+  "kicker": "Ready for the New School Year?",
+  "lede": "<p>New teachers, new classrooms, more reading—and eyes that have to keep up with all of it. A complete eye exam before classes begin shows how your child is really seeing, so you start the year with answers instead of guesses. At Academy Vision in Pine Beach, we keep kids’ exams gentle, simple and tailored to their age.</p>",
+  "sections": [
+    {
+      "id": "screenings",
+      "heading": "What a School Screening Can Miss",
+      "html": "<p>School vision screenings are quick, helpful checks. Many ask a child to read letters or shapes from across the room, which can catch trouble seeing at a distance.</p><p>A screening isn’t an eye exam, though. It often doesn’t test how well the eyes focus up close, how they team up, or whether they’re healthy, so a child can pass and still struggle with reading, homework or screens. Our article on <a href=\"/eye-health/pediatric-eye-exams-beyond-school-screenings/\">pediatric eye exams beyond school screenings</a> goes into more detail.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "why-now",
+      "heading": "Why Back-to-School Timing Works",
+      "html": "<ul><li><strong>Good timing.</strong> Back-to-school season is a practical time to book, especially if your child hasn’t had a recent comprehensive exam, has a changing prescription, or has shown signs of a vision problem.</li><li><strong>A comfortable visit.</strong> We take a gentle approach that helps kids feel at ease from the moment they arrive.</li><li><strong>Clear answers for you.</strong> We talk through what we find in plain language, so you know whether anything needs attention before the first day.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "what-we-check",
+      "heading": "What Your Child’s Exam Checks",
+      "html": "<p>During the exam, we:</p><ul><li>Test how sharply your child sees at different distances, from the board to a book.</li><li>Evaluate how their eyes focus and work together for reading and close work.</li><li>Look at overall eye health and development.</li><li>Keep everything age-appropriate and easy to follow.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "local-families",
+      "heading": "A Familiar Place for Local Families",
+      "html": "<p>For over 40 years, families in and around Pine Beach have trusted us with their vision, and many return year after year from Pine Beach, Beachwood and Toms River. If your child needs glasses, we offer lightweight, durable children’s frames suited to school, play and everyday wear. Take a look at our <a href=\"/products/kids-eyewear/\">kids’ eyewear</a>.</p>",
+      "layout": "split",
+      "imageSlot": null
+    },
+    {
+      "id": "yearly",
+      "heading": "A Screening Once vs. an Exam Every Year",
+      "html": "<p>A screening is a snapshot of one day. Children’s eyes keep changing as they grow, and a prescription that worked last fall may not be right this fall. The American Optometric Association recommends annual comprehensive eye exams for school-age children, or more often when their eye doctor advises it. Yearly visits let us compare results over time, and if nearsightedness is creeping up, we can talk with you about <a href=\"/services/myopia-management/\">myopia management</a>.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "more-for-kids",
+      "heading": "More Care for Growing Eyes",
+      "html": "<p>A back-to-school exam is one part of our <a href=\"/services/childrens-eye-care/\">children’s eye care</a>, which spans first exams, glasses and help with a prescription that keeps changing. You can also learn more about our <a href=\"/services/pediatric-eye-exams/\">pediatric eye exams</a>.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "My child passed the school screening. Do they still need an exam?",
+      "a": "<p>A pass is good news, but it only covers what the screening tested. A comprehensive exam also looks at focusing, eye teamwork and eye health, which a screening usually doesn’t measure.</p>"
+    },
+    {
+      "q": "What signs should I watch for?",
+      "a": "<p>Squinting, frequent eye rubbing, headaches after reading, covering one eye, losing their place on a page, or sitting very close to screens can all be reasons to book. Kids often don’t mention blurry vision, because they assume everyone sees the way they do.</p>"
+    },
+    {
+      "q": "Can we book siblings at the same time?",
+      "a": "<p>If it’s easier to schedule your children together, we can do that. Just mention it when you call (732) 978-9306.</p>"
+    },
+    {
+      "q": "Is late summer the only good time to book?",
+      "a": "<p>Back-to-school season is a convenient time, but there’s no need to wait for it. If you notice signs of a vision problem during the school year, that’s a good reason to come in sooner.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Book Before the First Bell",
+    "html": "<p>Give us a call at (732) 978-9306 or book online to schedule your child’s eye exam before school starts.</p>"
+  },
+  "related": [
+    "eye-health/pediatric-eye-exams-beyond-school-screenings",
+    "services/pediatric-eye-exams",
+    "services/childrens-eye-care",
+    "services/myopia-management",
+    "products/kids-eyewear"
+  ],
+  "claims": [
+    { "text": "Back-to-School Eye Exams for Pine Beach Kids | Academy Vision", "factId": "service-back-to-school", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms." },
+    { "text": "Book your child’s exam before classes start at Academy Vision in Pine Beach, NJ.", "factId": "service-back-to-school", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms." },
+    { "text": "Start the School Year with a Complete Eye Exam in Pine Beach", "factId": "service-back-to-school", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms." },
+    { "text": "At Academy Vision in Pine Beach, we keep kids’ exams gentle, simple and tailored to their age.", "factId": "service-pediatric", "page": "/eye-care-services/pediatric-eye-care/", "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in." },
+    { "text": "At Academy Vision in Pine Beach, we keep kids’ exams gentle, simple and tailored to their age.", "factId": "service-pediatric-exam-includes", "page": "/eye-care-services/pediatric-eye-care/", "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age." },
+    { "text": "Our article on pediatric eye exams beyond school screenings goes into more detail.", "factId": "article-title", "page": "/", "quote": "Pediatric Eye Exams: Beyond School Screenings »" },
+    { "text": "Back-to-school season is a practical time to book, especially if your child hasn’t had a recent comprehensive exam, has a changing prescription, or has shown signs of a vision problem.", "factId": "service-back-to-school", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms." },
+    { "text": "We take a gentle approach that helps kids feel at ease from the moment they arrive.", "factId": "service-pediatric", "page": "/eye-care-services/pediatric-eye-care/", "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in." },
+    { "text": "We talk through what we find in plain language, so you know whether anything needs attention before the first day.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "During the exam, we:", "factId": "service-pediatric-exam-includes", "page": "/eye-care-services/pediatric-eye-care/", "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age." },
+    { "text": "Test how sharply your child sees at different distances, from the board to a book.", "factId": "service-pediatric-exam-includes", "page": "/eye-care-services/pediatric-eye-care/", "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age." },
+    { "text": "Evaluate how their eyes focus and work together for reading and close work.", "factId": "service-pediatric-exam-includes", "page": "/eye-care-services/pediatric-eye-care/", "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age." },
+    { "text": "Look at overall eye health and development.", "factId": "service-pediatric-exam-includes", "page": "/eye-care-services/pediatric-eye-care/", "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age." },
+    { "text": "Keep everything age-appropriate and easy to follow.", "factId": "service-pediatric-exam-includes", "page": "/eye-care-services/pediatric-eye-care/", "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age." },
+    { "text": "For over 40 years, families in and around Pine Beach have trusted us with their vision, and many return year after year from Pine Beach, Beachwood and Toms River.", "factId": "history-over-40-years", "page": "/", "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision." },
+    { "text": "For over 40 years, families in and around Pine Beach have trusted us with their vision, and many return year after year from Pine Beach, Beachwood and Toms River.", "factId": "address-area-served", "page": "/", "quote": "It’s one of the reasons families throughout Pine Beach, Beachwood, and Toms River continue to come back year after year." },
+    { "text": "If your child needs glasses, we offer lightweight, durable children’s frames suited to school, play and everyday wear.", "factId": "service-kids-frames-article", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear." },
+    { "text": "Take a look at our kids’ eyewear.", "factId": "service-kids-frames-article", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear." },
+    { "text": "The American Optometric Association recommends annual comprehensive eye exams for school-age children, or more often when their eye doctor advises it.", "factId": "article-aoa", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "The American Optometric Association recommends annual comprehensive eye exams for school-age children, or more frequently when advised by their eye doctor." },
+    { "text": "Yearly visits let us compare results over time, and if nearsightedness is creeping up, we can talk with you about myopia management.", "factId": "service-myopia", "page": "/eye-care-services/myopia-management/", "quote": "At Academy Vision, we focus on more than just helping your child see clearly—we work to protect their vision for the future." },
+    { "text": "A back-to-school exam is one part of our children’s eye care, which spans first exams, glasses and help with a prescription that keeps changing.", "factId": "service-seniors", "page": "/", "quote": "From kids’ first eye exams to ongoing care for adults and seniors, we’re here for every stage of life." },
+    { "text": "A back-to-school exam is one part of our children’s eye care, which spans first exams, glasses and help with a prescription that keeps changing.", "factId": "service-myopia", "page": "/eye-care-services/myopia-management/", "quote": "At Academy Vision, we focus on more than just helping your child see clearly—we work to protect their vision for the future." },
+    { "text": "A back-to-school exam is one part of our children’s eye care, which spans first exams, glasses and help with a prescription that keeps changing.", "factId": "service-kids-frames-article", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear." },
+    { "text": "You can also learn more about our pediatric eye exams.", "factId": "service-pediatric", "page": "/eye-care-services/pediatric-eye-care/", "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in." },
+    { "text": "Can we book siblings at the same time?", "factId": "booking-family-together", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "If it’s easier to schedule everyone together, we can do that too." },
+    { "text": "If it’s easier to schedule your children together, we can do that.", "factId": "booking-family-together", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "If it’s easier to schedule everyone together, we can do that too." },
+    { "text": "Just mention it when you call (732) 978-9306.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "If you notice signs of a vision problem during the school year, that’s a good reason to come in sooner.", "factId": "service-back-to-school", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms." },
+    { "text": "Give us a call at (732) 978-9306 or book online to schedule your child’s eye exam before school starts.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" }
+  ],
+  "flags": [
+    "No seasonal offer, scheduling window or weekend appointments are stated; Academy Vision lists Saturday and Sunday as closed, and the page says nothing about hours.",
+    "The article's same-day glasses line (fact tech-in-house-finishing-lab-article) is not used on this page, so the page makes no timing promise; add it only if the practice wants it here.",
+    "This page overlaps the article now at /eye-health/pediatric-eye-exams-beyond-school-screenings/; it links there and does not repeat the article's lists."
+  ],
+  "review": { "overlapLongest": 6, "checkedBy": "checker-G1-exams-kids", "notes": "Writer (writer-G1-exams-kids): tools/overlap-check.mjs --fail 8 (6-word shingles): longest 6, and every shared run comes from claim page paths (the tokenized URL of the comprehensive exams page), not prose; the visible fields alone share 0 runs. A --control run reported DETECTED. tmp/writer-G1-exams-kids/validate.mjs: 0 errors, 0 warnings. Checker (checker-G1-exams-kids, 2026-10-08; no Eye Trends file opened): re-ran the evidence on the final bytes. tools/overlap-check.mjs --fail 8: longest 6, every 6-word run is the tokenized claim page path, not prose; --control reported DETECTED (exit 0); the visible fields alone share 0 six-word runs (5-word shingles: longest 5, stock phrases or Academy Vision’s own wording, kept). All 29 claims: the factId exists, the page equals the fact page, the quote equals the fact quote and is in the visible text of the cited audit/raw page, and the claim text is verbatim in this file. Every we/our/us/Academy Vision sentence was read against its fact and the source pages (the exam list follows the pediatric page’s own list; the AOA line and the back-to-school timing come from the article); no unsupported practice claim, and no seasonal offer, hours or timing promise. Meta-language, promise, hype, apostrophe, dash, year, doctor and phone scans are clean; tags, links and related paths pass tmp/checker-G1-exams-kids/check.mjs (its planted control fired on every defect) and the pipeline’s own buildPages run in memory (0 errors). Body 639 words. No change." }
+}

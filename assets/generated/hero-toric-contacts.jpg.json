@@ -1,0 +1,37 @@
+{
+  "id": "hero-toric-contacts",
+  "file": "assets/generated/hero-toric-contacts.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the toric contact lens page (gap)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "A clear contact lens and a water droplet on glass against navy",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Macro photograph of a single thin, soft, transparent contact lens shaped like a shallow clear dome with a fine thin edge, resting on a sheet of glass with soft blue reflections and a single small water droplet beside it, the lens completely plain with no printing, no markings, no letters or numbers, deep navy background with a gentle light gradient, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2655869581,
+  "requestId": "01a119dc-b1f6-7502-a2a4-641e49c2479b",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-toric-contacts.a2.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "de736efffd36004baf9a6e22724440c2203d4c5791020f70c6920c039eacc73f",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: clear dome lens on glass with reflection and one water droplet; navy/blue gradient with a hard backdrop edge; lens ~68% x",
+      "100% lens: reflections and ripples only, no printing",
+      "400% both rim edges: smooth highlights, no characters",
+      "50% droplet: clean"
+    ],
+    "notes": "retry 1 (plain thin-dome wording); the dome is tall for a contact lens - acceptable in page context",
+    "at": "2026-10-08T04:57:03.896Z",
+    "retries": 1
+  },
+  "promotedAt": "2026-10-08T04:57:10.564Z"
+}

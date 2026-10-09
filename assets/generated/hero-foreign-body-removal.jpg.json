@@ -1,0 +1,37 @@
+{
+  "id": "hero-foreign-body-removal",
+  "file": "assets/generated/hero-foreign-body-removal.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the foreign body removal page (adopted slot)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Woman on a windy beach shielding her eyes from blowing sand",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a woman on a breezy beach shielding her eyes with one hand from wind-blown sand, hair blowing, soft overcast light, pale dunes and dune grass, soft sea and sky, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 962436043,
+  "requestId": "01a119d3-48db-7671-86e4-b021c5747327",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-foreign-body-removal.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "2fbef018a2c9116f73b803262d4fd3ed7f7e5b98ebe6893d8ce4dd04961076b3",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: woman on a windy beach shielding her eyes with one hand, hair blowing, navy sweater, dunes and sea; subject ~75% x; calm left half",
+      "100% hand: four fingers + thumb toward the nose, plausible",
+      "400% fingertips: natural nails",
+      "50% sweater: white sand flecks only, no text"
+    ],
+    "notes": "",
+    "at": "2026-10-08T04:46:14.146Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T04:46:19.197Z"
+}

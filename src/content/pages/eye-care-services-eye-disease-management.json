@@ -1,0 +1,948 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eye-care-services/eye-disease-management/",
+  "source": "audit/raw/eye-care-services-eye-disease-management.html",
+  "rendered": "tmp/extract/rendered/eye-care-services-eye-disease-management.html",
+  "meta": {
+    "title": "Eye Disease Management Pine Beach | Academy Vision",
+    "description": "Manage glaucoma, cataracts, and macular degeneration. Targeted eye care in Pine Beach for chronic conditions at Academy Vision.",
+    "canonical": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/",
+      "type": "website",
+      "title": "Eye Disease Management Pine Beach | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a89-1676-7369-b772-66d8835b2baf/AdobeStock_169390989.jpeg",
+      "description": "Manage glaucoma, cataracts, and macular degeneration. Targeted eye care in Pine Beach for chronic conditions at Academy Vision.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/",
+        "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/",
+        "name": "Eye Disease Management",
+        "datePublished": "2026-03-26T18:49:46.419Z",
+        "dateModified": "2026-06-04T11:19:46.554Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/",
+            "description": "Academy Vision provides expert optometric services including advanced low vision care, specialized evaluations, and access to visual aids and assistive technologies.",
+            "medicalSpecialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Optometry"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "United States"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "(732) 736-1700",
+              "contactType": "Practice"
+            },
+            "telephone": "(732) 736-1700",
+            "openingHours": [
+              "Mo 09:00-17:00",
+              "Tu 09:00-17:00",
+              "We 09:00-17:00",
+              "Th 09:00-17:00",
+              "Fr 08:00-15:00"
+            ]
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Cataract",
+            "description": "Cataracts are cloudy patches on the eye's lens that cause blurred or double vision, glare, halos, faded colors and difficulty with night vision; affecting over 50% of people aged 65+. Surgery replaces the clouded lens with an artificial intraocular lens (IOL). Pre- and post-operative care by optometrists supports optimal outcomes.",
+            "signOrSymptom": [
+              "Blurred vision",
+              "Double vision",
+              "Difficulty seeing at night",
+              "Glare and light sensitivity",
+              "Colored halos around lights",
+              "Faded or dull color perception",
+              "Needing brighter light to read"
+            ],
+            "riskFactor": [
+              "Age 65 or older",
+              "Ultraviolet light exposure",
+              "Diabetes or other systemic health conditions"
+            ],
+            "naturalProgression": "Without treatment, cataracts gradually worsen over time, impairing daily tasks such as driving, reading or face recognition.",
+            "possibleTreatment": [
+              "Cataract surgery with intraocular lens (IOL) implantation",
+              "Pre- and post-operative co-management by ophthalmologist and optometrist"
+            ],
+            "typicalTest": [
+              "Pre-operative eye evaluation including lens examination and vision assessment",
+              "Instruction to use antibiotic/anti-inflammatory drops prior to surgery",
+              "Arrangements for post-operative transportation and avoiding makeup"
+            ],
+            "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/",
+            "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+          },
+          {
+            "@type": "MedicalTest",
+            "name": "Pre-operative Cataract Evaluation",
+            "description": "Comprehensive diagnostic tests performed before cataract surgery including lens and retina examination, vision assessment, intraocular lens measurements, and ocular health evaluation.",
+            "usedToDiagnose": {
+              "@type": "MedicalCondition",
+              "name": "Cataract"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalCondition",
+            "name": "Diabetic Retinopathy",
+            "description": "Diabetic retinopathy is an eye disease caused by high blood sugar levels that damage the small blood vessels in the retina, potentially leading to swelling, fluid leakage, vision loss, and blindness.",
+            "riskFactor": [
+              "High blood sugar levels",
+              "Diabetes mellitus",
+              "High blood pressure",
+              "High cholesterol",
+              "African or Hispanic ethnicity"
+            ],
+            "signOrSymptom": [
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Blurred vision"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Floaters"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Double vision"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Near vision problems"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Dark spots (scotomas)"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Difficulty seeing at night"
+              }
+            ],
+            "stage": [
+              {
+                "@type": "MedicalConditionStage",
+                "name": "Non-Proliferative Retinopathy",
+                "description": "Early stage with microaneurysms and fluid leakage."
+              },
+              {
+                "@type": "MedicalConditionStage",
+                "name": "Proliferative Retinopathy",
+                "description": "Advanced stage with abnormal vessel growth and leakage, causing vision problems."
+              }
+            ],
+            "possibleTreatment": [
+              {
+                "@type": "MedicalTherapy",
+                "name": "Anti-VEGF injections",
+                "description": "Medication to prevent formation of new blood vessels."
+              },
+              {
+                "@type": "MedicalTherapy",
+                "name": "Steroid injections",
+                "description": "Used to reduce retinal inflammation."
+              },
+              {
+                "@type": "MedicalTherapy",
+                "name": "Laser surgery",
+                "description": "Reduces proliferation of abnormal blood vessels."
+              },
+              {
+                "@type": "MedicalTherapy",
+                "name": "Vitrectomy",
+                "description": "Surgical removal of scar tissue, blood or fluid to improve retinal viewing."
+              },
+              {
+                "@type": "MedicalTherapy",
+                "name": "Blood sugar and lifestyle management",
+                "description": "Diet, exercise, glucose monitoring."
+              }
+            ],
+            "typicalTest": [
+              {
+                "@type": "MedicalTest",
+                "name": "Fluorescein angiography"
+              },
+              {
+                "@type": "MedicalTest",
+                "name": "Optical coherence tomography (OCT)"
+              }
+            ],
+            "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management//"
+          },
+          {
+            "@type": "MedicalClinic",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "United States"
+            },
+            "telephone": "(732) 736-1700",
+            "openingHours": [
+              "Mo 09:00-17:00",
+              "Tu 09:00-17:00",
+              "We 09:00-17:00",
+              "Th 09:00-17:00",
+              "Fr 08:00-15:00"
+            ],
+            "medicalSpecialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Optometry"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalCondition",
+            "name": "Glaucoma",
+            "description": "Glaucoma is caused by fluid build-up and increased pressure within the eye that damages the optic nerve, progressively worsening vision and potentially leading to irreversible vision loss.",
+            "riskFactor": [
+              "Age (40+)",
+              "Family history of glaucoma",
+              "African American, Hispanic, Asian, Native American descent",
+              "High myopia",
+              "Hypertension",
+              "Diabetes",
+              "Eye injury or trauma"
+            ],
+            "signOrSymptom": [
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Loss of peripheral (tunnel) vision"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Extreme eye pain"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Eye redness"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Blurred vision"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Nausea"
+              }
+            ],
+            "possibleTreatment": [
+              "Prescription eye drops to regulate intraocular pressure",
+              "Selective Laser Trabeculoplasty (SLT)",
+              "Incision surgery",
+              "Minimally invasive glaucoma surgery (MIGS)",
+              "Glaucoma drainage implants"
+            ],
+            "naturalProgression": "Glaucoma can progress without symptoms and, if untreated, can lead to irreversible vision loss.",
+            "associatedAnatomy": {
+              "@type": "AnatomicalStructure",
+              "name": "Optic nerve"
+            },
+            "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/"
+          },
+          {
+            "@type": "MedicalClinic",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "United States"
+            },
+            "telephone": "(732) 736-1700",
+            "openingHours": [
+              "Mo 09:00-17:00",
+              "Tu 09:00-17:00",
+              "We 09:00-17:00",
+              "Th 09:00-17:00",
+              "Fr 08:00-15:00"
+            ],
+            "medicalSpecialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Optometry"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/",
+            "medicalSpecialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Optometry"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "United States"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "(732) 736-1700",
+              "contactType": "Practice"
+            },
+            "telephone": "(732) 736-1700",
+            "openingHours": [
+              "Mo 09:00-17:00",
+              "Tu 09:00-17:00",
+              "We 09:00-17:00",
+              "Th 09:00-17:00",
+              "Fr 08:00-15:00"
+            ]
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Macular Degeneration",
+            "alternateName": "Age-related macular degeneration",
+            "description": "An eye condition characterized by damage to the macula leading to central vision loss. Includes dry and wet types.",
+            "associatedAnatomy": {
+              "@type": "AnatomicalStructure",
+              "name": "Macula"
+            },
+            "pathophysiology": "Drusen accumulation and/or abnormal blood vessel growth under the macula damaging photoreceptors.",
+            "riskFactor": [
+              "Age over 50",
+              "Family history",
+              "Caucasian race",
+              "Smoking",
+              "Obesity",
+              "UV exposure"
+            ],
+            "signOrSymptom": [
+              "Blurred or distorted central vision",
+              "Dark blind spots",
+              "Straight lines appear wavy",
+              "Difficulty reading or recognizing faces"
+            ],
+            "naturalProgression": "Dry form affects 85-90%; may progress slowly to wet form, which causes rapid vision loss.",
+            "stage": "Early, Intermediate, Late",
+            "epidemiology": "Approximately 11 million Americans affected; projected to reach 22 million by 2050.",
+            "typicalTest": [
+              {
+                "@type": "MedicalTest",
+                "name": "Visual acuity test"
+              },
+              {
+                "@type": "MedicalTest",
+                "name": "Dilated eye exam"
+              },
+              {
+                "@type": "MedicalTest",
+                "name": "Amsler grid"
+              }
+            ],
+            "possibleTreatment": [
+              {
+                "@type": "MedicalTherapy",
+                "name": "Anti-VEGF Therapy",
+                "description": "Intravitreal injections to inhibit abnormal blood vessel growth and reduce fluid leakage in wet AMD."
+              },
+              {
+                "@type": "MedicalTherapy",
+                "name": "Laser Photocoagulation",
+                "description": "Use of laser to seal off leaking blood vessels and prevent further vision damage."
+              },
+              {
+                "@type": "MedicalTherapy",
+                "name": "AREDS Supplements",
+                "description": "Special vitamins and minerals based on the AREDS formula to slow progression in intermediate AMD."
+              },
+              {
+                "@type": "MedicalTherapy",
+                "name": "Low Vision Aids",
+                "description": "Magnifiers, special glasses, or electronic devices to help with daily visual tasks for advanced AMD."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "h1": "Eye Disease care in Pine Beach, NJ",
+  "counts": {
+    "blocks": 7,
+    "nodes": 25,
+    "static": 25,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "asZEKs6FjN",
+      "at": 120635,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Eye Disease care in Pine Beach, NJ",
+          "html": "Eye Disease care in Pine Beach, NJ",
+          "id": "upwGS9Lesd",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Your eyes can change over time, and not all of those changes are easy to notice right away. That’s why regular <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exams in Pine Beach</a> matter.</p><p>At <a href=\"/hours-location/\">Academy Vision</a>, we monitor your eye health closely and help catch potential issues early. Whether you’ve already been diagnosed with an eye condition or want peace of mind, we’re here to guide you every step of the way.</p>",
+          "id": "BoFlwQ8nX7",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "saXLKubyP7",
+          "id": "RLJGsGvWdY",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "saXLKubyP7",
+          "id": "D8BWzxJIbL",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a89-1676-7369-b772-66d8835b2baf/AdobeStock_169390989.jpeg",
+          "file": "assets/source/2b36ab5e-AdobeStock_169390989.jpeg",
+          "alt": "A doctor is checking a patient's eye with a penlight in a medical setting.",
+          "w": 6720,
+          "h": 4480,
+          "focal": "50.0% 50.0%",
+          "id": "asZEKs6FjN-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "iwLSeWHZ3R",
+      "at": 124585,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "The Importance of Early Detection",
+          "html": "The Importance of Early Detection",
+          "align": "center",
+          "id": "CC8IbSVLLu",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Many <a href=\"/eye-care-services/dry-eye-treatment/\">eye conditions</a> develop slowly and may not have obvious symptoms at first. That means your vision can change before you even realize something’s wrong. With regular eye exams, our eye doctors can detect small changes early and track them over time. The earlier we catch something, the more we can do to protect your vision and keep things from progressing.</p>",
+          "align": "center",
+          "id": "NLuw7V975U",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "14hc04fi7c",
+          "id": "9LZlmRSX17",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "14hc04fi7c",
+          "id": "CHgqNjSSk1",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "0QV3apYjEn",
+      "at": 126376,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Personalized Care for Your Eye Health",
+          "html": "Personalized Care for Your Eye Health",
+          "id": "p141wOKU2B",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If something shows up during your eye exam, we don’t just hand you information and send you on your way. We take the time to explain what’s going on, what it means, and what the next steps look like.</p><p>From ongoing monitoring to treatment plans, we stay involved and make sure you always feel supported. It’s a more personal, more thoughtful way to take care of your eye health.</p>",
+          "id": "gvTjRNK0or",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "5XBOKm3WFw",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a89-9bec-7360-b0df-7670c4c7271d/AdobeStock_383878101.jpeg",
+          "file": "assets/source/4f8e6a6a-AdobeStock_383878101.jpeg-w_2000.webp",
+          "alt": "An elderly man is having his eyes examined by a woman doctor in a clinic.",
+          "w": 2000,
+          "h": 1343,
+          "focal": "50.0% 50.0%",
+          "id": "ObDTvAv5r6",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "lkQEAI6hw9",
+      "at": 129939,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a8a-51e5-7348-b393-f4700279bcd4/AdobeStock_287787908.jpeg",
+          "file": "assets/source/44e93495-AdobeStock_287787908.jpeg-w_2000.webp",
+          "alt": "An older woman with a white eye patch on her eye is holding a pair of glasses and looking at something in front of her.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "ppT9auWmiZ",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Ocular Diseases We Manage",
+          "html": "Ocular Diseases We Manage",
+          "id": "6YenxPf7ms",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<h3>Glaucoma</h3><p>Glaucoma affects the optic nerve, often due to increased pressure in the eye. It usually develops without noticeable symptoms early on, which is why routine monitoring is so important. We keep a close watch and help manage the condition to protect your vision.</p><h3>Macular Degeneration</h3><p>Macular degeneration affects your central vision, which is what you rely on for reading, driving, and recognizing faces. It’s more common as we get older, but with regular eye exams, we can detect early signs and help you maintain your quality of life.</p>",
+          "id": "GEPBmfa0c6",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "Yk8JeaMTf6",
+      "at": 133666,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<h3>Diabetic Eye Disease</h3><p>If you have diabetes, your eyes need a little extra attention. Changes in blood sugar can affect the small blood vessels in your eyes, sometimes without symptoms. Routine diabetic eye exams help us monitor those changes and step in if needed.</p><h3>Cataracts</h3><p>Cataracts cause the natural lens of your eye to become cloudy over time, leading to blurred or dim vision. We monitor their progression and, when the time is right, coordinate with New Jersey&nbsp;eye surgeons to make sure you receive expert care before and after surgery.</p>",
+          "id": "rzeJspS5MD",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a8a-cd93-7448-a7a0-ed7baabbafb6/AdobeStock_558091528.jpeg",
+          "file": "assets/source/4f5f10c2-AdobeStock_558091528.jpeg-w_2000.webp",
+          "alt": "A smiling elderly man holds a blood glucose meter and gives a thumbs-up sign while sitting on a couch in a room with a white ceiling and a white wall",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "896HJlCNkv",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "5BNhIToPut",
+      "at": 137239,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a99-e205-7679-b95d-5b6f608a9a0a/AdobeStock_101370336.jpeg",
+          "file": "assets/source/c9e5a600-AdobeStock_101370336.jpeg-w_2000.webp",
+          "alt": "An ophthalmologist discusses eye health with a patient in an eye clinic",
+          "w": 2000,
+          "h": 1316,
+          "focal": "50.0% 50.0%",
+          "id": "h77OURqjFT",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Eye Care You Can Trust in Pine Beach",
+          "html": "Eye Care You Can Trust in Pine Beach",
+          "id": "eiBG1HEh0h",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>You’ll find us right on Route 9 near the Mizzen Avenue light, the same place families have trusted for decades. Patients come to us from Pine Beach, Beachwood, Toms River, and nearby communities because they know they’ll get honest answers and thoughtful care.</p><p>After more than 40 years serving this area, we’ve built something simple: a place you can rely on when it comes to your eyes.</p>",
+          "id": "J3iIF6elZZ",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "LKnr6VFKuZ",
+      "at": 140645,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule Your Eye Health Evaluation",
+          "html": "Schedule Your Eye Health Evaluation",
+          "align": "center",
+          "id": "cL8FQtByCz",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Even if everything feels fine, it’s worth taking the time to check in on your eye health. And if something has been bothering you, we’re here to help you get answers. Give us a call or schedule your visit—we’ll take care of the rest.</p>",
+          "align": "center",
+          "id": "WsJhgi0hB4",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "o0NWbnbChj",
+          "id": "ablk0DjZWL",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "o0NWbnbChj",
+          "id": "8Aps1C8HcU",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

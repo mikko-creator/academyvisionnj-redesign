@@ -1,0 +1,590 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eye-care-services/lasik-co-management/",
+  "source": "audit/raw/eye-care-services-lasik-co-management.html",
+  "rendered": "tmp/extract/rendered/eye-care-services-lasik-co-management.html",
+  "meta": {
+    "title": "LASIK Co-Management Pine Beach, NJ | Academy Vision",
+    "description": "Considering laser surgery? We offer LASIK co-management in Pine Beach. Get pre- and post-op care from the doctors at Academy Vision.",
+    "canonical": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management/",
+      "type": "website",
+      "title": "LASIK Co-Management Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a80-101c-70bd-a152-42fd811c19d2/AdobeStock_266369780.jpeg",
+      "description": "Considering laser surgery? We offer LASIK co-management in Pine Beach. Get pre- and post-op care from the doctors at Academy Vision.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management/",
+        "url": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management/",
+        "name": "LASIK Co-Management",
+        "datePublished": "2026-03-26T18:51:44.102Z",
+        "dateModified": "2026-06-04T11:21:34.460Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management/",
+            "description": "Academy Vision provides LASIK co-management, ensuring patients receive thorough pre-operative consultation and attentive post-surgery care.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "United States"
+            },
+            "telephone": "(732) 736-1700",
+            "medicalSpecialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Optometry"
+            },
+            "openingHours": [
+              "Mo 09:00-17:00",
+              "Tu 09:00-17:00",
+              "We 09:00-17:00",
+              "Th 09:00-17:00",
+              "Fr 08:00-15:00"
+            ]
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "LASIK & Refractive Surgery Co-Management",
+            "alternateName": "Laser-Assisted In Situ Keratomileusis",
+            "description": "Co-managed LASIK is a vision-correcting procedure where an eye care provider collaborates with a LASIK surgeon: providing pre-operative evaluation, surgical guidance, and post-operative management. LASIK complications may include infection (approx. 1 in 1,500 cases), glare or halos, under- or over-correction, dry eye, temporary visual fluctuations.",
+            "howPerformed": "A hinged corneal flap is created using a microkeratome or femtosecond laser, the corneal stroma is reshaped with an excimer laser, and the flap is repositioned. LASIK risks include infection, visual aberrations (glare, halos), dry eye, enhancement need.",
+            "status": "FDA-approved",
+            "bodyLocation": "Cornea",
+            "preparation": [
+              "Comprehensive eye and medical history",
+              "Eye dominancy testing",
+              "Confirming refractive stability",
+              "Discontinuing contact lens use",
+              "Corneal thickness evaluation"
+            ],
+            "followup": [
+              "1 day post-op exam",
+              "1 week",
+              "1 month",
+              "3-6 month exams"
+            ],
+            "url": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management//"
+          }
+        ]
+      }
+    ]
+  },
+  "h1": "Thinking About LASIK Eye Surgery?",
+  "counts": {
+    "blocks": 6,
+    "nodes": 24,
+    "static": 24,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "AzXPKPN3J4",
+      "at": 107065,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Thinking About LASIK Eye Surgery?",
+          "html": "Thinking About LASIK Eye Surgery?",
+          "id": "EUw6SutRnV",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve been thinking about LASIK, you probably have a few questions. Our <a href=\"/hours-location/\">eye clinic in Pine Beach</a> helps you understand your options, determine if you’re a good candidate, and guide you through every step of the process. From your first consultation to follow-up care, you won’t have to figure anything out on your own.</p>",
+          "id": "PjpOIYnGR9",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "Jptr8j7Lm9",
+          "id": "FykxtmIN2a",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "Jptr8j7Lm9",
+          "id": "2o0ig3sr0p",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a80-101c-70bd-a152-42fd811c19d2/AdobeStock_266369780.jpeg",
+          "file": "assets/source/4b342f7e-AdobeStock_266369780.jpeg",
+          "alt": "Image of a woman's eye with brown iris and eyelashes, with a crosshair in focus",
+          "w": 5152,
+          "h": 3548,
+          "focal": "36.06% 49.10%",
+          "id": "AzXPKPN3J4-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "mmnPPA3nfL",
+      "at": 110826,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "What is LASIK Eye Surgery?",
+          "html": "What is LASIK Eye Surgery?",
+          "align": "center",
+          "id": "iLibYbcwOq",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>LASIK is a type of laser eye surgery designed to correct vision problems like nearsightedness, farsightedness, and astigmatism. The goal is to reduce, or even eliminate, your need for glasses or contact lenses. It’s a widely performed procedure, but knowing if it’s right for you starts with a proper evaluation.</p>",
+          "align": "center",
+          "id": "uU9O3SyS38",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "xHJ0KCSuzQ",
+          "id": "wZoRFJ0BWA",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "xHJ0KCSuzQ",
+          "id": "aJ81DDdU2i",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "Apkg9vK1sP",
+      "at": 112464,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Ideal LASIK Candidates",
+          "html": "Ideal LASIK Candidates",
+          "id": "MQT9FUKZNg",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>LASIK isn’t for everyone, but many people are great candidates. You may be a good fit if:</p><ul><li>Your prescription has stayed stable over time</li><li>Your eyes are generally healthy</li><li>You’re looking to reduce your dependence on glasses or contacts</li><li>Your vision falls within a treatable range</li></ul>",
+          "id": "hswrRoTP8o",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "RWpMXUKQ7J",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a80-b369-7688-864c-b06c09ccf5f3/AdobeStock_40637372.jpeg",
+          "file": "assets/source/c6a3b9b5-AdobeStock_40637372.jpeg-w_2000.webp",
+          "alt": "A smiling man is having his eye examined by a female doctor in a medical setting.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "eUkLRamf8Z",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "JI7X4O2HzT",
+      "at": 116180,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a81-5176-74c8-9af5-2e9cde4f796b/AdobeStock_1477380325.jpeg",
+          "file": "assets/source/ce9cd89d-AdobeStock_1477380325.jpeg-w_2000.webp",
+          "alt": "Close-up of hands of patient and doctor holding eye model in clinic",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "tWBocKtYmQ",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Co-Management at Academy Vision",
+          "html": "Co-Management at Academy Vision",
+          "id": "ARtfcczQNo",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>We’re here to make the entire process feel clear and manageable. We start by evaluating your eyes and helping you decide if LASIK is the right choice for you. If it is, we’ll connect you with a local eye surgeon and coordinate your care.</p><p>Before and after your procedure, you’ll come back to us for your <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exams</a> and follow-ups, so you have a familiar place for answers and support.</p>",
+          "id": "Jvw2o2JbAG",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "ETtbzFWgMH",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "VOkoMDa6Fs",
+      "at": 119900,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "What the LASIK Process Looks Like",
+          "html": "What the LASIK Process Looks Like",
+          "id": "D0gbasbmZh",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>We keep the process straightforward and make sure you always know what to expect:</p><ul><li>We start with a <a href=\"/eye-care-services/pediatric-eye-care/\">comprehensive eye evaluation</a> to determine if LASIK is right for you</li><li>We coordinate your referral to a local surgeon for the procedure</li><li>We prepare you for surgery so you feel confident going in</li><li>We handle your follow-up care and monitor your healing</li></ul>",
+          "id": "6btRN5JJvG",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a81-adb5-72e4-96ae-6dc034063437/shutterstock_2065613345.jpg",
+          "file": "assets/source/0d5ba7bb-shutterstock_2065613345.jpg-w_2000.webp",
+          "alt": "A woman in a blue surgical gown and face mask is lying on a bed with a light on her eye",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "kZE3WrUv02",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "Pfh25hFNXE",
+      "at": 123652,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule Your LASIK Consultation",
+          "html": "Schedule Your LASIK Consultation",
+          "align": "center",
+          "id": "oJmkNSpkrU",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve been thinking about LASIK, the next step is simply having a conversation. We’ll take the time to answer your questions, evaluate your eyes, and help you decide what’s right for you. Give us a call or schedule your visit at Academy Vision in Pine Beach.</p>",
+          "align": "center",
+          "id": "Aka0XwCk4l",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "cMMWzl42r3",
+          "id": "9wWN4OaTwn",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "cMMWzl42r3",
+          "id": "czXg0XlwW8",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

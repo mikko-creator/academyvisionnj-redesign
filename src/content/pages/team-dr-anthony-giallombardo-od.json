@@ -1,0 +1,287 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/team/dr-anthony-giallombardo-od/",
+  "source": "audit/raw/team-dr-anthony-giallombardo-od.html",
+  "rendered": "tmp/extract/rendered/team-dr-anthony-giallombardo-od.html",
+  "meta": {
+    "title": "Dr. Anthony Giallombardo, O.D. | Your Eye Doctor in Pine Beach NJ",
+    "description": "Dr. Anthony Giallombardo is an optometrist and the owner of the practice. His passion for optometry is rooted in the meaningful impact he can make on patients' daily lives, helping them see the world better while building lasting relationships.\n\n",
+    "canonical": "https://www.academyvisionnj.com/our-eye-doctor/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od/",
+      "type": "website",
+      "title": " Dr. Anthony Giallombardo, O.D. | Your Eye Doctor in Pine Beach NJ",
+      "description": "Dr. Anthony Giallombardo is an optometrist and the owner of the practice. His passion for optometry is rooted in the meaningful impact he can make on patients' daily lives, helping them see the world better while building lasting relationships.\n\n",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od/",
+        "url": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od/",
+        "name": "Dr. Anthony Giallombardo, O.D.",
+        "datePublished": "2026-10-03T06:41:28.029Z",
+        "dateModified": "2026-10-03T06:41:28.029Z"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": [
+          "Person",
+          "IndividualPhysician"
+        ],
+        "@id": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od/#physician",
+        "name": "Dr. Anthony Giallombardo",
+        "givenName": "Anthony",
+        "familyName": "Giallombardo",
+        "honorificPrefix": "Dr.",
+        "jobTitle": "Optometric",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/36312/a16c6c1f-6ed9-4b4b-9bc8-2390b661770c.png",
+        "url": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od/",
+        "description": "Dr. Anthony Giallombardo is an optometrist and the owner of the practice. His passion for optometry is rooted in the meaningful impact he can make on patients' daily lives, helping them see the world better while building lasting relationships. He values the supportive team environment at the practice and finds deep reward in seeing the real-world impact of high-quality eye care. Dr. Giallombardo is dedicated to ensuring every patient feels confident in their vision and overall eye health. When he is not at the office, Dr. Giallombardo enjoys: Watching football. Going fishing. Spending time with his wife, his two young daughters, and the family dog.",
+        "medicalSpecialty": "Optometric",
+        "knowsAbout": [
+          "Comprehensive Eye Exams",
+          "Emergency Eye Care",
+          "Contact Lens Exams",
+          "Eye Disease Management",
+          "Dry Eyes",
+          "Diabetic Retinopathy",
+          "Glaucoma Treatment",
+          "Macular Degeneration",
+          "Keratoconus Treatment",
+          "Cataract Surgery Co-Management",
+          "Myopia Management",
+          "Orthokeratology (CRT & VST)",
+          "Ocular Surface Disease",
+          "Pediatric Eye Care",
+          "Avulux",
+          "Senior Vision",
+          "Scleral Lenses"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "practicesAt": {
+          "@type": "MedicalOrganization",
+          "@id": "https://www.academyvisionnj.com/#organization",
+          "url": "https://www.academyvisionnj.com",
+          "name": "Academy Vision",
+          "telephone": "(732) 736-1700",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "90 Atlantic City Blvd",
+            "addressLocality": "Pine Beach",
+            "addressRegion": "New Jersey",
+            "postalCode": "08741",
+            "addressCountry": "United States"
+          },
+          "medicalSpecialty": "Optometric"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Dr. Anthony Giallombardo, O.D.",
+  "counts": {
+    "blocks": 1,
+    "nodes": 6,
+    "static": 6,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section",
+      "id": "HuBILlCI4b",
+      "at": 75915,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          },
+          {
+            "group": 1,
+            "span": 8,
+            "spanMobile": 12
+          },
+          {
+            "group": 1,
+            "span": 4,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Dr. Anthony Giallombardo, O.D.",
+          "html": "Dr. Anthony Giallombardo, O.D.",
+          "id": "CLfHt9Uc52",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "positions",
+          "items": [],
+          "empty": true,
+          "id": "BAspfYtJPk",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "biography",
+          "html": "<p>Dr. Anthony Giallombardo is an optometrist and the owner of the practice. His passion for optometry is rooted in the meaningful impact he can make on patients' daily lives, helping them see the world better while building lasting relationships.</p><p>He values the supportive team environment at the practice and finds deep reward in seeing the real-world impact of high-quality eye care. Dr. Giallombardo is dedicated to ensuring every patient feels confident in their vision and overall eye health.</p><p>When he is not at the office, Dr. Giallombardo enjoys:</p><ul><li>Watching football.</li><li>Going fishing.</li><li>Spending time with his wife, his two young daughters, and the family dog.</li></ul>",
+          "id": "PNHAc7l7c5",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "languages",
+          "items": [],
+          "empty": true,
+          "id": "MIMrXzB8jo",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "highlights",
+          "items": [],
+          "empty": true,
+          "id": "nATbtv8e5l",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "photo",
+          "image": {
+            "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/36312/a16c6c1f-6ed9-4b4b-9bc8-2390b661770c.png",
+            "file": "assets/source/0b6612e5-a16c6c1f-6ed9-4b4b-9bc8-2390b661770c.png",
+            "alt": "Anthony Giallombardo",
+            "w": 225,
+            "h": 300
+          },
+          "id": "racbEtNY3z",
+          "col": 2,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

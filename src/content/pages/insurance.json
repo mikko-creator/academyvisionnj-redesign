@@ -1,0 +1,568 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/insurance/",
+  "source": "audit/raw/insurance.html",
+  "rendered": "tmp/extract/rendered/insurance.html",
+  "meta": {
+    "title": "Insurance & Vision Plans | Academy Vision",
+    "description": "We accept most vision and medical insurance. Check your coverage for eye care in Pine Beach and maximize your benefits at Academy Vision.",
+    "canonical": "https://www.academyvisionnj.com/insurance/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/insurance/",
+      "type": "website",
+      "title": "Insurance & Vision Plans | Academy Vision",
+      "description": "We accept most vision and medical insurance. Check your coverage for eye care in Pine Beach and maximize your benefits at Academy Vision.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/insurance/",
+        "url": "https://www.academyvisionnj.com/insurance/",
+        "name": "Insurance",
+        "datePublished": "2026-03-26T17:17:18.272Z",
+        "dateModified": "2026-04-20T03:39:50.220Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Eye Care Insurance & Payment Options",
+  "counts": {
+    "blocks": 6,
+    "nodes": 17,
+    "static": 17,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "pL9wW4Z0xi",
+      "at": 96779,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "span": 6,
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "span": 6,
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Eye Care Insurance & Payment Options",
+          "html": "Eye Care Insurance &amp; Payment Options&nbsp;",
+          "id": "9KITaJOIZk",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Insurance can feel confusing, but it doesn’t have to be. At Academy Vision, we help you understand what’s covered, what your options are, and how to make the most of your benefits.</p><p>Whether you’re using vision insurance, medical insurance, or paying out of pocket for <a href=\"/hours-location/\">eye care in Pine Beach</a>, we’ll walk you through everything so you know exactly what to expect.</p>",
+          "id": "HyGy6znxjO",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "SXAFQxJLwf",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d1-ac59-719a-b977-ab88759b1c17/AdobeStock_213609213.jpeg",
+          "file": "assets/source/8f6791b4-AdobeStock_213609213.jpeg-w_2000.webp",
+          "alt": "a man and woman sitting at a table in an eye doctor's office",
+          "w": 2000,
+          "h": 1335,
+          "focal": "13.75% 36.67%",
+          "id": "pL9wW4Z0xi-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "FkHyKaWe5D",
+      "at": 100291,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section",
+      "id": "TjPFLdHxO3",
+      "at": 100570,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d2b26-86fe-740b-8028-775596fa4b18/AdobeStock_313387543.jpeg",
+          "file": "assets/source/5c8f3d47-AdobeStock_313387543.jpeg-w_2000.webp",
+          "alt": "adobestock 313387543",
+          "w": 2000,
+          "h": 1333,
+          "id": "tKo5rg3xu7",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Vision Insurance vs. Medical Insurance",
+          "html": "Vision Insurance vs. Medical Insurance",
+          "id": "LRDi16vtq9",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p><strong>Vision insurance</strong> is typically used for routine care. This includes annual <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exams</a>, prescription updates, and help covering the cost of glasses or contact lenses. If you’re coming in for a regular checkup or need new eyewear, this is usually the plan that applies.</p><p><strong>Medical insurance </strong>comes into play when there’s a health-related concern with your eyes. This can include things like infections, dry eye, eye disease, or sudden changes in your vision. If your visit is focused on treating a condition or addressing a specific issue, medical insurance is often used instead.</p>",
+          "id": "sssjgiNTqw",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "EXXObq8C2q",
+      "at": 104253,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Helping You Understand Your Benefits",
+          "html": "Helping You Understand Your Benefits",
+          "id": "IplyUE3kam",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Insurance details can get confusing, but that’s what we’re here for. Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan.</p><p>&nbsp;If something isn’t clear, we’ll walk you through it in a way that actually makes sense, so you feel confident before your visit.</p>",
+          "id": "bhkoERMpS8",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Contact Us",
+          "href": "/hours-location/",
+          "external": false,
+          "id": "VbaCTkbz9M",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d2b26-8702-708c-8821-dfbee0604381/AdobeStock_527484728.jpeg",
+          "file": "assets/source/fce72e47-AdobeStock_527484728.jpeg-w_2000.webp",
+          "alt": "adobestock 527484728",
+          "w": 2000,
+          "h": 1298,
+          "id": "5P9YgLWuhH",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "BXFJPt8zdg",
+      "at": 107732,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Insurance Plans We Accept",
+          "html": "Insurance Plans We Accept",
+          "id": "GGooZeSksf",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "list",
+          "kind": "insurance",
+          "items": [
+            {
+              "name": "Medicare",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/medicare.png",
+                "file": "assets/source/aeed05e3-medicare.png-w_800.webp",
+                "alt": "Medicare",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "United Healthcare",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/united-healthcare.png",
+                "file": "assets/source/2e6049a1-united-healthcare.png-w_800.webp",
+                "alt": "United Healthcare",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Aetna",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/4ON2tzqw5GNU7H4U.png",
+                "file": "assets/source/ebd492c6-4ON2tzqw5GNU7H4U.png-w_800.webp",
+                "alt": "Aetna",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Cigna",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/cigna.png",
+                "file": "assets/source/0fc91a6c-cigna.png-w_800.webp",
+                "alt": "Cigna",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Blue Cross Blue Shield",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/H3s9JsQElepGYNXh.png",
+                "file": "assets/source/4a0cffba-H3s9JsQElepGYNXh.png-w_800.webp",
+                "alt": "Blue Cross Blue Shield",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "EyeMed",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/8pBEViY4gvyX8cBO.png",
+                "file": "assets/source/6913a97e-8pBEViY4gvyX8cBO.png-w_800.webp",
+                "alt": "EyeMed",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "UMR",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/umr.png",
+                "file": "assets/source/e8cfa17c-umr.png-w_800.webp",
+                "alt": "UMR",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "AARP",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/aarp.png",
+                "file": "assets/source/6cf327e1-aarp.png-w_800.webp",
+                "alt": "AARP",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Meritain Health",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/meritain-health.png",
+                "file": "assets/source/6ca7da3a-meritain-health.png-w_800.webp",
+                "alt": "Meritain Health",
+                "w": 800,
+                "h": 800
+              }
+            },
+            {
+              "name": "Mutual Of Omaha",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/mutual-of-omaha.png",
+                "file": "assets/source/059b2313-mutual-of-omaha.png-w_800.webp",
+                "alt": "Mutual Of Omaha",
+                "w": 800,
+                "h": 192
+              }
+            },
+            {
+              "name": "Clover",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/ri36Gxmg37zLoPts.png",
+                "file": "assets/source/b22dacf0-ri36Gxmg37zLoPts.png-w_800.webp",
+                "alt": "Clover",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Braven Health",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/insurances/wA90iZInwW8dCEqF.png",
+                "file": "assets/source/3c382cbc-wA90iZInwW8dCEqF.png-w_800.webp",
+                "alt": "Braven Health",
+                "w": 800,
+                "h": 662
+              }
+            }
+          ],
+          "id": "UHCpxJu1hk",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "9eVozxoBU1",
+      "at": 121393,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Payment and Financing",
+          "html": "Payment and Financing",
+          "align": "center",
+          "id": "wFRk6JtVzt",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>We accept CareCredit, a flexible financing option that allows you to break up the cost of your care into manageable payments. It’s a helpful option for treatments, eyewear, or anything not fully.</p><p>We also accept standard payment methods, including major credit cards and cash. If you have questions about pricing or payment options, just let us know—we’re happy to help.</p>",
+          "align": "center",
+          "id": "FyzYvgdYU4",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "69u8NWYQwB",
+          "id": "5gC4UZdWZd",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "rel": "nofollow",
+          "variant": "button_secondary",
+          "group": "69u8NWYQwB",
+          "id": "eROct1iVKk",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

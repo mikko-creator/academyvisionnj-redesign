@@ -1,0 +1,23 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.tmp/
+# audit/raw holds the untouched live-site capture — keep it, it is the evidence.
+# session scratch, probes and panels (regenerable; may hold large captures)
+/tmp/
+# never commit key material or handoff bundles
+*.key
+*.zip
+/preview/
+# public-repo exclusions (2026-10-09): raw crawl evidence holds the source site's keyed Maps embed, analytics ids and
+# full page HTML; stock originals are licensed to the practice (dist/ carries web-size variants); the image cache and
+# the local copy of the site-reforge crawler are not part of the deliverable source.
+/audit/raw/
+/audit/capture/
+/audit/css/
+/audit/screens/
+/audit/crawl-trips/
+/assets/source/
+/assets/optimized/
+/tools/sr-local/
+/*.log

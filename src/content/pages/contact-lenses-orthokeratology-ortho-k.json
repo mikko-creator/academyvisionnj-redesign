@@ -1,0 +1,536 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/contact-lenses/orthokeratology-ortho-k/",
+  "source": "audit/raw/contact-lenses-orthokeratology-ortho-k.html",
+  "rendered": "tmp/extract/rendered/contact-lenses-orthokeratology-ortho-k.html",
+  "meta": {
+    "title": "Orthokeratology Pine Beach, NJ | Academy Vision",
+    "description": "Correct your vision while you sleep with Ortho-K in Pine Beach. Academy Vision provides non-surgical vision correction for active lifestyles.",
+    "canonical": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k/",
+      "type": "website",
+      "title": "Orthokeratology Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d7-8646-753d-b39f-401593ecdd2d/AdobeStock_467908372.jpeg",
+      "description": "Correct your vision while you sleep with Ortho-K in Pine Beach. Academy Vision provides non-surgical vision correction for active lifestyles.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k/",
+        "url": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k/",
+        "name": "Orthokeratology (Ortho-K)",
+        "datePublished": "2026-03-26T18:53:40.710Z",
+        "dateModified": "2026-04-20T03:33:56.394Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Ortho-K Myopia Lenses in Pine Beach",
+  "counts": {
+    "blocks": 6,
+    "nodes": 24,
+    "static": 24,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "QkvOk8Dzlx",
+      "at": 104836,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Ortho-K Myopia Lenses in Pine Beach",
+          "html": "Ortho-K Myopia Lenses in Pine Beach",
+          "id": "ELntWhLzwo",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’re looking for a way to see clearly without wearing vision correction during the day, ortho-k treatment might be exactly what you’ve been looking for. These specially designed lenses are worn overnight and reshape your eyes while you sleep, so you can wake up with clear vision and go about your day. It’s a simple, non-surgical option that works for both kids and adults.</p>",
+          "id": "MsRMCw1GYc",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "6mSKEpXPOG",
+          "id": "Nrt2F7efgM",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "6mSKEpXPOG",
+          "id": "ku5N8BYIXc",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d7-8646-753d-b39f-401593ecdd2d/AdobeStock_467908372.jpeg",
+          "file": "assets/source/e4bba83f-AdobeStock_467908372.jpeg",
+          "alt": "A girl is brushing her teeth in front of a mirror with a toothbrush",
+          "w": 5760,
+          "h": 3840,
+          "focal": "50.0% 50.0%",
+          "id": "QkvOk8Dzlx-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "ELtLvO6XvZ",
+      "at": 108562,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "What Is Orthokeratology?",
+          "html": "What Is Orthokeratology?",
+          "align": "center",
+          "id": "srYAZIswqC",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Orthokeratology, often called ortho-k, uses custom-fit contact lenses that you wear while you sleep. As you rest, the lenses gently reshape the front surface of your eyes. By morning, you can remove them and see clearly throughout the day—no glasses or daytime contacts needed. The effect is temporary, making it a safe and flexible option for many patients.</p>",
+          "align": "center",
+          "id": "VKYJYx3trs",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "wTKhBZqEF7",
+          "id": "Wl8cX1JVi0",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "wTKhBZqEF7",
+          "id": "o5QBZXKKhP",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "kVUjtNZyRv",
+      "at": 110239,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "How Ortho-K Improves Your Vision",
+          "html": "How Ortho-K Improves Your Vision",
+          "id": "AOFy62VOnv",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Ortho-k lenses carefully adjust how light enters your eyes by reshaping the cornea overnight. This allows light to focus properly during the day, giving you clear vision without the need for lenses while you’re awake. As long as the lenses are worn consistently at night, the results continue day after day.</p>",
+          "id": "7GojuKevA7",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "nbG6kdBJe4",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d8-3bc5-7774-a539-34e97ee36cd9/AdobeStock_664048271.jpeg",
+          "file": "assets/source/95a0a74b-AdobeStock_664048271.jpeg-w_2000.webp",
+          "alt": "Two women sitting at a desk with a laptop, smiling and laughing",
+          "w": 2000,
+          "h": 1334,
+          "focal": "50.0% 50.0%",
+          "id": "3hSIQZ7GTb",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "7zxYYA4XlK",
+      "at": 113665,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d8-ba49-7449-80c5-9e4d39ea50ff/AdobeStock_538796837.jpeg",
+          "file": "assets/source/e4c8351f-AdobeStock_538796837.jpeg-w_2000.webp",
+          "alt": "Woman lying down in bed wearing a peach-colored shirt and has her hands behind her head",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "4SNZb8tBpn",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Why Patients Love Ortho-K",
+          "html": "Why Patients Love Ortho-K",
+          "id": "2z0zOn7DiZ",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Ortho-k lenses offer a level of flexibility that traditional options don’t:</p><ul><li>Clear vision during the day without glasses or contact lenses</li><li>Great for sports, active lifestyles, and busy routines</li><li>A non-surgical alternative to LASIK</li><li>Ideal for kids as part of a myopia management plan</li></ul>",
+          "id": "w5IU0oHDYB",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "qNlDqw5EnQ",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "XfR5hYIFb3",
+      "at": 117442,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Getting Started with Ortho-K Treatment",
+          "html": "Getting Started with Ortho-K Treatment",
+          "id": "JRj6t4t7Mo",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>We’ll start with a detailed <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a> and measurements to determine if ortho-k is right for you. From there, we’ll design custom lenses and show you exactly how to use and care for them.</p><p>It may take a few days for your vision to adjust fully, but we’ll guide you through the process and check in along the way to make sure everything is working as it should.</p>",
+          "id": "7i2d3eoMjA",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49ea-76b2-77a9-93ff-42413395589b/AdobeStock_475164525.jpeg",
+          "file": "assets/source/3dae986a-AdobeStock_475164525.jpeg-w_2000.webp",
+          "alt": "A girl with headphones sitting at a desk with her mother, both smiling and enjoying each other's company.",
+          "w": 2000,
+          "h": 1335,
+          "focal": "50.0% 50.0%",
+          "id": "aT3bbHQPai",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "rsRGh86a8T",
+      "at": 120965,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule an Ortho-K Consultation",
+          "html": "Schedule an Ortho-K Consultation",
+          "align": "center",
+          "id": "b3SQY8hmrj",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’re curious about ortho-k, the best next step is a conversation. We’ll take the time to evaluate your eyes, answer your questions, and help you decide if it’s a good fit. Give us a call to schedule a visit with our <a href=\"/hours-location/\">Pine Beach eye clinic</a>.</p>",
+          "align": "center",
+          "id": "qSvY3u0SOn",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "HDDowHoEfp",
+          "id": "ZWGJd6Wn7j",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "HDDowHoEfp",
+          "id": "H97Z8tYk6z",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

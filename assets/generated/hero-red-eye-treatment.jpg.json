@@ -1,0 +1,36 @@
+{
+  "id": "hero-red-eye-treatment",
+  "file": "assets/generated/hero-red-eye-treatment.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the red / sore eye page (adopted slot)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Woman relaxing on a sofa with a soft gel mask over her eyes",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a woman relaxing on a sofa with a plain unbranded soft gel eye mask over her closed eyes, head tilted back on a cushion, cream knit sweater, gentle daylight, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 3157398496,
+  "requestId": "01a119d3-48fe-7f01-beeb-e9ceec302141",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-red-eye-treatment.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "02c4f9161383d4ff6a7e020a97f960c52abefc7fdbb1f4591a58ce957636dea2",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: woman reclining on a sofa with a light blue eye mask, cream knit sweater; subject ~70% x; not clinical",
+      "100% mask face + rim: plain fabric, no text or logo",
+      "100% strap + 400% side clip: blank rounded panel, no text, symbols or buttons marked"
+    ],
+    "notes": "",
+    "at": "2026-10-08T04:46:13.958Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T04:46:17.487Z"
+}

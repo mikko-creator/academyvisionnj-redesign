@@ -1,0 +1,171 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "products/designer-frames",
+  "etSource": "products/designer-frames",
+  "title": "Designer Frames in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Browse designer eyeglass frames at Academy Vision in Pine Beach, NJ, from Ray-Ban to Kate Spade. Our opticians help you balance vision, comfort and style.",
+  "h1": "Find Your Designer Frames at Our Pine Beach Optical",
+  "kicker": "Frames Worth Wearing Every Day",
+  "lede": "<p>The right frame looks like you, feels comfortable from your morning coffee to the drive home on Route 9, and holds your lenses exactly where your eyes need them. At Academy Vision, we carry a wide selection of designer frames for adults and kids. Our Pine Beach opticians take the time to understand how you use your eyes each day before pointing you toward a single pair.</p>",
+  "sections": [
+    {
+      "id": "material-weight-fit",
+      "heading": "Choosing by Material, Weight and Fit",
+      "html": "<p>Most frames belong to a few families, and each one feels a little different once it’s on your face.</p><ul><li><strong>Acetate:</strong> a dense, plant-based plastic that carries rich colors and patterns such as tortoiseshell. It feels solid, and it can be gently warmed and shaped for a closer fit.</li><li><strong>Metal:</strong> slimmer lines, plus adjustable nose pads that make it easy to fine-tune where the frame rests.</li><li><strong>Titanium and other lightweight metals:</strong> strong, light and resistant to corrosion, a smart match for all-day wear. Titanium itself is also a good choice for sensitive skin.</li><li><strong>Rimless and semi-rimless:</strong> a lighter, more open look, though exposed lens edges call for a tougher lens material.</li></ul><p>Fit matters as much as material. Most frames have three small numbers printed inside a temple arm: lens width, bridge width and temple length, all in millimeters. They’re a handy starting point if you already own a pair you love. Stronger prescriptions often look and feel better in a smaller lens shape, which keeps the lenses thinner and lighter.</p>",
+      "layout": "split",
+      "imageSlot": "cut-eyeglasses-tortoise"
+    },
+    {
+      "id": "style-directions",
+      "heading": "Style Directions to Try On",
+      "html": "<p>Not sure where to begin? Try a few of these side by side in the mirror:</p><ul><li><strong>Round and oval</strong> shapes soften angular features and strong jawlines.</li><li><strong>Rectangles and squares</strong> add definition to rounder faces and suit a classic, polished look.</li><li><strong>Cat-eye and browline</strong> frames lift the eye line and bring a little vintage character.</li><li><strong>Clear and crystal</strong> frames look light and modern and go with almost anything.</li><li><strong>Bold colors and thick rims</strong> make a statement, while thin metal keeps things understated.</li></ul><p>Face shape is only a guide. Your coloring, your wardrobe and where you’ll wear them—at a desk, on the boardwalk or out to dinner—count just as much. When a frame feels right, you’ll usually know.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "brands",
+      "heading": "Designer Brands at Our Optical",
+      "html": "<p>Our Pine Beach optical carries designer frames from these brands:</p><ul><li>Ray-Ban</li><li>Kate Spade</li><li>Calvin Klein</li><li>Flexon</li><li>Bebe</li><li>Wiley X</li><li>Etnia Barcelona</li><li>Nike</li><li>Guess?</li><li>Joseph Abboud</li><li>Marc Jacobs</li><li>Costa</li><li>Anne Klein</li><li>Dragon</li><li>Cole Haan</li><li>Draper James</li><li>Liz Claiborne</li><li>Tommy Hilfiger</li><li>Charmant</li><li>Elle</li><li>Marciano</li><li>Adidas</li><li>Timberland</li><li>Valerie Spencer</li><li>Emilio Pucci</li><li>Joan Collins</li></ul><p>Collections change over time, so if you have a particular brand or model in mind, call us at (732) 978-9306 before you visit. You can also explore <a href=\"/products/\">eyeglasses and lens options</a>, see <a href=\"/products/kids-eyewear/\">frames made for kids</a>, or read about <a href=\"/products/varilux-lenses/\">Varilux® progressive lenses</a>.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "final-fitting",
+      "heading": "Your Final Fitting Happens in Person",
+      "html": "<p>Photos can narrow the field, but nothing replaces trying frames on in person. A well-fitted frame rests evenly on your nose, holds at the ears without pinching and keeps your eyes centered in each lens. If you wear progressives, the frame also needs enough height for clear distance, middle and reading zones, and we take detailed measurements so your lenses are set up correctly.</p><p>With our in-office finishing lab, many prescriptions can be made the very same day, so you may be able to pick your frames and head home wearing them. If your prescription is more than a year or two old, <a href=\"/services/comprehensive-eye-exams/\">start with an eye exam</a> so your new frames hold lenses that match your eyes today.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "How can I tell if a frame fits?",
+      "a": "<p>Look straight ahead in a mirror. Your eyes should sit near the center of each lens, the frame shouldn’t touch your cheeks when you smile, and the temples should hold without pressing. If the glasses slide down every time you look at your phone, the fit needs another look.</p>"
+    },
+    {
+      "q": "Is a designer frame different from a basic one?",
+      "a": "<p>Your lenses do the seeing; the frame decides comfort and style. Designer collections tend to offer more shapes, colors and finishes, which makes it easier to find something that suits you. Whatever the label, a good fit matters most.</p>"
+    },
+    {
+      "q": "Which lens options go well with new frames?",
+      "a": "<p>Lens options at our optical include anti-reflective coatings to reduce glare and eye strain, blue light protection for screen-heavy days and scratch-resistant treatments for everyday durability. We’ll help you match them to your routine.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Come Try Frames On in Pine Beach",
+    "html": "<p>You’ll find us on Route 9 near the Mizzen Avenue light, in a standalone building with its own parking lot. Bring a friend for a second opinion, take your time trying frames on, and let us help you find a pair you’ll feel good wearing every day.</p>"
+  },
+  "related": [
+    "products/kids-eyewear",
+    "products/varilux-lenses",
+    "products/contact-lenses"
+  ],
+  "claims": [
+    {
+      "text": "Browse designer eyeglass frames at Academy Vision in Pine Beach, NJ, from Ray-Ban to Kate Spade.",
+      "factId": "frame-brands",
+      "page": "/eyeglasses/",
+      "quote": "Designer Frames for All Ray-Ban"
+    },
+    {
+      "text": "Our opticians help you balance vision, comfort and style.",
+      "factId": "staff-opticians",
+      "page": "/eyeglasses/",
+      "quote": "Our Pine Beach opticians take the time to understand how you use your eyes daily"
+    },
+    {
+      "text": "Find Your Designer Frames at Our Pine Beach Optical",
+      "factId": "service-eyeglasses",
+      "page": "/eyeglasses/",
+      "quote": "At our Pine Beach optical, we help you find glasses that feel good and fit your life, without overcomplicating things."
+    },
+    {
+      "text": "At Academy Vision, we carry a wide selection of designer frames for adults and kids.",
+      "factId": "frame-selection",
+      "page": "/",
+      "quote": "With a wide selection of designer frames for adults and kids"
+    },
+    {
+      "text": "Our Pine Beach opticians take the time to understand how you use your eyes each day before pointing you toward a single pair.",
+      "factId": "staff-opticians",
+      "page": "/eyeglasses/",
+      "quote": "Our Pine Beach opticians take the time to understand how you use your eyes daily"
+    },
+    {
+      "text": "Our Pine Beach optical carries designer frames from these brands:",
+      "factId": "frame-brands",
+      "page": "/eyeglasses/",
+      "quote": "Designer Frames for All Ray-Ban"
+    },
+    {
+      "text": "Collections change over time, so if you have a particular brand or model in mind, call us at (732) 978-9306 before you visit.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "You can also explore eyeglasses and lens options, see frames made for kids, or read about Varilux® progressive lenses.",
+      "factId": "service-varilux",
+      "page": "/eyeglasses/varilux-lenses/",
+      "quote": "Varilux® lenses are a type of progressive lens, which means they allow you to see at multiple distances without the visible line you might remember from traditional bifocals."
+    },
+    {
+      "text": "If you wear progressives, the frame also needs enough height for clear distance, middle and reading zones, and we take detailed measurements so your lenses are set up correctly.",
+      "factId": "service-varilux-fitting",
+      "page": "/eyeglasses/varilux-lenses/",
+      "quote": "We take detailed measurements and consider how you use your eyes throughout the day to make sure your lenses are set up correctly."
+    },
+    {
+      "text": "With our in-office finishing lab, many prescriptions can be made the very same day, so you may be able to pick your frames and head home wearing them.",
+      "factId": "service-same-day-glasses",
+      "page": "/eyeglasses/",
+      "quote": "With our in-office finishing lab in Pine Beach, many prescriptions can be made the very same day."
+    },
+    {
+      "text": "If your prescription is more than a year or two old, start with an eye exam so your new frames hold lenses that match your eyes today.",
+      "factId": "service-comprehensive-eye-exams",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision."
+    },
+    {
+      "text": "Lens options at our optical include anti-reflective coatings to reduce glare and eye strain, blue light protection for screen-heavy days and scratch-resistant treatments for everyday durability.",
+      "factId": "service-lens-options",
+      "page": "/eyeglasses/",
+      "quote": "Lens Options That Make a Difference"
+    },
+    {
+      "text": "We’ll help you match them to your routine.",
+      "factId": "service-lens-options",
+      "page": "/eyeglasses/",
+      "quote": "Lens Options That Make a Difference"
+    },
+    {
+      "text": "You’ll find us on Route 9 near the Mizzen Avenue light, in a standalone building with its own parking lot.",
+      "factId": "address-landmark",
+      "page": "/eyeglasses/",
+      "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light."
+    },
+    {
+      "text": "You’ll find us on Route 9 near the Mizzen Avenue light, in a standalone building with its own parking lot.",
+      "factId": "address-standalone-parking",
+      "page": "/hours-location/",
+      "quote": "It’s a standalone building with its own parking lot, so you won’t have to search for a spot or deal with crowded plazas."
+    },
+    {
+      "text": "Bring a friend for a second opinion, take your time trying frames on, and let us help you find a pair you’ll feel good wearing every day.",
+      "factId": "service-eyeglasses",
+      "page": "/eyeglasses/",
+      "quote": "At our Pine Beach optical, we help you find glasses that feel good and fit your life, without overcomplicating things."
+    }
+  ],
+  "flags": [
+    "Brand list = the 26 names in the /eyeglasses/ brand grid (fact frame-brands), in the same order. Brands carried change over time; the practice should check the list is current before launch.",
+    "The same-day sentence keeps the hedge of the eyeglasses page (\"many prescriptions can be made the very same day\", fact service-same-day-glasses). If the in-office finishing lab no longer allows this, remove the sentence.",
+    "Material, style and fit guidance is general optical information; it does not say which materials or shapes are on hand at the optical."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G5-eyewear-site",
+    "notes": "tools/overlap-check.mjs --fail 8 (6-word shingles): longest span shared with the Eye Trends crawl 6 words; page copy alone (claims[] removed): 0 words, so the longer span is Academy Vision’s own source path in claims[].page || CHECKER checker-G5-eyewear-site, 2026-10-08: re-ran tools/overlap-check.mjs --fail 8 (6-word shingles) on this final file: longest shared span 6 words (the Academy Vision source path in claims[].page); with claims, flags and review removed the copy shares 0 words; the --control run reported DETECTED. Re-verified all 16 claims: each factId exists in facts/client-facts.json, page and quote equal the fact’s, the quote is on the cited audit/raw page and the claim text is verbatim on this page. Tags, links (4, all new-site paths), schema, imageSlots and length (734 body words) pass tmp/checker-G5-eyewear-site/check.mjs, whose 21 planted-fault controls all fired. CHANGE 1 metaDescription. Before: Our opticians help you weigh material, weight, fit and style. After: Our opticians help you balance vision, comfort and style. Why: /eyeglasses/ (fact staff-opticians) says the opticians guide you toward options that fit your vision, comfort and style; material and weight are not in the facts. Claim text updated. CHANGE 2 sections[0] titanium bullet. Before: resistant to corrosion, a smart match for sensitive skin or all-day wear. After: resistant to corrosion, a smart match for all-day wear. Titanium itself is also a good choice for sensitive skin. Why: accuracy; the skin claim holds for titanium, not for every lightweight metal (some alloys contain nickel). CHANGE 3 sections[0] rimless bullet. Before: the lightest feel of all. After: a lighter, more open look. Why: accuracy; semi-rimless frames are not the lightest of all, and it drops a superlative. CHANGE 4 claims. We’ll help you match them to your routine: factId service-eyeglasses changed to service-lens-options (page and quote copied from that fact). Why: the matching sentence on /eyeglasses/ is in its Lens Options section. Reviewed, kept: same day in sections[3] keeps the /eyeglasses/ hedge on a DIRECT page; match your eyes today is not a promise; 5-word runs fit matters as much as and bridge width and temple length are common expressions."
+  }
+}

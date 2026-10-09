@@ -1,0 +1,599 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/contact-lenses/",
+  "source": "audit/raw/contact-lenses.html",
+  "rendered": "tmp/extract/rendered/contact-lenses.html",
+  "meta": {
+    "title": "Contact Lenses in Pine Beach, NJ | Academy Vision",
+    "description": "Find the perfect fit with contact lenses in Pine Beach. Academy Vision offers daily, monthly, and specialty lenses for clear vision.",
+    "canonical": "https://www.academyvisionnj.com/contact-lenses/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/contact-lenses/",
+      "type": "website",
+      "title": "Contact Lenses in Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49ff-f4b0-72ee-825a-b6d8869f74c3/AdobeStock_342238192.jpeg",
+      "description": "Find the perfect fit with contact lenses in Pine Beach. Academy Vision offers daily, monthly, and specialty lenses for clear vision.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/contact-lenses/",
+        "url": "https://www.academyvisionnj.com/contact-lenses/",
+        "name": "Contact Lenses",
+        "datePublished": "2026-03-26T17:17:18.272Z",
+        "dateModified": "2026-05-20T20:02:32.315Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Contact Lenses in Pine Beach, NJ",
+  "counts": {
+    "blocks": 7,
+    "nodes": 20,
+    "static": 20,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "zpCVEZNWgT",
+      "at": 103036,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "span": 6,
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "span": 6,
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>A Different Way to See Clearly</p>",
+          "transform": "uppercase",
+          "id": "CsSj27pVko",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Contact Lenses in Pine Beach, NJ",
+          "html": "Contact Lenses in Pine Beach, NJ",
+          "id": "zmfna9G8iw",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’re looking for a little more freedom in your day-to-day life, contact lenses can be a great option. Whether you’re working, staying active, or don’t love wearing glasses, contacts give you clear vision without anything getting in your way.</p><p>At <a href=\"/hours-location/\">Academy Vision</a>, we make it easy to find lenses that feel comfortable and fit naturally into your routine and life in Pine Beach.</p>",
+          "id": "SrO01vbeA1",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "BLxBsw82j1",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49ff-f4b0-72ee-825a-b6d8869f74c3/AdobeStock_342238192.jpeg",
+          "file": "assets/source/56256f3a-AdobeStock_342238192.jpeg",
+          "alt": "A woman with curly hair and a white sleeveless top touches her cheek with her left hand while smiling and looking at something in front of her",
+          "w": 6720,
+          "h": 4480,
+          "focal": "49.9% 44.6%",
+          "id": "zpCVEZNWgT-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "SctNi3eE0Y",
+      "at": 106788,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section",
+      "id": "OlBqjSqHoD",
+      "at": 107067,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>helping all ages see clearly &amp; comfortably</p>",
+          "transform": "uppercase",
+          "id": "2IhNfZteAW",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Why Contact Lenses Work for So Many People",
+          "html": "Why Contact Lenses Work for So Many People",
+          "id": "x9h6jQqVaB",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>For many people, contact lenses just make things easier. You don’t have to think about frames, deal with fogging, or adjust your glasses throughout the day. They move with your eyes, giving you a more natural field of vision, whether you’re at work, driving, or staying active. It’s a simple shift that can make a big difference in how you go about your day in Pine Beach, New Jersey.</p><h3>Personalized Contact Lens Fittings</h3><p>Not all contact lenses are the same, and not every eye is either. We’ll measure your eyes, talk through your lifestyle, and make sure your lenses feel comfortable and work the way they should. If something doesn’t feel right, we adjust, because the goal is clear, comfortable vision you don’t have to think twice about.</p>",
+          "id": "pUz8ZDjXBs",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "More About Contact Lens Exams",
+          "href": "/contact-lenses/contact-lenses-exams/",
+          "external": false,
+          "id": "V2amMfPXwS",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "Qnsoe37F7D",
+      "at": 109093,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>Options That Fit Your Routine</p>",
+          "transform": "uppercase",
+          "id": "mImEgwooaR",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Explore our Contact Lens Options in Pine Beach",
+          "html": "Explore our Contact Lens Options in Pine Beach&nbsp;",
+          "id": "UOHXLnQJsH",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "list",
+          "kind": "contact-lenses",
+          "items": [
+            {
+              "name": "DAILIES TOTAL1® Multifocal",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/contact-lenses/products/12/dailies-total1-multifocal-1585060715.png",
+                "file": "assets/source/ee4f3ac3-dailies-total1-multifocal-1585060715.png",
+                "alt": "DAILIES TOTAL1® Multifocal",
+                "w": 450,
+                "h": 450
+              }
+            },
+            {
+              "name": "Precision1®",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/contact-lenses/products/18/precision1-1585060715.png",
+                "file": "assets/source/d3bbfa2d-precision1-1585060715.png",
+                "alt": "Precision1®",
+                "w": 1500,
+                "h": 1500
+              }
+            },
+            {
+              "name": "PRECISION1® for Astigmatism",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/contact-lenses/products/95/precision1-for-astigmatism-1615387313.png",
+                "file": "assets/source/1d35af9b-precision1-for-astigmatism-1615387313.png",
+                "alt": "PRECISION1® for Astigmatism",
+                "w": 1276,
+                "h": 1220
+              }
+            },
+            {
+              "name": "TOTAL30® for Astigmatism",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/contact-lenses/products/121/total30-for-astigmatism-1687795278.png",
+                "file": "assets/source/4202a97e-total30-for-astigmatism-1687795278.png",
+                "alt": "TOTAL30® for Astigmatism",
+                "w": 1584,
+                "h": 1132
+              }
+            },
+            {
+              "name": "DAILIES TOTAL1® for Astigmatism",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/contact-lenses/products/127/dailies-total1-for-astigmatism-1723128727.png",
+                "file": "assets/source/826a25d2-dailies-total1-for-astigmatism-1723128727.png",
+                "alt": "DAILIES TOTAL1® for Astigmatism",
+                "w": 400,
+                "h": 300
+              }
+            },
+            {
+              "name": "TOTAL30®",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/contact-lenses/products/111/total30-1729235448.png",
+                "file": "assets/source/545e15fc-total30-1729235448.png",
+                "alt": "TOTAL30®",
+                "w": 400,
+                "h": 400
+              }
+            },
+            {
+              "name": "TOTAL30® Multifocal",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/contact-lenses/products/129/total30-multifocal-1730831195.png",
+                "file": "assets/source/0186612b-total30-multifocal-1730831195.png",
+                "alt": "TOTAL30® Multifocal",
+                "w": 400,
+                "h": 400
+              }
+            }
+          ],
+          "id": "gBBXEhQZlq",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "KNkjpfvFqI",
+      "at": 112182,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Type of Contact Lenses We Offer",
+          "html": "Type of Contact Lenses We Offer",
+          "id": "8iFobYT13E",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>There’s no one “right” type of contact lens—it all depends on what works best for your day-to-day life. Some people prefer the convenience of daily lenses, while others like longer-wear options, including trusted brands like Precision1® and Dailies Total1® from Alcon.</p><p>We’ll walk you through the choices and help you find something that fits comfortably into your routine without overcomplicating things.</p>",
+          "id": "4yftkR3Odw",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a00-e588-77b9-bb05-f76608dc59c1/AdobeStock_109626133.jpeg",
+          "file": "assets/source/01e464f8-AdobeStock_109626133.jpeg-w_2000.webp",
+          "alt": "An older man wearing a blue button-up shirt is having his eyes examined by a woman wearing a white lab coat",
+          "w": 2000,
+          "h": 1333,
+          "focal": "48.3% 40.0%",
+          "id": "ok3JzsmMsO",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "BVBWejvGIT",
+      "at": 115655,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#0f2a4a",
+        "textColor": "#fff"
+      },
+      "nodes": [
+        {
+          "t": "list",
+          "kind": "childpages",
+          "items": [
+            {
+              "title": "Contact Lenses Exams",
+              "href": "/contact-lenses/contact-lenses-exams/",
+              "chevron": true,
+              "excerpt": "A contact lens exam is a little different from a standard eye exam. We take extra measurements to make sure your lenses sit properly on your eyes and stay comfortable throughout the day.",
+              "image": {
+                "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49f7-cb73-70b0-8e47-519bc666897a/AdobeStock_137026287-1-.jpeg",
+                "file": "assets/source/d37de90f-AdobeStock_137026287-1-.jpeg",
+                "alt": "Two women are in an eye clinic, one is seated in a chair while the other is standing in front of a machine and examining the seated woman's eye.",
+                "w": 3840,
+                "h": 2160,
+                "href": "/contact-lenses/contact-lenses-exams/",
+                "focal": "54.6% 34.3%"
+              }
+            },
+            {
+              "title": "Orthokeratology (Ortho-K)",
+              "href": "/contact-lenses/orthokeratology-ortho-k/",
+              "chevron": true,
+              "excerpt": "Ortho-k lenses are worn overnight and gently reshape your eyes while you sleep. By morning, you can see clearly without glasses or contacts. It’s a great option for kids on a myopia management plan.",
+              "image": {
+                "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d7-8646-753d-b39f-401593ecdd2d/AdobeStock_467908372.jpeg",
+                "file": "assets/source/e4bba83f-AdobeStock_467908372.jpeg",
+                "alt": "A girl is brushing her teeth in front of a mirror with a toothbrush",
+                "w": 5760,
+                "h": 3840,
+                "href": "/contact-lenses/orthokeratology-ortho-k/",
+                "focal": "54.6% 34.3%"
+              }
+            },
+            {
+              "title": "Scleral Lenses",
+              "href": "/contact-lenses/scleral-lenses/",
+              "chevron": true,
+              "excerpt": "If you’ve had trouble wearing contacts in the past, scleral lenses may be a better option. These lenses are designed for sensitive eyes or more complex vision needs.",
+              "image": {
+                "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d2-c711-7078-9221-a33815799e88/AdobeStock_540762318.jpeg",
+                "file": "assets/source/1bedca89-AdobeStock_540762318.jpeg",
+                "alt": "woman smiling with short hair",
+                "w": 7952,
+                "h": 5304,
+                "href": "/contact-lenses/scleral-lenses/",
+                "focal": "54.6% 34.3%"
+              }
+            }
+          ],
+          "id": "VnW7sZ1p2P",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "hfCGXe0R3K",
+      "at": 124797,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule a Contact Lens Exam",
+          "html": "Schedule a Contact Lens Exam",
+          "align": "center",
+          "id": "KjqE6P4mC1",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Whether you’re new to contact lenses or just looking for a better fit, we’ll take the time to understand what you need. Give us a call to schedule an <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a> with our Pine Beach eye doctors.&nbsp;</p>",
+          "align": "center",
+          "id": "aCxsyzTvwq",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "cjhiT2Wvb4",
+          "id": "4jPTZCOaEN",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "rel": "nofollow",
+          "variant": "button_secondary",
+          "group": "cjhiT2Wvb4",
+          "id": "PEf7HJR5lv",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

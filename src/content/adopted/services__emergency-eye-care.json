@@ -1,0 +1,196 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/emergency-eye-care",
+  "etSource": "services/emergency-eye-care",
+  "title": "Emergency Eye Care in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Eye hurt, red or suddenly blurry? Academy Vision offers emergency eye care in Pine Beach whenever possible. Here’s when to call us and when to go to the ER.",
+  "h1": "Urgent Eye Care in Pine Beach When Something Feels Wrong",
+  "kicker": "When Your Eyes Can’t Wait",
+  "lede": "<p>Eyes don’t pick convenient moments to act up. A branch catches you while you’re trimming the hedges, one eye turns red and sore overnight, or a blur shows up that wasn’t there yesterday. When something feels wrong, it’s worth having it checked sooner rather than later. If your vision shifts without warning, your eye is injured, or redness or discomfort won’t ease up, we offer emergency eye care in Pine Beach whenever possible.</p>",
+  "sections": [
+    {
+      "id": "go-to-the-er",
+      "heading": "When to Skip the Call and Go to the ER",
+      "html": "<p>A few eye problems need hospital care immediately. Go to the nearest emergency room, or call 911, if you have:</p><ul><li><strong>Sudden vision loss</strong> in one or both eyes, even if it seems to come back</li><li><strong>A chemical splash</strong>—rinse the eye with plenty of clean, lukewarm water right away and keep rinsing while someone calls for help</li><li><strong>A penetrating injury</strong>, where something has cut or punctured the eye or is lodged in it—leave it in place and don’t press on the eye</li><li><strong>A curtain or shadow</strong> creeping across part of your vision</li><li><strong>Flashes of light with a sudden shower of new floaters</strong></li></ul>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "four-urgent-problems",
+      "heading": "Four Urgent Eye Problems and What They Can Mean",
+      "html": "<h3>Pink Eye</h3><p>Red, itchy or weepy eyes with crusty lashes in the morning often point to conjunctivitis. Some kinds spread easily, so it helps to know which one you have. <a href=\"/services/pink-eye-conjunctivitis/\">Read about pink eye and conjunctivitis</a></p><h3>Something in Your Eye</h3><p>Sand, sawdust or a stray lash can leave an eye stinging and watering. Try not to rub it, and never dig at it with anything sharp. <a href=\"/services/foreign-body-removal/\">What to do when something gets in your eye</a></p><h3>A Red, Sore Eye</h3><p>Redness can come from dryness, allergies, an infection or an injury. Pain, light sensitivity or blurry vision make it more urgent. <a href=\"/services/red-eye-treatment/\">What a red eye can mean</a></p><h3>Flashes and Floaters</h3><p>New specks drifting through your vision or flickers of light at the edges can mean the retina needs a prompt look. <a href=\"/services/flashes-floaters/\">When flashes and floaters are urgent</a></p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "not-an-eyewear-store",
+      "heading": "Why an Eyewear Store Isn’t the Place for an Urgent Problem",
+      "html": "<p>A shop that mostly sells glasses and contacts is set up to fit eyewear. It usually isn’t equipped to examine a hurt or infected eye, treat it, or check how it’s healing a few days later. Urgent care centers and emergency rooms do important work, but they don’t always have the magnifying instruments eye doctors use to look closely at the surface and the inside of the eye. For an urgent eye problem that isn’t on the list above, an eye doctor’s office is the place to start.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "familiar-office",
+      "heading": "Care From a Familiar Office",
+      "html": "<p>For over 40 years, families in and around Pine Beach have trusted us with their vision. Academy Vision was founded in 1984 by Dr. Robert Ullman, and today our team is made up of experienced optometrists who take the time to listen, explain and make sure you feel comfortable. Dr. Marc Ullman is the practice’s primary resource for patients with red eyes and eye injuries.</p><p>You’ll find us right on Route 9 near the Mizzen Avenue light. It’s a standalone building with its own parking lot, so you won’t have to hunt for a spot when your eye is bothering you, and there’s a ramp for patients who need it.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "call-first",
+      "heading": "Start With a Phone Call",
+      "html": "<p>If your eye can’t wait for a routine visit, please call us at (732) 978-9306 rather than booking online, so we can hear what’s going on.</p><p>It helps to have a few details ready: what happened, when it started, which eye is affected and whether your vision has changed. If you wear contact lenses, mention it and bring your glasses along. For any of the warning signs above, skip the call and go straight to the nearest emergency room, day or night.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "insurance",
+      "heading": "Insurance for Urgent Eye Visits",
+      "html": "<p>Insurance for an urgent visit can feel confusing, but it doesn’t have to be. Medical insurance comes into play when there’s a health-related concern with your eyes, such as an infection or vision that changes suddenly. Our team can help you check your benefits and explain what’s covered, and you can see the plans we accept on our <a href=\"/insurance/\">insurance page</a>.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [],
+  "cta": {
+    "heading": "Something Not Right With Your Eye?",
+    "html": "<p>Call Academy Vision at (732) 978-9306 and tell us what you’re noticing. We’re here for families in Pine Beach, Beachwood, Toms River and nearby towns, and we’ll take the time to explain what’s going on and what comes next.</p>"
+  },
+  "related": [
+    "services/medical-eye-care",
+    "services/dry-eye-treatment",
+    "eye-doctor-pine-beach"
+  ],
+  "claims": [
+    {
+      "text": "Emergency Eye Care in Pine Beach, NJ | Academy Vision",
+      "factId": "service-emergency",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "text": "Urgent Eye Care in Pine Beach When Something Feels Wrong",
+      "factId": "service-emergency",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "text": "Academy Vision offers emergency eye care in Pine Beach whenever possible.",
+      "factId": "service-emergency",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "text": "If your vision shifts without warning, your eye is injured, or redness or discomfort won’t ease up, we offer emergency eye care in Pine Beach whenever possible.",
+      "factId": "service-emergency",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "text": "For over 40 years, families in and around Pine Beach have trusted us with their vision.",
+      "factId": "history-over-40-years",
+      "page": "/",
+      "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision."
+    },
+    {
+      "text": "Academy Vision was founded in 1984 by Dr. Robert Ullman, and today our team is made up of experienced optometrists who take the time to listen, explain and make sure you feel comfortable.",
+      "factId": "history-founded-1984",
+      "page": "/about-us/",
+      "quote": "Academy Vision was founded in 1984 by Dr. Robert Ullman"
+    },
+    {
+      "text": "Academy Vision was founded in 1984 by Dr. Robert Ullman, and today our team is made up of experienced optometrists who take the time to listen, explain and make sure you feel comfortable.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    },
+    {
+      "text": "Dr. Marc Ullman is the practice’s primary resource for patients with red eyes and eye injuries.",
+      "factId": "doctor-mu-clinical-focus",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "Clinical Focus: Dr. Ullman is the practice’s primary resource for patients seeking relief from chronic dry eye, red eyes, and ocular injuries."
+    },
+    {
+      "text": "You’ll find us right on Route 9 near the Mizzen Avenue light.",
+      "factId": "address-landmark",
+      "page": "/eyeglasses/",
+      "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light."
+    },
+    {
+      "text": "It’s a standalone building with its own parking lot, so you won’t have to hunt for a spot when your eye is bothering you, and there’s a ramp for patients who need it.",
+      "factId": "address-standalone-parking",
+      "page": "/hours-location/",
+      "quote": "It’s a standalone building with its own parking lot, so you won’t have to search for a spot or deal with crowded plazas."
+    },
+    {
+      "text": "It’s a standalone building with its own parking lot, so you won’t have to hunt for a spot when your eye is bothering you, and there’s a ramp for patients who need it.",
+      "factId": "address-ramp",
+      "page": "/hours-location/",
+      "quote": "We’re also easily accessible, with a ramp for patients who need it."
+    },
+    {
+      "text": "If your eye can’t wait for a routine visit, please call us at (732) 978-9306 rather than booking online, so we can hear what’s going on.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "If your eye can’t wait for a routine visit, please call us at (732) 978-9306 rather than booking online, so we can hear what’s going on.",
+      "factId": "booking-online",
+      "page": "/",
+      "quote": "https://scheduleyourexam.com/v3/index.php/3197"
+    },
+    {
+      "text": "Medical insurance comes into play when there’s a health-related concern with your eyes, such as an infection or vision that changes suddenly.",
+      "factId": "insurance-medical-concern",
+      "page": "/insurance/",
+      "quote": "Medical insurance comes into play when there’s a health-related concern with your eyes."
+    },
+    {
+      "text": "Medical insurance comes into play when there’s a health-related concern with your eyes, such as an infection or vision that changes suddenly.",
+      "factId": "service-medical-insurance-visits",
+      "page": "/insurance/",
+      "quote": "This can include things like infections, dry eye, eye disease, or sudden changes in your vision."
+    },
+    {
+      "text": "Our team can help you check your benefits and explain what’s covered, and you can see the plans we accept on our insurance page.",
+      "factId": "staff-benefits-help",
+      "page": "/insurance/",
+      "quote": "Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan."
+    },
+    {
+      "text": "Our team can help you check your benefits and explain what’s covered, and you can see the plans we accept on our insurance page.",
+      "factId": "insurance-plans",
+      "page": "/insurance/",
+      "quote": "Insurance Plans We Accept Medicare"
+    },
+    {
+      "text": "Call Academy Vision at (732) 978-9306 and tell us what you’re noticing.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "We’re here for families in Pine Beach, Beachwood, Toms River and nearby towns, and we’ll take the time to explain what’s going on and what comes next.",
+      "factId": "address-area-served",
+      "page": "/",
+      "quote": "It’s one of the reasons families throughout Pine Beach, Beachwood, and Toms River continue to come back year after year."
+    },
+    {
+      "text": "We’re here for families in Pine Beach, Beachwood, Toms River and nearby towns, and we’ll take the time to explain what’s going on and what comes next.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    }
+  ],
+  "flags": [
+    "Availability: the live site says only that emergency eye care is offered “whenever possible” (/hours-location/). This page promises no same-day, walk-in or after-hours visit and states no response time. If the practice has an after-hours number or an urgent-visit policy, it can be added here.",
+    "Clinical wording for a doctor to review: the emergency-room list (sudden vision loss, chemical splash, penetrating injury, a curtain or shadow over vision, flashes with a sudden shower of new floaters) and the advice to skip the call and go straight to an emergency room for those signs, day or night, are general guidance, not the practice’s own protocol.",
+    "Three of the four linked condition pages (pink eye, foreign body, flashes and floaters) cover services no Academy Vision page names; see the flags on those pages."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G3-urgent",
+    "notes": "New writing from the restructure.json purpose outline, in Academy Vision’s voice; no Eye Trends file was opened. tools/overlap-check.mjs --fail 8 on 2026-10-08: longest shared span 6 words (a generic emergency-room phrase); a --control run detected the inserted 21-word sentence. Body copy 755 words (lede, sections, cta, headings included). tmp/writer-G3-urgent/verify.mjs checked tags, links, related paths, word count, meta-language and every claim (factId, page and quote against facts/client-facts.json; text against the visible copy). No FAQ: the outline lists none for this hub. Checker G3-urgent, 2026-10-08 (re-ran the evidence; no Eye Trends file opened). Changes: (1) sections.call-first, before: “And if one of the warning signs above shows up at night or over a weekend, go straight to the nearest emergency room.” After: “For any of the warning signs above, skip the call and go straight to the nearest emergency room, day or night.” Why: the old sentence implied the warning signs could go through the office during opening hours, which contradicts the go-to-the-er callout (they “need hospital care immediately”). (2) lede, before: “…it’s worth having it checked sooner rather than later instead of waiting to see if it clears.” After: “…it’s worth having it checked sooner rather than later.” Why: redundant clause (plain-spoken voice). (3) flags[1] now describes the day-or-night sentence instead of the old night-or-weekend one. Checks: tools/overlap-check.mjs --fail 8, longest 6 (“go to the nearest emergency room”, a common expression, kept); --control DETECTED. tmp/checker-G3-urgent/check.mjs (its own positive control caught all 23 planted defect groups): schema 3.3, allowed tags only, 5 internal links and 3 related paths are new-site paths, 745 body words, 20/20 claims trace (factId exists; page and quote equal the fact; quote found in audit/raw for that page; claim text in the visible copy). Regex hits read and kept: “today” (means nowadays, not a same-day promise), “a few days” (what a shop can’t do), “40 years” (history fact), “resource” (Dr. Marc Ullman’s clinical-focus wording). The pipeline’s 13:02 build (theme stub; run by PIPELINE, not by this checker) rendered the edited copy: one h1, 0 build errors, 0 broken links."
+  }
+}

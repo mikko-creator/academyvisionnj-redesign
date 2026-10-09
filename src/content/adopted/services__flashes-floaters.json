@@ -1,0 +1,113 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/flashes-floaters",
+  "etSource": "services/flashes-floaters",
+  "title": "Flashes and Floaters: When to Worry | Academy Vision, Pine Beach",
+  "metaDescription": "New floaters or flashes of light? Learn which changes are usually harmless, which are urgent, and how to reach Academy Vision in Pine Beach with questions.",
+  "h1": "Light Flashes and New Floaters: Knowing When It’s Urgent",
+  "kicker": "Seeing Specks or Sparks?",
+  "lede": "<p>Maybe it’s a cobweb that drifts across the page while you read, or a quick flicker at the corner of your eye when you turn your head in a dim room. Most floaters are harmless, and plenty of people have had a few for years. New ones—especially with flashes of light—can mean the retina at the back of the eye needs a prompt look, so it pays to know which changes can wait and which can’t.</p>",
+  "sections": [
+    {
+      "id": "go-to-the-er",
+      "heading": "Go to the Emergency Room Right Away If",
+      "html": "<ul><li>You see flashes of light along with a sudden shower of new floaters</li><li>A curtain or shadow moves across part of your vision</li><li>Your vision suddenly drops or goes dark</li><li>A chemical splashes into your eye, or something cuts or punctures it</li></ul><p>The first three can mean the retina has torn or come loose, or point to another emergency, and prompt treatment matters for protecting your sight.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "everyday-or-warning",
+      "heading": "Everyday Floaters Versus Warning Signs",
+      "html": "<p>Floaters are small specks, threads or cobweb shapes that drift through your vision and slide away when you try to look at them, most noticeable against a bright sky or a white wall. Most come from normal changes in the vitreous, the clear gel inside the eye, which thickens and shrinks with age so that tiny clumps cast shadows on the retina. Flashes are brief sparks or streaks of light, often off to the side, from the gel tugging on the retina.</p><p>Sometimes the gel pulls away from the back of the eye. That’s common with age and usually harmless, but now and then it tears the retina. What matters is <em>change</em>: long-standing floaters that stay the same are rarely a concern, while a burst of new ones or new flashes should be checked promptly, and a shadow creeping in from one side needs the emergency room right away. The risk is higher if you’re nearsighted, have had eye surgery or an eye injury, or have had a retinal tear before.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "prompt-check",
+      "heading": "What a Prompt Check Can Give You",
+      "html": "<ul><li><strong>Peace of mind sooner.</strong> Most new floaters turn out to be the harmless kind, and it helps to know rather than wonder.</li><li><strong>A clear answer.</strong> A dilated exam lets an eye doctor see the outer edges of the retina, where tears tend to start.</li><li><strong>The right next step.</strong> If a tear or detachment is found, treatment is usually done by a retina specialist, and getting there quickly matters.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "what-the-exam-involves",
+      "heading": "What the Exam Usually Involves",
+      "html": "<p>An exam for new flashes or floaters usually includes:</p><ul><li>Questions about when the symptoms began, which eye is affected and whether they’re changing</li><li>A vision check and a look at the front of the eye</li><li>Dilating drops that widen the pupils, so the doctor can examine the whole retina with a bright light and special lenses</li><li>Sometimes a photo or scan of the retina</li></ul><p>Dilating drops can leave your vision blurry and sensitive to light for a few hours, so bring sunglasses and consider asking someone to drive you home.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "earlier-exams",
+      "heading": "Why Your Earlier Eye Exams Help",
+      "html": "<p>If your sight changes without warning, it’s useful to know how your eyes looked before. Notes and images from earlier exams give an eye doctor a baseline to compare against. Academy Vision provides thorough eye exams for patients of all ages in Pine Beach, and keeping up with a regular <a href=\"/services/comprehensive-eye-exams/\">comprehensive eye exam</a> gives you and your eye doctor a clearer starting point if something new comes up.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "where-to-go",
+      "heading": "Eye Doctor, Optical Shop or Emergency Room?",
+      "html": "<p>A retail optical counter is set up for glasses and contacts, not for examining the retina. For the emergency signs above, go to the emergency room without delay, day or night. For new floaters or flashes without those signs, call an eye doctor promptly instead of waiting for a routine visit, and if you can’t reach one quickly, go to the emergency room, where staff may bring in an eye specialist for the dilated exam. For other urgent problems, such as <a href=\"/services/red-eye-treatment/\">a red or painful eye</a>, see our <a href=\"/services/emergency-eye-care/\">emergency eye care</a> page.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are floaters normal?",
+      "a": "<p>Yes. Most people notice a few at some point, especially with age or nearsightedness. Floaters that have been around a long time and don’t change are usually harmless. New ones, or a sudden increase, should be checked.</p>"
+    },
+    {
+      "q": "When should I worry about floaters?",
+      "a": "<p>When something changes suddenly: a shower of new floaters, flashes of light, a shadow over your vision, or floaters after an eye injury. The emergency signs above mean going to the emergency room right away.</p>"
+    },
+    {
+      "q": "Will floaters go away?",
+      "a": "<p>Many become less noticeable over weeks or months as they settle and your brain learns to tune them out. Even if older ones fade, a new burst should still be looked at.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Noticed Something New in Your Vision?",
+    "html": "<p>Don’t wait for it to settle on its own. Call Academy Vision in Pine Beach at (732) 978-9306 to ask about new floaters or flashes. If you see a curtain or shadow, or a sudden shower of floaters with flashes, go to the nearest emergency room right away.</p>"
+  },
+  "related": [
+    "services/emergency-eye-care",
+    "services/comprehensive-eye-exams",
+    "services/medical-eye-care"
+  ],
+  "claims": [
+    {
+      "text": "Flashes and Floaters: When to Worry | Academy Vision, Pine Beach",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "Learn which changes are usually harmless, which are urgent, and how to reach Academy Vision in Pine Beach with questions.",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "Academy Vision provides thorough eye exams for patients of all ages in Pine Beach, and keeping up with a regular comprehensive eye exam gives you and your eye doctor a clearer starting point if something new comes up.",
+      "factId": "service-comprehensive-eye-exams",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision."
+    },
+    {
+      "text": "Call Academy Vision in Pine Beach at (732) 978-9306 to ask about new floaters or flashes.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    }
+  ],
+  "flags": [
+    "Service not named on the live site: no Academy Vision page offers a visit for new flashes or floaters or mentions retinal tears. restructure.json rates this page NO EVIDENCE; facts/service-evidence.json rates it PARTIAL on the general emergency-care sentence about “sudden vision changes”, which does not show this service is offered. Please confirm whether the doctors see patients for new flashes or floaters, whether they dilate for them, how quickly, and where retinal tears are referred, before this page is promoted.",
+    "Until then the page explains the symptoms, sends readers to an emergency room for the warning signs, invites a call to ask, and promises no visit, timing, dilated exam or referral. The proposed h1 “Light Flashes and New Floaters: Retina Checks in Pine Beach” was replaced with “Knowing When It’s Urgent”, and the title is topic-led, so the page does not imply an unconfirmed service; the exam description is what an eye doctor usually does, not the practice’s stated protocol.",
+    "Clinical wording for a doctor to review: the emergency list, the description of floaters, flashes and vitreous detachment, the risk factors, the advice to go to an emergency room if an eye doctor can’t be reached quickly, and the dilation advice (blurry, light-sensitive vision for a few hours; sunglasses and a driver)."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G3-urgent",
+    "notes": "New writing from the restructure.json purpose outline, in Academy Vision’s voice; no Eye Trends file was opened. Evidence NO (restructure.json) or PARTIAL (service-evidence.json), so the page states no service for these symptoms: its only practice statements are the comprehensive exam sentence, the phone number and the Pine Beach location. tools/overlap-check.mjs --fail 8 on 2026-10-08: longest shared span 6 words; three 6-word medical phrases were reworded for margin; a --control run detected the inserted 21-word sentence. Body copy 838 words (lede, sections, FAQ, cta, headings and questions included). tmp/writer-G3-urgent/verify.mjs checked tags, links, related paths, word count, meta-language and every claim against facts/client-facts.json and the visible copy. Checker G3-urgent, 2026-10-08 (re-ran the evidence; no Eye Trends file opened). Change: sections.everyday-or-warning, before: “…while a burst of new ones, new flashes or a shadow creeping in from one side should be checked promptly.” After: “…while a burst of new ones or new flashes should be checked promptly, and a shadow creeping in from one side needs the emergency room right away.” Why: the page’s own callout sends a curtain or shadow to the emergency room right away; “checked promptly” under-triaged a possible retinal detachment. Checks: overlap longest 6 (“at the back of the eye” and “go to the nearest emergency room” are common expressions; “eye care services comprehensive eye exams” is the claims[].page URL path, not visible copy); --control DETECTED; check.mjs: 845 body words, 3 links, 3 related paths, 4/4 claims trace. Regex hits read and kept: “a few hours” (dilation effect), “specialist” x2 (referral, not hype), “comprehensive” (the exam’s service name). The page states no service for these symptoms. The pipeline’s 13:02 build (theme stub; run by PIPELINE, not by this checker) rendered the edited copy: one h1, 0 build errors, 0 broken links."
+  }
+}

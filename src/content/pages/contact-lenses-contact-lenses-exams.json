@@ -1,0 +1,536 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/contact-lenses/contact-lenses-exams/",
+  "source": "audit/raw/contact-lenses-contact-lenses-exams.html",
+  "rendered": "tmp/extract/rendered/contact-lenses-contact-lenses-exams.html",
+  "meta": {
+    "title": "Contact Lens Exams Pine Beach, NJ | Academy Vision",
+    "description": "Get a precise contact lens exam in Pine Beach at Academy Vision. We ensure proper fit and comfort for all types of contact lens wearers.",
+    "canonical": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams/",
+      "type": "website",
+      "title": "Contact Lens Exams Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49f7-cb73-70b0-8e47-519bc666897a/AdobeStock_137026287-1-.jpeg",
+      "description": "Get a precise contact lens exam in Pine Beach at Academy Vision. We ensure proper fit and comfort for all types of contact lens wearers.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams/",
+        "url": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams/",
+        "name": "Contact Lenses Exams",
+        "datePublished": "2026-03-26T18:53:09.802Z",
+        "dateModified": "2026-04-20T03:32:04.039Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Contact Lens Exams in Pine Beach",
+  "counts": {
+    "blocks": 6,
+    "nodes": 24,
+    "static": 24,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "j1PveYfw15",
+      "at": 104820,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Contact Lens Exams in Pine Beach",
+          "html": "Contact Lens Exams in Pine Beach",
+          "id": "TquAJ203aq",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve been thinking about trying contact lenses or want something more comfortable than what you’re wearing now, you’re in the right place. At Academy Vision, we make the process simple and easy to follow. Whether it’s your first time or you’ve worn contacts for years, we’ll guide you through everything so you feel confident from the start.</p>",
+          "id": "NrSVFuaBs1",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "gQo2YWHmBX",
+          "id": "FneAMeBd3s",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "gQo2YWHmBX",
+          "id": "njo3j8uhf5",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49f7-cb73-70b0-8e47-519bc666897a/AdobeStock_137026287-1-.jpeg",
+          "file": "assets/source/d37de90f-AdobeStock_137026287-1-.jpeg",
+          "alt": "Two women are in an eye clinic, one is seated in a chair while the other is standing in front of a machine and examining the seated woman's eye.",
+          "w": 3840,
+          "h": 2160,
+          "focal": "7.43% 62.33%",
+          "id": "j1PveYfw15-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "Wz2maNuMr6",
+      "at": 108638,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Why is a Contact Lens Exam Different?",
+          "html": "Why is a Contact Lens Exam Different?",
+          "align": "center",
+          "id": "zF9W1twKao",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>A contact lens exam goes a step beyond a standard <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a>. In addition to checking your vision, we take a closer look at the shape and function of your eyes. This helps us choose lenses that not only correct your vision, but also sit comfortably and support your eye health.</p>",
+          "align": "center",
+          "id": "97beApqDIZ",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "wsW857Dt3H",
+          "id": "kBb0CFWZiT",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "wsW857Dt3H",
+          "id": "WuSaM0pS0d",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "jwFdSyIJvn",
+      "at": 110348,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "The Importance of a Proper Contact Lens Fitting",
+          "html": "The Importance of a Proper Contact Lens Fitting",
+          "id": "eBdQKvCoap",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>The right fit makes all the difference when it comes to contact lenses. Lenses that don’t fit properly can lead to discomfort, irritation, or blurry vision. That’s why our eye doctors in Pine Beach take the time to get it right. Our goal is to make sure your lenses feel natural, so you don’t have to think about them once they’re in.</p>",
+          "id": "vYhA2AavQj",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "6YujMoTlxB",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49f8-f682-702c-92f8-87778e22de8a/shutterstock_2642237127.jpg",
+          "file": "assets/source/c94cc79a-shutterstock_2642237127.jpg-w_2000.webp",
+          "alt": "A man looking at his reflection in the mirror, smiling, and holding a toothbrush with toothpaste on it.",
+          "w": 2000,
+          "h": 1334,
+          "focal": "50.0% 50.0%",
+          "id": "vp6EomkEF8",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "2SpYTfoFUt",
+      "at": 113896,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49f9-77ae-774c-81fc-0d3fc5024b2c/AdobeStock_190523754.jpeg",
+          "file": "assets/source/0eb85174-AdobeStock_190523754.jpeg-w_2000.webp",
+          "alt": "A man and a woman in a clinic with a diagram of an eye on a clipboard",
+          "w": 2000,
+          "h": 1335,
+          "focal": "50.0% 50.0%",
+          "id": "lxcAEJqVnq",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "What Happens During Your Contact Lens Exam",
+          "html": "What Happens During Your Contact Lens Exam",
+          "id": "erZ4OhCxyM",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Here’s what you can expect when you come to Academy Vision:</p><ul><li>We check your vision and overall eye health</li><li>We take measurements to ensure the best possible fit</li><li>We evaluate your tear film to make sure your eyes stay comfortable</li><li>We fit you with trial lenses so you can experience how they feel</li><li>We make adjustments based on comfort and clarity</li></ul>",
+          "id": "rtA2iAOexx",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "2IYGUDfmPe",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "Jecxadxgb8",
+      "at": 117796,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "New to Contacts? You’re in Good Hands",
+          "html": "New to Contacts? You’re in Good Hands",
+          "id": "6W9SazmzOG",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve never worn contact lenses before, that’s completely okay. We’ll show you how to put them in, take them out, and care for them properly, step by step.</p><p>Most people get the hang of it quickly, and we’ll make sure you feel comfortable before you leave. You won’t be rushed, and you won’t be left guessing.</p>",
+          "id": "v0OmPF6GGL",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49fa-1848-7344-b85d-b9a7575112a4/AdobeStock_82956140.jpeg",
+          "file": "assets/source/2f9c949e-AdobeStock_82956140.jpeg-w_2000.webp",
+          "alt": "A woman with a contact lens in her eye is looking at a mirror and smiling while a doctor is examining her eyes",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "hoPbQWTEN3",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "V8WpQ48xZt",
+      "at": 121178,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule Your Contact Lens Exam",
+          "html": "Schedule Your Contact Lens Exam",
+          "align": "center",
+          "id": "A1Mm7GEC7Y",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Whether you’re new to contact lenses or just looking for something that feels better, we’re here to help. We’ll guide you through every step, answer your questions, and make sure everything feels right. Give us a call to schedule your visit at our <a href=\"/hours-location/\">eye clinic in Pine Beach, New Jersey</a>.</p>",
+          "align": "center",
+          "id": "4E6wKjhTp7",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "BuQbyEjf7R",
+          "id": "aFQTeykbQa",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "BuQbyEjf7R",
+          "id": "Li71dFv02N",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

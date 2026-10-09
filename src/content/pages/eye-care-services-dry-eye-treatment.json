@@ -1,0 +1,624 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eye-care-services/dry-eye-treatment/",
+  "source": "audit/raw/eye-care-services-dry-eye-treatment.html",
+  "rendered": "tmp/extract/rendered/eye-care-services-dry-eye-treatment.html",
+  "meta": {
+    "title": "Dry Eye Treatment Pine Beach | Academy Vision",
+    "description": "Suffering from dry eyes? Get advanced dry eye treatment in Pine Beach at Academy Vision. We offer LipiScan and Inflammadry for lasting relief.\n",
+    "canonical": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment/",
+      "type": "website",
+      "title": "Dry Eye Treatment Pine Beach | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a9a-d89c-7164-ad65-5727a68d818c/AdobeStock_119858990.jpeg",
+      "description": "Suffering from dry eyes? Get advanced dry eye treatment in Pine Beach at Academy Vision. We offer LipiScan and Inflammadry for lasting relief.\n",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment/",
+        "url": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment/",
+        "name": "Dry Eye Treatment",
+        "datePublished": "2026-03-26T18:49:26.335Z",
+        "dateModified": "2026-06-04T11:15:46.259Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment/",
+            "description": "Academy Vision provides expert optometric services including advanced dry eye diagnosis and therapy using the latest treatment technologies and personalized care plans.",
+            "medicalSpecialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Optometry"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "United States"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "(732) 736-1700",
+              "contactType": "Practice"
+            },
+            "telephone": "(732) 736-1700",
+            "openingHours": [
+              "Mo 09:00-17:00",
+              "Tu 09:00-17:00",
+              "We 09:00-17:00",
+              "Th 09:00-17:00",
+              "Fr 08:00-15:00"
+            ]
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Dry Eye Disease",
+            "description": "Dry eye disease is a chronic condition caused by tear deficiency or rapid evaporation, leading to discomfort such as redness, itchiness, light sensitivity, and blurred vision. Treatments can alleviate symptoms and restore comfort, but there is no permanent cure.",
+            "signOrSymptom": [
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Redness"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Dry or itchy feeling"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Grittiness"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Light sensitivity"
+              },
+              {
+                "@type": "MedicalSignOrSymptom",
+                "name": "Excessive tearing"
+              }
+            ],
+            "riskFactor": [
+              "Age 50 or older",
+              "Hormonal changes",
+              "Autoimmune conditions",
+              "Use of certain medications"
+            ],
+            "naturalProgression": "Symptoms persist chronically and may worsen without management, although therapeutic interventions often provide substantial relief.",
+            "possibleTreatment": [
+              "Artificial tears or lubricating eye drops",
+              "Prescription eye drops or ointments",
+              "Warm compresses and eyelid hygiene",
+              "Environmental adjustments (humidifiers, avoiding direct air flow)",
+              "Medication review and adjustment"
+            ],
+            "url": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment/",
+            "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+          },
+          {
+            "@type": "MedicalTest",
+            "name": "Dry Eye Evaluation",
+            "description": "Includes tear breakup time, Schirmer test, meibomian gland imaging, and ocular surface staining to assess tear production and eye surface health.",
+            "usedToDiagnose": {
+              "@type": "MedicalCondition",
+              "name": "Dry Eye Disease"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "h1": "Treatment for Dry Eyes in Pine Beach",
+  "counts": {
+    "blocks": 6,
+    "nodes": 24,
+    "static": 24,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "FFvtemAnlE",
+      "at": 108031,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Treatment for Dry Eyes in Pine Beach",
+          "html": "Treatment for Dry Eyes in Pine Beach",
+          "id": "ChRr3cGBiT",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Do your eyes feel dry, irritated, or constantly tired? Many people deal with dry eye symptoms every day, especially from screen time and allergies.</p><p>The good news is that real solutions are available. At <a href=\"/hours-location/\">Academy Vision</a>, we look beyond quick fixes to find out what’s causing your discomfort and help you feel better for the long run.</p>",
+          "id": "A74Yo8hWW7",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "bAm1I77azf",
+          "id": "Q4KsTPk22v",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "bAm1I77azf",
+          "id": "fdrcCuKfXH",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a9a-d89c-7164-ad65-5727a68d818c/AdobeStock_119858990.jpeg",
+          "file": "assets/source/33c79836-AdobeStock_119858990.jpeg",
+          "alt": "An adult male with a beard and glasses sitting at a desk in front of a computer monitor with his eyes closed and hand covering his eyes",
+          "w": 6144,
+          "h": 4096,
+          "focal": "50.0% 50.0%",
+          "id": "FFvtemAnlE-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "oNEA6sYDqZ",
+      "at": 111888,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "What Causes your Dry Eye?",
+          "html": "What Causes your Dry Eye?",
+          "align": "center",
+          "id": "s9QrDWyCJW",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Dry eye usually isn’t just about not having enough tears; it’s often about the quality of those tears. In many cases, the oil glands in your eyelids aren’t working properly, which causes tears to evaporate too quickly. Add in things like screen use, environmental factors, and natural changes, and those symptoms can start to build. The key is figuring out what’s actually causing it, because that’s how we can treat it properly.</p>",
+          "align": "center",
+          "id": "3b6r7Qbyvc",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "ZSfaTcI3ru",
+          "id": "gTwCOsABTO",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "ZSfaTcI3ru",
+          "id": "7OJj6CRRpI",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "8F5OV1d95Z",
+      "at": 113661,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Common Dry Eye Symptoms",
+          "html": "Common Dry Eye Symptoms",
+          "id": "feTFwCLHy3",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Dry eye doesn’t always feel the same for everyone, but it often shows up in ways like this:</p><ul><li>A burning, stinging, or scratchy feeling in your eyes</li><li>That gritty sensation—like something is stuck in your eye</li><li>Redness that doesn’t seem to go away</li><li>Watery eyes (even though they still feel dry)</li><li>Blurry or fluctuating vision throughout the day</li><li>Eyes that feel tired, especially after screen time</li></ul>",
+          "id": "kyFLNQU8EB",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "D1kkXbsAr0",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a9b-4f54-769f-b58e-98d4f24fb93b/AdobeStock_472045717.jpeg",
+          "file": "assets/source/872c214d-AdobeStock_472045717.jpeg-w_2000.webp",
+          "alt": "Close-up view of a person's eye with a red vein, possibly a subconjunctival hemorrhage.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "9d2OLrtKfs",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "GhNKDrjOUG",
+      "at": 117648,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a9c-6195-75c6-b912-89c489ef0299/AdobeStock_504084199.jpeg",
+          "file": "assets/source/3e24fa14-AdobeStock_504084199.jpeg-w_2000.webp",
+          "alt": "A close-up view of a person's eyes, showing a contrast between a healthy eye and an infected eye with red veins and cloudy appearance",
+          "w": 2000,
+          "h": 1334,
+          "focal": "50.0% 50.0%",
+          "id": "vR7LOLbzUY",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "A Better Way to Treat Dry Eye in Pine Beach",
+          "html": "A Better Way to Treat Dry Eye in Pine Beach",
+          "id": "n3NSWpUyEj",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>A lot of people have tried over-the-counter drops but still feel uncomfortable, because they don’t address the root of the problem. We take a different approach.</p><p>Our dry eye doctors look closely at what’s causing your dry eye, how severe it is, and what your day-to-day life looks like. From there, we build a treatment plan that’s tailored to you.</p>",
+          "id": "OxHONuIc9m",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "9sLDHFpjtV",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "nlJO46pJxK",
+      "at": 121291,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Our Dry Eye Treatment Options",
+          "html": "Our Dry Eye Treatment Options",
+          "id": "ys4yn81hh0",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Once we understand what’s causing your dry eye, we can recommend treatments. Your plan may include:</p><ul><li><strong>Prescription eye drops</strong> to reduce inflammation and improve tear quality</li><li><strong>Punctal plugs</strong> to help your eyes hold onto moisture longer</li><li><strong>Amniotic membranes</strong> for advanced healing of the eye’s surface</li><li><strong>Lid treatments and eyelid hygiene</strong> to clear blocked oil glands and restore comfort</li><li><strong>Scleral lenses</strong> that create a protective, hydrating layer for more severe cases</li></ul>",
+          "id": "F458yEvqTA",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4aa0-1937-717e-979e-699fa7ae9323/shutterstock_2143953341.jpg",
+          "file": "assets/source/51ca2fae-shutterstock_2143953341.jpg-w_2000.webp",
+          "alt": "A man getting his nose swabbed by a nurse",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "aE6hFKFn9E",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "YKGR0LWdqn",
+      "at": 125320,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule Your Dry Eye Consultation",
+          "html": "Schedule Your Dry Eye Consultation",
+          "align": "center",
+          "id": "oFCm5UcNCG",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If your eyes have been bothering you, there’s no reason to keep putting up with it. We’ll take the time to figure out what’s going on and help you find lasting relief. Give us a call or schedule your visit for an <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a>—we’re ready when you are.</p>",
+          "align": "center",
+          "id": "JavADQ9a8V",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "fb8HtHddn4",
+          "id": "Iqn1N1xOAL",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "fb8HtHddn4",
+          "id": "3jalh5FRmF",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

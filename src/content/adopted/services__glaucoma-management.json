@@ -1,0 +1,190 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/glaucoma-management",
+  "etSource": "services/glaucoma-management",
+  "title": "Glaucoma Management in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Glaucoma can take side vision before you notice. At Academy Vision in Pine Beach, we keep a close watch and help manage glaucoma to protect your vision.",
+  "h1": "Glaucoma Monitoring and Management in Pine Beach",
+  "kicker": "A Quiet Condition, Watched Closely",
+  "lede": "<p>Glaucoma usually moves slowly and quietly. Most people feel completely normal while it develops, and the earliest changes only show up during a careful eye exam. That’s why it calls for a steady, long-term watch rather than a one-time check.</p><p>We keep a close watch on glaucoma and help manage the condition to protect your vision. Whether you’ve just been told you’re at risk or you’ve been living with glaucoma for years, our optometrists take the time to listen, explain, and make sure you feel comfortable.</p>",
+  "sections": [
+    {
+      "id": "how-glaucoma-affects-the-optic-nerve",
+      "heading": "How Glaucoma Affects the Optic Nerve",
+      "html": "<p>The optic nerve is the bundle of fibers that carries everything your eye sees to your brain. Glaucoma damages those fibers, most often when the pressure inside the eye is more than the nerve can tolerate, although it can also happen when pressure readings fall in the normal range.</p><p>In the most common form, the loss begins at the edges of your vision and creeps inward so gradually that your brain fills in the gaps. Many people notice nothing until a large share of the nerve is affected. Vision lost to glaucoma can’t be brought back, but finding it early and treating it can slow or stop further loss.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "why-regular-checks-matter",
+      "heading": "Three Reasons Regular Glaucoma Checks Matter",
+      "html": "<ul><li><strong>Early detection.</strong> Routine exams can pick up changes in the optic nerve long before you would notice anything yourself.</li><li><strong>A baseline that’s yours.</strong> Your first thorough set of measurements becomes the reference point for every visit after it.</li><li><strong>A plan that adjusts.</strong> If your readings shift, your follow-up schedule or treatment can change with them, instead of waiting for symptoms.</li></ul><p>Early detection and monitoring of glaucoma is one of Dr. Tyler Lesko’s clinical specialties. Dr. Marc Ullman takes pride in managing chronic eye disease.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "what-a-glaucoma-check-looks-at",
+      "heading": "What a Glaucoma Check Looks At",
+      "html": "<p>No single reading tells the whole story, so glaucoma testing usually brings a few pieces together:</p><ul><li><strong>Eye pressure.</strong> A reading of each eye’s internal pressure.</li><li><strong>The optic nerve.</strong> A close look at the nerve’s shape and color for early signs of damage.</li><li><strong>Related tests.</strong> When they’re needed, checks of your side vision, the thickness of your cornea, or the eye’s drainage angle fill in the details.</li></ul><p>We’ll talk through anything we find in plain language, so you understand where things stand.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "watching-for-change",
+      "heading": "Watching for Change, Year After Year",
+      "html": "<p>With glaucoma, the trend matters more than any single number. A pressure reading or a nerve measurement means the most when it sits beside the same measurement from previous years, so even a small shift stands out.</p><p>That comparison gets harder when your results are scattered across different offices. Each one may use different instruments and methods, and no one has the full picture in a single chart. Keeping your glaucoma care in one place lets every visit build on the last. Families from Pine Beach, Beachwood, and Toms River come back to us year after year, and with a condition like this, that continuity counts.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "related-medical-eye-care",
+      "heading": "Part of Your Medical Eye Care",
+      "html": "<p>Glaucoma is one of the conditions we manage as part of our <a href=\"/services/medical-eye-care/\">medical eye care</a>. If you live with diabetes, read how <a href=\"/services/diabetic-eye-exams/\">diabetic eye exams</a> watch over the retina, and learn about <a href=\"/services/macular-degeneration/\">macular degeneration</a> and <a href=\"/services/cataract-co-management/\">cataract care</a>, two more conditions that become more common with age.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Will I notice symptoms if I have glaucoma?",
+      "a": "<p>Usually not at first. The most common type causes no pain and no early change you can see on your own, which is why regular exams matter. A less common type, angle-closure glaucoma, can come on suddenly with a painful red eye, blurred vision, halos around lights, headache, or nausea. That is an emergency, so seek care immediately.</p>"
+    },
+    {
+      "q": "Who has a higher risk of glaucoma?",
+      "a": "<p>Anyone can develop glaucoma, but the risk rises with age and is higher if a parent, brother, or sister has it. Your odds are also higher if you have high eye pressure or diabetes, are very nearsighted, have used steroid medicines for a long time, have had a serious eye injury, or are of Asian, African, or Hispanic descent.</p>"
+    },
+    {
+      "q": "How is glaucoma treated?",
+      "a": "<p>Treatment aims to lower the pressure inside the eye. Prescription eye drops, used daily, are the most common first step. Laser treatment is another option, sometimes chosen first, and surgery may be considered when other treatments aren’t enough. Whatever the approach, steady follow-up shows whether it’s working, and we’ll help you manage the condition over the long term.</p>"
+    },
+    {
+      "q": "How often should I be checked?",
+      "a": "<p>It depends on your age, your risk factors, and whether you’ve already been diagnosed. Adults without risk factors are generally advised to have a complete eye exam by age 40, and people with glaucoma or a higher risk are usually seen more often. The right interval is the one built around your own readings, so ask at your next visit.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Schedule a Glaucoma Check in Pine Beach",
+    "html": "<p>Even if your eyes feel fine, a glaucoma check is worth the time, since the early stages rarely give any warning. Call us at (732) 978-9306 or book your visit online. We’ll take a close look at your eye health and walk you through what we see.</p>"
+  },
+  "related": [
+    "services/medical-eye-care",
+    "services/diabetic-eye-exams",
+    "services/macular-degeneration",
+    "services/cataract-co-management"
+  ],
+  "claims": [
+    {
+      "text": "Glaucoma Management in Pine Beach, NJ | Academy Vision",
+      "factId": "service-glaucoma",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We keep a close watch and help manage the condition to protect your vision."
+    },
+    {
+      "text": "Glaucoma Monitoring and Management in Pine Beach",
+      "factId": "service-glaucoma",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We keep a close watch and help manage the condition to protect your vision."
+    },
+    {
+      "text": "A Quiet Condition, Watched Closely",
+      "factId": "service-glaucoma",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We keep a close watch and help manage the condition to protect your vision."
+    },
+    {
+      "text": "Schedule a Glaucoma Check in Pine Beach",
+      "factId": "service-glaucoma",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We keep a close watch and help manage the condition to protect your vision."
+    },
+    {
+      "text": "At Academy Vision in Pine Beach, we keep a close watch and help manage glaucoma to protect your vision.",
+      "factId": "service-glaucoma",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We keep a close watch and help manage the condition to protect your vision."
+    },
+    {
+      "text": "We keep a close watch on glaucoma and help manage the condition to protect your vision.",
+      "factId": "service-glaucoma",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We keep a close watch and help manage the condition to protect your vision."
+    },
+    {
+      "text": "Whether you’ve just been told you’re at risk or you’ve been living with glaucoma for years, our optometrists take the time to listen, explain, and make sure you feel comfortable.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    },
+    {
+      "text": "Early detection and monitoring of glaucoma is one of Dr. Tyler Lesko’s clinical specialties.",
+      "factId": "doctor-tl-ocular-disease",
+      "page": "/team/dr-tyler-lesko-od/",
+      "quote": "Ocular Disease: Early detection and monitoring of glaucoma, macular degeneration, and cataracts."
+    },
+    {
+      "text": "Dr. Marc Ullman takes pride in managing chronic eye disease.",
+      "factId": "doctor-mu-difficult-fittings",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "Managing difficult contact lens fittings and chronic ocular disease."
+    },
+    {
+      "text": "We’ll talk through anything we find in plain language, so you understand where things stand.",
+      "factId": "service-exam-includes",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Talk through anything we find in plain language that you can understand"
+    },
+    {
+      "text": "Families from Pine Beach, Beachwood, and Toms River come back to us year after year, and with a condition like this, that continuity counts.",
+      "factId": "address-area-served",
+      "page": "/",
+      "quote": "It’s one of the reasons families throughout Pine Beach, Beachwood, and Toms River continue to come back year after year."
+    },
+    {
+      "text": "Glaucoma is one of the conditions we manage as part of our medical eye care.",
+      "factId": "service-ocular-diseases-managed",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Ocular Diseases We Manage Glaucoma"
+    },
+    {
+      "text": "If you live with diabetes, read how diabetic eye exams watch over the retina, and learn about macular degeneration and cataract care, two more conditions that become more common with age.",
+      "factId": "service-ocular-diseases-managed",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Diabetic Eye Disease"
+    },
+    {
+      "text": "Whatever the approach, steady follow-up shows whether it’s working, and we’ll help you manage the condition over the long term.",
+      "factId": "service-glaucoma",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We keep a close watch and help manage the condition to protect your vision."
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your visit online.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your visit online.",
+      "factId": "booking-online",
+      "page": "/",
+      "quote": "https://scheduleyourexam.com/v3/index.php/3197"
+    },
+    {
+      "text": "We’ll take a close look at your eye health and walk you through what we see.",
+      "factId": "service-exam-includes",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Take a close look at your eye health, including any signs of concerns"
+    }
+  ],
+  "flags": [
+    "Glaucoma tests: Academy Vision’s copy names no glaucoma test or instrument, so the page describes testing in general terms (eye pressure, optic nerve, side vision, corneal thickness, drainage angle). Patient reviews mention an eye scan in place of the air-puff test, but that is a review, not a practice statement. If the practice wants its own tests or imaging named, please supply them.",
+    "Treatment: the treatment answer is general (daily drops, laser, surgery). The live site does not say whether Academy Vision’s doctors prescribe glaucoma drops or refer for laser or surgery; please state which, and the page can say so directly.",
+    "Visit frequency: the page gives general guidance only (a complete exam by age 40; more often with glaucoma or higher risk) and promises no schedule.",
+    "Doctors named: Dr. Tyler Lesko (early detection and monitoring of glaucoma, from his bio) and Dr. Marc Ullman (managing chronic ocular disease, from his bio). Please approve naming both on this page."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G2-medical",
+    "notes": "Writer (writer-G2-medical): node tools/overlap-check.mjs --files <the four G2 files> --fail 8: longest span shared with the Eye Trends crawl is 6 words (fail at 8); every span of 6+ words is the comprehensive-exams page path that claims cite (claims.page), which the tool reads as words; the visible fields alone share at most 5 words (5-word shingles); a --control run detected the inserted sentence (exit 0). Claims map to facts/client-facts.json by factId. Checker (checker-G2-medical, 2026-10-08): re-ran the overlap gate on the final bytes (longest 6, still only the claim page path read as words; the --control run reported DETECTED), the visible fields alone with 5-word shingles (longest 5), all 17 claims (factId exists, page equals the fact page, quote found in audit/raw), every we/our/us/Academy Vision sentence, meta-language, promise and hype words, tags, links (own checker plus the pipeline's own buildPages: 0 errors) and body words (862). No unsupported practice claim found; no claimed sentence was edited. Changes: (1) FAQ 'How is glaucoma treated?' before: 'Daily prescription eye drops are the most common first step, and laser treatment or surgery are options when drops aren’t enough or aren’t a good fit.' after: 'Prescription eye drops, used daily, are the most common first step. Laser treatment is another option, sometimes chosen first, and surgery may be considered when other treatments aren’t enough.' why: laser can be a first treatment, not only a fallback after drops; also fixes the 'or ... are' agreement. (2) FAQ 'Who has a higher risk of glaucoma?' before: 'if you have diabetes, are very nearsighted' after: 'if you have high eye pressure or diabetes, are very nearsighted' why: the risk list left out the main risk factor. (3) CTA before: 'Feeling fine is a good reason to check, not a reason to skip it.' after: 'Even if your eyes feel fine, a glaucoma check is worth the time, since the early stages rarely give any warning.' why: the old line read backwards; the new one follows Academy Vision’s own 'Even if everything feels fine' wording on the eye disease page."
+  }
+}

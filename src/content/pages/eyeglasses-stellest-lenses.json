@@ -1,0 +1,536 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eyeglasses/stellest-lenses/",
+  "source": "audit/raw/eyeglasses-stellest-lenses.html",
+  "rendered": "tmp/extract/rendered/eyeglasses-stellest-lenses.html",
+  "meta": {
+    "title": "Stellest® Lenses in Pine Beach, NJ | Academy Vision",
+    "description": "Slow myopia in children with Stellest® lenses in Pine Beach. Innovative lens technology for your child’s eyes at Academy Vision.",
+    "canonical": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses/",
+      "type": "website",
+      "title": "Stellest® Lenses in Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a04-714b-7276-9280-78f06eba5aec/AdobeStock_964691670-1m.jpg",
+      "description": "Slow myopia in children with Stellest® lenses in Pine Beach. Innovative lens technology for your child’s eyes at Academy Vision.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses/",
+        "url": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses/",
+        "name": "Stellest® Lenses",
+        "datePublished": "2026-03-26T18:52:50.420Z",
+        "dateModified": "2026-05-08T06:20:43.239Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Essilor® Stellest® lenses for Myopia",
+  "counts": {
+    "blocks": 6,
+    "nodes": 24,
+    "static": 24,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "UZ8xueF1G9",
+      "at": 104736,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Essilor® Stellest® lenses for Myopia",
+          "html": "Essilor® Stellest® lenses for Myopia",
+          "id": "HIND4nFkOx",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If your child’s prescription keeps changing, you’re probably wondering what you can do to stay ahead of it. <a href=\"/eye-care-services/myopia-management/\">Myopia</a> is common in kids, and it often progresses over time, but there are ways to help slow it down. Stellest® lenses are designed to do just that, offering a simple, research-backed option that fits easily into your child’s daily routine.</p>",
+          "id": "xc5XEKCS7y",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "7tXK5eZBRA",
+          "id": "T74pX0dMS6",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "7tXK5eZBRA",
+          "id": "wqfLadFWEf",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a04-714b-7276-9280-78f06eba5aec/AdobeStock_964691670-1m.jpg",
+          "file": "assets/source/4ba41884-AdobeStock_964691670-1m.jpg-w_1000.webp",
+          "alt": "Two young children, a girl with glasses and a boy with curly hair, smiling at the camera in a park",
+          "w": 1000,
+          "h": 694,
+          "focal": "50.0% 50.0%",
+          "id": "UZ8xueF1G9-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "dFkSW1c0dU",
+      "at": 108093,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "What Makes Stellest® Lenses Different",
+          "html": "What Makes Stellest® Lenses Different",
+          "align": "center",
+          "id": "FgZn6JFWt7",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Stellest® lenses are designed specifically for myopia management, not just vision correction. While standard glasses help your child see clearly, Stellest® lenses are built with advanced technology that helps slow the rate at which their prescription changes. It’s a way to support your child’s vision while also thinking about their long-term eye health.</p>",
+          "align": "center",
+          "id": "ELj5z9NKtj",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "aqZZf7dnMp",
+          "id": "L42pDf1C2p",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "aqZZf7dnMp",
+          "id": "6OMavSjTOz",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "instsWNlsB",
+      "at": 109797,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "The Importance of Slowing Myopia Progression",
+          "html": "The Importance of Slowing Myopia Progression",
+          "id": "gXvBcj5cx6",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>When myopia continues to progress, prescriptions can become stronger over time, and that can increase the risk of eye health issues later in life.</p><p>The goal of myopia management is to slow that progression early, while your child’s eyes are still developing. Starting sooner can make a meaningful difference down the road.</p>",
+          "id": "q35kzCm1Ge",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "XFF1R7oeSA",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a04-f495-72be-b8af-14311392f0c8/AdobeStock_493468092.jpeg",
+          "file": "assets/source/21f084c5-AdobeStock_493468092.jpeg-w_2000.webp",
+          "alt": "A man in a yellow shirt reading a book on a couch",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "sg8VwaBwWj",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "6B5IgLcBt2",
+      "at": 113276,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a08-0a83-7012-b7b5-1048a3a54ae0/AdobeStock_267718649.jpeg",
+          "file": "assets/source/0e614253-AdobeStock_267718649.jpeg-w_2000.webp",
+          "alt": "A smiling young boy with glasses posing for a picture in front of a car.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "gz5VyRO2QS",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "How Stellest® lenses Help Manage Myopia",
+          "html": "How Stellest® lenses Help Manage Myopia",
+          "id": "wVguRysaNe",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Stellest® lenses work by adjusting how light enters the eye. This helps slow the eye’s growth, which is what leads to worsening myopia. The best part is, your child wears them just like regular glasses, no extra steps and no complicated routines.</p>",
+          "id": "uo5QbaCBpy",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "GikvPW8Mbp",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "olBPpfQcyD",
+      "at": 116707,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#0f2a4a",
+        "textColor": "#fff"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Why Parents Choose Stellest® Lenses",
+          "html": "Why Parents Choose Stellest® Lenses",
+          "id": "c8B419ySjg",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Stellest® lenses are designed to fit easily into your child’s daily routine while supporting their long-term vision:</p><ul><li>Worn just like regular prescription glasses</li><li>Comfortable for school, activities, and everyday wear</li><li>Helps slow changes in your child’s prescription</li><li>Backed by advanced myopia control lens technology</li></ul>",
+          "id": "XGLhIQ2ULO",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a07-80f6-773c-9571-b998d956d072/AdobeStock_559860257.jpeg",
+          "file": "assets/source/eb84dd16-AdobeStock_559860257.jpeg-w_2000.webp",
+          "alt": "A man and a boy are sitting on a bench inside an optical store, both looking at glasses on a table with a black surface, with many glasses on display behind them in a glass cabinet, and a curtain on the wall behind the man",
+          "w": 2000,
+          "h": 1331,
+          "focal": "50.0% 50.0%",
+          "id": "JyDYHgGK3n",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "VivSeHKVnD",
+      "at": 120459,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule a Myopia Consultation",
+          "html": "Schedule a Myopia Consultation",
+          "align": "center",
+          "id": "8hj9P7R8Zt",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If your child’s vision has been changing, it’s worth asking our eye doctors about Stellest® lenses. We’ll take the time to answer your questions, explain your options, and help you decide what makes the most sense moving forward.</p>",
+          "align": "center",
+          "id": "nWsacQcnWl",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "sU0iNxRArP",
+          "id": "JvkvMneoPg",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "sU0iNxRArP",
+          "id": "xVBuVfazk9",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

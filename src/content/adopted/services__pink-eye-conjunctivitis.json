@@ -1,0 +1,156 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/pink-eye-conjunctivitis",
+  "etSource": "services/pink-eye-conjunctivitis",
+  "title": "Pink Eye Signs and When to Call | Academy Vision, Pine Beach, NJ",
+  "metaDescription": "Red, itchy or weepy eyes? Learn the signs of pink eye, how it spreads, when it needs prompt care, and how to reach Academy Vision in Pine Beach.",
+  "h1": "Pink Eye and Conjunctivitis: Answers for Pine Beach Families",
+  "kicker": "Red, Itchy or Weepy?",
+  "lede": "<p>Pink eye tends to show up overnight. You go to bed feeling fine and wake to a red, gritty eye and lashes glued together—or your child does, on a school morning. Waking up to pink eye can feel alarming, but it doesn’t have to be. It’s common and usually mild, and knowing which kind you’re dealing with makes the next step much clearer.</p>",
+  "sections": [
+    {
+      "id": "what-pink-eye-is",
+      "heading": "What Pink Eye Is",
+      "html": "<p>Pink eye is the everyday name for conjunctivitis, an inflammation of the thin, clear layer that covers the white of the eye and lines the inside of the eyelids. Viruses cause most cases in adults, and bacteria cause many in children. Allergies and irritants such as smoke and pool chlorine can bring it on too. You might notice:</p><ul><li>A pink or red tint to the white of the eye</li><li>Watering, or a discharge that may be clear, white, yellow or green</li><li>Itching, burning or a sandy feeling</li><li>Crusty lashes or lids that stick together in the morning</li><li>Puffy eyelids</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "why-the-cause-matters",
+      "heading": "Why the Cause Makes a Difference",
+      "html": "<ul><li><strong>Different kinds need different care.</strong> Viral pink eye usually runs its course, bacterial pink eye may call for prescription drops, and allergic pink eye is handled another way entirely.</li><li><strong>Other problems can look the same.</strong> A scratch on the eye, a trapped particle, a contact lens problem or inflammation inside the eye can all cause redness, and some of these need prompt treatment.</li><li><strong>A clear plan helps the whole household.</strong> Knowing the cause tells you how to ease the discomfort, how to stop it spreading and when to go back to school or work.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "what-the-visit-involves",
+      "heading": "What an Eye Visit for Pink Eye Usually Involves",
+      "html": "<p>When an eye doctor checks a red, weepy eye, the visit usually includes:</p><ol><li>Questions about when it started, which eye is affected and whether anyone around you has had it</li><li>A quick check of how well each eye sees</li><li>A magnified look at the white of the eye, the clear front surface and the inside of the eyelids</li><li>A plain-language talk about the likely cause, what will help and what to watch for</li></ol>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "drops-or-waiting",
+      "heading": "Why Store-Bought Drops or Waiting It Out Can Fall Short",
+      "html": "<p>Redness-relief drops from the pharmacy can make an eye look whiter for a few hours, but they don’t treat what’s causing the redness, and frequent use can leave eyes redder. Antibiotic drops won’t help a virus, and leftover drops from an old prescription—or someone else’s—aren’t a safe bet. Waiting is reasonable for a mild case that’s already improving, but the kinds are hard to tell apart at home.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "when-to-get-help",
+      "heading": "When to Get Help Promptly",
+      "html": "<p>Call an eye doctor promptly if you notice:</p><ul><li>Eye pain, not just mild irritation</li><li>Sensitivity to light</li><li>Blurry vision that doesn’t clear when you blink</li><li>Redness in a contact lens wearer</li><li>Symptoms that get worse, or don’t start to improve after a few days</li><li>Pink eye in someone with a weakened immune system</li></ul><p>For a newborn with red or sticky eyes, call your baby’s doctor right away.</p><p>Go to the nearest emergency room right away for sudden vision loss, a chemical splash, an injury that cuts or punctures the eye, a curtain or shadow over part of your vision, or flashes of light with a sudden shower of new floaters. None of these is typical of pink eye, and none should wait.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "close-to-home",
+      "heading": "A Familiar Office Close to Home",
+      "html": "<p>Academy Vision has been part of this community for decades, and our team is made up of experienced optometrists who take the time to listen, explain and make sure you feel comfortable. When redness or discomfort won’t go away, we offer emergency eye care in Pine Beach whenever possible. Medical insurance comes into play for health-related concerns such as eye infections, and our team can help you understand your benefits.</p><p>For other urgent problems, see our pages on <a href=\"/services/red-eye-treatment/\">red, irritated eyes</a>, <a href=\"/services/foreign-body-removal/\">something stuck in your eye</a> and <a href=\"/services/emergency-eye-care/\">emergency eye care</a>.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is pink eye contagious?",
+      "a": "<p>Viral and bacterial pink eye spread easily through hands, towels and pillowcases; allergic pink eye doesn’t spread. At home, wash hands often, keep hands away from your eyes, use your own towel, change pillowcases often and don’t share eye makeup. Contact lens wearers should leave lenses out until the eyes are back to normal, then start fresh with new lenses and a new case.</p>"
+    },
+    {
+      "q": "Should my child stay home from school or daycare?",
+      "a": "<p>It depends on the cause and on the school’s rules, since many schools and daycares set their own policies. Allergic pink eye isn’t contagious. For the viral or bacterial kind, check with the school nurse and ask your child’s doctor when it’s reasonable to go back. The same goes for adults who work closely with others.</p>"
+    },
+    {
+      "q": "How soon should pink eye be checked?",
+      "a": "<p>Right away for any of the warning signs above. For a mild case, call if it isn’t improving after a few days or gets worse at any point. Questions in the meantime? Call us at (732) 978-9306 to ask.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Questions About a Red, Weepy Eye?",
+    "html": "<p>Call Academy Vision at (732) 978-9306 and tell us what you’re noticing. We’re right on Route 9 near the Mizzen Avenue light in Pine Beach.</p>"
+  },
+  "related": [
+    "services/emergency-eye-care",
+    "services/red-eye-treatment",
+    "services/dry-eye-treatment"
+  ],
+  "claims": [
+    {
+      "text": "Pink Eye Signs and When to Call | Academy Vision, Pine Beach, NJ",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "Red, itchy or weepy eyes? Learn the signs of pink eye, how it spreads, when it needs prompt care, and how to reach Academy Vision in Pine Beach.",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "Academy Vision has been part of this community for decades, and our team is made up of experienced optometrists who take the time to listen, explain and make sure you feel comfortable.",
+      "factId": "history-decades-community",
+      "page": "/hours-location/",
+      "quote": "We’ve been part of this community for decades"
+    },
+    {
+      "text": "Academy Vision has been part of this community for decades, and our team is made up of experienced optometrists who take the time to listen, explain and make sure you feel comfortable.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    },
+    {
+      "text": "When redness or discomfort won’t go away, we offer emergency eye care in Pine Beach whenever possible.",
+      "factId": "service-emergency",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "text": "Medical insurance comes into play for health-related concerns such as eye infections, and our team can help you understand your benefits.",
+      "factId": "insurance-medical-concern",
+      "page": "/insurance/",
+      "quote": "Medical insurance comes into play when there’s a health-related concern with your eyes."
+    },
+    {
+      "text": "Medical insurance comes into play for health-related concerns such as eye infections, and our team can help you understand your benefits.",
+      "factId": "service-medical-insurance-visits",
+      "page": "/insurance/",
+      "quote": "This can include things like infections, dry eye, eye disease, or sudden changes in your vision."
+    },
+    {
+      "text": "Medical insurance comes into play for health-related concerns such as eye infections, and our team can help you understand your benefits.",
+      "factId": "staff-benefits-help",
+      "page": "/insurance/",
+      "quote": "Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan."
+    },
+    {
+      "text": "Call us at (732) 978-9306 to ask.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call Academy Vision at (732) 978-9306 and tell us what you’re noticing.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "We’re right on Route 9 near the Mizzen Avenue light in Pine Beach.",
+      "factId": "address-landmark",
+      "page": "/eyeglasses/",
+      "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light."
+    }
+  ],
+  "flags": [
+    "Service not named on the live site: no Academy Vision page mentions pink eye or conjunctivitis. The nearest statements are “infections” as an example of a medical-insurance visit (/insurance/), “red eyes” in Dr. Marc Ullman’s clinical focus (/team/dr-marc-ullman-od/), and emergency care for “redness” whenever possible (/hours-location/). Please confirm that the doctors diagnose and treat conjunctivitis before this page is promoted.",
+    "Until then the wording stays non-committal: the title and h1 read “Pink Eye Signs and When to Call” and “Pink Eye and Conjunctivitis: Answers for Pine Beach Families” instead of the proposed “Pink Eye Treatment” and “Pink Eye and Conjunctivitis Care”, while the menu label in restructure.json still reads “Pink Eye Treatment”. The visit steps describe what an eye doctor usually does, not a protocol stated by the practice.",
+    "No same-day or walk-in visit, appointment timing, test or prescription is promised; if the practice has a policy for urgent pink-eye visits, it can be added.",
+    "Clinical wording for a doctor to review: contagion and hygiene advice, contact lens advice (leave lenses out, replace lenses and case), the prompt-care list (including weakened immune systems), the newborn sentence (call the baby’s doctor right away), the viral/bacterial split by age and the school or work answer, which deliberately gives no return-to-school durations."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G3-urgent",
+    "notes": "New writing from the restructure.json purpose outline, in Academy Vision’s voice; no Eye Trends file was opened. Evidence PARTIAL, so the copy explains the condition, describes what an eye visit usually involves in general terms, invites a call to ask and promises no treatment or timing. tools/overlap-check.mjs --fail 8 on 2026-10-08: longest shared span 6 words (a generic emergency-room phrase); a --control run detected the inserted 21-word sentence. Body copy 859 words (lede, sections, FAQ, cta, headings and questions included). tmp/writer-G3-urgent/verify.mjs checked tags, links, related paths, word count, meta-language and every claim against facts/client-facts.json and the visible copy. Checker G3-urgent, 2026-10-08 (re-ran the evidence; no Eye Trends file opened). Changes: (1) sections.what-pink-eye-is, before: “Viruses cause most cases. Bacteria cause some, and allergies or irritants such as smoke and pool chlorine can bring it on too.” After: “Viruses cause most cases in adults, and bacteria cause many in children. Allergies and irritants such as smoke and pool chlorine can bring it on too.” Why: medical accuracy; bacteria cause a large share of pink eye in children, and this page speaks to parents. (2) sections.drops-or-waiting, before: “…but they don’t treat an infection or an allergy…” After: “…but they don’t treat what’s causing the redness…” Why: some pharmacy redness drops include an antihistamine and do ease allergy itch, so the old claim was inaccurate; the accurate point is that they don’t treat the cause. (3) sections.when-to-get-help, before: the list item “Red or sticky eyes in a newborn, or pink eye in someone with a weakened immune system” under “Call an eye doctor promptly”. After: the list item “Pink eye in someone with a weakened immune system” plus the sentence “For a newborn with red or sticky eyes, call your baby’s doctor right away.” Why: newborn conjunctivitis needs a doctor right away, and the baby’s own doctor is the right first call, not an eye doctor “promptly”. (4) flags[3] updated to name the newborn sentence and the age split. Checks: overlap longest 6 (“go to the nearest emergency room”, kept); --control DETECTED; check.mjs: 868 body words, 3 links, 3 related paths, 11/11 claims trace. Regex hits read and kept: “a few hours” (how long redness drops last), “a few days” x2 (when to call if it isn’t improving); no same day, walk-in, today, in stock, guarantee or price. Every we/our/Academy Vision sentence is backed by client-facts.json; none claims the practice diagnoses or treats pink eye. The pipeline’s 13:02 build (theme stub; run by PIPELINE, not by this checker) rendered the edited copy: one h1, 0 build errors, 0 broken links."
+  }
+}

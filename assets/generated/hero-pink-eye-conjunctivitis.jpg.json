@@ -1,0 +1,37 @@
+{
+  "id": "hero-pink-eye-conjunctivitis",
+  "file": "assets/generated/hero-pink-eye-conjunctivitis.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the pink eye page (adopted slot)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Young boy asleep under a blue blanket with one hand by his eye while an adult rests a hand on his head",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a young boy resting on a sofa under a light blue blanket and gently rubbing one eye, an adult hand resting reassuringly on his shoulder with the adult out of frame, soft daylight, cream and navy tones, no visible discharge or graphic redness, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 1296951965,
+  "requestId": "01a119ce-f69f-74b0-abef-d4a351d43bca",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-pink-eye-conjunctivitis.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "84f448b65bdfeac3678c4ba2378bb0c33e592b161a0ade0ae0bfa77085583abf",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: young boy asleep under a light blue blanket, own hand at his cheek by one eye; adult hand on his head, adult out of frame except a navy sleeve at the right edge; no discharge or redness",
+      "100% boy's hand: four curled fingers, natural nails",
+      "100% adult hand + 50% forearm/sleeve: fingers draped on the hair, arm passes behind the head - plausible",
+      "cream/blue palette"
+    ],
+    "notes": "alt adjusted: the adult hand is on his head, not his shoulder, and he is asleep rather than rubbing the eye",
+    "at": "2026-10-08T04:42:00.877Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T04:42:02.796Z"
+}

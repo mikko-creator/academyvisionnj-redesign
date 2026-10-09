@@ -1,0 +1,660 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eye-care-services/myopia-management/",
+  "source": "audit/raw/eye-care-services-myopia-management.html",
+  "rendered": "tmp/extract/rendered/eye-care-services-myopia-management.html",
+  "meta": {
+    "title": "Myopia Management Pine Beach, NJ | Academy Vision",
+    "description": "Protect your child's sight with myopia management in Pine Beach. Academy Vision offers MiSight and therapy to slow nearsightedness.",
+    "canonical": "https://www.academyvisionnj.com/eye-care-services/myopia-management/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eye-care-services/myopia-management/",
+      "type": "website",
+      "title": "Myopia Management Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a85-9535-762b-b482-70e1c59c576a/AdobeStock_145731674.jpeg",
+      "description": "Protect your child's sight with myopia management in Pine Beach. Academy Vision offers MiSight and therapy to slow nearsightedness.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eye-care-services/myopia-management/",
+        "url": "https://www.academyvisionnj.com/eye-care-services/myopia-management/",
+        "name": "Myopia Management",
+        "datePublished": "2026-03-26T18:51:00.453Z",
+        "dateModified": "2026-06-04T11:20:35.584Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com/eye-care-services/myopia-management/",
+            "medicalSpecialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Optometry"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "United States"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "(732) 736-1700",
+              "contactType": "Practice"
+            },
+            "telephone": "(732) 736-1700",
+            "openingHours": [
+              "Mo 09:00-17:00",
+              "Tu 09:00-17:00",
+              "We 09:00-17:00",
+              "Th 09:00-17:00",
+              "Fr 08:00-15:00"
+            ]
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Myopia",
+            "alternateName": "Nearsightedness",
+            "description": "A progressive refractive condition where distant vision becomes blurry, often beginning in childhood and worsening over time.",
+            "riskFactor": [
+              "Early onset before age 6",
+              "Frequent screen exposure",
+              "Family history of myopia"
+            ],
+            "signOrSymptom": [
+              "Difficulty seeing distant objects clearly",
+              "Frequent changes in prescription"
+            ],
+            "possibleTreatment": [
+              "Optical correction (spectacles or specialty contact lenses)",
+              "Low-dose atropine eye drops",
+              "Orthokeratology (overnight corneal reshaping)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "h1": "Myopia Control for Children in Pine Beach",
+  "counts": {
+    "blocks": 7,
+    "nodes": 28,
+    "static": 28,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "P7o4QU7Idr",
+      "at": 112281,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Myopia Control for Children in Pine Beach",
+          "html": "Myopia Control for Children in Pine Beach&nbsp;",
+          "id": "tlS613GMNE",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Does your child’s prescription seem to be changing every year? Myopia, or nearsightedness, is becoming more common in kids, especially with increased screen time and less time outdoors.</p><p>The good news is, there are ways to slow it down. At <a href=\"/hours-location/\">Academy Vision</a>, we focus on more than just helping your child see clearly—we work to protect their vision for the future.</p>",
+          "id": "N46tpPbPB4",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "0IwNEwCThP",
+          "id": "4jwklWXKOE",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "0IwNEwCThP",
+          "id": "IIgK0CHHcq",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a85-9535-762b-b482-70e1c59c576a/AdobeStock_145731674.jpeg",
+          "file": "assets/source/fbcf2513-AdobeStock_145731674.jpeg",
+          "alt": "Young girl with long red hair and a white shirt looking into an eye examination machine and smiling",
+          "w": 5760,
+          "h": 3840,
+          "focal": "50.0% 50.0%",
+          "id": "P7o4QU7Idr-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "uam9Rip7Es",
+      "at": 116148,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "What It Means to be Nearsighted",
+          "html": "What It Means to be Nearsighted&nbsp;",
+          "align": "center",
+          "id": "sUw6aGfT1W",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Myopia means your child can see things up close, but distant objects, like the board at school or signs far away, start to look blurry. This happens because the eye grows longer than it should, causing light to focus in the wrong place. As kids grow, their eyes can continue to change, which is why prescriptions often keep increasing over time.</p>",
+          "align": "center",
+          "id": "FSImutE3WG",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "KVLHLbHMMj",
+          "id": "1c9rdR2enA",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "KVLHLbHMMj",
+          "id": "sc0ETO6iV4",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "lFKFaCmmjC",
+      "at": 117818,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Why Myopia Management Is Important",
+          "html": "Why Myopia Management Is Important",
+          "id": "IA3uzMCig2",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Glasses can help your child see clearly, but they don’t stop myopia from getting worse. As prescriptions increase, so does the risk of developing more severe <a href=\"/eye-care-services/eye-disease-management/\">eye conditions</a> later in life.</p><p>By starting treatment early, we can help slow that progression and reduce those risks, giving your child a better chance at long-term eye health.</p>",
+          "id": "BswQw2uVUS",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "6FeUGvazkt",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a85-fa9b-758d-93b4-874a87b67300/AdobeStock_493468092.jpeg",
+          "file": "assets/source/05da6128-AdobeStock_493468092.jpeg-w_2000.webp",
+          "alt": "A man is reading a book on a couch with pillows and a cup on the table in front of him.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "c4joVqGNCc",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "qDNMpES30B",
+      "at": 121446,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a87-1312-72a5-b797-2a5f651357a6/AdobeStock_664048271.jpeg",
+          "file": "assets/source/e6a9b342-AdobeStock_664048271.jpeg-w_2000.webp",
+          "alt": "A young boy is smiling and holding a marker while a young woman is sitting beside him and looking at him with a laptop on the table in front of them",
+          "w": 2000,
+          "h": 1334,
+          "focal": "50.0% 50.0%",
+          "id": "QWCsdOwVoD",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "A Personalized Myopia Plan for Your Child",
+          "html": "A Personalized Myopia Plan for Your Child",
+          "id": "PpUifYP5n6",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Every child is different, and their treatment should be too. We take the time to evaluate your child’s vision, lifestyle, and the rate at which their prescription is changing. From there, we’ll walk you through your options and help you choose a plan that fits your family. You’ll never feel rushed or overwhelmed—just informed and supported.</p>",
+          "id": "48Vg7hEyHu",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "UPnxluonRc",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "UWTkgugB1i",
+      "at": 125061,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Our Myopia Treatments",
+          "html": "Our Myopia Treatments",
+          "id": "4FrIXtj3bJ",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Once we understand your child’s vision, we’ll recommend options that are designed to slow progression. These may include:</p><ul><li><strong>Ortho-k (overnight lenses)</strong> that gently reshape the eye while your child sleeps, so they can see clearly during the day without glasses or contacts.</li><li><strong>Soft contact lenses</strong> designed specifically for kids to help control how light enters the eye and slow prescription changes.</li><li><strong>Atropine eye drops</strong> that are easy to use at home and help reduce how quickly myopia progresses.</li><li><a href=\"/eyeglasses/stellest-lenses/\"><strong>Myopia control glasses</strong></a> with specialized lenses that support clearer vision while helping manage long-term changes.</li></ul>",
+          "id": "LJBcPuENxp",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a87-a98c-7028-9aa1-f912e39d46da/AdobeStock_648663168.jpeg",
+          "file": "assets/source/7337871b-AdobeStock_648663168.jpeg-w_2000.webp",
+          "alt": "A girl is trying to put a contact lens on her eye",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "Tr2ZiNFMrP",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "XO9G7UTC63",
+      "at": 129167,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a88-209a-7375-808f-59cdcbca9a18/AdobeStock_415830666.jpeg",
+          "file": "assets/source/da3495be-AdobeStock_415830666.jpeg-w_2000.webp",
+          "alt": "A boy is checking his eyesight with a machine at the optometrist's office.",
+          "w": 2000,
+          "h": 1335,
+          "focal": "50.0% 50.0%",
+          "id": "m6Abv4Srvq",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "What the Myopia Process Looks Like",
+          "html": "What the Myopia Process Looks Like",
+          "id": "X6uob8uIAX",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Getting started is easier than you might think. We begin with a <a href=\"/eye-care-services/comprehensive-eye-exams/\">comprehensive eye exam</a> to understand your child’s vision and how it’s changing. From there, we’ll talk through the best options and create a plan tailored to their needs. As your child grows, we’ll continue to monitor their progress and make adjustments along the way.</p>",
+          "id": "Pds0govyII",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "a71IhjHBvW",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "tOoR8QOv6y",
+      "at": 132801,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule a Myopia Evaluation in Pine Beach",
+          "html": "Schedule a Myopia Evaluation in Pine Beach",
+          "align": "center",
+          "id": "UP1cWxo1iU",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve noticed your child’s vision changing, it’s worth taking a closer look. We’ll walk you through everything, answer your questions, and help you decide what makes the most sense moving forward. Give us a call or schedule your visit—we’ll take it from there.</p>",
+          "align": "center",
+          "id": "R0kz320Oo1",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "m1jh0j2MuR",
+          "id": "yRuw9qo5eF",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "m1jh0j2MuR",
+          "id": "zx9h3uQTXN",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

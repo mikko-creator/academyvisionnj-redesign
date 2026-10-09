@@ -1,0 +1,654 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eye-care-services/comprehensive-eye-exams/",
+  "source": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+  "rendered": "tmp/extract/rendered/eye-care-services-comprehensive-eye-exams.html",
+  "meta": {
+    "title": "Comprehensive Eye Exams in Pine Beach, NJ | Academy Vision",
+    "description": "Schedule your comprehensive eye exam in Pine Beach. We use advanced technology to check your vision and eye health at Academy Vision.",
+    "canonical": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams/",
+      "type": "website",
+      "title": "Comprehensive Eye Exams in Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4aa1-9bcf-723d-a63e-cfa2ec17046c/AdobeStock_195023748.jpeg",
+      "description": "Schedule your comprehensive eye exam in Pine Beach. We use advanced technology to check your vision and eye health at Academy Vision.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams/",
+        "url": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams/",
+        "name": "Comprehensive Eye Exams",
+        "datePublished": "2026-03-26T18:49:03.458Z",
+        "dateModified": "2026-06-04T11:13:32.302Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams/",
+            "medicalSpecialty": {
+              "@type": "MedicalSpecialty",
+              "name": "Optometry"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "United States"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "(732) 736-1700",
+              "contactType": "Practice"
+            },
+            "telephone": "(732) 736-1700",
+            "openingHours": [
+              "Mo 09:00-17:00",
+              "Tu 09:00-17:00",
+              "We 09:00-17:00",
+              "Th 09:00-17:00",
+              "Fr 08:00-15:00"
+            ]
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Glaucoma, Diabetic Retinopathy, Macular Degeneration, Cataracts",
+            "signOrSymptom": [
+              "Blurred vision",
+              "Difficulty reading",
+              "Often no early symptoms"
+            ]
+          },
+          {
+            "@type": "MedicalTest",
+            "name": "Comprehensive Eye Exam",
+            "description": "Annual or periodic eye examination to monitor ocular and systemic conditions such as glaucoma, diabetic retinopathy, macular degeneration, and cataracts. Includes visual acuity, eye movement, refraction, slit lamp exam, pupil dilation, and retinal assessment."
+          }
+        ]
+      }
+    ]
+  },
+  "h1": "Comprehensive Eye Exams in Pine Beach",
+  "counts": {
+    "blocks": 7,
+    "nodes": 28,
+    "static": 28,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "w4Jj32DEGO",
+      "at": 112226,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Comprehensive Eye Exams in Pine Beach",
+          "html": "Comprehensive Eye Exams in Pine Beach",
+          "id": "crD2r0Bhh9",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Taking care of your eyes shouldn’t feel complicated. Whether you’re coming in for a routine eye exam or something just doesn’t feel quite right, we’re here to help. Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision.</p>",
+          "id": "l6YiXce5Xi",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "nON8o42Un9",
+          "id": "fDO2dU9nhX",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "nON8o42Un9",
+          "id": "szGfR1uPzL",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4aa1-9bcf-723d-a63e-cfa2ec17046c/AdobeStock_195023748.jpeg",
+          "file": "assets/source/3f58057b-AdobeStock_195023748.jpeg",
+          "alt": "A man in an eye clinic looks through a medical device while wearing a headband",
+          "w": 7360,
+          "h": 4912,
+          "focal": "50.0% 50.0%",
+          "id": "w4Jj32DEGO-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "V7awlG8BbY",
+      "at": 115886,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Why Regular Eye Exams Are So Important",
+          "html": "Why Regular Eye Exams Are So Important",
+          "align": "center",
+          "id": "xbwiSvawn4",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>A lot can change with your eyes over time, and not all of it is easy to notice on your own. An eye exam isn’t just about seeing clearly; it’s also about making sure your eyes are healthy. We check for early signs of eye conditions like glaucoma, macular degeneration, and other issues that can develop without obvious symptoms. Catching these changes early makes a big difference, and regular eye exams help you stay one step ahead.</p>",
+          "align": "center",
+          "id": "R83zPNyTqE",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "BVO0BMXNCg",
+          "id": "UEiwnl2AAn",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "BVO0BMXNCg",
+          "id": "Mjr3hy2F98",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "uSGCPseVvy",
+      "at": 117656,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "A More Thorough, More Personal Exam Experience",
+          "html": "A More Thorough, More Personal Exam Experience",
+          "id": "J7AJJRThsP",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>When you come into our Pine Beach eye clinic, you won’t feel rushed or pushed through your appointment. Our eye doctors take the time to understand what you’re experiencing, answer your questions, and walk you through everything we’re seeing.</p><p>Using modern technology and years of hands-on experience, we make sure nothing gets overlooked. You’ll leave with clear answers and a plan that makes sense for your day-to-day life.</p>",
+          "id": "QjzzSwPPKR",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "yAH7OHfIzU",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4aa2-432a-748e-959a-f1d20f437391/AdobeStock_569060589.jpeg",
+          "file": "assets/source/f51911ce-AdobeStock_569060589.jpeg-w_2000.webp",
+          "alt": "An older woman having her eye examined by a male doctor in a white coat",
+          "w": 2000,
+          "h": 1334,
+          "focal": "50.0% 50.0%",
+          "id": "BOQdufR7oQ",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "FZifI3Yxru",
+      "at": 121280,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4ab2-6d69-71d9-a28a-f6b966b60da6/AdobeStock_1704167623.jpeg",
+          "file": "assets/source/0c295c27-AdobeStock_1704167623.jpeg-w_2000.webp",
+          "alt": "A smiling elderly woman and man standing near a glass counter in a dental clinic, possibly discussing something on a laptop.",
+          "w": 2000,
+          "h": 1331,
+          "focal": "50.0% 50.0%",
+          "id": "IW4AICRXJQ",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "What Your Eye Exam Includes at Academy Vision",
+          "html": "What Your Eye Exam Includes at Academy Vision",
+          "id": "Sticps9VBt",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Your exam is designed to give you a complete picture of your vision and eye health. Our optometrists will:</p><ul><li>Check your prescription to make sure you’re seeing clearly</li><li>Evaluate how your eyes are working together</li><li>Take a close look at your eye health, including any signs of concerns</li><li>Talk through anything we find in plain language that you can understand</li></ul>",
+          "id": "8RhuPSWHHo",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "EBXloY8RXw",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "hWLMZZGgKg",
+      "at": 125184,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Eye Exams for Kids, Adults, and Seniors",
+          "html": "Eye Exams for Kids, Adults, and Seniors",
+          "id": "le3nBevMF7",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>No two stages of life look the same, and your eye care shouldn’t either. We see patients of all ages, from young kids coming in for their first exam to adults staying on top of changes in their vision.</p><p>If it’s easier to schedule everyone together, we can do that too. It’s one of the ways we help make eye care simpler for your whole family.</p>",
+          "id": "lqpFUYx2n5",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4ab5-26b3-72c9-a556-6c5ca6873a6d/AdobeStock_181375155.jpeg",
+          "file": "assets/source/5ac2f1ed-AdobeStock_181375155.jpeg-w_2000.webp",
+          "alt": "A young girl with braids has her eyes examined by a male doctor using a medical instrument in a clinic",
+          "w": 2000,
+          "h": 1335,
+          "focal": "50.0% 50.0%",
+          "id": "ADB09FIMp3",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "2VoYq4p56z",
+      "at": 128577,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4ab5-ab30-7510-9792-e6db0dd5a889/AdobeStock_293097203.jpeg",
+          "file": "assets/source/2697f414-AdobeStock_293097203.jpeg-w_2000.webp",
+          "alt": "An elderly woman with white hair is sitting in an examination room and is being examined by a woman who is holding a machine with a screen that is displaying an image of an eye. The woman is wearing a watch and a bracelet.",
+          "w": 2000,
+          "h": 1335,
+          "focal": "50.0% 50.0%",
+          "id": "eEkUC5QGjR",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Signs You Should Schedule an Eye Exam",
+          "html": "Signs You Should Schedule an Eye Exam",
+          "id": "q2UJzAr2mt",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Sometimes it’s obvious, but other times, small changes can be easy to ignore. If you’ve noticed any of the following, it’s a good idea to come in:</p><ul><li>Your vision feels blurry or isn’t as sharp as it used to be</li><li>You’re dealing with headaches or eye strain</li><li>Driving at night feels more difficult than before</li><li>Your eyes feel dry, irritated, or tired throughout the day</li><li>It’s been a while since your last eye exam</li></ul>",
+          "id": "W8H7NQ2ATR",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "HeKAuYXjaV",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "kqzp7fHBBm",
+      "at": 132716,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule an Eye Exam Today in Pine Beach",
+          "html": "Schedule an Eye Exam Today in Pine Beach",
+          "align": "center",
+          "id": "cERSEBc7Pg",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Whether you’re booking for your whole family or just making time for yourself, we’re ready when you are. We’ll answer your questions and make sure you feel comfortable from start to finish. Give us a call or schedule your visit—we’ll take care of the rest.</p>",
+          "align": "center",
+          "id": "9n2vW4OH1w",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "k20tYovFvZ",
+          "id": "54finCfSxk",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "k20tYovFvZ",
+          "id": "ClgMeORR2G",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

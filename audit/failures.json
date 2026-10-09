@@ -1,0 +1,749 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/location/academy-vision",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/sitemap",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/contact-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/disclaimer",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/appointment-request-form",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eyeglasses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/insurance",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/our-eye-doctor",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/patient-registration-form",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/about-us",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/privacy-policy",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/hours-location",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:48:31.649Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/location/academy-vision",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/sitemap",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/contact-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/disclaimer",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/appointment-request-form",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eyeglasses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/insurance",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/our-eye-doctor",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/patient-registration-form",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/about-us",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/privacy-policy",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/eye-care-services",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/hours-location",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "reason": "stopped: www.academyvisionnj.com refused this run (connection-reset)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-08T00:52:41.257Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:22.632Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/about-us/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:22.939Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/appointment-request-form/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:24.168Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:24.528Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/contact-lenses/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:25.721Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:26.132Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:27.412Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:27.820Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/disclaimer/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:28.949Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eye-care-services/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:29.338Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:30.543Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:30.962Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:32.107Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:32.523Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eye-care-services/myopia-management/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:33.747Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:34.097Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eyeglasses/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:35.324Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:35.761Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:36.934Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:37.378Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/hours-location/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:38.510Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/insurance/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:38.914Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/location/academy-vision/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:40.169Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/our-eye-doctor/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:40.477Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/patient-registration-form/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:41.725Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/privacy-policy/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:42.132Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/sitemap/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:43.356Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:43.743Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/team/dr-marc-ullman-od/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:44.945Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:45.472Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://www.academyvisionnj.com/website-accessibility-policy/_blank",
+      "reason": "status 404",
+      "at": "2026-10-08T00:58:46.144Z"
+    }
+  ]
+}

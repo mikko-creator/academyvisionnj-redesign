@@ -1,0 +1,126 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/senior-eye-exams",
+  "etSource": "services/senior-eye-exams",
+  "title": "Senior Eye Exams in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Thorough senior eye exams in Pine Beach, NJ. We take a close look at your eye health, explain what we find in plain language, and accept Medicare.",
+  "h1": "Thorough Eye Exams for Seniors in Pine Beach",
+  "kicker": "Have Your Eyes Been Changing?",
+  "lede": "<p>Reading glasses that never seem strong enough, more glare at night, colors that look a little faded—some changes come with age, and some deserve a closer look. At Academy Vision, we make time to check both your vision and the health of your eyes, and Medicare is one of the plans we accept. You’ll find us on Route 9 near the Mizzen Avenue light in Pine Beach, in a standalone building with its own parking lot and a ramp for patients who need it.</p>",
+  "sections": [
+    {
+      "id": "quiet-changes",
+      "heading": "Many Age-Related Conditions Start Quietly",
+      "html": "<p>Several eye conditions that become more common later in life develop slowly and without pain. Glaucoma can narrow side vision so gradually that it’s hard to notice. Macular degeneration affects the sharp, central vision you use to read, drive and recognize faces. Cataracts cloud the eye’s natural lens over time, and diabetes can affect the retina’s tiny blood vessels before your sight changes at all.</p><p>That’s why a regular exam matters even when you feel fine. Catching a change early gives you and your eye doctor more time to act.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "what-to-expect",
+      "heading": "Time, Follow-Through and Straight Answers",
+      "html": "<ul><li><strong>Time.</strong> Our optometrists take the time to listen and explain, so your visit doesn’t feel hurried.</li><li><strong>Ongoing monitoring.</strong> We monitor your eye health closely and help catch potential issues early, comparing each visit with the last.</li><li><strong>Plain explanations.</strong> We talk through anything we find in plain language you can understand.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "exam-steps",
+      "heading": "What Your Exam Looks At",
+      "html": "<ol><li><strong>Your concerns and health history.</strong> Share what’s changed, and bring a list of your medications, since some can affect the eyes.</li><li><strong>Your prescription.</strong> We check your prescription to make sure you’re seeing clearly, whether that’s for reading, hobbies or the drive home.</li><li><strong>Eye teamwork.</strong> We evaluate how your eyes are working as a team.</li><li><strong>Your eye health.</strong> We take a close look for signs of conditions such as glaucoma, macular degeneration and cataracts.</li><li><strong>What comes next.</strong> If something needs attention, we explain your options and keep a close watch over time.</li></ol>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "known-for-decades",
+      "heading": "A Practice Families Have Known for Decades",
+      "html": "<p>Academy Vision has been caring for local families since 1984, and for over 40 years, families in and around Pine Beach have trusted us with their vision. It’s not unusual for us to see grandparents, parents and kids from the same family, all in the same week.</p><p>Our optometrists include Dr. Tyler Lesko, whose clinical focus includes early detection and monitoring of glaucoma, macular degeneration and cataracts, and Dr. Marc Ullman, who manages chronic ocular disease.</p>",
+      "layout": "split",
+      "imageSlot": "cut-reading-glasses"
+    },
+    {
+      "id": "over-time",
+      "heading": "Why Tracking Over Time Matters",
+      "html": "<p>A one-time vision check shows how your eyes look on a single day. Many age-related changes are slow, so much of the value comes from comparing one exam with the next. Returning to the same practice means your optometrist can see what’s different since your last visit and talk with you about it sooner.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "medical-care",
+      "heading": "When You Need More Than a Routine Visit",
+      "html": "<p>If your exam shows signs of a condition, our <a href=\"/services/medical-eye-care/\">medical eye care</a> includes ongoing management of conditions such as <a href=\"/services/glaucoma-management/\">glaucoma</a> and <a href=\"/services/macular-degeneration/\">macular degeneration</a>. For cataracts, we monitor how they progress and, when the time is right, coordinate with New Jersey eye surgeons so you receive care <a href=\"/services/cataract-co-management/\">before and after surgery</a>.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you accept Medicare?",
+      "a": "<p>Medicare is one of the plans we accept, and you’ll find the others on our <a href=\"/insurance/\">insurance page</a>. What’s covered depends on your plan and the purpose of your visit. Medical insurance comes into play when there’s a health-related concern with your eyes, and our team will help you sort out your benefits and explain what’s covered.</p>"
+    },
+    {
+      "q": "How often should I have my eyes checked?",
+      "a": "<p>There’s no single schedule that suits everyone. Many older adults are advised to have an eye exam every year, and people managing glaucoma, diabetes or macular degeneration may need to come in more often. Ask your optometrist what makes sense for you.</p>"
+    },
+    {
+      "q": "What if my vision changes suddenly?",
+      "a": "<p>Don’t wait for your next appointment. Sudden vision loss, a curtain or shadow over your vision, or flashes of light with a sudden shower of new floaters are reasons to seek emergency care immediately. For other changes that worry you, call us at (732) 978-9306.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Schedule a Senior Eye Exam in Pine Beach",
+    "html": "<p>Call us at (732) 978-9306 or book online. If you have questions about Medicare or another plan, our team can go over your benefits with you so you know what to expect.</p>"
+  },
+  "related": [
+    "services/medical-eye-care",
+    "services/glaucoma-management",
+    "services/macular-degeneration",
+    "services/cataract-co-management",
+    "services/diabetic-eye-exams"
+  ],
+  "claims": [
+    { "text": "Senior Eye Exams in Pine Beach, NJ | Academy Vision", "factId": "service-seniors", "page": "/", "quote": "From kids’ first eye exams to ongoing care for adults and seniors, we’re here for every stage of life." },
+    { "text": "Thorough senior eye exams in Pine Beach, NJ.", "factId": "service-comprehensive-eye-exams", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision." },
+    { "text": "We take a close look at your eye health, explain what we find in plain language, and accept Medicare.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "We take a close look at your eye health, explain what we find in plain language, and accept Medicare.", "factId": "insurance-plans", "page": "/insurance/", "quote": "Insurance Plans We Accept Medicare" },
+    { "text": "Thorough Eye Exams for Seniors in Pine Beach", "factId": "service-comprehensive-eye-exams", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision." },
+    { "text": "At Academy Vision, we make time to check both your vision and the health of your eyes, and Medicare is one of the plans we accept.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "At Academy Vision, we make time to check both your vision and the health of your eyes, and Medicare is one of the plans we accept.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "At Academy Vision, we make time to check both your vision and the health of your eyes, and Medicare is one of the plans we accept.", "factId": "insurance-plans", "page": "/insurance/", "quote": "Insurance Plans We Accept Medicare" },
+    { "text": "You’ll find us on Route 9 near the Mizzen Avenue light in Pine Beach, in a standalone building with its own parking lot and a ramp for patients who need it.", "factId": "address-landmark", "page": "/eyeglasses/", "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light." },
+    { "text": "You’ll find us on Route 9 near the Mizzen Avenue light in Pine Beach, in a standalone building with its own parking lot and a ramp for patients who need it.", "factId": "address-standalone-parking", "page": "/hours-location/", "quote": "It’s a standalone building with its own parking lot, so you won’t have to search for a spot or deal with crowded plazas." },
+    { "text": "You’ll find us on Route 9 near the Mizzen Avenue light in Pine Beach, in a standalone building with its own parking lot and a ramp for patients who need it.", "factId": "address-ramp", "page": "/hours-location/", "quote": "We’re also easily accessible, with a ramp for patients who need it." },
+    { "text": "Time, Follow-Through and Straight Answers", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "Our optometrists take the time to listen and explain, so your visit doesn’t feel hurried.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "We monitor your eye health closely and help catch potential issues early, comparing each visit with the last.", "factId": "service-eye-disease", "page": "/eye-care-services/eye-disease-management/", "quote": "At Academy Vision, we monitor your eye health closely and help catch potential issues early." },
+    { "text": "We talk through anything we find in plain language you can understand.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "We check your prescription to make sure you’re seeing clearly, whether that’s for reading, hobbies or the drive home.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "We evaluate how your eyes are working as a team.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "We take a close look for signs of conditions such as glaucoma, macular degeneration and cataracts.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "We take a close look for signs of conditions such as glaucoma, macular degeneration and cataracts.", "factId": "doctor-tl-ocular-disease", "page": "/team/dr-tyler-lesko-od/", "quote": "Ocular Disease: Early detection and monitoring of glaucoma, macular degeneration, and cataracts." },
+    { "text": "If something needs attention, we explain your options and keep a close watch over time.", "factId": "service-eye-disease", "page": "/eye-care-services/eye-disease-management/", "quote": "At Academy Vision, we monitor your eye health closely and help catch potential issues early." },
+    { "text": "If something needs attention, we explain your options and keep a close watch over time.", "factId": "service-glaucoma", "page": "/eye-care-services/eye-disease-management/", "quote": "We keep a close watch and help manage the condition to protect your vision." },
+    { "text": "A Practice Families Have Known for Decades", "factId": "history-decades-community", "page": "/hours-location/", "quote": "We’ve been part of this community for decades" },
+    { "text": "Academy Vision has been caring for local families since 1984, and for over 40 years, families in and around Pine Beach have trusted us with their vision.", "factId": "history-founded-1984", "page": "/about-us/", "quote": "Academy Vision was founded in 1984 by Dr. Robert Ullman" },
+    { "text": "Academy Vision has been caring for local families since 1984, and for over 40 years, families in and around Pine Beach have trusted us with their vision.", "factId": "history-over-40-years", "page": "/", "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision." },
+    { "text": "It’s not unusual for us to see grandparents, parents and kids from the same family, all in the same week.", "factId": "history-generations", "page": "/eye-care-services/", "quote": "It’s not unusual for us to see multiple generations of the same family, all in the same week." },
+    { "text": "Our optometrists include Dr. Tyler Lesko, whose clinical focus includes early detection and monitoring of glaucoma, macular degeneration and cataracts, and Dr. Marc Ullman, who manages chronic ocular disease.", "factId": "doctor-tl-ocular-disease", "page": "/team/dr-tyler-lesko-od/", "quote": "Ocular Disease: Early detection and monitoring of glaucoma, macular degeneration, and cataracts." },
+    { "text": "Our optometrists include Dr. Tyler Lesko, whose clinical focus includes early detection and monitoring of glaucoma, macular degeneration and cataracts, and Dr. Marc Ullman, who manages chronic ocular disease.", "factId": "doctor-mu-difficult-fittings", "page": "/team/dr-marc-ullman-od/", "quote": "Managing difficult contact lens fittings and chronic ocular disease." },
+    { "text": "If your exam shows signs of a condition, our medical eye care includes ongoing management of conditions such as glaucoma and macular degeneration.", "factId": "service-ocular-diseases-managed", "page": "/eye-care-services/eye-disease-management/", "quote": "Ocular Diseases We Manage Glaucoma" },
+    { "text": "If your exam shows signs of a condition, our medical eye care includes ongoing management of conditions such as glaucoma and macular degeneration.", "factId": "service-medical-eye-care", "page": "/hours-location/", "quote": "We provide care for the whole family, from comprehensive eye exams to medical eye care, dry eye treatment, and more." },
+    { "text": "For cataracts, we monitor how they progress and, when the time is right, coordinate with New Jersey eye surgeons so you receive care before and after surgery.", "factId": "service-cataract-co-management", "page": "/eye-care-services/eye-disease-management/", "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery." },
+    { "text": "Do you accept Medicare?", "factId": "insurance-plans", "page": "/insurance/", "quote": "Insurance Plans We Accept Medicare" },
+    { "text": "Medicare is one of the plans we accept, and you’ll find the others on our insurance page.", "factId": "insurance-plans", "page": "/insurance/", "quote": "Insurance Plans We Accept Medicare" },
+    { "text": "Medical insurance comes into play when there’s a health-related concern with your eyes, and our team will help you sort out your benefits and explain what’s covered.", "factId": "insurance-medical-concern", "page": "/insurance/", "quote": "Medical insurance comes into play when there’s a health-related concern with your eyes." },
+    { "text": "Medical insurance comes into play when there’s a health-related concern with your eyes, and our team will help you sort out your benefits and explain what’s covered.", "factId": "staff-benefits-help", "page": "/insurance/", "quote": "Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan." },
+    { "text": "For other changes that worry you, call us at (732) 978-9306.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "Call us at (732) 978-9306 or book online.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "If you have questions about Medicare or another plan, our team can go over your benefits with you so you know what to expect.", "factId": "staff-benefits-help", "page": "/insurance/", "quote": "Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan." },
+    { "text": "If you have questions about Medicare or another plan, our team can go over your benefits with you so you know what to expect.", "factId": "insurance-types", "page": "/insurance/", "quote": "Whether you’re using vision insurance, medical insurance, or paying out of pocket for eye care in Pine Beach, we’ll walk you through everything so you know exactly what to expect." }
+  ],
+  "flags": [
+    "Dilation and named tests (slit lamp, retinal assessment) appear only in the comprehensive-exams structured data (fact jsonld-exam-includes), so this page does not name them. Add them only after the practice approves that wording.",
+    "Medicare: the page says only that Medicare is on the accepted-plans list and that coverage depends on the plan and the purpose of the visit; it states no coverage outcome.",
+    "Visit frequency is general guidance (many older adults are advised to have an exam every year), not a practice policy; replace it with the practice's own recommendation if it has one.",
+    "The sudden-change answer sends readers with sudden vision loss, a curtain or shadow, or flashes with a sudden shower of new floaters to emergency care; the practice may want to add its own urgent-call instructions (the site says only that it offers emergency eye care whenever possible)."
+  ],
+  "review": { "overlapLongest": 6, "checkedBy": "checker-G1-exams-kids", "notes": "Writer (writer-G1-exams-kids): tools/overlap-check.mjs --fail 8 (6-word shingles): longest 6, and every shared run comes from claim metadata (the tokenized URL of the comprehensive exams page, and the fact quote of service-medical-eye-care), not prose; the visible fields alone share 0 runs. A --control run reported DETECTED. tmp/writer-G1-exams-kids/validate.mjs: 0 errors, 0 warnings. Checker (checker-G1-exams-kids, 2026-10-08; no Eye Trends file opened): re-ran the evidence on the final bytes. tools/overlap-check.mjs --fail 8: longest 6, every 6-word run is claim metadata (the tokenized claim page path and the fact quote of service-medical-eye-care), not prose; --control reported DETECTED (exit 0); the visible fields alone share 0 six-word runs (5-word shingles: longest 5, stock phrases, kept). All 38 claims: the factId exists, the page equals the fact page, the quote equals the fact quote and is in the visible text of the cited audit/raw page, and the claim text is verbatim in this file. Every we/our/us/Academy Vision sentence was read against its fact and the source pages (Dr. Marc Ullman’s bio says he remains on the clinical team after the 2026 ownership change and lists chronic ocular disease; the eye-disease page lists glaucoma, macular degeneration, diabetic eye disease and cataracts); no unsupported practice claim, and no Medicare coverage outcome is stated. Meta-language, promise, hype, apostrophe, dash, year, doctor and phone scans are clean; tags, links and related paths pass tmp/checker-G1-exams-kids/check.mjs (its planted control fired on every defect) and the pipeline’s own buildPages run in memory (0 errors). Body 732 words. Change (1) faq[1].a, before: “…and people managing glaucoma, diabetes or macular degeneration often need visits more often.” After: “…and people managing glaucoma, diabetes or macular degeneration may need to come in more often.” Why: removes the “often … more often” repetition, and “may” is the accurate hedge (a person with diabetes and no retinopathy is usually seen once a year)." }
+}

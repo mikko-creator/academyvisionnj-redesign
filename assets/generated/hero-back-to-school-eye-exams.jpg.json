@@ -1,0 +1,39 @@
+{
+  "id": "hero-back-to-school-eye-exams",
+  "file": "assets/generated/hero-back-to-school-eye-exams.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the back-to-school eye exam page (adopted slot)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Smiling boy in round glasses with a navy backpack on a leafy sidewalk in autumn",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a cheerful nine-year-old boy with round clear-framed glasses and a plain navy backpack walking along a leafy suburban sidewalk on a crisp autumn morning, golden backlight through trees, soft bokeh, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 1764438891,
+  "requestId": "01a119ba-953e-73d0-b4d6-8f6b74326881",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-back-to-school-eye-exams.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "e6d483ff7f307e88c9624c7bbfd953db514009f80dcbd1bd6d429858801c9ca9",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: boy ~9 in round clear glasses, navy/white plaid shirt, navy backpack, autumn sidewalk; subject centre ~63% x; not clinical; golden background per prompt",
+      "100% glasses: clear round frames + keyhole bridge, temples clean",
+      "400% both hinges: hinge block visible, no letters/rivet heads/emblems",
+      "100% backpack: plain navy, zipper only, no logo or lettering",
+      "100% hands on straps: two hands, plausible fingers and thumbs",
+      "35% background houses: blurred, no signs or house numbers"
+    ],
+    "notes": "alt as planned",
+    "at": "2026-10-08T04:19:29.369Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T05:34:20.333Z"
+}

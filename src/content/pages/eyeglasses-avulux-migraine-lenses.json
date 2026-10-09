@@ -1,0 +1,536 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eyeglasses/avulux-migraine-lenses/",
+  "source": "audit/raw/eyeglasses-avulux-migraine-lenses.html",
+  "rendered": "tmp/extract/rendered/eyeglasses-avulux-migraine-lenses.html",
+  "meta": {
+    "title": "Avulux Migraine Lenses Pine Beach | Academy Vision",
+    "description": "Manage light sensitivity with Avulux migraine lenses in Pine Beach. Find relief from light-triggered pain at Academy Vision today.",
+    "canonical": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses/",
+      "type": "website",
+      "title": "Avulux Migraine Lenses Pine Beach | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a09-1f90-741b-b453-e386fc96645a/AdobeStock_466770093.jpeg",
+      "description": "Manage light sensitivity with Avulux migraine lenses in Pine Beach. Find relief from light-triggered pain at Academy Vision today.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses/",
+        "url": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses/",
+        "name": "Avulux Migraine Lenses",
+        "datePublished": "2026-03-26T18:52:29.932Z",
+        "dateModified": "2026-04-20T03:21:31.553Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Avulux® Migraine Lenses in Pine Beach",
+  "counts": {
+    "blocks": 6,
+    "nodes": 24,
+    "static": 24,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "dVsvCo1V2o",
+      "at": 104795,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Avulux® Migraine Lenses in Pine Beach",
+          "html": "Avulux® Migraine Lenses in Pine Beach",
+          "id": "x0YaOGusee",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Are bright lights, screens, or even everyday indoor lighting triggering your headaches or migraines? For many people, light sensitivity is a constant frustration that’s hard to explain and even harder to manage. Avulux® lenses are designed to help reduce light-related triggers so that you can go about your day with greater comfort and fewer interruptions.</p>",
+          "id": "UNCBGCVTCq",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "NnLcysRWiC",
+          "id": "IApmRWC341",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "NnLcysRWiC",
+          "id": "eHeACuFHEG",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a09-1f90-741b-b453-e386fc96645a/AdobeStock_466770093.jpeg",
+          "file": "assets/source/931387f9-AdobeStock_466770093.jpeg",
+          "alt": "An older man sitting on a couch with his hands covering his eyes",
+          "w": 6552,
+          "h": 4368,
+          "focal": "50.0% 50.0%",
+          "id": "dVsvCo1V2o-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "IqfiW5Ncdt",
+      "at": 108494,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Personalized Care for Migraine Relief",
+          "html": "Personalized Care for Migraine Relief",
+          "align": "center",
+          "id": "yI7dCgdZpG",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>No two people experience migraines the same way, which is why we don’t take a one-size-fits-all approach. At <a href=\"/hours-location/\">Academy Vision</a>, our eye doctors take the time to understand what you’re dealing with, when your symptoms happen, what seems to trigger them, and how they affect your day. From there, we’ll help you decide if Avulux® lenses are a good fit and guide you through the next steps.</p>",
+          "align": "center",
+          "id": "qyihyzazBg",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "27gw7mahbH",
+          "id": "UaXn0DOLK1",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "27gw7mahbH",
+          "id": "l2XQA3Pfzh",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "NZKwDwjOJn",
+      "at": 110309,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "How Light Can Trigger Migraines",
+          "html": "How Light Can Trigger Migraines",
+          "id": "ozanJwHWjE",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Light sensitivity can show up in ways that are easy to overlook, but hard to deal with:</p><ul><li>Bright lights make your headaches feel worse</li><li>Screens leave your eyes feeling strained or overwhelmed</li><li>Indoor lighting feels harsher than it should</li><li>You find yourself avoiding certain environments</li><li>Headaches or migraines that don’t fully go away</li></ul>",
+          "id": "jnGhlrcXQN",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "wtoOSpWq8R",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a0b-124d-7218-8581-e0db120d822a/AdobeStock_502026547.jpeg",
+          "file": "assets/source/b8685c0f-AdobeStock_502026547.jpeg-w_2000.webp",
+          "alt": "A man holding his head with his right hand while looking at a laptop in an office room.",
+          "w": 2000,
+          "h": 1335,
+          "focal": "50.0% 50.0%",
+          "id": "MBXhqSOwpn",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "TcwHKEgcmo",
+      "at": 114167,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a0a-25f3-765f-9c18-112a8b3094a1/AdobeStock_583586831.jpeg",
+          "file": "assets/source/7d0896cf-AdobeStock_583586831.jpeg-w_2000.webp",
+          "alt": "A woman with blonde hair is closing her eyes while holding her forehead with her right hand. She is probably sitting on a couch. She is looking at something in front of her. Behind her, there is a blurry view of a white door with glass windows. There are also some clothes hanging on the hanger. The room is probably a bedroom.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "BmKmZR1Zn8",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "How Avulux® Lenses Work",
+          "html": "How Avulux® Lenses Work",
+          "id": "0QAzDxkUG9",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Avulux® lenses are designed differently from standard tinted or blue light glasses. Instead of simply darkening your vision, they filter out specific wavelengths of light that are known to trigger migraines.</p><p>That means you get protection where you need it, without making everything look dim or distorted. They’re made to be worn throughout your day, whether you’re inside, outside, or in front of a screen.</p>",
+          "id": "43oebTkFzg",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "CMKyfOtJZJ",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "DtkDLXAZiR",
+      "at": 118045,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "How Eyeglass Lenses Can Help with Migraines",
+          "html": "How Eyeglass Lenses Can Help with Migraines",
+          "id": "cJwh374yG5",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Avulux® lenses are designed to support your eyes without disrupting your routine:</p><ul><li>Help reduce sensitivity to light that can trigger migraines</li><li>Support more comfortable screen use throughout the day</li><li>Allow you to be in bright environments without feeling overwhelmed</li><li>Can be worn indoors and outdoors without darkening your vision</li></ul>",
+          "id": "RSRr7Mnk0q",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a0a-b278-7634-a66d-55abc200b93c/AdobeStock_148435018.jpeg",
+          "file": "assets/source/e5f28518-AdobeStock_148435018.jpeg-w_2000.webp",
+          "alt": "A woman is sitting in front of a desk and is working on her laptop computer.",
+          "w": 2000,
+          "h": 1335,
+          "focal": "50.0% 50.0%",
+          "id": "ij7xdOqsRu",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "JH0e72bA2R",
+      "at": 121656,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Ask Us About Avulux® Lenses",
+          "html": "Ask Us About Avulux® Lenses",
+          "align": "center",
+          "id": "dUiI3vMm0W",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If light sensitivity or migraines have been affecting your day, it’s worth having a conversation. We’ll answer your questions and help you decide on the next step. Give us a call or schedule an <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a> at Academy Vision—we’re here to help you feel better.</p>",
+          "align": "center",
+          "id": "CZwVP0Bgrg",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "zhqi9u2Oaq",
+          "id": "21M2wWdyBF",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "zhqi9u2Oaq",
+          "id": "mbbkKBtI7J",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/hours-location/",
+  "source": "audit/raw/hours-location.html",
+  "rendered": "tmp/extract/rendered/hours-location.html",
+  "meta": {
+    "title": "Eye Care Clinic in Pine Beach, NJ | Academy Vision",
+    "description": "Visit Academy Vision for your next eye exam in Pine Beach. View our hours and get directions to our office for your local eye care needs.",
+    "canonical": "https://www.academyvisionnj.com/hours-location/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/hours-location/",
+      "type": "website",
+      "title": "Eye Care Clinic in Pine Beach, NJ | Academy Vision",
+      "description": "Visit Academy Vision for your next eye exam in Pine Beach. View our hours and get directions to our office for your local eye care needs.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/hours-location/",
+        "url": "https://www.academyvisionnj.com/hours-location/",
+        "name": "Hours & Location",
+        "datePublished": "2026-03-26T17:17:18.272Z",
+        "dateModified": "2026-07-10T03:01:31.923Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": [
+          "Optician",
+          "MedicalBusiness"
+        ],
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com/hours-location/",
+        "telephone": "+1-732-978-9306",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "NJ",
+          "postalCode": "08741",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.9535",
+          "longitude": "-74.1756"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Friday",
+            "opens": "08:00",
+            "closes": "15:00"
+          }
+        ],
+        "areaServed": {
+          "@type": "City",
+          "name": [
+            "Pine Beach",
+            "Beachwood",
+            "Toms River"
+          ]
+        },
+        "description": "Academy Vision, located at 90 Atlantic City Blvd, Pine Beach, NJ, provides expert eye care services, including routine exams and emergency eye care. Easily accessible with on-site parking.",
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Academy+Vision+90+Atlantic+City+Blvd+Pine+Beach+NJ"
+      }
+    ]
+  },
+  "h1": "Local Eye Doctors in Pine Beach, New Jersey",
+  "counts": {
+    "blocks": 4,
+    "nodes": 11,
+    "static": 11,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section",
+      "id": "9WUggOxNKe",
+      "at": 86688,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": null,
+          "text": "Academy Vision",
+          "html": "<strong>Academy Vision</strong>",
+          "id": "shFVDplCSH",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "location",
+          "show": [
+            "phone",
+            "address",
+            "chevron"
+          ],
+          "locationId": "6999",
+          "name": "Academy Vision",
+          "address": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "phone": "(732) 978-9306",
+          "phoneHref": "tel:+17329789306",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "mapsNewTab": true,
+          "hours": [
+            {
+              "label": "monday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "tuesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "wednesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "thursday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "friday:",
+              "text": "8:00 am - 3:00 pm"
+            },
+            {
+              "label": "saturday:",
+              "text": "Closed"
+            },
+            {
+              "label": "sunday:",
+              "text": "Closed"
+            }
+          ],
+          "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "id": "cpFxllYy53",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "location",
+          "show": [
+            "hours"
+          ],
+          "locationId": "6999",
+          "name": "Academy Vision",
+          "address": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "phone": "(732) 978-9306",
+          "phoneHref": "tel:+17329789306",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "mapsNewTab": true,
+          "hours": [
+            {
+              "label": "monday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "tuesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "wednesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "thursday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "friday:",
+              "text": "8:00 am - 3:00 pm"
+            },
+            {
+              "label": "saturday:",
+              "text": "Closed"
+            },
+            {
+              "label": "sunday:",
+              "text": "Closed"
+            }
+          ],
+          "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "id": "XMbi6GKYVy",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "location",
+          "show": [
+            "map"
+          ],
+          "locationId": "6999",
+          "name": "Academy Vision",
+          "address": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "phone": "(732) 978-9306",
+          "phoneHref": "tel:+17329789306",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "mapsNewTab": true,
+          "hours": [
+            {
+              "label": "monday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "tuesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "wednesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "thursday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "friday:",
+              "text": "8:00 am - 3:00 pm"
+            },
+            {
+              "label": "saturday:",
+              "text": "Closed"
+            },
+            {
+              "label": "sunday:",
+              "text": "Closed"
+            }
+          ],
+          "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "mapTitle": "Google Map",
+          "id": "LQly8lcxSo",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "8HrbAuQeKQ",
+      "at": 90110,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section",
+      "id": "SSeZZPEgqQ",
+      "at": 90389,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Local Eye Doctors in Pine Beach, New Jersey",
+          "html": "Local Eye Doctors in Pine Beach, New Jersey",
+          "align": "center",
+          "id": "Usv3Bol3dk",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve driven down Route 9, there’s a good chance you’ve seen us—the building with the artwork right by the Mizzen Avenue light. We’ve been part of this community for decades, and we’ve made it easy for families in Pine Beach and nearby towns to stop in, get the care they need, and feel comfortable doing it.</p><p>You’ll find our office at 90 Atlantic City Boulevard. It’s a standalone building with its own parking lot, so you won’t have to search for a spot or deal with crowded plazas. We’re also easily accessible, with a ramp for patients who need it.</p>",
+          "align": "center",
+          "id": "dQ9T8fSkyr",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "N1QFZpnJoP",
+          "id": "Jw5J7Gyo3l",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "rel": "nofollow",
+          "variant": "button_secondary",
+          "group": "N1QFZpnJoP",
+          "id": "3mPUk5vwem",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "daBydDIymX",
+      "at": 92389,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e3b-0d19-7768-a021-56b815d8488a/2020-04-06.jpg",
+          "file": "assets/source/1496771e-2020-04-06.jpg-w_600.webp",
+          "alt": "A house with a black wall featuring a mural reading 'Welcome 192020' and a bicycle design, accompanied by plants and an air conditioning unit on the side.",
+          "w": 600,
+          "h": 450,
+          "focal": "50.5% 27.9%",
+          "id": "5eul62ukWs",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Eye Care for the Whole Family",
+          "html": "Eye Care for the Whole Family&nbsp;",
+          "id": "3kQaP0FVtm",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>When you visit our office, you’ll find more than just a routine eye exam. We provide care for the whole family, from <a href=\"/eye-care-services/comprehensive-eye-exams/\">comprehensive eye exams</a> to medical eye care, dry eye treatment, and more. With our in-house lab, patients can even get their glasses the same day.</p><h3>Emergency Eye Care</h3><p>Eye issues don’t always happen at a convenient time, and when something feels wrong, it’s important to get it checked sooner rather than later. Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible.</p>",
+          "id": "u8IoC5ig20",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

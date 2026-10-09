@@ -1,0 +1,3895 @@
+{
+  "schema": "academyvision/facts@1",
+  "generated": "2026-10-08T02:30:14.197Z",
+  "practice": {
+    "name": "Academy Vision",
+    "nameVariants": [
+      {
+        "name": "Academy Vision",
+        "where": "every page"
+      },
+      {
+        "name": "The Academy Vision Eye Care Team",
+        "where": "/our-eye-doctor/"
+      },
+      {
+        "name": "Academy Vision | The Pine Beach Eye Care Center",
+        "where": "title of /location/academy-vision/"
+      },
+      {
+        "name": "Academy",
+        "where": "patient review"
+      },
+      {
+        "name": "academy vision",
+        "where": "patient reviews"
+      }
+    ],
+    "legalName": null,
+    "website": "https://www.academyvisionnj.com/",
+    "platform": "EyeCarePro",
+    "address": {
+      "street": "90 Atlantic City Blvd",
+      "streetLong": "90 Atlantic City Boulevard",
+      "locality": "Pine Beach",
+      "region": "NJ",
+      "regionLong": "New Jersey",
+      "postalCode": "08741",
+      "country": "US",
+      "display": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+      "landmark": "Route 9 near the Mizzen Avenue light",
+      "geo": {
+        "lat": "39.9535",
+        "lng": "-74.1756"
+      },
+      "googlePlaceId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+      "parking": "standalone building with its own parking lot",
+      "access": "ramp for patients who need it"
+    },
+    "phone": "(732) 978-9306",
+    "phoneTel": "+17329789306",
+    "otherPhoneOnSite": {
+      "number": "(732) 736-1700",
+      "tel": "+17327361700",
+      "conflict": "C1"
+    },
+    "email": null,
+    "fax": null,
+    "hours": {
+      "monday": "9:00 am - 5:00 pm",
+      "tuesday": "9:00 am - 5:00 pm",
+      "wednesday": "9:00 am - 5:00 pm",
+      "thursday": "9:00 am - 5:00 pm",
+      "friday": "8:00 am - 3:00 pm",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "hoursSpec": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      {
+        "days": [
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "15:00"
+      }
+    ],
+    "booking": {
+      "online": "https://scheduleyourexam.com/v3/index.php/3197",
+      "onlineLabel": "Book Appointment",
+      "requestForm": "/appointment-request-form/",
+      "registrationForm": "/patient-registration-form/",
+      "contactPage": "/hours-location/"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/AcademyVision"
+    },
+    "areaServed": [
+      "Pine Beach",
+      "Beachwood",
+      "Toms River"
+    ],
+    "founded": "1984",
+    "founder": "Dr. Robert Ullman",
+    "payment": [
+      "CareCredit",
+      "major credit cards",
+      "cash"
+    ],
+    "owners": {
+      "visibleBio": "Dr. Anthony Giallombardo is an optometrist and the owner of the practice.",
+      "visibleUllmanBio": "he transitioned ownership to Dr. Lesko and Dr. Giallombardo in early 2026",
+      "conflict": "C2"
+    }
+  },
+  "doctors": [
+    {
+      "name": "Dr. Anthony Giallombardo, O.D.",
+      "credentials": "O.D.",
+      "page": "/team/dr-anthony-giallombardo-od/",
+      "role": "optometrist and the owner of the practice",
+      "roleJsonLd": "Optometrist & Practice Owner",
+      "education": [],
+      "yearsStated": null,
+      "clinicalFocus": [],
+      "languages": [],
+      "highlights": [],
+      "personal": [
+        "Watching football.",
+        "Going fishing.",
+        "Spending time with his wife, his two young daughters, and the family dog."
+      ],
+      "patientNickname": "Dr. G",
+      "photo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/36312/a16c6c1f-6ed9-4b4b-9bc8-2390b661770c.png",
+      "factIds": [
+        "doctor-ag-name",
+        "doctor-ag-owner",
+        "doctor-ag-jobtitle-jsonld",
+        "doctor-ag-passion",
+        "doctor-ag-values",
+        "doctor-ag-dedicated",
+        "doctor-ag-personal",
+        "doctor-ag-nickname-review"
+      ]
+    },
+    {
+      "name": "Dr. Marc Ullman, O.D.",
+      "credentials": "O.D.",
+      "page": "/team/dr-marc-ullman-od/",
+      "role": "remains a vital part of the clinical team",
+      "roleJsonLd": "Optometrist",
+      "education": [
+        "Binghamton University",
+        "Pennsylvania College of Optometry"
+      ],
+      "graduated": "1998",
+      "since": "1998",
+      "hometown": "Toms River",
+      "ownershipHistory": "After successfully running his own practice for nearly three decades, he transitioned ownership to Dr. Lesko and Dr. Giallombardo in early 2026",
+      "clinicalFocus": [
+        "chronic dry eye",
+        "red eyes",
+        "ocular injuries",
+        "Managing difficult contact lens fittings and chronic ocular disease.",
+        "Providing honest second opinions and surgical consultations.",
+        "Being one of the first to offer new treatments to his patients."
+      ],
+      "languages": [],
+      "highlights": [
+        "ultimate experience in customer service"
+      ],
+      "personal": [
+        "accomplished card magician",
+        "Captains Table fundraiser at the Atlantic City Boat Show",
+        "French Bulldog, Winston"
+      ],
+      "photo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/35072/a13c7433-6788-4012-bc37-105722d1a5dc.jpeg",
+      "factIds": [
+        "doctor-mu-name",
+        "doctor-mu-since-1998",
+        "doctor-mu-education",
+        "doctor-mu-pco-1998",
+        "doctor-mu-salus-jsonld",
+        "doctor-mu-three-decades",
+        "doctor-mu-ownership-transition",
+        "doctor-mu-clinical-focus",
+        "doctor-mu-new-treatments",
+        "doctor-mu-difficult-fittings",
+        "doctor-mu-second-opinions",
+        "doctor-mu-customer-service",
+        "doctor-mu-magician",
+        "doctor-mu-family"
+      ]
+    },
+    {
+      "name": "Dr. Tyler Lesko, O.D.",
+      "credentials": "O.D.",
+      "page": "/team/dr-tyler-lesko-od/",
+      "role": "Optometrist",
+      "roleJsonLd": "Optometrist",
+      "hometown": "Lacey Township, NJ",
+      "education": [
+        {
+          "school": "Georgian Court University",
+          "honor": "Summa Cum Laude"
+        },
+        {
+          "school": "Pennsylvania College of Optometry (PCO)",
+          "degree": "Doctor of Optometry",
+          "honor": "Summa Cum Laude"
+        }
+      ],
+      "yearsStated": null,
+      "clinicalFocus": [
+        "Pediatrics & Myopia Management",
+        "orthokeratology",
+        "MiSight",
+        "Specialty Contact Lenses",
+        "complex lens fittings",
+        "Ocular Disease",
+        "glaucoma",
+        "macular degeneration",
+        "cataracts"
+      ],
+      "certifications": [
+        "Light Adjustable Lens technology",
+        "Orthokeratology"
+      ],
+      "languages": [],
+      "highlights": [
+        "2021 National Optometry Student Bowl Champion",
+        "President of the Student Volunteer Optometric Services to Humanity (SVOSH)",
+        "New Jersey Student Society of Optometric Physicians"
+      ],
+      "community": [
+        "humanitarian mission trips to Panama",
+        "Special Olympics",
+        "Lions Club"
+      ],
+      "personal": [
+        "wife, son, and two cats"
+      ],
+      "photo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/36311/a16c6b98-de22-4441-9064-dbc2f9cb7f66.png",
+      "factIds": [
+        "doctor-tl-name",
+        "doctor-tl-hometown",
+        "doctor-tl-education",
+        "doctor-tl-leadership",
+        "doctor-tl-student-bowl",
+        "doctor-tl-passion",
+        "doctor-tl-myopia",
+        "doctor-tl-specialty-cl",
+        "doctor-tl-ocular-disease",
+        "doctor-tl-certifications",
+        "doctor-tl-community",
+        "doctor-tl-family",
+        "award-tl-student-bowl",
+        "award-tl-summa"
+      ]
+    }
+  ],
+  "pastDoctors": [
+    {
+      "name": "Dr. Robert Ullman",
+      "founded": "1984",
+      "quote": "Academy Vision was founded in 1984 by Dr. Robert Ullman, who built the practice with a simple goal: to take care of people the right way.",
+      "page": "/about-us/",
+      "factIds": [
+        "doctors-founder",
+        "history-founded-1984"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "name": "Comprehensive Eye Exams",
+      "surface": "visible",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision.",
+      "factId": "service-comprehensive-eye-exams"
+    },
+    {
+      "names": [
+        "Check your prescription",
+        "Evaluate how your eyes are working together",
+        "Take a close look at your eye health",
+        "Talk through anything we find in plain language"
+      ],
+      "surface": "visible",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Your exam is designed to give you a complete picture of your vision and eye health.",
+      "factId": "service-exam-includes",
+      "items": [
+        "Check your prescription to make sure you’re seeing clearly",
+        "Evaluate how your eyes are working together",
+        "Take a close look at your eye health, including any signs of concerns",
+        "Talk through anything we find in plain language that you can understand"
+      ]
+    },
+    {
+      "name": "Eye Exams for Kids, Adults, and Seniors",
+      "surface": "visible",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "We see patients of all ages, from young kids coming in for their first exam to adults staying on top of changes in their vision.",
+      "factId": "service-exams-all-ages"
+    },
+    {
+      "name": "care for adults and seniors",
+      "surface": "visible",
+      "page": "/",
+      "quote": "From kids’ first eye exams to ongoing care for adults and seniors, we’re here for every stage of life.",
+      "factId": "service-seniors"
+    },
+    {
+      "name": "Dry Eye Treatment",
+      "surface": "visible",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "quote": "At Academy Vision, we look beyond quick fixes to find out what’s causing your discomfort and help you feel better for the long run.",
+      "factId": "service-dry-eye"
+    },
+    {
+      "names": [
+        "Prescription eye drops",
+        "Punctal plugs",
+        "Amniotic membranes",
+        "Lid treatments and eyelid hygiene",
+        "Scleral lenses"
+      ],
+      "surface": "visible",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "quote": "Once we understand what’s causing your dry eye, we can recommend treatments.",
+      "factId": "service-dry-eye-options",
+      "items": [
+        "Prescription eye drops to reduce inflammation and improve tear quality",
+        "Punctal plugs to help your eyes hold onto moisture longer",
+        "Amniotic membranes for advanced healing of the eye’s surface",
+        "Lid treatments and eyelid hygiene to clear blocked oil glands and restore comfort",
+        "Scleral lenses that create a protective, hydrating layer for more severe cases"
+      ]
+    },
+    {
+      "name": "Eye Disease Management",
+      "surface": "visible",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "At Academy Vision, we monitor your eye health closely and help catch potential issues early.",
+      "factId": "service-eye-disease"
+    },
+    {
+      "names": [
+        "Glaucoma",
+        "Macular Degeneration",
+        "Diabetic Eye Disease",
+        "Cataracts"
+      ],
+      "surface": "visible",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Ocular Diseases We Manage Glaucoma",
+      "factId": "service-ocular-diseases-managed",
+      "items": [
+        "Glaucoma",
+        "Macular Degeneration",
+        "Diabetic Eye Disease",
+        "Cataracts"
+      ]
+    },
+    {
+      "name": "Glaucoma",
+      "surface": "visible",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We keep a close watch and help manage the condition to protect your vision.",
+      "factId": "service-glaucoma"
+    },
+    {
+      "name": "Macular Degeneration",
+      "surface": "visible",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "with regular eye exams, we can detect early signs and help you maintain your quality of life.",
+      "factId": "service-macular-degeneration"
+    },
+    {
+      "name": "Routine diabetic eye exams",
+      "surface": "visible",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Routine diabetic eye exams help us monitor those changes and step in if needed.",
+      "factId": "service-diabetic-eye-exams"
+    },
+    {
+      "name": "coordinate with New Jersey eye surgeons",
+      "surface": "visible",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery.",
+      "factId": "service-cataract-co-management"
+    },
+    {
+      "name": "Myopia Management",
+      "surface": "visible",
+      "page": "/eye-care-services/myopia-management/",
+      "quote": "At Academy Vision, we focus on more than just helping your child see clearly—we work to protect their vision for the future.",
+      "factId": "service-myopia"
+    },
+    {
+      "names": [
+        "Ortho-k (overnight lenses)",
+        "Soft contact lenses designed specifically for kids",
+        "Atropine eye drops",
+        "Myopia control glasses"
+      ],
+      "surface": "visible",
+      "page": "/eye-care-services/myopia-management/",
+      "quote": "Once we understand your child’s vision, we’ll recommend options that are designed to slow progression.",
+      "factId": "service-myopia-options",
+      "items": [
+        "Ortho-k (overnight lenses) that gently reshape the eye while your child sleeps",
+        "Soft contact lenses designed specifically for kids to help control how light enters the eye and slow prescription changes.",
+        "Atropine eye drops that are easy to use at home and help reduce how quickly myopia progresses.",
+        "Myopia control glasses with specialized lenses that support clearer vision while helping manage long-term changes."
+      ]
+    },
+    {
+      "name": "Pediatric Eye Care",
+      "surface": "visible",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in.",
+      "factId": "service-pediatric"
+    },
+    {
+      "names": [
+        "distances",
+        "eyes work together and focus",
+        "eye health and development",
+        "age-appropriate"
+      ],
+      "surface": "visible",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age.",
+      "factId": "service-pediatric-exam-includes",
+      "items": [
+        "Check how clearly your child can see at different distances",
+        "Evaluate how their eyes work together and focus",
+        "Look at overall eye health and development",
+        "Keep everything age-appropriate and easy to follow"
+      ]
+    },
+    {
+      "name": "Back-to-school season is a practical time to schedule",
+      "surface": "visible",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "quote": "Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms.",
+      "factId": "service-back-to-school"
+    },
+    {
+      "name": "LASIK Co-Management",
+      "surface": "visible",
+      "page": "/eye-care-services/lasik-co-management/",
+      "quote": "If it is, we’ll connect you with a local eye surgeon and coordinate your care.",
+      "factId": "service-lasik-co-management"
+    },
+    {
+      "name": "eye exams and follow-ups",
+      "surface": "visible",
+      "page": "/eye-care-services/lasik-co-management/",
+      "quote": "Before and after your procedure, you’ll come back to us for your eye exams and follow-ups, so you have a familiar place for answers and support.",
+      "factId": "service-lasik-follow-up"
+    },
+    {
+      "name": "emergency eye care in Pine Beach whenever possible",
+      "surface": "visible",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible.",
+      "factId": "service-emergency"
+    },
+    {
+      "name": "medical eye care",
+      "surface": "visible",
+      "page": "/hours-location/",
+      "quote": "We provide care for the whole family, from comprehensive eye exams to medical eye care, dry eye treatment, and more.",
+      "factId": "service-medical-eye-care"
+    },
+    {
+      "names": [
+        "infections",
+        "dry eye",
+        "eye disease",
+        "sudden changes in your vision"
+      ],
+      "surface": "visible",
+      "page": "/insurance/",
+      "quote": "This can include things like infections, dry eye, eye disease, or sudden changes in your vision.",
+      "factId": "service-medical-insurance-visits"
+    },
+    {
+      "name": "Contact Lens Exams",
+      "surface": "visible",
+      "page": "/contact-lenses/contact-lenses-exams/",
+      "quote": "A contact lens exam goes a step beyond a standard eye exam.",
+      "factId": "service-contact-lens-exams"
+    },
+    {
+      "names": [
+        "check your vision and overall eye health",
+        "measurements",
+        "tear film",
+        "trial lenses",
+        "adjustments"
+      ],
+      "surface": "visible",
+      "page": "/contact-lenses/contact-lenses-exams/",
+      "quote": "Here’s what you can expect when you come to Academy Vision:",
+      "factId": "service-contact-lens-exam-steps",
+      "items": [
+        "We check your vision and overall eye health",
+        "We take measurements to ensure the best possible fit",
+        "We evaluate your tear film to make sure your eyes stay comfortable",
+        "We fit you with trial lenses so you can experience how they feel",
+        "We make adjustments based on comfort and clarity"
+      ]
+    },
+    {
+      "name": "how to put them in, take them out, and care for them properly",
+      "surface": "visible",
+      "page": "/contact-lenses/contact-lenses-exams/",
+      "quote": "We’ll show you how to put them in, take them out, and care for them properly, step by step.",
+      "factId": "service-contact-lens-training"
+    },
+    {
+      "name": "Personalized Contact Lens Fittings",
+      "surface": "visible",
+      "page": "/contact-lenses/",
+      "quote": "We’ll measure your eyes, talk through your lifestyle, and make sure your lenses feel comfortable and work the way they should.",
+      "factId": "service-contact-lens-fittings"
+    },
+    {
+      "name": "helping all ages see clearly & comfortably",
+      "surface": "visible",
+      "page": "/contact-lenses/",
+      "quote": "helping all ages see clearly & comfortably",
+      "factId": "service-contact-lenses-all-ages"
+    },
+    {
+      "name": "Orthokeratology (Ortho-K)",
+      "surface": "visible",
+      "page": "/contact-lenses/orthokeratology-ortho-k/",
+      "quote": "It’s a simple, non-surgical option that works for both kids and adults.",
+      "factId": "service-ortho-k"
+    },
+    {
+      "name": "a detailed eye exam and measurements to determine if ortho-k is right for you",
+      "surface": "visible",
+      "page": "/contact-lenses/orthokeratology-ortho-k/",
+      "quote": "We’ll start with a detailed eye exam and measurements to determine if ortho-k is right for you.",
+      "factId": "service-ortho-k-start"
+    },
+    {
+      "name": "Scleral Lenses",
+      "surface": "visible",
+      "page": "/contact-lenses/scleral-lenses/",
+      "quote": "Our Pine Beach eye doctors use these specialty lenses to help patients see clearly and feel comfortable again, even when other solutions haven’t worked.",
+      "factId": "service-scleral"
+    },
+    {
+      "names": [
+        "chronic dry eye or irritation",
+        "Struggle to wear standard contact lenses",
+        "sensitive eyes",
+        "more advanced vision correction",
+        "Keratoconus"
+      ],
+      "surface": "visible",
+      "page": "/contact-lenses/scleral-lenses/",
+      "quote": "Scleral lenses are often recommended for patients who:",
+      "factId": "service-scleral-candidates",
+      "items": [
+        "Have chronic dry eye or irritation",
+        "Struggle to wear standard contact lenses",
+        "Have sensitive eyes",
+        "Need more advanced vision correction",
+        "Keratoconus"
+      ]
+    },
+    {
+      "name": "Eyeglasses",
+      "surface": "visible",
+      "page": "/eyeglasses/",
+      "quote": "At our Pine Beach optical, we help you find glasses that feel good and fit your life, without overcomplicating things.",
+      "factId": "service-eyeglasses"
+    },
+    {
+      "name": "Same-Day Glasses",
+      "surface": "visible",
+      "page": "/eyeglasses/",
+      "quote": "With our in-office finishing lab in Pine Beach, many prescriptions can be made the very same day.",
+      "factId": "service-same-day-glasses"
+    },
+    {
+      "name": "Kids’ Frames",
+      "surface": "visible",
+      "page": "/eyeglasses/",
+      "quote": "We offer frames that are lightweight, flexible, and designed to stay comfortable throughout the day.",
+      "factId": "service-kids-frames"
+    },
+    {
+      "name": "children’s frames",
+      "surface": "visible",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear.",
+      "factId": "service-kids-frames-article"
+    },
+    {
+      "names": [
+        "Anti-reflective coatings",
+        "Blue light protection",
+        "Polarized lenses",
+        "Scratch-resistant treatments"
+      ],
+      "surface": "visible",
+      "page": "/eyeglasses/",
+      "quote": "Lens Options That Make a Difference",
+      "factId": "service-lens-options",
+      "items": [
+        "Anti-reflective coatings to reduce glare and eye strain",
+        "Blue light protection for screen-heavy days",
+        "Polarized lenses for clearer vision outdoors",
+        "Scratch-resistant treatments for everyday durability"
+      ]
+    },
+    {
+      "name": "Varilux® lenses are a type of progressive lens",
+      "surface": "visible",
+      "page": "/eyeglasses/varilux-lenses/",
+      "quote": "Varilux® lenses are a type of progressive lens, which means they allow you to see at multiple distances without the visible line you might remember from traditional bifocals.",
+      "factId": "service-varilux"
+    },
+    {
+      "name": "We take detailed measurements",
+      "surface": "visible",
+      "page": "/eyeglasses/varilux-lenses/",
+      "quote": "We take detailed measurements and consider how you use your eyes throughout the day to make sure your lenses are set up correctly.",
+      "factId": "service-varilux-fitting"
+    },
+    {
+      "name": "Avulux® Migraine Lenses",
+      "surface": "visible",
+      "page": "/eyeglasses/avulux-migraine-lenses/",
+      "quote": "From there, we’ll help you decide if Avulux® lenses are a good fit and guide you through the next steps.",
+      "factId": "service-avulux"
+    },
+    {
+      "name": "Essilor® Stellest® lenses",
+      "surface": "visible",
+      "page": "/eyeglasses/stellest-lenses/",
+      "quote": "If your child’s vision has been changing, it’s worth asking our eye doctors about Stellest® lenses.",
+      "factId": "service-stellest"
+    },
+    {
+      "name": "second opinions and surgical consultations",
+      "surface": "visible",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "Providing honest second opinions and surgical consultations.",
+      "factId": "service-second-opinions"
+    },
+    {
+      "names": [
+        "red eyes",
+        "ocular injuries"
+      ],
+      "surface": "visible",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "seeking relief from chronic dry eye, red eyes, and ocular injuries.",
+      "factId": "service-red-eyes-injuries"
+    },
+    {
+      "name": "help verify your benefits",
+      "surface": "visible",
+      "page": "/insurance/",
+      "quote": "Our team at Academy Vision will help verify your benefits",
+      "factId": "service-insurance-verification"
+    }
+  ],
+  "servicesInStructuredData": [
+    {
+      "name": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies",
+      "surface": "jsonld",
+      "page": "/",
+      "quote": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741.",
+      "factId": "jsonld-legacy-description",
+      "alsoInVisibleCopy": "partly: eye exams, dry eye and contact lenses yes; treatment of allergies no"
+    },
+    {
+      "names": [
+        "routine eye exams",
+        "dry eye treatment",
+        "pediatric eye care",
+        "myopia management",
+        "contact lens fittings"
+      ],
+      "surface": "jsonld",
+      "page": "/",
+      "quote": "Academy Vision provides comprehensive eye care services in Pine Beach, NJ, including routine eye exams, dry eye treatment, pediatric eye care, myopia management, and contact lens fittings.",
+      "factId": "jsonld-optician-description",
+      "alsoInVisibleCopy": "yes: each listed service is in visible copy"
+    },
+    {
+      "name": "low vision care",
+      "surface": "jsonld",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Academy Vision provides expert optometric services including advanced low vision care, specialized evaluations, and access to visual aids and assistive technologies.",
+      "factId": "jsonld-low-vision",
+      "alsoInVisibleCopy": "no: low vision is never mentioned in visible copy"
+    },
+    {
+      "name": "routine exams and emergency eye care",
+      "surface": "jsonld",
+      "page": "/hours-location/",
+      "quote": "provides expert eye care services, including routine exams and emergency eye care.",
+      "factId": "jsonld-emergency",
+      "alsoInVisibleCopy": "yes: /hours-location/ offers emergency eye care whenever possible"
+    },
+    {
+      "name": "dry eye diagnosis and therapy",
+      "surface": "jsonld",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "quote": "Academy Vision provides expert optometric services including advanced dry eye diagnosis and therapy using the latest treatment technologies and personalized care plans.",
+      "factId": "jsonld-dry-eye-description",
+      "alsoInVisibleCopy": "partly: dry eye care yes; the latest treatment technologies no"
+    },
+    {
+      "names": [
+        "tear breakup time",
+        "Schirmer test",
+        "meibomian gland imaging",
+        "ocular surface staining"
+      ],
+      "surface": "jsonld",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "quote": "Includes tear breakup time, Schirmer test, meibomian gland imaging, and ocular surface staining to assess tear production and eye surface health.",
+      "factId": "jsonld-dry-eye-evaluation",
+      "alsoInVisibleCopy": "no: none of these tests is named in visible copy"
+    },
+    {
+      "names": [
+        "visual acuity",
+        "eye movement",
+        "refraction",
+        "slit lamp exam",
+        "pupil dilation",
+        "retinal assessment"
+      ],
+      "surface": "jsonld",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Includes visual acuity, eye movement, refraction, slit lamp exam, pupil dilation, and retinal assessment.",
+      "factId": "jsonld-exam-includes",
+      "alsoInVisibleCopy": "partly: prescription, eye teaming and eye health yes; slit lamp and dilation no"
+    },
+    {
+      "name": "LASIK co-management",
+      "surface": "jsonld",
+      "page": "/eye-care-services/lasik-co-management/",
+      "quote": "Academy Vision provides LASIK co-management, ensuring patients receive thorough pre-operative consultation and attentive post-surgery care.",
+      "factId": "jsonld-lasik-description",
+      "alsoInVisibleCopy": "yes: /eye-care-services/lasik-co-management/"
+    },
+    {
+      "name": "Pediatric Optometry",
+      "surface": "jsonld",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "quote": "Pediatric Optometry",
+      "factId": "jsonld-pediatric-specialty",
+      "alsoInVisibleCopy": "yes: pediatric eye care"
+    },
+    {
+      "names": [
+        "Comprehensive Eye Exams",
+        "Emergency Eye Care",
+        "Contact Lens Exams",
+        "Eye Disease Management",
+        "Dry Eyes",
+        "Diabetic Retinopathy",
+        "Glaucoma Treatment",
+        "Macular Degeneration",
+        "Keratoconus Treatment",
+        "Cataract Surgery Co-Management",
+        "Myopia Management",
+        "Orthokeratology (CRT & VST)",
+        "Ocular Surface Disease",
+        "Pediatric Eye Care",
+        "Avulux",
+        "Senior Vision",
+        "Scleral Lenses"
+      ],
+      "surface": "jsonld",
+      "page": "/team/dr-tyler-lesko-od/",
+      "quote": "Orthokeratology (CRT & VST)",
+      "factId": "jsonld-knows-about",
+      "items": [
+        "Comprehensive Eye Exams",
+        "Emergency Eye Care",
+        "Contact Lens Exams",
+        "Eye Disease Management",
+        "Dry Eyes",
+        "Diabetic Retinopathy",
+        "Glaucoma Treatment",
+        "Macular Degeneration",
+        "Keratoconus Treatment",
+        "Cataract Surgery Co-Management",
+        "Myopia Management",
+        "Orthokeratology (CRT & VST)",
+        "Ocular Surface Disease",
+        "Pediatric Eye Care",
+        "Avulux",
+        "Senior Vision",
+        "Scleral Lenses"
+      ],
+      "alsoInVisibleCopy": "partly: CRT and VST, ocular surface disease and keratoconus treatment are not in visible copy (keratoconus appears only as a scleral-lens candidate)"
+    },
+    {
+      "names": [
+        "MiSight",
+        "therapy"
+      ],
+      "surface": "meta",
+      "page": "/eye-care-services/myopia-management/",
+      "quote": "Academy Vision offers MiSight and therapy to slow nearsightedness.",
+      "factId": "meta-myopia-misight",
+      "alsoInVisibleCopy": "partly: MiSight yes (Dr. Lesko bio); therapy no"
+    },
+    {
+      "names": [
+        "daily",
+        "monthly",
+        "specialty lenses"
+      ],
+      "surface": "meta",
+      "page": "/contact-lenses/",
+      "quote": "Academy Vision offers daily, monthly, and specialty lenses for clear vision.",
+      "factId": "meta-contact-lens-types",
+      "alsoInVisibleCopy": "partly: daily and specialty lenses yes; monthly no"
+    },
+    {
+      "name": "keratoconus and hard-to-fit eyes",
+      "surface": "meta",
+      "page": "/contact-lenses/scleral-lenses/",
+      "quote": "Custom scleral lenses in Pine Beach for keratoconus and hard-to-fit eyes.",
+      "factId": "meta-scleral-keratoconus",
+      "alsoInVisibleCopy": "yes: keratoconus is listed on /contact-lenses/scleral-lenses/"
+    },
+    {
+      "name": "pre- and post-op care",
+      "surface": "meta",
+      "page": "/eye-care-services/lasik-co-management/",
+      "quote": "Get pre- and post-op care from the doctors at Academy Vision.",
+      "factId": "meta-lasik-pre-post",
+      "alsoInVisibleCopy": "yes: before and after the procedure"
+    }
+  ],
+  "insurance": [
+    {
+      "name": "Medicare",
+      "page": "/insurance/",
+      "quote": "Medicare",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "United Healthcare",
+      "page": "/insurance/",
+      "quote": "United Healthcare",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "Aetna",
+      "page": "/insurance/",
+      "quote": "Aetna",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "Cigna",
+      "page": "/insurance/",
+      "quote": "Cigna",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "Blue Cross Blue Shield",
+      "page": "/insurance/",
+      "quote": "Blue Cross Blue Shield",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "EyeMed",
+      "page": "/insurance/",
+      "quote": "EyeMed",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "UMR",
+      "page": "/insurance/",
+      "quote": "UMR",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "AARP",
+      "page": "/insurance/",
+      "quote": "AARP",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "Meritain Health",
+      "page": "/insurance/",
+      "quote": "Meritain Health",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "Mutual Of Omaha",
+      "page": "/insurance/",
+      "quote": "Mutual Of Omaha",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "Clover",
+      "page": "/insurance/",
+      "quote": "Clover",
+      "section": "Insurance Plans We Accept"
+    },
+    {
+      "name": "Braven Health",
+      "page": "/insurance/",
+      "quote": "Braven Health",
+      "section": "Insurance Plans We Accept"
+    }
+  ],
+  "frameBrands": [
+    {
+      "name": "Ray-Ban",
+      "page": "/eyeglasses/",
+      "quote": "Ray-Ban",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Kate Spade",
+      "page": "/eyeglasses/",
+      "quote": "Kate Spade",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Calvin Klein",
+      "page": "/eyeglasses/",
+      "quote": "Calvin Klein",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Flexon",
+      "page": "/eyeglasses/",
+      "quote": "Flexon",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Bebe",
+      "page": "/eyeglasses/",
+      "quote": "Bebe",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Wiley X",
+      "page": "/eyeglasses/",
+      "quote": "Wiley X",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Etnia Barcelona",
+      "page": "/eyeglasses/",
+      "quote": "Etnia Barcelona",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Nike",
+      "page": "/eyeglasses/",
+      "quote": "Nike",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Guess?",
+      "page": "/eyeglasses/",
+      "quote": "Guess?",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Joseph Abboud",
+      "page": "/eyeglasses/",
+      "quote": "Joseph Abboud",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Marc Jacobs",
+      "page": "/eyeglasses/",
+      "quote": "Marc Jacobs",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Costa",
+      "page": "/eyeglasses/",
+      "quote": "Costa",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Anne Klein",
+      "page": "/eyeglasses/",
+      "quote": "Anne Klein",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Dragon",
+      "page": "/eyeglasses/",
+      "quote": "Dragon",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Cole Haan",
+      "page": "/eyeglasses/",
+      "quote": "Cole Haan",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Draper James",
+      "page": "/eyeglasses/",
+      "quote": "Draper James",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Liz Claiborne",
+      "page": "/eyeglasses/",
+      "quote": "Liz Claiborne",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Tommy Hilfiger",
+      "page": "/eyeglasses/",
+      "quote": "Tommy Hilfiger",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Charmant",
+      "page": "/eyeglasses/",
+      "quote": "Charmant",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Elle",
+      "page": "/eyeglasses/",
+      "quote": "Elle",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Marciano",
+      "page": "/eyeglasses/",
+      "quote": "Marciano",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Adidas",
+      "page": "/eyeglasses/",
+      "quote": "Adidas",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Timberland",
+      "page": "/eyeglasses/",
+      "quote": "Timberland",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Valerie Spencer",
+      "page": "/eyeglasses/",
+      "quote": "Valerie Spencer",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Emilio Pucci",
+      "page": "/eyeglasses/",
+      "quote": "Emilio Pucci",
+      "section": "Designer Frames for All"
+    },
+    {
+      "name": "Joan Collins",
+      "page": "/eyeglasses/",
+      "quote": "Joan Collins",
+      "section": "Designer Frames for All"
+    }
+  ],
+  "contactLensBrands": [
+    {
+      "name": "DAILIES TOTAL1® Multifocal",
+      "page": "/contact-lenses/",
+      "quote": "DAILIES TOTAL1® Multifocal",
+      "section": "Explore our Contact Lens Options in Pine Beach"
+    },
+    {
+      "name": "Precision1®",
+      "page": "/contact-lenses/",
+      "quote": "Precision1®",
+      "section": "Explore our Contact Lens Options in Pine Beach"
+    },
+    {
+      "name": "PRECISION1® for Astigmatism",
+      "page": "/contact-lenses/",
+      "quote": "PRECISION1® for Astigmatism",
+      "section": "Explore our Contact Lens Options in Pine Beach"
+    },
+    {
+      "name": "TOTAL30® for Astigmatism",
+      "page": "/contact-lenses/",
+      "quote": "TOTAL30® for Astigmatism",
+      "section": "Explore our Contact Lens Options in Pine Beach"
+    },
+    {
+      "name": "DAILIES TOTAL1® for Astigmatism",
+      "page": "/contact-lenses/",
+      "quote": "DAILIES TOTAL1® for Astigmatism",
+      "section": "Explore our Contact Lens Options in Pine Beach"
+    },
+    {
+      "name": "TOTAL30®",
+      "page": "/contact-lenses/",
+      "quote": "TOTAL30®",
+      "section": "Explore our Contact Lens Options in Pine Beach"
+    },
+    {
+      "name": "TOTAL30® Multifocal",
+      "page": "/contact-lenses/",
+      "quote": "TOTAL30® Multifocal",
+      "section": "Explore our Contact Lens Options in Pine Beach"
+    },
+    {
+      "name": "Alcon",
+      "page": "/contact-lenses/",
+      "quote": "including trusted brands like Precision1® and Dailies Total1® from Alcon.",
+      "section": "Type of Contact Lenses We Offer",
+      "role": "manufacturer; the site names Alcon only for Precision1® and Dailies Total1®"
+    }
+  ],
+  "lensProducts": [
+    {
+      "name": "Varilux®",
+      "page": "/eyeglasses/varilux-lenses/",
+      "quote": "Varilux® Eyeglass Lenses in Pine Beach",
+      "surface": "visible"
+    },
+    {
+      "name": "Avulux®",
+      "page": "/eyeglasses/avulux-migraine-lenses/",
+      "quote": "Avulux® lenses are designed to help reduce light-related triggers so that you can go about your day with greater comfort and fewer interruptions.",
+      "surface": "visible"
+    },
+    {
+      "name": "Essilor® Stellest®",
+      "page": "/eyeglasses/stellest-lenses/",
+      "quote": "Essilor® Stellest® lenses for Myopia",
+      "surface": "visible"
+    },
+    {
+      "name": "MiSight",
+      "page": "/team/dr-tyler-lesko-od/",
+      "quote": "Utilizing orthokeratology and MiSight",
+      "surface": "visible"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Who's Who Honorees 2023 Marquis 125 Years Logo",
+      "page": "/",
+      "quote": "Who's Who Honorees 2023 Marquis 125 Years Logo",
+      "surface": "alt",
+      "allPages": true
+    },
+    {
+      "name": "2021 National Optometry Student Bowl Champion",
+      "page": "/team/dr-tyler-lesko-od/",
+      "quote": "he was the 2021 National Optometry Student Bowl Champion",
+      "surface": "visible",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "name": [
+        "Summa Cum Laude",
+        "Georgian Court University",
+        "Pennsylvania College of Optometry (PCO)"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "quote": "He graduated Summa Cum Laude from Georgian Court University",
+      "surface": "visible",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I had my eye exam at Academy. Dr. G was very thorough, friendly and knowledgeable. The staff was very helpful and friendly as well. The office is modern and well stocked with a large supply of frames. Thank you for a great experience I’ll be returning for all my future optical needs.",
+      "author": "lidia giallombardo",
+      "rating": 5,
+      "date": "2025-12-30",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Everyone was professional and friendly. Grateful for the in depth tools they use to check eye health (an eye scan vs the puff of air for glaucoma test). The optometrist was friendly and patient with my questions explaining everything along the way. I also appreciated how the staff helped me pick out frames that fit my needs including taking pictures I could share with a friend for agreement on the best pair for me.",
+      "author": "427Streaming",
+      "rating": 5,
+      "date": "2026-10-02",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Top notch! Great doctor and staff! We felt extremely important and very well cared for.",
+      "author": "Lisa M.",
+      "rating": 5,
+      "date": "2026-10-01",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Everyone in the office are great. A very friendly office. Very helpful. The doctor is great love him. Don't mind going to the eye doctor at all because of them. When you really need to see him they tried to fit you in right away which is great.",
+      "author": "grace caddell",
+      "rating": 5,
+      "date": "2026-02-17",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Very informative office, I felt comfortable the moment I walked in for my initial appt. And I was in and out in less than 30 mins. Highly recommend if you’re looking for a new eye doctor",
+      "author": "Dorothie Bonfanti",
+      "rating": 5,
+      "date": "2026-02-10",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Dr G was amazing along with the office staff",
+      "author": "Lisa L.",
+      "rating": 5,
+      "date": "2026-09-23",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Ive been going to Academy Vision for over 20 years, I wouldn’t trust my eyes to anyone else. Dr Ullman is caring, honest and always answers all of my questions. His practice is so well run, everyone is so helpful and thorough.",
+      "author": "Janet Pope",
+      "rating": 5,
+      "date": "2025-10-10",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": ". Dr Mark Ullman is very caring and very thorough. The staff is caring as well. Everyone is very friendly and they make you feel comfortable. I would Def recommend him to friends and family... *****",
+      "author": "SELAH V.",
+      "rating": 5,
+      "date": "2026-09-18",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "My visit at Academy Vision was awesome the technician was so sweet and knowledgeable highly recommended I give her a 10+ and the doctor was very professional and concerned asking many important questions about my eyes issues I recommend anyone with eye problems or just a check up give them call and the staff was great it was a fun experience.",
+      "author": "Lou",
+      "rating": 5,
+      "date": "2025-12-18",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Fantastic staff and office!",
+      "author": "megan gigliotti",
+      "rating": 5,
+      "date": "2026-03-06",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "From when you first walked in they were incredibly kind and personal. The Dr was so sweet and was willing to explain everything and anything! So glad my husband and I found them!",
+      "author": "Laura G.",
+      "rating": 5,
+      "date": "2026-09-16",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Jess at the desk is always the glue that holds it all together. She’s always kind, polite, and “on it”. The new doctor I got to see was very nice, seemed knowledgeable, and was a positive experience. I also for the first time purchased a pair of glasses from academy. The optometrist was super nice, thorough, and the price honestly was cheaper than my usually place (Costco), so I am very happy!",
+      "author": "Kari Denton",
+      "rating": 5,
+      "date": "2026-03-04",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Excellent service and eye care!",
+      "author": "Alfred J.",
+      "rating": 5,
+      "date": "2026-09-16",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "I have been going to academy vision for about 6 years and I love it here I have yet to have a bad experience. The front staff is always so kind and helpful, The office is very clean, and the doctors are great! Dr. Marc Ullman is very personable but is also very professional and thorough when explaining things about your glasses, eye exam, etc. He’s the best ! I’ve been to other eye doctors at the office when he’s not available and they always have done a good job as well. The glasses selection is one of the best I’ve ever seen I’m super picky and have a hard time finding frames I like. And if you’re on the fence about going here I will say my favorite thing about this place is they don’t do that evil puff eye test they have a machine that takes picture scans of your eyes to check for glaucoma etc instead and it’s way better and more comfortable.",
+      "author": "Rosemary Ruscus",
+      "rating": 5,
+      "date": "2026-02-19",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "It was a pleasure being seen by Dr. Giollombardo From the moment I walked in, the staff was friendly and efficient, making the whole process smooth and stress-free. Dr. G was professional and has great bed-side manner, I really felt like he took the time to listen and cater to what I needed, rather than sell me some generic junk You can tell he genuinely cares about his patients and their eye health. Highly recommend if you’re looking for a knowledgeable and personable optometrist!",
+      "author": "Brian Baldovino",
+      "rating": 5,
+      "date": "2026-03-20",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "First class operation. Great staff , friendly and happy to help. And Doctor Ullman is the BEST !!!!",
+      "author": "Don Albanese",
+      "rating": 5,
+      "date": "2026-02-14",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "I absolutely am 100% satisfied with Dr Ulman & the staff",
+      "author": "Ermelinda Capobianco",
+      "rating": 5,
+      "date": "2026-03-20",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "The staff is amazing! Very professional, helpful and friendly. Dr. Ullman is the best. Always on top of eye care. Would not go anywhere else@",
+      "author": "Leslie Risk",
+      "rating": 5,
+      "date": "2026-03-26",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Just had a visit March 16 I had a prob in my one eye called academy vision and they were able to get me right in ! Met with Dr giallombardo and he was great ! Knew exactly what I needed to do and put me at ease . And showed exceptional care . Prescribed an eye drop same day and I’m already treating my eye . And he will see me again in one week ! I would highly recommend this place , staff was friendly and easy to deal with . I give it ten stars if i could . Thanks Dr G",
+      "author": "Michael Damico",
+      "rating": 5,
+      "date": "2026-03-16",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    },
+    {
+      "quote": "Kind, professional staff. Bright, clean office. Impressive new technology/equipment with a great selection of glasses. Patient, knowledgeable doctor. Couldn't ask for a better experience! Highly recommend!",
+      "author": "Christine G.",
+      "rating": 5,
+      "date": "2026-09-11",
+      "source": "review carousel on /location/academy-vision/; author and date from the same page JSON-LD; platform not named on the site",
+      "page": "/location/academy-vision/",
+      "authorShownOnPage": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "identity-name",
+      "category": "identity",
+      "value": "Academy Vision",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "If you’ve been in the area for a while, there’s a good chance you’ve heard of Academy Vision"
+    },
+    {
+      "id": "identity-site-name",
+      "category": "identity",
+      "value": "Academy Vision",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "meta",
+      "quote": "Academy Vision"
+    },
+    {
+      "id": "identity-org-jsonld",
+      "category": "identity",
+      "value": "Academy Vision",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "Academy Vision"
+    },
+    {
+      "id": "identity-team-name",
+      "category": "identity",
+      "value": "The Academy Vision Eye Care Team",
+      "page": "/our-eye-doctor/",
+      "file": "audit/raw/our-eye-doctor.html",
+      "surface": "visible",
+      "quote": "The Academy Vision Eye Care Team"
+    },
+    {
+      "id": "identity-logo-alt",
+      "category": "identity",
+      "value": "Academy Vision Logo with Eye Design",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "alt",
+      "quote": "Academy Vision Logo with Eye Design",
+      "allPages": true
+    },
+    {
+      "id": "identity-title-location",
+      "category": "identity",
+      "value": "Academy Vision | The Pine Beach Eye Care Center",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "meta",
+      "quote": "Academy Vision | The Pine Beach Eye Care Center"
+    },
+    {
+      "id": "identity-title-about",
+      "category": "identity",
+      "value": "Academy Vision Local Eye Care Clinic in Pine Beach, NJ",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "meta",
+      "quote": "Academy Vision Local Eye Care Clinic in Pine Beach, NJ"
+    },
+    {
+      "id": "identity-title-sitemap",
+      "category": "identity",
+      "value": "Academy Vision | Local Eye Clinic in Pine Beach, Pine Beach",
+      "page": "/sitemap/",
+      "file": "audit/raw/sitemap.html",
+      "surface": "meta",
+      "quote": "Academy Vision | Local Eye Clinic in Pine Beach, Pine Beach"
+    },
+    {
+      "id": "identity-short-academy",
+      "category": "identity",
+      "value": "Academy",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "visible",
+      "quote": "I had my eye exam at Academy."
+    },
+    {
+      "id": "identity-jsonld-type-optician",
+      "category": "identity",
+      "value": "Optician",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "Optician"
+    },
+    {
+      "id": "identity-jsonld-type-medicalclinic",
+      "category": "identity",
+      "value": "MedicalClinic",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+      "surface": "jsonld",
+      "quote": "MedicalClinic"
+    },
+    {
+      "id": "identity-jsonld-specialty",
+      "category": "identity",
+      "value": "Optometry",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+      "surface": "jsonld",
+      "quote": "Optometry"
+    },
+    {
+      "id": "address-display",
+      "category": "address",
+      "value": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+      "allPages": true
+    },
+    {
+      "id": "address-long",
+      "category": "address",
+      "value": "90 Atlantic City Boulevard",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "visible",
+      "quote": "You’ll find our office at 90 Atlantic City Boulevard."
+    },
+    {
+      "id": "address-accessibility-policy",
+      "category": "address",
+      "value": "90 Atlantic City Blvd, Pine Beach, New Jersey",
+      "page": "/website-accessibility-policy/",
+      "file": "audit/raw/website-accessibility-policy.html",
+      "surface": "visible",
+      "quote": "Write to us at: 90 Atlantic City Blvd, Pine Beach, New Jersey"
+    },
+    {
+      "id": "address-landmark",
+      "category": "address",
+      "value": "Route 9 near the Mizzen Avenue light",
+      "page": "/eyeglasses/",
+      "file": "audit/raw/eyeglasses.html",
+      "surface": "visible",
+      "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light."
+    },
+    {
+      "id": "address-building-artwork",
+      "category": "address",
+      "value": "the building with the artwork right by the Mizzen Avenue light",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "visible",
+      "quote": "If you’ve driven down Route 9, there’s a good chance you’ve seen us—the building with the artwork right by the Mizzen Avenue light."
+    },
+    {
+      "id": "address-standalone-parking",
+      "category": "address",
+      "value": "standalone building with its own parking lot",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "visible",
+      "quote": "It’s a standalone building with its own parking lot, so you won’t have to search for a spot or deal with crowded plazas."
+    },
+    {
+      "id": "address-ramp",
+      "category": "address",
+      "value": "ramp for patients who need it",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "visible",
+      "quote": "We’re also easily accessible, with a ramp for patients who need it."
+    },
+    {
+      "id": "address-jsonld-parking",
+      "category": "address",
+      "value": "on-site parking",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "jsonld",
+      "quote": "Easily accessible with on-site parking."
+    },
+    {
+      "id": "address-geo-lat",
+      "category": "address",
+      "value": "39.9535",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "39.9535"
+    },
+    {
+      "id": "address-geo-lng",
+      "category": "address",
+      "value": "-74.1756",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "-74.1756"
+    },
+    {
+      "id": "address-maps-link",
+      "category": "address",
+      "value": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "href",
+      "quote": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+      "allPages": true
+    },
+    {
+      "id": "address-area-served",
+      "category": "address",
+      "value": [
+        "Pine Beach",
+        "Beachwood",
+        "Toms River"
+      ],
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "It’s one of the reasons families throughout Pine Beach, Beachwood, and Toms River continue to come back year after year."
+    },
+    {
+      "id": "address-area-jsonld",
+      "category": "address",
+      "value": [
+        "Pine Beach",
+        "Beachwood",
+        "Toms River"
+      ],
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "Beachwood",
+      "items": [
+        "Pine Beach",
+        "Beachwood",
+        "Toms River"
+      ]
+    },
+    {
+      "id": "address-jersey-shore",
+      "category": "address",
+      "value": "the Jersey Shore",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "For decades, we’ve been taking care of families throughout the Jersey Shore, building relationships that last far beyond a single visit."
+    },
+    {
+      "id": "phone-primary",
+      "category": "phone",
+      "value": "(732) 978-9306",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "Call: (732) 978-9306",
+      "allPages": true
+    },
+    {
+      "id": "phone-primary-footer",
+      "category": "phone",
+      "value": "(732) 978-9306",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "Academy Vision (732) 978-9306",
+      "allPages": true
+    },
+    {
+      "id": "phone-primary-tel",
+      "category": "phone",
+      "value": "tel:+17329789306",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "href",
+      "quote": "tel:+17329789306",
+      "allPages": true
+    },
+    {
+      "id": "phone-primary-jsonld",
+      "category": "phone",
+      "value": "+1-732-978-9306",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "+1-732-978-9306"
+    },
+    {
+      "id": "phone-accessibility-policy",
+      "category": "phone",
+      "value": "(732) 978-9306",
+      "page": "/website-accessibility-policy/",
+      "file": "audit/raw/website-accessibility-policy.html",
+      "surface": "visible",
+      "quote": "Phone us at: (732) 978-9306"
+    },
+    {
+      "id": "phone-other-visible",
+      "category": "phone",
+      "value": "(732) 736-1700",
+      "page": "/eye-care-services/",
+      "file": "audit/raw/eye-care-services.html",
+      "surface": "visible",
+      "quote": "that’s hard to find just anywhere. (732) 736-1700",
+      "conflict": "C1"
+    },
+    {
+      "id": "phone-other-visible-button",
+      "category": "phone",
+      "value": "(732) 736-1700",
+      "page": "/eye-care-services/",
+      "file": "audit/raw/eye-care-services.html",
+      "surface": "visible",
+      "quote": "leave seeing clearly. (732) 736-1700",
+      "conflict": "C1"
+    },
+    {
+      "id": "phone-other-header-icon",
+      "category": "phone",
+      "value": "tel:+17327361700",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "href",
+      "quote": "tel:+17327361700",
+      "allPages": true,
+      "conflict": "C1"
+    },
+    {
+      "id": "phone-other-meta-sitemap",
+      "category": "phone",
+      "value": "(732) 736-1700",
+      "page": "/sitemap/",
+      "file": "audit/raw/sitemap.html",
+      "surface": "meta",
+      "quote": "Family Optometrist & Contact Lenses near you in Pine Beach, New Jersey. Call (732) 736-1700",
+      "conflict": "C1"
+    },
+    {
+      "id": "phone-other-jsonld",
+      "category": "phone",
+      "value": "(732) 736-1700",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+      "allPages": true,
+      "conflict": "C1"
+    },
+    {
+      "id": "hours-monday",
+      "category": "hours",
+      "value": "9:00 am - 5:00 pm",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "monday: 9:00 am - 5:00 pm",
+      "allPages": true,
+      "day": "monday"
+    },
+    {
+      "id": "hours-tuesday",
+      "category": "hours",
+      "value": "9:00 am - 5:00 pm",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "tuesday: 9:00 am - 5:00 pm",
+      "allPages": true,
+      "day": "tuesday"
+    },
+    {
+      "id": "hours-wednesday",
+      "category": "hours",
+      "value": "9:00 am - 5:00 pm",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "wednesday: 9:00 am - 5:00 pm",
+      "allPages": true,
+      "day": "wednesday"
+    },
+    {
+      "id": "hours-thursday",
+      "category": "hours",
+      "value": "9:00 am - 5:00 pm",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "thursday: 9:00 am - 5:00 pm",
+      "allPages": true,
+      "day": "thursday"
+    },
+    {
+      "id": "hours-friday",
+      "category": "hours",
+      "value": "8:00 am - 3:00 pm",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "friday: 8:00 am - 3:00 pm",
+      "allPages": true,
+      "day": "friday"
+    },
+    {
+      "id": "hours-saturday",
+      "category": "hours",
+      "value": "Closed",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "saturday: Closed",
+      "allPages": true,
+      "day": "saturday"
+    },
+    {
+      "id": "hours-sunday",
+      "category": "hours",
+      "value": "Closed",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "sunday: Closed",
+      "allPages": true,
+      "day": "sunday"
+    },
+    {
+      "id": "hours-jsonld-friday",
+      "category": "hours",
+      "value": "Fr 08:00-15:00",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+      "surface": "jsonld",
+      "quote": "Fr 08:00-15:00"
+    },
+    {
+      "id": "hours-form-note",
+      "category": "hours",
+      "value": "Our hours are listed on our location page.",
+      "page": "/appointment-request-form/",
+      "file": "audit/raw/appointment-request-form.html",
+      "surface": "visible",
+      "quote": "Our hours are listed on our location page."
+    },
+    {
+      "id": "booking-online",
+      "category": "booking",
+      "value": "https://scheduleyourexam.com/v3/index.php/3197",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "href",
+      "quote": "https://scheduleyourexam.com/v3/index.php/3197",
+      "allPages": true
+    },
+    {
+      "id": "booking-cta-label",
+      "category": "booking",
+      "value": "Book Appointment",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "Call: (732) 978-9306 Book Appointment",
+      "allPages": true
+    },
+    {
+      "id": "booking-request-form",
+      "category": "booking",
+      "value": "/appointment-request-form/",
+      "page": "/appointment-request-form/",
+      "file": "audit/raw/appointment-request-form.html",
+      "surface": "visible",
+      "quote": "Please fill in the form below to setup an appointment."
+    },
+    {
+      "id": "booking-request-form-fields",
+      "category": "booking",
+      "value": [
+        "Reason for Appointment",
+        "Preferred Date & Times",
+        "Patient Type",
+        "Name",
+        "Phone",
+        "Email",
+        "Best Time to be Reached for Confirmation",
+        "Comments"
+      ],
+      "page": "/appointment-request-form/",
+      "file": "audit/raw/appointment-request-form.html",
+      "surface": "visible",
+      "quote": "Reason for Appointment",
+      "items": [
+        "Reason for Appointment",
+        "Preferred Date & Times",
+        "Patient Type",
+        "New patient",
+        "Returning patient",
+        "Name",
+        "Phone",
+        "Email",
+        "Best Time to be Reached for Confirmation",
+        "Comments"
+      ]
+    },
+    {
+      "id": "booking-request-form-secure",
+      "category": "booking",
+      "value": "Details are stored securely and not sent by email.",
+      "page": "/appointment-request-form/",
+      "file": "audit/raw/appointment-request-form.html",
+      "surface": "visible",
+      "quote": "Please provide a reason for your appointment. Details are stored securely and not sent by email."
+    },
+    {
+      "id": "booking-request-form-thanks",
+      "category": "booking",
+      "value": "Thanks for contacting us! We will get in touch with you shortly.",
+      "page": "/appointment-request-form/",
+      "file": "audit/raw/appointment-request-form.html",
+      "surface": "visible",
+      "quote": "Thanks for contacting us! We will get in touch with you shortly."
+    },
+    {
+      "id": "booking-request-form-hipaa-meta",
+      "category": "booking",
+      "value": "HIPAA compliant",
+      "page": "/appointment-request-form/",
+      "file": "audit/raw/appointment-request-form.html",
+      "surface": "meta",
+      "quote": "It is HIPAA compliant for your privacy and easy to use, for your convenience."
+    },
+    {
+      "id": "booking-registration-form",
+      "category": "booking",
+      "value": "/patient-registration-form/",
+      "page": "/patient-registration-form/",
+      "file": "audit/raw/patient-registration-form.html",
+      "surface": "visible",
+      "quote": "submit the form online, or if you prefer print out the form after full or partial completion, and bring it when you come to our office."
+    },
+    {
+      "id": "booking-registration-secure",
+      "category": "booking",
+      "value": "delivered to your doctor through a secure Internet connection",
+      "page": "/patient-registration-form/",
+      "file": "audit/raw/patient-registration-form.html",
+      "surface": "visible",
+      "quote": "This form contains confidential information and is delivered to your doctor through a secure Internet connection."
+    },
+    {
+      "id": "booking-registration-insurance-cards",
+      "category": "booking",
+      "value": "Please bring all insurance cards with you to your appointment.",
+      "page": "/patient-registration-form/",
+      "file": "audit/raw/patient-registration-form.html",
+      "surface": "visible",
+      "quote": "Please bring all insurance cards with you to your appointment."
+    },
+    {
+      "id": "booking-registration-hipaa-meta",
+      "category": "booking",
+      "value": "HIPAA compliant form",
+      "page": "/patient-registration-form/",
+      "file": "audit/raw/patient-registration-form.html",
+      "surface": "meta",
+      "quote": "patients can now register online by submitting our HIPAA compliant form here."
+    },
+    {
+      "id": "booking-forms-linked-from-sitemap",
+      "category": "booking",
+      "value": [
+        "/appointment-request-form/",
+        "/patient-registration-form/"
+      ],
+      "page": "/sitemap/",
+      "file": "audit/raw/sitemap.html",
+      "surface": "visible",
+      "quote": "Appointment Request Form Patient Registration Form"
+    },
+    {
+      "id": "booking-contact-page",
+      "category": "booking",
+      "value": "/hours-location/",
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "href",
+      "quote": "/hours-location/"
+    },
+    {
+      "id": "booking-family-together",
+      "category": "booking",
+      "value": "schedule everyone together",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+      "surface": "visible",
+      "quote": "If it’s easier to schedule everyone together, we can do that too."
+    },
+    {
+      "id": "social-facebook",
+      "category": "social",
+      "value": "https://www.facebook.com/AcademyVision",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "https://www.facebook.com/AcademyVision"
+    },
+    {
+      "id": "doctor-ag-name",
+      "category": "doctors",
+      "value": "Dr. Anthony Giallombardo, O.D.",
+      "page": "/team/dr-anthony-giallombardo-od/",
+      "file": "audit/raw/team-dr-anthony-giallombardo-od.html",
+      "surface": "visible",
+      "quote": "Dr. Anthony Giallombardo, O.D.",
+      "doctor": "Dr. Anthony Giallombardo, O.D."
+    },
+    {
+      "id": "doctor-ag-owner",
+      "category": "doctors",
+      "value": "optometrist and the owner of the practice",
+      "page": "/team/dr-anthony-giallombardo-od/",
+      "file": "audit/raw/team-dr-anthony-giallombardo-od.html",
+      "surface": "visible",
+      "quote": "Dr. Anthony Giallombardo is an optometrist and the owner of the practice.",
+      "conflict": "C2",
+      "doctor": "Dr. Anthony Giallombardo, O.D."
+    },
+    {
+      "id": "doctor-ag-jobtitle-jsonld",
+      "category": "doctors",
+      "value": "Optometrist & Practice Owner",
+      "page": "/our-eye-doctor/",
+      "file": "audit/raw/our-eye-doctor.html",
+      "surface": "jsonld",
+      "quote": "Optometrist & Practice Owner",
+      "conflict": "C2",
+      "doctor": "Dr. Anthony Giallombardo, O.D."
+    },
+    {
+      "id": "doctor-ag-passion",
+      "category": "doctors",
+      "value": "passion for optometry",
+      "page": "/team/dr-anthony-giallombardo-od/",
+      "file": "audit/raw/team-dr-anthony-giallombardo-od.html",
+      "surface": "visible",
+      "quote": "His passion for optometry is rooted in the meaningful impact he can make on patients' daily lives",
+      "doctor": "Dr. Anthony Giallombardo, O.D."
+    },
+    {
+      "id": "doctor-ag-values",
+      "category": "doctors",
+      "value": "values the supportive team environment at the practice",
+      "page": "/team/dr-anthony-giallombardo-od/",
+      "file": "audit/raw/team-dr-anthony-giallombardo-od.html",
+      "surface": "visible",
+      "quote": "He values the supportive team environment at the practice and finds deep reward in seeing the real-world impact of high-quality eye care.",
+      "doctor": "Dr. Anthony Giallombardo, O.D."
+    },
+    {
+      "id": "doctor-ag-dedicated",
+      "category": "doctors",
+      "value": "every patient feels confident in their vision and overall eye health",
+      "page": "/team/dr-anthony-giallombardo-od/",
+      "file": "audit/raw/team-dr-anthony-giallombardo-od.html",
+      "surface": "visible",
+      "quote": "Dr. Giallombardo is dedicated to ensuring every patient feels confident in their vision and overall eye health.",
+      "doctor": "Dr. Anthony Giallombardo, O.D."
+    },
+    {
+      "id": "doctor-ag-personal",
+      "category": "doctors",
+      "value": [
+        "Watching football.",
+        "Going fishing.",
+        "Spending time with his wife, his two young daughters, and the family dog."
+      ],
+      "page": "/team/dr-anthony-giallombardo-od/",
+      "file": "audit/raw/team-dr-anthony-giallombardo-od.html",
+      "surface": "visible",
+      "quote": "When he is not at the office, Dr. Giallombardo enjoys: Watching football. Going fishing. Spending time with his wife, his two young daughters, and the family dog.",
+      "doctor": "Dr. Anthony Giallombardo, O.D."
+    },
+    {
+      "id": "doctor-ag-nickname-review",
+      "category": "doctors",
+      "value": "Dr. G",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "visible",
+      "quote": "It was a pleasure being seen by Dr. Giollombardo From the moment I walked in, the staff was friendly and efficient, making the whole process smooth and stress-free. Dr. G",
+      "doctor": "Dr. Anthony Giallombardo, O.D.",
+      "role": "patient review"
+    },
+    {
+      "id": "doctor-mu-name",
+      "category": "doctors",
+      "value": "Dr. Marc Ullman, O.D.",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "Dr. Marc Ullman, O.D.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-since-1998",
+      "category": "doctors",
+      "value": "since 1998",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "Dr. Marc Ullman has been a pillar of the eye care community since 1998.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-education",
+      "category": "doctors",
+      "value": [
+        "Binghamton University",
+        "Pennsylvania College of Optometry"
+      ],
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "Originally from Toms River, he attended Binghamton University and the Pennsylvania College of Optometry.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-pco-1998",
+      "category": "doctors",
+      "value": "graduating from the Pennsylvania College of Optometry in 1998",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "his son, Dr. Marc Ullman, joined the field after graduating from the Pennsylvania College of Optometry in 1998.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-salus-jsonld",
+      "category": "doctors",
+      "value": "Pennsylvania College of Optometry (Salus University)",
+      "page": "/our-eye-doctor/",
+      "file": "audit/raw/our-eye-doctor.html",
+      "surface": "jsonld",
+      "quote": "graduating from the Pennsylvania College of Optometry (Salus University).",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-three-decades",
+      "category": "doctors",
+      "value": "nearly three decades",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "After successfully running his own practice for nearly three decades",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-ownership-transition",
+      "category": "doctors",
+      "value": "transitioned ownership to Dr. Lesko and Dr. Giallombardo in early 2026",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "he transitioned ownership to Dr. Lesko and Dr. Giallombardo in early 2026 but remains a vital part of the clinical team.",
+      "conflict": "C2",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-clinical-focus",
+      "category": "doctors",
+      "value": [
+        "chronic dry eye",
+        "red eyes",
+        "ocular injuries"
+      ],
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "Clinical Focus: Dr. Ullman is the practice’s primary resource for patients seeking relief from chronic dry eye, red eyes, and ocular injuries.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-new-treatments",
+      "category": "doctors",
+      "value": "one of the first to offer new treatments",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "Being one of the first to offer new treatments to his patients.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-difficult-fittings",
+      "category": "doctors",
+      "value": "difficult contact lens fittings and chronic ocular disease",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "Managing difficult contact lens fittings and chronic ocular disease.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-second-opinions",
+      "category": "doctors",
+      "value": "honest second opinions and surgical consultations",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "Providing honest second opinions and surgical consultations.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-customer-service",
+      "category": "doctors",
+      "value": "ultimate experience in customer service",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "Dr. Ullman is known for his sensitivity to patient concerns and his commitment to the \"ultimate experience in customer service\".",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-magician",
+      "category": "doctors",
+      "value": [
+        "accomplished card magician",
+        "Captains Table fundraiser at the Atlantic City Boat Show"
+      ],
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "In his spare time, Dr. Ullman is an accomplished card magician, performing annually for the Captains Table fundraiser at the Atlantic City Boat Show.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-mu-family",
+      "category": "doctors",
+      "value": "French Bulldog, Winston",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "He also helps his wife, an entertainment reporter, and enjoys life with their famous furry French Bulldog, Winston.",
+      "doctor": "Dr. Marc Ullman, O.D."
+    },
+    {
+      "id": "doctor-tl-name",
+      "category": "doctors",
+      "value": "Dr. Tyler Lesko, O.D.",
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Dr. Tyler Lesko, O.D.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-hometown",
+      "category": "doctors",
+      "value": "Lacey Township, NJ",
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Dr. Tyler Lesko is a local eye care professional born and raised in Lacey Township, NJ.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-education",
+      "category": "doctors",
+      "value": [
+        "Georgian Court University",
+        "Pennsylvania College of Optometry (PCO)",
+        "Doctor of Optometry",
+        "Summa Cum Laude"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "He graduated Summa Cum Laude from Georgian Court University before earning his Doctor of Optometry degree from the Pennsylvania College of Optometry (PCO), where he also graduated Summa Cum Laude.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-leadership",
+      "category": "doctors",
+      "value": [
+        "President of the Student Volunteer Optometric Services to Humanity (SVOSH)",
+        "New Jersey Student Society of Optometric Physicians"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "He served as the President of the Student Volunteer Optometric Services to Humanity (SVOSH) and the New Jersey Student Society of Optometric Physicians.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-student-bowl",
+      "category": "doctors",
+      "value": "2021 National Optometry Student Bowl Champion",
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Notably, he was the 2021 National Optometry Student Bowl Champion, outperforming students from all 23 optometry schools in the nation.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-passion",
+      "category": "doctors",
+      "value": "preserving vision through advanced technology and personalized care",
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Dr. Lesko is passionate about preserving vision through advanced technology and personalized care.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-myopia",
+      "category": "doctors",
+      "value": [
+        "orthokeratology",
+        "MiSight"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Pediatrics & Myopia Management: Utilizing orthokeratology and MiSight to change the trajectory of children's lives.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-specialty-cl",
+      "category": "doctors",
+      "value": "complex lens fittings",
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Specialty Contact Lenses: Providing life-changing vision for patients through complex lens fittings.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-ocular-disease",
+      "category": "doctors",
+      "value": [
+        "glaucoma",
+        "macular degeneration",
+        "cataracts"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Ocular Disease: Early detection and monitoring of glaucoma, macular degeneration, and cataracts.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-certifications",
+      "category": "doctors",
+      "value": [
+        "Light Adjustable Lens technology",
+        "Orthokeratology"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Advanced Certifications: He is certified in Light Adjustable Lens technology and Orthokeratology.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-community",
+      "category": "doctors",
+      "value": [
+        "humanitarian mission trips to Panama",
+        "Special Olympics",
+        "Lions Club"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Beyond the clinic, Dr. Lesko has participated in humanitarian mission trips to Panama and local vision screenings for the Special Olympics and Lions Club.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctor-tl-family",
+      "category": "doctors",
+      "value": "wife, son, and two cats",
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "At home, he enjoys spending time with his wife, son, and two cats.",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "doctors-team-optometrists",
+      "category": "doctors",
+      "value": "experienced optometrists",
+      "page": "/our-eye-doctor/",
+      "file": "audit/raw/our-eye-doctor.html",
+      "surface": "visible",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    },
+    {
+      "id": "doctors-team-list-order",
+      "category": "doctors",
+      "value": [
+        "Marc Ullman, O.D.",
+        "Tyler Lesko, O.D.",
+        "Anthony Giallombardo, O.D."
+      ],
+      "page": "/our-eye-doctor/",
+      "file": "audit/raw/our-eye-doctor.html",
+      "surface": "visible",
+      "quote": "Meet our Optometrists Marc Ullman, O.D. »",
+      "conflict": "C3",
+      "items": [
+        "Marc Ullman, O.D. »",
+        "Tyler Lesko, O.D. »",
+        "Anthony Giallombardo, O.D. »"
+      ]
+    },
+    {
+      "id": "doctors-jsonld-led-by",
+      "category": "doctors",
+      "value": "Led by practice owner Dr. Anthony Giallombardo",
+      "page": "/our-eye-doctor/",
+      "file": "audit/raw/our-eye-doctor.html",
+      "surface": "jsonld",
+      "quote": "Led by practice owner Dr. Anthony Giallombardo, alongside veteran optometrists Dr. Marc Ullman and Dr. Tyler Lesko.",
+      "conflict": "C2"
+    },
+    {
+      "id": "doctors-meta-ullman-only",
+      "category": "doctors",
+      "value": "Visit Dr. Marc Ullman, your Pine Beach eye doctor.",
+      "page": "/our-eye-doctor/",
+      "file": "audit/raw/our-eye-doctor.html",
+      "surface": "meta",
+      "quote": "Visit Dr. Marc Ullman, your Pine Beach eye doctor.",
+      "conflict": "C3"
+    },
+    {
+      "id": "doctors-founder",
+      "category": "doctors",
+      "value": "Dr. Robert Ullman",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "Academy Vision was founded in 1984 by Dr. Robert Ullman, who built the practice with a simple goal: to take care of people the right way.",
+      "doctor": "Dr. Robert Ullman"
+    },
+    {
+      "id": "staff-opticians",
+      "category": "staff",
+      "value": "opticians",
+      "page": "/eyeglasses/",
+      "file": "audit/raw/eyeglasses.html",
+      "surface": "visible",
+      "quote": "Our Pine Beach opticians take the time to understand how you use your eyes daily"
+    },
+    {
+      "id": "staff-benefits-help",
+      "category": "staff",
+      "value": "help verify your benefits",
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan."
+    },
+    {
+      "id": "staff-review-jess",
+      "category": "staff",
+      "value": "Jess at the desk",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "visible",
+      "quote": "Jess at the desk is always the glue that holds it all together.",
+      "role": "patient review"
+    },
+    {
+      "id": "staff-review-technician",
+      "category": "staff",
+      "value": "technician",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "visible",
+      "quote": "the technician was so sweet and knowledgeable",
+      "role": "patient review"
+    },
+    {
+      "id": "staff-photo-alt",
+      "category": "staff",
+      "value": "Three women in front of a red and white Academy Vision backdrop smiling with 2020 glasses",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "alt",
+      "quote": "Three women in front of a red and white Academy Vision backdrop smiling with 2020 glasses"
+    },
+    {
+      "id": "service-comprehensive-eye-exams",
+      "category": "services",
+      "value": "Comprehensive Eye Exams",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+      "surface": "visible",
+      "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision."
+    },
+    {
+      "id": "service-exam-includes",
+      "category": "services",
+      "value": [
+        "Check your prescription",
+        "Evaluate how your eyes are working together",
+        "Take a close look at your eye health",
+        "Talk through anything we find in plain language"
+      ],
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+      "surface": "visible",
+      "quote": "Your exam is designed to give you a complete picture of your vision and eye health.",
+      "items": [
+        "Check your prescription to make sure you’re seeing clearly",
+        "Evaluate how your eyes are working together",
+        "Take a close look at your eye health, including any signs of concerns",
+        "Talk through anything we find in plain language that you can understand"
+      ]
+    },
+    {
+      "id": "service-exams-all-ages",
+      "category": "services",
+      "value": "Eye Exams for Kids, Adults, and Seniors",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+      "surface": "visible",
+      "quote": "We see patients of all ages, from young kids coming in for their first exam to adults staying on top of changes in their vision.",
+      "section": "Eye Exams for Kids, Adults, and Seniors"
+    },
+    {
+      "id": "service-seniors",
+      "category": "services",
+      "value": "care for adults and seniors",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "From kids’ first eye exams to ongoing care for adults and seniors, we’re here for every stage of life."
+    },
+    {
+      "id": "service-dry-eye",
+      "category": "services",
+      "value": "Dry Eye Treatment",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+      "surface": "visible",
+      "quote": "At Academy Vision, we look beyond quick fixes to find out what’s causing your discomfort and help you feel better for the long run."
+    },
+    {
+      "id": "service-dry-eye-options",
+      "category": "services",
+      "value": [
+        "Prescription eye drops",
+        "Punctal plugs",
+        "Amniotic membranes",
+        "Lid treatments and eyelid hygiene",
+        "Scleral lenses"
+      ],
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+      "surface": "visible",
+      "quote": "Once we understand what’s causing your dry eye, we can recommend treatments.",
+      "section": "Our Dry Eye Treatment Options",
+      "items": [
+        "Prescription eye drops to reduce inflammation and improve tear quality",
+        "Punctal plugs to help your eyes hold onto moisture longer",
+        "Amniotic membranes for advanced healing of the eye’s surface",
+        "Lid treatments and eyelid hygiene to clear blocked oil glands and restore comfort",
+        "Scleral lenses that create a protective, hydrating layer for more severe cases"
+      ]
+    },
+    {
+      "id": "service-eye-disease",
+      "category": "services",
+      "value": "Eye Disease Management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "file": "audit/raw/eye-care-services-eye-disease-management.html",
+      "surface": "visible",
+      "quote": "At Academy Vision, we monitor your eye health closely and help catch potential issues early."
+    },
+    {
+      "id": "service-ocular-diseases-managed",
+      "category": "services",
+      "value": [
+        "Glaucoma",
+        "Macular Degeneration",
+        "Diabetic Eye Disease",
+        "Cataracts"
+      ],
+      "page": "/eye-care-services/eye-disease-management/",
+      "file": "audit/raw/eye-care-services-eye-disease-management.html",
+      "surface": "visible",
+      "quote": "Ocular Diseases We Manage Glaucoma",
+      "items": [
+        "Glaucoma",
+        "Macular Degeneration",
+        "Diabetic Eye Disease",
+        "Cataracts"
+      ]
+    },
+    {
+      "id": "service-glaucoma",
+      "category": "services",
+      "value": "Glaucoma",
+      "page": "/eye-care-services/eye-disease-management/",
+      "file": "audit/raw/eye-care-services-eye-disease-management.html",
+      "surface": "visible",
+      "quote": "We keep a close watch and help manage the condition to protect your vision."
+    },
+    {
+      "id": "service-macular-degeneration",
+      "category": "services",
+      "value": "Macular Degeneration",
+      "page": "/eye-care-services/eye-disease-management/",
+      "file": "audit/raw/eye-care-services-eye-disease-management.html",
+      "surface": "visible",
+      "quote": "with regular eye exams, we can detect early signs and help you maintain your quality of life."
+    },
+    {
+      "id": "service-diabetic-eye-exams",
+      "category": "services",
+      "value": "Routine diabetic eye exams",
+      "page": "/eye-care-services/eye-disease-management/",
+      "file": "audit/raw/eye-care-services-eye-disease-management.html",
+      "surface": "visible",
+      "quote": "Routine diabetic eye exams help us monitor those changes and step in if needed."
+    },
+    {
+      "id": "service-cataract-co-management",
+      "category": "services",
+      "value": "coordinate with New Jersey eye surgeons",
+      "page": "/eye-care-services/eye-disease-management/",
+      "file": "audit/raw/eye-care-services-eye-disease-management.html",
+      "surface": "visible",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "id": "service-myopia",
+      "category": "services",
+      "value": "Myopia Management",
+      "page": "/eye-care-services/myopia-management/",
+      "file": "audit/raw/eye-care-services-myopia-management.html",
+      "surface": "visible",
+      "quote": "At Academy Vision, we focus on more than just helping your child see clearly—we work to protect their vision for the future."
+    },
+    {
+      "id": "service-myopia-options",
+      "category": "services",
+      "value": [
+        "Ortho-k (overnight lenses)",
+        "Soft contact lenses designed specifically for kids",
+        "Atropine eye drops",
+        "Myopia control glasses"
+      ],
+      "page": "/eye-care-services/myopia-management/",
+      "file": "audit/raw/eye-care-services-myopia-management.html",
+      "surface": "visible",
+      "quote": "Once we understand your child’s vision, we’ll recommend options that are designed to slow progression.",
+      "items": [
+        "Ortho-k (overnight lenses) that gently reshape the eye while your child sleeps",
+        "Soft contact lenses designed specifically for kids to help control how light enters the eye and slow prescription changes.",
+        "Atropine eye drops that are easy to use at home and help reduce how quickly myopia progresses.",
+        "Myopia control glasses with specialized lenses that support clearer vision while helping manage long-term changes."
+      ]
+    },
+    {
+      "id": "service-pediatric",
+      "category": "services",
+      "value": "Pediatric Eye Care",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "file": "audit/raw/eye-care-services-pediatric-eye-care.html",
+      "surface": "visible",
+      "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in."
+    },
+    {
+      "id": "service-pediatric-exam-includes",
+      "category": "services",
+      "value": [
+        "distances",
+        "eyes work together and focus",
+        "eye health and development",
+        "age-appropriate"
+      ],
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "file": "audit/raw/eye-care-services-pediatric-eye-care.html",
+      "surface": "visible",
+      "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age.",
+      "items": [
+        "Check how clearly your child can see at different distances",
+        "Evaluate how their eyes work together and focus",
+        "Look at overall eye health and development",
+        "Keep everything age-appropriate and easy to follow"
+      ]
+    },
+    {
+      "id": "service-back-to-school",
+      "category": "services",
+      "value": "Back-to-school season is a practical time to schedule",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "file": "audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html",
+      "surface": "visible",
+      "quote": "Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms."
+    },
+    {
+      "id": "service-lasik-co-management",
+      "category": "services",
+      "value": "LASIK Co-Management",
+      "page": "/eye-care-services/lasik-co-management/",
+      "file": "audit/raw/eye-care-services-lasik-co-management.html",
+      "surface": "visible",
+      "quote": "If it is, we’ll connect you with a local eye surgeon and coordinate your care."
+    },
+    {
+      "id": "service-lasik-follow-up",
+      "category": "services",
+      "value": "eye exams and follow-ups",
+      "page": "/eye-care-services/lasik-co-management/",
+      "file": "audit/raw/eye-care-services-lasik-co-management.html",
+      "surface": "visible",
+      "quote": "Before and after your procedure, you’ll come back to us for your eye exams and follow-ups, so you have a familiar place for answers and support."
+    },
+    {
+      "id": "service-emergency",
+      "category": "services",
+      "value": "emergency eye care in Pine Beach whenever possible",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "visible",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "id": "service-medical-eye-care",
+      "category": "services",
+      "value": "medical eye care",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "visible",
+      "quote": "We provide care for the whole family, from comprehensive eye exams to medical eye care, dry eye treatment, and more."
+    },
+    {
+      "id": "service-medical-insurance-visits",
+      "category": "services",
+      "value": [
+        "infections",
+        "dry eye",
+        "eye disease",
+        "sudden changes in your vision"
+      ],
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "This can include things like infections, dry eye, eye disease, or sudden changes in your vision."
+    },
+    {
+      "id": "service-contact-lens-exams",
+      "category": "services",
+      "value": "Contact Lens Exams",
+      "page": "/contact-lenses/contact-lenses-exams/",
+      "file": "audit/raw/contact-lenses-contact-lenses-exams.html",
+      "surface": "visible",
+      "quote": "A contact lens exam goes a step beyond a standard eye exam."
+    },
+    {
+      "id": "service-contact-lens-exam-steps",
+      "category": "services",
+      "value": [
+        "check your vision and overall eye health",
+        "measurements",
+        "tear film",
+        "trial lenses",
+        "adjustments"
+      ],
+      "page": "/contact-lenses/contact-lenses-exams/",
+      "file": "audit/raw/contact-lenses-contact-lenses-exams.html",
+      "surface": "visible",
+      "quote": "Here’s what you can expect when you come to Academy Vision:",
+      "items": [
+        "We check your vision and overall eye health",
+        "We take measurements to ensure the best possible fit",
+        "We evaluate your tear film to make sure your eyes stay comfortable",
+        "We fit you with trial lenses so you can experience how they feel",
+        "We make adjustments based on comfort and clarity"
+      ]
+    },
+    {
+      "id": "service-contact-lens-training",
+      "category": "services",
+      "value": "how to put them in, take them out, and care for them properly",
+      "page": "/contact-lenses/contact-lenses-exams/",
+      "file": "audit/raw/contact-lenses-contact-lenses-exams.html",
+      "surface": "visible",
+      "quote": "We’ll show you how to put them in, take them out, and care for them properly, step by step."
+    },
+    {
+      "id": "service-contact-lens-fittings",
+      "category": "services",
+      "value": "Personalized Contact Lens Fittings",
+      "page": "/contact-lenses/",
+      "file": "audit/raw/contact-lenses.html",
+      "surface": "visible",
+      "quote": "We’ll measure your eyes, talk through your lifestyle, and make sure your lenses feel comfortable and work the way they should.",
+      "section": "Personalized Contact Lens Fittings"
+    },
+    {
+      "id": "service-contact-lenses-all-ages",
+      "category": "services",
+      "value": "helping all ages see clearly & comfortably",
+      "page": "/contact-lenses/",
+      "file": "audit/raw/contact-lenses.html",
+      "surface": "visible",
+      "quote": "helping all ages see clearly & comfortably"
+    },
+    {
+      "id": "service-ortho-k",
+      "category": "services",
+      "value": "Orthokeratology (Ortho-K)",
+      "page": "/contact-lenses/orthokeratology-ortho-k/",
+      "file": "audit/raw/contact-lenses-orthokeratology-ortho-k.html",
+      "surface": "visible",
+      "quote": "It’s a simple, non-surgical option that works for both kids and adults."
+    },
+    {
+      "id": "service-ortho-k-start",
+      "category": "services",
+      "value": "a detailed eye exam and measurements to determine if ortho-k is right for you",
+      "page": "/contact-lenses/orthokeratology-ortho-k/",
+      "file": "audit/raw/contact-lenses-orthokeratology-ortho-k.html",
+      "surface": "visible",
+      "quote": "We’ll start with a detailed eye exam and measurements to determine if ortho-k is right for you."
+    },
+    {
+      "id": "service-scleral",
+      "category": "services",
+      "value": "Scleral Lenses",
+      "page": "/contact-lenses/scleral-lenses/",
+      "file": "audit/raw/contact-lenses-scleral-lenses.html",
+      "surface": "visible",
+      "quote": "Our Pine Beach eye doctors use these specialty lenses to help patients see clearly and feel comfortable again, even when other solutions haven’t worked."
+    },
+    {
+      "id": "service-scleral-candidates",
+      "category": "services",
+      "value": [
+        "chronic dry eye or irritation",
+        "Struggle to wear standard contact lenses",
+        "sensitive eyes",
+        "more advanced vision correction",
+        "Keratoconus"
+      ],
+      "page": "/contact-lenses/scleral-lenses/",
+      "file": "audit/raw/contact-lenses-scleral-lenses.html",
+      "surface": "visible",
+      "quote": "Scleral lenses are often recommended for patients who:",
+      "items": [
+        "Have chronic dry eye or irritation",
+        "Struggle to wear standard contact lenses",
+        "Have sensitive eyes",
+        "Need more advanced vision correction",
+        "Keratoconus"
+      ]
+    },
+    {
+      "id": "service-eyeglasses",
+      "category": "services",
+      "value": "Eyeglasses",
+      "page": "/eyeglasses/",
+      "file": "audit/raw/eyeglasses.html",
+      "surface": "visible",
+      "quote": "At our Pine Beach optical, we help you find glasses that feel good and fit your life, without overcomplicating things."
+    },
+    {
+      "id": "service-same-day-glasses",
+      "category": "services",
+      "value": "Same-Day Glasses",
+      "page": "/eyeglasses/",
+      "file": "audit/raw/eyeglasses.html",
+      "surface": "visible",
+      "quote": "With our in-office finishing lab in Pine Beach, many prescriptions can be made the very same day.",
+      "section": "Same-Day Glasses Available"
+    },
+    {
+      "id": "service-kids-frames",
+      "category": "services",
+      "value": "Kids’ Frames",
+      "page": "/eyeglasses/",
+      "file": "audit/raw/eyeglasses.html",
+      "surface": "visible",
+      "quote": "We offer frames that are lightweight, flexible, and designed to stay comfortable throughout the day.",
+      "section": "Kids’ Frames That Fit Their Life"
+    },
+    {
+      "id": "service-kids-frames-article",
+      "category": "services",
+      "value": "children’s frames",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "file": "audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html",
+      "surface": "visible",
+      "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear."
+    },
+    {
+      "id": "service-lens-options",
+      "category": "services",
+      "value": [
+        "Anti-reflective coatings",
+        "Blue light protection",
+        "Polarized lenses",
+        "Scratch-resistant treatments"
+      ],
+      "page": "/eyeglasses/",
+      "file": "audit/raw/eyeglasses.html",
+      "surface": "visible",
+      "quote": "Lens Options That Make a Difference",
+      "items": [
+        "Anti-reflective coatings to reduce glare and eye strain",
+        "Blue light protection for screen-heavy days",
+        "Polarized lenses for clearer vision outdoors",
+        "Scratch-resistant treatments for everyday durability"
+      ]
+    },
+    {
+      "id": "service-varilux",
+      "category": "services",
+      "value": "Varilux® lenses are a type of progressive lens",
+      "page": "/eyeglasses/varilux-lenses/",
+      "file": "audit/raw/eyeglasses-varilux-lenses.html",
+      "surface": "visible",
+      "quote": "Varilux® lenses are a type of progressive lens, which means they allow you to see at multiple distances without the visible line you might remember from traditional bifocals."
+    },
+    {
+      "id": "service-varilux-fitting",
+      "category": "services",
+      "value": "We take detailed measurements",
+      "page": "/eyeglasses/varilux-lenses/",
+      "file": "audit/raw/eyeglasses-varilux-lenses.html",
+      "surface": "visible",
+      "quote": "We take detailed measurements and consider how you use your eyes throughout the day to make sure your lenses are set up correctly."
+    },
+    {
+      "id": "service-avulux",
+      "category": "services",
+      "value": "Avulux® Migraine Lenses",
+      "page": "/eyeglasses/avulux-migraine-lenses/",
+      "file": "audit/raw/eyeglasses-avulux-migraine-lenses.html",
+      "surface": "visible",
+      "quote": "From there, we’ll help you decide if Avulux® lenses are a good fit and guide you through the next steps."
+    },
+    {
+      "id": "service-stellest",
+      "category": "services",
+      "value": "Essilor® Stellest® lenses",
+      "page": "/eyeglasses/stellest-lenses/",
+      "file": "audit/raw/eyeglasses-stellest-lenses.html",
+      "surface": "visible",
+      "quote": "If your child’s vision has been changing, it’s worth asking our eye doctors about Stellest® lenses."
+    },
+    {
+      "id": "service-second-opinions",
+      "category": "services",
+      "value": "second opinions and surgical consultations",
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "Providing honest second opinions and surgical consultations."
+    },
+    {
+      "id": "service-red-eyes-injuries",
+      "category": "services",
+      "value": [
+        "red eyes",
+        "ocular injuries"
+      ],
+      "page": "/team/dr-marc-ullman-od/",
+      "file": "audit/raw/team-dr-marc-ullman-od.html",
+      "surface": "visible",
+      "quote": "seeking relief from chronic dry eye, red eyes, and ocular injuries."
+    },
+    {
+      "id": "service-insurance-verification",
+      "category": "services",
+      "value": "help verify your benefits",
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "Our team at Academy Vision will help verify your benefits"
+    },
+    {
+      "id": "jsonld-legacy-description",
+      "category": "services",
+      "value": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741.",
+      "allPages": true
+    },
+    {
+      "id": "jsonld-optician-description",
+      "category": "services",
+      "value": [
+        "routine eye exams",
+        "dry eye treatment",
+        "pediatric eye care",
+        "myopia management",
+        "contact lens fittings"
+      ],
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "Academy Vision provides comprehensive eye care services in Pine Beach, NJ, including routine eye exams, dry eye treatment, pediatric eye care, myopia management, and contact lens fittings."
+    },
+    {
+      "id": "jsonld-low-vision",
+      "category": "services",
+      "value": "low vision care",
+      "page": "/eye-care-services/eye-disease-management/",
+      "file": "audit/raw/eye-care-services-eye-disease-management.html",
+      "surface": "jsonld",
+      "quote": "Academy Vision provides expert optometric services including advanced low vision care, specialized evaluations, and access to visual aids and assistive technologies."
+    },
+    {
+      "id": "jsonld-emergency",
+      "category": "services",
+      "value": "routine exams and emergency eye care",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "jsonld",
+      "quote": "provides expert eye care services, including routine exams and emergency eye care."
+    },
+    {
+      "id": "jsonld-dry-eye-description",
+      "category": "services",
+      "value": "dry eye diagnosis and therapy",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+      "surface": "jsonld",
+      "quote": "Academy Vision provides expert optometric services including advanced dry eye diagnosis and therapy using the latest treatment technologies and personalized care plans."
+    },
+    {
+      "id": "jsonld-dry-eye-evaluation",
+      "category": "services",
+      "value": [
+        "tear breakup time",
+        "Schirmer test",
+        "meibomian gland imaging",
+        "ocular surface staining"
+      ],
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+      "surface": "jsonld",
+      "quote": "Includes tear breakup time, Schirmer test, meibomian gland imaging, and ocular surface staining to assess tear production and eye surface health."
+    },
+    {
+      "id": "jsonld-exam-includes",
+      "category": "services",
+      "value": [
+        "visual acuity",
+        "eye movement",
+        "refraction",
+        "slit lamp exam",
+        "pupil dilation",
+        "retinal assessment"
+      ],
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+      "surface": "jsonld",
+      "quote": "Includes visual acuity, eye movement, refraction, slit lamp exam, pupil dilation, and retinal assessment."
+    },
+    {
+      "id": "jsonld-lasik-description",
+      "category": "services",
+      "value": "LASIK co-management",
+      "page": "/eye-care-services/lasik-co-management/",
+      "file": "audit/raw/eye-care-services-lasik-co-management.html",
+      "surface": "jsonld",
+      "quote": "Academy Vision provides LASIK co-management, ensuring patients receive thorough pre-operative consultation and attentive post-surgery care."
+    },
+    {
+      "id": "jsonld-pediatric-specialty",
+      "category": "services",
+      "value": "Pediatric Optometry",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "file": "audit/raw/eye-care-services-pediatric-eye-care.html",
+      "surface": "jsonld",
+      "quote": "Pediatric Optometry"
+    },
+    {
+      "id": "jsonld-knows-about",
+      "category": "services",
+      "value": [
+        "Comprehensive Eye Exams",
+        "Emergency Eye Care",
+        "Contact Lens Exams",
+        "Eye Disease Management",
+        "Dry Eyes",
+        "Diabetic Retinopathy",
+        "Glaucoma Treatment",
+        "Macular Degeneration",
+        "Keratoconus Treatment",
+        "Cataract Surgery Co-Management",
+        "Myopia Management",
+        "Orthokeratology (CRT & VST)",
+        "Ocular Surface Disease",
+        "Pediatric Eye Care",
+        "Avulux",
+        "Senior Vision",
+        "Scleral Lenses"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "jsonld",
+      "quote": "Orthokeratology (CRT & VST)",
+      "items": [
+        "Comprehensive Eye Exams",
+        "Emergency Eye Care",
+        "Contact Lens Exams",
+        "Eye Disease Management",
+        "Dry Eyes",
+        "Diabetic Retinopathy",
+        "Glaucoma Treatment",
+        "Macular Degeneration",
+        "Keratoconus Treatment",
+        "Cataract Surgery Co-Management",
+        "Myopia Management",
+        "Orthokeratology (CRT & VST)",
+        "Ocular Surface Disease",
+        "Pediatric Eye Care",
+        "Avulux",
+        "Senior Vision",
+        "Scleral Lenses"
+      ]
+    },
+    {
+      "id": "meta-dry-eye-devices",
+      "category": "technology",
+      "value": [
+        "LipiScan",
+        "Inflammadry"
+      ],
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+      "surface": "meta",
+      "quote": "We offer LipiScan and Inflammadry for lasting relief."
+    },
+    {
+      "id": "meta-myopia-misight",
+      "category": "services",
+      "value": [
+        "MiSight",
+        "therapy"
+      ],
+      "page": "/eye-care-services/myopia-management/",
+      "file": "audit/raw/eye-care-services-myopia-management.html",
+      "surface": "meta",
+      "quote": "Academy Vision offers MiSight and therapy to slow nearsightedness."
+    },
+    {
+      "id": "meta-contact-lens-types",
+      "category": "services",
+      "value": [
+        "daily",
+        "monthly",
+        "specialty lenses"
+      ],
+      "page": "/contact-lenses/",
+      "file": "audit/raw/contact-lenses.html",
+      "surface": "meta",
+      "quote": "Academy Vision offers daily, monthly, and specialty lenses for clear vision."
+    },
+    {
+      "id": "meta-insurance-most",
+      "category": "insurance",
+      "value": "We accept most vision and medical insurance.",
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "meta",
+      "quote": "We accept most vision and medical insurance."
+    },
+    {
+      "id": "meta-exam-technology",
+      "category": "technology",
+      "value": "advanced technology",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+      "surface": "meta",
+      "quote": "We use advanced technology to check your vision and eye health at Academy Vision."
+    },
+    {
+      "id": "meta-scleral-keratoconus",
+      "category": "services",
+      "value": "keratoconus and hard-to-fit eyes",
+      "page": "/contact-lenses/scleral-lenses/",
+      "file": "audit/raw/contact-lenses-scleral-lenses.html",
+      "surface": "meta",
+      "quote": "Custom scleral lenses in Pine Beach for keratoconus and hard-to-fit eyes."
+    },
+    {
+      "id": "meta-lasik-pre-post",
+      "category": "services",
+      "value": "pre- and post-op care",
+      "page": "/eye-care-services/lasik-co-management/",
+      "file": "audit/raw/eye-care-services-lasik-co-management.html",
+      "surface": "meta",
+      "quote": "Get pre- and post-op care from the doctors at Academy Vision."
+    },
+    {
+      "id": "jsonld-price-range",
+      "category": "payment",
+      "value": "$$",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "jsonld",
+      "quote": "$$"
+    },
+    {
+      "id": "tech-finishing-lab",
+      "category": "technology",
+      "value": "in-office finishing lab",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "With a wide selection of designer frames for adults and kids, plus our in-office finishing lab, many patients can walk out with their new glasses the very same day."
+    },
+    {
+      "id": "tech-in-house-lab",
+      "category": "technology",
+      "value": "in-house lab",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "visible",
+      "quote": "With our in-house lab, patients can even get their glasses the same day."
+    },
+    {
+      "id": "tech-in-house-finishing-lab-article",
+      "category": "technology",
+      "value": "in-house finishing lab",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "file": "audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html",
+      "surface": "visible",
+      "quote": "The practice also has an in-house finishing lab, and many prescriptions may be available the same day."
+    },
+    {
+      "id": "tech-updated-technology",
+      "category": "technology",
+      "value": "updated technology",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "With new leadership and updated technology, we’re building on decades of experience to offer a more modern, elevated approach to eye care"
+    },
+    {
+      "id": "tech-modern-technology",
+      "category": "technology",
+      "value": "modern technology",
+      "page": "/eye-care-services/",
+      "file": "audit/raw/eye-care-services.html",
+      "surface": "visible",
+      "quote": "With a mix of experience, modern technology, and a team that truly cares, you’ll get the kind of attention that’s hard to find just anywhere."
+    },
+    {
+      "id": "tech-exam-modern",
+      "category": "technology",
+      "value": "modern technology",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+      "surface": "visible",
+      "quote": "Using modern technology and years of hands-on experience, we make sure nothing gets overlooked."
+    },
+    {
+      "id": "tech-review-eye-scan",
+      "category": "technology",
+      "value": "an eye scan vs the puff of air for glaucoma test",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "visible",
+      "quote": "Grateful for the in depth tools they use to check eye health (an eye scan vs the puff of air for glaucoma test).",
+      "role": "patient review"
+    },
+    {
+      "id": "tech-review-picture-scans",
+      "category": "technology",
+      "value": "a machine that takes picture scans of your eyes",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "visible",
+      "quote": "they have a machine that takes picture scans of your eyes to check for glaucoma etc instead",
+      "role": "patient review"
+    },
+    {
+      "id": "tech-review-new-equipment",
+      "category": "technology",
+      "value": "Impressive new technology/equipment",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "visible",
+      "quote": "Impressive new technology/equipment with a great selection of glasses.",
+      "role": "patient review"
+    },
+    {
+      "id": "insurance-plans",
+      "category": "insurance",
+      "value": [
+        "Medicare",
+        "United Healthcare",
+        "Aetna",
+        "Cigna",
+        "Blue Cross Blue Shield",
+        "EyeMed",
+        "UMR",
+        "AARP",
+        "Meritain Health",
+        "Mutual Of Omaha",
+        "Clover",
+        "Braven Health"
+      ],
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "Insurance Plans We Accept Medicare",
+      "items": [
+        "Medicare",
+        "United Healthcare",
+        "Aetna",
+        "Cigna",
+        "Blue Cross Blue Shield",
+        "EyeMed",
+        "UMR",
+        "AARP",
+        "Meritain Health",
+        "Mutual Of Omaha",
+        "Clover",
+        "Braven Health"
+      ]
+    },
+    {
+      "id": "insurance-types",
+      "category": "insurance",
+      "value": [
+        "vision insurance",
+        "medical insurance",
+        "paying out of pocket"
+      ],
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "Whether you’re using vision insurance, medical insurance, or paying out of pocket for eye care in Pine Beach, we’ll walk you through everything so you know exactly what to expect."
+    },
+    {
+      "id": "insurance-vision-routine",
+      "category": "insurance",
+      "value": "Vision insurance is typically used for routine care.",
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "Vision insurance is typically used for routine care."
+    },
+    {
+      "id": "insurance-medical-concern",
+      "category": "insurance",
+      "value": "Medical insurance comes into play when there’s a health-related concern with your eyes.",
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "Medical insurance comes into play when there’s a health-related concern with your eyes."
+    },
+    {
+      "id": "payment-carecredit",
+      "category": "payment",
+      "value": "CareCredit",
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "We accept CareCredit, a flexible financing option that allows you to break up the cost of your care into manageable payments."
+    },
+    {
+      "id": "payment-methods",
+      "category": "payment",
+      "value": [
+        "major credit cards",
+        "cash"
+      ],
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "We also accept standard payment methods, including major credit cards and cash."
+    },
+    {
+      "id": "payment-carecredit-truncated",
+      "category": "payment",
+      "value": "treatments, eyewear, or anything not fully.",
+      "page": "/insurance/",
+      "file": "audit/raw/insurance.html",
+      "surface": "visible",
+      "quote": "It’s a helpful option for treatments, eyewear, or anything not fully.",
+      "conflict": "C9"
+    },
+    {
+      "id": "frame-brands",
+      "category": "frameBrands",
+      "value": [
+        "Ray-Ban",
+        "Kate Spade",
+        "Calvin Klein",
+        "Flexon",
+        "Bebe",
+        "Wiley X",
+        "Etnia Barcelona",
+        "Nike",
+        "Guess?",
+        "Joseph Abboud",
+        "Marc Jacobs",
+        "Costa",
+        "Anne Klein",
+        "Dragon",
+        "Cole Haan",
+        "Draper James",
+        "Liz Claiborne",
+        "Tommy Hilfiger",
+        "Charmant",
+        "Elle",
+        "Marciano",
+        "Adidas",
+        "Timberland",
+        "Valerie Spencer",
+        "Emilio Pucci",
+        "Joan Collins"
+      ],
+      "page": "/eyeglasses/",
+      "file": "audit/raw/eyeglasses.html",
+      "surface": "visible",
+      "quote": "Designer Frames for All Ray-Ban",
+      "items": [
+        "Ray-Ban",
+        "Kate Spade",
+        "Calvin Klein",
+        "Flexon",
+        "Bebe",
+        "Wiley X",
+        "Etnia Barcelona",
+        "Nike",
+        "Guess?",
+        "Joseph Abboud",
+        "Marc Jacobs",
+        "Costa",
+        "Anne Klein",
+        "Dragon",
+        "Cole Haan",
+        "Draper James",
+        "Liz Claiborne",
+        "Tommy Hilfiger",
+        "Charmant",
+        "Elle",
+        "Marciano",
+        "Adidas",
+        "Timberland",
+        "Valerie Spencer",
+        "Emilio Pucci",
+        "Joan Collins"
+      ]
+    },
+    {
+      "id": "frame-selection",
+      "category": "frameBrands",
+      "value": "wide selection of designer frames for adults and kids",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "With a wide selection of designer frames for adults and kids"
+    },
+    {
+      "id": "contact-lens-brands",
+      "category": "contactLensBrands",
+      "value": [
+        "DAILIES TOTAL1® Multifocal",
+        "Precision1®",
+        "PRECISION1® for Astigmatism",
+        "TOTAL30® for Astigmatism",
+        "DAILIES TOTAL1® for Astigmatism",
+        "TOTAL30®",
+        "TOTAL30® Multifocal"
+      ],
+      "page": "/contact-lenses/",
+      "file": "audit/raw/contact-lenses.html",
+      "surface": "visible",
+      "quote": "Explore our Contact Lens Options in Pine Beach DAILIES TOTAL1® Multifocal",
+      "items": [
+        "DAILIES TOTAL1® Multifocal",
+        "Precision1®",
+        "PRECISION1® for Astigmatism",
+        "TOTAL30® for Astigmatism",
+        "DAILIES TOTAL1® for Astigmatism",
+        "TOTAL30®",
+        "TOTAL30® Multifocal"
+      ]
+    },
+    {
+      "id": "contact-lens-alcon",
+      "category": "contactLensBrands",
+      "value": [
+        "Precision1®",
+        "Dailies Total1®",
+        "Alcon"
+      ],
+      "page": "/contact-lenses/",
+      "file": "audit/raw/contact-lenses.html",
+      "surface": "visible",
+      "quote": "including trusted brands like Precision1® and Dailies Total1® from Alcon."
+    },
+    {
+      "id": "lens-varilux",
+      "category": "lensProducts",
+      "value": "Varilux®",
+      "page": "/eyeglasses/varilux-lenses/",
+      "file": "audit/raw/eyeglasses-varilux-lenses.html",
+      "surface": "visible",
+      "quote": "Varilux® Eyeglass Lenses in Pine Beach"
+    },
+    {
+      "id": "lens-avulux",
+      "category": "lensProducts",
+      "value": "Avulux®",
+      "page": "/eyeglasses/avulux-migraine-lenses/",
+      "file": "audit/raw/eyeglasses-avulux-migraine-lenses.html",
+      "surface": "visible",
+      "quote": "Avulux® lenses are designed to help reduce light-related triggers so that you can go about your day with greater comfort and fewer interruptions."
+    },
+    {
+      "id": "lens-stellest",
+      "category": "lensProducts",
+      "value": "Essilor® Stellest®",
+      "page": "/eyeglasses/stellest-lenses/",
+      "file": "audit/raw/eyeglasses-stellest-lenses.html",
+      "surface": "visible",
+      "quote": "Essilor® Stellest® lenses for Myopia"
+    },
+    {
+      "id": "lens-misight",
+      "category": "lensProducts",
+      "value": "MiSight",
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "Utilizing orthokeratology and MiSight"
+    },
+    {
+      "id": "award-whos-who",
+      "category": "awards",
+      "value": "Who's Who Honorees 2023 Marquis 125 Years Logo",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "alt",
+      "quote": "Who's Who Honorees 2023 Marquis 125 Years Logo",
+      "allPages": true
+    },
+    {
+      "id": "award-tl-student-bowl",
+      "category": "awards",
+      "value": "2021 National Optometry Student Bowl Champion",
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "he was the 2021 National Optometry Student Bowl Champion",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "award-tl-summa",
+      "category": "awards",
+      "value": [
+        "Summa Cum Laude",
+        "Georgian Court University",
+        "Pennsylvania College of Optometry (PCO)"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "file": "audit/raw/team-dr-tyler-lesko-od.html",
+      "surface": "visible",
+      "quote": "He graduated Summa Cum Laude from Georgian Court University",
+      "doctor": "Dr. Tyler Lesko, O.D."
+    },
+    {
+      "id": "history-founded-1984",
+      "category": "history",
+      "value": "1984",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "Academy Vision was founded in 1984 by Dr. Robert Ullman"
+    },
+    {
+      "id": "history-toms-river",
+      "category": "history",
+      "value": "started in Toms River",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "What started in Toms River grew into something more when his son, Dr. Marc Ullman, joined the field after graduating from the Pennsylvania College of Optometry in 1998."
+    },
+    {
+      "id": "history-move-pine-beach",
+      "category": "history",
+      "value": "moved to their current location in Pine Beach",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "Not long after, Dr. Ullman moved to their current location in Pine Beach, just a few miles down the road, continuing the family tradition of providing trusted, local eye care."
+    },
+    {
+      "id": "history-over-40-years",
+      "category": "history",
+      "value": "over 40 years",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision."
+    },
+    {
+      "id": "history-over-40-years-services",
+      "category": "history",
+      "value": "over 40 years",
+      "page": "/eye-care-services/",
+      "file": "audit/raw/eye-care-services.html",
+      "surface": "visible",
+      "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision."
+    },
+    {
+      "id": "history-more-than-40-eyeglasses",
+      "category": "history",
+      "value": "more than 40 years",
+      "page": "/eyeglasses/",
+      "file": "audit/raw/eyeglasses.html",
+      "surface": "visible",
+      "quote": "After more than 40 years, we’ve kept things simple: take care of people, and they’ll keep coming back."
+    },
+    {
+      "id": "history-more-than-40-disease",
+      "category": "history",
+      "value": "more than 40 years",
+      "page": "/eye-care-services/eye-disease-management/",
+      "file": "audit/raw/eye-care-services-eye-disease-management.html",
+      "surface": "visible",
+      "quote": "After more than 40 years serving this area, we’ve built something simple: a place you can rely on when it comes to your eyes."
+    },
+    {
+      "id": "history-decades-experience",
+      "category": "history",
+      "value": "decades of experience",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "With decades of experience and a modern approach to care, we’ve created a place where patients feel at ease"
+    },
+    {
+      "id": "history-decades-community",
+      "category": "history",
+      "value": "part of this community for decades",
+      "page": "/hours-location/",
+      "file": "audit/raw/hours-location.html",
+      "surface": "visible",
+      "quote": "We’ve been part of this community for decades"
+    },
+    {
+      "id": "history-new-leadership",
+      "category": "history",
+      "value": "new leadership",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "With new leadership and updated technology"
+    },
+    {
+      "id": "history-generations",
+      "category": "history",
+      "value": "multiple generations of the same family",
+      "page": "/eye-care-services/",
+      "file": "audit/raw/eye-care-services.html",
+      "surface": "visible",
+      "quote": "It’s not unusual for us to see multiple generations of the same family, all in the same week."
+    },
+    {
+      "id": "history-family-legacy",
+      "category": "history",
+      "value": "From Toms River to Pine Beach—A Family Legacy",
+      "page": "/about-us/",
+      "file": "audit/raw/about-us.html",
+      "surface": "visible",
+      "quote": "From Toms River to Pine Beach—A Family Legacy"
+    },
+    {
+      "id": "community-review-20-years",
+      "category": "history",
+      "value": "for over 20 years",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "visible",
+      "quote": "Ive been going to Academy Vision for over 20 years",
+      "role": "patient review"
+    },
+    {
+      "id": "reviews-count-jsonld",
+      "category": "reviews",
+      "value": 20,
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "jsonld",
+      "quote": "20"
+    },
+    {
+      "id": "reviews-star-label",
+      "category": "reviews",
+      "value": "5 out of 5 stars",
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "aria",
+      "quote": "5 out of 5 stars"
+    },
+    {
+      "id": "reviews-aggregate-jsonld",
+      "category": "reviews",
+      "value": {
+        "ratingValue": "5.0",
+        "reviewCount": 20
+      },
+      "page": "/location/academy-vision/",
+      "file": "audit/raw/location-academy-vision.html",
+      "surface": "jsonld",
+      "quote": "5.0"
+    },
+    {
+      "id": "article-title",
+      "category": "article",
+      "value": "Pediatric Eye Exams: Beyond School Screenings",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "Pediatric Eye Exams: Beyond School Screenings »"
+    },
+    {
+      "id": "article-date-jsonld",
+      "category": "article",
+      "value": "2026-08-19",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "file": "audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html",
+      "surface": "jsonld",
+      "quote": "2026-08-19T16:09:10.380Z"
+    },
+    {
+      "id": "article-aoa",
+      "category": "article",
+      "value": "The American Optometric Association recommends annual comprehensive eye exams for school-age children",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "file": "audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html",
+      "surface": "visible",
+      "quote": "The American Optometric Association recommends annual comprehensive eye exams for school-age children, or more frequently when advised by their eye doctor."
+    },
+    {
+      "id": "article-tips-heading",
+      "category": "article",
+      "value": "Get Expert Eye Care Tips From Our Doctors",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "Get Expert Eye Care Tips From Our Doctors"
+    },
+    {
+      "id": "legal-disclaimer-practice",
+      "category": "legal",
+      "value": "our Practice",
+      "page": "/disclaimer/",
+      "file": "audit/raw/disclaimer.html",
+      "surface": "visible",
+      "quote": "Content on this web site has been provided and/or reviewed by our Practice."
+    },
+    {
+      "id": "legal-disclaimer-eyecarepro",
+      "category": "legal",
+      "value": "EyeCarePro",
+      "page": "/disclaimer/",
+      "file": "audit/raw/disclaimer.html",
+      "surface": "visible",
+      "quote": "The basic graphical template and parts of this website have been created by a Service provided by EyeCarePro and/or any affiliated companies."
+    },
+    {
+      "id": "legal-disclaimer-jurisdiction",
+      "category": "legal",
+      "value": "standards of the optometry profession in our jurisdiction",
+      "page": "/disclaimer/",
+      "file": "audit/raw/disclaimer.html",
+      "surface": "visible",
+      "quote": "We have reviewed site information and find it to be in accordance with the standards of the optometry profession in our jurisdiction."
+    },
+    {
+      "id": "legal-privacy-office",
+      "category": "legal",
+      "value": "our office",
+      "page": "/privacy-policy/",
+      "file": "audit/raw/privacy-policy.html",
+      "surface": "visible",
+      "quote": "If you have any questions please contact our office."
+    },
+    {
+      "id": "legal-privacy-effective",
+      "category": "legal",
+      "value": "2026-03-26",
+      "page": "/privacy-policy/",
+      "file": "audit/raw/privacy-policy.html",
+      "surface": "visible",
+      "quote": "Effective: 2026-03-26"
+    },
+    {
+      "id": "legal-privacy-hhs",
+      "category": "legal",
+      "value": "Secretary of the Department of Health and Human Services",
+      "page": "/privacy-policy/",
+      "file": "audit/raw/privacy-policy.html",
+      "surface": "visible",
+      "quote": "you may file a complaint with our office or with the Secretary of the Department of Health and Human Services."
+    },
+    {
+      "id": "legal-accessibility-practice",
+      "category": "legal",
+      "value": "Our practice",
+      "page": "/website-accessibility-policy/",
+      "file": "audit/raw/website-accessibility-policy.html",
+      "surface": "visible",
+      "quote": "Our practice is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability."
+    },
+    {
+      "id": "legal-accessibility-wcag",
+      "category": "legal",
+      "value": "Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA",
+      "page": "/website-accessibility-policy/",
+      "file": "audit/raw/website-accessibility-policy.html",
+      "surface": "visible",
+      "quote": "Our website strives to conform with the World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA, as practicable."
+    },
+    {
+      "id": "legal-footer-powered-by",
+      "category": "legal",
+      "value": "EyeCarePro",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "visible",
+      "quote": "© 2026 Powered by",
+      "allPages": true
+    },
+    {
+      "id": "legal-footer-eyecarepro-alt",
+      "category": "legal",
+      "value": "EyeCarePro",
+      "page": "/",
+      "file": "audit/raw/index.html",
+      "surface": "alt",
+      "quote": "EyeCarePro",
+      "allPages": true
+    }
+  ],
+  "brand": "Academy Vision",
+  "legalName": "",
+  "businessType": "Optician",
+  "phone": [
+    "(732) 978-9306"
+  ],
+  "email": [],
+  "addresses": [
+    {
+      "street": "90 Atlantic City Blvd",
+      "locality": "Pine Beach",
+      "region": "NJ",
+      "postalCode": "08741",
+      "country": "US",
+      "phone": "(732) 978-9306",
+      "geo": {
+        "lat": 39.9535,
+        "lng": -74.1756
+      },
+      "hoursSpec": [
+        {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        {
+          "days": [
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ]
+    }
+  ],
+  "hoursSpec": [
+    {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    },
+    {
+      "days": [
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "15:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/AcademyVision"
+  ],
+  "areaServed": [
+    "Pine Beach",
+    "Beachwood",
+    "Toms River"
+  ],
+  "priceRange": "$$"
+}

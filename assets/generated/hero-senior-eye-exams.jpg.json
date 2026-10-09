@@ -1,0 +1,42 @@
+{
+  "id": "hero-senior-eye-exams",
+  "file": "assets/generated/hero-senior-eye-exams.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the senior eye exam service page (adopted slot)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Smiling older woman in tortoiseshell glasses watering herbs on a sunny windowsill",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a smiling woman in her early seventies with short silver hair and tortoiseshell eyeglasses watering herbs in plain terracotta pots on a sunny kitchen windowsill, light blue cardigan, warm cream walls, soft morning daylight, shallow depth of field, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 4110614060,
+  "requestId": "01a119ba-94f8-7ba1-885f-de4cde3c45b6",
+  "editOf": "tmp/imagery-run/attempts/hero-senior-eye-exams.a1.jpg",
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-senior-eye-exams.a1k.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "53e78533e466d9c4be2652a6f977736560080e292ae66a74c1cdfa4f27048408",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "kontext patch confined to the temple mask 1778,312,127x110 (feather 12); outside-mask pixels unchanged except JPEG re-encode (paste graph validated offline: mean ",
+      "dY",
+      " 0.4-1.0 outside vs 64 inside a test patch)",
+      "100% glasses before/after: amber stroke gone, temple plain dark acetate",
+      "400% temple: no mark; only a faint shapeless brownish tint where the stroke was, not readable as a mark",
+      "400% wide temple crop: temple meets the hair plausibly; no seam",
+      "50% face context: no colour shift or seam; face outside the mask",
+      "tortoiseshell mottling on the frame front is pattern, not a mark",
+      "whole frame reviewed on a1 (hands, pots, shelf clean)"
+    ],
+    "notes": "retry 1 = kontext edit (fal-ai/flux-pro/kontext, 640px context box, 1024px output scaled back)",
+    "at": "2026-10-08T04:30:45.500Z",
+    "retries": 1
+  },
+  "promotedAt": "2026-10-08T04:30:46.299Z"
+}

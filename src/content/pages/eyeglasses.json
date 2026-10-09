@@ -1,0 +1,880 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eyeglasses/",
+  "source": "audit/raw/eyeglasses.html",
+  "rendered": "tmp/extract/rendered/eyeglasses.html",
+  "meta": {
+    "title": "Eyeglasses in Pine Beach, NJ | Academy Vision",
+    "description": "Browse our collection of stylish eyeglasses in Pine Beach. Academy Vision provides quality frames and precision lenses for every lifestyle.",
+    "canonical": "https://www.academyvisionnj.com/eyeglasses/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eyeglasses/",
+      "type": "website",
+      "title": "Eyeglasses in Pine Beach, NJ | Academy Vision",
+      "description": "Browse our collection of stylish eyeglasses in Pine Beach. Academy Vision provides quality frames and precision lenses for every lifestyle.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eyeglasses/",
+        "url": "https://www.academyvisionnj.com/eyeglasses/",
+        "name": "Eyeglasses",
+        "datePublished": "2026-03-26T17:17:18.272Z",
+        "dateModified": "2026-05-08T06:21:11.183Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Eyeglass Frames & Lenses in Pine Beach",
+  "counts": {
+    "blocks": 9,
+    "nodes": 22,
+    "static": 22,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "SjtcFpgiKi",
+      "at": 110733,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "span": 6,
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "span": 6,
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>Let’s Find Glasses You Love</p>",
+          "transform": "uppercase",
+          "id": "V3Toyuo7UN",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Eyeglass Frames & Lenses in Pine Beach",
+          "html": "Eyeglass Frames &amp; Lenses in Pine Beach",
+          "id": "wm3g4cFZJg",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Finding the right pair of glasses shouldn’t feel like a hassle. Whether you need something for everyday wear, work, or just a fresh new look, we’re here to make the process simple. At our <a href=\"/hours-location/\">Pine Beach optical</a>, we help you find glasses that feel good and fit your life, without overcomplicating things. Visit Academy Vision for your next pair.</p>",
+          "id": "BfmpUqCPnx",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "Fat4iw38JM",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a78-f705-73bd-b0cf-081b0aaa81a0/AdobeStock_210642677.jpeg",
+          "file": "assets/source/c26bc423-AdobeStock_210642677.jpeg-w_2000.webp",
+          "alt": "A woman with curly hair and glasses is looking sideways",
+          "w": 2000,
+          "h": 1335,
+          "focal": "43.12% 10.56%",
+          "id": "SjtcFpgiKi-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "uUsJLBMiVb",
+      "at": 114328,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section",
+      "id": "znQjWGZaDX",
+      "at": 114607,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "A Better Eyewear Experience",
+          "html": "A Better Eyewear Experience",
+          "id": "7Qnbe9gu9U",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "Y3HduHgFur",
+      "at": 115228,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>Choosing glasses isn’t just about picking a frame off the shelf. Our Pine Beach opticians take the time to understand how you use your eyes daily, whether you’re working on a screen, driving, reading, or always on the go. From there, we guide you toward options that fit your vision, comfort, and style. No pressure, no guesswork—just help that makes sense.</p><h3>Same-Day Glasses Available</h3><p>Sometimes you don’t want to wait days or weeks for your new glasses. With our in-office finishing lab in Pine Beach, many prescriptions can be made the very same day. That means you can come in for your <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a>, pick out your frames, and leave with your new glasses in hand. It’s quick, convenient, and one less thing to worry about.</p>",
+          "id": "DNVDxfnSUS",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "qur2yKeJoV",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a7d-cc08-715f-819e-0893b1aaaaf3/shutterstock_2399668487.jpg",
+          "file": "assets/source/f88e44ab-shutterstock_2399668487.jpg-w_2000.webp",
+          "alt": "A man in a blue shirt holds a pair of glasses in an optical store.",
+          "w": 2000,
+          "h": 1331,
+          "focal": "82.53% 54.44%",
+          "id": "pveY3sDuPn",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "15pGq6pIjL",
+      "at": 119118,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Designer Frames for All",
+          "html": "Designer Frames for All",
+          "id": "t5ZOSgt709",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "list",
+          "kind": "frames",
+          "items": [
+            {
+              "name": "Ray-Ban",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/rayban-color.png",
+                "file": "assets/source/c9cb6d21-rayban-color.png-w_800.webp",
+                "alt": "Ray-Ban",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Kate Spade",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/JIIKTYAC1TcGHhyE.png",
+                "file": "assets/source/fc4bc443-JIIKTYAC1TcGHhyE.png-w_800.webp",
+                "alt": "Kate Spade",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Calvin Klein",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/calvin-klein.png",
+                "file": "assets/source/525a4282-calvin-klein.png-w_800.webp",
+                "alt": "Calvin Klein",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Flexon",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/wSrVTHXua1YrjT37.png",
+                "file": "assets/source/c96150ae-wSrVTHXua1YrjT37.png-w_800.webp",
+                "alt": "Flexon",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Bebe",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/bebe.png",
+                "file": "assets/source/dfd738c0-bebe.png-w_800.webp",
+                "alt": "Bebe",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Wiley X",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/LTHqXk5VpQJ9e7qx.png",
+                "file": "assets/source/6434e116-LTHqXk5VpQJ9e7qx.png-w_800.webp",
+                "alt": "Wiley X",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Etnia Barcelona",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/ijrBsBU0g1oPXU1R.png",
+                "file": "assets/source/fbbf0c5c-ijrBsBU0g1oPXU1R.png-w_800.webp",
+                "alt": "Etnia Barcelona",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Nike",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/nike.png",
+                "file": "assets/source/407fb90a-nike.png-w_800.webp",
+                "alt": "Nike",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Guess?",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/guess.png",
+                "file": "assets/source/839e69b3-guess.png-w_800.webp",
+                "alt": "Guess?",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Joseph Abboud",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/joseph-abboud.png",
+                "file": "assets/source/fa4e81e1-joseph-abboud.png-w_800.webp",
+                "alt": "Joseph Abboud",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Marc Jacobs",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/marc-jacobs.png",
+                "file": "assets/source/d74f9aa8-marc-jacobs.png-w_800.webp",
+                "alt": "Marc Jacobs",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Costa",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/costa.png",
+                "file": "assets/source/796d8418-costa.png-w_800.webp",
+                "alt": "Costa",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Anne Klein",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/anne-klein.png",
+                "file": "assets/source/87824d28-anne-klein.png-w_800.webp",
+                "alt": "Anne Klein",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Dragon",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/dragon.png",
+                "file": "assets/source/6a301292-dragon.png-w_800.webp",
+                "alt": "Dragon",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Cole Haan",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/Tejlyu4sqC8pURTO.png",
+                "file": "assets/source/db221fa6-Tejlyu4sqC8pURTO.png-w_800.webp",
+                "alt": "Cole Haan",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Draper James",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/coGQrXrDqsfGCkVh.png",
+                "file": "assets/source/d72ed0f2-coGQrXrDqsfGCkVh.png-w_800.webp",
+                "alt": "Draper James",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Liz Claiborne",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/liz-claiborne.png",
+                "file": "assets/source/d1d4b06c-liz-claiborne.png-w_800.webp",
+                "alt": "Liz Claiborne",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Tommy Hilfiger",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/tommyhilfiger.png",
+                "file": "assets/source/174f677a-tommyhilfiger.png-w_800.webp",
+                "alt": "Tommy Hilfiger",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Charmant",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/charmant.png",
+                "file": "assets/source/8aa15eba-charmant.png-w_800.webp",
+                "alt": "Charmant",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Elle",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/elle.png",
+                "file": "assets/source/d98d697b-elle.png-w_800.webp",
+                "alt": "Elle",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Marciano",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/19pbh9sUgkYJPF6i.png",
+                "file": "assets/source/afc84153-19pbh9sUgkYJPF6i.png-w_800.webp",
+                "alt": "Marciano",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Adidas",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/adidas.png",
+                "file": "assets/source/b86c99d3-adidas.png-w_800.webp",
+                "alt": "Adidas",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Timberland",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/timberland.png",
+                "file": "assets/source/99b4ac1c-timberland.png-w_800.webp",
+                "alt": "Timberland",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Valerie Spencer",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/valerie-spencer.png",
+                "file": "assets/source/fbb64e46-valerie-spencer.png-w_800.webp",
+                "alt": "Valerie Spencer",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Emilio Pucci",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/emilio-pucci.png",
+                "file": "assets/source/d3e1fea3-emilio-pucci.png-w_800.webp",
+                "alt": "Emilio Pucci",
+                "w": 800,
+                "h": 662
+              }
+            },
+            {
+              "name": "Joan Collins",
+              "logo": {
+                "master": "https://cdn.patientengage.cloud/global/logos/designer-frames/joan-collins.png",
+                "file": "assets/source/613219a1-joan-collins.png-w_800.webp",
+                "alt": "Joan Collins",
+                "w": 800,
+                "h": 662
+              }
+            }
+          ],
+          "ui": {
+            "showAll": "Show All"
+          },
+          "id": "6BgW4KOVXV",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "GhAyvEOH2v",
+      "at": 149104,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Frames for Adults and Kids",
+          "html": "Frames for Adults and Kids",
+          "id": "jqzl5oyZpX",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>We carry a wide selection of frames for every age and style. Whether you’re looking for something classic, modern, or a little bolder, we’ll help you find a pair that feels like you. And if you’re bringing your kids in, we make it easy to find comfortable, durable options.</p><h3>Kids’ Frames That Fit Their Life</h3><p>Kids need glasses that can keep up with them. We offer frames that are lightweight, flexible, and designed to stay comfortable throughout the day. With a range of fun styles and trusted brands, we’ll help your child find something they actually want to wear.</p>",
+          "id": "ERI23yWJC0",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d2b26-86e2-712c-be01-fd3368d3bbda/woman-wearing-orange-sweater.jpg",
+          "file": "assets/source/659c44b7-woman-wearing-orange-sweater.jpg-w_600.webp",
+          "alt": "woman wearing orange sweater",
+          "w": 600,
+          "h": 600,
+          "id": "lp69mx8HAh",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "YNSAa0yRZd",
+      "at": 151556,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a7e-711f-74d0-88e1-55c625f3aa0c/shutterstock_2627315263.jpg",
+          "file": "assets/source/5f5def7b-shutterstock_2627315263.jpg-w_2000.webp",
+          "alt": "A woman is standing in front of a wall with eyeglasses on display, smiling and looking at the glasses.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "76.21% 41.67%",
+          "id": "u7PPWOnMjQ",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Lens Options That Make a Difference",
+          "html": "Lens Options That Make a Difference",
+          "id": "u5N8a2SQFI",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>The right lenses can make a big difference in how your glasses feel throughout the day. We’ll help you choose options that match your routine, whether that means reducing glare, protecting your eyes from screens, or improving clarity in bright light. It’s all about making your vision more comfortable, not more complicated.</p><ul><li>Anti-reflective coatings to reduce glare and eye strain</li><li>Blue light protection for screen-heavy days</li><li>Polarized lenses for clearer vision outdoors</li><li>Scratch-resistant treatments for everyday durability</li></ul>",
+          "id": "N4sRIQnKKP",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "eNQLZVXQ8W",
+      "at": 155412,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Explore Our Range",
+          "html": "Explore Our Range",
+          "id": "0CZZZfS5LJ",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "list",
+          "kind": "childpages",
+          "items": [
+            {
+              "title": "Varilux Lenses",
+              "href": "/eyeglasses/varilux-lenses/",
+              "chevron": true,
+              "excerpt": "Seamless vision at every distance, designed to make everyday activities feel more natural.",
+              "image": {
+                "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a70-dd8b-722e-a67a-4dcbb50e84e6/essilor.png",
+                "file": "assets/source/e0d8a73f-essilor.png",
+                "alt": "A woman with glasses stands on a city street, holding a cell phone and looking at the camera.",
+                "w": 1920,
+                "h": 1080,
+                "href": "/eyeglasses/varilux-lenses/",
+                "focal": "40.9% 46.2%"
+              }
+            },
+            {
+              "title": "Avulux Migraine Lenses",
+              "href": "/eyeglasses/avulux-migraine-lenses/",
+              "chevron": true,
+              "excerpt": "Designed to help support patients who deal with migraines or light-triggered discomfort.",
+              "image": {
+                "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a09-1f90-741b-b453-e386fc96645a/AdobeStock_466770093.jpeg",
+                "file": "assets/source/931387f9-AdobeStock_466770093.jpeg",
+                "alt": "An older man sitting on a couch with his hands covering his eyes",
+                "w": 6552,
+                "h": 4368,
+                "href": "/eyeglasses/avulux-migraine-lenses/",
+                "focal": "40.9% 46.2%"
+              }
+            },
+            {
+              "title": "Stellest® Lenses",
+              "href": "/eyeglasses/stellest-lenses/",
+              "chevron": true,
+              "excerpt": "These lenses are designed to help slow the progression of myopia while keeping vision clear.",
+              "image": {
+                "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a04-714b-7276-9280-78f06eba5aec/AdobeStock_964691670-1m.jpg",
+                "file": "assets/source/4ba41884-AdobeStock_964691670-1m.jpg-w_1000.webp",
+                "alt": "Two young children, a girl with glasses and a boy with curly hair, smiling at the camera in a park",
+                "w": 1000,
+                "h": 694,
+                "href": "/eyeglasses/stellest-lenses/",
+                "focal": "40.9% 46.2%"
+              }
+            }
+          ],
+          "id": "JroWzjNGL3",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "PlCpBvHRMr",
+      "at": 163577,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a7f-0e28-711d-9ffe-59ed5a78d534/shutterstock_2725574751.jpg",
+          "file": "assets/source/76ca7be2-shutterstock_2725574751.jpg-w_2000.webp",
+          "alt": "A woman wearing a pink sweater is holding a pair of glasses in front of her face with both hands. Behind her, there is a blurry background of several pairs of glasses with purple frames and black frames with white lenses displayed on a white wall.",
+          "w": 2000,
+          "h": 1334,
+          "focal": "50.0% 50.0%",
+          "id": "sO4K256vzy",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Visit Academy Vision for Eyeglasses",
+          "html": "Visit Academy Vision for Eyeglasses",
+          "id": "kSatGQzgaQ",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>You’ll find us right on Route 9 near the Mizzen Avenue light. Patients from Pine Beach, Beachwood, Toms River, and nearby communities stop in because they know they’ll get honest recommendations and help that actually makes sense. After more than 40 years, we’ve kept things simple: take care of people, and they’ll keep coming back.</p><p>Whether you know exactly what you’re looking for or want a little help figuring it out, we’re here for you. Stop by, bring the family, or come in on your own; we’ll make the process easy and help you find something you feel good wearing every day.</p>",
+          "id": "9hcYrYfcTP",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

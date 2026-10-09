@@ -1,0 +1,39 @@
+{
+  "id": "hero-childrens-contact-lenses",
+  "file": "assets/generated/hero-childrens-contact-lenses.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the children's contact lens page (adopted slot)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Smiling girl in a light blue top holding a soccer ball on a sunny field",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a smiling twelve-year-old girl without glasses in a plain light blue athletic top with no numbers, holding a plain white soccer ball on a sunny grass field, ponytail, late afternoon light, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 525843197,
+  "requestId": "01a119c7-6725-7af2-9033-cefaa02e6abe",
+  "editOf": "tmp/imagery-run/attempts/hero-childrens-contact-lenses.a1.jpg",
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-childrens-contact-lenses.a1kd.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "588ab81fef8b4522202214782224629ea15e96fd35de5a9d551dd9bb013ee5c7",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "difference mask (",
+      "orig-edit",
+      ">10 within ROI 1230,940,610x596, dilate 14, blur 6): replaced only where kontext changed pixels, so the boundary lies where both agree",
+      "100% + 400% arm across the old seam: single clean arm edge, no ghost",
+      "50% former orb area: plain shirt, arm and grass, no orb remnant",
+      "rest of frame = a1 (ball no lettering, hand natural, shirt plain, subject ~66% x)"
+    ],
+    "notes": "",
+    "at": "2026-10-08T04:46:13.746Z",
+    "retries": 1
+  },
+  "promotedAt": "2026-10-08T04:46:15.181Z"
+}

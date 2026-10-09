@@ -1,0 +1,98 @@
+/* forms.css - the two unwired forms (THEME-TEMPLATES role; DESIGN-SPEC 10.23, BUILD-CONTRACT 4.5). Labels 15 px 600
+   navy with a decorative red asterisk; 48 px controls with 16 px text; blue focus (never mistaken for the red error
+   state, §8); radio/checkbox groups in fieldsets, chip groups as pills; errors in --error under the field. */
+
+.form-section { padding-top: calc(var(--section) * .9); }
+.form-panel { width: min(100%, 820px); margin-inline: auto; padding: clamp(22px, 4vw, 56px); border-radius: var(--r-xl); }
+.form { margin: 0; }
+.form__fields { display: grid; gap: 22px; }
+
+/* fields */
+.field { margin: 0; min-width: 0; }
+fieldset.field { border: 0; padding: 0; margin: 0; min-inline-size: 0; }
+.field[hidden] { display: none !important; }
+.field__label { display: block; margin: 0 0 8px; padding: 0; font: 600 .9375rem/1.4 var(--sans); color: var(--navy); }
+legend.field__label { float: none; width: 100%; }
+.field__label--plain { color: var(--ink-2); }
+.req { color: var(--required); margin-left: 1px; }
+.field__desc { margin: -2px 0 10px; font-size: .875rem; line-height: 1.5; color: var(--ink-2); }
+.field__sublabel { display: block; margin: 0 0 6px; font: 600 .8125rem/1.3 var(--sans); color: var(--ink-2); }
+.field__content { font-size: 1rem; line-height: 1.65; color: var(--ink); }
+.field__content > :last-child { margin-bottom: 0; }
+
+/* controls */
+.field__control {
+  display: block; width: 100%; min-height: 48px; margin: 0; padding: 10px 14px;
+  border: 1px solid rgba(15, 42, 74, .22); border-radius: 12px; background: rgba(255, 255, 255, .92);
+  font: 400 1rem/1.4 var(--sans); color: var(--ink);
+  transition: border-color .2s, box-shadow .2s, background-color .2s;
+}
+textarea.field__control { min-height: 120px; resize: vertical; }
+select.field__control {
+  appearance: none; -webkit-appearance: none; padding-right: 42px; cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5' fill='none' stroke='%232b5d86' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 16px center; background-size: 12px 8px;
+}
+.field__control::placeholder { color: #66758a; opacity: 1; }
+.field__control:hover { border-color: rgba(15, 42, 74, .38); }
+.field__control:focus-visible { outline: none; border-color: var(--blue); box-shadow: 0 0 0 1px var(--blue), 0 0 0 4px rgba(57, 116, 160, .25); background: #fff; }
+.field__control[aria-invalid="true"] { border-color: var(--error); box-shadow: 0 0 0 1px var(--error); }
+.field__control[aria-invalid="true"]:focus-visible { box-shadow: 0 0 0 1px var(--blue), 0 0 0 4px rgba(57, 116, 160, .25); border-color: var(--blue); }
+.field__error { margin: 8px 0 0; font: 600 .875rem/1.4 var(--sans); color: var(--error); }
+.field__error[hidden] { display: none; }
+
+/* multi-part fields: name, address, date, time */
+.field__parts { display: grid; gap: 12px; }
+.field__parts--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.field__parts--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.field__parts--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 768px) { .field--name .field__parts--4 { grid-template-columns: .7fr 1fr 1fr .7fr; } }
+.field__part { min-width: 0; }
+
+/* radio and checkbox groups */
+.choices { display: grid; gap: 4px 18px; }
+.choice { display: flex; align-items: flex-start; gap: 12px; min-height: 44px; padding: 10px 0; cursor: pointer; font-size: 1rem; line-height: 1.45; color: var(--ink); }
+.choice input { flex: 0 0 22px; width: 22px; height: 22px; margin: 0; accent-color: var(--blue); cursor: pointer; }
+.choice input:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.choice__text a { color: var(--blue-ink); text-decoration: underline; text-underline-offset: .2em; }
+.choice__text a:is(:hover, :focus-visible) { color: var(--navy); text-decoration-color: var(--red); }
+@media (min-width: 768px) { .field--checkboxes .choices:not(.choices--chips) { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+/* chip presentation: pills; checked = navy fill, white label */
+.choices--chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.choices--chips .choice {
+  align-items: center; gap: 10px; padding: 10px 18px 10px 14px; border-radius: var(--r-pill);
+  background: rgba(255, 255, 255, .92); border: 1px solid rgba(15, 42, 74, .22);
+  transition: background-color .2s, border-color .2s, color .2s;
+}
+.choices--chips .choice input { flex-basis: 20px; width: 20px; height: 20px; }
+.choices--chips .choice:is(:hover, :has(input:focus-visible)) { border-color: rgba(15, 42, 74, .4); }
+.choices--chips .choice:has(input:checked) { background: var(--navy); border-color: var(--navy); color: #fff; }
+.choices--chips .choice:has(input:checked) input { accent-color: #fff; }
+.choices--chips .choice:has(input:focus-visible) { box-shadow: 0 0 0 4px rgba(57, 116, 160, .35); }
+.choices--chips .choice input:focus-visible { outline-color: #fff; }
+.choices--chips .choice:has(input:checked) .choice__text a { color: #fff; }
+
+/* section headings inside the registration form */
+.form__heading { margin: 14px 0 0; padding-top: 22px; border-top: 1px solid rgba(15, 42, 74, .12); font: 400 var(--fs-h3)/1.24 var(--serif); color: var(--navy); }
+.field:first-child .form__heading { margin-top: 0; padding-top: 0; border-top: 0; }
+
+/* submit + the honest unwired notice */
+.form__submit { margin-top: 30px; }
+.form__submit .btn[disabled] { opacity: .55; cursor: not-allowed; transform: none; }
+.form__notice { margin-top: 22px; padding: 18px 20px 20px; border-radius: 18px; background: rgba(255, 255, 255, .96); border: 1px solid rgba(220, 38, 38, .45); box-shadow: inset 4px 0 0 var(--error); }
+.form__notice[hidden] { display: none; }
+.form__notice:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.form__notice-text { margin: 0; font-weight: 600; color: var(--ink); }
+.form__notice .actions { margin-top: 14px; }
+
+@media (max-width: 767.98px) {
+  .form-panel { border-radius: 28px; }
+  .field__parts--2, .field__parts--4 { grid-template-columns: minmax(0, 1fr); }
+  .field--date .field__parts--3, .field--time .field__parts--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .form__submit .btn { width: 100%; }
+}
+@media (forced-colors: active) {
+  .field__control { border: 1px solid CanvasText; }
+  .choices--chips .choice { border: 1px solid CanvasText; }
+  .choices--chips .choice:has(input:checked) { outline: 2px solid Highlight; }
+}

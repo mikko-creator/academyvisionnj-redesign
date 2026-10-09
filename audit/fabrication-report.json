@@ -1,0 +1,75 @@
+{
+  "schema": "site-reforge/fabrication-report@1",
+  "generated": "2026-10-09T01:11:37.395Z",
+  "rebuildDir": "C:\\Users\\Dell\\academyvisionnj-reforge\\dist",
+  "filesScanned": 55,
+  "claimsChecked": 187,
+  "sourceCorpusChars": 123001,
+  "declaredFactsChars": 84639,
+  "counts": {
+    "major": 6
+  },
+  "verdict": "FABRICATION",
+  "findings": [
+    {
+      "severity": "major",
+      "code": "fabrication:credential",
+      "title": "Unsourced a credential",
+      "claim": "certified eclipse viewers",
+      "file": "products/sunglasses/index.html",
+      "line": 32,
+      "detail": "This text is on the rebuild but traces to neither the live site capture nor facts/client-facts.json.",
+      "remedy": "Restore the source wording, delete the claim, or record it in facts/client-facts.json with the client as the source."
+    },
+    {
+      "severity": "major",
+      "code": "fabrication:superlative",
+      "title": "Unsourced a superlative claim",
+      "claim": "the BEST !!!!\n Don Albanese February 14, 2026 \n I absolute",
+      "file": "reviews/index.html",
+      "line": 0,
+      "detail": "This text is on the rebuild but traces to neither the live site capture nor facts/client-facts.json.",
+      "remedy": "Restore the source wording, delete the claim, or record it in facts/client-facts.json with the client as the source."
+    },
+    {
+      "severity": "major",
+      "code": "fabrication:credential",
+      "title": "Unsourced a credential",
+      "claim": "certified in Light Adjustable Lens technology, a type of lens implant",
+      "file": "services/cataract-co-management/index.html",
+      "line": 32,
+      "detail": "This text is on the rebuild but traces to neither the live site capture nor facts/client-facts.json.",
+      "remedy": "Restore the source wording, delete the claim, or record it in facts/client-facts.json with the client as the source."
+    },
+    {
+      "severity": "major",
+      "code": "fabrication:superlative",
+      "title": "Unsourced a superlative claim",
+      "claim": "best when it starts early",
+      "file": "services/macular-degeneration/index.html",
+      "line": 32,
+      "detail": "This text is on the rebuild but traces to neither the live site capture nor facts/client-facts.json.",
+      "remedy": "Restore the source wording, delete the claim, or record it in facts/client-facts.json with the client as the source."
+    },
+    {
+      "severity": "major",
+      "code": "fabrication:superlative",
+      "title": "Unsourced a superlative claim",
+      "claim": "best after a tweak or two, once you’ve worn them throu",
+      "file": "services/multifocal-contacts/index.html",
+      "line": 32,
+      "detail": "This text is on the rebuild but traces to neither the live site capture nor facts/client-facts.json.",
+      "remedy": "Restore the source wording, delete the claim, or record it in facts/client-facts.json with the client as the source."
+    },
+    {
+      "severity": "major",
+      "code": "fabrication:superlative",
+      "title": "Unsourced a superlative claim",
+      "claim": "the best possible fit\n An evaluation of your tear film, so",
+      "file": "services/same-day-contacts/index.html",
+      "line": 0,
+      "detail": "This text is on the rebuild but traces to neither the live site capture nor facts/client-facts.json.",
+      "remedy": "Restore the source wording, delete the claim, or record it in facts/client-facts.json with the client as the source."
+    }
+  ]
+}

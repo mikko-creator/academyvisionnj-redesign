@@ -1,0 +1,177 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "products/kids-eyewear",
+  "etSource": "products/kids-eyewear",
+  "title": "Kids’ Glasses and Frames in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Lightweight, durable kids’ glasses at Academy Vision in Pine Beach, NJ. Frames that fit your child’s face and keep up with school, play and everyday wear.",
+  "h1": "Durable, Comfortable Glasses for Kids in Pine Beach",
+  "kicker": "Glasses That Can Handle Recess",
+  "lede": "<p>Kids need glasses that fit their face, survive the playground and still look great on picture day. Academy Vision offers lightweight, durable children’s frames suited to school, play and everyday wear. We take a gentle approach that helps kids feel comfortable from the moment they walk in, so choosing glasses feels more like fun than a chore.</p>",
+  "sections": [
+    {
+      "id": "good-fit",
+      "heading": "What Makes a Good Fit for a Child",
+      "html": "<p>Children aren’t small adults, and their frames shouldn’t be either. These details make the biggest difference:</p><ul><li><strong>The bridge:</strong> younger children often have a lower, flatter nose bridge, so the frame has to rest there without sliding down.</li><li><strong>The temples:</strong> the arms should hold gently behind the ears. For toddlers and very active kids, curved cable temples or a soft strap help glasses stay put.</li><li><strong>The hinges:</strong> spring hinges flex outward instead of snapping when glasses get pulled off with one hand.</li><li><strong>The size:</strong> pick a frame that fits now, not one to grow into. Oversized frames slip, and kids end up looking over their lenses instead of through them.</li><li><strong>The lenses:</strong> impact-resistant materials such as polycarbonate are lighter and much harder to break than standard plastic.</li></ul><p>Our kids’ frames are lightweight, flexible and designed to stay comfortable throughout the day.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "styles",
+      "heading": "Styles Kids Love to Choose",
+      "html": "<p>When kids help pick their glasses, they’re far more likely to wear them. Bright colors, two-tone fronts, clear frames and sporty shapes are all fair game, and classic rounds and rectangles never go out of style. We carry a wide selection of designer frames for adults and kids, so there’s plenty of room to find something that feels like them.</p><p>Let your child try on a few favorites, then narrow it down together. Some families also like a sturdy backup pair for sports or a spare to keep at home.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "exam-first",
+      "heading": "The Eye Exam Comes First",
+      "html": "<p>Great frames only help when the lenses are right. At Academy Vision, a child’s eye exam checks how clearly they see at different distances, how their eyes work together and focus, and their overall eye health and development, all kept age-appropriate and easy to follow. Learn more about <a href=\"/services/pediatric-eye-exams/\">pediatric eye exams</a>, or see everything we offer in <a href=\"/services/childrens-eye-care/\">children’s eye care</a>.</p><p>Squinting, sitting close to screens or books, headaches, covering one eye, tilting the head and losing their place while reading can all be signs it’s time for an eye exam. If your child’s prescription keeps changing, ask our eye doctors about <a href=\"/products/stellest-lenses/\">Stellest® lenses</a> and other ways to help slow myopia.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "fitting-together",
+      "heading": "Fitting Day, Together",
+      "html": "<p>Bring your child in to try frames on with you, and we’ll help you both find a pair that fits well and feels good. Our in-house finishing lab means many prescriptions may be available the same day. And if it’s easier to schedule the whole family together, we can do that too.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "How often should kids have their eyes checked?",
+      "a": "<p>The American Optometric Association recommends a comprehensive eye exam every year for school-age children, or more often if their eye doctor advises it. Growing eyes can change quickly, and a yearly visit keeps the prescription current.</p>"
+    },
+    {
+      "q": "What if my child keeps taking their glasses off?",
+      "a": "<p>That can be a sign the fit or the prescription needs another look. Glasses that pinch, slide or sit crooked are hard to keep on, so mention it at your next visit or give us a call. Some kids also need a little time to get used to seeing clearly.</p>"
+    },
+    {
+      "q": "Should my child wear their everyday glasses for sports?",
+      "a": "<p>Everyday frames aren’t built to take a hit. For ball and contact sports, protective sports eyewear with impact-resistant lenses is the safer choice.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Bring Your Child In",
+    "html": "<p>We make kids’ eye care easy and stress-free! Call us at (732) 978-9306 or book your child’s visit at our Pine Beach office, and take a look at our <a href=\"/products/designer-frames/\">designer frames</a> for the rest of the family.</p>"
+  },
+  "related": [
+    "services/pediatric-eye-exams",
+    "products/stellest-lenses",
+    "products/designer-frames"
+  ],
+  "claims": [
+    {
+      "text": "Lightweight, durable kids’ glasses at Academy Vision in Pine Beach, NJ.",
+      "factId": "service-kids-frames-article",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear."
+    },
+    {
+      "text": "Frames that fit your child’s face and keep up with school, play and everyday wear.",
+      "factId": "service-kids-frames-article",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear."
+    },
+    {
+      "text": "Durable, Comfortable Glasses for Kids in Pine Beach",
+      "factId": "service-kids-frames-article",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear."
+    },
+    {
+      "text": "Academy Vision offers lightweight, durable children’s frames suited to school, play and everyday wear.",
+      "factId": "service-kids-frames-article",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear."
+    },
+    {
+      "text": "We take a gentle approach that helps kids feel comfortable from the moment they walk in, so choosing glasses feels more like fun than a chore.",
+      "factId": "service-pediatric",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in."
+    },
+    {
+      "text": "Our kids’ frames are lightweight, flexible and designed to stay comfortable throughout the day.",
+      "factId": "service-kids-frames",
+      "page": "/eyeglasses/",
+      "quote": "We offer frames that are lightweight, flexible, and designed to stay comfortable throughout the day."
+    },
+    {
+      "text": "We carry a wide selection of designer frames for adults and kids, so there’s plenty of room to find something that feels like them.",
+      "factId": "frame-selection",
+      "page": "/",
+      "quote": "With a wide selection of designer frames for adults and kids"
+    },
+    {
+      "text": "At Academy Vision, a child’s eye exam checks how clearly they see at different distances, how their eyes work together and focus, and their overall eye health and development, all kept age-appropriate and easy to follow.",
+      "factId": "service-pediatric-exam-includes",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age."
+    },
+    {
+      "text": "Learn more about pediatric eye exams, or see everything we offer in children’s eye care.",
+      "factId": "service-pediatric",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in."
+    },
+    {
+      "text": "The American Optometric Association recommends a comprehensive eye exam every year for school-age children, or more often if their eye doctor advises it.",
+      "factId": "article-aoa",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "quote": "The American Optometric Association recommends annual comprehensive eye exams for school-age children, or more frequently when advised by their eye doctor."
+    },
+    {
+      "text": "If your child’s prescription keeps changing, ask our eye doctors about Stellest® lenses and other ways to help slow myopia.",
+      "factId": "service-stellest",
+      "page": "/eyeglasses/stellest-lenses/",
+      "quote": "If your child’s vision has been changing, it’s worth asking our eye doctors about Stellest® lenses."
+    },
+    {
+      "text": "If your child’s prescription keeps changing, ask our eye doctors about Stellest® lenses and other ways to help slow myopia.",
+      "factId": "service-myopia-options",
+      "page": "/eye-care-services/myopia-management/",
+      "quote": "Once we understand your child’s vision, we’ll recommend options that are designed to slow progression."
+    },
+    {
+      "text": "Bring your child in to try frames on with you, and we’ll help you both find a pair that fits well and feels good.",
+      "factId": "service-eyeglasses",
+      "page": "/eyeglasses/",
+      "quote": "At our Pine Beach optical, we help you find glasses that feel good and fit your life, without overcomplicating things."
+    },
+    {
+      "text": "Our in-house finishing lab means many prescriptions may be available the same day.",
+      "factId": "tech-in-house-finishing-lab-article",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "quote": "The practice also has an in-house finishing lab, and many prescriptions may be available the same day."
+    },
+    {
+      "text": "And if it’s easier to schedule the whole family together, we can do that too.",
+      "factId": "booking-family-together",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "If it’s easier to schedule everyone together, we can do that too."
+    },
+    {
+      "text": "We make kids’ eye care easy and stress-free!",
+      "factId": "service-pediatric",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in."
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your child’s visit at our Pine Beach office, and take a look at our designer frames for the rest of the family.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    }
+  ],
+  "flags": [
+    "Fit guidance (nose bridge, cable temples, straps, spring hinges, polycarbonate lenses) is general advice; it does not say these features or materials are stocked. The 26-brand list does not say which brands come in children’s sizes, so no kids’ brands are named; the practice can add them.",
+    "The same-day sentence keeps the article’s hedge (\"many prescriptions may be available the same day\", fact tech-in-house-finishing-lab-article).",
+    "\"We make kids’ eye care easy and stress-free!\" reuses the home page line (the voice’s one permitted exclamation, kids’ context)."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G5-eyewear-site",
+    "notes": "tools/overlap-check.mjs --fail 8 (6-word shingles): longest span shared with the Eye Trends crawl 6 words; page copy alone (claims[] removed): 0 words, so the longer span is Academy Vision’s own source path in claims[].page || CHECKER checker-G5-eyewear-site, 2026-10-08: re-ran tools/overlap-check.mjs --fail 8 (6-word shingles) on this final file: longest shared span 6 words (the Academy Vision source path in claims[].page); with claims, flags and review removed the copy shares 0 words; the --control run reported DETECTED. Re-verified all 17 claims: each factId exists in facts/client-facts.json, page and quote equal the fact’s, the quote is on the cited audit/raw page and the claim text is verbatim on this page. Tags, links (4, all new-site paths), schema, imageSlots and length (595 body words) pass tmp/checker-G5-eyewear-site/check.mjs, whose 21 planted-fault controls all fired. CHANGE 1 sections[2]. Before: …losing their place while reading can all be signs a child needs glasses. After: …can all be signs it’s time for an eye exam. Why: medical accuracy; covering one eye or tilting the head can point to eye alignment or other problems that glasses alone may not address, and Academy Vision’s pediatric page frames these signs as a reason to book an eye exam. CHANGE 2 claims. Added the American Optometric Association sentence in faq[0].a with factId article-aoa (page and quote copied from the fact). Why: Academy Vision’s own article states the recommendation; this records its source. Reviewed, kept: the same-day sentence keeps the article’s hedge (DIRECT page); walk in is from the moment they walk in, not a walk-in service; stress-free is not a price; one exclamation (the home page line, kids’ context)."
+  }
+}

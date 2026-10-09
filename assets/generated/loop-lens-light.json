@@ -1,0 +1,72 @@
+{
+  "tool": "tools/make-loop.mjs",
+  "input": "tmp/imagery-run/motion/lens-pp/pingpong.mp4",
+  "inputDuration": 10,
+  "fps": 24,
+  "fade": 1.5,
+  "loopDuration": 8.5,
+  "outputs": {
+    "assets/generated/loop-lens-light.mp4": 727288,
+    "assets/generated/loop-lens-light.webm": 352366,
+    "assets/generated/loop-lens-light-poster.webp": 60724,
+    "assets/generated/loop-lens-light-phone.mp4": 311686
+  },
+  "calmness": {
+    "metric": "ffmpeg signalstats YDIF (mean absolute luma change between consecutive frames, 0-255), measured over two plays of the loop",
+    "frames": 407,
+    "max": 1.57715,
+    "p95": 0.985319,
+    "mean": 0.739,
+    "framesOver20": 0,
+    "seamChange": 1.57715
+  },
+  "aiLabel": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video). Not footage of this practice, its people, its patients or its results.",
+  "generatedAt": "2026-10-08T04:48:44.699Z",
+  "refuterFix": {
+    "at": "2026-10-08T07:19:59.588Z",
+    "file": "assets/generated/loop-lens-light-phone.mp4",
+    "replacedSha256": "536580aa6cd13d17fbf850c72d75c7d7da0451433692c851f1ec1f39d2ef5f0a",
+    "sha256": "114a44cc49ddc3286dea5e043db14f6c7c4585a9b870b6d99d35fe7d9ab69956",
+    "what": "the same 9:16 phone crop, centred on the lens instead of the frame: crop=600:1068:980:0 of the delivered 1920 loop, scale 720 (lanczos), libx264 preset slow crf 28, yuv420p, faststart, no audio, AI label in the comment tag (make-loop's own phone settings)",
+    "calmnessPhone": {
+      "p95": 2,
+      "max": 2.449,
+      "framesOver20": 0,
+      "seamChange": 2.449
+    }
+  },
+  "provenanceRemux": {
+    "at": "2026-10-09",
+    "note": "INTEGRATOR stream-copy remux (ffmpeg -map 0 -c copy -fflags +bitexact, no re-encode) adding the comment tag \"AI-generated with Higgsfield (Kling image-to-video); IPTC digital source type trainedAlgorithmicMedia\"; packet and decoded-frame framemd5 identical before/after (tmp/integrate/remux/report.json)",
+    "files": [
+      {
+        "file": "assets/generated/loop-lens-light-phone.mp4",
+        "previousBytes": 311776,
+        "bytes": 311686,
+        "previousSha256": "114a44cc49ddc3286dea5e043db14f6c7c4585a9b870b6d99d35fe7d9ab69956",
+        "sha256": "9def9d468d748f087f505a0e95154da2a6d2738f77d501923fcae45a17e63c00"
+      },
+      {
+        "file": "assets/generated/loop-lens-light.mp4",
+        "previousBytes": 727378,
+        "bytes": 727288,
+        "previousSha256": "b1e996d019fa38cab5f865b526389b89675839c9adc6d566b6d429aa62c060a4",
+        "sha256": "1f6d99a9c0d0f8195c68ded2a004e2fda37d63ecf451a2668616a90986776e91"
+      },
+      {
+        "file": "assets/generated/loop-lens-light.webm",
+        "previousBytes": 352466,
+        "bytes": 352366,
+        "previousSha256": "f40b82a187c528168c1bb92dd483b7a4bfbc3edcc25130fbc0ddc75ae9e3c829",
+        "sha256": "1a206581b73fad517c10b99c7cf9d36060fc89fc5f8249bafe2c6ba2ed46021c"
+      },
+      {
+        "file": "assets/generated/loop-lens-light-960.mp4",
+        "previousBytes": 213958,
+        "bytes": 213868,
+        "previousSha256": "f97e75291146593491c2a9124630fbc6125b0796cd67595bfa2be57b4cc05583",
+        "sha256": "16eb23eef11d9701c39030978bd287f5c1b1553e136af56a040a2b3651177cf1"
+      }
+    ]
+  }
+}

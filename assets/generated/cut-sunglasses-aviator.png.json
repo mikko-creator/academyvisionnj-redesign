@@ -1,0 +1,62 @@
+{
+  "id": "cut-sunglasses-aviator",
+  "file": "assets/generated/cut-sunglasses-aviator.png",
+  "kind": "depth-cutout",
+  "planPurpose": "protruding sunglasses object for the eyewear and sunglasses pages",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 cut-out, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Gold metal sunglasses with blue gradient lenses",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of a pair of thin gold metal aviator-style sunglasses with blue gradient lenses, three-quarter view, temples open, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 2565668427,
+  "requestId": "01a119eb-bc27-7002-84c1-9936998da199",
+  "editOf": "tmp/imagery-run/attempts/cut-sunglasses-aviator.a1k.jpg",
+  "sourceAttempt": "tmp/imagery-run/attempts/cut-sunglasses-aviator.a1kl.jpg",
+  "w": 2048,
+  "h": 2048,
+  "sha256": "de63e8c0f5fd569c56ecb66f2320cd308ebb914af550b8d1939a1eb076ba4a26",
+  "master": {
+    "file": "assets/generated/raw/cut-sunglasses-aviator.jpg",
+    "sha256": "5f89244112524d5dde9c4c248b58e4864eeabbc3e0f05f650d5858446ee3c263"
+  },
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a119f2-4f5c-71f1-a183-f60906f9e1d3",
+    "input": {
+      "image_url": "<data uri of cut-sunglasses-aviator.a1kl.jpg>",
+      "model": "General Use (Heavy)",
+      "operating_resolution": "2048x2048",
+      "output_format": "png"
+    },
+    "birefnetOutput": "tmp/imagery-run/attempts/cut-sunglasses-aviator.a1kl.cut.png",
+    "localRepair": null
+  },
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "LOCAL non-AI edit on a1k: median r7 + gaussian 1.5 inside a feathered ellipse (1060,945, 44x17, 31deg) over the lens lettering; no API call",
+      "100% + 400% lens corner: clean blue gradient, no letters, no gold smear from the rim",
+      "rest of master as reviewed on a1: gold aviator frame, two temples, double bridge"
+    ],
+    "notes": "master accepted; birefnet next",
+    "at": "2026-10-08T05:17:45.267Z",
+    "retries": 1,
+    "cutout": {
+      "verdict": "accept",
+      "checks": [
+        "birefnet: transparent 0.91, semi 0.0036, opaque 0.086, semi-mean #c3af90 (gold edges, no grey halo)",
+        "22% on navy + magenta: clean gold edges, both temple tips intact, tinted lenses correctly opaque, reflection excluded (bbox ends at the lens bottom)",
+        "100% left lens + nose pad on magenta: clean; nose pad rendered light/opaque (translucent silicone)"
+      ],
+      "notes": "",
+      "at": "2026-10-08T05:22:03.738Z",
+      "file": "tmp/imagery-run/attempts/cut-sunglasses-aviator.a1kl.cut.png",
+      "sha256": "de63e8c0f5fd569c56ecb66f2320cd308ebb914af550b8d1939a1eb076ba4a26"
+    }
+  },
+  "promotedAt": "2026-10-08T05:34:21.045Z"
+}

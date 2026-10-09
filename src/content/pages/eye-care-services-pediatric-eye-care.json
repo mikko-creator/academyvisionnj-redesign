@@ -1,0 +1,663 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eye-care-services/pediatric-eye-care/",
+  "source": "audit/raw/eye-care-services-pediatric-eye-care.html",
+  "rendered": "tmp/extract/rendered/eye-care-services-pediatric-eye-care.html",
+  "meta": {
+    "title": "Pediatric Eye Care Pine Beach, NJ | Academy Vision",
+    "description": "Gentle pediatric eye care in Pine Beach. Our eye doctor ensures your child's vision develops correctly. Visit Academy Vision for kids' exams.",
+    "canonical": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care/",
+      "type": "website",
+      "title": "Pediatric Eye Care Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a82-699c-72f2-a9f0-21b7fa9452de/AdobeStock_114077855.jpeg",
+      "description": "Gentle pediatric eye care in Pine Beach. Our eye doctor ensures your child's vision develops correctly. Visit Academy Vision for kids' exams.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care/",
+        "url": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care/",
+        "name": "Pediatric Eye care",
+        "datePublished": "2026-03-26T18:51:24.997Z",
+        "dateModified": "2026-06-04T11:21:06.540Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care/",
+            "medicalSpecialty": [
+              {
+                "@type": "MedicalSpecialty",
+                "name": "Optometry"
+              },
+              {
+                "@type": "MedicalSpecialty",
+                "name": "Pediatric Optometry"
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "United States"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "(732) 736-1700",
+              "contactType": "Practice"
+            },
+            "telephone": "(732) 736-1700",
+            "openingHours": [
+              "Mo 09:00-17:00",
+              "Tu 09:00-17:00",
+              "We 09:00-17:00",
+              "Th 09:00-17:00",
+              "Fr 08:00-15:00"
+            ]
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Pediatric Vision Disorders",
+            "alternateName": "Child Eye Health Conditions",
+            "description": "Various child eye and vision conditions such as refractive errors, amblyopia, strabismus, and tracking disorders that affect developmental milestones and school performance.",
+            "signOrSymptom": [
+              "Frequent headaches or eye strain",
+              "Squinting or head tilting",
+              "Difficulty reading or tracking objects",
+              "Misaligned eyes or lazy eye"
+            ],
+            "possibleTreatment": [
+              "Prescription eyeglasses or contact lenses",
+              "Occlusion therapy for amblyopia",
+              "Vision therapy for tracking or convergence issues",
+              "Surgical referral for strabismus if indicated"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "h1": "Eye Care for Kids in Pine Beach, NJ",
+  "counts": {
+    "blocks": 7,
+    "nodes": 28,
+    "static": 28,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "MrmhYEV9KG",
+      "at": 112582,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Eye Care for Kids in Pine Beach, NJ",
+          "html": "Eye Care for Kids in Pine Beach, NJ",
+          "id": "TxBdCqGkm1",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>We know bringing your child in for an <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a> can sometimes feel stressful. At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in. Whether it’s their first visit or a routine check, we make the experience easy and even a little fun for children in Pine Beach.</p>",
+          "id": "kZjsNqIuND",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "keLRv98TQK",
+          "id": "ldIddbNahX",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "keLRv98TQK",
+          "id": "4rSCKpuDH7",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a82-699c-72f2-a9f0-21b7fa9452de/AdobeStock_114077855.jpeg",
+          "file": "assets/source/defc0474-AdobeStock_114077855.jpeg",
+          "alt": "A young girl with black hair wearing a blue polka dot dress is looking into an eye exam machine.",
+          "w": 5859,
+          "h": 3906,
+          "focal": "50.0% 50.0%",
+          "id": "MrmhYEV9KG-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "j9fDyB0k1V",
+      "at": 116369,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "The Importance of Eye Exams for Children",
+          "html": "The Importance of Eye Exams for Children",
+          "align": "center",
+          "id": "h6zh1XPq0J",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Kids don’t always know how to explain what they’re seeing. <a href=\"/eye-care-services/myopia-management/\">Vision problems</a> can go unnoticed, even when they’re affecting learning, focus, and everyday activities. Pediatric eye exams help us catch those issues early, so your child can see clearly and stay on track as they grow.</p>",
+          "align": "center",
+          "id": "WQOqVt4QNx",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "tcOgNpIsmI",
+          "id": "TVjoCr0GCB",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "tcOgNpIsmI",
+          "id": "Np4xjQUjdz",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "VePFwNNn7B",
+      "at": 118097,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Common Signs of Vision Problems in Kids",
+          "html": "Common Signs of Vision Problems in Kids",
+          "id": "yPST3VEsWU",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve noticed any of these, it might be time to book an eye exam:</p><ul><li>Squinting or sitting very close to screens or books</li><li>Complaints of headaches or tired eyes</li><li>Trouble focusing or keeping up in school</li><li>Covering one eye or tilting their head</li><li>Frequent eye rubbing or blinking</li><li>Avoiding reading or close-up work</li></ul>",
+          "id": "hHrdhU9BCM",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "6ruYIEypQP",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a82-e093-71e4-b874-66c271f79b1f/AdobeStock_321449929.jpeg",
+          "file": "assets/source/cfb188fd-AdobeStock_321449929.jpeg-w_2000.webp",
+          "alt": "A young boy is sitting at a desk and smiling while writing in a notebook.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "XKKsBEOnIW",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "oiXX4rsobr",
+      "at": 121994,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a83-ca6d-7753-8cdf-79b8ef0b4a2c/AdobeStock_502173011.jpeg",
+          "file": "assets/source/ab9dccd6-AdobeStock_502173011.jpeg-w_2000.webp",
+          "alt": "A doctor is talking to a mother and daughter inside a room.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "iDJ08xOpdX",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "A Comfortable, Kid-Friendly Experience",
+          "html": "A Comfortable, Kid-Friendly Experience",
+          "id": "BWYLxcI1Fn",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Every child is different, and we meet them where they are. Our pediatric eye doctors in Pine Beach keep things relaxed and explain what we’re doing in a way they can understand. Our goal is to build trust, so your child feels comfortable coming back, and you feel confident in the care they’re receiving.</p>",
+          "id": "wn1NsHVIgP",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "7iyp1QSIUJ",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "PtCMG0tNLA",
+      "at": 125467,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "What Your Child’s Eye Exam Includes",
+          "html": "What Your Child’s Eye Exam Includes",
+          "id": "h6PcUAxpAM",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>We keep your child’s eye exam in Pine Beach simple and tailored to their age. During the visit, we’ll:</p><ul><li>Check how clearly your child can see at different distances</li><li>Evaluate how their eyes work together and focus</li><li>Look at overall eye health and development</li><li>Keep everything age-appropriate and easy to follow</li></ul>",
+          "id": "DDn1RspToL",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a84-9681-77da-b270-0cf6e9f86a0d/AdobeStock_522927551.jpeg",
+          "file": "assets/source/dbfe0520-AdobeStock_522927551.jpeg-w_2000.webp",
+          "alt": "A girl in a white dress and glasses is smiling while a woman adjusts her glasses.",
+          "w": 2000,
+          "h": 1331,
+          "focal": "50.0% 50.0%",
+          "id": "xaNJa4GA9t",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "3OGnX2keU7",
+      "at": 129069,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a84-3b45-7608-af37-5dcec74de215/AdobeStock_302486254.jpeg",
+          "file": "assets/source/e2b8ae3f-AdobeStock_302486254.jpeg-w_2000.webp",
+          "alt": "A young girl with glasses is being examined by a doctor in a medical room",
+          "w": 2000,
+          "h": 1335,
+          "focal": "50.0% 50.0%",
+          "id": "kaeR9FMink",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Kids’ Frames and Lenses",
+          "html": "Kids’ Frames and Lenses",
+          "id": "p2F30mFvPX",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If your child needs glasses, we make that part easy, too. Our <a href=\"/hours-location/\">Pine Beach optical</a> carries a range of kid-friendly frames that are durable, comfortable, and designed to fit their style, so they actually want to wear them.</p>",
+          "id": "65LEeJlm1n",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Browse Our Eyewear",
+          "href": "/eyeglasses/",
+          "external": false,
+          "id": "ECEnRJfX0S",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "HsNyBaQOsk",
+      "at": 132485,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Book Your Child’s Eye Exam",
+          "html": "Book Your Child’s Eye Exam",
+          "align": "center",
+          "id": "NS10zHAw2L",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Whether it’s your child’s first visit or just time for a checkup, we’re here to make it simple. We’ll take the time to make them feel comfortable and give you clear answers every step of the way. Give us a call or schedule your visit.</p>",
+          "align": "center",
+          "id": "jRtmHehfQI",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "6SqcURmcgf",
+          "id": "b27WTehtDj",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "6SqcURmcgf",
+          "id": "KjefnvEjau",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

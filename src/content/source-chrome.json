@@ -1,0 +1,602 @@
+{
+  "schema": "avnj/source-chrome@1",
+  "note": "Source chrome of www.academyvisionnj.com as crawled (audit/raw, 2026-10-08). Values are the source's own strings; links are own-origin paths. The header is identical on every page except the menu's current-page classes; the footer is byte-identical (see evidence). The Eye Trends restructure is applied at build time, not here.",
+  "origin": "https://www.academyvisionnj.com",
+  "evidence": {
+    "pages": 31,
+    "headerVariantsIgnoringCurrentClass": 1,
+    "footerVariants": 1,
+    "base": "audit/raw/index.html"
+  },
+  "brandName": "Academy Vision",
+  "skipLink": {
+    "label": "Skip to content",
+    "href": "#main-content"
+  },
+  "topbar": {
+    "id": "sM5gYb7xEJ",
+    "visibleAt": [
+      "xl",
+      "lg"
+    ],
+    "background": {
+      "color": "#fff",
+      "textColor": "#202020"
+    },
+    "items": [
+      {
+        "t": "link",
+        "label": "Located at Pine Beach",
+        "href": "/hours-location/",
+        "html": "<p><a href=\"/hours-location/\">Located at Pine Beach</a></p>"
+      },
+      {
+        "t": "button",
+        "label": "Call: (732) 978-9306",
+        "href": "tel:+17329789306",
+        "external": false,
+        "variant": "secondary",
+        "group": "i8nMJPjqcx"
+      },
+      {
+        "t": "button",
+        "label": "Book Appointment",
+        "href": "https://scheduleyourexam.com/v3/index.php/3197",
+        "external": true,
+        "newTab": true,
+        "variant": "button_secondary",
+        "group": "i8nMJPjqcx"
+      }
+    ]
+  },
+  "header": {
+    "homeHref": "/",
+    "homeAriaLabel": "Link to homepage",
+    "logo": {
+      "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d7b-479a-753f-b0c6-20d467274b21/Academy-Vision-Logo.png",
+      "file": "assets/source/f7e5ab0f-Academy-Vision-Logo.png-w_400.webp",
+      "alt": "Academy Vision Logo with Eye Design",
+      "w": 400,
+      "h": 86
+    },
+    "logoResponsive": {
+      "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d7b-479a-753f-b0c6-20d467274b21/Academy-Vision-Logo.png",
+      "file": "assets/source/f7e5ab0f-Academy-Vision-Logo.png-w_400.webp",
+      "alt": "Academy Vision Logo with Eye Design",
+      "w": 400,
+      "h": 86
+    },
+    "quickIcons": {
+      "visibleAt": [
+        "lg",
+        "md",
+        "sm"
+      ],
+      "items": [
+        {
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "target": "_self",
+          "icon": {
+            "master": "https://cdn.patientengage.cloud/global/svgs/eyecarepro/ecp-customicon-calendar.svg",
+            "file": "assets/source/f4ea16ac-ecp-customicon-calendar.svg",
+            "w": 37,
+            "h": 32
+          }
+        },
+        {
+          "label": "Call Us",
+          "href": "tel:+17327361700",
+          "external": false,
+          "target": "_self",
+          "icon": {
+            "master": "https://cdn.patientengage.cloud/global/svgs/eyecarepro/ecp-customicon-phone.svg",
+            "file": "assets/source/f2a049a3-ecp-customicon-phone.svg",
+            "w": 37,
+            "h": 32
+          }
+        }
+      ]
+    },
+    "dividers": [
+      {
+        "id": "7zXenubtUP",
+        "background": {
+          "color": "#fff",
+          "image": {
+            "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+            "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+            "w": 1600,
+            "h": 18,
+            "position": "center"
+          }
+        },
+        "minHeight": "15px"
+      }
+    ]
+  },
+  "menu": {
+    "items": [
+      {
+        "label": "Home",
+        "href": "/",
+        "mobileOnly": true,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about-us/",
+        "children": []
+      },
+      {
+        "label": "Our Eye Doctors",
+        "href": "/our-eye-doctor/",
+        "children": []
+      },
+      {
+        "label": "Eye Care Services",
+        "href": "/eye-care-services/",
+        "children": [
+          {
+            "label": "Comprehensive Eye Exams",
+            "href": "/eye-care-services/comprehensive-eye-exams/",
+            "children": []
+          },
+          {
+            "label": "Dry Eye Treatment",
+            "href": "/eye-care-services/dry-eye-treatment/",
+            "children": []
+          },
+          {
+            "label": "Eye Disease Management",
+            "href": "/eye-care-services/eye-disease-management/",
+            "children": []
+          },
+          {
+            "label": "Myopia Management",
+            "href": "/eye-care-services/myopia-management/",
+            "children": []
+          },
+          {
+            "label": "Pediatric Eye care",
+            "href": "/eye-care-services/pediatric-eye-care/",
+            "children": []
+          },
+          {
+            "label": "LASIK Co-Management",
+            "href": "/eye-care-services/lasik-co-management/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Eyeglasses",
+        "href": "/eyeglasses/",
+        "children": [
+          {
+            "label": "Varilux® Lenses",
+            "href": "/eyeglasses/varilux-lenses/",
+            "children": []
+          },
+          {
+            "label": "Avulux® Migraine Lenses",
+            "href": "/eyeglasses/avulux-migraine-lenses/",
+            "children": []
+          },
+          {
+            "label": "Stellest® Lenses",
+            "href": "/eyeglasses/stellest-lenses/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Contact Lenses",
+        "href": "/contact-lenses/",
+        "children": [
+          {
+            "label": "Contact Lenses Exams",
+            "href": "/contact-lenses/contact-lenses-exams/",
+            "children": []
+          },
+          {
+            "label": "Orthokeratology (Ortho-K)",
+            "href": "/contact-lenses/orthokeratology-ortho-k/",
+            "children": []
+          },
+          {
+            "label": "Scleral Lenses",
+            "href": "/contact-lenses/scleral-lenses/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Insurance",
+        "href": "/insurance/",
+        "children": []
+      },
+      {
+        "label": "Hours & Location",
+        "href": "/hours-location/",
+        "children": []
+      }
+    ],
+    "ui": {
+      "open": "Open menu",
+      "close": "Close menu",
+      "toggle": "Toggle Menu",
+      "focusClose": {
+        "label": "Close Nav",
+        "origin": "rendered"
+      }
+    }
+  },
+  "ctas": [
+    {
+      "where": "topbar",
+      "label": "Call: (732) 978-9306",
+      "href": "tel:+17329789306",
+      "external": false,
+      "newTab": false
+    },
+    {
+      "where": "topbar",
+      "label": "Book Appointment",
+      "href": "https://scheduleyourexam.com/v3/index.php/3197",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "where": "header-icons",
+      "label": "Book Appointment",
+      "href": "https://scheduleyourexam.com/v3/index.php/3197",
+      "external": true,
+      "newTab": false
+    },
+    {
+      "where": "header-icons",
+      "label": "Call Us",
+      "href": "tel:+17327361700",
+      "external": false,
+      "newTab": false
+    }
+  ],
+  "footer": {
+    "dividers": [
+      {
+        "id": "sNXpJILMht",
+        "background": {
+          "color": "#fff",
+          "image": {
+            "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+            "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+            "w": 1600,
+            "h": 18,
+            "position": "center"
+          }
+        },
+        "minHeight": "15px"
+      }
+    ],
+    "sectionId": "rYVF4NvGkv",
+    "background": {
+      "color": "#0f2a4a",
+      "textColor": "#fff"
+    },
+    "columns": [
+      {
+        "id": "8Syb8hxxpr",
+        "span": 4,
+        "nodes": [
+          {
+            "t": "heading",
+            "level": null,
+            "text": "Contact Us",
+            "html": "Contact Us",
+            "id": "feFY9vrCV1"
+          },
+          {
+            "t": "location",
+            "show": [
+              "name",
+              "phone",
+              "address",
+              "chevron"
+            ],
+            "locationId": "6999",
+            "name": "Academy Vision",
+            "address": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+            "phone": "(732) 978-9306",
+            "phoneHref": "tel:+17329789306",
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+            "mapsNewTab": true,
+            "hours": [
+              {
+                "label": "monday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "tuesday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "wednesday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "thursday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "friday:",
+                "text": "8:00 am - 3:00 pm"
+              },
+              {
+                "label": "saturday:",
+                "text": "Closed"
+              },
+              {
+                "label": "sunday:",
+                "text": "Closed"
+              }
+            ],
+            "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+            "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+            "id": "ysOwdJus4T"
+          },
+          {
+            "t": "image",
+            "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e43-989d-73cc-bd53-490cccf8d149/honoredlistee.png",
+            "file": "assets/source/14f4500d-honoredlistee.png-w_300.webp",
+            "alt": "Who's Who Honorees 2023 Marquis 125 Years Logo",
+            "w": 300,
+            "h": 300,
+            "focal": "50.0% 50.0%",
+            "id": "EPwMFYxEBY"
+          }
+        ]
+      },
+      {
+        "id": "qBcaNJHdpg",
+        "span": 4,
+        "nodes": [
+          {
+            "t": "heading",
+            "level": null,
+            "text": "Locate Us",
+            "html": "Locate Us",
+            "id": "E0U7g34eRL"
+          },
+          {
+            "t": "location",
+            "show": [
+              "map"
+            ],
+            "locationId": "6999",
+            "name": "Academy Vision",
+            "address": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+            "phone": "(732) 978-9306",
+            "phoneHref": "tel:+17329789306",
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+            "mapsNewTab": true,
+            "hours": [
+              {
+                "label": "monday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "tuesday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "wednesday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "thursday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "friday:",
+                "text": "8:00 am - 3:00 pm"
+              },
+              {
+                "label": "saturday:",
+                "text": "Closed"
+              },
+              {
+                "label": "sunday:",
+                "text": "Closed"
+              }
+            ],
+            "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+            "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+            "mapTitle": "Google Map",
+            "id": "v4KaEuhk8j"
+          }
+        ]
+      },
+      {
+        "id": "rdJtt2fE5I",
+        "span": 4,
+        "nodes": [
+          {
+            "t": "heading",
+            "level": null,
+            "text": "Hours",
+            "html": "Hours",
+            "id": "5eQjGemBqx"
+          },
+          {
+            "t": "location",
+            "show": [
+              "hours"
+            ],
+            "locationId": "6999",
+            "name": "Academy Vision",
+            "address": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+            "phone": "(732) 978-9306",
+            "phoneHref": "tel:+17329789306",
+            "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+            "mapsNewTab": true,
+            "hours": [
+              {
+                "label": "monday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "tuesday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "wednesday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "thursday:",
+                "text": "9:00 am - 5:00 pm"
+              },
+              {
+                "label": "friday:",
+                "text": "8:00 am - 3:00 pm"
+              },
+              {
+                "label": "saturday:",
+                "text": "Closed"
+              },
+              {
+                "label": "sunday:",
+                "text": "Closed"
+              }
+            ],
+            "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+            "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+            "id": "cn6PWFu5Ya"
+          }
+        ]
+      }
+    ],
+    "credit": {
+      "text": "© 2026 Powered by",
+      "href": "https://www.eyecarepro.com",
+      "rel": "nofollow noopener",
+      "newTab": true,
+      "logo": {
+        "master": "https://cdn.patientengage.cloud/global/eyecarepro-logo.svg",
+        "file": "assets/source/c61cf19c-eyecarepro-logo.svg",
+        "alt": "EyeCarePro",
+        "w": 100,
+        "h": 100
+      }
+    },
+    "legal": [
+      {
+        "label": "Accessibility",
+        "href": "/website-accessibility-policy/"
+      },
+      {
+        "label": "Sitemap",
+        "href": "/sitemap/"
+      },
+      {
+        "label": "Privacy",
+        "href": "/privacy-policy/"
+      },
+      {
+        "label": "Disclaimer",
+        "href": "/disclaimer/"
+      }
+    ]
+  },
+  "nap": {
+    "name": "Academy Vision",
+    "phone": "(732) 978-9306",
+    "phoneHref": "tel:+17329789306",
+    "addressText": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+    "address": {
+      "street": "90 Atlantic City Blvd",
+      "locality": "Pine Beach",
+      "region": "NJ",
+      "postalCode": "08741",
+      "country": "US",
+      "from": "jsonLd (Optician)"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+    "mapsNewTab": true,
+    "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+    "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+    "locationId": "6999"
+  },
+  "hours": [
+    {
+      "label": "monday:",
+      "text": "9:00 am - 5:00 pm"
+    },
+    {
+      "label": "tuesday:",
+      "text": "9:00 am - 5:00 pm"
+    },
+    {
+      "label": "wednesday:",
+      "text": "9:00 am - 5:00 pm"
+    },
+    {
+      "label": "thursday:",
+      "text": "9:00 am - 5:00 pm"
+    },
+    {
+      "label": "friday:",
+      "text": "8:00 am - 3:00 pm"
+    },
+    {
+      "label": "saturday:",
+      "text": "Closed"
+    },
+    {
+      "label": "sunday:",
+      "text": "Closed"
+    }
+  ],
+  "social": [],
+  "badges": [
+    {
+      "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e43-989d-73cc-bd53-490cccf8d149/honoredlistee.png",
+      "file": "assets/source/14f4500d-honoredlistee.png-w_300.webp",
+      "alt": "Who's Who Honorees 2023 Marquis 125 Years Logo",
+      "w": 300,
+      "h": 300
+    }
+  ],
+  "legalLinks": [
+    {
+      "label": "Accessibility",
+      "href": "/website-accessibility-policy/"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap/"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy-policy/"
+    },
+    {
+      "label": "Disclaimer",
+      "href": "/disclaimer/"
+    }
+  ],
+  "copyright": "© 2026",
+  "phoneNumbers": {
+    "printedNap": "(732) 978-9306",
+    "telLinksInChrome": [
+      "tel:+17329789306",
+      "tel:+17327361700"
+    ],
+    "jsonLdTelephones": [
+      "(732) 736-1700",
+      "+1-732-978-9306"
+    ]
+  }
+}

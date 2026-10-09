@@ -1,0 +1,61 @@
+{
+  "id": "cut-sunglasses-navy",
+  "file": "assets/generated/cut-sunglasses-navy.png",
+  "kind": "depth-cutout",
+  "planPurpose": "protruding sunglasses object (navy accent)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 cut-out, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Navy square sunglasses with grey lenses",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of a pair of bold navy square sunglasses with smoke grey lenses, front three-quarter view, temples open, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 2661233558,
+  "requestId": "01a119f2-5fb6-77d3-80ef-2fa507475e1d",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/cut-sunglasses-navy.a1.jpg",
+  "w": 2048,
+  "h": 2048,
+  "sha256": "b7f4cfdb895e9aff84b693736104ca7ac3c37512bb2241ee63e85fdcf1ecffb6",
+  "master": {
+    "file": "assets/generated/raw/cut-sunglasses-navy.jpg",
+    "sha256": "2319c658d8cb0b804e57ee4c354e21ba627b91f8a16ec662a8a3810be4f8d714"
+  },
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a119f8-693a-7d51-8952-fa0a50c96e13",
+    "input": {
+      "image_url": "<data uri of cut-sunglasses-navy.a1.jpg>",
+      "model": "General Use (Heavy)",
+      "operating_resolution": "2048x2048",
+      "output_format": "png"
+    },
+    "birefnetOutput": "tmp/imagery-run/attempts/cut-sunglasses-navy.a1.cut.png",
+    "localRepair": null
+  },
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "23% whole frame: one pair of bold navy square sunglasses, smoke grey lenses, front view, temples open behind",
+      "100% both inner temples: plain black, no text",
+      "400% both frame corners/hinges: smooth navy, no studs or marks"
+    ],
+    "notes": "master accepted; birefnet next",
+    "at": "2026-10-08T05:24:28.855Z",
+    "retries": 0,
+    "cutout": {
+      "verdict": "accept",
+      "checks": [
+        "birefnet: transparent 0.855, semi 0.0015, opaque 0.143 (tinted smoke lenses kept - correct), semi-mean #2c2e3b (dark, no grey halo), bbox ends at the frame bottom",
+        "20% on navy + magenta: clean edges, black temples visible behind the tinted lenses, no shadow patch"
+      ],
+      "notes": "",
+      "at": "2026-10-08T05:33:39.527Z",
+      "file": "tmp/imagery-run/attempts/cut-sunglasses-navy.a1.cut.png",
+      "sha256": "b7f4cfdb895e9aff84b693736104ca7ac3c37512bb2241ee63e85fdcf1ecffb6"
+    }
+  },
+  "promotedAt": "2026-10-08T05:34:21.285Z"
+}

@@ -1,0 +1,232 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/cataract-co-management",
+  "etSource": "services/cataract-co-management",
+  "title": "Cataract Co-Management in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Cloudy or dim vision? Academy Vision in Pine Beach monitors cataracts and coordinates with New Jersey eye surgeons for your care before and after surgery.",
+  "h1": "Cataract Care Before and After Surgery in Pine Beach",
+  "kicker": "Things Looking a Little Hazy?",
+  "lede": "<p>Cataracts usually arrive slowly. Colors look a little faded, headlights start to glare, and reading needs more light than it used to. For many people, that gradual change eventually leads to a conversation about surgery.</p><p>At Academy Vision, we monitor cataracts as they progress and, when the time is right, coordinate with New Jersey eye surgeons so you receive expert care before and after surgery. From the first hazy signs to your recovery after the operation, your care stays connected.</p>",
+  "sections": [
+    {
+      "id": "how-cataracts-change-your-vision",
+      "heading": "How Cataracts Change Your Vision",
+      "html": "<p>A cataract is a clouding of the eye’s natural lens, the clear structure behind the iris that focuses light. Most cataracts are a normal part of aging and develop over years. Early on, an updated glasses prescription and brighter lighting can keep you comfortable.</p><p>Over time, the clouding can make night driving, reading, or seeing fine detail harder. When everyday tasks start to suffer, surgery to replace the cloudy lens with a clear artificial one is the usual next step, and that’s when a referral to an eye surgeon comes in.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "why-start-with-your-eye-doctor",
+      "heading": "Why It Helps to Start With Your Eye Doctor",
+      "html": "<ul><li><strong>A clear diagnosis.</strong> A thorough exam shows whether a cataract is behind your symptoms or something else needs attention.</li><li><strong>Options explained.</strong> Our optometrists take the time to explain what surgery involves and whether now is the right time.</li><li><strong>A familiar team in the loop.</strong> Your Pine Beach eye doctor stays involved in your care before and after the operation.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "our-role-before-and-after-surgery",
+      "heading": "Our Role Before and After Surgery",
+      "html": "<p>Co-management means your care is shared. An eye surgeon performs the operation, while your own eye doctor works alongside them. Before surgery, we follow your cataracts over time and help you weigh when surgery makes sense. Before and after the operation, we coordinate with your surgeon rather than simply handing you off.</p><p>Dr. Marc Ullman takes pride in offering honest second opinions and surgical consultations, which can help when you’re weighing a recommendation. Dr. Tyler Lesko is certified in Light Adjustable Lens technology, a type of lens implant whose prescription can be fine-tuned with light treatments after surgery.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "connected-care-not-a-hand-off",
+      "heading": "Connected Care, Not a Hand-Off",
+      "html": "<p>Some referrals work like a hand-off: you’re sent to a surgeon, and your regular eye doctor hears little about what happens next. Coordinated care keeps the thread intact, so your history, any other eye conditions, and your everyday vision needs stay in view the whole way through.</p><p>After more than 40 years serving this area, we’ve seen how much it helps to have a familiar place to rely on when a big step like surgery comes along.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "related-care",
+      "heading": "Related Care",
+      "html": "<p>Cataracts are one of the conditions we manage as part of our <a href=\"/services/medical-eye-care/\">medical eye care</a>. For laser vision correction, our <a href=\"/services/lasik-co-management/\">LASIK co-management</a> follows the same shared approach with a local eye surgeon. And if it’s been a while since your last checkup, a <a href=\"/services/comprehensive-eye-exams/\">comprehensive eye exam</a> is the place to start.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who performs the surgery?",
+      "a": "<p>Cataract surgery is performed by an eye surgeon. Our part is to monitor your cataracts, help you understand your options, and coordinate with New Jersey eye surgeons for your care before and after the operation.</p>"
+    },
+    {
+      "q": "When is the right time for cataract surgery?",
+      "a": "<p>There’s usually no rush. Surgery is generally considered once a cataract starts getting in the way of things you need or love to do, like driving at night, reading, or a favorite hobby. Until then, regular checkups track how it’s changing. Other eye conditions or the demands of your work can shift the timing.</p>"
+    },
+    {
+      "q": "Will insurance cover cataract surgery?",
+      "a": "<p>Cataract surgery is usually billed to medical insurance, while upgraded lens implants often add an out-of-pocket cost. The surgeon’s office can explain the costs of the operation itself, and our team will help check your benefits and explain what’s covered for your visits with us. You can see the plans we accept on our <a href=\"/insurance/\">insurance page</a>.</p>"
+    },
+    {
+      "q": "What if something feels wrong after surgery?",
+      "a": "<p>Follow your surgeon’s instructions and call their office promptly about increasing pain, redness, or blurring. Sudden vision loss, a curtain or shadow over your vision, or flashes of light with a sudden shower of new floaters need emergency care immediately.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Book a Cataract Evaluation in Pine Beach",
+    "html": "<p>If glare, haze, or fading colors have been creeping into your days, let’s take a look. Call us at (732) 978-9306 or book your visit online, and we’ll help you understand what’s going on and what comes next.</p>"
+  },
+  "related": [
+    "services/medical-eye-care",
+    "services/lasik-co-management",
+    "services/comprehensive-eye-exams"
+  ],
+  "claims": [
+    {
+      "text": "Cataract Co-Management in Pine Beach, NJ | Academy Vision",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "Cataract Care Before and After Surgery in Pine Beach",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "Our Role Before and After Surgery",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "Book a Cataract Evaluation in Pine Beach",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "A thorough exam shows whether a cataract is behind your symptoms or something else needs attention.",
+      "factId": "service-comprehensive-eye-exams",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision."
+    },
+    {
+      "text": "Academy Vision in Pine Beach monitors cataracts and coordinates with New Jersey eye surgeons for your care before and after surgery.",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "At Academy Vision, we monitor cataracts as they progress and, when the time is right, coordinate with New Jersey eye surgeons so you receive expert care before and after surgery.",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "From the first hazy signs to your recovery after the operation, your care stays connected.",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "Our optometrists take the time to explain what surgery involves and whether now is the right time.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    },
+    {
+      "text": "Your Pine Beach eye doctor stays involved in your care before and after the operation.",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "Before surgery, we follow your cataracts over time and help you weigh when surgery makes sense.",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "Before and after the operation, we coordinate with your surgeon rather than simply handing you off.",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "Dr. Marc Ullman takes pride in offering honest second opinions and surgical consultations, which can help when you’re weighing a recommendation.",
+      "factId": "doctor-mu-second-opinions",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "Providing honest second opinions and surgical consultations."
+    },
+    {
+      "text": "Dr. Tyler Lesko is certified in Light Adjustable Lens technology, a type of lens implant whose prescription can be fine-tuned with light treatments after surgery.",
+      "factId": "doctor-tl-certifications",
+      "page": "/team/dr-tyler-lesko-od/",
+      "quote": "Advanced Certifications: He is certified in Light Adjustable Lens technology and Orthokeratology."
+    },
+    {
+      "text": "After more than 40 years serving this area, we’ve seen how much it helps to have a familiar place to rely on when a big step like surgery comes along.",
+      "factId": "history-more-than-40-disease",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "After more than 40 years serving this area, we’ve built something simple: a place you can rely on when it comes to your eyes."
+    },
+    {
+      "text": "Cataracts are one of the conditions we manage as part of our medical eye care.",
+      "factId": "service-ocular-diseases-managed",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Cataracts"
+    },
+    {
+      "text": "For laser vision correction, our LASIK co-management follows the same shared approach with a local eye surgeon.",
+      "factId": "service-lasik-co-management",
+      "page": "/eye-care-services/lasik-co-management/",
+      "quote": "If it is, we’ll connect you with a local eye surgeon and coordinate your care."
+    },
+    {
+      "text": "And if it’s been a while since your last checkup, a comprehensive eye exam is the place to start.",
+      "factId": "service-comprehensive-eye-exams",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision."
+    },
+    {
+      "text": "Our part is to monitor your cataracts, help you understand your options, and coordinate with New Jersey eye surgeons for your care before and after the operation.",
+      "factId": "service-cataract-co-management",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "We monitor their progression and, when the time is right, coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+    },
+    {
+      "text": "The surgeon’s office can explain the costs of the operation itself, and our team will help check your benefits and explain what’s covered for your visits with us.",
+      "factId": "staff-benefits-help",
+      "page": "/insurance/",
+      "quote": "Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan."
+    },
+    {
+      "text": "You can see the plans we accept on our insurance page.",
+      "factId": "insurance-plans",
+      "page": "/insurance/",
+      "quote": "Insurance Plans We Accept Medicare"
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your visit online, and we’ll help you understand what’s going on and what comes next.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your visit online, and we’ll help you understand what’s going on and what comes next.",
+      "factId": "booking-online",
+      "page": "/",
+      "quote": "https://scheduleyourexam.com/v3/index.php/3197"
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your visit online, and we’ll help you understand what’s going on and what comes next.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    }
+  ],
+  "flags": [
+    "Surgeons: the partner surgeons are not named (Academy Vision says only “New Jersey eye surgeons”); add names only if the practice wants them listed.",
+    "Post-operative visits: the page uses Academy Vision’s own wording (it coordinates with New Jersey eye surgeons for care before and after surgery) but does not promise that post-op visits happen at Academy Vision or give a visit schedule; only the LASIK page states local follow-ups, and only for LASIK. Please state whether co-managed cataract patients return to Academy Vision after surgery.",
+    "Light Adjustable Lens: the page states Dr. Tyler Lesko’s certification (from his bio) and explains the lens in general terms; it does not say the practice provides the light treatments after surgery. Please state whether it does.",
+    "Coverage: the insurance answer is general (surgery usually billed to medical insurance; upgraded lens implants often add an out-of-pocket cost). Please review it.",
+    "Doctors named: Dr. Marc Ullman (honest second opinions and surgical consultations) and Dr. Tyler Lesko (Light Adjustable Lens certification), both from their bios. Please approve naming both."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G2-medical",
+    "notes": "Writer (writer-G2-medical): node tools/overlap-check.mjs --files <the four G2 files> --fail 8: longest span shared with the Eye Trends crawl is 6 words (fail at 8); every span of 6+ words is the comprehensive-exams page path that claims cite (claims.page), which the tool reads as words; the visible fields alone share at most 5 words (5-word shingles); a --control run detected the inserted sentence (exit 0). Claims map to facts/client-facts.json by factId. Checker (checker-G2-medical, 2026-10-08): re-ran the overlap gate on the final bytes (longest 6, still only the claim page path read as words; the --control run reported DETECTED), the visible fields alone with 5-word shingles (longest 5), all 24 claims (factId exists, page equals the fact page, quote found in audit/raw), every we/our/us/Academy Vision sentence, meta-language, promise and hype words, tags, links (own checker plus the pipeline's own buildPages: 0 errors) and body words (745). No unsupported practice claim found; no claimed sentence was edited. Changes: (1) FAQ 'Will insurance cover cataract surgery?' before: 'Cataract surgery is usually billed to medical insurance, and coverage for upgraded lens implants varies from plan to plan.' after: 'Cataract surgery is usually billed to medical insurance, while upgraded lens implants often add an out-of-pocket cost.' why: insurance usually pays for a standard implant and not for the upgrade (general knowledge, no source consulted), so 'varies from plan to plan' understated the likely extra cost; the coverage flag was updated to match. (2) section 'Connected Care, Not a Hand-Off' before: 'hears little about what happened next' after: 'hears little about what happens next' why: tense agreement with 'you’re sent to a surgeon'."
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "terms",
+  "etSource": "terms",
+  "title": "Terms of Use | Academy Vision",
+  "metaDescription": "The terms for using the Academy Vision website: acceptable use, appointment requests, site content, outside links and how to reach our Pine Beach, NJ office.",
+  "h1": "Terms of Use for the Academy Vision Website",
+  "kicker": "The Ground Rules, in Plain Language",
+  "lede": "<p>This is the website of Academy Vision, the eye care practice at 90 Atlantic City Blvd in Pine Beach, NJ. These terms explain how you may use it. By browsing the site or sending us information through it, you agree to them; if you don’t agree, please don’t use the site.</p>",
+  "sections": [
+    {
+      "id": "what-these-terms-cover",
+      "heading": "What These Terms Cover",
+      "html": "<p>These terms apply to every page of this website, including its forms and the links that lead to other services. They work alongside our <a href=\"/privacy-policy/\">privacy policy</a>, which describes how health information may be used and shared, and our <a href=\"/disclaimer/\">disclaimer</a> about the health information on this site.</p><p>What you read here is general and educational. It isn’t a diagnosis or a substitute for an eye exam, and using the site doesn’t make you a patient of the practice.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "acceptable-use",
+      "heading": "Using the Site Respectfully",
+      "html": "<p>You’re welcome to browse, read and share links to our pages. When you use the site, please don’t:</p><ul><li>enter information that isn’t true, or someone else’s details without their permission;</li><li>try to reach parts of the site, its systems or its data that aren’t open to the public;</li><li>send or upload anything harmful, such as viruses or code meant to disrupt the site;</li><li>copy the site in bulk with automated tools, or use it for anything unlawful.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "appointments-and-urgent-problems",
+      "heading": "Appointment Requests and Urgent Problems",
+      "html": "<p>The Book Appointment button opens an outside scheduling service in a new tab, and our <a href=\"/appointment-request-form/\">appointment request form</a> lets you tell us the dates and times that suit you. A request sent through that form isn’t a booked visit until our office has been in touch and you’ve agreed on a time.</p><p>Please don’t use online forms for anything urgent. If you have an eye problem that needs attention soon, call us at (732) 978-9306. For sudden vision loss, a chemical splash, an object that has penetrated the eye, a curtain or shadow over your vision, or flashes with a sudden shower of new floaters, seek emergency care immediately or call 911.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "site-content",
+      "heading": "Who Owns the Content",
+      "html": "<p>The words, photos, graphics and logo on this website belong to Academy Vision or appear here with their owners’ permission. Frame and lens brand names and logos belong to their makers. You may view, print or save pages for your own personal, non-commercial use, but please don’t copy, change, republish or sell any part of the site without our written permission.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "other-websites",
+      "heading": "Links to Other Websites",
+      "html": "<p>Some links take you to websites we don’t run, such as the online scheduler and map directions. We include them for your convenience. We aren’t responsible for their content, availability or privacy practices, and a link isn’t an endorsement. Those sites have their own terms, so it’s worth reading them before you share personal information.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "provided-as-is",
+      "heading": "The Website Is Provided As Is",
+      "html": "<p>We try to keep the site correct, up to date and online, but it comes “as is” and “as available.” Where the law permits, we make no promises, express or implied, that the site will always run without errors or interruptions, that it’s free of harmful code, or that its information is complete or right for your situation. Questions about your own eyes belong at an eye exam.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "liability",
+      "heading": "Limits on Liability",
+      "html": "<p>As far as the law permits, Academy Vision and the people who work with it aren’t liable for any loss or damage linked to using this website, to not being able to reach it, or to relying on its general information. None of this takes away a right that the law says can’t be limited.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "updates",
+      "heading": "When the Terms Change",
+      "html": "<p>Academy Vision may revise these terms now and then, for instance when the site or the law changes. The current version is always the one on this page and applies as soon as it’s posted. If you keep using the site after an update, you accept the revised terms.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "reaching-us",
+      "heading": "Reaching Us About This Page",
+      "html": "<p>Want to ask about anything on this page? Call Academy Vision at (732) 978-9306 or write to us at 90 Atlantic City Blvd, Pine Beach, NJ 08741. Our hours and directions are on our <a href=\"/eye-doctor-pine-beach/\">Pine Beach location page</a>.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [],
+  "cta": {
+    "heading": "Talk to a Real Person",
+    "html": "<p>Legal pages can feel confusing, but they don’t have to be. If anything here is unclear, call our Pine Beach office at (732) 978-9306 and we’ll go through it with you.</p>"
+  },
+  "related": [
+    "privacy-policy",
+    "disclaimer"
+  ],
+  "claims": [
+    {
+      "text": "The terms for using the Academy Vision website: acceptable use, appointment requests, site content, outside links and how to reach our Pine Beach, NJ office.",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "This is the website of Academy Vision, the eye care practice at 90 Atlantic City Blvd in Pine Beach, NJ.",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "This is the website of Academy Vision, the eye care practice at 90 Atlantic City Blvd in Pine Beach, NJ.",
+      "factId": "identity-title-about",
+      "page": "/about-us/",
+      "quote": "Academy Vision Local Eye Care Clinic in Pine Beach, NJ"
+    },
+    {
+      "text": "They work alongside our privacy policy, which describes how health information may be used and shared, and our disclaimer about the health information on this site.",
+      "factId": "legal-privacy-office",
+      "page": "/privacy-policy/",
+      "quote": "If you have any questions please contact our office."
+    },
+    {
+      "text": "They work alongside our privacy policy, which describes how health information may be used and shared, and our disclaimer about the health information on this site.",
+      "factId": "legal-disclaimer-practice",
+      "page": "/disclaimer/",
+      "quote": "Content on this web site has been provided and/or reviewed by our Practice."
+    },
+    {
+      "text": "The Book Appointment button opens an outside scheduling service in a new tab, and our appointment request form lets you tell us the dates and times that suit you.",
+      "factId": "booking-online",
+      "page": "/",
+      "quote": "https://scheduleyourexam.com/v3/index.php/3197"
+    },
+    {
+      "text": "The Book Appointment button opens an outside scheduling service in a new tab, and our appointment request form lets you tell us the dates and times that suit you.",
+      "factId": "booking-request-form-fields",
+      "page": "/appointment-request-form/",
+      "quote": "Reason for Appointment"
+    },
+    {
+      "text": "A request sent through that form isn’t a booked visit until our office has been in touch and you’ve agreed on a time.",
+      "factId": "booking-request-form-thanks",
+      "page": "/appointment-request-form/",
+      "quote": "Thanks for contacting us! We will get in touch with you shortly."
+    },
+    {
+      "text": "If you have an eye problem that needs attention soon, call us at (732) 978-9306.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call Academy Vision at (732) 978-9306 or write to us at 90 Atlantic City Blvd, Pine Beach, NJ 08741.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call Academy Vision at (732) 978-9306 or write to us at 90 Atlantic City Blvd, Pine Beach, NJ 08741.",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "Our hours and directions are on our Pine Beach location page.",
+      "factId": "hours-form-note",
+      "page": "/appointment-request-form/",
+      "quote": "Our hours are listed on our location page."
+    },
+    {
+      "text": "If anything here is unclear, call our Pine Beach office at (732) 978-9306 and we’ll go through it with you.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    }
+  ],
+  "flags": [
+    "ATTORNEY REVIEW REQUIRED before this page is published or linked: Academy Vision has no terms page (NO EVIDENCE), so these plain-language terms are new writing. Keep the footer link on hold until the practice or its attorney approves the text.",
+    "No governing-law or jurisdiction clause: restructure purpose 10 (\"Which state’s law applies\") was left out on purpose under the writer rules (New Jersey law is UNVERIFIED). The attorney should decide whether to add one.",
+    "No legal entity name (LLC, P.C.) appears anywhere on the live site (gap G16), so the terms say only \"Academy Vision\". The attorney should supply the entity if one is needed.",
+    "No effective or last-updated date is stated. Add one when the text is approved.",
+    "Content ownership: the live disclaimer (kept verbatim, BUILD-CONTRACT 4.7) says EyeCarePro owns or controls parts of the site material. The attorney should reconcile that with the ownership sentence here, which also needs to cover AI-generated images and brand logos.",
+    "Appointment clause: it assumes the request form will be wired to the office before launch (forms post nowhere in this build, BUILD-CONTRACT 4.5). Whether the outside scheduler books instantly or takes requests is UNVERIFIED, and its vendor is not named (gap G19).",
+    "Emergency line (911 or emergency care for the listed signs) is general guidance for the practice to approve; no after-hours instruction exists on the site (gap G4)."
+  ],
+  "review": {
+    "overlapLongest": 0,
+    "checkedBy": "checker-G5-eyewear-site",
+    "notes": "tools/overlap-check.mjs --fail 8 (6-word shingles): longest span shared with the Eye Trends crawl 0 words; page copy alone (claims[] removed): 0 words || CHECKER checker-G5-eyewear-site, 2026-10-08: re-ran tools/overlap-check.mjs --fail 8 (6-word shingles) on this final file: longest shared span 0 words; with claims, flags and review removed the copy shares 0 words; the --control run reported DETECTED. Re-verified all 13 claims: each factId exists in facts/client-facts.json, page and quote equal the fact’s, the quote is on the cited audit/raw page and the claim text is verbatim on this page. Tags, links (4, all new-site paths), schema, imageSlots and length (674 body words) pass tmp/checker-G5-eyewear-site/check.mjs, whose 21 planted-fault controls all fired. CHANGE 1 lede. Before: This website belongs to Academy Vision, … After: This is the website of Academy Vision, … Why: owning the site is a legal claim not in the facts (the kept disclaimer says EyeCarePro owns or controls parts of the material); naming whose website it is needs no ownership claim. Both claims for the sentence updated. CHANGE 2 sections[3]. The end of the content-ownership sentence now reads: …or appear here with their owners’ permission. Why: the old ending shared a 5-word run with the Eye Trends terms page (below the 6-word review level; reworded as a precaution on the same document type). CHANGE 3 sections[5]. The no-errors warranty phrase now reads: …that the site will always run without errors or interruptions… Why: the same 5-word-run precaution; plain-language wording. Reviewed, kept: free of harmful code (free is not a price). The ownership sentence, governing law, entity name and effective date remain flagged for the attorney."
+  }
+}

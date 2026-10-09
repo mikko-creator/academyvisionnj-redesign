@@ -1,0 +1,36 @@
+{
+  "id": "hero-gas-permeable-contacts",
+  "file": "assets/generated/hero-gas-permeable-contacts.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the gas permeable contact lens page (gap)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "A small blue-tinted rigid contact lens resting on a fingertip",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Macro photograph of a small rigid gas permeable contact lens with a faint blue tint resting concave side up on the tip of an index finger, the lens a thin curved transparent cap smaller than the fingertip with a crisp thin edge highlight, the lens surface completely plain with no printing, no pattern, no grid and no sparkles, warm cream background with a soft shadow, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 1294939641,
+  "requestId": "01a119df-697c-7a13-b02f-fd278c1ad09a",
+  "editOf": "tmp/imagery-run/attempts/hero-gas-permeable-contacts.a3.jpg",
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-gas-permeable-contacts.a3d.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "dd492804883b518157714976493db4634e8745cd49e07d40e42f1fee2d8b20df",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "LOCAL non-AI edit (ffmpeg gaussian sigma 9 outside a feathered ellipse around the lens; no API call): finger and background defocused, lens untouched",
+      "25% whole frame: reads as a shallow-depth-of-field macro - sharp lens on a soft fingertip",
+      "100% lens + contact zone: lens clean; a thin band of the scale texture remains directly under the rim (in-focus zone), reads as fingertip ridges - noted"
+    ],
+    "notes": "a1 safety black frame, a2 off-object, a3 scaly skin; a3d = a3 + local defocus",
+    "at": "2026-10-08T05:10:33.032Z",
+    "retries": 2
+  },
+  "promotedAt": "2026-10-08T05:34:20.122Z"
+}

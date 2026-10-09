@@ -1,0 +1,36 @@
+{
+  "id": "hero-flashes-floaters",
+  "file": "assets/generated/hero-flashes-floaters.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the flashes and floaters page (adopted slot)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Woman on a coastal path with her face turned up to a clear blue sky and one hand at her brow",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a woman in her fifties pausing on a coastal path on a bright day and looking up at a clear blue sky, one hand shading her eyes, light breeze in her hair, wide open pale blue sky, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 897620427,
+  "requestId": "01a119d3-4910-7430-bc5e-7de3505885f5",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-flashes-floaters.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "f46e12f333a6c9e578cdde6cc23ce0d1b4b58b76b898eb463eb4619f531e8d5f",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: woman ~50s in a navy blazer on a coastal path, face turned up to a clear sky, eyes closed, one hand at her brow; subject ~62% x; wide clean sky",
+      "100% + 400% hand: fingers plausible",
+      "50% sky: smooth gradient, no artefacts"
+    ],
+    "notes": "alt adjusted: eyes closed, hand at the brow rather than shading the eyes",
+    "at": "2026-10-08T04:46:14.367Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T04:46:21.309Z"
+}

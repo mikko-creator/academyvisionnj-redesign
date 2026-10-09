@@ -1,0 +1,536 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/eyeglasses/varilux-lenses/",
+  "source": "audit/raw/eyeglasses-varilux-lenses.html",
+  "rendered": "tmp/extract/rendered/eyeglasses-varilux-lenses.html",
+  "meta": {
+    "title": "Varilux Lenses Pine Beach, NJ | Academy Vision",
+    "description": "Experience sharp vision at all distances with Varilux lenses in Pine Beach. Available now at Academy Vision for superior visual comfort.",
+    "canonical": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses/",
+      "type": "website",
+      "title": "Varilux Lenses Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a70-dd8b-722e-a67a-4dcbb50e84e6/essilor.png",
+      "description": "Experience sharp vision at all distances with Varilux lenses in Pine Beach. Available now at Academy Vision for superior visual comfort.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses/",
+        "url": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses/",
+        "name": "Varilux Lenses",
+        "datePublished": "2026-03-26T18:52:09.711Z",
+        "dateModified": "2026-04-20T03:20:01.384Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Varilux® Eyeglass Lenses in Pine Beach",
+  "counts": {
+    "blocks": 6,
+    "nodes": 24,
+    "static": 24,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "NWNjmBuPjC",
+      "at": 104661,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Varilux® Eyeglass Lenses in Pine Beach",
+          "html": "Varilux® Eyeglass Lenses in Pine Beach",
+          "id": "tkbXjfala2",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve ever found yourself reaching for one pair of glasses to read and another to see clearly at a distance, you know how frustrating it can be. Varilux® lenses are designed to simplify that. With one pair of glasses, you can see clearly up close, far away, and everything in between.</p>",
+          "id": "vRaCHloHDL",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "CS9XeAZ63i",
+          "id": "DzLjL9uq7o",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "CS9XeAZ63i",
+          "id": "blNSVxwVHf",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a70-dd8b-722e-a67a-4dcbb50e84e6/essilor.png",
+          "file": "assets/source/e0d8a73f-essilor.png",
+          "alt": "A woman with glasses stands on a city street, holding a cell phone and looking at the camera.",
+          "w": 1920,
+          "h": 1080,
+          "focal": "50.0% 50.0%",
+          "id": "NWNjmBuPjC-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "ydoyKkLKmt",
+      "at": 108014,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "What Makes Varilux® Lenses Different",
+          "html": "What Makes Varilux® Lenses Different",
+          "align": "center",
+          "id": "5Jy2ymdcLj",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Varilux® lenses are a type of progressive lens, which means they allow you to see at multiple distances without the visible line you might remember from traditional bifocals. Instead of jumping from one prescription to another, the lens transitions smoothly as your eyes move, providing a more natural feel.</p>",
+          "align": "center",
+          "id": "XmqwdBgBgj",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call:(732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "ytWcqpIWev",
+          "id": "z0FYyzBq55",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "ytWcqpIWev",
+          "id": "5WJDgnZLxa",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "vT8YtzkqlL",
+      "at": 109652,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "The Benefits of Varilux® Eyeglass Lenses",
+          "html": "The Benefits of Varilux® Eyeglass Lenses",
+          "id": "MBtgiwcEBR",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>With the right fit, Varilux® lenses can make everyday tasks feel more seamless:</p><ul><li>Clear vision for reading, driving, and everything in between</li><li>No need to switch between multiple pairs of glasses</li><li>Smooth, natural transitions between distances</li><li>Comfortable for all-day wear</li></ul>",
+          "id": "NdsQR4gcAn",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "r3VveXGv9O",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a71-cd59-74ca-9ae7-c78619a7a645/AdobeStock_714337425.jpeg",
+          "file": "assets/source/3f2966ed-AdobeStock_714337425.jpeg-w_2000.webp",
+          "alt": "A man wearing glasses is driving a car with a woman sitting in the passenger seat and another person in the backseat, with trees visible in the background.",
+          "w": 2000,
+          "h": 1331,
+          "focal": "50.0% 50.0%",
+          "id": "fND47xmqhw",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "Asc9A5rjGO",
+      "at": 113459,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a72-9f2f-73d4-97ad-f5bce3a65f49/customer-shoosing-spectacles-optic-store-with-help-sales-person.jpg",
+          "file": "assets/source/c9b2f35d-customer-shoosing-spectacles-optic-store-with-help-sales-person.jpg-w_2000.webp",
+          "alt": "A man with glasses and a woman adjusting his glasses in a store",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "cjHjfmHp1H",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Personalized Fitting for Better vision",
+          "html": "Personalized Fitting for Better vision",
+          "id": "QmcnrSZDIz",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Progressive lenses only work as well as they’re fitted, and that’s where Academy Vision comes in. We take detailed measurements and consider how you use your eyes throughout the day to make sure your lenses are set up correctly.</p><p>Whether you spend a lot of time on a computer, driving, or reading, we tailor your lenses to match your routine.</p>",
+          "id": "5x9vGhAbsW",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "3EYKlxLB2n",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "wnQRJ2Mpxk",
+      "at": 117476,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Who Benefits Most from Progressive Lenses",
+          "html": "Who Benefits Most from Progressive Lenses",
+          "id": "ehrzGqbHWL",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve started noticing that it’s harder to see clearly at different distances, like reading up close and then looking up across the room, you might be a good candidate.</p><p>Most people begin to experience these changes over time. Varilux® lenses are a great option if you’re tired of switching between glasses or want a more seamless way to see throughout your day.</p>",
+          "id": "Rw1ouuJxwS",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4a73-491b-76e9-9adc-675334726f97/AdobeStock_465554124.jpeg",
+          "file": "assets/source/bb40526d-AdobeStock_465554124.jpeg-w_2000.webp",
+          "alt": "Man in glasses smiling and wearing a green hoodie jacket",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "Nats8Zl0E3",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "cUFe0ahGu4",
+      "at": 120853,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Ask Us About Varilux® Lenses",
+          "html": "Ask Us About Varilux® Lenses",
+          "align": "center",
+          "id": "lqjAipqHyU",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’re ready for something that makes your day a little easier, we’re here to help. We’ll walk you through your options, answer your questions, and make sure everything feels right. Stop by our <a href=\"/hours-location/\">Pine Beach optical</a> or schedule an <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a> to get started.</p>",
+          "align": "center",
+          "id": "NcYjbIQf72",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "0XrkPRyo46",
+          "id": "pHNxhC9tZz",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "0XrkPRyo46",
+          "id": "z9ALOcmsbg",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

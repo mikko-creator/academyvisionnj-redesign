@@ -1,0 +1,202 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/article/pediatric-eye-exams-beyond-school-screenings/",
+  "source": "audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html",
+  "rendered": "tmp/extract/rendered/article-pediatric-eye-exams-beyond-school-screenings.html",
+  "meta": {
+    "title": "Pediatric Eye Exams | Academy Vision",
+    "description": "Learn why school screenings do not replace comprehensive pediatric eye exams and which signs may indicate a child needs an eye doctor. ",
+    "canonical": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings/",
+      "type": "website",
+      "title": "Pediatric Eye Exams | Academy Vision ",
+      "description": "Learn why school screenings do not replace comprehensive pediatric eye exams and which signs may indicate a child needs an eye doctor. ",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings/",
+        "url": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings/",
+        "name": "Pediatric Eye Exams: Beyond School Screenings",
+        "datePublished": "2026-08-19T16:09:10.380Z",
+        "dateModified": "2026-08-19T16:21:04.823Z"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.academyvisionnj.com"
+        },
+        "headline": "Pediatric Eye Exams: Beyond School Screenings",
+        "description": "Pediatric Eye Exams: Beyond School Screenings",
+        "datePublished": "2026-08-19T16:09:10.380Z",
+        "dateModified": "2026-08-19T16:21:04.823Z",
+        "author": {
+          "@type": "Organization",
+          "name": "Academy Vision"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Academy Vision",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+          }
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": null,
+  "counts": {
+    "blocks": 1,
+    "nodes": 2,
+    "static": 2,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section",
+      "id": "Wbm3ztjIDL",
+      "at": 69507,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a01ad1-6c5c-745f-8201-0696ed272fb6/pediatric-optometrist-eye-exam.jpg",
+          "file": "assets/source/b081570b-pediatric-optometrist-eye-exam.jpg-w_2000.webp",
+          "alt": "A child is getting an eye exam from a woman in a blue shirt in a pediatric optometrist's office.",
+          "w": 2000,
+          "h": 1342,
+          "focal": "63.0% 31.2%",
+          "id": "SwrQBuRpmB",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>A child may read the classroom board yet lose their place while reading, develop headaches during homework, or struggle to keep words clear up close. Because children have no other visual experience for comparison, they may assume the way they see is normal.</p><p>As families prepare for a new school year, an eye exam can uncover concerns that children may not recognize or mention. <a href=\"/eye-care-services/pediatric-eye-care/\"><strong>Pediatric eye exams</strong></a> give parents a fuller picture of how a child sees and uses their vision.</p><h2>Is a School Vision Screening Enough?</h2><p>School screenings are useful basic checks, but they are not a substitute for a comprehensive pediatric eye exam. A screening often checks whether a child can identify letters or symbols at a particular distance. It may flag a possible problem, but passing does not confirm that every aspect of vision and eye health is developing as expected.</p><p>A&nbsp;<a href=\"/eye-care-services/comprehensive-eye-exams/\"><strong>comprehensive exam</strong></a> allows a pediatric optometrist to look more closely at visual function and eye health. This matters because a child can have clear distance vision while experiencing difficulty with focusing, eye coordination, or other skills needed for classroom work.</p><h2>What Does a Comprehensive Pediatric Eye Exam Evaluate?</h2><p>A comprehensive pediatric eye exam assesses visual clarity at different distances and how the eyes function together. Depending on the child’s age and needs, it may include:</p><ul><li><p>Near and distance vision</p></li><li><p>Nearsightedness, farsightedness, and astigmatism</p></li><li><p>Focusing and shifting focus between distances</p></li><li><p>Eye teaming and coordination</p></li><li><p>Tracking across a page</p></li><li><p>Depth perception</p></li><li><p>Eye alignment and movement</p></li><li><p>Overall eye health</p></li></ul><p>The children's eye doctor will also ask about symptoms, school demands, health history, and family eye history. These details provide useful context without assuming that every reading, learning, or attention concern has a visual cause.</p><h2>What Signs May Point to a Vision Problem?</h2><p>Children do not always say that their vision is blurry or uncomfortable. Parents and caregivers may instead notice:</p><ul><li><p>Squinting or closing one eye</p></li><li><p>Frequent eye rubbing</p></li><li><p>Headaches after reading or screen use</p></li><li><p>Sitting unusually close to screens</p></li><li><p>Holding books or devices close</p></li><li><p>Losing their place while reading</p></li><li><p>Avoiding homework or other near tasks</p></li><li><p>Difficulty seeing the board</p></li><li><p>Tilting the head or covering one eye</p></li></ul><p>One sign does not necessarily indicate a vision disorder. Persistent symptoms, several signs together, or a noticeable change in school comfort are good reasons to arrange an examination.</p><h2>Why Can a Child’s Vision Change During the School Years?</h2><p>Children’s eyes and visual demands change as they grow. A prescription that worked well last year may no longer provide the clearest, most comfortable vision, especially as reading assignments become longer and screen use increases.</p><p>Regular exams help the doctor compare results over time and update a prescription when necessary. If an exam identifies progressing nearsightedness, the doctor may discuss whether further evaluation for&nbsp;<a href=\"/eye-care-services/myopia-management/\"><strong>myopia control for children</strong></a> is appropriate. Recommendations should reflect the child’s age, prescription changes, eye health, maturity, and lifestyle.</p><h2>What Happens If the Exam Finds a Concern?</h2><p>The next step depends on the findings. Some children may need their first pair of glasses, while others may benefit from an updated prescription or further evaluation.</p><p>When eyewear is recommended, a comfortable fit matters. <strong>Academy Vision</strong> offers lightweight, durable children’s frames suited to school, play, and everyday wear. The practice also has an in-house finishing lab, and many prescriptions may be available the same day.</p><p>Early identification gives families time to arrange appropriate care before blurry or uncomfortable vision interferes with classroom participation or daily activities. An exam cannot guarantee academic performance, but it can help ensure a child has access to clear, comfortable vision.</p><h2>When Should Parents Schedule an Eye Exam?</h2><p>Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms. Parents do not need to wait for a school break when concerns arise.</p><p>Families in <strong>Pine Beach</strong> can turn to Academy Vision for friendly pediatric care that supports visual development throughout the school years. <strong><a href=\"https://scheduleyourexam.com/v3/index.php/3197\" target=\"_blank\">Schedule a visit</a></strong> at <strong>Academy Vision</strong> to help your child begin the year with up-to-date information about their vision.</p><h2>Frequently Asked Questions</h2><p><strong>Can a Child Pass a Screening and Still Have a Vision Problem?</strong></p><ul><li>Yes. A screening may confirm that a child sees certain symbols at a tested distance, while concerns involving focusing, tracking, eye teaming, depth perception, prescription, or eye health remain undetected.</li></ul><p><strong>How Often Should Children Have Eye Exams?</strong></p><ul><li>The right schedule depends on age, symptoms, health history, risk factors, and previous findings. The American Optometric Association recommends annual comprehensive eye exams for school-age children, or more frequently when advised by their eye doctor.</li></ul><p><strong>Does 20/20 Vision Mean Every Visual Skill Is Normal?</strong></p><ul><li>No. A 20/20 measurement describes clarity at a tested distance. It does not evaluate every skill involved in focusing, tracking, eye coordination, depth perception, or comfortable near work.</li></ul>",
+          "id": "BFiSPHtEQA",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

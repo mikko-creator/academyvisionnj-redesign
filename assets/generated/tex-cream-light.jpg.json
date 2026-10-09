@@ -1,0 +1,36 @@
+{
+  "id": "tex-cream-light",
+  "file": "assets/generated/tex-cream-light.jpg",
+  "kind": "background-texture",
+  "planPurpose": "light section background (and the /terms/ page header in place of a photo)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Abstract photograph of a warm cream surface washed with soft diffused window light and faint pale blue refractions from glass, no objects, no people, smooth gradients, gentle and low contrast, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 3846007912,
+  "requestId": "01a119b8-994b-71a1-a144-b910376db6c1",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/tex-cream-light.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "325c25c1025a2c4fe22f6a693ece118f291cab9f288cb80a8180ceb381c13aca",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: warm cream surface with soft diagonal window-light shadows; no objects/people",
+      "100% + 400%: smooth gradient, fine paper grain, no letter shapes",
+      "measured: mean #ebdec8, Ystd 0.053, meanS 0.153 (<= 0.35 plan ceiling), neon 0, no saturated pixels"
+    ],
+    "notes": "deviation: the prompt's faint pale-blue refractions did not render (0 saturated px); constraint-clean",
+    "at": "2026-10-08T04:16:35.789Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T04:16:36.469Z"
+}

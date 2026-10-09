@@ -1,0 +1,926 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/",
+  "source": "audit/raw/index.html",
+  "rendered": "tmp/extract/rendered/index.html",
+  "meta": {
+    "title": "Eye Doctor in Pine Beach, NJ | Academy Vision",
+    "description": "Your trusted Pine Beach eye doctor. We provide eye exams and advanced eye care for your family. Book your visit at Academy Vision today.",
+    "canonical": "https://www.academyvisionnj.com/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/",
+      "type": "website",
+      "title": "Eye Doctor in Pine Beach, NJ | Academy Vision",
+      "description": "Your trusted Pine Beach eye doctor. We provide eye exams and advanced eye care for your family. Book your visit at Academy Vision today.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "verification": {
+      "google": "X_1cqp9BeUNb4zL-RiFq_39IIPVuZ_n97V4z2iBILrE",
+      "bing": "414530CC34EE5CC81909EED2AB31C0C5"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/",
+        "url": "https://www.academyvisionnj.com/",
+        "name": "Homepage",
+        "datePublished": "2026-03-26T17:17:18.272Z",
+        "dateModified": "2026-08-19T16:27:30.293Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com/",
+        "logo": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d2b22-137c-7264-9a92-ea4574dc4f75/Logo-trans.png@w_400.webp",
+        "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d2b22-137c-7264-9a92-ea4574dc4f75/Logo-trans.png@w_400.webp",
+        "description": "Academy Vision provides comprehensive eye care services in Pine Beach, NJ, including routine eye exams, dry eye treatment, pediatric eye care, myopia management, and contact lens fittings.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "NJ",
+          "postalCode": "08741",
+          "addressCountry": "US"
+        },
+        "telephone": "+1-732-978-9306",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Friday",
+            "opens": "08:00",
+            "closes": "15:00"
+          }
+        ],
+        "priceRange": "$$",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.9535",
+          "longitude": "-74.1756"
+        },
+        "sameAs": [
+          "https://www.facebook.com/AcademyVision"
+        ],
+        "areaServed": [
+          "Pine Beach",
+          "Beachwood",
+          "Toms River"
+        ]
+      }
+    ]
+  },
+  "h1": "Your Eye Doctors in Pine Beach, NJ",
+  "counts": {
+    "blocks": 15,
+    "nodes": 40,
+    "static": 40,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "hero-2",
+      "id": "bblCWzB660",
+      "at": 139948,
+      "layout": {
+        "minHeight": "80vh",
+        "contentBackground": "#fff",
+        "contentMaxWidth": "600px",
+        "contentAlign": "flex-end"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d2b26-86bc-7011-9565-95dd81fdcd3f/glow-woman-wearing-designer-frames.jpg",
+          "file": "assets/source/73718fe3-glow-woman-wearing-designer-frames.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 711,
+          "position": ".38% 22.17%",
+          "mobile": "hidden"
+        },
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d2b26-86bc-7011-9565-95dd81fdcd3f/glow-woman-wearing-designer-frames.jpg",
+          "file": "assets/source/73718fe3-glow-woman-wearing-designer-frames.jpg-w_1600.webp",
+          "alt": "A woman with curly red hair and glasses smiles on a street with blurred background",
+          "w": 1600,
+          "h": 711,
+          "variant": "mobile-only",
+          "focal": "82.06% 10.23%",
+          "id": "bblCWzB660-desktop_mobile_image",
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>LOCAL CARE FOR YOUR VISION</p>",
+          "id": "55twrF6rSz",
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Your Eye Doctors in Pine Beach, NJ",
+          "html": "Your Eye Doctors in Pine Beach, NJ",
+          "id": "h5d6BCO4li",
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>For over 40 years, families in and around Pine Beach have trusted us with their vision. Today, that same commitment continues with care that’s built around you. From <a href=\"/eye-care-services/comprehensive-eye-exams/\">routine eye exams</a> to advanced treatments, we make it simple for you and your family to get the care you need.</p>",
+          "id": "y0DPNGunKK",
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "81pWGCsJtS",
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "x5ehTikftR",
+      "at": 143523,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section-callout-1",
+      "id": "GWjKxg2mVk",
+      "at": 143802,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "order": 2,
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "left"
+          }
+        ],
+        "imageSide": "left"
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>You’re Not Just Another Appointment Here</p>",
+          "transform": "uppercase",
+          "id": "skaMwPWucf",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "A Different Kind of Eye Care Experience",
+          "html": "A Different Kind of Eye Care Experience",
+          "id": "FtY6FoCoyh",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>When you walk through the doors of our <a href=\"/hours-location/\">Pine Beach eye clinic</a>, you’ll notice the difference right away. We take the time to listen, explain what’s going on, and make sure you feel comfortable every step of the way.</p><p>With decades of experience and a modern approach to care, we’ve created a place where patients feel at ease, whether it’s your first visit or you’ve been coming here for years.</p>",
+          "id": "tNUJHUz7O4",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "About Our Practice",
+          "href": "/about-us/",
+          "external": false,
+          "id": "dST3dAf8y6",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e3f-7c98-712c-abf3-25f0a5aeaf2f/AdobeStock_569060589.jpeg",
+          "file": "assets/source/9714a6be-AdobeStock_569060589.jpeg-w_2000.webp",
+          "alt": "A doctor is examining a woman's eyes using a device",
+          "w": 2000,
+          "h": 1334,
+          "focal": "54.58% 40.08%",
+          "id": "GWjKxg2mVk-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "HFHRMpqUA9",
+      "at": 147471,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section-callout-1",
+      "id": "NtZB3XNUK0",
+      "at": 147750,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>We Take Care of More Than You Might Expect</p>",
+          "transform": "uppercase",
+          "id": "RGo9CQdiGV",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Optometry Services for the Whole Family",
+          "html": "Optometry Services for the Whole Family",
+          "id": "fVBT6KnVhN",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>From kids’ first eye exams to ongoing care for adults and seniors, we’re here for every stage of life. Our <a href=\"/our-eye-doctor/\">Pine Beach optometrists</a> handle everything from routine vision checks to managing eye conditions.</p><p>It’s one of the reasons families throughout Pine Beach, Beachwood, and Toms River continue to come back year after year.</p>",
+          "id": "xHr39b8GY9",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "View All Services",
+          "href": "/eye-care-services/",
+          "external": false,
+          "id": "mqxYD0XhEZ",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e3f-dc65-7317-97d1-8132b155852d/AdobeStock_1343078337.jpeg",
+          "file": "assets/source/bbe23b6a-AdobeStock_1343078337.jpeg-w_2000.webp",
+          "alt": "A family of three, including a man, a woman, and a young girl, are sitting on a couch in the living room, all wearing eyeglasses and smiling for a photo.",
+          "w": 2000,
+          "h": 1334,
+          "focal": "73.98% 59.44%",
+          "id": "NtZB3XNUK0-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-callout-1",
+      "id": "iOIKo2TXey",
+      "at": 151460,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "order": 2,
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "left"
+          }
+        ],
+        "imageSide": "left"
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>Are your Eyes Always Irritated? There’s a Reason</p>",
+          "transform": "uppercase",
+          "id": "Po2KIIZRaV",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Relief for Dry Eyes",
+          "html": "Relief for Dry Eyes",
+          "id": "3L0fXr9aMX",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Dry, burning, or irritated eyes don’t have to be something you deal with. We take the time to figure out what’s causing your dry eye symptoms and offer treatments that go beyond temporary fixes.</p><p>With the right approach, you can get lasting relief and feel comfortable again throughout your day.</p>",
+          "id": "v3isGVp6R0",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Dry Eye Treatment",
+          "href": "/eye-care-services/dry-eye-treatment/",
+          "external": false,
+          "id": "rhAikqsr6c",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e40-7748-707c-9789-334c48f70736/AdobeStock_485352260.jpeg",
+          "file": "assets/source/1c5d2a5f-AdobeStock_485352260.jpeg-w_2000.webp",
+          "alt": "A woman with curly hair is applying eye drops in a living room.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "53.82% 47.91%",
+          "id": "iOIKo2TXey-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "X6ZumXe6er",
+      "at": 154960,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section",
+      "id": "7XCqjs9uq5",
+      "at": 155239,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#0f2a4a",
+        "textColor": "#fff"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": null,
+          "text": "We make kids' eye care easy and stress-free!",
+          "html": "<strong>We make kids' eye care easy and stress-free!</strong>",
+          "align": "center",
+          "id": "hLDwtSNPEg",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Pediatric Eye Care",
+          "href": "/eye-care-services/pediatric-eye-care/",
+          "external": false,
+          "id": "DTmI6hT5nG",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "SjXCFCaVul",
+      "at": 156093,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section-callout-1",
+      "id": "9hpxlmAR5u",
+      "at": 156372,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "order": 2,
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "left"
+          }
+        ],
+        "imageSide": "left"
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>Let’s Stay Ahead of Your Child’s Vision</p>",
+          "transform": "uppercase",
+          "id": "V75X8Sv6ej",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Myopia Control for Growing Eyes",
+          "html": "Myopia Control for Growing Eyes",
+          "id": "FS19iMozJf",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If your child’s prescription keeps changing, we can help slow progression and protect their long-term vision.</p><p>Using advanced treatment options tailored to your child’s needs, we focus on more than just helping them see clearly now; we’re helping set them up for the future.</p>",
+          "id": "kMmxHwJuhr",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Myopia Management",
+          "href": "/eye-care-services/myopia-management/",
+          "external": false,
+          "id": "9zru3i9LcF",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e41-48ad-75da-a6d4-a31bc8f9a0f5/AdobeStock_1899226050.jpeg",
+          "file": "assets/source/514430e0-AdobeStock_1899226050.jpeg-w_2000.webp",
+          "alt": "A smiling young woman with red hair, wearing a necklace and denim jacket, stands in a library with a staircase and bookshelves in the background.",
+          "w": 2000,
+          "h": 1055,
+          "focal": "69.25% 46.14%",
+          "id": "9hpxlmAR5u-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-callout-1",
+      "id": "7fRYcVCvhz",
+      "at": 159959,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>Need Glasses Today? We’ve Got You</p>",
+          "transform": "uppercase",
+          "id": "fdSbUEwUVG",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Eyeglasses & Same-Day Options",
+          "html": "Eyeglasses &amp; Same-Day Options",
+          "id": "epFijPXNql",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Finding the right pair of glasses should feel easy, and at our <a href=\"/eyeglasses/\">Pine Beach optical</a>, it is.</p><p>With a wide selection of designer frames for adults and kids, plus our in-office finishing lab, many patients can walk out with their new glasses the very same day. It’s a faster, more convenient way to get exactly what you need.</p>",
+          "id": "0OVxeRGj7j",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Explore Our Eyewear",
+          "href": "/eyeglasses/",
+          "external": false,
+          "id": "t6qQaI2nwr",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e41-9fc4-74f6-a515-6437136bd106/shutterstock_1395168776.jpg",
+          "file": "assets/source/0604469d-shutterstock_1395168776.jpg-w_2000.webp",
+          "alt": "Close up of a person using a microscope in a laboratory",
+          "w": 2000,
+          "h": 1263,
+          "focal": "50.61% 24.47%",
+          "id": "7fRYcVCvhz-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "Pv9ZgSzHAP",
+      "at": 163547,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section-callout-1",
+      "id": "S2rDVNy0FL",
+      "at": 163826,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "order": 2,
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "left"
+          }
+        ],
+        "imageSide": "left"
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>Looking for Something More Flexible?</p>",
+          "transform": "uppercase",
+          "id": "OPuHD9B1gp",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Contact Lenses That Fit Your Life",
+          "html": "Contact Lenses That Fit Your Life",
+          "id": "5Zz60A0jvt",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Whether you’re new to contacts or looking for a better fit, we’ll help you find an option that works comfortably for your routine in Pine Beach, NJ.</p><p>From everyday lenses to more specialized solutions, everything is customized to your eyes, so you get clear vision without the hassle.</p>",
+          "id": "T6y66cnoiX",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Contact Lens Options",
+          "href": "/contact-lenses/",
+          "external": false,
+          "id": "3QcCHtmH6O",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e42-0494-76a9-96fe-db93fc3cdfaf/AdobeStock_528233245-1-.jpeg",
+          "file": "assets/source/6f17312a-AdobeStock_528233245-1-.jpeg-w_2000.webp",
+          "alt": "A woman sitting on a couch, holding a thermometer, and looking at it. She is wearing a white top and blue pants. She seems to be checking her temperature.",
+          "w": 2000,
+          "h": 1333,
+          "focal": "64.89% 23.66%",
+          "id": "S2rDVNy0FL-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "blog-div",
+      "at": 167451,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section-callout-1",
+      "id": "blog-sec",
+      "at": 167726,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Get Expert Eye Care Tips From Our Doctors",
+          "html": "Get Expert Eye Care Tips From Our Doctors",
+          "id": "blog-h",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "list",
+          "kind": "articles",
+          "items": [
+            {
+              "title": "Pediatric Eye Exams: Beyond School Screenings",
+              "href": "/article/pediatric-eye-exams-beyond-school-screenings/",
+              "chevron": true,
+              "excerpt": "<p>Learn what pediatric eye exams assess, which vision warning signs parents should watch for, and why back-to-school is an ideal time to schedule.</p>",
+              "ariaLabel": "Learn more about Pediatric Eye Exams: Beyond School Screenings",
+              "cta": {
+                "label": "Read More",
+                "href": "/article/pediatric-eye-exams-beyond-school-screenings/",
+                "external": false,
+                "ariaLabel": "Learn more about Pediatric Eye Exams: Beyond School Screenings"
+              }
+            }
+          ],
+          "id": "blog-list",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a01ad5-7921-7311-ae79-806b3b996aa4/family-sitting-on-bed.jpg",
+          "file": "assets/source/015fda1f-family-sitting-on-bed.jpg-w_1600.webp",
+          "alt": "A family of three, a man, a woman, and a young girl, sitting on a bed and smiling while posing for a photo",
+          "w": 1600,
+          "h": 2385,
+          "focal": "50.4% 45.4%",
+          "id": "blog-sec-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "cut-trial-lens",
+  "file": "assets/generated/cut-trial-lens.png",
+  "kind": "depth-cutout",
+  "planPurpose": "protruding optometry object for exam pages (no phoropter)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 cut-out, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "A single trial lens in a silver rim with a short handle",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of a single round clear glass lens held in a thin plain polished silver metal ring with a short flat plain tab handle, like an optician's test lens, the ring and the handle smooth and completely blank with no engraving, no printed numbers, no letters and no markings of any kind, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 2938865660,
+  "requestId": "01a119f8-ccc9-7091-82a6-1222c0276327",
+  "editOf": "tmp/imagery-run/attempts/cut-trial-lens.a2.jpg",
+  "sourceAttempt": "tmp/imagery-run/attempts/cut-trial-lens.a2d.jpg",
+  "w": 2048,
+  "h": 2048,
+  "sha256": "1536feb57f1b4b5f544a5548dbab39fcd06ee40200f8f39f1dc2da1fde794825",
+  "master": {
+    "file": "assets/generated/raw/cut-trial-lens.jpg",
+    "sha256": "42e9c2b9c0c24e0ad6f77c5ae6957d641bee4b9a72a2743ff1c8b4e499a36a08"
+  },
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a119fb-c6c2-73e1-b2ad-76e5c8bf66a3",
+    "input": {
+      "image_url": "<data uri of cut-trial-lens.a2d.jpg>",
+      "model": "General Use (Heavy)",
+      "operating_resolution": "2048x2048",
+      "output_format": "png"
+    },
+    "birefnetOutput": "tmp/imagery-run/attempts/cut-trial-lens.a2d.cut.png",
+    "localRepair": "tmp/imagery-run/attempts/cut-trial-lens.a2d.cutfix.png"
+  },
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "36% whole frame (a2): clear round lens in a plain polished silver ring with a short flat tab handle; only mark was 'STMEN LENS' on the tab",
+      "LOCAL non-AI edit: horizontal box blur (45 px) along the tab (ellipse 1035,552, 86x22); no API call",
+      "100% + 400% tab: smooth horizontal reflection band, no letters"
+    ],
+    "notes": "a1 engraved rim text; a2 retry 1 + local mark removal",
+    "at": "2026-10-08T05:28:00.158Z",
+    "retries": 1,
+    "cutout": {
+      "verdict": "accept",
+      "checks": [
+        "birefnet kept the clear glass as an opaque grey disc with a notch",
+        "LOCAL fix: high-pass matte inside the glass ellipse (1027,1041, r388)",
+        "17% on navy + magenta: clear glass with highlights, ring and tab intact, no notch"
+      ],
+      "notes": "",
+      "at": "2026-10-08T05:33:40.076Z",
+      "file": "tmp/imagery-run/attempts/cut-trial-lens.a2d.cutfix.png",
+      "sha256": "1536feb57f1b4b5f544a5548dbab39fcd06ee40200f8f39f1dc2da1fde794825"
+    }
+  },
+  "promotedAt": "2026-10-08T05:34:22.349Z"
+}

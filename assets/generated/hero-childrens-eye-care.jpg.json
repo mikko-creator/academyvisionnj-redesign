@@ -1,0 +1,37 @@
+{
+  "id": "hero-childrens-eye-care",
+  "file": "assets/generated/hero-childrens-eye-care.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the adopted children's eye care hub (IA decision D1; Academy Vision's pediatric page fills /services/pediatric-eye-exams/)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Laughing toddler holding small round white toy glasses up to their eyes",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a laughing three-year-old in a navy and white striped shirt sitting in the right third of the frame on a plain cream rug at home, holding a pair of small round toy glasses up to their eyes with both hands, soft daylight, nothing else on the rug, no toys, no blocks, no letters, no printed items, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2529352271,
+  "requestId": "01a119e1-1c1a-7392-8030-20e57832b21d",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-childrens-eye-care.a2.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "2dabbcf29a5e3a2b2190ff20483482e979617e0574df04aa9069a55cb9962811",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: laughing toddler in navy/white stripes holding white round toy glasses; subject ~65% x; calm left half",
+      "100% toy glasses + 400% hinge: plain white, no markings",
+      "100% hands: natural pinch grip, second hand plausible behind the cheek",
+      "50% blurred pastel blocks on the rug: no letters (prompt said no blocks; letter-free blur accepted)"
+    ],
+    "notes": "retry 1; alt notes the glasses are white",
+    "at": "2026-10-08T05:07:13.866Z",
+    "retries": 1
+  },
+  "promotedAt": "2026-10-08T05:07:16.078Z"
+}

@@ -1,0 +1,3163 @@
+{
+  "schema": "site-reforge/link-graph@1",
+  "generated": "2026-10-08T00:57:48.321Z",
+  "nodes": [
+    {
+      "url": "https://www.academyvisionnj.com/",
+      "type": "home",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/about-us",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/appointment-request-form",
+      "type": "form",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/contact-lenses",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/disclaimer",
+      "type": "legal",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eyeglasses",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/hours-location",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/insurance",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/location/academy-vision",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/our-eye-doctor",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/patient-registration-form",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/privacy-policy",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/sitemap",
+      "type": "page",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "type": "about",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "type": "about",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "type": "about",
+      "depth": 0
+    },
+    {
+      "url": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "type": "page",
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/about-us",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/appointment-request-form",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/disclaimer",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/hours-location",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/insurance",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/location/academy-vision",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/team/dr-marc-ullman-od"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/our-eye-doctor",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/patient-registration-form",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/privacy-policy",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/appointment-request-form"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/patient-registration-form"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/sitemap",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/hours-location"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/about-us"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/our-eye-doctor"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/myopia-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eyeglasses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/contact-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/insurance"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/website-accessibility-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/sitemap"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/privacy-policy"
+    },
+    {
+      "from": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "to": "https://www.academyvisionnj.com/disclaimer"
+    }
+  ]
+}

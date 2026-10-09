@@ -1,0 +1,64 @@
+/* motion.css - reveals, draw-on swooshes, first-screen load-in, scroll-driven settle and pools (THEME-CORE; DESIGN-SPEC
+   §7). site.js adds .js-motion to <html> only when motion is allowed (never under prefers-reduced-motion, never without
+   JS), and gates (.rv) only elements that start entirely below the first screen, so nothing is ever hidden without JS
+   or on the first screen. Nothing moves on its own for more than 5 s (R-26): no infinite animation exists here. */
+
+/* ------------------------------------------------------------------ reveals (§7.1) */
+.js-motion .rv {
+  opacity: 0; transform: translate3d(0, 30px, 0);
+  transition: opacity .9s var(--ease-out), transform 1.1s var(--ease-out), clip-path 1.3s var(--ease-out);
+  transition-delay: var(--d, 0ms);
+}
+.js-motion .rv[data-reveal="left"] { transform: translate3d(-40px, 0, 0); }
+.js-motion .rv[data-reveal="right"] { transform: translate3d(40px, 0, 0); }
+.js-motion .rv[data-reveal="fade"] { transform: none; }
+.js-motion .rv[data-reveal="scale"] { transform: scale(.94); }
+.js-motion .rv[data-reveal="mask"] { opacity: 1; transform: none; clip-path: inset(10% 6% 10% 0 round 40px); }
+.js-motion .rv.is-in { opacity: 1; transform: none; clip-path: inset(0 0 0 0 round 0); }
+
+/* swooshes draw on reveal; the first-screen ones draw by keyframe (§7.2) */
+.js-motion .rv .swoosh path { stroke-dashoffset: 1; }
+.js-motion .rv.is-in .swoosh path { stroke-dashoffset: 0; transition: stroke-dashoffset 1.4s var(--ease-out) .5s; }
+.js-motion :is(.hm-hero, .title-band) .swoosh path { animation: draw 1.6s var(--ease-out) .55s both; }
+@keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+
+/* ------------------------------------------------------------------ load-in, first screen only (§7.2): transform only on panels */
+.js-motion :is(.hm-hero__panel, .title-band__panel) { animation: rise 1.2s var(--ease-out) both; }
+@keyframes rise { from { transform: translate3d(0, 22px, 0); } }
+.js-motion :is(.hm-hero__media-in, .title-band__media-in, .title-band__photo-in) img { animation: settle-in 2.6s var(--ease-out) both; }
+@keyframes settle-in { from { transform: scale(1.07); } }
+.js-motion :is(.hm-hero__cutout, .title-band__cutout) { animation: float-in 1.5s var(--ease-out) .35s both; }
+@keyframes float-in { from { opacity: 0; transform: translateY(60%); } }
+
+/* ------------------------------------------------------------------ scroll-driven (§7.3, §7.4) */
+@supports (animation-timeline: view()) {
+  .js-motion :is(.pic--fill, .pic--lens-edge, .pic--arch, .eyewin__photo) img {
+    animation: scroll-settle linear both;
+    animation-timeline: view(block 0px);
+    animation-range: entry 0% cover 55%;
+  }
+  @keyframes scroll-settle { from { transform: scale(1.1); } to { transform: scale(1.01); } }
+}
+/* ambient pools move only with the page scroll (no autonomous drift, R-26) */
+@supports (animation-timeline: scroll()) {
+  .js-motion .pool { animation: linear both; animation-timeline: scroll(root); }
+  .js-motion .pool--a { animation-name: pool-a; }
+  .js-motion .pool--b { animation-name: pool-b; }
+  .js-motion .pool--c { animation-name: pool-c; }
+  .js-motion .pool--d { animation-name: pool-d; }
+  @keyframes pool-a { to { transform: translate3d(14vw, 18vh, 0) scale(1.08); } }
+  @keyframes pool-b { to { transform: translate3d(-12vw, -14vh, 0) scale(1.12); } }
+  @keyframes pool-c { to { transform: translate3d(-10vw, 22vh, 0) scale(.92); } }
+  @keyframes pool-d { to { transform: translate3d(16vw, -16vh, 0) scale(1.1); } }
+}
+
+/* ------------------------------------------------------------------ preferences (§7.5) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important; animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important; transition-delay: 0s !important; scroll-behavior: auto !important;
+  }
+}
+@media print {
+  .js-motion .rv { opacity: 1 !important; transform: none !important; clip-path: none !important; }
+}

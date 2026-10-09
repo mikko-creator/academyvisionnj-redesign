@@ -1,0 +1,119 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/childrens-contact-lenses",
+  "etSource": "services/childrens-contact-lenses",
+  "title": "Contact Lenses for Kids in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Thinking about contacts for your child? Learn about readiness, safety and fittings, then call Academy Vision in Pine Beach at (732) 978-9306 with your questions.",
+  "h1": "Contact Lenses for Kids and Teens: A Guide for Pine Beach Parents",
+  "kicker": "Is Your Child Asking About Contacts?",
+  "lede": "<p>Sports, dance, a new school year—sooner or later, many kids who wear glasses start asking about contact lenses. Whether contacts make sense has less to do with a birthday and more to do with your child’s eyes, habits and readiness. Here’s what parents in Pine Beach should know before that first conversation with an eye doctor.</p>",
+  "sections": [
+    {
+      "id": "parent-worries",
+      "heading": "Common Worries, Answered Plainly",
+      "html": "<p>If you’re hesitant, you’re not alone. Many parents wonder about the same two things: whether contacts are safe for young eyes, and whether their child can really manage putting lenses in and taking them out.</p><p>Both are fair questions. Because a contact lens sits right on the eye, safety depends on a proper fitting and on daily habits: clean hands, fresh solution, no water, and no sleeping in lenses unless an eye doctor has prescribed them for overnight wear. Handling takes practice, and some kids get comfortable faster than others. Having a parent nearby for the first few weeks helps.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "readiness",
+      "heading": "Signs Your Child May Be Ready",
+      "html": "<ul><li>They’re motivated to wear contacts and to take care of them.</li><li>They keep up with daily routines, like brushing their teeth, without constant reminders.</li><li>They can follow the same steps in order every time: wash hands, handle the lens, clean the case.</li><li>They’re willing to switch back to glasses when their eyes feel tired or irritated.</li><li>You’re able to help and check in while they learn.</li></ul><p>There’s no single right age. An eye exam, plus a frank talk with your child’s eye doctor, is a good way to decide.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "lens-options",
+      "heading": "Lenses That Can Do More for Nearsighted Kids",
+      "html": "<p>For children who are nearsighted, contact lenses can be part of a plan to slow how quickly the prescription changes. The myopia management options at Academy Vision include soft contact lenses designed specifically for kids, as well as ortho-k lenses that are worn overnight. Dr. Tyler Lesko focuses on pediatrics and myopia management, including orthokeratology and MiSight.</p><p>Learn more about <a href=\"/services/myopia-management/\">myopia management</a> and <a href=\"/products/contact-lenses/orthokeratology-ortho-k/\">ortho-k</a>.</p>",
+      "layout": "split",
+      "imageSlot": "cut-contact-lens"
+    },
+    {
+      "id": "fitting-steps",
+      "heading": "What a Contact Lens Fitting Involves",
+      "html": "<p>A contact lens exam goes a step beyond a standard eye exam. At Academy Vision, it includes these steps:</p><ol><li>We check vision and overall eye health.</li><li>We take measurements so the lenses fit properly.</li><li>We evaluate the tear film to help keep eyes comfortable.</li><li>We fit trial lenses so the wearer can feel how they work.</li><li>We make adjustments based on comfort and clarity.</li></ol><p>New wearers get step-by-step coaching on inserting and removing lenses and keeping them clean. Call (732) 978-9306 to ask how this would work for your child.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "follow-up",
+      "heading": "Follow-Up Matters as Kids Grow",
+      "html": "<p>A child’s eyes and prescription can shift between birthdays, and a lens that fit well last year may need adjusting. Follow-up visits give the eye doctor a chance to check the fit, look for signs of irritation, and make sure good habits are sticking. Ask how often your child should be seen once they’re wearing contacts.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "proper-fitting",
+      "heading": "Why a Proper Fitting Matters",
+      "html": "<p>A glasses prescription isn’t a contact lens prescription. Contacts need their own measurements and fitting, since they rest on the surface of the eye. Ordering lenses without a fitting, or buying decorative lenses without a prescription, can put young eyes at risk.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "related-care",
+      "heading": "More for Growing Eyes",
+      "html": "<p>Anyone who wears contacts should have an up-to-date pair of glasses as a backup, and our <a href=\"/products/kids-eyewear/\">kids’ eyewear</a> page has more on frames. You can also explore our <a href=\"/services/childrens-eye-care/\">children’s eye care</a> or read about <a href=\"/services/contact-lens-exams/\">contact lens exams</a>.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age can kids start wearing contact lenses?",
+      "a": "<p>There isn’t one set age. Readiness depends on maturity, motivation and hygiene habits as much as on the eyes themselves, and your child’s eye doctor can help you decide whether now is the right time.</p>"
+    },
+    {
+      "q": "Can my child sleep in their contacts?",
+      "a": "<p>Only if the lenses are designed and prescribed for overnight wear, as ortho-k lenses are. Sleeping in regular contact lenses raises the risk of eye infections.</p>"
+    },
+    {
+      "q": "Can my child swim in contacts?",
+      "a": "<p>Lenses shouldn’t be exposed to water, whether that’s the pool, the ocean or the bathroom tap. Water can carry germs that cause serious eye infections, so ask your eye doctor about a plan for swim days.</p>"
+    },
+    {
+      "q": "What if my child’s eye gets red or sore?",
+      "a": "<p>Have your child take the lenses out and call your eye doctor right away. Redness, pain, light sensitivity or blurry vision while wearing contacts shouldn’t be ignored. For sudden vision loss or an eye injury, seek emergency care immediately.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Questions About Contacts for Your Child?",
+    "html": "<p>Call us at (732) 978-9306 to ask whether contact lenses could be an option for your child and what the next step would be. We’re glad to talk it through.</p>"
+  },
+  "related": [
+    "services/childrens-eye-care",
+    "services/myopia-management",
+    "products/contact-lenses/orthokeratology-ortho-k",
+    "services/contact-lens-exams",
+    "products/kids-eyewear"
+  ],
+  "claims": [
+    { "text": "Contact Lenses for Kids in Pine Beach, NJ | Academy Vision", "factId": "service-myopia-options", "page": "/eye-care-services/myopia-management/", "quote": "Once we understand your child’s vision, we’ll recommend options that are designed to slow progression." },
+    { "text": "Learn about readiness, safety and fittings, then call Academy Vision in Pine Beach at (732) 978-9306 with your questions.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "The myopia management options at Academy Vision include soft contact lenses designed specifically for kids, as well as ortho-k lenses that are worn overnight.", "factId": "service-myopia-options", "page": "/eye-care-services/myopia-management/", "quote": "Once we understand your child’s vision, we’ll recommend options that are designed to slow progression." },
+    { "text": "The myopia management options at Academy Vision include soft contact lenses designed specifically for kids, as well as ortho-k lenses that are worn overnight.", "factId": "service-ortho-k", "page": "/contact-lenses/orthokeratology-ortho-k/", "quote": "It’s a simple, non-surgical option that works for both kids and adults." },
+    { "text": "Dr. Tyler Lesko focuses on pediatrics and myopia management, including orthokeratology and MiSight.", "factId": "doctor-tl-myopia", "page": "/team/dr-tyler-lesko-od/", "quote": "Pediatrics & Myopia Management: Utilizing orthokeratology and MiSight to change the trajectory of children's lives." },
+    { "text": "Learn more about myopia management and ortho-k.", "factId": "service-myopia", "page": "/eye-care-services/myopia-management/", "quote": "At Academy Vision, we focus on more than just helping your child see clearly—we work to protect their vision for the future." },
+    { "text": "A contact lens exam goes a step beyond a standard eye exam.", "factId": "service-contact-lens-exams", "page": "/contact-lenses/contact-lenses-exams/", "quote": "A contact lens exam goes a step beyond a standard eye exam." },
+    { "text": "At Academy Vision, it includes these steps:", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "We check vision and overall eye health.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "We take measurements so the lenses fit properly.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "We evaluate the tear film to help keep eyes comfortable.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "We fit trial lenses so the wearer can feel how they work.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "We make adjustments based on comfort and clarity.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "New wearers get step-by-step coaching on inserting and removing lenses and keeping them clean.", "factId": "service-contact-lens-training", "page": "/contact-lenses/contact-lenses-exams/", "quote": "care for them properly, step by step." },
+    { "text": "Call (732) 978-9306 to ask how this would work for your child.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "Anyone who wears contacts should have an up-to-date pair of glasses as a backup, and our kids’ eyewear page has more on frames.", "factId": "service-kids-frames", "page": "/eyeglasses/", "quote": "We offer frames that are lightweight, flexible, and designed to stay comfortable throughout the day." },
+    { "text": "You can also explore our children’s eye care or read about contact lens exams.", "factId": "service-pediatric", "page": "/eye-care-services/pediatric-eye-care/", "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in." },
+    { "text": "You can also explore our children’s eye care or read about contact lens exams.", "factId": "service-contact-lens-exams", "page": "/contact-lenses/contact-lenses-exams/", "quote": "A contact lens exam goes a step beyond a standard eye exam." },
+    { "text": "Call us at (732) 978-9306 to ask whether contact lenses could be an option for your child and what the next step would be.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "We’re glad to talk it through.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." }
+  ],
+  "flags": [
+    "PARTIAL evidence (restructure.json adopt risk; facts/service-evidence.json): Academy Vision's site shows contact lenses for children only for myopia control (soft lenses designed for kids, ortho-k, and MiSight in Dr. Tyler Lesko's bio), plus a general new-wearer handling lesson. Before this page is indexed, the practice should say whether it fits first-time, general-purpose contact lenses for children and teens, whether the handling lesson and follow-up visits apply to young wearers, and any minimum age (listed in docs/OPEN-DECISIONS.md per BUILD-CONTRACT 4.1).",
+    "The fitting steps on this page are Academy Vision's general contact lens exam steps from /contact-lenses/contact-lenses-exams/, not a child-specific protocol; the page offers no fitting, timing or lens to children beyond inviting a call.",
+    "No minimum age, follow-up schedule, lens brand for children (beyond MiSight in Dr. Lesko's bio), price or appointment timing is stated; add any of them only if the practice supplies it.",
+    "Safety guidance (no water, no overnight wear unless prescribed, remove lenses and call an eye doctor when an eye turns red or hurts, emergency care for sudden vision loss or injury) is general patient education, not a practice policy."
+  ],
+  "review": { "overlapLongest": 0, "checkedBy": "checker-G1-exams-kids", "notes": "Writer (writer-G1-exams-kids): tools/overlap-check.mjs --fail 8 (6-word shingles): longest 0. The claim for service-contact-lens-training quotes a verbatim sub-span of its fact, because the full fact quote shares a 9-word run with the Eye Trends crawl (docs/BUILD-NOTES.md, WRITER G1-exams-kids item 1). A --control run reported DETECTED. tmp/writer-G1-exams-kids/validate.mjs: 0 errors, 0 warnings. Checker (checker-G1-exams-kids, 2026-10-08; no Eye Trends file opened): re-ran the evidence on the final bytes. tools/overlap-check.mjs --fail 8: longest 0; --control reported DETECTED (exit 0); the visible fields alone share 0 six-word runs (5-word shingles: longest 5, stock phrases or Academy Vision’s own wording, kept). All 20 claims: the factId exists, the page equals the fact page, the quote is in the visible text of the cited audit/raw page, and the claim text is verbatim in this file; 19 quotes equal their fact quote. The service-contact-lens-training sub-span was re-tested: with the full fact quote the file reports a 9-word shared run and exits 1, so the sub-span stays (it is verbatim on /contact-lenses/contact-lenses-exams/). The five fitting steps match Academy Vision’s own contact lens exam list, and the kids’ lens options match the myopia page (soft lenses designed for kids, ortho-k). PARTIAL page: no operational promise (no same-day, walk-in, in-stock, guarantee, duration, price, age or fitting promise); the one duration, “for the first few weeks” of a parent’s help, is advice, not a practice promise. The copy explains the topic and invites a call. Safety and emergency guidance were read as an optometrist would and are accurate. Meta-language, hype, apostrophe, dash, year, doctor and phone scans are clean; tags, links and related paths pass tmp/checker-G1-exams-kids/check.mjs (its planted control fired on every defect) and the pipeline’s own buildPages run in memory (0 errors). Body 775 words. No change." }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "hero-cataract-co-management",
+  "file": "assets/generated/hero-cataract-co-management.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the cataract co-management page (gap)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Smiling older man in a light blue shirt at a sunlit marina",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a silver-haired man in his early seventies in a light blue linen shirt smiling outdoors at a sunlit marina at golden hour, sailboat masts softly blurred behind him with no boat names or lettering, warm bokeh over calm water, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 1327641978,
+  "requestId": "01a11a02-e41f-7ef2-8ee8-15a3474ae547",
+  "editOf": "tmp/imagery-run/attempts/hero-cataract-co-management.a1.jpg",
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-cataract-co-management.a1m.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "5014dccef07fc99430e29120a15dd3f7ff1c79307f1de59a0f0ff6fb56903c49",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "LOCAL non-AI transform: ffmpeg hflip of the reviewed a1 (re-flip vs a1 PSNR measured above); no text in frame, so the mirror is content-safe",
+      "face now ~58% x, blurred boats on the left",
+      "all a1 checks carry over (mirror-invariant)"
+    ],
+    "notes": "shirt placket now buttons on the other side - minor",
+    "at": "2026-10-08T05:37:57.232Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T05:37:57.669Z"
+}

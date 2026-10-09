@@ -1,0 +1,160 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/red-eye-treatment",
+  "etSource": "services/red-eye-treatment",
+  "title": "Red Eye Treatment in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Red, irritated eye? Learn the common causes, the signs that need prompt care, and how Academy Vision in Pine Beach can help. Call (732) 978-9306.",
+  "h1": "Getting to the Cause of a Red, Irritated Eye in Pine Beach",
+  "kicker": "Why Is My Eye Red?",
+  "lede": "<p>A red eye can be a small annoyance or a sign that something needs attention soon. Maybe it’s been pink and scratchy for days, or maybe you glanced in the mirror and spotted a bright red patch that wasn’t there this morning. The color alone doesn’t tell you much—the cause does. Red eyes are part of Dr. Marc Ullman’s clinical focus at Academy Vision, and getting to the cause is where real relief starts.</p>",
+  "sections": [
+    {
+      "id": "common-causes",
+      "heading": "Common Reasons an Eye Turns Red",
+      "html": "<ul><li><strong>Dry eye.</strong> When tears don’t keep the surface moist, eyes can look red and feel gritty, especially after screen time. <a href=\"/services/dry-eye-treatment/\">More on dry eye</a></li><li><strong>Allergies.</strong> Itchy, watery, puffy eyes, usually both at once and often with the seasons.</li><li><strong>Pink eye.</strong> Redness with discharge or crusty lashes can be conjunctivitis. <a href=\"/services/pink-eye-conjunctivitis/\">More on pink eye</a></li><li><strong>A broken blood vessel.</strong> A flat, bright red patch on the white of the eye that looks alarming but is usually painless and fades over a couple of weeks.</li><li><strong>Contact lens trouble.</strong> Wearing lenses too long, sleeping in them or an infection under a lens.</li><li><strong>Something in the eye, or a scratch.</strong> <a href=\"/services/foreign-body-removal/\">What to do when something gets in your eye</a></li><li><strong>Inflammation inside the eye or a sudden rise in eye pressure.</strong> Less common, usually painful, and in need of prompt care.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "mild-or-more",
+      "heading": "Mild Irritation or Something More?",
+      "html": "<p><strong>Often mild:</strong> redness without real pain, clear vision, and eyes that settle with rest, a break from screens or lubricating drops.</p><p><strong>Call an eye doctor promptly:</strong> pain rather than scratchiness, sensitivity to light, blurry vision that doesn’t clear when you blink, thick discharge, redness after an injury, any red eye in a contact lens wearer, or redness that keeps coming back.</p><p><strong>Go to the nearest emergency room right away:</strong> sudden vision loss, a chemical splash, an injury that cuts or punctures the eye, a curtain or shadow over your vision, flashes of light with a sudden shower of new floaters, or severe eye pain with a headache, nausea or halos around lights.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "red-eye-exam",
+      "heading": "What a Red-Eye Exam Usually Covers",
+      "html": "<p>A visit for a red eye has three aims: finding the cause, easing the discomfort and judging how urgent it is. It usually includes:</p><ul><li>Questions about when the redness started, whether it hurts, any discharge, allergies, recent colds and contact lens habits</li><li>A check of your vision</li><li>A magnified look at the lids, the white of the eye and the clear front surface</li><li>A special dye and blue light to reveal scratches or sores on the surface</li><li>When needed, a pressure check and a look inside the eye</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "trusted-office",
+      "heading": "A Trusted Pine Beach Office",
+      "html": "<p>For over 40 years, families in and around Pine Beach have trusted us with their vision. Our team is made up of experienced optometrists who take the time to listen, explain and make sure you feel comfortable. When redness or discomfort won’t go away, we offer emergency eye care in Pine Beach whenever possible. And if dryness turns out to be behind it, our dry eye care looks beyond quick fixes to find out what’s causing your discomfort.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "drops-and-the-er",
+      "heading": "Why Drugstore Drops and the ER Aren’t Always the Answer",
+      "html": "<p>Whitening drops can hide redness for a few hours, but they don’t treat the cause, and frequent use can leave eyes redder when they wear off. A retail counter can sell you drops or a new box of lenses, but it isn’t set up to examine an inflamed eye. The emergency room is the right call for the warning signs above. For most other cases, an eye doctor is in a better position to examine the eye closely and treat what’s behind it. Our <a href=\"/services/emergency-eye-care/\">emergency eye care</a> page covers other urgent problems.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should I go to the emergency room for a red eye?",
+      "a": "<p>Go right away for sudden vision loss, a chemical splash, a cut or puncture, a curtain or shadow over your vision, flashes with a sudden shower of new floaters, or severe pain with a headache, nausea or halos. For a red eye without those signs, start by calling an eye doctor.</p>"
+    },
+    {
+      "q": "I wear contacts and my eye is red. What should I do?",
+      "a": "<p>Take your lenses out, leave them out and switch to your glasses. A red eye in a contact lens wearer, especially with pain or light sensitivity, can be an infection of the cornea that needs prompt care, so call an eye doctor and bring your lenses and case along. If lenses often leave your eyes red, a <a href=\"/services/contact-lens-exams/\">contact lens exam</a> can help you find a more comfortable fit.</p>"
+    },
+    {
+      "q": "Is a bright red spot on the white of my eye serious?",
+      "a": "<p>Usually not. A broken blood vessel under the surface can follow a cough, a sneeze or heavy lifting, and it typically fades on its own. Have it checked if it hurts, affects your vision, follows an injury or keeps happening.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Let’s Find Out What’s Behind the Redness",
+    "html": "<p>Call Academy Vision at (732) 978-9306 and tell us what you’re noticing. We’re on Route 9 near the Mizzen Avenue light in Pine Beach, and you won’t have to search for a parking spot.</p>"
+  },
+  "related": [
+    "services/emergency-eye-care",
+    "services/dry-eye-treatment",
+    "services/pink-eye-conjunctivitis"
+  ],
+  "claims": [
+    {
+      "text": "Red Eye Treatment in Pine Beach, NJ | Academy Vision",
+      "factId": "service-red-eyes-injuries",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "seeking relief from chronic dry eye, red eyes, and ocular injuries."
+    },
+    {
+      "text": "Learn the common causes, the signs that need prompt care, and how Academy Vision in Pine Beach can help.",
+      "factId": "service-red-eyes-injuries",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "seeking relief from chronic dry eye, red eyes, and ocular injuries."
+    },
+    {
+      "text": "Call (732) 978-9306.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Getting to the Cause of a Red, Irritated Eye in Pine Beach",
+      "factId": "doctor-mu-clinical-focus",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "Clinical Focus: Dr. Ullman is the practice’s primary resource for patients seeking relief from chronic dry eye, red eyes, and ocular injuries."
+    },
+    {
+      "text": "Red eyes are part of Dr. Marc Ullman’s clinical focus at Academy Vision, and getting to the cause is where real relief starts.",
+      "factId": "doctor-mu-clinical-focus",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "Clinical Focus: Dr. Ullman is the practice’s primary resource for patients seeking relief from chronic dry eye, red eyes, and ocular injuries."
+    },
+    {
+      "text": "For over 40 years, families in and around Pine Beach have trusted us with their vision.",
+      "factId": "history-over-40-years",
+      "page": "/",
+      "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision."
+    },
+    {
+      "text": "Our team is made up of experienced optometrists who take the time to listen, explain and make sure you feel comfortable.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    },
+    {
+      "text": "When redness or discomfort won’t go away, we offer emergency eye care in Pine Beach whenever possible.",
+      "factId": "service-emergency",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "text": "And if dryness turns out to be behind it, our dry eye care looks beyond quick fixes to find out what’s causing your discomfort.",
+      "factId": "service-dry-eye",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "quote": "At Academy Vision, we look beyond quick fixes to find out what’s causing your discomfort and help you feel better for the long run."
+    },
+    {
+      "text": "If lenses often leave your eyes red, a contact lens exam can help you find a more comfortable fit.",
+      "factId": "service-contact-lens-fittings",
+      "page": "/contact-lenses/",
+      "quote": "We’ll measure your eyes, talk through your lifestyle, and make sure your lenses feel comfortable and work the way they should."
+    },
+    {
+      "text": "Call Academy Vision at (732) 978-9306 and tell us what you’re noticing.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "We’re on Route 9 near the Mizzen Avenue light in Pine Beach, and you won’t have to search for a parking spot.",
+      "factId": "address-landmark",
+      "page": "/eyeglasses/",
+      "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light."
+    },
+    {
+      "text": "We’re on Route 9 near the Mizzen Avenue light in Pine Beach, and you won’t have to search for a parking spot.",
+      "factId": "address-standalone-parking",
+      "page": "/hours-location/",
+      "quote": "It’s a standalone building with its own parking lot, so you won’t have to search for a spot or deal with crowded plazas."
+    }
+  ],
+  "flags": [
+    "Availability: the live site offers emergency eye care “whenever possible” (/hours-location/); this page promises no same-day visit, walk-in visit or response time.",
+    "The red-eye exam list (questions, vision check, magnified exam, dye test, and a pressure check and look inside the eye when needed) describes a typical visit, not a protocol stated on the live site; please check it matches how the doctors work.",
+    "Clinical wording for a doctor to review: the mild / prompt / emergency guidance (including severe eye pain with a headache, nausea or halos), the broken-blood-vessel answer, and the contact lens advice (remove lenses, bring lenses and case)."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G3-urgent",
+    "notes": "New writing from the restructure.json purpose outline, in Academy Vision’s voice; no Eye Trends file was opened. Evidence DIRECT (red eyes in Dr. Marc Ullman’s clinical focus; redness in the emergency-care sentence). tools/overlap-check.mjs --fail 8 on 2026-10-08: longest shared span 6 words (a 7-word span in the first draft was reworded); a --control run detected the inserted 21-word sentence. Body copy 849 words (lede, sections, FAQ, cta, headings and questions included). tmp/writer-G3-urgent/verify.mjs checked tags, links, related paths, word count, meta-language and every claim against facts/client-facts.json and the visible copy. Checker G3-urgent, 2026-10-08 (re-ran the evidence; no Eye Trends file opened). No copy change. The medical read (causes, the mild / prompt / emergency tiers including acute pressure signs, the exam list, the contact lens and broken-blood-vessel answers) found nothing inaccurate or alarmist, and every we/our/Academy Vision sentence is backed by client-facts.json. Checks: overlap longest 6 (“go to the nearest emergency room”, kept); --control DETECTED; check.mjs: 849 body words, 5 links, 3 related paths, 13/13 claims trace. Regex hits read and kept: “a couple of weeks” (a broken blood vessel fading), “a few hours” (whitening drops), “40 years” (history fact). The pipeline’s 13:02 build (theme stub; run by PIPELINE, not by this checker) rendered this page: one h1, 0 build errors, 0 broken links."
+  }
+}

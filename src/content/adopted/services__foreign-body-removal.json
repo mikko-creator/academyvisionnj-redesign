@@ -1,0 +1,155 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/foreign-body-removal",
+  "etSource": "services/foreign-body-removal",
+  "title": "Something in Your Eye? | Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Sand, sawdust or a stray lash stuck in your eye? What to do first, what to avoid, when to go to the ER, and how to reach Academy Vision in Pine Beach.",
+  "h1": "Something in Your Eye? Eye Injury Care in Pine Beach",
+  "kicker": "Try Not to Rub It",
+  "lede": "<p>A grain of sand on a breezy day at the shore, sawdust from a weekend project, a stray eyelash—it doesn’t take much to make an eye sting, water and feel like something’s caught in it. Often your tears wash it out on their own. When they don’t, or the eye still hurts once the speck seems to be gone, it’s time to have it looked at instead of rubbing or poking at it.</p>",
+  "sections": [
+    {
+      "id": "first-steps",
+      "heading": "First Steps to Protect Your Eye",
+      "html": "<ul><li><strong>Don’t rub.</strong> Rubbing can drag a particle across the clear front of the eye and scratch it.</li><li><strong>Blink, then rinse.</strong> Blink a few times, then rinse it out with sterile saline or clean tap water.</li><li><strong>Keep tools away.</strong> Never use tweezers, cotton swabs, a fingernail or anything sharp on your eye.</li><li><strong>Take out contact lenses</strong> if they come out easily, after washing your hands.</li><li><strong>Don’t put it off.</strong> If it still feels like something is there, or your vision is blurry, call an eye doctor rather than waiting for it to pass.</li></ul>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "go-to-the-er",
+      "heading": "When to Go Straight to the Emergency Room",
+      "html": "<p>Go to the nearest emergency room, or call 911, if:</p><ul><li>Something has cut or punctured the eye, or is lodged in the eyeball itself. Leave it where it is, don’t press on the eye, and tape a paper cup over it for protection on the way.</li><li>A chemical has splashed into the eye. Rinse with clean, lukewarm water right away and keep rinsing for at least 15 minutes while someone gets help.</li><li>Your vision suddenly drops or goes dark.</li><li>A curtain or shadow spreads across part of your vision.</li><li>You see flashes of light along with a sudden shower of new floaters (<a href=\"/services/flashes-floaters/\">more on flashes and floaters</a>).</li></ul><p>If something struck your eye at high speed—while grinding, hammering or using power tools—have it checked urgently even if it feels minor.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "why-have-it-checked",
+      "heading": "Why It’s Worth Having It Checked",
+      "html": "<ul><li><strong>It may still be there.</strong> Tiny particles can hide under the upper eyelid, out of sight in a mirror.</li><li><strong>The surface may be scratched.</strong> A scratch can feel exactly like something is still in the eye, and eye doctors use a special dye and a blue light to spot one.</li><li><strong>Metal can leave a mark.</strong> A metal fleck can leave a small rust ring behind that needs attention.</li><li><strong>Healing matters.</strong> A scratched eye can become infected, so it’s worth making sure it heals well.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "what-the-visit-involves",
+      "heading": "What the Visit Usually Involves",
+      "html": "<p>When an eye doctor examines an eye with something in it, the visit usually includes:</p><ol><li>Questions about what happened and what you were doing at the time</li><li>A check of your vision</li><li>Numbing drops so the exam is more comfortable</li><li>A magnified look at the eye, including under the upper lid</li><li>The dye-and-blue-light check for scratches</li><li>Gentle removal of a loose particle if one is found, and advice on caring for the eye while it heals</li></ol>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "familiar-office",
+      "heading": "Eye Injuries and a Familiar Office in Pine Beach",
+      "html": "<p>Academy Vision was founded in 1984 by Dr. Robert Ullman, and families in and around Pine Beach have trusted us with their vision for over 40 years. Dr. Marc Ullman is the practice’s primary resource for patients with eye injuries, red eyes and chronic dry eye. When you’re dealing with an eye injury, we offer emergency eye care in Pine Beach whenever possible. Call (732) 978-9306 to describe what happened and ask about the next step.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "where-to-go",
+      "heading": "Emergency Room, Optical Shop or Eye Doctor?",
+      "html": "<p>An emergency room is the right place for the serious injuries listed above, and for any eye injury when you can’t reach an eye doctor. An optical shop is there to fit glasses and contacts; it isn’t set up to examine an injured eye. For a speck that won’t rinse out, or an eye that stays scratchy and watery, an eye doctor can examine the front of the eye and the underside of the lids under magnification. Our <a href=\"/services/emergency-eye-care/\">emergency eye care</a> and <a href=\"/services/red-eye-treatment/\">red eye</a> pages cover related problems.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should I go to the emergency room or call an eye doctor?",
+      "a": "<p>Go to the emergency room for a chemical splash, anything that has cut or punctured the eye, an object lodged in the eye, a hard blow followed by vision changes, or any of the warning signs above. For a particle that won’t rinse out, or an eye that stays scratchy and watery, call an eye doctor first.</p>"
+    },
+    {
+      "q": "Will I need a follow-up visit?",
+      "a": "<p>Sometimes. If the eye was scratched or a particle left a mark, the doctor may want to see it again to make sure it’s healing. Call sooner if the pain comes back, your vision gets worse, or the eye becomes redder or starts to produce discharge.</p>"
+    },
+    {
+      "q": "When can I wear my contacts again?",
+      "a": "<p>Leave them out until the eye has healed and your eye doctor says it’s fine to go back to them, and wear your glasses in the meantime.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Still Feels Like Something’s There?",
+    "html": "<p>Call Academy Vision at (732) 978-9306 and tell us what happened. You’ll find us on Route 9 near the Mizzen Avenue light, in a standalone building with its own parking lot.</p>"
+  },
+  "related": [
+    "services/emergency-eye-care",
+    "services/red-eye-treatment",
+    "services/flashes-floaters"
+  ],
+  "claims": [
+    {
+      "text": "Something in Your Eye? | Pine Beach, NJ | Academy Vision",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "What to do first, what to avoid, when to go to the ER, and how to reach Academy Vision in Pine Beach.",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "Something in Your Eye? Eye Injury Care in Pine Beach",
+      "factId": "service-emergency",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "text": "Academy Vision was founded in 1984 by Dr. Robert Ullman, and families in and around Pine Beach have trusted us with their vision for over 40 years.",
+      "factId": "history-founded-1984",
+      "page": "/about-us/",
+      "quote": "Academy Vision was founded in 1984 by Dr. Robert Ullman"
+    },
+    {
+      "text": "Academy Vision was founded in 1984 by Dr. Robert Ullman, and families in and around Pine Beach have trusted us with their vision for over 40 years.",
+      "factId": "history-over-40-years",
+      "page": "/",
+      "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision."
+    },
+    {
+      "text": "Dr. Marc Ullman is the practice’s primary resource for patients with eye injuries, red eyes and chronic dry eye.",
+      "factId": "doctor-mu-clinical-focus",
+      "page": "/team/dr-marc-ullman-od/",
+      "quote": "Clinical Focus: Dr. Ullman is the practice’s primary resource for patients seeking relief from chronic dry eye, red eyes, and ocular injuries."
+    },
+    {
+      "text": "When you’re dealing with an eye injury, we offer emergency eye care in Pine Beach whenever possible.",
+      "factId": "service-emergency",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "text": "Call (732) 978-9306 to describe what happened and ask about the next step.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call Academy Vision at (732) 978-9306 and tell us what happened.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "You’ll find us on Route 9 near the Mizzen Avenue light, in a standalone building with its own parking lot.",
+      "factId": "address-landmark",
+      "page": "/eyeglasses/",
+      "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light."
+    },
+    {
+      "text": "You’ll find us on Route 9 near the Mizzen Avenue light, in a standalone building with its own parking lot.",
+      "factId": "address-standalone-parking",
+      "page": "/hours-location/",
+      "quote": "It’s a standalone building with its own parking lot, so you won’t have to search for a spot or deal with crowded plazas."
+    }
+  ],
+  "flags": [
+    "Procedure not named on the live site: foreign-body removal appears on no Academy Vision page. The nearest statements are emergency eye care for “an eye injury” whenever possible (/hours-location/) and “ocular injuries” in Dr. Marc Ullman’s clinical focus (/team/dr-marc-ullman-od/); the registration form’s “Foreign Body Sensation” is only an intake checkbox. Please confirm that the doctors remove foreign bodies, including metal fragments and rust rings, before this page is promoted.",
+    "Until then the title and h1 lead with “Something in Your Eye?” and “Eye Injury Care” instead of the proposed “Foreign Body Removal” and “Foreign Object Care” (the menu label in restructure.json still reads “Foreign Body Removal”). The visit steps describe what an eye doctor usually does, and no removal, timing or follow-up is promised.",
+    "Clinical wording for a doctor to review: the first-aid list (no rubbing or tools, rinse with water or saline, remove lenses only if they come out easily), the emergency list (rinse a chemical splash for at least 15 minutes, tape a paper cup over a punctured eye, leave an embedded object in place) and the high-speed injury advice are general guidance."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G3-urgent",
+    "notes": "New writing from the restructure.json purpose outline, in Academy Vision’s voice; no Eye Trends file was opened. Evidence PARTIAL: eye injuries are evidenced, the removal procedure is not, so the visit is described as what an eye doctor usually does and no removal or timing is promised. tools/overlap-check.mjs --fail 8 on 2026-10-08: longest shared span 6 words; an 11-word and an 8-word span in the first draft were rewritten; a --control run detected the inserted 21-word sentence. Body copy 859 words (lede, sections, FAQ, cta, headings and questions included). tmp/writer-G3-urgent/verify.mjs checked tags, links, related paths, word count, meta-language and every claim against facts/client-facts.json and the visible copy. Checker G3-urgent, 2026-10-08 (re-ran the evidence; no Eye Trends file opened). No copy change. The medical read (first aid, the emergency list with the 15-minute chemical rinse and the paper-cup shield, rust rings, the dye-and-blue-light check, the follow-up and contact lens answers) found nothing inaccurate or alarmist, and every we/our/Academy Vision sentence is backed by client-facts.json; the visit list describes what an eye doctor usually does and promises no removal. Checks: overlap longest 6 (“time to have it looked at” and “go to the nearest emergency room”, common expressions, kept); --control DETECTED; check.mjs: 859 body words, 3 links, 3 related paths, 11/11 claims trace. Regex hits read and kept: “15 minutes” (first-aid rinse time, not a practice promise), “40 years” (history fact), “resource” (clinical-focus wording). The pipeline’s 13:02 build (theme stub; run by PIPELINE, not by this checker) rendered this page: one h1, 0 build errors, 0 broken links."
+  }
+}

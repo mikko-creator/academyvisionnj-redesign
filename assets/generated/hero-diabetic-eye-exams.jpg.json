@@ -1,0 +1,38 @@
+{
+  "id": "hero-diabetic-eye-exams",
+  "file": "assets/generated/hero-diabetic-eye-exams.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the diabetic eye exam page (gap)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Man in glasses preparing a bowl of oats and berries in a bright kitchen",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a man in his fifties alone in a bright home kitchen, standing on the right side of the frame, in a light blue shirt and thin metal glasses, preparing a breakfast bowl of oats and fresh berries at the counter, warm morning light, no other people anywhere in the scene, no white coat, no stethoscope, no packaging, jars or appliances with labels, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2008852293,
+  "requestId": "01a119ca-bece-7cf2-aa03-893eebceb51a",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-diabetic-eye-exams.a2.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "b587fb72a4b1bf501c5d877c1207e9bbd46f5f1d7a8e8b6e1cfc99d72bdb2520",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: man ~50s alone in a bright kitchen, light blue shirt, thin black glasses, oats + berries; face ~70% x; calm blurred left half; no clinician, no other people",
+      "100% glasses + 400% both hinges: thin black frames, plain metal hinge barrel, no marks",
+      "100% hands: spoon grip and bowl hold natural, ring on ring finger",
+      "100% kettle, 50% jars/canisters/juice glass, 50% shelves: plain, no labels or logos",
+      "100% oven front: knob blurred, no numerals"
+    ],
+    "notes": "retry 1 (man alone prompt, tmp/imagery-run/prompts/hero-diabetic-eye-exams.a2.txt)",
+    "at": "2026-10-08T04:39:13.905Z",
+    "retries": 1
+  },
+  "promotedAt": "2026-10-08T04:39:14.133Z"
+}

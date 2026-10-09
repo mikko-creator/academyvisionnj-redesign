@@ -1,0 +1,38 @@
+{
+  "id": "hero-eye-health",
+  "file": "assets/generated/hero-eye-health.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the eye health articles hub (gap)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Navy eyeglasses, a cup of tea, eucalyptus and a closed book on a cream tablecloth",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Overhead flat-lay photograph of a pair of navy eyeglasses, a cup of tea, a sprig of eucalyptus and a closed linen-bound book with a completely blank cover on a cream tablecloth, soft daylight, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 1880495783,
+  "requestId": "01a119e4-d402-7be0-bc5c-49b96f0af2dd",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-eye-health.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "d20913d14b447540ded593303d7e6da2f87a8308ab446d39a758ca3b55a85b81",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: overhead flat-lay - blank navy book, cup of tea, white notebook with navy glasses, eucalyptus sprig",
+      "book cover/spine and white notebook: blank",
+      "cup: plain white",
+      "100% + 400% both hinges: blank gold plates and a metal hinge insert, no letters, logos or print",
+      "COMPOSITION NOTE: the blank navy book fills 17-48% x (flat, detail-free, but not a blurred calm half)"
+    ],
+    "notes": "",
+    "at": "2026-10-08T05:07:14.682Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T05:07:17.933Z"
+}

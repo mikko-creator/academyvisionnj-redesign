@@ -1,0 +1,365 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/about-us/",
+  "source": "audit/raw/about-us.html",
+  "rendered": "tmp/extract/rendered/about-us.html",
+  "meta": {
+    "title": "Academy Vision Local Eye Care Clinic in Pine Beach, NJ",
+    "description": "Our dedicated team provides personal vision care for the Pine Beach community. Arrange Your Visit to meet us.",
+    "canonical": "https://www.academyvisionnj.com/about-us/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/about-us/",
+      "type": "website",
+      "title": "Academy Vision Local Eye Care Clinic in Pine Beach, NJ",
+      "description": "Our dedicated team provides personal vision care for the Pine Beach community. Arrange Your Visit to meet us.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/about-us/",
+        "url": "https://www.academyvisionnj.com/about-us/",
+        "name": "About Us",
+        "datePublished": "2026-03-26T17:17:18.272Z",
+        "dateModified": "2026-06-03T12:35:22.896Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "About Academy Vision in Pine Beach",
+  "counts": {
+    "blocks": 4,
+    "nodes": 13,
+    "static": 13,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "hero-1",
+      "id": "0PNPc6cjWL",
+      "at": 85331,
+      "layout": {
+        "contentAlign": "flex-end"
+      },
+      "background": {
+        "color": "#0f2a4a",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e3c-cab5-7159-b5b8-29f9833fd4f3/2020-09-03.jpg",
+          "file": "assets/source/e6c5e364-2020-09-03.jpg-w_600.webp",
+          "w": 600,
+          "h": 284,
+          "position": "28.8% 46.4%",
+          "mobile": "hidden"
+        },
+        "overlay": "#2e2e2ecf",
+        "textColor": "#fff"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e3c-cab5-7159-b5b8-29f9833fd4f3/2020-09-03.jpg",
+          "file": "assets/source/e6c5e364-2020-09-03.jpg-w_600.webp",
+          "alt": "A mural depicting a face wearing a red mask with a star and glasses, next to a black wall with white text reading 'Welcome to 2020' and a blue circle.",
+          "w": 600,
+          "h": 284,
+          "variant": "mobile-only",
+          "focal": "28.8% 46.4%",
+          "id": "0PNPc6cjWL-desktop_mobile_image",
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>You’ve Known Us for Years, Or You Will Soon</p>",
+          "transform": "uppercase",
+          "id": "Ay0ZdufLaQ",
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "About Academy Vision in Pine Beach",
+          "html": "About Academy Vision in Pine Beach",
+          "id": "DdCSJNZ96O",
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve been in the area for a while, there’s a good chance you’ve heard of Academy Vision, or maybe you’ve even been here before. For decades, we’ve been taking care of families throughout the Jersey Shore, building relationships that last far beyond a single visit. And if you’re new to us, you’ll quickly see what keeps people coming back.</p>",
+          "id": "bWaYLD2oDc",
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "vtWB2SuRJS",
+      "at": 87692,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section",
+      "id": "QERR2lW3Wj",
+      "at": 87971,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          },
+          {
+            "group": 1,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 1,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 1,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>A Part of This Community for Decades</p>",
+          "transform": "uppercase",
+          "id": "Pj2qCgpJzs",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "From Toms River to Pine Beach—A Family Legacy",
+          "html": "From Toms River to Pine Beach—A Family Legacy",
+          "id": "8U8idVzwW8",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Academy Vision was founded in 1984 by Dr. Robert Ullman, who built the practice with a simple goal: to take care of people the right way. What started in Toms River grew into something more when his son, Dr. Marc Ullman, joined the field after graduating from the Pennsylvania College of Optometry in 1998.</p><p>Not long after, Dr. Ullman moved to their current location in Pine Beach, just a few miles down the road, continuing the family tradition of providing trusted, local <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye care</a>. Over the years, that commitment has stayed the same: treat patients like people, not appointments.</p>",
+          "id": "vaDm3W1Oqo",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "b2FhuEMtNp",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e3d-a8b9-7484-a72c-9de50c5e28d6/2020-04-06-2.jpg",
+          "file": "assets/source/793c7181-2020-04-06-2.jpg-w_600.webp",
+          "alt": "Three women in front of a red and white Academy Vision backdrop smiling with 2020 glasses",
+          "w": 600,
+          "h": 450,
+          "focal": "53.3% 42.4%",
+          "id": "FQkME3S4Cp",
+          "col": 2,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "IaNNec1mfB",
+      "at": 91033,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e3e-1e6d-77dc-aed7-934d595b6aac/AdobeStock_1850300419.jpeg",
+          "file": "assets/source/d1191a1e-AdobeStock_1850300419.jpeg-w_2000.webp",
+          "alt": "An eye examination machine with a white body and a black chair in front of a white wall",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "EvWLPOSkOT",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Built on Trust, Moving Forward</p>",
+          "transform": "uppercase",
+          "id": "1Y38Ou2i6T",
+          "col": 1,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Continuing with Modern Vision Care",
+          "html": "Continuing with Modern Vision Care",
+          "id": "IiywFludnU",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Today, <a href=\"/hours-location/\">Academy Vision</a> continues to grow while staying true to what made it special in the first place. With new leadership and updated technology, we’re building on decades of experience to offer a more modern, elevated approach to eye care, without losing the personal, familiar feel our patients value.</p>",
+          "id": "PXBLKAq5su",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

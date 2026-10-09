@@ -1,0 +1,37 @@
+{
+  "id": "hero-macular-degeneration",
+  "file": "assets/generated/hero-macular-degeneration.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the macular degeneration page (gap)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Older woman with white hair looking out of a sunlit window at a garden",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of an older woman in her late seventies with white hair in a cream cardigan sitting by a sunlit window and looking out at a green garden with a peaceful expression, soft daylight on her face, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2380154467,
+  "requestId": "01a11a02-e40b-76b1-93a9-61e701d4053f",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-macular-degeneration.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "360d0b781123ee8f657be1c67affff19a9479a0a6a167e19d7118107949555af",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: older woman with white hair, cream cardigan, light blue shirt, by a window looking out at a garden; face ~66% x; calm blurred garden left half; no hands in frame",
+      "50% face + 100% eyes: natural anatomy",
+      "100% earring: plain gold disc, no marks",
+      "buttons plain"
+    ],
+    "notes": "",
+    "at": "2026-10-08T05:37:56.670Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T05:37:57.456Z"
+}

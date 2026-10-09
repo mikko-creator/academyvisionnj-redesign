@@ -1,0 +1,358 @@
+/* interior.css - interior block layouts (THEME-TEMPLATES role; DESIGN-SPEC 10.5-10.12, 11). Concatenated after
+   THEME-CORE's tokens/base/glass/depth/motion/chrome/home. Uses only the DESIGN-SPEC §3 tokens; restyles THEME-CORE
+   classes only under its own parent selectors (parts.mjs contract C). Breakpoints §4.2: phone < 768, md 768-1023,
+   splits side by side from 900, desktop >= 1024. */
+
+/* ================================================================== structure behind glass (R-5) */
+/* A light pool placed on purpose behind panels that sit on the canvas: sky pools and a white sun-pool give the
+   backdrop the luminance range glass needs to read as glass. Painted in the root stacking context (sections are
+   never stacking contexts, §4.1), clipped horizontally by .section. */
+.tpl-pool::before {
+  content: ""; position: absolute; inset: 4% -6%; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(34% 44% at 16% 34%, rgba(68, 137, 188, .28), rgba(68, 137, 188, 0) 72%),
+    radial-gradient(30% 40% at 86% 70%, rgba(68, 137, 188, .24), rgba(68, 137, 188, 0) 72%),
+    radial-gradient(26% 30% at 44% 86%, rgba(68, 137, 188, .22), rgba(68, 137, 188, 0) 72%),
+    radial-gradient(30% 36% at 58% 18%, rgba(255, 255, 255, .9), rgba(255, 255, 255, 0) 70%),
+    radial-gradient(24% 28% at 8% 6%, rgba(255, 255, 255, .85), rgba(255, 255, 255, 0) 70%);
+}
+
+/* texture plane under small glass cards (blocks.mjs texturePlane): under the copy (z -1), over the pools */
+.tpl-tex { z-index: -1; -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 14%, #000 86%, transparent 100%); mask-image: linear-gradient(180deg, transparent 0, #000 14%, #000 86%, transparent 100%); }   /* soft top and bottom: nothing crosses these edges */
+
+/* ================================================================== headings on this role's navy surfaces */
+/* `.h2` sets navy; THEME-CORE's light-on-navy heading rule is zero-specificity (:where), so the navy surfaces of
+   this role restate it with enough weight to win. */
+:is(.cta-band__card, .callout__panel, .split--navy .split__panel, .team-band__top, .navy-text, .cards-band--navy .cards-band__head) :is(h1, h2, h3, h4, .h2, .h3) { color: var(--ink-inv); }
+
+/* ================================================================== lede card beside a title-band cut-out (R-18) */
+/* Below 1024 px the lede card spans the container and the band's cut-out crosses the seam into it: a float at the
+   card's top-right reserves the object's footprint (box + 10 deg rotation allowance) so no line of copy runs under it.
+   The cut-out's phone/tablet size and inset are set here too (under this role's .tpl-cut band class) so the two agree. */
+/* Widths: wide eyeglasses (object aspect ~2.4-2.9) get a floor so the object box stays tall enough to cross the seam by
+   >= 40 px from 768 and >= 24 px on phones (R-18 rule 2; at 17vw the navy frame crossed 32 px at 768). INTEGRATOR
+   2026-10-09: measured on the VISIBLE object (pixel diff, tmp/integrate/r18-probe.mjs), the navy frame (aspect ~2.9,
+   rotated 10 deg) crossed 37 px at 768 with the 60 px floor (its element rect reached 42) and 33-39 px at 1024-1180
+   with the desktop clamp; floors now 70 px x aspect below 1024 and 72 px x aspect from 1024 (only objects wider than
+   about 1.9:1 / 2.3:1 change). */
+.tpl-notch { display: none; }
+@media (min-width: 1024px) {
+  .tpl-cut .title-band__cutout { --cut-w: max(clamp(150px, 16vw, 250px), calc(72px * var(--cut-ar, 1))); }
+}
+/* 1024-1179: the wider frame, grown by its 40 px parallax range, reached the lede card's first line at 1024x768; the
+   cut-out sits 3vw from the edge there instead of 7vw (measured, tmp/integrate/r18-probe.mjs) */
+@media (min-width: 1024px) and (max-width: 1179.98px) {
+  .tpl-cut .title-band__cutout { right: clamp(12px, 3vw, 150px); }
+}
+@media (max-width: 1023.98px) {
+  .tpl-cut .title-band__cutout { --cut-w: max(17vw, calc(70px * var(--cut-ar, 1))); right: 6vw; }
+  .tpl-lede--cut .lede-card { display: flow-root; }
+  .tpl-lede--cut .tpl-notch {
+    --cw: max(17vw, calc(70px * var(--ar, 1))); --cr: 6vw; --pad: clamp(22px, 2.8vw, 40px); --ov: clamp(56px, 7vw, 110px); --seam: 8px;
+    display: block; float: right; margin: 0 0 6px 12px;
+    width: calc(var(--cr) + var(--cw) * 1.1 - var(--gutter) - var(--pad) + 4px);
+    height: calc(var(--cw) / var(--ar, 1) * .46 + var(--cw) * .1 - var(--seam) + var(--ov) - var(--pad) + 4px);
+  }
+}
+@media (max-width: 767.98px) {
+  .tpl-cut .title-band__cutout { --cut-w: max(26vw, calc(40px * var(--cut-ar, 1))); right: 5vw; }
+  .tpl-lede--cut .tpl-notch { --cw: max(26vw, calc(40px * var(--ar, 1))); --cr: 5vw; --ov: 28px; --seam: 6px; }
+}
+
+/* ================================================================== rich text (model + adopted html) */
+.rich > :last-child { margin-bottom: 0; }
+.rich :where(h2, h3, h4) { font-family: var(--serif); font-weight: 400; color: var(--navy); line-height: 1.24; margin: 1.5em 0 .55em; text-wrap: balance; }
+.rich :where(h2, h3, h4):first-child { margin-top: 0; }
+.rich h2 { font-size: var(--fs-h3); }
+.rich :where(h3, h4) { font-size: clamp(1.2rem, 1.06rem + .5vw, 1.45rem); }
+.rich + .rich { margin-top: 1em; }
+.rich + .actions, .designed + .actions { margin-top: 1.4em; }
+/* the lede card's paragraphs (kit.ledeCard sizes the card; this keeps paragraph rhythm) */
+.rich--lede p { margin-bottom: .8em; }
+.rich--lede > :last-child { margin-bottom: 0; }
+/* light text on navy surfaces: lists keep the iris bullet with a light pupil */
+.rich--inv { color: var(--ink-inv); }
+.rich--inv :where(h2, h3, h4) { color: var(--ink-inv); }
+.rich--inv :where(ul:not([class])) > li::before { border-color: var(--label-inv); background: radial-gradient(circle, var(--ink-inv) 0 .14em, transparent .19em); }
+.rich--inv :where(ol:not([class])) > li::marker { color: var(--label-inv); }
+.rich--inv :where(p, li) > a:not([class]) { color: var(--link-inv); text-decoration-color: rgba(191, 224, 247, .55); }
+.rich--inv :where(p, li) > a:not([class]):is(:hover, :focus-visible) { color: #fff; text-decoration-color: var(--focus-inv); }
+
+/* iris bullet as an element (option cards, tiles) */
+.iris-dot {
+  flex: 0 0 22px; width: 22px; height: 22px; border-radius: 50%;
+  border: 1.5px solid var(--sky); background: radial-gradient(circle, var(--navy) 0 3.5px, rgba(68, 137, 188, .16) 4px 100%);
+}
+
+/* glass chips for list items (List split, adopted lists, the bio's focus list) - solid white, no blur (§5.2 chips) */
+.chip-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 1.4em 0 1.6em; padding: 0; list-style: none; }
+.chip-list > li {
+  position: relative; display: block;
+  padding: 14px 16px 14px 48px; border-radius: 18px;
+  background: rgba(255, 255, 255, .8); border: 1px solid rgba(255, 255, 255, .95);
+  box-shadow: inset 0 1px 0 #fff, var(--sh-1);
+  font-size: 1rem; line-height: 1.55; color: var(--ink);
+  transition: transform .4s var(--ease-out), box-shadow .4s var(--ease-out);
+}
+.chip-list > li::before {
+  content: ""; position: absolute; left: 14px; top: 15px; width: 22px; height: 22px; border-radius: 50%;
+  background: radial-gradient(circle at 50% 50%, var(--navy) 0 3.5px, rgba(68, 137, 188, .2) 4px 100%);
+  box-shadow: inset 0 0 0 1.5px rgba(68, 137, 188, .55);
+}
+ol.chip-list { counter-reset: chip; }
+ol.chip-list > li { counter-increment: chip; }
+ol.chip-list > li::before {
+  content: counter(chip); display: grid; place-items: center;
+  font: 650 .8125rem/1 var(--sans); color: #fff; background: var(--blue); box-shadow: none;
+}
+.chip-list--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.chip-list > li > :last-child { margin-bottom: 0; }
+/* the lift mirrors on keyboard focus of a link inside the chip (DESIGN-SPEC 8: :focus-within for cards) */
+@media (hover: hover) { .chip-list > li:hover { transform: translateY(-3px); box-shadow: inset 0 1px 0 #fff, var(--sh-2); } }
+.chip-list > li:focus-within { transform: translateY(-3px); box-shadow: inset 0 1px 0 #fff, var(--sh-2); }
+
+/* ================================================================== Statement (10.9, G6) */
+.statement__grid { display: grid; gap: clamp(18px, 3vw, 44px); }
+.statement__title { margin-bottom: 0; }
+.statement__body .designed > :last-child { margin-bottom: 0; }
+.statement__body .actions { margin-top: 1.5em; }
+@media (min-width: 1024px) {
+  .statement__grid { grid-template-columns: repeat(12, minmax(0, 1fr)); align-items: start; }
+  .statement__head { grid-column: 1 / span 5; }
+  .statement__body { grid-column: 6 / span 7; }
+}
+@media (max-width: 767.98px) {
+  .statement .designed { font-size: 1.18rem; }
+}
+
+/* ================================================================== Reading (10.9) */
+.reading__panel { width: min(100%, 920px); margin-inline: auto; padding: clamp(24px, 4.4vw, 64px) clamp(20px, 4.8vw, 72px); border-radius: var(--r-xl); }
+.reading__panel > .eyebrow { margin-bottom: .9em; }
+.rich--reading { font-size: var(--fs-body); line-height: 1.75; max-width: 72ch; }
+.rich--reading > p:first-child { font-size: var(--fs-lead); line-height: 1.7; }
+.reading__panel .h2 + .rich--reading { margin-top: .2em; }
+/* article: a serif drop cap on the opening paragraph (10.22) */
+.rich--article > p:first-child::first-letter { float: left; margin: .08em .12em 0 0; font: 400 3.6em/.8 var(--serif); color: var(--navy); }
+/* legal: 76ch, 1rem/1.75 (10.24) */
+.reading__panel--legal { width: min(100%, 860px); }
+.rich--legal { font-size: 1rem; line-height: 1.75; max-width: 76ch; }
+.rich--legal :where(p, li) { overflow-wrap: anywhere; }
+/* bio: the biography (10.15) */
+.reading--bio .rich--reading > p { max-width: 68ch; }
+
+/* ================================================================== Split: half-bleed lens-edged photo + glass (10.7) */
+.split { display: flex; align-items: center; min-height: clamp(560px, 46vw, 720px); }
+.split__media { position: absolute; z-index: var(--z-photo); top: clamp(24px, 3vw, 48px); bottom: clamp(24px, 3vw, 48px); width: 64%; }
+.split--img-left .split__media { left: 0; }
+.split--img-right .split__media { right: 0; }
+.split__media > .pic { position: absolute; inset: 0; }
+/* the lens edge always faces the copy: mirrored when the photo sits on the right */
+.split--img-right .split__media > .pic--lens-edge { border-radius: 0; border-top-left-radius: var(--r-lens-edge); border-bottom-left-radius: var(--r-lens-edge); }
+.split--img-right .split__media > .pic--lens-edge::after { box-shadow: inset 1px 0 0 rgba(255, 255, 255, .9), inset 14px 0 30px -18px rgba(255, 255, 255, .9); }
+.split__inner { position: relative; z-index: var(--z-glass); display: flex; }
+.split--img-left .split__inner { justify-content: flex-end; }
+.split--img-right .split__inner { justify-content: flex-start; }
+.split__panel { width: min(100%, 560px); padding: clamp(26px, 3vw, 44px); }
+/* flagged photo with a fixed 16:9 crop (13.5): the frame keeps its aspect instead of filling the band */
+.split--wide .split__media { top: 50%; bottom: auto; aspect-ratio: 16 / 9; transform: translateY(-50%); }
+/* navy band variant (10.12) */
+.split--navy { box-shadow: inset 0 1px 0 rgba(255, 255, 255, .55), inset 0 -1px 0 rgba(255, 255, 255, .25); }
+.split--navy .split__panel { width: min(100%, 580px); }
+@media (max-width: 899.98px) {
+  .split { display: block; min-height: 0; padding-top: 0; }
+  .split__media, .split--wide .split__media { position: relative; inset: auto; width: 100%; height: 78vw; transform: none; aspect-ratio: auto; }
+  .split--wide .split__media { height: auto; aspect-ratio: 16 / 9; }
+  .split__media > .pic--lens-edge, .split--img-right .split__media > .pic--lens-edge { border-radius: 0 0 50% 50% / 0 0 18% 18%; }
+  .split__media > .pic--lens-edge::after, .split--img-right .split__media > .pic--lens-edge::after { box-shadow: inset 0 -1px 0 rgba(255, 255, 255, .9); }
+  .split__inner { margin-top: -16vw; }
+  .split__panel, .split--navy .split__panel { width: 100%; }
+  .split--navy { padding-top: 0; }
+}
+
+/* ================================================================== Arch: copy beside an arch window (10.7) */
+.arch-split__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .82fr); gap: clamp(32px, 6vw, 96px); align-items: center; }
+.arch-split--img-left .arch-split__grid { grid-template-columns: minmax(0, .82fr) minmax(0, 1fr); }
+.arch-split--img-left .arch-split__media { order: -1; }
+.arch-split__copy { max-width: 600px; }
+.arch-split--img-left .arch-split__copy { justify-self: end; }
+.arch-split__media .pic--arch { width: min(100%, 520px); margin-inline: auto; }
+@media (max-width: 899.98px) {
+  .arch-split__grid, .arch-split--img-left .arch-split__grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .arch-split__media { order: -1; }
+  .arch-split__media .pic--arch { width: min(100%, 420px); }
+  .arch-split__copy { max-width: none; }
+}
+
+/* ================================================================== postcard split: a real-place print breaking out of the panel (10.21) */
+.pc-split { padding-block: calc(var(--section) * .8); }
+.pc-split__grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
+.pc-split--img-left .pc-split__grid { grid-template-columns: auto minmax(0, 1fr); }
+.pc-split--img-left .pc-split__media { order: -1; }
+.pc-split__panel { padding: clamp(26px, 3.4vw, 52px); padding-right: clamp(40px, 7vw, 120px); border-radius: var(--r-xl); }
+.pc-split--img-left .pc-split__panel { padding-right: clamp(26px, 3.4vw, 52px); padding-left: clamp(40px, 7vw, 120px); }
+.pc-split__media { position: relative; z-index: var(--z-lift); margin-left: calc(-1 * clamp(32px, 6vw, 96px)); }
+.pc-split--img-left .pc-split__media { margin-left: 0; margin-right: calc(-1 * clamp(32px, 6vw, 96px)); }
+.pc-split::before { /* the light pool the panel frosts (R-5) */
+  content: ""; position: absolute; inset: 6% -4%; z-index: -1; pointer-events: none;
+  background: radial-gradient(36% 52% at 30% 46%, rgba(68, 137, 188, .24), rgba(68, 137, 188, 0) 72%), radial-gradient(30% 44% at 72% 40%, rgba(255, 255, 255, .9), rgba(255, 255, 255, 0) 70%);
+}
+@media (max-width: 899.98px) {
+  .pc-split__grid, .pc-split--img-left .pc-split__grid { grid-template-columns: minmax(0, 1fr); }
+  .pc-split__panel, .pc-split--img-left .pc-split__panel { padding: 26px 22px 30px; }
+  .pc-split__media, .pc-split--img-left .pc-split__media { order: 2; margin: -28px auto 0; justify-self: center; width: min(86vw, 400px); }
+}
+
+/* ================================================================== lens split: a small square photo in the lens (11.3, 11.4) */
+.lens-split__grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(32px, 5vw, 80px); align-items: center; }
+.lens-split--img-left .lens-split__grid { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); }
+.lens-split--img-left .lens-split__media { order: -1; }
+.lens-split__media .pic--lens { width: min(100%, var(--lens-max, 520px)); margin-inline: auto; }
+.lens-split::before {
+  content: ""; position: absolute; inset: 10% 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(28% 50% at 74% 50%, rgba(68, 137, 188, .22), rgba(68, 137, 188, 0) 72%);
+}
+.lens-split--img-left::before { background: radial-gradient(28% 50% at 26% 50%, rgba(68, 137, 188, .22), rgba(68, 137, 188, 0) 72%); }
+@media (max-width: 899.98px) {
+  .lens-split__grid, .lens-split--img-left .lens-split__grid { grid-template-columns: minmax(0, 1fr); }
+  .lens-split__media { order: -1; }
+  .lens-split__media .pic--lens { width: min(78%, var(--lens-max, 440px)); }
+}
+
+/* ================================================================== List split: chips + the lens rising across the arched band (10.10) */
+.list-split { padding-top: clamp(120px, 12vw, 170px); }
+.list-split.band--seaglass::before { top: clamp(56px, 6vw, 92px); }
+.list-split__grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(32px, 5vw, 80px); align-items: start; }
+.list-split__media .pic--lens { width: min(100%, 520px); margin: calc(-1 * clamp(110px, 12vw, 190px)) auto 0; }
+@media (max-width: 1023.98px) {
+  .list-split__grid { grid-template-columns: minmax(0, 1fr); }
+  .list-split__media { order: -1; }
+  .list-split__media .pic--lens { width: min(78%, 440px); margin-top: calc(-1 * clamp(40px, 8vw, 80px)); }
+}
+@media (max-width: 767.98px) {
+  .list-split { padding-top: 64px; }
+  .list-split.band--seaglass::before { top: 32px; }
+  .chip-list, .chip-list--3 { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* ================================================================== Options: arch beside the heading, option cards below (10.10) */
+.options__head { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); gap: clamp(28px, 5vw, 72px); align-items: center; margin-bottom: clamp(36px, 4vw, 56px); }
+.options__head .h2 { margin-bottom: .5em; }
+.options__media .pic--arch { width: min(100%, 360px); margin-inline: auto; }
+.rich--lead { font-size: var(--fs-lead); line-height: 1.68; }
+.opt-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: clamp(14px, 2vw, 24px); margin: 0; padding: 0; list-style: none; }
+/* each grid cell carries two light pools placed behind its card on purpose (DESIGN-SPEC 5.4): a sky pool under the
+   lower-left corner, a white sun-pool under the upper-right. Small option cards that landed between the section's
+   pools measured a backdrop range of 0.06-0.09 (R-5 needs 0.10). The pools are the cell's, not the card's, so they
+   stay behind the glass (and in its backdrop) while the card itself reveals and lifts. */
+.opt-cell { position: relative; grid-column: span 2; display: flex; }
+.opt-cell::before, .opt-cell::after { content: ""; position: absolute; z-index: 0; pointer-events: none; }
+.opt-cell::before { left: -8%; bottom: -16%; width: 64%; height: 84%; background: radial-gradient(closest-side, rgba(68, 137, 188, .38), rgba(68, 137, 188, 0)); }
+.opt-cell::after { right: -6%; top: -14%; width: 54%; height: 74%; background: radial-gradient(closest-side, rgba(255, 255, 255, .95), rgba(255, 255, 255, 0)); }
+.opt-card {
+  flex: 1 1 auto; display: flex; flex-direction: column; gap: 14px;
+  padding: clamp(22px, 2.4vw, 30px); border-radius: var(--r-lg);
+  font-size: 1rem; line-height: 1.6; color: var(--ink-2);
+  transition: transform .5s var(--ease-out), box-shadow .5s var(--ease-out);
+}
+.opt-card p { margin: 0; }
+.opt-card strong { display: block; margin-bottom: .25em; font: 400 1.22rem/1.3 var(--serif); color: var(--navy); }
+.opt-grid--4 .opt-cell, .opt-grid--2 .opt-cell { grid-column: span 3; }
+.opt-grid--5 .opt-cell:nth-child(4) { grid-column: 2 / span 2; }
+.options__actions, .options .rich { margin-top: clamp(20px, 2.4vw, 32px); }
+@media (hover: hover) { .opt-card:hover { transform: translateY(-6px); box-shadow: var(--inner), var(--sh-3); } }
+.opt-card:focus-within { transform: translateY(-6px); box-shadow: var(--inner), var(--sh-3); }
+@media (max-width: 1023.98px) {
+  .opt-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .opt-cell, .opt-grid--4 .opt-cell, .opt-grid--5 .opt-cell:nth-child(4) { grid-column: auto; }
+  .opt-grid--5 .opt-cell:last-child, .opt-grid--3 .opt-cell:last-child { grid-column: 1 / -1; }
+}
+@media (max-width: 899.98px) {
+  .options__head { grid-template-columns: minmax(0, 1fr); }
+  .options__media { order: -1; }
+  .options__media .pic--arch { width: min(78%, 320px); }
+}
+@media (max-width: 767.98px) {
+  .opt-grid { grid-template-columns: minmax(0, 1fr); }
+  .opt-grid--5 .opt-cell:last-child, .opt-grid--3 .opt-cell:last-child { grid-column: auto; }
+}
+
+/* ================================================================== CTA band: navy panel, loop plane, smoked card (10.9) */
+.cta-band-wrap { padding-block: clamp(56px, 6vw, 96px); }
+.cta-band {
+  position: relative; overflow: hidden; isolation: isolate;
+  border-radius: var(--r-xl);
+  padding: clamp(36px, 5vw, 80px) clamp(18px, 5vw, 80px);
+  background: linear-gradient(150deg, var(--navy-2), var(--navy) 55%, var(--navy-deep));
+  box-shadow: var(--sh-3);
+}
+.cta-band::before {
+  content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background: radial-gradient(45% 70% at 12% 16%, rgba(68, 137, 188, .28), rgba(68, 137, 188, 0) 70%), radial-gradient(40% 60% at 92% 92%, rgba(68, 137, 188, .18), rgba(68, 137, 188, 0) 70%);
+}
+.cta-band__loop { opacity: .6; mix-blend-mode: screen; }   /* 60 %, not 30 %: R-5 structure behind the smoked card (see blocks.mjs ctaBand) */
+.cta-band__card { position: relative; z-index: 2; max-width: 780px; margin-inline: auto; text-align: center; padding: clamp(24px, 3.4vw, 48px); border-radius: var(--r-lg); }
+.cta-band__title { margin-bottom: .45em; }
+.cta-band__card .rich--inv { font-size: var(--fs-lead); line-height: 1.7; }
+.cta-band__card .actions { justify-content: center; }
+@media (max-width: 767.98px) {
+  .cta-band { border-radius: 30px; }
+  .cta-band__card .actions .btn { flex: 1 1 100%; }
+}
+
+/* ================================================================== navy text block (10.12) */
+.navy-text { box-shadow: inset 0 1px 0 rgba(255, 255, 255, .55); }
+.navy-text__inner { max-width: 820px; }
+
+/* ================================================================== title-band additions (asides and the panel extras) */
+/* bio: the portrait sits at the panel's top-right corner and breaks out of its right edge by 48 px (10.15, P-frame),
+   clear of the floating header. Only the rows beside it (crumbs, H1) keep clear of it; the CTA row below it uses the
+   full width (a padded panel wrapped Book and Call onto two rows at 1280). --tbp mirrors the panel's own padding. */
+.tb-portrait { position: absolute; z-index: var(--z-lift); top: clamp(18px, 2.4vw, 30px); right: -48px; width: 150px; }
+.tb-portrait .pic--portrait { width: 150px; }
+.title-band--bio .title-band__panel { --tbp: clamp(24px, 3vw, 42px); padding-right: var(--tbp); }
+.title-band--bio .title-band__panel > :is(.crumbs, .eyebrow, .title-band__h1) { margin-right: calc(150px - 48px - var(--tbp) + 16px); }
+@media (min-width: 1024px) and (max-height: 700px) { .title-band--bio .title-band__panel { --tbp: 30px; } }
+@media (max-width: 767.98px) {
+  .tb-portrait { position: relative; top: auto; right: auto; width: 120px; margin: 18px 0 0; }
+  .tb-portrait .pic--portrait { width: 120px; }
+  .title-band--bio .title-band__panel > :is(.crumbs, .eyebrow, .title-band__h1) { margin-right: 0; }
+}
+/* form bands (10.23): the page's job is the form, so its texture band (CTA row kept) takes the compact height and the
+   first fields reach the first screen (at 1440x900 the full band left the form below the fold) */
+@media (min-width: 768px) { .tpl-form.title-band { min-height: clamp(400px, 58svh, 600px); } }
+/* compact band (legal, sitemap: 10.24, 10.25). THEME-CORE's short-window rule (.title-band, min-height 92svh) comes
+   later in the cascade than .title-band--compact and cancels it at 1280x585 (the band filled the first screen and the
+   policy started below the fold); this role's compact bands restate the compact height. */
+@media (min-width: 1024px) and (max-height: 700px) { .tpl-compact.title-band--compact { min-height: clamp(400px, 58svh, 600px); } }
+/* postcard band (/about-us/, 10.5 + 11.5): the print crosses the band's bottom seam (P-frame). kit.titleBand puts it in
+   .title-band__aside, which the band's flex row centres beside the panel, so the print floated at the band's top; the
+   aside aligned to the row's bottom lets the print's own negative bottom margin (chrome.css) carry it over the seam. */
+@media (min-width: 768px) { .tpl-postcard .title-band__aside { align-self: flex-end; } }
+
+/* reviews: the stars under the CTA row */
+.tb-stars { margin: 18px 0 0; }
+.tb-stars .stars .ico { width: 22px; height: 22px; }
+
+/* town page: the location card straddles the seam on the right, beside the lede card (11.8, P-straddle) */
+.town-straddle { position: relative; display: flow-root; }
+.town-straddle .lede-card { width: min(100%, 600px); }
+.town-straddle__loc { position: absolute; z-index: var(--z-lift); top: calc(-1 * clamp(80px, 9vw, 132px)); left: 0; right: 0; display: flex; justify-content: flex-end; pointer-events: none; }
+.tb-loc { pointer-events: auto; width: min(100%, 340px); }
+@media (max-width: 1023.98px) { .town-straddle .lede-card { width: min(100%, 520px); } .tb-loc { width: min(100%, 300px); } }
+@media (max-width: 899.98px) {
+  .town-straddle__loc { position: relative; top: auto; margin-top: 18px; justify-content: flex-start; }
+  .town-straddle .lede-card { width: 100%; }
+  .tb-loc { width: min(100%, 360px); }
+}
+
+/* ================================================================== related (10.29) */
+.related__head { margin-bottom: clamp(56px, 6vw, 84px); }
+.related__head .h2 { margin-bottom: 0; }
+/* doctor portraits stay small (BUILD-CONTRACT 4.10): a 150 px portrait instead of the 16:10 card photo */
+.related .card--portrait .card__media--portrait { aspect-ratio: auto; display: grid; place-items: center; padding-top: 0; background: none; box-shadow: none; overflow: visible; }
+.related .card--portrait .pic--portrait { width: 120px; margin-top: -48px; }
+.related .card--portrait .card__media--portrait img { transform: none; }
+@media (max-width: 767.98px) {
+  .related .card--portrait .card__media--portrait { width: 96px; }
+  .related .card--portrait .pic--portrait { width: 96px; margin-top: 0; border-width: 4px; border-radius: 18px; }
+}

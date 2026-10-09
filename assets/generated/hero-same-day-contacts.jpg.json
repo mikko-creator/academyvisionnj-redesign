@@ -1,0 +1,36 @@
+{
+  "id": "hero-same-day-contacts",
+  "file": "assets/generated/hero-same-day-contacts.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the same-day contacts page (adopted slot)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "A clear soft contact lens balanced on a fingertip",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Macro photograph of a single clear soft contact lens balanced on a fingertip, a small bright highlight on its rim, clean white and pale blue background with soft light, the fingertip entering from the right, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 636364908,
+  "requestId": "01a119dc-b191-7d10-90b5-db2031f670a1",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-same-day-contacts.a2.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "87fdf20cd17eeee457cc1148b5f4c98320d636aa1006e03ad51041a0bab1d61b",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: one clear soft lens dome on a fingertip, pale blue background; lens ~66% x; calm left half",
+      "100% lens + 400% rim: thin clean edge, one smooth dome, no markings or numerals",
+      "50% fingertip: correct shape; skin texture slightly stylised (regular pore dots) - noted, not anatomy-wrong"
+    ],
+    "notes": "retry 1: plan prompt with safety_tolerance 5 (a1 was the safety-filter black frame)",
+    "at": "2026-10-08T04:57:02.122Z",
+    "retries": 1
+  },
+  "promotedAt": "2026-10-08T04:57:08.688Z"
+}

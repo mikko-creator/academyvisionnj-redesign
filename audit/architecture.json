@@ -1,0 +1,131 @@
+{
+  "schema": "site-reforge/architecture@1",
+  "generated": "2026-10-08T00:57:48.303Z",
+  "origin": "https://www.academyvisionnj.com",
+  "pageTypes": {
+    "home": 1,
+    "page": 25,
+    "form": 1,
+    "legal": 1,
+    "about": 3
+  },
+  "urlDepthHistogram": {
+    "0": 1,
+    "1": 13,
+    "2": 17
+  },
+  "primaryNav": [
+    {
+      "label": "Home",
+      "onPages": 31
+    },
+    {
+      "label": "About Us",
+      "onPages": 31
+    },
+    {
+      "label": "Our Eye Doctors",
+      "onPages": 31
+    },
+    {
+      "label": "Eye Care Services",
+      "onPages": 31
+    },
+    {
+      "label": "Comprehensive Eye Exams",
+      "onPages": 31
+    },
+    {
+      "label": "Dry Eye Treatment",
+      "onPages": 31
+    },
+    {
+      "label": "Eye Disease Management",
+      "onPages": 31
+    },
+    {
+      "label": "Myopia Management",
+      "onPages": 31
+    },
+    {
+      "label": "Pediatric Eye care",
+      "onPages": 31
+    },
+    {
+      "label": "LASIK Co-Management",
+      "onPages": 31
+    },
+    {
+      "label": "Eyeglasses",
+      "onPages": 31
+    },
+    {
+      "label": "Varilux® Lenses",
+      "onPages": 31
+    },
+    {
+      "label": "Avulux® Migraine Lenses",
+      "onPages": 31
+    },
+    {
+      "label": "Stellest® Lenses",
+      "onPages": 31
+    },
+    {
+      "label": "Contact Lenses",
+      "onPages": 31
+    },
+    {
+      "label": "Contact Lenses Exams",
+      "onPages": 31
+    },
+    {
+      "label": "Orthokeratology (Ortho-K)",
+      "onPages": 31
+    },
+    {
+      "label": "Scleral Lenses",
+      "onPages": 31
+    },
+    {
+      "label": "Insurance",
+      "onPages": 31
+    },
+    {
+      "label": "Hours & Location",
+      "onPages": 31
+    }
+  ],
+  "globalFooterCandidates": [
+    {
+      "onPages": 31,
+      "sample": "Contact Us Academy Vision (732) 978-9306 90 Atlantic City Blvd, Pine Beach, NJ 08741 » Locate Us Hours monday: 9:00 am - 5:00 pm tuesday: 9:00 am - 5:00 pm wednesday: 9:00 am - 5:00 pm thursday: 9:00 am - 5:00 pm friday: 8:00 am - 3:00 pm saturday: Closed sunday: Closed © 2026 Powered by Accessibility Sitemap Privacy Disclaimer"
+    }
+  ],
+  "formsByAction": [
+    {
+      "action": "(same page) [get]",
+      "pages": [
+        "https://www.academyvisionnj.com/appointment-request-form",
+        "https://www.academyvisionnj.com/patient-registration-form"
+      ],
+      "fields": [
+        "patient_status",
+        "patient_status",
+        "text",
+        "text",
+        "phone",
+        "email",
+        "number",
+        "number",
+        "reason-for-appointment",
+        "preferred-date-times",
+        "comments",
+        "select"
+      ]
+    }
+  ],
+  "orphanPages": [
+    "https://www.academyvisionnj.com/location/academy-vision"
+  ]
+}

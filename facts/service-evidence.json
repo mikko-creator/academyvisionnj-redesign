@@ -1,0 +1,1407 @@
+{
+  "schema": "academyvision/service-evidence@1",
+  "generated": "2026-10-08T02:30:14.197Z",
+  "method": "Each Eye Trends service, product and utility page (from the Eye Trends content inventory) is checked against Academy Vision text extracted from audit/raw. YES = the service is named in Academy Vision visible copy; PARTIAL = only part of it, or only an adjacent service, is evidenced; NO = no Academy Vision text evidences it. Every quote is verbatim and was located in the cited page on the cited surface.",
+  "counts": {
+    "YES": 28,
+    "PARTIAL": 7,
+    "NO": 1
+  },
+  "rows": [
+    {
+      "etPath": "/services",
+      "kind": "hub",
+      "purpose": "Index of every eye care service, grouped by type of visit.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/",
+          "file": "audit/raw/eye-care-services.html",
+          "surface": "visible",
+          "quote": "From comprehensive eye exams to eye condition treatment, we make sure you and your family always feel looked after"
+        }
+      ],
+      "notEvidenced": "The Academy Vision hub lists six services; urgent care is described only on /hours-location/, and contact lenses sit under /contact-lenses/.",
+      "avSource": [
+        "/eye-care-services/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/adult-eye-exams",
+      "kind": "page",
+      "purpose": "Routine comprehensive exam aimed at adults.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/comprehensive-eye-exams/",
+          "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+          "surface": "visible",
+          "quote": "We see patients of all ages, from young kids coming in for their first exam to adults staying on top of changes in their vision."
+        }
+      ],
+      "notEvidenced": "Exam length and dilation are not stated in visible text (dilation appears only in page JSON-LD).",
+      "avSource": [
+        "/eye-care-services/comprehensive-eye-exams/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/back-to-school-eye-exams",
+      "kind": "page",
+      "purpose": "Pre-school-year exam for children, contrasted with school screenings.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+          "file": "audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html",
+          "surface": "visible",
+          "quote": "Back-to-school season is a practical time to schedule"
+        },
+        {
+          "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+          "file": "audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html",
+          "surface": "visible",
+          "quote": "School screenings are useful basic checks, but they are not a substitute for a comprehensive pediatric eye exam."
+        }
+      ],
+      "notEvidenced": "No seasonal booking offer or scheduling window is stated.",
+      "avSource": [
+        "/article/pediatric-eye-exams-beyond-school-screenings/",
+        "/eye-care-services/pediatric-eye-care/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/cataract-co-management",
+      "kind": "page",
+      "purpose": "Watching a cataract, referring for surgery, and caring for the patient before and after.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/eye-disease-management/",
+          "file": "audit/raw/eye-care-services-eye-disease-management.html",
+          "surface": "visible",
+          "quote": "coordinate with New Jersey eye surgeons to make sure you receive expert care before and after surgery."
+        },
+        {
+          "page": "/team/dr-tyler-lesko-od/",
+          "file": "audit/raw/team-dr-tyler-lesko-od.html",
+          "surface": "visible",
+          "quote": "He is certified in Light Adjustable Lens technology"
+        }
+      ],
+      "notEvidenced": "No surgeon or surgery center is named; no post-operative visit schedule is stated.",
+      "avSource": [
+        "/eye-care-services/eye-disease-management/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/childrens-contact-lenses",
+      "kind": "page",
+      "purpose": "A child’s first fitting for contacts, with coaching on insertion, removal and care.",
+      "verdict": "PARTIAL",
+      "evidence": [
+        {
+          "page": "/eye-care-services/myopia-management/",
+          "file": "audit/raw/eye-care-services-myopia-management.html",
+          "surface": "visible",
+          "quote": "Soft contact lenses designed specifically for kids to help control how light enters the eye and slow prescription changes."
+        },
+        {
+          "page": "/contact-lenses/orthokeratology-ortho-k/",
+          "file": "audit/raw/contact-lenses-orthokeratology-ortho-k.html",
+          "surface": "visible",
+          "quote": "works for both kids and adults."
+        },
+        {
+          "page": "/contact-lenses/contact-lenses-exams/",
+          "file": "audit/raw/contact-lenses-contact-lenses-exams.html",
+          "surface": "visible",
+          "quote": "We’ll show you how to put them in, take them out, and care for them properly, step by step."
+        }
+      ],
+      "notEvidenced": "Kid lenses are evidenced only for myopia control and ortho-k; the handling lesson is not described as child-specific; no minimum age.",
+      "avSource": [
+        "/eye-care-services/myopia-management/",
+        "/contact-lenses/contact-lenses-exams/"
+      ],
+      "mayClaim": "only the evidenced part; the rest needs practice confirmation"
+    },
+    {
+      "etPath": "/services/childrens-eye-care",
+      "kind": "hub",
+      "purpose": "Overview of all care for children.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/pediatric-eye-care/",
+          "file": "audit/raw/eye-care-services-pediatric-eye-care.html",
+          "surface": "visible",
+          "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in."
+        }
+      ],
+      "notEvidenced": "",
+      "avSource": [
+        "/eye-care-services/pediatric-eye-care/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/comprehensive-eye-exams",
+      "kind": "page",
+      "purpose": "Routine checkup of eyesight and eye health for every age group.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/comprehensive-eye-exams/",
+          "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+          "surface": "visible",
+          "quote": "Academy Vision provides thorough eye exams for patients of all ages"
+        }
+      ],
+      "notEvidenced": "Exam duration is not stated.",
+      "avSource": [
+        "/eye-care-services/comprehensive-eye-exams/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/contact-lens-exams",
+      "kind": "page",
+      "purpose": "Eye exam plus measurements and a trial fit for contact lens wearers.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/contact-lenses/contact-lenses-exams/",
+          "file": "audit/raw/contact-lenses-contact-lenses-exams.html",
+          "surface": "visible",
+          "quote": "A contact lens exam goes a step beyond a standard eye exam."
+        }
+      ],
+      "notEvidenced": "",
+      "avSource": [
+        "/contact-lenses/contact-lenses-exams/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/diabetic-eye-exams",
+      "kind": "page",
+      "purpose": "Annual retina exam for people who have diabetes.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/eye-disease-management/",
+          "file": "audit/raw/eye-care-services-eye-disease-management.html",
+          "surface": "visible",
+          "quote": "Routine diabetic eye exams help us monitor those changes and step in if needed."
+        }
+      ],
+      "notEvidenced": "Reports to the primary care doctor and retinal imaging are not stated.",
+      "avSource": [
+        "/eye-care-services/eye-disease-management/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/dry-eye-treatment",
+      "kind": "page",
+      "purpose": "Finding the cause of dry eye and treating it.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/dry-eye-treatment/",
+          "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+          "surface": "visible",
+          "quote": "we look beyond quick fixes to find out what"
+        },
+        {
+          "page": "/eye-care-services/dry-eye-treatment/",
+          "file": "audit/raw/eye-care-services-dry-eye-treatment.html",
+          "surface": "visible",
+          "quote": "Punctal plugs to help your eyes hold onto moisture longer"
+        }
+      ],
+      "notEvidenced": "Diagnostic devices are named only in the meta description (LipiScan, Inflammadry); IPL and thermal gland treatments are not mentioned anywhere.",
+      "avSource": [
+        "/eye-care-services/dry-eye-treatment/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/emergency-eye-care",
+      "kind": "page",
+      "purpose": "Prompt appointments when an eye is hurt, sore, red or suddenly seeing worse.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/hours-location/",
+          "file": "audit/raw/hours-location.html",
+          "surface": "visible",
+          "quote": "we offer emergency eye care in Pine Beach whenever possible."
+        }
+      ],
+      "notEvidenced": "No same-day promise (the site says whenever possible), no after-hours line, no walk-in policy.",
+      "avSource": [
+        "/hours-location/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/flashes-floaters",
+      "kind": "page",
+      "purpose": "Urgent retina exam when floaters or light flashes suddenly appear.",
+      "verdict": "PARTIAL",
+      "evidence": [
+        {
+          "page": "/hours-location/",
+          "file": "audit/raw/hours-location.html",
+          "surface": "visible",
+          "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort"
+        }
+      ],
+      "notEvidenced": "Flashes, floaters and retinal tears are never named as a service (floaters appear only as a registration-form checkbox and in generic JSON-LD); same-day visits are not stated.",
+      "avSource": [
+        "/hours-location/"
+      ],
+      "mayClaim": "only the evidenced part; the rest needs practice confirmation"
+    },
+    {
+      "etPath": "/services/foreign-body-removal",
+      "kind": "page",
+      "purpose": "Removing something lodged in the eye.",
+      "verdict": "PARTIAL",
+      "evidence": [
+        {
+          "page": "/team/dr-marc-ullman-od/",
+          "file": "audit/raw/team-dr-marc-ullman-od.html",
+          "surface": "visible",
+          "quote": "seeking relief from chronic dry eye, red eyes, and ocular injuries."
+        },
+        {
+          "page": "/hours-location/",
+          "file": "audit/raw/hours-location.html",
+          "surface": "visible",
+          "quote": "an eye injury"
+        }
+      ],
+      "notEvidenced": "Foreign-body removal is never named (only a registration-form symptom checkbox); same-day visits are not stated.",
+      "avSource": [
+        "/hours-location/",
+        "/team/dr-marc-ullman-od/"
+      ],
+      "mayClaim": "only the evidenced part; the rest needs practice confirmation"
+    },
+    {
+      "etPath": "/services/gas-permeable-contacts",
+      "kind": "page",
+      "purpose": "Fitting rigid gas-permeable corneal lenses.",
+      "verdict": "NO",
+      "evidence": [],
+      "related": [
+        {
+          "page": "/team/dr-marc-ullman-od/",
+          "file": "audit/raw/team-dr-marc-ullman-od.html",
+          "surface": "visible",
+          "quote": "Managing difficult contact lens fittings"
+        },
+        {
+          "page": "/contact-lenses/scleral-lenses/",
+          "file": "audit/raw/contact-lenses-scleral-lenses.html",
+          "surface": "visible",
+          "quote": "Scleral lenses are larger than standard contact lenses"
+        }
+      ],
+      "notEvidenced": "The words gas permeable, GP and rigid do not appear on the site; only scleral lenses and ortho-k are named as specialty lenses.",
+      "avSource": [],
+      "mayClaim": "no; practice must confirm before any page claims it"
+    },
+    {
+      "etPath": "/services/glaucoma-management",
+      "kind": "page",
+      "purpose": "Long-term care that tracks glaucoma at each visit.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/eye-disease-management/",
+          "file": "audit/raw/eye-care-services-eye-disease-management.html",
+          "surface": "visible",
+          "quote": "We keep a close watch and help manage the condition to protect your vision."
+        },
+        {
+          "page": "/team/dr-tyler-lesko-od/",
+          "file": "audit/raw/team-dr-tyler-lesko-od.html",
+          "surface": "visible",
+          "quote": "Early detection and monitoring of glaucoma"
+        }
+      ],
+      "notEvidenced": "No test or device is named in practice copy; patients describe an eye scan in place of the air-puff test. Surgical treatments listed in page JSON-LD are generic, not practice services.",
+      "avSource": [
+        "/eye-care-services/eye-disease-management/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/lasik-co-management",
+      "kind": "page",
+      "purpose": "LASIK candidacy evaluation, referral and post-op care.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/lasik-co-management/",
+          "file": "audit/raw/eye-care-services-lasik-co-management.html",
+          "surface": "visible",
+          "quote": "we’ll connect you with a local eye surgeon and coordinate your care."
+        }
+      ],
+      "notEvidenced": "No surgeon is named; the follow-up schedule exists only in generic page JSON-LD.",
+      "avSource": [
+        "/eye-care-services/lasik-co-management/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/macular-degeneration",
+      "kind": "page",
+      "purpose": "Ongoing monitoring of the macula for patients at risk of degeneration.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/eye-disease-management/",
+          "file": "audit/raw/eye-care-services-eye-disease-management.html",
+          "surface": "visible",
+          "quote": "Macular degeneration affects your central vision"
+        },
+        {
+          "page": "/team/dr-tyler-lesko-od/",
+          "file": "audit/raw/team-dr-tyler-lesko-od.html",
+          "surface": "visible",
+          "quote": "monitoring of glaucoma, macular degeneration, and cataracts."
+        }
+      ],
+      "notEvidenced": "Supplements, injections, Amsler grid and low vision appear only in page JSON-LD, not as practice services.",
+      "avSource": [
+        "/eye-care-services/eye-disease-management/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/medical-eye-care",
+      "kind": "hub",
+      "purpose": "Overview of diagnosing and managing eye disease.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/hours-location/",
+          "file": "audit/raw/hours-location.html",
+          "surface": "visible",
+          "quote": "from comprehensive eye exams to medical eye care, dry eye treatment, and more."
+        },
+        {
+          "page": "/insurance/",
+          "file": "audit/raw/insurance.html",
+          "surface": "visible",
+          "quote": "Medical insurance comes into play when there"
+        }
+      ],
+      "notEvidenced": "",
+      "avSource": [
+        "/eye-care-services/eye-disease-management/",
+        "/hours-location/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/multifocal-contacts",
+      "kind": "page",
+      "purpose": "Contact lenses for near and far vision after about age 40.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/contact-lenses/",
+          "file": "audit/raw/contact-lenses.html",
+          "surface": "visible",
+          "quote": "DAILIES TOTAL1® Multifocal"
+        },
+        {
+          "page": "/contact-lenses/",
+          "file": "audit/raw/contact-lenses.html",
+          "surface": "visible",
+          "quote": "TOTAL30® Multifocal"
+        }
+      ],
+      "notEvidenced": "Bifocal contacts and monovision are not mentioned; no multifocal fitting process is described.",
+      "avSource": [
+        "/contact-lenses/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/myopia-management",
+      "kind": "page",
+      "purpose": "Slowing nearsightedness in children.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/myopia-management/",
+          "file": "audit/raw/eye-care-services-myopia-management.html",
+          "surface": "visible",
+          "quote": "we work to protect their vision for the future."
+        },
+        {
+          "page": "/eyeglasses/stellest-lenses/",
+          "file": "audit/raw/eyeglasses-stellest-lenses.html",
+          "surface": "visible",
+          "quote": "Stellest® lenses are designed specifically for myopia management"
+        }
+      ],
+      "notEvidenced": "",
+      "avSource": [
+        "/eye-care-services/myopia-management/",
+        "/eyeglasses/stellest-lenses/",
+        "/contact-lenses/orthokeratology-ortho-k/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/pediatric-eye-exams",
+      "kind": "page",
+      "purpose": "Eye exams for children.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eye-care-services/pediatric-eye-care/",
+          "file": "audit/raw/eye-care-services-pediatric-eye-care.html",
+          "surface": "visible",
+          "quote": "Pediatric eye exams help us catch those issues early"
+        }
+      ],
+      "notEvidenced": "No age at which exams start is stated.",
+      "avSource": [
+        "/eye-care-services/pediatric-eye-care/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/pink-eye-conjunctivitis",
+      "kind": "page",
+      "purpose": "Diagnosing and treating conjunctivitis.",
+      "verdict": "PARTIAL",
+      "evidence": [
+        {
+          "page": "/insurance/",
+          "file": "audit/raw/insurance.html",
+          "surface": "visible",
+          "quote": "This can include things like infections, dry eye, eye disease, or sudden changes in your vision."
+        }
+      ],
+      "notEvidenced": "Pink eye and conjunctivitis are never named; same-day treatment is not stated.",
+      "avSource": [
+        "/insurance/",
+        "/hours-location/"
+      ],
+      "mayClaim": "only the evidenced part; the rest needs practice confirmation"
+    },
+    {
+      "etPath": "/services/red-eye-treatment",
+      "kind": "page",
+      "purpose": "Finding and treating the cause of a red eye.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/team/dr-marc-ullman-od/",
+          "file": "audit/raw/team-dr-marc-ullman-od.html",
+          "surface": "visible",
+          "quote": "primary resource for patients seeking relief from chronic dry eye, red eyes, and ocular injuries."
+        },
+        {
+          "page": "/hours-location/",
+          "file": "audit/raw/hours-location.html",
+          "surface": "visible",
+          "quote": "an eye injury, redness, or discomfort"
+        }
+      ],
+      "notEvidenced": "Same-day visits are not stated.",
+      "avSource": [
+        "/team/dr-marc-ullman-od/",
+        "/hours-location/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/same-day-contacts",
+      "kind": "page",
+      "purpose": "Fitting contacts and sending the patient home in trial lenses that day.",
+      "verdict": "PARTIAL",
+      "evidence": [
+        {
+          "page": "/contact-lenses/contact-lenses-exams/",
+          "file": "audit/raw/contact-lenses-contact-lenses-exams.html",
+          "surface": "visible",
+          "quote": "We fit you with trial lenses so you can experience how they feel"
+        }
+      ],
+      "notEvidenced": "Leaving in lenses the same day is not stated; same-day is claimed for glasses only and must not be transferred to contacts.",
+      "avSource": [
+        "/contact-lenses/contact-lenses-exams/"
+      ],
+      "mayClaim": "only the evidenced part; the rest needs practice confirmation"
+    },
+    {
+      "etPath": "/services/senior-eye-exams",
+      "kind": "page",
+      "purpose": "Thorough exams for older adults.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/",
+          "file": "audit/raw/index.html",
+          "surface": "visible",
+          "quote": "ongoing care for adults and seniors"
+        },
+        {
+          "page": "/eye-care-services/comprehensive-eye-exams/",
+          "file": "audit/raw/eye-care-services-comprehensive-eye-exams.html",
+          "surface": "visible",
+          "quote": "Eye Exams for Kids, Adults, and Seniors"
+        }
+      ],
+      "notEvidenced": "",
+      "avSource": [
+        "/eye-care-services/comprehensive-eye-exams/",
+        "/eye-care-services/eye-disease-management/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/specialty-contacts",
+      "kind": "page",
+      "purpose": "Custom contact lenses for eyes that standard lenses cannot fit.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/contact-lenses/scleral-lenses/",
+          "file": "audit/raw/contact-lenses-scleral-lenses.html",
+          "surface": "visible",
+          "quote": "Scleral lenses are designed for people who need something more customized."
+        },
+        {
+          "page": "/team/dr-tyler-lesko-od/",
+          "file": "audit/raw/team-dr-tyler-lesko-od.html",
+          "surface": "visible",
+          "quote": "Providing life-changing vision for patients through complex lens fittings."
+        },
+        {
+          "page": "/contact-lenses/scleral-lenses/",
+          "file": "audit/raw/contact-lenses-scleral-lenses.html",
+          "surface": "visible",
+          "quote": "Keratoconus"
+        }
+      ],
+      "notEvidenced": "Only scleral lenses and ortho-k are named; hybrid and rigid corneal lenses are not.",
+      "avSource": [
+        "/contact-lenses/scleral-lenses/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/services/toric-contacts",
+      "kind": "page",
+      "purpose": "Fitting contacts that correct astigmatism.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/contact-lenses/",
+          "file": "audit/raw/contact-lenses.html",
+          "surface": "visible",
+          "quote": "PRECISION1® for Astigmatism"
+        },
+        {
+          "page": "/contact-lenses/",
+          "file": "audit/raw/contact-lenses.html",
+          "surface": "visible",
+          "quote": "TOTAL30® for Astigmatism"
+        },
+        {
+          "page": "/contact-lenses/",
+          "file": "audit/raw/contact-lenses.html",
+          "surface": "visible",
+          "quote": "DAILIES TOTAL1® for Astigmatism"
+        }
+      ],
+      "notEvidenced": "The word toric is not used and no toric fitting process is described.",
+      "avSource": [
+        "/contact-lenses/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/products",
+      "kind": "hub",
+      "purpose": "Index of eyewear: frames, sunglasses, kids eyewear and contacts.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eyeglasses/",
+          "file": "audit/raw/eyeglasses.html",
+          "surface": "visible",
+          "quote": "At our Pine Beach optical, we help you find glasses that feel good and fit your life"
+        }
+      ],
+      "notEvidenced": "The Academy Vision eyewear section is glasses plus three lens-product pages; there is no sunglasses page.",
+      "avSource": [
+        "/eyeglasses/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/products/contact-lenses",
+      "kind": "page",
+      "purpose": "Contact lens types and brands offered.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/contact-lenses/",
+          "file": "audit/raw/contact-lenses.html",
+          "surface": "visible",
+          "quote": "we make it easy to find lenses that feel comfortable and fit naturally into your routine"
+        }
+      ],
+      "notEvidenced": "",
+      "avSource": [
+        "/contact-lenses/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/products/designer-frames",
+      "kind": "page",
+      "purpose": "Frame brands carried and help choosing.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eyeglasses/",
+          "file": "audit/raw/eyeglasses.html",
+          "surface": "visible",
+          "quote": "Designer Frames for All"
+        },
+        {
+          "page": "/",
+          "file": "audit/raw/index.html",
+          "surface": "visible",
+          "quote": "With a wide selection of designer frames for adults and kids"
+        }
+      ],
+      "notEvidenced": "",
+      "avSource": [
+        "/eyeglasses/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/products/kids-eyewear",
+      "kind": "page",
+      "purpose": "Glasses frames chosen and adjusted to suit children.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/eyeglasses/",
+          "file": "audit/raw/eyeglasses.html",
+          "surface": "visible",
+          "quote": "Kids need glasses that can keep up with them."
+        },
+        {
+          "page": "/eye-care-services/pediatric-eye-care/",
+          "file": "audit/raw/eye-care-services-pediatric-eye-care.html",
+          "surface": "visible",
+          "quote": "Our Pine Beach optical carries a range of kid-friendly frames"
+        }
+      ],
+      "notEvidenced": "",
+      "avSource": [
+        "/eyeglasses/",
+        "/eye-care-services/pediatric-eye-care/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/products/sunglasses",
+      "kind": "page",
+      "purpose": "Plain and prescription sunglasses.",
+      "verdict": "PARTIAL",
+      "evidence": [
+        {
+          "page": "/eyeglasses/",
+          "file": "audit/raw/eyeglasses.html",
+          "surface": "visible",
+          "quote": "Polarized lenses for clearer vision outdoors"
+        }
+      ],
+      "notEvidenced": "Neither plain nor prescription sunglasses are offered in practice copy (the word appears only as a registration-form option); listed brands such as Costa and Ray-Ban are not described as sunglasses.",
+      "avSource": [
+        "/eyeglasses/"
+      ],
+      "mayClaim": "only the evidenced part; the rest needs practice confirmation"
+    },
+    {
+      "etPath": "/insurance",
+      "kind": "page",
+      "purpose": "Plans accepted and how vision and medical coverage differ.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/insurance/",
+          "file": "audit/raw/insurance.html",
+          "surface": "visible",
+          "quote": "Insurance Plans We Accept"
+        },
+        {
+          "page": "/insurance/",
+          "file": "audit/raw/insurance.html",
+          "surface": "visible",
+          "quote": "We accept CareCredit"
+        }
+      ],
+      "notEvidenced": "Twelve plans are listed; the meta description says most vision and medical insurance, which the list does not prove.",
+      "avSource": [
+        "/insurance/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/reviews",
+      "kind": "page",
+      "purpose": "Patient testimonials.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/location/academy-vision/",
+          "file": "audit/raw/location-academy-vision.html",
+          "surface": "visible",
+          "quote": "Top notch! Great doctor and staff!"
+        },
+        {
+          "page": "/location/academy-vision/",
+          "file": "audit/raw/location-academy-vision.html",
+          "surface": "aria",
+          "quote": "5 out of 5 stars"
+        }
+      ],
+      "notEvidenced": "The carousel shows no reviewer names, dates or platform; names and dates exist only in that page JSON-LD.",
+      "avSource": [
+        "/location/academy-vision/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/patient-forms",
+      "kind": "page",
+      "purpose": "New-patient paperwork before the first visit.",
+      "verdict": "YES",
+      "evidence": [
+        {
+          "page": "/patient-registration-form/",
+          "file": "audit/raw/patient-registration-form.html",
+          "surface": "visible",
+          "quote": "submit the form online, or if you prefer print out the form"
+        },
+        {
+          "page": "/patient-registration-form/",
+          "file": "audit/raw/patient-registration-form.html",
+          "surface": "visible",
+          "quote": "Please bring all insurance cards with you to your appointment."
+        }
+      ],
+      "notEvidenced": "No downloadable PDF forms and no cost estimates by phone are stated.",
+      "avSource": [
+        "/patient-registration-form/",
+        "/appointment-request-form/"
+      ],
+      "mayClaim": "yes, within the evidenced scope"
+    },
+    {
+      "etPath": "/eye-health",
+      "kind": "hub",
+      "purpose": "Library of patient-education articles.",
+      "verdict": "PARTIAL",
+      "evidence": [
+        {
+          "page": "/",
+          "file": "audit/raw/index.html",
+          "surface": "visible",
+          "quote": "Get Expert Eye Care Tips From Our Doctors"
+        },
+        {
+          "page": "/",
+          "file": "audit/raw/index.html",
+          "surface": "visible",
+          "quote": "Pediatric Eye Exams: Beyond School Screenings"
+        }
+      ],
+      "notEvidenced": "The site has one article, not a library.",
+      "avSource": [
+        "/article/pediatric-eye-exams-beyond-school-screenings/"
+      ],
+      "mayClaim": "only the evidenced part; the rest needs practice confirmation"
+    }
+  ],
+  "avPagesWithoutEtCounterpart": [
+    {
+      "avPage": "/eyeglasses/varilux-lenses/",
+      "note": "No Eye Trends page; a lens product page."
+    },
+    {
+      "avPage": "/eyeglasses/avulux-migraine-lenses/",
+      "note": "No Eye Trends page; a lens product page."
+    },
+    {
+      "avPage": "/eyeglasses/stellest-lenses/",
+      "note": "No Eye Trends page; supports /services/myopia-management."
+    },
+    {
+      "avPage": "/contact-lenses/orthokeratology-ortho-k/",
+      "note": "No dedicated Eye Trends page; supports myopia management and specialty contacts."
+    },
+    {
+      "avPage": "/contact-lenses/scleral-lenses/",
+      "note": "Closest Eye Trends page is /services/specialty-contacts."
+    },
+    {
+      "avPage": "/location/academy-vision/",
+      "note": "Orphan page (not in the menu); holds the 20 reviews; canonical points to /hours-location/."
+    }
+  ],
+  "structuredDataClaims": [
+    {
+      "id": "jsonld-legacy-description",
+      "value": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies",
+      "page": "/",
+      "surface": "jsonld",
+      "quote": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741.",
+      "alsoInVisibleCopy": "partly: eye exams, dry eye and contact lenses yes; treatment of allergies no"
+    },
+    {
+      "id": "jsonld-optician-description",
+      "value": [
+        "routine eye exams",
+        "dry eye treatment",
+        "pediatric eye care",
+        "myopia management",
+        "contact lens fittings"
+      ],
+      "page": "/",
+      "surface": "jsonld",
+      "quote": "Academy Vision provides comprehensive eye care services in Pine Beach, NJ, including routine eye exams, dry eye treatment, pediatric eye care, myopia management, and contact lens fittings.",
+      "alsoInVisibleCopy": "yes: each listed service is in visible copy"
+    },
+    {
+      "id": "jsonld-low-vision",
+      "value": "low vision care",
+      "page": "/eye-care-services/eye-disease-management/",
+      "surface": "jsonld",
+      "quote": "Academy Vision provides expert optometric services including advanced low vision care, specialized evaluations, and access to visual aids and assistive technologies.",
+      "alsoInVisibleCopy": "no: low vision is never mentioned in visible copy"
+    },
+    {
+      "id": "jsonld-emergency",
+      "value": "routine exams and emergency eye care",
+      "page": "/hours-location/",
+      "surface": "jsonld",
+      "quote": "provides expert eye care services, including routine exams and emergency eye care.",
+      "alsoInVisibleCopy": "yes: /hours-location/ offers emergency eye care whenever possible"
+    },
+    {
+      "id": "jsonld-dry-eye-description",
+      "value": "dry eye diagnosis and therapy",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "surface": "jsonld",
+      "quote": "Academy Vision provides expert optometric services including advanced dry eye diagnosis and therapy using the latest treatment technologies and personalized care plans.",
+      "alsoInVisibleCopy": "partly: dry eye care yes; the latest treatment technologies no"
+    },
+    {
+      "id": "jsonld-dry-eye-evaluation",
+      "value": [
+        "tear breakup time",
+        "Schirmer test",
+        "meibomian gland imaging",
+        "ocular surface staining"
+      ],
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "surface": "jsonld",
+      "quote": "Includes tear breakup time, Schirmer test, meibomian gland imaging, and ocular surface staining to assess tear production and eye surface health.",
+      "alsoInVisibleCopy": "no: none of these tests is named in visible copy"
+    },
+    {
+      "id": "jsonld-exam-includes",
+      "value": [
+        "visual acuity",
+        "eye movement",
+        "refraction",
+        "slit lamp exam",
+        "pupil dilation",
+        "retinal assessment"
+      ],
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "surface": "jsonld",
+      "quote": "Includes visual acuity, eye movement, refraction, slit lamp exam, pupil dilation, and retinal assessment.",
+      "alsoInVisibleCopy": "partly: prescription, eye teaming and eye health yes; slit lamp and dilation no"
+    },
+    {
+      "id": "jsonld-lasik-description",
+      "value": "LASIK co-management",
+      "page": "/eye-care-services/lasik-co-management/",
+      "surface": "jsonld",
+      "quote": "Academy Vision provides LASIK co-management, ensuring patients receive thorough pre-operative consultation and attentive post-surgery care.",
+      "alsoInVisibleCopy": "yes: /eye-care-services/lasik-co-management/"
+    },
+    {
+      "id": "jsonld-pediatric-specialty",
+      "value": "Pediatric Optometry",
+      "page": "/eye-care-services/pediatric-eye-care/",
+      "surface": "jsonld",
+      "quote": "Pediatric Optometry",
+      "alsoInVisibleCopy": "yes: pediatric eye care"
+    },
+    {
+      "id": "jsonld-knows-about",
+      "value": [
+        "Comprehensive Eye Exams",
+        "Emergency Eye Care",
+        "Contact Lens Exams",
+        "Eye Disease Management",
+        "Dry Eyes",
+        "Diabetic Retinopathy",
+        "Glaucoma Treatment",
+        "Macular Degeneration",
+        "Keratoconus Treatment",
+        "Cataract Surgery Co-Management",
+        "Myopia Management",
+        "Orthokeratology (CRT & VST)",
+        "Ocular Surface Disease",
+        "Pediatric Eye Care",
+        "Avulux",
+        "Senior Vision",
+        "Scleral Lenses"
+      ],
+      "page": "/team/dr-tyler-lesko-od/",
+      "surface": "jsonld",
+      "quote": "Orthokeratology (CRT & VST)",
+      "alsoInVisibleCopy": "partly: CRT and VST, ocular surface disease and keratoconus treatment are not in visible copy (keratoconus appears only as a scleral-lens candidate)"
+    },
+    {
+      "id": "meta-dry-eye-devices",
+      "value": [
+        "LipiScan",
+        "Inflammadry"
+      ],
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "surface": "meta",
+      "quote": "We offer LipiScan and Inflammadry for lasting relief.",
+      "alsoInVisibleCopy": "no: neither device is named in visible copy"
+    },
+    {
+      "id": "meta-myopia-misight",
+      "value": [
+        "MiSight",
+        "therapy"
+      ],
+      "page": "/eye-care-services/myopia-management/",
+      "surface": "meta",
+      "quote": "Academy Vision offers MiSight and therapy to slow nearsightedness.",
+      "alsoInVisibleCopy": "partly: MiSight yes (Dr. Lesko bio); therapy no"
+    },
+    {
+      "id": "meta-contact-lens-types",
+      "value": [
+        "daily",
+        "monthly",
+        "specialty lenses"
+      ],
+      "page": "/contact-lenses/",
+      "surface": "meta",
+      "quote": "Academy Vision offers daily, monthly, and specialty lenses for clear vision.",
+      "alsoInVisibleCopy": "partly: daily and specialty lenses yes; monthly no"
+    },
+    {
+      "id": "meta-insurance-most",
+      "value": "We accept most vision and medical insurance.",
+      "page": "/insurance/",
+      "surface": "meta",
+      "quote": "We accept most vision and medical insurance.",
+      "alsoInVisibleCopy": "no: the page lists twelve named plans"
+    },
+    {
+      "id": "meta-exam-technology",
+      "value": "advanced technology",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "surface": "meta",
+      "quote": "We use advanced technology to check your vision and eye health at Academy Vision.",
+      "alsoInVisibleCopy": "partly: visible copy says modern technology"
+    },
+    {
+      "id": "meta-scleral-keratoconus",
+      "value": "keratoconus and hard-to-fit eyes",
+      "page": "/contact-lenses/scleral-lenses/",
+      "surface": "meta",
+      "quote": "Custom scleral lenses in Pine Beach for keratoconus and hard-to-fit eyes.",
+      "alsoInVisibleCopy": "yes: keratoconus is listed on /contact-lenses/scleral-lenses/"
+    },
+    {
+      "id": "meta-lasik-pre-post",
+      "value": "pre- and post-op care",
+      "page": "/eye-care-services/lasik-co-management/",
+      "surface": "meta",
+      "quote": "Get pre- and post-op care from the doctors at Academy Vision.",
+      "alsoInVisibleCopy": "yes: before and after the procedure"
+    },
+    {
+      "id": "jsonld-price-range",
+      "value": "$$",
+      "page": "/",
+      "surface": "jsonld",
+      "quote": "$$",
+      "alsoInVisibleCopy": "no: no prices anywhere"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "C1",
+      "topic": "Two phone numbers",
+      "detail": "(732) 978-9306 is the number in the header text, footer, every Call button, the accessibility policy and the newer JSON-LD. (732) 736-1700 is dialled by the header phone icon (aria-label Call Us) on all 31 pages, shown on two buttons on /eye-care-services/, used in the /sitemap/ meta description, and in the older JSON-LD blocks on every page. Measured on the saved home page (tmp/facts/icon-check.json): at 1280 px the header shows the Call: (732) 978-9306 button and hides the icon; at 768 px and 390 px it hides that button and shows only the icon, so a tablet or phone visitor who taps the header call control dials (732) 736-1700.",
+      "evidence": [
+        {
+          "page": "/",
+          "surface": "visible",
+          "quote": "Call: (732) 978-9306"
+        },
+        {
+          "page": "/",
+          "surface": "href",
+          "quote": "tel:+17327361700"
+        },
+        {
+          "page": "/eye-care-services/",
+          "surface": "visible",
+          "quote": "leave seeing clearly. (732) 736-1700"
+        },
+        {
+          "page": "/sitemap/",
+          "surface": "meta",
+          "quote": "Family Optometrist & Contact Lenses near you in Pine Beach, New Jersey. Call (732) 736-1700"
+        },
+        {
+          "page": "/",
+          "surface": "jsonld",
+          "quote": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700"
+        }
+      ],
+      "action": "Use (732) 978-9306 everywhere; ask the practice whether (732) 736-1700 is still in service before it appears anywhere."
+    },
+    {
+      "id": "C2",
+      "topic": "Who owns the practice",
+      "detail": "Dr. Giallombardo’s bio and the /our-eye-doctor/ JSON-LD name him as the owner; Dr. Ullman’s bio says ownership passed to Dr. Lesko and Dr. Giallombardo in early 2026. Dr. Lesko’s own bio does not mention ownership, and the JSON-LD calls him and Dr. Ullman veteran optometrists.",
+      "evidence": [
+        {
+          "page": "/team/dr-anthony-giallombardo-od/",
+          "surface": "visible",
+          "quote": "Dr. Anthony Giallombardo is an optometrist and the owner of the practice."
+        },
+        {
+          "page": "/team/dr-marc-ullman-od/",
+          "surface": "visible",
+          "quote": "he transitioned ownership to Dr. Lesko and Dr. Giallombardo in early 2026 but remains a vital part of the clinical team."
+        },
+        {
+          "page": "/our-eye-doctor/",
+          "surface": "jsonld",
+          "quote": "Led by practice owner Dr. Anthony Giallombardo, alongside veteran optometrists Dr. Marc Ullman and Dr. Tyler Lesko."
+        }
+      ],
+      "action": "Do not state sole or joint ownership until the practice confirms; neutral wording such as the team of three optometrists is safe."
+    },
+    {
+      "id": "C3",
+      "topic": "Doctor order and the single-doctor meta",
+      "detail": "The visible team list runs Ullman, Lesko, Giallombardo; the JSON-LD runs Giallombardo, Ullman, Lesko; the /our-eye-doctor/ meta description names only Dr. Marc Ullman.",
+      "evidence": [
+        {
+          "page": "/our-eye-doctor/",
+          "surface": "visible",
+          "quote": "Meet our Optometrists Marc Ullman, O.D. »"
+        },
+        {
+          "page": "/our-eye-doctor/",
+          "surface": "meta",
+          "quote": "Visit Dr. Marc Ullman, your Pine Beach eye doctor."
+        }
+      ],
+      "action": "Pick one order with the practice; the meta description predates the ownership change."
+    },
+    {
+      "id": "C4",
+      "topic": "Two different tenure anchors",
+      "detail": "The practice dates to 1984 (over 40 years, consistent for 2026). Dr. Marc Ullman’s since 1998 and nearly three decades describe his own career, not the practice. The year of the move to Pine Beach is not given (only not long after 1998).",
+      "evidence": [
+        {
+          "page": "/about-us/",
+          "surface": "visible",
+          "quote": "Academy Vision was founded in 1984 by Dr. Robert Ullman"
+        },
+        {
+          "page": "/",
+          "surface": "visible",
+          "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision."
+        },
+        {
+          "page": "/team/dr-marc-ullman-od/",
+          "surface": "visible",
+          "quote": "Dr. Marc Ullman has been a pillar of the eye care community since 1998."
+        },
+        {
+          "page": "/about-us/",
+          "surface": "visible",
+          "quote": "Not long after, Dr. Ullman moved to their current location in Pine Beach, just a few miles down the road, continuing the family tradition of providing trusted, local eye care."
+        }
+      ],
+      "action": "Never write since 1998 about the practice, or 40 years in Pine Beach (the early years were in Toms River)."
+    },
+    {
+      "id": "C5",
+      "topic": "Address formats",
+      "detail": "Blvd and Boulevard; NJ and New Jersey; JSON-LD country US and United States. Same address, different spellings.",
+      "evidence": [
+        {
+          "page": "/",
+          "surface": "visible",
+          "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+        },
+        {
+          "page": "/hours-location/",
+          "surface": "visible",
+          "quote": "You’ll find our office at 90 Atlantic City Boulevard."
+        },
+        {
+          "page": "/website-accessibility-policy/",
+          "surface": "visible",
+          "quote": "Write to us at: 90 Atlantic City Blvd, Pine Beach, New Jersey"
+        }
+      ],
+      "action": "Use 90 Atlantic City Blvd, Pine Beach, NJ 08741 in the design; any format is accurate."
+    },
+    {
+      "id": "C6",
+      "topic": "Hours: no conflict found",
+      "detail": "All 33 hours blocks (31 footers plus /hours-location/ and /location/academy-vision/) are identical, and the JSON-LD hours match them.",
+      "evidence": [
+        {
+          "page": "/",
+          "surface": "visible",
+          "quote": "monday: 9:00 am - 5:00 pm"
+        },
+        {
+          "page": "/",
+          "surface": "visible",
+          "quote": "friday: 8:00 am - 3:00 pm"
+        },
+        {
+          "page": "/eye-care-services/dry-eye-treatment/",
+          "surface": "jsonld",
+          "quote": "Fr 08:00-15:00"
+        }
+      ],
+      "action": "None."
+    },
+    {
+      "id": "C7",
+      "topic": "Two booking paths",
+      "detail": "Every Book Appointment button opens the external scheduler; the on-site Appointment Request Form and Patient Registration Form are linked only from /sitemap/.",
+      "evidence": [
+        {
+          "page": "/",
+          "surface": "href",
+          "quote": "https://scheduleyourexam.com/v3/index.php/3197"
+        },
+        {
+          "page": "/sitemap/",
+          "surface": "visible",
+          "quote": "Appointment Request Form Patient Registration Form"
+        }
+      ],
+      "action": "Ask which path the practice wants as primary."
+    },
+    {
+      "id": "C8",
+      "topic": "Insurance claim breadth",
+      "detail": "The /insurance/ meta description says most vision and medical insurance; the page lists twelve named plans.",
+      "evidence": [
+        {
+          "page": "/insurance/",
+          "surface": "meta",
+          "quote": "We accept most vision and medical insurance."
+        },
+        {
+          "page": "/insurance/",
+          "surface": "visible",
+          "quote": "Insurance Plans We Accept Medicare"
+        }
+      ],
+      "action": "Show the twelve plans; use the broader wording only if the practice confirms it."
+    },
+    {
+      "id": "C9",
+      "topic": "Truncated sentence on the live site",
+      "detail": "The CareCredit sentence on /insurance/ ends mid-thought.",
+      "evidence": [
+        {
+          "page": "/insurance/",
+          "surface": "visible",
+          "quote": "It’s a helpful option for treatments, eyewear, or anything not fully."
+        }
+      ],
+      "action": "Do not repeat the broken sentence; keep the complete CareCredit sentence before it."
+    },
+    {
+      "id": "C10",
+      "topic": "Claims present only in structured data or meta",
+      "detail": "Low vision care, treatment of allergies, LipiScan and Inflammadry, an unspecified myopia therapy, monthly lenses, CRT and VST orthokeratology, ocular surface disease, the named dry-eye and exam tests, most vision and medical insurance, the $$ price range and the Facebook profile appear only in JSON-LD or meta, never in visible copy. (MiSight and daily lenses are also in visible copy.) The doctor knowsAbout lists are one template repeated on all three bios. The page-level medical JSON-LD also lists generic treatments (injections, laser surgery, vitrectomy, glaucoma surgery) that describe the conditions, not services of the practice.",
+      "evidence": [
+        {
+          "page": "/eye-care-services/eye-disease-management/",
+          "surface": "jsonld",
+          "quote": "Academy Vision provides expert optometric services including advanced low vision care, specialized evaluations, and access to visual aids and assistive technologies."
+        },
+        {
+          "page": "/",
+          "surface": "jsonld",
+          "quote": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741."
+        },
+        {
+          "page": "/eye-care-services/dry-eye-treatment/",
+          "surface": "meta",
+          "quote": "We offer LipiScan and Inflammadry for lasting relief."
+        },
+        {
+          "page": "/team/dr-tyler-lesko-od/",
+          "surface": "jsonld",
+          "quote": "Orthokeratology (CRT & VST)"
+        }
+      ],
+      "action": "Treat as low-confidence; get practice confirmation before using any of them as a visible claim."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "G1",
+      "need": "Email address",
+      "finding": "None on any page; no mailto link anywhere."
+    },
+    {
+      "id": "G2",
+      "need": "Fax number",
+      "finding": "The word fax appears on no page."
+    },
+    {
+      "id": "G3",
+      "need": "Holiday hours and closures",
+      "finding": "Not stated; only the weekly hours."
+    },
+    {
+      "id": "G4",
+      "need": "Emergency and after-hours policy",
+      "finding": "Only whenever possible on /hours-location/; no after-hours number, same-day promise, walk-in policy or ER guidance."
+    },
+    {
+      "id": "G5",
+      "need": "Languages spoken",
+      "finding": "The team-languages components on all three bios are empty in the HTML and after a headless render; no language is claimed anywhere. Registration-form language options are a form field, not a claim."
+    },
+    {
+      "id": "G6",
+      "need": "Dr. Giallombardo credentials",
+      "finding": "No school, graduation year, years in practice or clinical focus stated (O.D. only)."
+    },
+    {
+      "id": "G7",
+      "need": "Dr. Lesko graduation year and years in practice",
+      "finding": "Not stated; the certifying body for his certifications is not named."
+    },
+    {
+      "id": "G8",
+      "need": "Licences, board certifications, memberships",
+      "finding": "None stated for any doctor or the practice (the American Optometric Association is cited only as a source in the article)."
+    },
+    {
+      "id": "G9",
+      "need": "Equipment and diagnostic technology",
+      "finding": "The account-equipment component on /eye-care-services/ is empty in the HTML and after render; no device is named in visible copy (LipiScan/Inflammadry only in meta; patients mention an eye scan)."
+    },
+    {
+      "id": "G10",
+      "need": "Staff names and roles",
+      "finding": "No staff page; only opticians and a technician in general terms, and Jess at the desk in one review."
+    },
+    {
+      "id": "G11",
+      "need": "Review platform and visible attribution",
+      "finding": "The carousel shows no names, dates or source; names and dates are only in JSON-LD; the platform is never named."
+    },
+    {
+      "id": "G12",
+      "need": "Full insurance list",
+      "finding": "Twelve plans; no VSP, Davis Vision, Spectera, Medicaid or NJ FamilyCare, and no split between vision and medical plans."
+    },
+    {
+      "id": "G13",
+      "need": "Prices",
+      "finding": "No prices for exams, glasses or contacts; only a $$ price range in JSON-LD."
+    },
+    {
+      "id": "G14",
+      "need": "Cancellation, no-show and financial policies",
+      "finding": "Not stated."
+    },
+    {
+      "id": "G15",
+      "need": "Social profiles",
+      "finding": "No visible social links; only a Facebook URL in home-page JSON-LD."
+    },
+    {
+      "id": "G16",
+      "need": "Legal entity name and privacy contact",
+      "finding": "No legal name (LLC, P.C.) in any policy; the privacy notice says our office and names no privacy officer."
+    },
+    {
+      "id": "G17",
+      "need": "Year of the move to Pine Beach",
+      "finding": "Only not long after 1998."
+    },
+    {
+      "id": "G18",
+      "need": "Who received the Who’s Who honour",
+      "finding": "The footer badge is shown on every page; no honoree is named."
+    },
+    {
+      "id": "G19",
+      "need": "Online booking vendor",
+      "finding": "Only the scheduleyourexam.com URL; the vendor is not named."
+    },
+    {
+      "id": "G20",
+      "need": "Sunglasses, sports or safety eyewear, low vision",
+      "finding": "Not offered in visible copy (low vision appears only in JSON-LD)."
+    },
+    {
+      "id": "G21",
+      "need": "Age ranges for kids exams and kids contacts",
+      "finding": "Not stated."
+    },
+    {
+      "id": "G22",
+      "need": "Surgeons and partners for co-management",
+      "finding": "Not named (only New Jersey eye surgeons and a local eye surgeon)."
+    }
+  ]
+}

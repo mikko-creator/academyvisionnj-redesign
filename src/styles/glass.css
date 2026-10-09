@@ -1,0 +1,308 @@
+/* glass.css - the glass system, buttons and the shared glass components (THEME-CORE; DESIGN-SPEC §5, §8, 10.1, 10.13,
+   10.17-10.22). Header/menu glass lives in chrome.css (frost on .bar::before, §5.5). */
+
+/* ------------------------------------------------------------------ recipe (§5.1) */
+.glass {
+  --ga: rgba(255, 255, 255, .74); --gb: rgba(255, 255, 255, .50);
+  position: relative; z-index: var(--z-glass);
+  background: linear-gradient(135deg, var(--ga), var(--gb));
+  -webkit-backdrop-filter: blur(var(--gblur, var(--blur))) saturate(var(--gsat, var(--sat)));
+          backdrop-filter: blur(var(--gblur, var(--blur))) saturate(var(--gsat, var(--sat)));
+  border: 1px solid var(--glass-line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--inner), var(--sh-2);
+}
+.glass::after {           /* specular sheen along the top-left edge, under the content */
+  content: ""; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none;
+  background: linear-gradient(155deg, rgba(255, 255, 255, .55) 0%, rgba(255, 255, 255, 0) 32%);
+}
+/* ------------------------------------------------------------------ variants (§5.2) */
+.glass--strong { --ga: rgba(255, 255, 255, .86); --gb: rgba(255, 255, 255, .78); }
+.glass--hero { --ga: rgba(255, 255, 255, .80); --gb: rgba(255, 255, 255, .60); --gblur: var(--blur-lg); --gsat: var(--sat-hero); border-radius: var(--r-xl); }
+.glass--tint { --ga: rgba(240, 247, 252, .82); --gb: rgba(255, 255, 255, .55); }
+.glass--veil { --ga: rgba(255, 255, 255, .92); --gb: rgba(255, 255, 255, .88); }
+.glass--navy {
+  background: linear-gradient(140deg, rgba(255, 255, 255, .11), rgba(255, 255, 255, .025) 42%, rgba(140, 192, 230, .06)), rgba(9, 27, 50, .84);
+  --gsat: var(--sat-dark);
+  border-color: var(--line-dark);
+  box-shadow: var(--inner-dark), var(--sh-dark);
+  color: var(--ink-inv);
+}
+.glass--navy-soft {
+  --ga: rgba(255, 255, 255, .10); --gb: rgba(255, 255, 255, .03); --gblur: var(--blur-sm); --gsat: 140%;
+  border-color: var(--line-dark);
+  box-shadow: var(--inner-dark), var(--sh-dark);
+  color: var(--ink-inv);
+}
+/* dark variants: a light-catching gradient ring instead of the white sheen */
+.glass--navy::after, .glass--navy-soft::after {
+  inset: -1px; padding: 1px; z-index: 0;
+  background: linear-gradient(155deg, rgba(255, 255, 255, .5), transparent 38%, transparent 62%, rgba(140, 192, 230, .38));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
+          mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+}
+:where(.glass--navy, .glass--navy-soft) :where(h1, h2, h3, h4, .display, .h2, .h3) { color: var(--ink-inv); }
+:where(.glass--navy, .glass--navy-soft) .eyebrow { color: var(--label-inv); }
+:where(.glass--navy, .glass--navy-soft) :where(p, li) > a:not([class]) { color: var(--link-inv); text-decoration-color: rgba(191, 224, 247, .55); }
+:where(.glass--navy, .glass--navy-soft) :where(p, li) > a:not([class]):is(:hover, :focus-visible) { color: #fff; text-decoration-color: var(--focus-inv); }
+
+/* ------------------------------------------------------------------ buttons (10.1, §8, R-3, R-11, R-30) */
+.actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 1.6em; }
+.btn {
+  --bh: 52px;
+  position: relative; isolation: isolate; overflow: hidden;
+  display: inline-flex; align-items: center; justify-content: center; gap: .6em;
+  min-height: var(--bh); padding: 0 1.5em;
+  border: 1px solid transparent; border-radius: var(--r-pill);
+  font: 650 var(--fs-btn)/1.15 var(--sans); letter-spacing: .015em;
+  text-decoration: none; text-align: center; cursor: pointer;
+  transition: transform .4s var(--ease-out), box-shadow .4s var(--ease-out), background-color .3s, color .3s, border-color .3s;
+}
+.btn--sm { --bh: 44px; padding: 0 1.2em; font-size: var(--fs-ui); }
+.btn::after {              /* white sheen sweep */
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: linear-gradient(105deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, .34) 50%, rgba(255, 255, 255, 0) 70%);
+  transform: translateX(-130%); transition: transform .9s var(--ease-out);
+}
+.btn .ico { flex: 0 0 auto; }
+.btn__arrow { width: 18px; height: 12px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: transform .4s var(--ease-out); }
+.btn__icon { width: 18px; height: 18px; fill: currentColor; }
+.btn--primary { background: var(--blue); color: #fff; box-shadow: inset 0 1px 0 rgba(255, 255, 255, .18), 0 12px 26px -12px rgba(15, 42, 74, .6); }
+.btn--glass {
+  background: rgba(255, 255, 255, .58);
+  -webkit-backdrop-filter: blur(var(--blur-chip)) saturate(160%); backdrop-filter: blur(var(--blur-chip)) saturate(160%);
+  border-color: rgba(255, 255, 255, .9); color: var(--navy);
+  box-shadow: inset 0 1px 0 #fff, 0 10px 22px -14px rgba(15, 42, 74, .45);
+}
+.btn--outline { background: rgba(255, 255, 255, .35); border-color: rgba(15, 42, 74, .28); color: var(--navy); }
+.btn--light { background: #fff; color: var(--navy); box-shadow: 0 12px 26px -12px rgba(0, 0, 0, .5); }
+.btn--ghost-light { background: rgba(255, 255, 255, .08); border-color: rgba(255, 255, 255, .45); color: #fff; }
+/* hover and keyboard focus give the same feedback (R-30); colour changes everywhere, movement only with a hover pointer */
+.btn:is(:hover, :focus-visible)::after { transform: translateX(130%); }
+.btn--primary:is(:hover, :focus-visible) { background: var(--navy); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .22), 0 18px 34px -12px rgba(15, 42, 74, .75); }
+.btn--glass:is(:hover, :focus-visible) { background: rgba(255, 255, 255, .82); box-shadow: inset 0 1px 0 #fff, 0 16px 30px -14px rgba(15, 42, 74, .5); }
+.btn--outline:is(:hover, :focus-visible) { background: var(--navy); border-color: var(--navy); color: #fff; }
+.btn--light:is(:hover, :focus-visible) { background: var(--cream); }
+.btn--ghost-light:is(:hover, :focus-visible) { background: rgba(255, 255, 255, .18); border-color: #fff; }
+.btn:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; box-shadow: 0 0 0 7px rgba(255, 255, 255, .92); }
+:where(.band--navy, .glass--navy, .glass--navy-soft, .hm-kids, .hm-team__navy, .site-footer) .btn:focus-visible { outline-color: var(--focus-inv); box-shadow: 0 0 0 7px rgba(15, 42, 74, .9); }
+.btn:focus-visible, .btn:hover { transform: translateY(-2px); }
+.btn:is(:hover, :focus-visible) .btn__arrow { transform: translateX(4px); }
+.btn:active { transform: translateY(0); }
+@media (hover: none) {
+  .btn:hover { transform: none; }
+  .btn:active { transform: scale(.98); }
+}
+
+/* arrow chevron and arrow link */
+/* the card "»": an INLINE box glued to the label by the theme's no-break space (CSS Text 3 5.1: an inline-block always
+   allows a wrap before it, even after U+00A0, so "»" fell onto its own line on phones); the hover nudge moves it with
+   relative left instead of a transform (transforms do not apply to inline boxes). INTEGRATOR 2026-10-09 */
+.arrow { display: inline; position: relative; left: 0; color: var(--sky); transition: left .4s var(--ease-out), color .3s; }
+.arrow-link {
+  display: inline-flex; align-items: center; gap: .55em; min-height: 44px; padding: 0 2px;
+  font: 650 var(--fs-ui)/1.2 var(--sans); letter-spacing: .1em; text-transform: uppercase;
+  color: var(--blue-ink); text-decoration: none; border-bottom: 1px solid rgba(43, 93, 134, .3);
+  transition: color .25s, border-color .25s;
+}
+.arrow-link__icon { width: 18px; height: 12px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: transform .4s var(--ease-out); }
+.arrow-link:is(:hover, :focus-visible) { color: var(--navy); border-color: var(--red); }
+.arrow-link:is(:hover, :focus-visible) .arrow-link__icon { transform: translateX(4px); }
+.link-more {
+  display: inline-flex; align-items: center; min-height: 44px; margin-top: auto; padding: 0 4px;
+  font: 650 var(--fs-ui)/1 var(--sans); letter-spacing: .1em; text-transform: uppercase;
+  color: var(--blue-ink); text-decoration: none; border-bottom: 1px solid rgba(43, 93, 134, .3);
+  transition: color .25s, border-color .25s;
+}
+.link-more:is(:hover, :focus-visible) { color: var(--navy); border-color: var(--red); }
+.stretched::before { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: inherit; }
+
+/* ------------------------------------------------------------------ cards (10.17): photo popping 48 px above the card top */
+.card-grid {
+  position: relative; z-index: var(--z-lift);
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(64px, 6vw, 80px) clamp(16px, 2vw, 28px);
+  padding-top: 48px;
+}
+/* light pools placed behind every card grid on purpose, so the cards' frost has structure to read on any ground (R-5).
+   One sky pool per column of the first row (16 / 50 / 84 %) plus a lower pair for a second row: measured 2026-10-09,
+   the old two-pool layout left the first-row middle card on flat cream (backdrop range .046-.077, gate .10). */
+.card-grid::before {
+  content: ""; position: absolute; inset: 4% -4% -8%; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(30% 44% at 16% 36%, rgba(68, 137, 188, .30), rgba(68, 137, 188, 0) 72%),
+    radial-gradient(26% 40% at 50% 30%, rgba(68, 137, 188, .26), rgba(68, 137, 188, 0) 72%),
+    radial-gradient(30% 44% at 84% 36%, rgba(68, 137, 188, .26), rgba(68, 137, 188, 0) 72%),
+    radial-gradient(28% 40% at 32% 84%, rgba(68, 137, 188, .22), rgba(68, 137, 188, 0) 72%),
+    radial-gradient(28% 40% at 52% 78%, rgba(255, 255, 255, .85), rgba(255, 255, 255, 0) 70%),
+    radial-gradient(28% 40% at 70% 86%, rgba(68, 137, 188, .20), rgba(68, 137, 188, 0) 72%);
+}
+.card {
+  display: flex; flex-direction: column;
+  border-radius: var(--r-lg);
+  transition: transform .5s var(--ease-out), box-shadow .5s var(--ease-out), background .4s;
+}
+.card__media {
+  position: relative; z-index: 1;
+  aspect-ratio: 16 / 10; margin: -48px 14px 0; overflow: hidden;
+  border-radius: 20px; background: var(--mist);
+  box-shadow: 0 2px 6px rgba(15, 42, 74, .08), 0 22px 36px -20px rgba(15, 42, 74, .5), inset 0 0 0 1px rgba(255, 255, 255, .75);
+}
+.card__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .9s var(--ease-out), filter .6s; }
+.card__media--tile { display: grid; place-items: center; aspect-ratio: 16 / 7; background: linear-gradient(135deg, #fff, var(--mist)); }
+.card__iris { width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--sky); background: radial-gradient(circle, var(--navy) 0 5px, transparent 6px); }
+.card__body { padding: 20px 24px 26px; }
+.card__title { font: 400 var(--fs-card)/1.3 var(--serif); color: var(--navy); margin-bottom: .45em; }
+.card__title a { color: inherit; text-decoration: none; }
+.card__title a:focus-visible { outline: none; }
+.card__text { margin: 0; font-size: 1rem; line-height: 1.6; color: var(--ink-2); }
+.card:has(.stretched:focus-visible) { outline: 2px solid var(--red); outline-offset: 4px; }
+.card:is(:hover, :focus-within) { --ga: rgba(255, 255, 255, .94); --gb: rgba(255, 255, 255, .84); box-shadow: var(--inner), var(--sh-3); }
+.card:is(:hover, :focus-within) .card__media img { transform: scale(1.06); filter: saturate(1.08); }
+.card:is(:hover, :focus-within) .arrow { left: 5px; color: var(--red); }
+@media (hover: hover) { .card:hover { transform: translateY(-7px); } }
+.card:focus-within { transform: translateY(-7px); }
+@media (hover: none) { .card:active { transform: scale(.98); } }
+
+/* ------------------------------------------------------------------ doctor cards (10.13): portrait <= 150 CSS px rising 60 px */
+.doc-grid { position: relative; z-index: var(--z-lift); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(18px, 2.6vw, 36px); padding-top: 60px; }
+.doc-card {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  padding: 0 clamp(20px, 2.4vw, 32px) clamp(22px, 2.4vw, 30px);
+  transition: transform .5s var(--ease-out), box-shadow .5s var(--ease-out);
+}
+.doc-card__photo {
+  position: relative; z-index: 1;
+  width: min(150px, 72%); aspect-ratio: 3 / 4; margin: -60px auto 18px;
+  border-radius: 26px; overflow: hidden; background: #e7edf3;
+  border: 5px solid rgba(255, 255, 255, .95);
+  box-shadow: 0 2px 6px rgba(15, 42, 74, .08), 0 26px 40px -22px rgba(15, 42, 74, .55);
+  transition: transform .6s var(--ease-out), box-shadow .6s var(--ease-out);
+}
+.doc-card__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
+.doc-card__name { font: 400 1.3rem/1.3 var(--serif); color: var(--navy); margin-bottom: .5em; }
+.doc-card__name a { color: inherit; text-decoration: none; }
+.doc-card__name a:focus-visible { outline: none; }
+.doc-card__text { font-size: 1rem; line-height: 1.62; color: var(--ink-2); margin-bottom: .6em; }
+.doc-card__text p { margin: 0 0 .6em; }
+.doc-card:is(:hover, :focus-within) { box-shadow: var(--inner), var(--sh-3); }
+@media (hover: hover) { .doc-card:hover { transform: translateY(-6px); } .doc-card:hover .doc-card__photo { transform: translateY(-8px) rotate(-1.5deg); } }
+.doc-card:focus-within { transform: translateY(-6px); }
+.doc-card:focus-within .doc-card__photo { transform: translateY(-8px) rotate(-1.5deg); }
+.doc-card:is(:hover, :focus-within) .arrow { left: 5px; color: var(--red); }
+/* the portrait sits above the card's own outline, so the ring is redrawn above it */
+.doc-card:has(.doc-card__name a:focus-visible)::before { content: ""; position: absolute; inset: -8px; z-index: 2; border: 2px solid var(--red); border-radius: calc(var(--r-lg) + 8px); pointer-events: none; }
+
+/* ------------------------------------------------------------------ post card (10.22): photo 96 px taller than the card */
+.post-card {
+  display: grid; grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr); gap: clamp(24px, 4vw, 64px); align-items: center;
+  max-width: 1040px; margin-inline: auto;
+  padding: clamp(26px, 3.6vw, 52px) clamp(26px, 4vw, 60px) clamp(26px, 3.6vw, 52px) clamp(20px, 3vw, 44px);
+  border-radius: var(--r-xl);
+  transition: transform .5s var(--ease-out), box-shadow .5s var(--ease-out);
+}
+.post-card__photo { position: relative; z-index: 1; aspect-ratio: 4 / 5; margin-block: -96px; border-radius: var(--r-lg); overflow: hidden; border: 5px solid rgba(255, 255, 255, .95); box-shadow: var(--sh-3); }
+.post-card__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; transition: transform 1s var(--ease-out); }
+.post-card__title a { color: inherit; text-decoration: none; }
+.post-card__title a:is(:hover, :focus-visible) { color: var(--blue-ink); }
+.post-card__text p { margin-bottom: .8em; }
+.post-card:is(:hover, :focus-within) { box-shadow: var(--inner), var(--sh-3); }
+.post-card:is(:hover, :focus-within) .post-card__photo img { transform: scale(1.05); }
+.post-card:is(:hover, :focus-within) .arrow { left: 5px; color: var(--red); }
+@media (hover: hover) { .post-card:hover { transform: translateY(-5px); } }
+.post-card:focus-within { transform: translateY(-5px); }   /* keyboard focus mirrors hover (R-30, measured 2026-10-09) */
+
+/* ------------------------------------------------------------------ logo chips (10.18) */
+.chips { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.chip {
+  display: grid; justify-items: center; align-content: center; gap: 8px;
+  min-height: 108px; padding: 14px 10px 12px; border-radius: 18px;
+  background: rgba(255, 255, 255, .78); border: 1px solid rgba(255, 255, 255, .95);
+  box-shadow: inset 0 1px 0 #fff, var(--sh-1);
+  transition: transform .45s var(--ease-out), box-shadow .45s var(--ease-out), background-color .3s;
+}
+.chip__logo { display: block; width: min(100%, 132px); height: 48px; }
+.chip__logo img { width: 100%; height: 100%; object-fit: contain; object-view-box: var(--ovb, none); }
+.chip__name { font: 600 var(--fs-meta)/1.3 var(--sans); letter-spacing: .01em; color: var(--ink-2); text-align: center; }
+@media (hover: hover) { .chip:hover { transform: translateY(-4px); background: #fff; box-shadow: inset 0 1px 0 #fff, var(--sh-2); } }
+
+/* ------------------------------------------------------------------ stars, review cards (10.19) */
+.stars { display: inline-flex; gap: 3px; color: var(--sky); }
+.stars .ico { width: 18px; height: 18px; fill: currentColor; }
+.review-card { display: flex; flex-direction: column; gap: 14px; }
+.review-card__quote p { margin: 0; font: italic 400 1.06rem/1.6 var(--serif); font-synthesis: none; color: var(--ink); }
+.review-card__by { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; font: 600 var(--fs-meta)/1.4 var(--sans); color: var(--ink-2); }
+.review-card__by cite { font-style: normal; font-weight: 650; color: var(--navy); }
+.review-card--featured .review-card__quote p { font-size: clamp(1.6rem, 1.1rem + 1.6vw, 2.6rem); line-height: 1.32; color: var(--navy); text-wrap: pretty; }
+.review-card--featured .stars .ico { width: 22px; height: 22px; }
+
+/* ------------------------------------------------------------------ location card (G2, 10.16): smoked navy */
+.loc-card { width: min(100%, 332px); padding: 20px 22px 16px; border-radius: var(--r-md); }
+.loc-card__head { display: flex; align-items: center; gap: 12px; margin: 0 0 10px; }
+.loc-card__pin { flex: 0 0 38px; height: 38px; display: grid; place-items: center; border-radius: 50%; background: linear-gradient(140deg, var(--sky), var(--blue)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), 0 8px 18px -8px rgba(0, 0, 0, .55); }
+.loc-card__pin .ico { width: 18px; height: 18px; fill: #fff; }
+.loc-card__title { display: inline-flex; align-items: center; min-height: 44px; font: 400 1.22rem/1.25 var(--serif); color: var(--ink-inv); text-decoration: none; }
+.loc-card__title:is(:hover, :focus-visible) { color: #fff; text-decoration: underline; text-decoration-color: var(--focus-inv); text-underline-offset: .2em; }
+.loc-card__rows li + li { border-top: 1px solid rgba(196, 222, 242, .14); }
+.loc-card__rows a { display: flex; align-items: flex-start; gap: 10px; min-height: 44px; padding: 11px 0; font: 500 .9375rem/1.45 var(--sans); color: var(--ink-inv); text-decoration: none; }
+.loc-card__rows .ico { flex: 0 0 16px; width: 16px; height: 16px; margin-top: 3px; fill: var(--label-inv); }
+.loc-card__rows a:is(:hover, :focus-visible) { color: #fff; text-decoration: underline; text-decoration-color: var(--label-inv); text-underline-offset: .22em; }
+
+/* ------------------------------------------------------------------ hours list and map frame (10.16) */
+.hours { display: grid; }
+.hours__row { display: flex; justify-content: space-between; gap: 16px; padding: 8px 0; border-bottom: 1px solid rgba(15, 42, 74, .1); font-size: 1rem; }
+.site-footer .hours__row { font-size: .9375rem; }
+.hours dt { text-transform: capitalize; color: var(--ink-2); }
+.hours dd { white-space: nowrap; color: var(--ink); }
+.map-frame { position: relative; overflow: hidden; aspect-ratio: 16 / 10; border-radius: var(--r-md); border: 1px solid rgba(255, 255, 255, .9); box-shadow: var(--inner), var(--sh-2); background: var(--mist); }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+/* keyboard focus inside the map: Chrome matches nothing on the frame when Tab enters a cross-origin iframe, so site.js
+   sets .is-kbd-focus (measured 2026-10-09); :focus-within covers script focus */
+.map-frame:focus-within, .map-frame.is-kbd-focus { outline: 2px solid var(--red); outline-offset: 3px; }
+:where(.site-footer, .band--navy, .glass--navy) .map-frame:is(:focus-within, .is-kbd-focus) { outline-color: var(--focus-inv); }
+
+/* ------------------------------------------------------------------ responsive */
+@media (max-width: 1023.98px) {
+  .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .doc-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 96px; }
+}
+@media (max-width: 767.98px) {
+  /* compact rows: 96x96 thumb left (10.17) */
+  .card-grid { grid-template-columns: minmax(0, 1fr); gap: 14px; padding-top: 0; }
+  .card { display: grid; grid-template-columns: 96px minmax(0, 1fr); align-items: center; gap: 14px; padding: 12px; border-radius: 24px; }
+  .card__media { margin: 0; width: 96px; aspect-ratio: 1; border-radius: 16px; }
+  .card__media--tile { aspect-ratio: 1; }
+  .card__body { padding: 0; }
+  .card__title { font-size: 1.12rem; margin-bottom: .3em; }
+  .card__text { font-size: 1rem; line-height: 1.5; }
+  /* compact doctor rows: portrait 96 px left (10.13) */
+  .doc-grid { grid-template-columns: minmax(0, 1fr); gap: 14px; padding-top: 0; }
+  .doc-card { display: grid; grid-template-columns: 96px minmax(0, 1fr); align-items: start; text-align: left; gap: 0 16px; padding: 14px; }
+  .doc-card__photo { grid-row: 1 / span 3; width: 96px; margin: 0; border-width: 4px; border-radius: 18px; }
+  .doc-card__name { font-size: 1.15rem; margin-bottom: .3em; }
+  .doc-card__text { margin-bottom: .2em; }
+  .doc-card .link-more { margin-top: 0; justify-self: start; }
+  .post-card { grid-template-columns: minmax(0, 1fr); padding: 0 22px 28px; }
+  .post-card__photo { margin: -70px auto 0; width: min(100%, 300px); }
+  .chips { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .chip { min-height: 84px; padding: 10px 6px 8px; gap: 6px; }
+  .chip__logo { height: 36px; }
+}
+
+/* ------------------------------------------------------------------ fallbacks (§5.6) */
+@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  .glass, .glass--strong, .glass--hero, .glass--tint, .glass--veil { background: rgba(255, 255, 255, .95); }
+  .glass--navy { background: rgba(10, 29, 54, .94); }
+  .glass--navy-soft { background: rgba(15, 42, 74, .92); }
+  .btn--glass { background: rgba(255, 255, 255, .95); }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .glass, .glass--strong, .glass--hero, .glass--tint, .glass--veil { background: rgba(255, 255, 255, .97); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .glass--navy, .glass--navy-soft { background: #0c2341; -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .btn--glass { background: #fff; -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
+@media (forced-colors: active) {
+  .glass, .glass--navy, .glass--navy-soft, .chip, .card, .doc-card, .post-card { border: 1px solid CanvasText; }
+  .acc { color: CanvasText; background: none; }
+  .btn { border: 1px solid ButtonText; }
+}

@@ -1,0 +1,106 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "products/sunglasses",
+  "etSource": "products/sunglasses",
+  "title": "Sunglasses and Sun Protection Tips | Academy Vision",
+  "metaDescription": "Sunglasses for the Jersey Shore: UV protection, polarized and tinted lenses, and warning signs worth a checkup. Tips from Academy Vision, Pine Beach, NJ.",
+  "h1": "Choosing Sunglasses for Sun and Glare at the Jersey Shore",
+  "kicker": "Squinting Into the Glare? Let’s Talk Sun Protection",
+  "lede": "<p>Between the river, the bay and the beaches, Pine Beach summers bring plenty of bright light bouncing off water and sand. Good sunglasses do more than stop the squint: they block ultraviolet (UV) light, tame glare and make long days outside more comfortable. Here’s what to look for, and when it’s worth talking with an eye doctor.</p>",
+  "sections": [
+    {
+      "id": "uv-protection",
+      "heading": "Start With UV Protection",
+      "html": "<p>The most important feature of a pair of sunglasses is the one you can’t see. Look for a label that says the lenses block 100% of UVA and UVB light, sometimes shown as UV400. A darker lens isn’t automatically safer: a dark tint without UV filtering lets your pupils open wider while UV still gets through.</p><p>Over many years, UV exposure has been linked to cataracts and to growths on the eye’s surface, and a single long day of reflected sun can leave eyes red, gritty and sore. Larger lenses and wraparound shapes help by blocking light that slips in around the edges, and a wide-brimmed hat adds even more shade.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "lens-choices",
+      "heading": "Lens Choices for the Way You Spend Time Outside",
+      "html": "<ul><li><strong>On the water or the sand:</strong> polarized lenses cut the bright glare that reflects off flat surfaces, which is why boaters, anglers and beachgoers tend to love them.</li><li><strong>Behind the wheel:</strong> gray or brown lenses in a medium shade keep colors natural and traffic signals easy to read. Polarized lenses help with road glare, though they can make some dashboard and phone screens harder to see.</li><li><strong>Golf, tennis and trail days:</strong> amber, rose or copper tints sharpen contrast, so a ball or the edge of a path stands out.</li><li><strong>Sports and active kids:</strong> impact-resistant lenses, such as polycarbonate, in a frame that stays put.</li><li><strong>In and out all day:</strong> light-adaptive lenses darken outdoors and clear indoors, but most darken less inside a car, because the windshield blocks much of the UV that triggers them.</li></ul><p>Polarized lenses are one of the lens options we offer for eyeglasses at our Pine Beach optical, made for clearer vision outdoors.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "styles",
+      "heading": "Finding a Style You’ll Keep On",
+      "html": "<p>The right sunglasses are the ones you actually keep on. Aviators and rounded shapes suit many faces, wraparounds give the most coverage for sports and boating, and oversized frames shade more of the delicate skin around your eyes. Mirrored finishes cut extra brightness on the sunniest days. Whatever the shape, look for a snug, comfortable fit so you’re not pushing them back up every few minutes.</p><p>If you wear glasses, you have choices too: prescription sunglasses, clip-ons, or light-adaptive lenses in your everyday pair. Children need sun protection as much as adults, and often more, since they tend to spend more time outdoors.</p>",
+      "layout": "split",
+      "imageSlot": "cut-sunglasses-aviator"
+    },
+    {
+      "id": "eye-doctor-signs",
+      "heading": "Signs Your Eyes Need a Checkup",
+      "html": "<p>Call an eye doctor if your eyes stay painful, red or very sensitive to light after a day in the sun, if bright light starts bothering you more than it used to, or if you notice a spot or growth on the white of the eye. Never look directly at the sun, even through dark sunglasses; an eclipse calls for certified eclipse viewers. If you lose vision suddenly or see a curtain or shadow over part of your vision, seek emergency care immediately.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "more-eyewear",
+      "heading": "More Ways to See Comfortably",
+      "html": "<p>Sun protection is one part of the picture. Explore <a href=\"/products/\">eyeglasses and lens options</a>, browse <a href=\"/products/designer-frames/\">designer frames</a>, or read about <a href=\"/products/contact-lenses/\">contact lenses</a>. Some contacts filter part of the UV, but no contact lens covers the whole eye and the skin around it, so sunglasses still matter.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do inexpensive sunglasses protect my eyes?",
+      "a": "<p>They can. What protects your eyes is the UV rating on the label, not what you paid. Look for 100% UVA and UVB protection or UV400, and check that straight lines don’t wave or bend when you look through the lenses.</p>"
+    },
+    {
+      "q": "Are polarized lenses better for my eyes?",
+      "a": "<p>Polarization doesn’t add UV protection on its own, but it does cut reflected glare from water, sand and wet roads, which many people find much more comfortable. Check the UV label either way.</p>"
+    },
+    {
+      "q": "Do kids need sunglasses?",
+      "a": "<p>Yes, especially for long days at the beach or on the water. Choose a pair with full UV protection and impact-resistant lenses, in a size that stays on during play.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Have a Question About Sun Lenses?",
+    "html": "<p>If you’d like to talk through sunglasses or sun lens options for your prescription, call Academy Vision at (732) 978-9306 and ask. And if it’s been a while since your last checkup, <a href=\"/services/comprehensive-eye-exams/\">book an eye exam</a> so any new lenses start from a current prescription.</p>"
+  },
+  "related": [
+    "products/designer-frames",
+    "products",
+    "products/contact-lenses"
+  ],
+  "claims": [
+    {
+      "text": "Tips from Academy Vision, Pine Beach, NJ.",
+      "factId": "address-display",
+      "page": "/",
+      "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741"
+    },
+    {
+      "text": "Polarized lenses are one of the lens options we offer for eyeglasses at our Pine Beach optical, made for clearer vision outdoors.",
+      "factId": "service-lens-options",
+      "page": "/eyeglasses/",
+      "quote": "Lens Options That Make a Difference"
+    },
+    {
+      "text": "If you’d like to talk through sunglasses or sun lens options for your prescription, call Academy Vision at (732) 978-9306 and ask.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "And if it’s been a while since your last checkup, book an eye exam so any new lenses start from a current prescription.",
+      "factId": "service-comprehensive-eye-exams",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision."
+    }
+  ],
+  "flags": [
+    "NO EVIDENCE page (restructure adopt; facts/service-evidence.json rates /products/sunglasses PARTIAL, polarized-lens option only). Academy Vision copy never says it sells plano or prescription sunglasses, so this page explains sun protection, names only the polarized-lens option (fact service-lens-options) and invites a call to (732) 978-9306. The practice should say whether it sells sunglasses and/or prescription sunwear, and whether any brands on the frame list (for example Costa, Ray-Ban, Wiley X, Dragon) are carried as sunwear, before the page is indexed or the copy names products.",
+    "Title and h1 differ from the proposed \"Sunglasses in Pine Beach, NJ\" / \"Sunglasses and Glare Protection from Our Pine Beach Optical\", which would imply the optical sells sunglasses. Restore them once the practice says it does.",
+    "Lens tints, polarization, light-adaptive lenses, mirrored finishes, clip-ons and prescription sunglasses are described as general options, not as products on hand. The eye-doctor guidance (photokeratitis-type symptoms, eclipse viewing, emergency signs) is general health information for the practice to approve."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G5-eyewear-site",
+    "notes": "tools/overlap-check.mjs --fail 8 (6-word shingles): longest span shared with the Eye Trends crawl 6 words; page copy alone (claims[] removed): 0 words, so the longer span is Academy Vision’s own source path in claims[].page || CHECKER checker-G5-eyewear-site, 2026-10-08: re-ran tools/overlap-check.mjs --fail 8 (6-word shingles) on this final file: longest shared span 6 words (the Academy Vision source path in claims[].page); with claims, flags and review removed the copy shares 0 words; the --control run reported DETECTED. Re-verified all 4 claims: each factId exists in facts/client-facts.json, page and quote equal the fact’s, the quote is on the cited audit/raw page and the claim text is verbatim on this page. Tags, links (4, all new-site paths), schema, imageSlots and length (704 body words) pass tmp/checker-G5-eyewear-site/check.mjs, whose 21 planted-fault controls all fired. No copy change. All 4 first-person sentences are backed by facts (polarized-lens option only, a call invitation, an exam prompt); no sale, stock or availability claim. Reviewed, kept: promise-pattern hits every few minutes (fit advice) and after a day in the sun (a symptom) are not operational promises. Medical read: UV400 or 100% UVA and UVB, dark untreated tints dilating the pupil, light-adaptive lenses darkening less behind a windshield, polarization adding no UV protection, eclipse viewing and the curtain or shadow emergency sign match standard clinical guidance (UNVERIFIED against a citation this run; practice to approve, as flagged). 5-word run if it’s been a while is a common expression."
+  }
+}

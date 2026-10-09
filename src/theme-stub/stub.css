@@ -1,0 +1,45 @@
+/* stub.css - plain, readable layout for the verification stub (PIPELINE role). Not the design. */
+:root { --ink: #202020; --navy: #0f2a4a; --blue: #3974a0; --paper: #fff; --line: #d6dbe1; }
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--ink); background: var(--paper); }
+img { max-width: 100%; height: auto; }
+a { color: var(--blue); }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+[hidden] { display: none !important; }
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--navy); color: #fff; padding: .5rem 1rem; }
+.skip-link:focus { left: 0; z-index: 10; }
+.site-header, main, .site-footer { max-width: 72rem; margin: 0 auto; padding: 1rem; }
+.topbar { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; font-size: .9rem; }
+.logo img { display: block; max-width: 228px; height: auto; margin: .75rem 0; }
+.main-nav ul { list-style: none; margin: 0; padding: 0 0 0 1rem; }
+.main-nav > ul { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; padding: 0; }
+.main-nav > ul > li > ul { display: none; }
+.main-nav > ul > li:focus-within > ul, .main-nav > ul > li:hover > ul { display: block; position: absolute; background: #fff; border: 1px solid var(--line); padding: .5rem 1rem; z-index: 5; }
+.button { display: inline-block; padding: .45rem .9rem; border: 1px solid var(--navy); border-radius: .25rem; text-decoration: none; color: var(--navy); }
+.breadcrumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: .25rem; padding: 0; font-size: .9rem; }
+.breadcrumbs li + li::before { content: "\00bb"; margin-right: .25rem; }
+.block { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.block-bg { display: block; max-height: 22rem; width: 100%; object-fit: cover; }
+.kicker, .upper { text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; }
+.heading--plain { font-weight: 700; }
+.cards, .team, .logo-grid, .photos, .reviews ul { list-style: none; padding: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); }
+.logo-grid { grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr)); }
+/* min(): this rule outranks `img { max-width: 100% }`, so a bare 200px let a logo overflow its 171 px column at 390 px */
+.logo-grid img { max-width: min(200px, 100%); }
+.person-photo { max-width: 150px; }
+.img-slot { display: block; width: 100%; background: repeating-linear-gradient(45deg, #eef1f5 0 12px, #e2e7ee 12px 24px); border: 1px dashed #9aa6b5; }
+.map { width: 100%; height: 16rem; border: 0; }
+.hours div { display: flex; gap: .75rem; }
+.hours dt { text-transform: capitalize; min-width: 6.5rem; }
+.hours dd { margin: 0; }
+.form fieldset { border: 1px solid var(--line); margin: 0 0 1rem; }
+.form .field { margin: 0 0 1rem; }
+.form label { display: block; }
+.form .choice { display: block; }
+.form input:not([type="checkbox"]):not([type="radio"]), .form select, .form textarea { width: 100%; max-width: 32rem; padding: .4rem; font: inherit; }
+.site-footer { border-top: 4px solid var(--navy); display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+.site-footer h2 { font-size: 1rem; }
+.site-footer ul { list-style: none; padding: 0; }
+.legal-links ul { display: flex; flex-wrap: wrap; gap: 1rem; }
+@media (max-width: 40rem) { .site-header, main, .site-footer { padding: 1rem; } }

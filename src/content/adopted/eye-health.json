@@ -1,0 +1,138 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "eye-health",
+  "etSource": "eye-health",
+  "title": "Eye Health Tips in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Plain-language eye health tips from Academy Vision in Pine Beach, NJ: children’s vision, dry and irritated eyes, eye health with age and urgent symptoms.",
+  "h1": "Eye Care Tips From Our Pine Beach Eye Doctors",
+  "kicker": "Plain Answers, Close to Home",
+  "lede": "<p>Questions about your eyes don’t always wait for your next appointment. Here you’ll find plain-language guidance on children’s vision, everyday comfort, eye health as the years go by and what to do when something suddenly feels wrong. Use it to make sense of a symptom and to decide when it’s time to come in.</p>",
+  "sections": [
+    {
+      "id": "featured-guide",
+      "heading": "Featured Guide for Parents",
+      "html": "<p><a href=\"/eye-health/pediatric-eye-exams-beyond-school-screenings/\">Pediatric Eye Exams: Beyond School Screenings</a> explains why passing a school screening doesn’t always mean a child sees comfortably, what a complete children’s eye exam checks, and why back-to-school season is a practical time to book.</p><p>Signs parents often notice first:</p><ul><li>Squinting, or closing or covering one eye</li><li>Frequent eye rubbing</li><li>Headaches after reading or screen time</li><li>Sitting very close to screens or holding books near the face</li><li>Losing their place while reading, or avoiding homework</li></ul><p>One sign on its own isn’t cause for alarm, but signs that linger or show up together are a good reason to schedule an exam.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "everyday-habits",
+      "heading": "Everyday Habits That Help Your Eyes",
+      "html": "<ul><li><strong>Keep up with exams.</strong> Many eye conditions develop slowly and without early symptoms, so a regular exam can catch changes you wouldn’t notice on your own.</li><li><strong>Give screens a break.</strong> Every 20 minutes, look at something about 20 feet away for about 20 seconds, and remember to blink.</li><li><strong>Wear UV protection outdoors.</strong> Sunglasses that block 100% of UVA and UVB help protect your eyes on the water, at the beach and on the road.</li><li><strong>Protect your eyes for sports and projects.</strong> Safety glasses or sports goggles prevent many injuries from yard work, home repairs and ball games.</li><li><strong>Handle contact lenses with care.</strong> Wash your hands first, keep lenses away from water, including tap water and pools, and don’t sleep in them unless your eye doctor has prescribed lenses for overnight wear.</li><li><strong>Share your health history.</strong> Diabetes, high blood pressure and a family history of glaucoma or macular degeneration all affect how closely your eyes should be watched.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "symptom-routes",
+      "heading": "Find the Right Next Step for a Symptom",
+      "html": "<ul><li><strong>Dry, burning or gritty eyes that keep coming back:</strong> read about <a href=\"/services/dry-eye-treatment/\">dry eye treatment</a>. At Academy Vision, we look beyond quick fixes to find out what’s causing the discomfort.</li><li><strong>A nearsighted child whose prescription gets stronger every year:</strong> ask about <a href=\"/services/myopia-management/\">myopia management</a>, which uses options designed to slow how quickly nearsightedness progresses.</li><li><strong>Diabetes, a family history of glaucoma, or vision that seems dimmer or cloudier:</strong> our <a href=\"/services/medical-eye-care/\">medical eye care</a> page explains how we monitor and manage glaucoma, macular degeneration, diabetic eye disease and cataracts.</li><li><strong>An eye injury, sudden vision changes, or redness and pain that won’t settle:</strong> call us at (732) 978-9306. We offer <a href=\"/services/emergency-eye-care/\">emergency eye care</a> in Pine Beach whenever possible.</li><li><strong>Blurry vision, headaches or tired eyes by the end of the day:</strong> it may be time for a comprehensive eye exam and an updated prescription.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "when-it-cant-wait",
+      "heading": "When It Can’t Wait",
+      "html": "<p>Seek emergency care immediately, at the nearest emergency room or by calling 911, for sudden vision loss, a chemical splash in the eye, an object that has penetrated the eye, a curtain or shadow over part of your vision, or flashes of light with a sudden shower of new floaters.</p><p>After a chemical splash, start rinsing the eye with clean, lukewarm water right away and keep rinsing for at least 15 minutes while someone calls for help. If something has pierced the eye, don’t rub it or try to pull the object out.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "How often should I have an eye exam?",
+      "a": "<p>It depends on your age, your health and your eyes. Many adults do well with an exam every year or two, while school-age children, adults 65 and older, and people with diabetes or a family history of eye disease usually benefit from yearly visits. Your eye doctor will suggest the right schedule for you.</p>"
+    },
+    {
+      "q": "Are floaters something to worry about?",
+      "a": "<p>An occasional floater drifting across your vision is common, especially with age. A sudden shower of new floaters, flashes of light or a shadow over your vision is different: seek emergency care right away.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Still Bothered? Let’s Take a Look",
+    "html": "<p>If a symptom lingers, keeps coming back or simply worries you, book a visit. We see patients of all ages, and our optometrists take the time to listen, explain what’s going on and help you choose the next step.</p>"
+  },
+  "related": [
+    "eye-health/pediatric-eye-exams-beyond-school-screenings",
+    "services/medical-eye-care",
+    "services/emergency-eye-care"
+  ],
+  "claims": [
+    {
+      "text": "Plain-language eye health tips from Academy Vision in Pine Beach, NJ: children’s vision, dry and irritated eyes, eye health with age and urgent symptoms.",
+      "factId": "article-tips-heading",
+      "page": "/",
+      "quote": "Get Expert Eye Care Tips From Our Doctors"
+    },
+    {
+      "text": "Eye Care Tips From Our Pine Beach Eye Doctors",
+      "factId": "article-tips-heading",
+      "page": "/",
+      "quote": "Get Expert Eye Care Tips From Our Doctors"
+    },
+    {
+      "text": "Pediatric Eye Exams: Beyond School Screenings explains why passing a school screening doesn’t always mean a child sees comfortably, what a complete children’s eye exam checks, and why back-to-school season is a practical time to book.",
+      "factId": "article-title",
+      "page": "/",
+      "quote": "Pediatric Eye Exams: Beyond School Screenings »"
+    },
+    {
+      "text": "Pediatric Eye Exams: Beyond School Screenings explains why passing a school screening doesn’t always mean a child sees comfortably, what a complete children’s eye exam checks, and why back-to-school season is a practical time to book.",
+      "factId": "service-back-to-school",
+      "page": "/article/pediatric-eye-exams-beyond-school-screenings/",
+      "quote": "Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms."
+    },
+    {
+      "text": "At Academy Vision, we look beyond quick fixes to find out what’s causing the discomfort.",
+      "factId": "service-dry-eye",
+      "page": "/eye-care-services/dry-eye-treatment/",
+      "quote": "At Academy Vision, we look beyond quick fixes to find out what’s causing your discomfort and help you feel better for the long run."
+    },
+    {
+      "text": "A nearsighted child whose prescription gets stronger every year: ask about myopia management, which uses options designed to slow how quickly nearsightedness progresses.",
+      "factId": "service-myopia-options",
+      "page": "/eye-care-services/myopia-management/",
+      "quote": "Once we understand your child’s vision, we’ll recommend options that are designed to slow progression."
+    },
+    {
+      "text": "Diabetes, a family history of glaucoma, or vision that seems dimmer or cloudier: our medical eye care page explains how we monitor and manage glaucoma, macular degeneration, diabetic eye disease and cataracts.",
+      "factId": "service-ocular-diseases-managed",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Ocular Diseases We Manage Glaucoma"
+    },
+    {
+      "text": "An eye injury, sudden vision changes, or redness and pain that won’t settle: call us at (732) 978-9306.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "We offer emergency eye care in Pine Beach whenever possible.",
+      "factId": "service-emergency",
+      "page": "/hours-location/",
+      "quote": "Whether you’re dealing with sudden vision changes, an eye injury, redness, or discomfort that won’t go away, we offer emergency eye care in Pine Beach whenever possible."
+    },
+    {
+      "text": "We see patients of all ages, and our optometrists take the time to listen, explain what’s going on and help you choose the next step.",
+      "factId": "service-exams-all-ages",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "We see patients of all ages, from young kids coming in for their first exam to adults staying on top of changes in their vision."
+    },
+    {
+      "text": "We see patients of all ages, and our optometrists take the time to listen, explain what’s going on and help you choose the next step.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    }
+  ],
+  "flags": [
+    "Evidence PARTIAL for this hub (facts/service-evidence.json /eye-health: \"The site has one article, not a library.\"). The page features Academy Vision’s only article and routes symptoms to service pages; it lists no other guides. Add new articles here as the practice publishes them.",
+    "Emergency guidance (911 or the nearest emergency room; rinse a chemical splash for at least 15 minutes; do not remove a penetrating object) is general first-aid information for the practice to approve. The site states no after-hours instruction (gap G4); add one if the practice has it.",
+    "Five internal links is the cap, so the symptom list links dry eye, myopia, medical and emergency care; the exam-schedule FAQ and the blurry-vision line rely on the page’s booking buttons.",
+    "The h1 (from restructure.json) presents this hub as tips from the eye doctors, as the home page heading does for the article. The general guidance written for this page (everyday habits, exam intervals, urgent signs and first aid) has not been reviewed by Academy Vision’s doctors; they should approve it before launch. The lede no longer attributes it to them."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G5-eyewear-site",
+    "notes": "tools/overlap-check.mjs --fail 8 (6-word shingles): longest span shared with the Eye Trends crawl 6 words; page copy alone (claims[] removed): 0 words, so the longer span is Academy Vision’s own source path in claims[].page || CHECKER checker-G5-eyewear-site, 2026-10-08: re-ran tools/overlap-check.mjs --fail 8 (6-word shingles) on this final file: longest shared span 6 words (the Academy Vision source path in claims[].page); with claims, flags and review removed the copy shares 0 words; the --control run reported DETECTED. Re-verified all 11 claims: each factId exists in facts/client-facts.json, page and quote equal the fact’s, the quote is on the cited audit/raw page and the claim text is verbatim on this page. Tags, links (5, all new-site paths), schema, imageSlots and length (669 body words) pass tmp/checker-G5-eyewear-site/check.mjs, whose 21 planted-fault controls all fired. CHANGE 1 lede. Before: Here, our Pine Beach eye doctors share plain-language guidance on… After: Here you’ll find plain-language guidance on… Why: the page’s general guidance was not written or approved by Academy Vision’s doctors; the facts support tips from our doctors only as the home page heading over the article. The claim citing article-tips-heading for this sentence was removed; the h1 and meta claims stay. CHANGE 2 sections[2]. Before: A child’s prescription that changes every year: After: A nearsighted child whose prescription gets stronger every year: Why: medical accuracy; myopia management is for progressing nearsightedness, not any changing prescription. Claim text updated. CHANGE 3 cta. Before: If a symptom lingers for more than a few days, keeps coming back… After: If a symptom lingers, keeps coming back… Why: removes a waiting period a reader could apply to a red, painful eye, and a duration on a PARTIAL page. CHANGE 4 flags. Added the doctors-approval flag for the h1. Reviewed, kept: Every 20 minutes … 20 seconds (the 20-20-20 screen rule) and at least 15 minutes (chemical-splash rinse) are health and first-aid guidance, not operational promises. The emergency list (sudden vision loss, chemical splash, penetrating injury, curtain or shadow, flashes with new floaters: emergency room or 911) matches the emergency-eye-care and flashes-floaters pages. 5-word runs and why back to school and losing their place while reading are Academy Vision’s own article wording."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "cut-eyeglasses-tortoise",
+  "file": "assets/generated/cut-eyeglasses-tortoise.png",
+  "kind": "depth-cutout",
+  "planPurpose": "protruding frame object (warm accent)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 cut-out, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Round tortoiseshell eyeglasses",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of a pair of round tortoiseshell acetate eyeglasses with clear lenses, front view tilted slightly, temples open, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 593869233,
+  "requestId": "01a119eb-bc26-7fa3-9572-38cadffc7eed",
+  "editOf": "tmp/imagery-run/attempts/cut-eyeglasses-tortoise.a1k.jpg",
+  "sourceAttempt": "tmp/imagery-run/attempts/cut-eyeglasses-tortoise.a1kl.jpg",
+  "w": 2048,
+  "h": 2048,
+  "sha256": "00797f449eb499724121dcc3852cf7f182720ebba57805397f098b0a4f66d8cf",
+  "master": {
+    "file": "assets/generated/raw/cut-eyeglasses-tortoise.jpg",
+    "sha256": "8f29f98daaf247758bb76cb46efbcba3f83810eabc41661c860074b50cda8997"
+  },
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "input": {
+      "model": "Matting",
+      "operating_resolution": "2048x2048",
+      "output_format": "png"
+    },
+    "source": "assets/generated/raw/cut-eyeglasses-tortoise.jpg",
+    "requestId": "01a11a4f-c183-79f2-9ae8-4f9baf8f00ee",
+    "output": "tmp/verify-imagery/gen/attempts/cut-eyeglasses-tortoise.r1-matting.png"
+  },
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "LOCAL non-AI edit on a1k: median r7 + gaussian 1.5 inside a feathered ellipse (1560,897, 78x18) over the plate lettering; no API call",
+      "100% + 400% plate: blank smooth metal, no letters",
+      "rest of master as reviewed on a1: one round tortoiseshell pair, two temples, left plate blank"
+    ],
+    "notes": "master accepted; birefnet next",
+    "at": "2026-10-08T05:17:43.898Z",
+    "retries": 1,
+    "cutout": {
+      "verdict": "accept",
+      "checks": [
+        "birefnet cut of a1kl kept the clear lenses as opaque grey with cloud-shaped holes (rejected as cut: 11.1% opaque, semi-mean #8a8c8c)",
+        "LOCAL fix (lensfix.mjs, no API call): inside the two lens ellipses (642,1022 / 1452,1022, 262x244) alpha x (1 - greyness) for neutral light-grey pixels; temple plates protected by traced polygons",
+        "22% on navy/cream/magenta: lenses clear, temples visible behind, frame edges clean, no halo, temple tips intact",
+        "50% both lenses: clean interiors, natural thin bevel highlight along the rims",
+        "200% plates: crisp outlines; minor stair-stepping on one temple's lower edge and a faint light fringe on a temple top - sub-pixel at display sizes"
+      ],
+      "notes": "first cutfix pass kept a background rectangle around the left plate (rect keep-zone); fixed with polygon keep-zones",
+      "at": "2026-10-08T05:22:03.477Z",
+      "file": "tmp/imagery-run/attempts/cut-eyeglasses-tortoise.a1kl.cutfix.png",
+      "sha256": "595c5416420f7d9fd43fa2feb5a338ec2013b78c3f7848421bcbdf7e4e1eff75"
+    }
+  },
+  "promotedAt": "2026-10-08T05:34:20.799Z",
+  "refuterFix": {
+    "at": "2026-10-08T07:19:59.588Z",
+    "replacedSha256": "595c5416420f7d9fd43fa2feb5a338ec2013b78c3f7848421bcbdf7e4e1eff75",
+    "attempts": [
+      {
+        "attempt": "r1",
+        "kind": "paid fal-ai/birefnet/v2 (model \"Matting\", 2048x2048, png) on the unchanged raw master",
+        "file": "tmp/verify-imagery/gen/attempts/cut-eyeglasses-tortoise.r1-matting.png",
+        "cost": 0.01,
+        "requestId": "01a11a4f-c183-79f2-9ae8-4f9baf8f00ee",
+        "verdict": "accept",
+        "what": "new matte from birefnet's Matting model instead of IMAGERY's local lens alpha repair; RGB follows the raw master (MAD 0.50 on opaque pixels)"
+      }
+    ],
+    "finalChecks": [
+      "navy + cream composites at 100%: both lenses clear with natural bevel highlights, temples and plates visible behind the lenses, no speckled fringe, no grey smear, no transparent hinge block",
+      "400% plates, studs, temple tips, lower rim: crisp edges, plain metal, no text",
+      "alpha: transparent 92.37%, semi 1.75%, opaque 5.88%, 0 isolated specks, corners transparent, margins 268/731/223/730 px"
+    ],
+    "note": "IMAGE REFUTER fix; the fields above this block describe the IMAGERY generation the fix starts from"
+  },
+  "cutoutSuperseded": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a119f2-3e6c-7cf3-bfb4-899da11845c7",
+    "input": {
+      "image_url": "<data uri of cut-eyeglasses-tortoise.a1kl.jpg>",
+      "model": "General Use (Heavy)",
+      "operating_resolution": "2048x2048",
+      "output_format": "png"
+    },
+    "birefnetOutput": "tmp/imagery-run/attempts/cut-eyeglasses-tortoise.a1kl.cut.png",
+    "localRepair": "tmp/imagery-run/attempts/cut-eyeglasses-tortoise.a1kl.cutfix.png"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/same-day-contacts",
+  "etSource": "services/same-day-contacts",
+  "title": "Same-Day Contact Lenses: What to Know | Academy Vision",
+  "metaDescription": "Hoping to leave your fitting wearing new contacts? Learn what decides whether that’s possible, then call Academy Vision in Pine Beach at (732) 978-9306 to ask.",
+  "h1": "Same-Day Contact Lenses: What Decides the Timing",
+  "kicker": "Straight Answers, No Guesswork",
+  "lede": "<p>Whether you can leave a fitting already wearing new lenses depends on a few things: your prescription, the type of lens that suits your eyes, and whether that exact lens is available to try. Once you’ve decided to try contacts, it’s natural to want to start right away.</p><p>The easiest way to know what’s realistic for you is to ask before your visit. Call Academy Vision at (732) 978-9306, and mention that timing matters to you.</p>",
+  "sections": [
+    {
+      "id": "why-some-lenses-are-ordered",
+      "heading": "Why Some Lenses Have to Be Ordered",
+      "html": "<p>Contact lenses come in a huge range of powers, curves and designs. Eye care offices often keep trial lenses in common prescriptions, but lenses for higher prescriptions, astigmatism, near-and-far vision or custom designs may need to be ordered, and then there’s a wait before your own lenses arrive. How long depends on the lens and the manufacturer.</p><p>A wait isn’t a bad sign. It usually means your eyes need something more specific, and getting that right matters more than getting it fast.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "fitting-steps",
+      "heading": "What Happens at a Contact Lens Fitting",
+      "html": "<p>Whatever the timing, the fitting itself is the part worth taking slowly. At Academy Vision, a contact lens exam goes a step beyond a standard eye exam. It includes:</p><ol><li>A check of your vision and overall eye health</li><li>Measurements for the best possible fit</li><li>An evaluation of your tear film, so your eyes stay comfortable</li><li>Trial lenses, so you can experience how they feel</li><li>Adjustments based on comfort and clarity</li></ol>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "why-fit-matters",
+      "heading": "Three Reasons a Proper Fitting Pays Off",
+      "html": "<ul><li><strong>Comfort.</strong> A lens that’s too tight or too loose can feel scratchy, leave your eyes red or slide around when you blink.</li><li><strong>Steady, clear vision.</strong> The right power on the right lens shape gives you vision that holds up through reading, driving and screen time.</li><li><strong>Healthy eyes.</strong> A fitting shows how your eyes respond to a lens, which helps head off irritation and other problems a poorly fitted lens can cause.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "no-shortcuts",
+      "heading": "Why Contacts Shouldn’t Skip the Fitting",
+      "html": "<p>It can be tempting to grab a box of lenses and go, but contacts are medical devices that sit directly on your eye. In the U.S., every contact lens needs a valid prescription, even purely cosmetic ones, and a contact lens prescription isn’t the same as one for glasses. It names a specific lens, size and curve chosen for your eyes. Skipping the fitting to save time can mean living with blur, discomfort or a problem nobody caught.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "next-time",
+      "heading": "Easier Each Time",
+      "html": "<p>Once you’ve been fitted and your eyes are settled in a lens that works, future visits tend to be simpler. Your eye doctor already knows how your eyes responded and which lenses you liked, so a new prescription or a switch to a different lens has a head start.</p><p>For decades, we’ve been caring for families throughout the Jersey Shore, building relationships that last well beyond a single visit.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "more-options",
+      "heading": "More About Contact Lenses",
+      "html": "<ul><li><a href=\"/services/contact-lens-exams/\">Contact lens exams</a>: what to expect at your fitting</li><li><a href=\"/services/toric-contacts/\">Contacts for astigmatism</a>: lenses that correct uneven focus</li><li><a href=\"/services/multifocal-contacts/\">Multifocal contacts</a>: reading and distance vision in a single lens</li><li><a href=\"/products/contact-lenses/\">Contact lens options</a>: daily and longer-wear lenses</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I leave my fitting wearing new lenses?",
+      "a": "<p>That depends on your prescription and on which lens suits your eyes. The simplest way to find out before your visit is to call us at (732) 978-9306 and ask.</p>"
+    },
+    {
+      "q": "Which lenses are more likely to need ordering?",
+      "a": "<p>In general, lenses for higher prescriptions, astigmatism or near-and-far vision, along with custom-made lenses such as scleral lenses, are more likely to be ordered than everyday lenses in common powers. Your exam shows which lens is right for you, and that shapes the timing.</p>"
+    },
+    {
+      "q": "I already wear contacts. Do I still need a fitting?",
+      "a": "<p>If your prescription has expired, your eyes have changed or you’d like to try a different lens, a contact lens exam is the next step. Contact lens prescriptions have an expiration date and are written for a specific lens, so a new brand or design usually means a new fitting.</p>"
+    },
+    {
+      "q": "What if I’m new to contacts?",
+      "a": "<p>That’s completely fine. At your exam, we’ll walk you through putting lenses in, removing them and caring for them, one step at a time.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Call Ahead and Ask",
+    "html": "<p>If starting contacts soon matters to you, say so when you call (732) 978-9306. You’ll find our office at 90 Atlantic City Blvd in Pine Beach, right on Route 9 near the Mizzen Avenue light.</p>"
+  },
+  "related": [
+    "services/contact-lens-exams",
+    "services/toric-contacts",
+    "services/multifocal-contacts",
+    "products/contact-lenses"
+  ],
+  "claims": [
+    { "text": "Same-Day Contact Lenses: What to Know | Academy Vision", "factId": "identity-site-name", "page": "/", "quote": "Academy Vision" },
+    { "text": "Learn what decides whether that’s possible, then call Academy Vision in Pine Beach at (732) 978-9306 to ask.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "Learn what decides whether that’s possible, then call Academy Vision in Pine Beach at (732) 978-9306 to ask.", "factId": "address-display", "page": "/", "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741" },
+    { "text": "Call Academy Vision at (732) 978-9306, and mention that timing matters to you.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "At Academy Vision, a contact lens exam goes a step beyond a standard eye exam.", "factId": "service-contact-lens-exams", "page": "/contact-lenses/contact-lenses-exams/", "quote": "A contact lens exam goes a step beyond a standard eye exam." },
+    { "text": "It includes:", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "A check of your vision and overall eye health", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We check your vision and overall eye health" },
+    { "text": "Measurements for the best possible fit", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We take measurements to ensure the best possible fit" },
+    { "text": "An evaluation of your tear film, so your eyes stay comfortable", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We evaluate your tear film to make sure your eyes stay comfortable" },
+    { "text": "Trial lenses, so you can experience how they feel", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We fit you with trial lenses so you can experience how they feel" },
+    { "text": "Adjustments based on comfort and clarity", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We make adjustments based on comfort and clarity" },
+    { "text": "For decades, we’ve been caring for families throughout the Jersey Shore, building relationships that last well beyond a single visit.", "factId": "address-jersey-shore", "page": "/about-us/", "quote": "For decades, we’ve been taking care of families throughout the Jersey Shore, building relationships that last far beyond a single visit." },
+    { "text": "The simplest way to find out before your visit is to call us at (732) 978-9306 and ask.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "At your exam, we’ll walk you through putting lenses in, removing them and caring for them, one step at a time.", "factId": "service-contact-lens-training", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We’ll show you how to put them in" },
+    { "text": "At your exam, we’ll walk you through putting lenses in, removing them and caring for them, one step at a time.", "factId": "service-contact-lens-training", "page": "/contact-lenses/contact-lenses-exams/", "quote": "care for them properly, step by step." },
+    { "text": "If starting contacts soon matters to you, say so when you call (732) 978-9306.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "You’ll find our office at 90 Atlantic City Blvd in Pine Beach, right on Route 9 near the Mizzen Avenue light.", "factId": "address-display", "page": "/", "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741" },
+    { "text": "You’ll find our office at 90 Atlantic City Blvd in Pine Beach, right on Route 9 near the Mizzen Avenue light.", "factId": "address-landmark", "page": "/eyeglasses/", "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light." }
+  ],
+  "flags": [
+    "Evidence is partial. The live site states that its contact lens fitting includes trial lenses (/contact-lenses/contact-lenses-exams/), but it never says patients leave wearing lenses the same day; its only same-day claim is for glasses made in the in-office finishing lab, and this page does not carry that claim over to contacts. The copy explains the topic, lists the stated exam steps and invites a call to (732) 978-9306, with no promise of same-day lenses, stock or timing. Please tell us whether Academy Vision can send patients home in lenses on the day of the fitting, and for which prescriptions and lens types, before this page is indexed or listed in the menu.",
+    "The proposed title “Same-Day Contacts in Pine Beach, NJ” and h1 “Same-Day Contact Lens Fittings in Pine Beach” were changed to an informational title (“Same-Day Contact Lenses: What to Know”) and h1 (“Same-Day Contact Lenses: What Decides the Timing”), so the page does not read as a same-day offer. If the practice offers the service, both can be restated as an offer.",
+    "General statements on this page (offices often keep trial lenses in common prescriptions; specialty and custom lenses are ordered; every contact lens sold in the U.S. needs a valid prescription; contact lens prescriptions expire and name a specific lens) are general information, not statements about Academy Vision’s own stock or policies."
+  ],
+  "review": {
+    "overlapLongest": 0,
+    "checkedBy": "checker-G4-contacts",
+    "notes": "Overlap gate (tools/overlap-check.mjs, 6-word shingles, fail at 8): longest shared span 0; the --control run detected an inserted Eye Trends sentence. The first draft failed with 9 words because the lens-handling quote from /contact-lenses/contact-lenses-exams/ happens to match Eye Trends wording; that quote is now two verbatim fragments, and the visible sentence was reworded after a stricter 5-word pass. The h1 question carries no claim on purpose, so nothing reads as evidence for the service. Every claim quote was matched against its client-facts.json record and the raw Academy Vision page it cites. || CHECKER checker-G4-contacts, 2026-10-08: re-ran tools/overlap-check.mjs --fail 8 (6-word shingles) on this final file: longest shared span 0 words; the --control run reported DETECTED; a 5-word pass leaves only generic phrases or Academy Vision’s own (its exam step and its lens-handling fragment). Re-verified all 18 claims with tmp/checker-G4-contacts/audit.mjs: each factId exists in facts/client-facts.json, its page equals the fact’s page, the quote sits in the fact record and on the cited audit/raw page, and the claim text is a whole visible sentence; the script’s 12 planted-defect controls all fired. Every we/our/us/Academy Vision sentence is backed by a claim, and none asserts a service, stock, timing or result beyond its fact. Changes: (1) h1 before ‘Hoping for Same-Day Contacts in Pine Beach?’, after ‘Same-Day Contact Lenses: What Decides the Timing’ (still no claim); why: on a page without evidence the local question read as the setup for an offer, and BRAND-SYSTEM 6.4 pairs a reassurance kicker (kept) with a plain keyword heading; flag 2 updated to match. (2) link text for /services/multifocal-contacts/: before ‘one lens for reading and distance’, after ‘reading and distance vision in a single lens’; why: precaution, the link label and its description together shared a 5-word run with an Eye Trends related-link list (below the 6-word review level). (3) lede, first paragraph: its two sentences swapped, so it now opens ‘Whether you can leave a fitting already wearing new lenses depends on a few things: …’ and the empathy sentence follows; no words changed; why: the pipeline’s sibling cards (src/lib/pages.mjs excerptFor, lead sentences up to 200 characters) show a page’s first lede sentence under its menu label, so on every contact lens page the Same-Day Contacts card read ‘it’s natural to want to start right away’, the setup of an offer; it now shows the 190-character answer. Reviewed, kept: promise-pattern hits are the topic name in the title and h1 (it matches the menu label), ‘start right away’ (the reader’s wish) and ‘getting it fast’ (a contrast), none an operational promise; no stock, walk-in, price or duration statement. Medical read: prescription, medical-device and fitting statements match standard guidance (UNVERIFIED against a citation this run). Body 737 words (748 with h1 and kicker); links 4, all new-site paths; tags and schema pass."
+  }
+}

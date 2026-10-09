@@ -1,0 +1,422 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/our-eye-doctor/",
+  "source": "audit/raw/our-eye-doctor.html",
+  "rendered": "tmp/extract/rendered/our-eye-doctor.html",
+  "meta": {
+    "title": "Optometrist in Pine Beach NJ | Academy Vision",
+    "description": "Visit Dr. Marc Ullman, your Pine Beach eye doctor. Providing comprehensive optometry and personalized eye care for patients at Academy Vision.",
+    "canonical": "https://www.academyvisionnj.com/our-eye-doctor/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/our-eye-doctor/",
+      "type": "website",
+      "title": "Optometrist in Pine Beach NJ | Academy Vision",
+      "description": "Visit Dr. Marc Ullman, your Pine Beach eye doctor. Providing comprehensive optometry and personalized eye care for patients at Academy Vision.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/our-eye-doctor/",
+        "url": "https://www.academyvisionnj.com/our-eye-doctor/",
+        "name": "Our Eye Doctors",
+        "datePublished": "2026-03-26T17:17:18.272Z",
+        "dateModified": "2026-07-10T03:13:03.531Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "AboutPage",
+            "@id": "https://www.academyvisionnj.com/our-eye-doctor/#webpage",
+            "url": "https://www.academyvisionnj.com/our-eye-doctor/",
+            "name": "Optometrist in Pine Beach NJ | Our Eye Doctors | Academy Vision",
+            "description": "Meet the experienced eye care team at Academy Vision in Pine Beach, NJ. Led by practice owner Dr. Anthony Giallombardo, alongside veteran optometrists Dr. Marc Ullman and Dr. Tyler Lesko.",
+            "mainEntity": {
+              "@type": "ItemList",
+              "name": "Academy Vision Optometrists",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "Optometrist",
+                    "name": "Dr. Anthony Giallombardo, O.D.",
+                    "jobTitle": "Optometrist & Practice Owner",
+                    "description": "Dr. Anthony Giallombardo is an optometrist and the owner of Academy Vision, driven by a passion for creating a meaningful impact on his patients' visual health and life quality.",
+                    "worksFor": {
+                      "@type": "Optician",
+                      "name": "Academy Vision",
+                      "telephone": "+1-732-978-9306",
+                      "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "90 Atlantic City Blvd",
+                        "addressLocality": "Pine Beach",
+                        "addressRegion": "NJ",
+                        "postalCode": "08741",
+                        "addressCountry": "US"
+                      }
+                    }
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@type": "Optometrist",
+                    "name": "Dr. Marc Ullman, O.D.",
+                    "jobTitle": "Optometrist",
+                    "description": "Dr. Marc Ullman has been a foundational pillar of the local eye care community since 1998, graduating from the Pennsylvania College of Optometry (Salus University).",
+                    "worksFor": {
+                      "@type": "Optician",
+                      "name": "Academy Vision"
+                    }
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "@type": "Optometrist",
+                    "name": "Dr. Tyler Lesko, O.D.",
+                    "jobTitle": "Optometrist",
+                    "description": "Born and raised in Lacey Township, NJ, Dr. Tyler Lesko is a dedicated local eye care professional who graduated Summa Cum Laude from Georgian Court University before pursuing optometry.",
+                    "worksFor": {
+                      "@type": "Optician",
+                      "name": "Academy Vision"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "h1": "Your Trusted Pine Beach Eye Doctors",
+  "counts": {
+    "blocks": 3,
+    "nodes": 9,
+    "static": 9,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "hero-1",
+      "id": "vwpYjjyrQ3",
+      "at": 89085,
+      "layout": {
+        "contentAlign": "flex-end"
+      },
+      "background": {
+        "color": "#0f2a4a",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e38-ecef-76e5-bf0e-02c98706a9b4/AdobeStock_1227180789.jpeg",
+          "file": "assets/source/cd3a9876-AdobeStock_1227180789.jpeg-w_2000.webp",
+          "w": 2000,
+          "h": 1125,
+          "position": "51.3% 97.1%",
+          "mobile": "hidden"
+        },
+        "overlay": "#2e2e2ed1",
+        "textColor": "#fff"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d4e38-ecef-76e5-bf0e-02c98706a9b4/AdobeStock_1227180789.jpeg",
+          "file": "assets/source/cd3a9876-AdobeStock_1227180789.jpeg-w_2000.webp",
+          "alt": "An eye exam room with an eye chart on the wall and a microscope on a table.",
+          "w": 2000,
+          "h": 1125,
+          "variant": "mobile-only",
+          "focal": "50.38% 61.30%",
+          "id": "vwpYjjyrQ3-desktop_mobile_image",
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>You’re in Good Hands Here</p>",
+          "transform": "uppercase",
+          "id": "WAZRkZFzFv",
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Your Trusted Pine Beach Eye Doctors",
+          "html": "Your Trusted Pine Beach Eye Doctors",
+          "id": "DNXxC7gSer",
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Choosing an eye doctor in Pine Beach is about more than just your vision. At <a href=\"/hours-location/\">Academy Vision</a>, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable. Whether you’ve been coming here for years or you’re visiting for the first time for an <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a>, you’ll be treated like more than just another appointment.</p>",
+          "id": "9yNcnwLgrT",
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section-divider",
+      "id": "nooKulfTkc",
+      "at": 92737,
+      "layout": {
+        "minHeight": "15px"
+      },
+      "background": {
+        "color": "#fff",
+        "image": {
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/01a05d81-779d-7319-8d09-1ce7b395748b/Blue-Divider_light.jpg",
+          "file": "assets/source/65527996-Blue-Divider_light.jpg-w_1600.webp",
+          "w": 1600,
+          "h": 18,
+          "position": "center"
+        }
+      },
+      "nodes": []
+    },
+    {
+      "cpt": "section",
+      "id": "NvLEgJpY9e",
+      "at": 93016,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "html",
+          "html": "<p>The People Taking Care of You</p>",
+          "transform": "uppercase",
+          "id": "YyMSHZh7O2",
+          "col": 0,
+          "origin": "static",
+          "hint": "kicker"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "The Academy Vision Eye Care Team",
+          "html": "The Academy Vision Eye Care Team",
+          "id": "rfSuRDvAHh",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Our eye doctors bring together years of experience, a commitment to doing things the right way, and a genuine connection to the community we serve. You won’t find a rushed, impersonal experience here. Instead, you’ll find a team that takes the time to get to know you, understand your needs, and provide eye care that fits your life.</p>",
+          "id": "7qbQWM1i0F",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Meet our Optometrists",
+          "html": "Meet our Optometrists",
+          "id": "8Hnv9jHddw",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "team",
+          "kind": "list",
+          "items": [
+            {
+              "name": "Marc Ullman, O.D.",
+              "href": "/team/dr-marc-ullman-od/",
+              "title": {
+                "level": 3,
+                "text": "Marc Ullman, O.D.",
+                "html": "Marc Ullman, O.D.",
+                "chevron": true
+              },
+              "photo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/35072/a13c7433-6788-4012-bc37-105722d1a5dc.jpeg",
+                "file": "assets/source/0880ffbf-a13c7433-6788-4012-bc37-105722d1a5dc.jpeg",
+                "alt": "Marc Ullman",
+                "w": 300,
+                "h": 326,
+                "href": "/team/dr-marc-ullman-od/"
+              },
+              "bio": "<p>Dr. Marc Ullman has been a pillar of the eye care community since 1998. Originally from Toms River, he attended Binghamton University and the Pennsylvania College...</p>",
+              "cta": {
+                "label": "Read More",
+                "href": "/team/dr-marc-ullman-od/",
+                "external": false,
+                "ariaLabel": "Read More about Dr. Marc Ullman, O.D."
+              }
+            },
+            {
+              "name": "Tyler Lesko, O.D.",
+              "href": "/team/dr-tyler-lesko-od/",
+              "title": {
+                "level": 3,
+                "text": "Tyler Lesko, O.D.",
+                "html": "Tyler Lesko, O.D.",
+                "chevron": true
+              },
+              "photo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/36311/a16c6b98-de22-4441-9064-dbc2f9cb7f66.png",
+                "file": "assets/source/ba75953f-a16c6b98-de22-4441-9064-dbc2f9cb7f66.png",
+                "alt": "Tyler Lesko",
+                "w": 223,
+                "h": 300,
+                "href": "/team/dr-tyler-lesko-od/"
+              },
+              "bio": "<p>Dr. Tyler Lesko is a local eye care professional born and raised in Lacey Township, NJ. He graduated Summa Cum Laude from Georgian Court University before...</p>",
+              "cta": {
+                "label": "Read More",
+                "href": "/team/dr-tyler-lesko-od/",
+                "external": false,
+                "ariaLabel": "Read More about Dr. Tyler Lesko, O.D."
+              }
+            },
+            {
+              "name": "Anthony Giallombardo, O.D.",
+              "href": "/team/dr-anthony-giallombardo-od/",
+              "title": {
+                "level": 3,
+                "text": "Anthony Giallombardo, O.D.",
+                "html": "Anthony Giallombardo, O.D.",
+                "chevron": true
+              },
+              "photo": {
+                "master": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/36312/a16c6c1f-6ed9-4b4b-9bc8-2390b661770c.png",
+                "file": "assets/source/0b6612e5-a16c6c1f-6ed9-4b4b-9bc8-2390b661770c.png",
+                "alt": "Anthony Giallombardo",
+                "w": 225,
+                "h": 300,
+                "href": "/team/dr-anthony-giallombardo-od/"
+              },
+              "bio": "<p>Dr. Anthony Giallombardo is an optometrist and the owner of the practice. His passion for optometry is rooted in the meaningful impact he can make on...</p>",
+              "cta": {
+                "label": "Read More",
+                "href": "/team/dr-anthony-giallombardo-od/",
+                "external": false,
+                "ariaLabel": "Read More about Dr. Anthony Giallombardo, O.D."
+              }
+            }
+          ],
+          "id": "nmuZMqKUrM",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

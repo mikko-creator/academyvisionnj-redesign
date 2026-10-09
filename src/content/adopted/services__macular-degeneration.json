@@ -1,0 +1,202 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/macular-degeneration",
+  "etSource": "services/macular-degeneration",
+  "title": "Macular Degeneration Care in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Macular degeneration affects the central vision you use to read and drive. With regular eye exams, Academy Vision in Pine Beach can detect early signs.",
+  "h1": "Monitoring Macular Degeneration in Pine Beach",
+  "kicker": "Protecting the Vision You Rely on Most",
+  "lede": "<p>The macula is a small area at the center of the retina with a big job. It gives you the sharp, detailed vision you use to read, drive, thread a needle, and pick out a friend’s face across a room. Age-related macular degeneration, often called AMD, gradually wears that area down.</p><p>At Academy Vision, regular eye exams let us detect early signs and help you maintain your quality of life. We’ll keep an ongoing watch on your central vision and explain any change in plain language.</p>",
+  "sections": [
+    {
+      "id": "early-amd-is-easy-to-miss",
+      "heading": "Early Macular Degeneration Is Easy to Miss",
+      "html": "<p>In its early stage, macular degeneration usually causes no symptoms. The first signs are often small yellow deposits under the retina called drusen, which an eye doctor can see during an exam well before your vision changes.</p><p>Most people have the dry form, which tends to progress slowly over years. A smaller group develops the wet form, where abnormal blood vessels grow beneath the retina and leak. Wet AMD can blur or distort central vision quickly, so prompt attention matters.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "why-macular-checks-matter",
+      "heading": "Three Reasons to Keep Up With Macular Checks",
+      "html": "<ul><li><strong>A careful look at the macula.</strong> An exam can pick up changes you wouldn’t notice yet in daily life.</li><li><strong>A baseline to compare against.</strong> Knowing how your macula looked last year makes new changes easier to recognize.</li><li><strong>A clear plan.</strong> Whether the answer is routine checkups or a closer watch, you’ll understand what comes next.</li></ul><p>Early detection and monitoring of macular degeneration is one of Dr. Tyler Lesko’s clinical specialties.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "what-the-check-involves",
+      "heading": "What the Check Involves, and What Comes Next",
+      "html": "<p>Checking for macular degeneration usually means testing how sharply you see, then taking a careful look at the macula itself. Some eye doctors also suggest a simple home check with a grid of straight lines, often called an Amsler grid, so you can notice wavy or missing areas between visits.</p><p>If early signs appear, the usual next step is closer monitoring and attention to the everyday habits that protect your eyes. If the wet form is suspected, a retina specialist should see you promptly, because treatment works best when it starts early. Either way, we’ll talk through what we find in plain language.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "a-lasting-record",
+      "heading": "A Lasting Condition Deserves a Lasting Record",
+      "html": "<p>Macular degeneration is a long-term condition, and the most useful information is how it changes over time. Seeing the same practice each year keeps your history in one place, so every exam can be compared with the ones before it.</p><p>A quick vision screening, or a visit that only updates your glasses prescription, shows how clearly you see but isn’t meant to follow the health of your macula. Our comprehensive eye exams take a close look at your eye health, including any signs of concern. Families in and around Pine Beach have trusted us with their vision for over 40 years.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "related-medical-eye-care",
+      "heading": "Part of Your Medical Eye Care",
+      "html": "<p>Macular degeneration is one of the conditions we manage as part of our <a href=\"/services/medical-eye-care/\">medical eye care</a>. You may also want to read about <a href=\"/services/senior-eye-exams/\">eye exams for seniors</a>, along with <a href=\"/services/glaucoma-management/\">glaucoma monitoring</a> and <a href=\"/services/cataract-co-management/\">cataract care</a>, since glaucoma and cataracts also become more common with age.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can macular degeneration be cured?",
+      "a": "<p>There’s no cure yet, but there is real help. For the wet form, treatments given by retina specialists, usually injections into the eye, can slow vision loss and sometimes improve sight. For some people with intermediate or advanced AMD, a specific vitamin and mineral formula studied in large clinical trials, known as AREDS2, can lower the chance of it getting worse. Ask your eye doctor before starting any supplement.</p>"
+    },
+    {
+      "q": "Will macular degeneration make me blind?",
+      "a": "<p>AMD rarely causes total blindness, because side vision usually stays intact. As it advances, though, it can make reading, driving, and recognizing faces harder, which is why steady monitoring is worth it.</p>"
+    },
+    {
+      "q": "How fast does it progress, and how often should it be checked?",
+      "a": "<p>Dry AMD usually changes slowly, over years, while wet AMD can change within weeks. The right checkup interval comes down to how advanced your AMD is and to risk factors like age, family history, and smoking. If straight lines suddenly look wavy, or a dark or empty spot appears in the center of your vision, call us at (732) 978-9306 right away. Sudden vision loss needs emergency care immediately.</p>"
+    },
+    {
+      "q": "Can I lower my risk?",
+      "a": "<p>Not smoking is one of the most important steps you can take. A diet rich in leafy greens and fish, regular exercise, and keeping blood pressure and cholesterol in check also support the health of your retina.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Book a Macular Check in Pine Beach",
+    "html": "<p>Whether you’ve noticed changes or simply want peace of mind, a careful look at your macula is a good place to start. Call us at (732) 978-9306 or book your visit online.</p>"
+  },
+  "related": [
+    "services/medical-eye-care",
+    "services/senior-eye-exams",
+    "services/glaucoma-management",
+    "services/cataract-co-management"
+  ],
+  "claims": [
+    {
+      "text": "Macular Degeneration Care in Pine Beach, NJ | Academy Vision",
+      "factId": "service-macular-degeneration",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "with regular eye exams, we can detect early signs and help you maintain your quality of life."
+    },
+    {
+      "text": "Monitoring Macular Degeneration in Pine Beach",
+      "factId": "service-ocular-diseases-managed",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Macular Degeneration"
+    },
+    {
+      "text": "Monitoring Macular Degeneration in Pine Beach",
+      "factId": "doctor-tl-ocular-disease",
+      "page": "/team/dr-tyler-lesko-od/",
+      "quote": "Ocular Disease: Early detection and monitoring of glaucoma, macular degeneration, and cataracts."
+    },
+    {
+      "text": "Book a Macular Check in Pine Beach",
+      "factId": "service-macular-degeneration",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "with regular eye exams, we can detect early signs and help you maintain your quality of life."
+    },
+    {
+      "text": "Whether the answer is routine checkups or a closer watch, you’ll understand what comes next.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    },
+    {
+      "text": "With regular eye exams, Academy Vision in Pine Beach can detect early signs.",
+      "factId": "service-macular-degeneration",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "with regular eye exams, we can detect early signs and help you maintain your quality of life."
+    },
+    {
+      "text": "At Academy Vision, regular eye exams let us detect early signs and help you maintain your quality of life.",
+      "factId": "service-macular-degeneration",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "with regular eye exams, we can detect early signs and help you maintain your quality of life."
+    },
+    {
+      "text": "We’ll keep an ongoing watch on your central vision and explain any change in plain language.",
+      "factId": "service-eye-disease",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "At Academy Vision, we monitor your eye health closely and help catch potential issues early."
+    },
+    {
+      "text": "We’ll keep an ongoing watch on your central vision and explain any change in plain language.",
+      "factId": "service-exam-includes",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Talk through anything we find in plain language that you can understand"
+    },
+    {
+      "text": "Early detection and monitoring of macular degeneration is one of Dr. Tyler Lesko’s clinical specialties.",
+      "factId": "doctor-tl-ocular-disease",
+      "page": "/team/dr-tyler-lesko-od/",
+      "quote": "Ocular Disease: Early detection and monitoring of glaucoma, macular degeneration, and cataracts."
+    },
+    {
+      "text": "Either way, we’ll talk through what we find in plain language.",
+      "factId": "service-exam-includes",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Talk through anything we find in plain language that you can understand"
+    },
+    {
+      "text": "Our comprehensive eye exams take a close look at your eye health, including any signs of concern.",
+      "factId": "service-exam-includes",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Take a close look at your eye health, including any signs of concerns"
+    },
+    {
+      "text": "Families in and around Pine Beach have trusted us with their vision for over 40 years.",
+      "factId": "history-over-40-years",
+      "page": "/",
+      "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision."
+    },
+    {
+      "text": "Macular degeneration is one of the conditions we manage as part of our medical eye care.",
+      "factId": "service-ocular-diseases-managed",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Macular Degeneration"
+    },
+    {
+      "text": "You may also want to read about eye exams for seniors, along with glaucoma monitoring and cataract care, since glaucoma and cataracts also become more common with age.",
+      "factId": "service-seniors",
+      "page": "/",
+      "quote": "From kids’ first eye exams to ongoing care for adults and seniors, we’re here for every stage of life."
+    },
+    {
+      "text": "You may also want to read about eye exams for seniors, along with glaucoma monitoring and cataract care, since glaucoma and cataracts also become more common with age.",
+      "factId": "service-ocular-diseases-managed",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Ocular Diseases We Manage Glaucoma"
+    },
+    {
+      "text": "If straight lines suddenly look wavy, or a dark or empty spot appears in the center of your vision, call us at (732) 978-9306 right away.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your visit online.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your visit online.",
+      "factId": "booking-online",
+      "page": "/",
+      "quote": "https://scheduleyourexam.com/v3/index.php/3197"
+    }
+  ],
+  "flags": [
+    "Imaging and home checks: retinal imaging and Amsler-grid home monitoring are not in Academy Vision’s visible copy; the page mentions the grid only as something “some eye doctors” suggest. If the practice images the macula or gives patients home grids, please say so.",
+    "Supplements and wet AMD treatment: AREDS2 and injections are described as general information (the eye disease page’s structured data lists them as condition facts, not services). The referral path for wet AMD is not stated; please name it if the practice wants it on the page.",
+    "Low vision care appears only in the eye disease page’s structured data, so this page does not mention it; add it only once the practice confirms the service.",
+    "Doctor named: Dr. Tyler Lesko (early detection and monitoring of macular degeneration, from his bio). Please approve."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G2-medical",
+    "notes": "Writer (writer-G2-medical): node tools/overlap-check.mjs --files <the four G2 files> --fail 8: longest span shared with the Eye Trends crawl is 6 words (fail at 8); every span of 6+ words is the comprehensive-exams page path that claims cite (claims.page), which the tool reads as words; the visible fields alone share at most 5 words (5-word shingles); a --control run detected the inserted sentence (exit 0). Claims map to facts/client-facts.json by factId. Checker (checker-G2-medical, 2026-10-08): re-ran the overlap gate on the final bytes (longest 6, still only the claim page path read as words; the --control run reported DETECTED), the visible fields alone with 5-word shingles (longest 5), all 19 claims (factId exists, page equals the fact page, quote found in audit/raw), every we/our/us/Academy Vision sentence, meta-language, promise and hype words, tags, links (own checker plus the pipeline's own buildPages: 0 errors) and body words (798). No unsupported practice claim found; no claimed sentence was edited. Change: (1) section 'What the Check Involves, and What Comes Next' before: 'If the wet form is suspected, treatment from a retina specialist is typically needed soon.' after: 'If the wet form is suspected, a retina specialist should see you promptly, because treatment works best when it starts early.' why: suspected wet macular degeneration first needs a prompt specialist visit to confirm it; the old line went straight to treatment."
+  }
+}

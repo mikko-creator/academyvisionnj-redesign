@@ -1,0 +1,961 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/location/academy-vision/",
+  "source": "audit/raw/location-academy-vision.html",
+  "rendered": "tmp/extract/rendered/location-academy-vision.html",
+  "meta": {
+    "title": "Academy Vision | The Pine Beach Eye Care Center",
+    "description": "If you’ve driven down Route 9, there’s a good chance you’ve seen us, the building with the artwork right by the Mizzen Avenue light.",
+    "canonical": "https://www.academyvisionnj.com/hours-location/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/location/academy-vision/",
+      "type": "website",
+      "title": "Academy Vision | The Pine Beach Eye Care Center",
+      "description": "If you’ve driven down Route 9, there’s a good chance you’ve seen us, the building with the artwork right by the Mizzen Avenue light.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/location/academy-vision/",
+        "url": "https://www.academyvisionnj.com/location/academy-vision/",
+        "name": "Academy Vision",
+        "datePublished": "2026-10-03T06:41:28.029Z",
+        "dateModified": "2026-10-03T06:41:28.029Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "LocalBusiness",
+            "name": "Academy Vision",
+            "url": "https://www.academyvisionnj.com",
+            "telephone": "+17329789306",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "90 Atlantic City Blvd",
+              "addressLocality": "Pine Beach",
+              "addressRegion": "New Jersey",
+              "postalCode": "08741",
+              "addressCountry": "US"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": 20,
+              "bestRating": 5,
+              "worstRating": 1
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "lidia giallombardo"
+                },
+                "reviewBody": "I had my eye exam at Academy. Dr. G was very thorough, friendly and knowledgeable.\nThe staff was very helpful and friendly as well. The office is modern and well stocked with a large supply of frames. Thank you for a great experience I’ll be returning for all my future optical needs.",
+                "datePublished": "2025-12-30",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "427Streaming"
+                },
+                "reviewBody": "Everyone was professional and friendly. Grateful for the in depth tools they use to check eye health (an eye scan vs the puff of air for glaucoma test). The optometrist was friendly and patient with my questions explaining everything along the way. I  also appreciated how the staff helped me pick out frames that fit my needs including taking pictures I could share with a friend for agreement on the best pair for me.",
+                "datePublished": "2026-10-02",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Lisa M."
+                },
+                "reviewBody": "Top notch! Great doctor and staff! We felt extremely important and very well cared for.",
+                "datePublished": "2026-10-01",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "grace caddell"
+                },
+                "reviewBody": "Everyone in the office are great. A very friendly office. Very helpful. The doctor is great love him. Don't mind going to the eye doctor at all because of them. When you really need to see him they tried to fit you in right away which is great.",
+                "datePublished": "2026-02-17",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Dorothie Bonfanti"
+                },
+                "reviewBody": "Very informative office, I felt comfortable the moment I walked in for my initial appt. And I was in and out in less than 30 mins. Highly recommend if you’re looking for a new eye doctor",
+                "datePublished": "2026-02-10",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Lisa L."
+                },
+                "reviewBody": "Dr G was amazing along with the office staff",
+                "datePublished": "2026-09-23",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Janet Pope"
+                },
+                "reviewBody": "Ive been going to Academy Vision for over 20 years, I wouldn’t trust my eyes to anyone else.  Dr Ullman is caring, honest and always answers all of my questions.  His practice is so well run, everyone is so helpful and thorough.",
+                "datePublished": "2025-10-10",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "SELAH V."
+                },
+                "reviewBody": ". Dr Mark Ullman is very caring and very thorough.\nThe staff is caring as well. Everyone is very friendly and they make you feel comfortable. I would Def recommend him to friends and family... *****",
+                "datePublished": "2026-09-18",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Lou"
+                },
+                "reviewBody": "My visit at Academy Vision was awesome the technician was so sweet and knowledgeable highly recommended I give her a 10+ and the doctor was very professional and concerned asking many important questions about my eyes issues I recommend anyone with eye problems or just a check up give them call and the staff was great it was a fun experience.",
+                "datePublished": "2025-12-18",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "megan gigliotti"
+                },
+                "reviewBody": "Fantastic staff and office!",
+                "datePublished": "2026-03-06",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Laura G."
+                },
+                "reviewBody": "From when you first walked in they were incredibly kind and personal. The Dr was so sweet and was willing to explain everything and anything! So glad my husband and I found them!",
+                "datePublished": "2026-09-16",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Kari Denton"
+                },
+                "reviewBody": "Jess at the desk is always the glue that holds it all together. She’s always kind, polite, and “on it”. The new doctor I got to see was very nice, seemed knowledgeable, and was a positive experience. I also for the first time purchased a pair of glasses from academy. The optometrist was super nice, thorough, and the price honestly was cheaper than my usually place (Costco), so I am very happy!",
+                "datePublished": "2026-03-04",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Alfred J."
+                },
+                "reviewBody": "Excellent service and eye care!",
+                "datePublished": "2026-09-16",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Rosemary Ruscus"
+                },
+                "reviewBody": "I have been going to academy vision for about 6 years and I love it here I have yet to have a bad experience. The front staff is always so kind and helpful, The office is very clean, and the doctors are great! Dr. Marc Ullman is very personable but is also very professional and thorough when explaining things about your glasses, eye exam, etc. He’s the best ! I’ve been to other eye doctors at the office when he’s not available and they always have done a good job as well. The glasses selection is one of the best I’ve ever seen I’m super picky and have a hard time finding frames I like. And if you’re on the fence about going here I will say my favorite thing about this place is they don’t do that evil puff eye test they have a machine that takes picture scans of your eyes to check for glaucoma etc instead and it’s way better and more comfortable.",
+                "datePublished": "2026-02-19",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Brian Baldovino"
+                },
+                "reviewBody": "It was a pleasure being seen by Dr. Giollombardo\nFrom the moment I walked in, the staff was friendly and efficient, making the whole process smooth and stress-free. Dr. G was professional and has great bed-side manner, I really felt like he took the time to listen and cater to what I needed, rather than sell me some generic junk You can tell he genuinely cares about his patients and their eye health. Highly recommend if you’re looking for a knowledgeable and personable optometrist!",
+                "datePublished": "2026-03-20",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Don Albanese"
+                },
+                "reviewBody": "First class operation. Great staff , friendly and happy to help. And Doctor Ullman is the BEST !!!!",
+                "datePublished": "2026-02-14",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Ermelinda Capobianco"
+                },
+                "reviewBody": "I absolutely am 100% satisfied with Dr Ulman & the staff",
+                "datePublished": "2026-03-20",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Leslie Risk"
+                },
+                "reviewBody": "The staff is amazing!  Very professional, helpful and friendly.   Dr. Ullman is the best. Always on top of eye care.  Would not go anywhere else@",
+                "datePublished": "2026-03-26",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Michael Damico"
+                },
+                "reviewBody": "Just had a visit March 16 I had a prob in my one eye called academy vision and they were able to get me right in ! Met with Dr giallombardo and he was great ! Knew exactly what I needed to do and put me at ease . And showed exceptional care . Prescribed an eye drop same day and I’m already treating my eye . And he will see me again in one week ! I would highly recommend this place , staff was friendly and easy to deal with . I give it ten stars  if i could . Thanks Dr G",
+                "datePublished": "2026-03-16",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Christine G."
+                },
+                "reviewBody": "Kind, professional staff. Bright, clean office. Impressive new technology/equipment with a great selection of glasses. Patient, knowledgeable doctor. Couldn't ask for a better experience! Highly recommend!",
+                "datePublished": "2026-09-11",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5,
+                  "bestRating": 5,
+                  "worstRating": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "h1": "Academy Vision",
+  "counts": {
+    "blocks": 1,
+    "nodes": 7,
+    "static": 7,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section",
+      "id": "k9GZrXYAOf",
+      "at": 92301,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          },
+          {
+            "group": 1,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 1,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Academy Vision",
+          "html": "Academy Vision",
+          "id": "RJW4rPEB11",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "location",
+          "show": [
+            "map"
+          ],
+          "locationId": "6999",
+          "name": "Academy Vision",
+          "address": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "phone": "(732) 978-9306",
+          "phoneHref": "tel:+17329789306",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "mapsNewTab": true,
+          "hours": [
+            {
+              "label": "monday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "tuesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "wednesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "thursday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "friday:",
+              "text": "8:00 am - 3:00 pm"
+            },
+            {
+              "label": "saturday:",
+              "text": "Closed"
+            },
+            {
+              "label": "sunday:",
+              "text": "Closed"
+            }
+          ],
+          "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "mapTitle": "Google Map",
+          "id": "h5J5VRQJlR",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "divider",
+          "id": "g0wqHgvt19",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "location",
+          "show": [
+            "phone",
+            "address",
+            "chevron"
+          ],
+          "locationId": "6999",
+          "name": "Academy Vision",
+          "address": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "phone": "(732) 978-9306",
+          "phoneHref": "tel:+17329789306",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "mapsNewTab": true,
+          "hours": [
+            {
+              "label": "monday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "tuesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "wednesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "thursday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "friday:",
+              "text": "8:00 am - 3:00 pm"
+            },
+            {
+              "label": "saturday:",
+              "text": "Closed"
+            },
+            {
+              "label": "sunday:",
+              "text": "Closed"
+            }
+          ],
+          "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "id": "xZq1WAJVDI",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "location",
+          "show": [
+            "hours"
+          ],
+          "locationId": "6999",
+          "name": "Academy Vision",
+          "address": "90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "phone": "(732) 978-9306",
+          "phoneHref": "tel:+17329789306",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "mapsNewTab": true,
+          "hours": [
+            {
+              "label": "monday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "tuesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "wednesday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "thursday:",
+              "text": "9:00 am - 5:00 pm"
+            },
+            {
+              "label": "friday:",
+              "text": "8:00 am - 3:00 pm"
+            },
+            {
+              "label": "saturday:",
+              "text": "Closed"
+            },
+            {
+              "label": "sunday:",
+              "text": "Closed"
+            }
+          ],
+          "mapQuery": "Academy Vision, 90 Atlantic City Blvd, Pine Beach, NJ 08741",
+          "placeId": "ChIJY_IBgmWewYkR5dH3MXBDmeE",
+          "id": "kgA8xbZvVO",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "reviews",
+          "items": [
+            {
+              "quote": "I had my eye exam at Academy. Dr. G was very thorough, friendly and knowledgeable. The staff was very helpful and friendly as well. The office is modern and well stocked with a large supply of frames. Thank you for a great experience I’ll be returning for all my future optical needs.",
+              "excerpt": "I had my eye exam at Academy. Dr. G was very thorough, friendly and knowledgeable. The staff was very helpful and friendly as well. The office is modern and well...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "lidia giallombardo",
+              "date": "2025-12-30",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Everyone was professional and friendly. Grateful for the in depth tools they use to check eye health (an eye scan vs the puff of air for glaucoma test). The optometrist was friendly and patient with my questions explaining everything along the way. I also appreciated how the staff helped me pick out frames that fit my needs including taking pictures I could share with a friend for agreement on the best pair for me.",
+              "excerpt": "Everyone was professional and friendly. Grateful for the in depth tools they use to check eye health (an eye scan vs the puff of air for glaucoma test). The optometrist...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "427Streaming",
+              "date": "2026-10-02",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Top notch! Great doctor and staff! We felt extremely important and very well cared for.",
+              "excerpt": null,
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Lisa M.",
+              "date": "2026-10-01",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Everyone in the office are great. A very friendly office. Very helpful. The doctor is great love him. Don't mind going to the eye doctor at all because of them. When you really need to see him they tried to fit you in right away which is great.",
+              "excerpt": "Everyone in the office are great. A very friendly office. Very helpful. The doctor is great love him. Don't mind going to the eye doctor at all because of them....",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "grace caddell",
+              "date": "2026-02-17",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Very informative office, I felt comfortable the moment I walked in for my initial appt. And I was in and out in less than 30 mins. Highly recommend if you’re looking for a new eye doctor",
+              "excerpt": "Very informative office, I felt comfortable the moment I walked in for my initial appt. And I was in and out in less than 30 mins. Highly recommend if you’re...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Dorothie Bonfanti",
+              "date": "2026-02-10",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Dr G was amazing along with the office staff",
+              "excerpt": null,
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Lisa L.",
+              "date": "2026-09-23",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Ive been going to Academy Vision for over 20 years, I wouldn’t trust my eyes to anyone else. Dr Ullman is caring, honest and always answers all of my questions. His practice is so well run, everyone is so helpful and thorough.",
+              "excerpt": "Ive been going to Academy Vision for over 20 years, I wouldn’t trust my eyes to anyone else. Dr Ullman is caring, honest and always answers all of my questions....",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Janet Pope",
+              "date": "2025-10-10",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": ". Dr Mark Ullman is very caring and very thorough. The staff is caring as well. Everyone is very friendly and they make you feel comfortable. I would Def recommend him to friends and family... *****",
+              "excerpt": ". Dr Mark Ullman is very caring and very thorough. The staff is caring as well. Everyone is very friendly and they make you feel comfortable. I would Def recommend...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "SELAH V.",
+              "date": "2026-09-18",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "My visit at Academy Vision was awesome the technician was so sweet and knowledgeable highly recommended I give her a 10+ and the doctor was very professional and concerned asking many important questions about my eyes issues I recommend anyone with eye problems or just a check up give them call and the staff was great it was a fun experience.",
+              "excerpt": "My visit at Academy Vision was awesome the technician was so sweet and knowledgeable highly recommended I give her a 10+ and the doctor was very professional and concerned asking...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Lou",
+              "date": "2025-12-18",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Fantastic staff and office!",
+              "excerpt": null,
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "megan gigliotti",
+              "date": "2026-03-06",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "From when you first walked in they were incredibly kind and personal. The Dr was so sweet and was willing to explain everything and anything! So glad my husband and I found them!",
+              "excerpt": "From when you first walked in they were incredibly kind and personal. The Dr was so sweet and was willing to explain everything and anything! So glad my husband and...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Laura G.",
+              "date": "2026-09-16",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Jess at the desk is always the glue that holds it all together. She’s always kind, polite, and “on it”. The new doctor I got to see was very nice, seemed knowledgeable, and was a positive experience. I also for the first time purchased a pair of glasses from academy. The optometrist was super nice, thorough, and the price honestly was cheaper than my usually place (Costco), so I am very happy!",
+              "excerpt": "Jess at the desk is always the glue that holds it all together. She’s always kind, polite, and “on it”. The new doctor I got to see was very nice,...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Kari Denton",
+              "date": "2026-03-04",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Excellent service and eye care!",
+              "excerpt": null,
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Alfred J.",
+              "date": "2026-09-16",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "I have been going to academy vision for about 6 years and I love it here I have yet to have a bad experience. The front staff is always so kind and helpful, The office is very clean, and the doctors are great! Dr. Marc Ullman is very personable but is also very professional and thorough when explaining things about your glasses, eye exam, etc. He’s the best ! I’ve been to other eye doctors at the office when he’s not available and they always have done a good job as well. The glasses selection is one of the best I’ve ever seen I’m super picky and have a hard time finding frames I like. And if you’re on the fence about going here I will say my favorite thing about this place is they don’t do that evil puff eye test they have a machine that takes picture scans of your eyes to check for glaucoma etc instead and it’s way better and more comfortable.",
+              "excerpt": "I have been going to academy vision for about 6 years and I love it here I have yet to have a bad experience. The front staff is always so...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Rosemary Ruscus",
+              "date": "2026-02-19",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "It was a pleasure being seen by Dr. Giollombardo From the moment I walked in, the staff was friendly and efficient, making the whole process smooth and stress-free. Dr. G was professional and has great bed-side manner, I really felt like he took the time to listen and cater to what I needed, rather than sell me some generic junk You can tell he genuinely cares about his patients and their eye health. Highly recommend if you’re looking for a knowledgeable and personable optometrist!",
+              "excerpt": "It was a pleasure being seen by Dr. Giollombardo From the moment I walked in, the staff was friendly and efficient, making the whole process smooth and stress-free. Dr. G...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Brian Baldovino",
+              "date": "2026-03-20",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "First class operation. Great staff , friendly and happy to help. And Doctor Ullman is the BEST !!!!",
+              "excerpt": null,
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Don Albanese",
+              "date": "2026-02-14",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "I absolutely am 100% satisfied with Dr Ulman & the staff",
+              "excerpt": null,
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Ermelinda Capobianco",
+              "date": "2026-03-20",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "The staff is amazing! Very professional, helpful and friendly. Dr. Ullman is the best. Always on top of eye care. Would not go anywhere else@",
+              "excerpt": null,
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Leslie Risk",
+              "date": "2026-03-26",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Just had a visit March 16 I had a prob in my one eye called academy vision and they were able to get me right in ! Met with Dr giallombardo and he was great ! Knew exactly what I needed to do and put me at ease . And showed exceptional care . Prescribed an eye drop same day and I’m already treating my eye . And he will see me again in one week ! I would highly recommend this place , staff was friendly and easy to deal with . I give it ten stars if i could . Thanks Dr G",
+              "excerpt": "Just had a visit March 16 I had a prob in my one eye called academy vision and they were able to get me right in ! Met with Dr...",
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Michael Damico",
+              "date": "2026-03-16",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            },
+            {
+              "quote": "Kind, professional staff. Bright, clean office. Impressive new technology/equipment with a great selection of glasses. Patient, knowledgeable doctor. Couldn't ask for a better experience! Highly recommend!",
+              "excerpt": null,
+              "rating": 5,
+              "ratingOf": 5,
+              "ratingLabel": "5 out of 5 stars",
+              "stars": "⭐️⭐️⭐️⭐️⭐️",
+              "author": "Christine G.",
+              "date": "2026-09-11",
+              "source": null,
+              "matchedFrom": "jsonLd"
+            }
+          ],
+          "aggregate": {
+            "ratingValue": "5.0",
+            "reviewCount": 20,
+            "bestRating": 5,
+            "worstRating": 1,
+            "from": "jsonLd"
+          },
+          "ui": {
+            "showMore": "Show More",
+            "previous": "Previous slide",
+            "next": "Next slide",
+            "dot": "Advance to slide {n}"
+          },
+          "id": "ly4ycTmZkR",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "list",
+          "kind": "photos",
+          "items": [
+            {
+              "master": "https://storage.googleapis.com/ecp-samurai/35050/conversions/f516a054-cc83-400d-94dd-277e1ca0a1fc-responsive.webp",
+              "file": "assets/source/41673a46-f516a054-cc83-400d-94dd-277e1ca0a1fc-responsive.webp",
+              "alt": "Practice Image",
+              "w": 800,
+              "h": 600,
+              "highlight": true
+            },
+            {
+              "master": "https://storage.googleapis.com/ecp-samurai/35051/conversions/15ef8052-7fea-4029-84c4-493f523216ba-responsive.webp",
+              "file": "assets/source/5d1c89e6-15ef8052-7fea-4029-84c4-493f523216ba-responsive.webp",
+              "alt": "Practice Image",
+              "w": 800,
+              "h": 600
+            },
+            {
+              "master": "https://storage.googleapis.com/ecp-samurai/35052/conversions/53784670-2cdf-4268-a6b9-d0b9a8538918-responsive.webp",
+              "file": "assets/source/860fec98-53784670-2cdf-4268-a6b9-d0b9a8538918-responsive.webp",
+              "alt": "Practice Image",
+              "w": 800,
+              "h": 389
+            },
+            {
+              "master": "https://storage.googleapis.com/ecp-samurai/35053/conversions/c2274987-a6f1-47bf-8d4c-a1aed76f6878-responsive.webp",
+              "file": "assets/source/f3f92503-c2274987-a6f1-47bf-8d4c-a1aed76f6878-responsive.webp",
+              "alt": "Practice Image",
+              "w": 540,
+              "h": 720
+            }
+          ],
+          "ui": {
+            "lightbox": "View image in lightbox"
+          },
+          "id": "n175xG1JAc",
+          "col": 2,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

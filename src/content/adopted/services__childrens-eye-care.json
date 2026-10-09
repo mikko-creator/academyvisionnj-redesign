@@ -1,0 +1,111 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/childrens-eye-care",
+  "etSource": "services/childrens-eye-care",
+  "title": "Children’s Eye Care in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Gentle eye care for kids in Pine Beach, NJ. Academy Vision offers children’s eye exams, myopia management and durable kids’ frames. Call (732) 978-9306.",
+  "h1": "Looking After Your Child’s Eyes in Pine Beach as They Grow",
+  "kicker": "Growing Eyes, Gentle Care",
+  "lede": "<p>A first eye exam, glasses for the school year, a prescription that keeps changing—your child’s vision needs can shift a lot as they grow. At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they come through the door, and we’re here for every stage along the way. Call (732) 978-9306 or book online to schedule your child’s visit in Pine Beach.</p>",
+  "sections": [
+    {
+      "id": "care-for-kids",
+      "heading": "Explore Care for Kids",
+      "html": "<ul><li><a href=\"/services/pediatric-eye-exams/\">Pediatric Eye Exams</a>: a look at how sharply your child sees near and far, how their eyes focus and team up, and how healthy their eyes are.</li><li><a href=\"/services/back-to-school-eye-exams/\">Back-to-School Eye Exams</a>: get a full exam in before classes begin, since school screenings check far less.</li><li><a href=\"/services/myopia-management/\">Myopia Management</a>: options designed to slow progression when a nearsighted prescription keeps climbing, including ortho-k and soft contact lenses made for kids.</li><li><a href=\"/services/childrens-contact-lenses/\">Contact Lenses for Kids</a>: what parents should know about readiness, safety and fittings.</li><li><a href=\"/products/kids-eyewear/\">Kids’ Eyewear</a>: lightweight, durable frames suited to school, play and everyday wear.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "one-practice",
+      "heading": "Why It Helps to Stay with One Practice",
+      "html": "<p>Children’s eyes change as they grow, and kids often don’t mention that something looks different. When the same practice sees your child year after year, each exam can be compared with the last, which makes it easier to spot a prescription that’s creeping up, a focusing problem that’s starting to affect homework, or a change in eye health.</p><p>For school-age children, the American Optometric Association recommends a comprehensive eye exam every year, or more often when the eye doctor advises it. If your child’s vision has been changing, it’s worth asking our eye doctors about options such as Stellest® lenses or ortho-k. Dr. Tyler Lesko’s clinical focus includes pediatrics and myopia management, using orthokeratology and MiSight lenses.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "local-practice",
+      "heading": "A Local Practice Families Know",
+      "html": "<p>Since Dr. Robert Ullman founded Academy Vision in 1984, families in and around Pine Beach have trusted us with their vision for over 40 years. Many come back year after year from Pine Beach, Beachwood and Toms River, and it’s not unusual for us to see several generations of the same family in one week.</p><p>You’ll find us on Route 9 near the Mizzen Avenue light, in a standalone building with its own parking lot, which helps when you’re juggling car seats, backpacks and siblings.</p>",
+      "layout": "split",
+      "imageSlot": null
+    },
+    {
+      "id": "insurance-booking",
+      "heading": "Insurance and Booking",
+      "html": "<p>Vision insurance is typically used for routine care. Our team will help you sort out your child’s benefits, explain what’s covered and make the most of your plan. If it’s easier to schedule your children together, we can do that too.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "What signs might mean my child needs an eye exam?",
+      "a": "<p>Watch for squinting, sitting very close to screens or books, frequent eye rubbing, headaches, covering one eye, tilting the head, or avoiding reading and close-up work. Any of these is a good reason to book a visit.</p>"
+    },
+    {
+      "q": "Do you have frames for kids?",
+      "a": "<p>We offer kids’ frames that are lightweight, flexible and designed to stay comfortable throughout the day, so they can keep up with school and play.</p>"
+    },
+    {
+      "q": "Will my child be nervous?",
+      "a": "<p>Some kids are, and that’s okay. We take a gentle approach and keep everything age-appropriate and easy to follow, so your child knows what’s happening at each step.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Schedule Your Child’s Eye Exam",
+    "html": "<p>Questions first? Call us at (732) 978-9306. We’ll take the time to listen, explain what we find, and help your child feel comfortable along the way.</p>"
+  },
+  "related": [
+    "services/pediatric-eye-exams",
+    "services/back-to-school-eye-exams",
+    "services/myopia-management",
+    "services/childrens-contact-lenses",
+    "products/kids-eyewear",
+    "products/contact-lenses/orthokeratology-ortho-k",
+    "products/stellest-lenses",
+    "eye-health/pediatric-eye-exams-beyond-school-screenings"
+  ],
+  "claims": [
+    { "text": "Children’s Eye Care in Pine Beach, NJ | Academy Vision", "factId": "service-pediatric", "page": "/eye-care-services/pediatric-eye-care/", "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in." },
+    { "text": "Gentle eye care for kids in Pine Beach, NJ.", "factId": "service-pediatric", "page": "/eye-care-services/pediatric-eye-care/", "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in." },
+    { "text": "Academy Vision offers children’s eye exams, myopia management and durable kids’ frames.", "factId": "service-pediatric-exam-includes", "page": "/eye-care-services/pediatric-eye-care/", "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age." },
+    { "text": "Academy Vision offers children’s eye exams, myopia management and durable kids’ frames.", "factId": "service-myopia", "page": "/eye-care-services/myopia-management/", "quote": "At Academy Vision, we focus on more than just helping your child see clearly—we work to protect their vision for the future." },
+    { "text": "Academy Vision offers children’s eye exams, myopia management and durable kids’ frames.", "factId": "service-kids-frames-article", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear." },
+    { "text": "Call (732) 978-9306.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "Looking After Your Child’s Eyes in Pine Beach as They Grow", "factId": "service-seniors", "page": "/", "quote": "From kids’ first eye exams to ongoing care for adults and seniors, we’re here for every stage of life." },
+    { "text": "Growing Eyes, Gentle Care", "factId": "service-pediatric", "page": "/eye-care-services/pediatric-eye-care/", "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in." },
+    { "text": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they come through the door, and we’re here for every stage along the way.", "factId": "service-pediatric", "page": "/eye-care-services/pediatric-eye-care/", "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in." },
+    { "text": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they come through the door, and we’re here for every stage along the way.", "factId": "service-seniors", "page": "/", "quote": "From kids’ first eye exams to ongoing care for adults and seniors, we’re here for every stage of life." },
+    { "text": "Call (732) 978-9306 or book online to schedule your child’s visit in Pine Beach.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "Pediatric Eye Exams: a look at how sharply your child sees near and far, how their eyes focus and team up, and how healthy their eyes are.", "factId": "service-pediatric-exam-includes", "page": "/eye-care-services/pediatric-eye-care/", "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age." },
+    { "text": "Back-to-School Eye Exams: get a full exam in before classes begin, since school screenings check far less.", "factId": "service-back-to-school", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Back-to-school season is a practical time to schedule, particularly if a child has not had a recent comprehensive exam, has a changing prescription, or shows possible symptoms." },
+    { "text": "Myopia Management: options designed to slow progression when a nearsighted prescription keeps climbing, including ortho-k and soft contact lenses made for kids.", "factId": "service-myopia-options", "page": "/eye-care-services/myopia-management/", "quote": "Once we understand your child’s vision, we’ll recommend options that are designed to slow progression." },
+    { "text": "Kids’ Eyewear: lightweight, durable frames suited to school, play and everyday wear.", "factId": "service-kids-frames-article", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "Academy Vision offers lightweight, durable children’s frames suited to school, play, and everyday wear." },
+    { "text": "For school-age children, the American Optometric Association recommends a comprehensive eye exam every year, or more often when the eye doctor advises it.", "factId": "article-aoa", "page": "/article/pediatric-eye-exams-beyond-school-screenings/", "quote": "The American Optometric Association recommends annual comprehensive eye exams for school-age children, or more frequently when advised by their eye doctor." },
+    { "text": "If your child’s vision has been changing, it’s worth asking our eye doctors about options such as Stellest® lenses or ortho-k.", "factId": "service-stellest", "page": "/eyeglasses/stellest-lenses/", "quote": "If your child’s vision has been changing, it’s worth asking our eye doctors about Stellest® lenses." },
+    { "text": "If your child’s vision has been changing, it’s worth asking our eye doctors about options such as Stellest® lenses or ortho-k.", "factId": "service-ortho-k", "page": "/contact-lenses/orthokeratology-ortho-k/", "quote": "It’s a simple, non-surgical option that works for both kids and adults." },
+    { "text": "Dr. Tyler Lesko’s clinical focus includes pediatrics and myopia management, using orthokeratology and MiSight lenses.", "factId": "doctor-tl-myopia", "page": "/team/dr-tyler-lesko-od/", "quote": "Pediatrics & Myopia Management: Utilizing orthokeratology and MiSight to change the trajectory of children's lives." },
+    { "text": "A Local Practice Families Know", "factId": "history-decades-community", "page": "/hours-location/", "quote": "We’ve been part of this community for decades" },
+    { "text": "Since Dr. Robert Ullman founded Academy Vision in 1984, families in and around Pine Beach have trusted us with their vision for over 40 years.", "factId": "history-founded-1984", "page": "/about-us/", "quote": "Academy Vision was founded in 1984 by Dr. Robert Ullman" },
+    { "text": "Since Dr. Robert Ullman founded Academy Vision in 1984, families in and around Pine Beach have trusted us with their vision for over 40 years.", "factId": "history-over-40-years", "page": "/", "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision." },
+    { "text": "Many come back year after year from Pine Beach, Beachwood and Toms River, and it’s not unusual for us to see several generations of the same family in one week.", "factId": "address-area-served", "page": "/", "quote": "It’s one of the reasons families throughout Pine Beach, Beachwood, and Toms River continue to come back year after year." },
+    { "text": "Many come back year after year from Pine Beach, Beachwood and Toms River, and it’s not unusual for us to see several generations of the same family in one week.", "factId": "history-generations", "page": "/eye-care-services/", "quote": "It’s not unusual for us to see multiple generations of the same family, all in the same week." },
+    { "text": "You’ll find us on Route 9 near the Mizzen Avenue light, in a standalone building with its own parking lot, which helps when you’re juggling car seats, backpacks and siblings.", "factId": "address-landmark", "page": "/eyeglasses/", "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light." },
+    { "text": "You’ll find us on Route 9 near the Mizzen Avenue light, in a standalone building with its own parking lot, which helps when you’re juggling car seats, backpacks and siblings.", "factId": "address-standalone-parking", "page": "/hours-location/", "quote": "It’s a standalone building with its own parking lot, so you won’t have to search for a spot or deal with crowded plazas." },
+    { "text": "Vision insurance is typically used for routine care.", "factId": "insurance-vision-routine", "page": "/insurance/", "quote": "Vision insurance is typically used for routine care." },
+    { "text": "Our team will help you sort out your child’s benefits, explain what’s covered and make the most of your plan.", "factId": "staff-benefits-help", "page": "/insurance/", "quote": "Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan." },
+    { "text": "If it’s easier to schedule your children together, we can do that too.", "factId": "booking-family-together", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "If it’s easier to schedule everyone together, we can do that too." },
+    { "text": "Do you have frames for kids?", "factId": "service-kids-frames", "page": "/eyeglasses/", "quote": "We offer frames that are lightweight, flexible, and designed to stay comfortable throughout the day." },
+    { "text": "We offer kids’ frames that are lightweight, flexible and designed to stay comfortable throughout the day, so they can keep up with school and play.", "factId": "service-kids-frames", "page": "/eyeglasses/", "quote": "We offer frames that are lightweight, flexible, and designed to stay comfortable throughout the day." },
+    { "text": "We take a gentle approach and keep everything age-appropriate and easy to follow, so your child knows what’s happening at each step.", "factId": "service-pediatric", "page": "/eye-care-services/pediatric-eye-care/", "quote": "At Academy Vision, we take a gentle approach that helps kids feel comfortable from the moment they walk in." },
+    { "text": "We take a gentle approach and keep everything age-appropriate and easy to follow, so your child knows what’s happening at each step.", "factId": "service-pediatric-exam-includes", "page": "/eye-care-services/pediatric-eye-care/", "quote": "We keep your child’s eye exam in Pine Beach simple and tailored to their age." },
+    { "text": "Questions first? Call us at (732) 978-9306.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "We’ll take the time to listen, explain what we find, and help your child feel comfortable along the way.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." }
+  ],
+  "flags": [
+    "The hub links to /services/childrens-contact-lenses/, whose evidence is PARTIAL; the card describes that page as a guide for parents and promises no service.",
+    "No age band for children's care is stated, because Academy Vision states none (gap G21); add one only if the practice supplies it.",
+    "Dr. Tyler Lesko is named for pediatrics and myopia management because his bio states that focus; no other doctor is assigned to children's care here."
+  ],
+  "review": { "overlapLongest": 6, "checkedBy": "checker-G1-exams-kids", "notes": "Writer (writer-G1-exams-kids): tools/overlap-check.mjs --fail 8 (6-word shingles): longest 6, and the one shared run comes from a claim page path (the tokenized URL of the comprehensive exams page), not prose; the visible fields alone share 0 runs. A --control run reported DETECTED. tmp/writer-G1-exams-kids/validate.mjs: 0 errors, 0 warnings. Checker (checker-G1-exams-kids, 2026-10-08; no Eye Trends file opened): re-ran the evidence on the final bytes. tools/overlap-check.mjs --fail 8: longest 6, the one 6-word run is the tokenized claim page path, not prose; --control reported DETECTED (exit 0); the visible fields alone share 0 six-word runs (5-word shingles: longest 5, stock phrases or Academy Vision’s own wording, kept). All 35 claims: the factId exists, the page equals the fact page, the quote equals the fact quote and is in the visible text of the cited audit/raw page, and the claim text is verbatim in this file. Every we/our/us/Academy Vision sentence was read against its fact and the source pages (the myopia options match the myopia page, the kids’ frames match the eyeglasses page, and Dr. Tyler Lesko’s pediatrics and myopia focus is from his bio); the card for the PARTIAL children’s contacts page promises no service; no age band is stated. Meta-language, promise, hype, apostrophe, dash, year, doctor and phone scans are clean; tags, links and related paths (8, all new-site pages) pass tmp/checker-G1-exams-kids/check.mjs (its planted control fired on every defect) and the pipeline’s own buildPages run in memory (0 errors). Body 565 words. No change." }
+}

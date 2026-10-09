@@ -1,0 +1,90 @@
+{
+  "id": "cut-lens-blank",
+  "file": "assets/generated/cut-lens-blank.png",
+  "kind": "depth-cutout",
+  "planPurpose": "protruding optical lens disc for lens/technology sections",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 cut-out, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "A round clear optical lens blank with a blue sheen",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of a round uncut optical lens blank, a polished clear glass disc with a soft blue anti-reflective sheen, tilted at forty-five degrees, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 1384614952,
+  "requestId": "01a119f2-6004-7ab0-9b65-fb3e7440427d",
+  "editOf": "tmp/imagery-run/attempts/cut-lens-blank.a1.jpg",
+  "sourceAttempt": "tmp/imagery-run/attempts/cut-lens-blank.a1d.jpg",
+  "w": 2048,
+  "h": 2048,
+  "sha256": "07de1cb5909a229b9ad17dd442d323bf52ee84acc21bf251827e3cbe032ad773",
+  "master": {
+    "file": "assets/generated/raw/cut-lens-blank.jpg",
+    "sha256": "da5c616a3ef13175735d94d042dd8efe8d21c6a72a436a422d551c3fcd2e2a1e"
+  },
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a119fb-a10b-7d73-8249-646f963f04eb",
+    "input": {
+      "image_url": "<data uri of cut-lens-blank.a1d.jpg>",
+      "model": "General Use (Heavy)",
+      "operating_resolution": "2048x2048",
+      "output_format": "png"
+    },
+    "birefnetOutput": "tmp/imagery-run/attempts/cut-lens-blank.a1d.cut.png",
+    "localRepair": "tmp/imagery-run/attempts/cut-lens-blank.a1d.cutfix.png"
+  },
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "LOCAL non-AI edit on a1: directional box blur (45 px) along the rim band (ellipse 1438,1260, 178x28, -66deg); no API call",
+      "100% + 400% rim band: smooth, no letters; faint light reflections and a tiny nick only",
+      "rest of master as reviewed on a1: one round lens blank, blue sheen; faint spectral fringe on the left edge - check on the cut-out"
+    ],
+    "notes": "",
+    "at": "2026-10-08T05:27:59.094Z",
+    "retries": 0,
+    "cutout": {
+      "verdict": "accept",
+      "checks": [
+        "birefnet kept a thin detached shadow sliver below the disc (x 1150-1470, y 1647-1668; column scans show a gap to the disc)",
+        "LOCAL fix: alpha cleared in rect 1140,1630,380x60 (6,143 px; no disc pixels there)",
+        "17% on navy + cream: disc clean, sliver gone, tinted glass reads as glass"
+      ],
+      "notes": "",
+      "at": "2026-10-08T05:33:39.721Z",
+      "file": "tmp/imagery-run/attempts/cut-lens-blank.a1d.cutfix.png",
+      "sha256": "2f166906f5ae2a3c190d7c0c63773bfb7c36cf2be4a66a7aaec5516fdbf880f0"
+    }
+  },
+  "promotedAt": "2026-10-08T05:34:22.113Z",
+  "refuterFix": {
+    "at": "2026-10-08T07:19:59.588Z",
+    "replacedSha256": "2f166906f5ae2a3c190d7c0c63773bfb7c36cf2be4a66a7aaec5516fdbf880f0",
+    "attempts": [
+      {
+        "attempt": "r1",
+        "kind": "local (no API call)",
+        "file": "tmp/verify-imagery/gen/attempts/cut-lens-blank.r1.png",
+        "cost": 0,
+        "verdict": "partial",
+        "what": "removelogo inpaint + sigma-3 smoothing inside 8 small ellipses over the rim remnants (1539,998 / 1552,944 / 1528,1113 / 1518,1140 / 1346,1421 / 1334,1432 / 1322,1451 / 1290,1486); strokes, dash, dot, box and hatch gone, but two faint light notches remained near (1501,1188) and (1491,1216)"
+      },
+      {
+        "attempt": "r2",
+        "kind": "local (no API call)",
+        "file": "tmp/verify-imagery/gen/attempts/cut-lens-blank.r2.png",
+        "cost": 0,
+        "verdict": "accept",
+        "what": "r1 plus two band-aligned ellipses (1501,1188 12x6 at 113 deg; 1491,1216 10x6 at 113 deg), sigma 2; the same two edits applied to the raw master"
+      }
+    ],
+    "finalChecks": [
+      "alpha channel identical to the delivered PNG (0 px changed); RGB changed in 10,161 px, all inside the masks + 8 px, 0 outside",
+      "100% on cream and navy: the rim reads as soft reflections; no glyph, dash, box or hatch; one soft defocused dark spot on the lower rim (no shape)",
+      "PNG RGB vs the edited raw master: MAD 0.528 on opaque pixels"
+    ],
+    "note": "IMAGE REFUTER fix; the fields above this block describe the IMAGERY generation the fix starts from"
+  }
+}

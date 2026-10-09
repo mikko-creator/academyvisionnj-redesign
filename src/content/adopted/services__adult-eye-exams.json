@@ -1,0 +1,121 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/adult-eye-exams",
+  "etSource": "services/adult-eye-exams",
+  "title": "Adult Eye Exams in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Unhurried adult eye exams in Pine Beach, NJ. Academy Vision checks your prescription and eye health, then explains it all in plain language.",
+  "h1": "Eye Exams for Adults in Pine Beach, Without the Rush",
+  "kicker": "When Was Your Last Eye Exam?",
+  "lede": "<p>With work, family and everything else on your plate, an eye exam is easy to push down the list—especially when your eyes feel fine. At Academy Vision, adult exams are unhurried. Our optometrists take the time to listen, explain what they find, and make sure you feel comfortable, so bring your questions to our Pine Beach office.</p>",
+  "sections": [
+    {
+      "id": "putting-it-off",
+      "heading": "Feeling Fine Isn’t the Same as a Checkup",
+      "html": "<p>Plenty of adults go years between eye exams. Glasses that are slightly off, eyes that ache after a long day of screens, or headlights that seem harsher at night can creep in so slowly that they start to feel normal. In your 40s, you may also notice that menus and phone screens are harder to read up close.</p><p>A quick vision screening or an online test can check how clearly you see letters. Neither can tell you how healthy your eyes are, and passing one doesn’t mean everything is fine. Some conditions, including glaucoma, can develop gradually without symptoms you’d notice.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "what-you-gain",
+      "heading": "What a Full Adult Exam Gives You",
+      "html": "<ul><li><strong>A thorough exam, not a quick check.</strong> Academy Vision provides thorough eye exams, so you can feel confident about your vision.</li><li><strong>Your prescription and your eye health in one visit.</strong> Your exam is designed to give you a complete picture of how you see and how healthy your eyes are.</li><li><strong>Continuity over time.</strong> We monitor your eye health closely over the years, which makes slow changes easier to catch early.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "exam-steps",
+      "heading": "Your Exam, Step by Step",
+      "html": "<p>Every visit is a little different, but here’s the general order of things.</p><ol><li><strong>We listen first.</strong> Tell us how your eyes feel at work, behind the wheel and on screens, and mention any health conditions or medications.</li><li><strong>We check your prescription</strong> to make sure you’re seeing clearly.</li><li><strong>We evaluate how your eyes are working together</strong>, which matters for reading, screen time and driving.</li><li><strong>We take a close look at your eye health</strong>, including any signs of concern, since many conditions don’t cause symptoms early on.</li><li><strong>We talk through anything we find in plain language</strong>, so you know what it means and what comes next.</li></ol>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "deep-roots",
+      "heading": "A Pine Beach Practice with Deep Roots",
+      "html": "<p>Academy Vision was founded in 1984 by Dr. Robert Ullman, and for over 40 years, families in and around Pine Beach have trusted us with their vision. It’s not unusual for us to see several generations of one family in the same week.</p><p>That long view matters at an adult exam. Families throughout Pine Beach, Beachwood and Toms River come back year after year, and seeing the same practice over time makes it easier to notice what has changed and what hasn’t.</p>",
+      "layout": "split",
+      "imageSlot": "cut-trial-lens"
+    },
+    {
+      "id": "beyond-a-prescription",
+      "heading": "A Prescription Check Is Only Part of It",
+      "html": "<p>A fast prescription check answers one question: do you need new lenses? A comprehensive exam also asks whether your eyes are healthy, whether they’re working well together, and whether anything has shifted since last time. If you wear contacts, mention it when you book, because a <a href=\"/services/contact-lens-exams/\">contact lens exam</a> goes a step beyond a standard eye exam.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "whole-family",
+      "heading": "Booking for the Whole Household?",
+      "html": "<p>If you’re due for an exam, the rest of your family may be too. If it’s easier to schedule everyone together, we can do that. We see patients at every stage of life, so you can also read about <a href=\"/services/childrens-eye-care/\">children’s eye care</a> and <a href=\"/services/senior-eye-exams/\">senior eye exams</a>, or start with our overview of <a href=\"/services/comprehensive-eye-exams/\">comprehensive eye exams</a>.</p>",
+      "layout": "text",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "How often should adults have an eye exam?",
+      "a": "<p>It depends on your age, your eye health and your history. People with diabetes, a family history of glaucoma, or a prescription that keeps changing may need to come in more often. Ask your optometrist at the end of your visit when to return, and if your vision changes before then, don’t wait.</p>"
+    },
+    {
+      "q": "What should I bring to my appointment?",
+      "a": "<p>Bring your current glasses, your contacts or the boxes they came in, the names and doses of your medications, and all of your insurance cards. If there are questions you don’t want to forget, jot them down too—there’s time to ask them.</p>"
+    },
+    {
+      "q": "Will insurance cover my exam?",
+      "a": "<p>Your plan, and why you’re coming in, both make a difference. Vision insurance is typically used for routine care, while medical insurance comes into play when there’s a health-related concern with your eyes. Our team at Academy Vision will help you sort out your benefits and explain what’s covered, and you can see the <a href=\"/insurance/\">plans we accept</a> before you call.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Schedule Your Eye Exam in Pine Beach",
+    "html": "<p>Call us at (732) 978-9306 or book online. Whether you’re using vision insurance, medical insurance or paying out of pocket, we’ll walk you through what to expect.</p>"
+  },
+  "related": [
+    "services/comprehensive-eye-exams",
+    "services/senior-eye-exams",
+    "services/contact-lens-exams",
+    "services/medical-eye-care"
+  ],
+  "claims": [
+    { "text": "Adult Eye Exams in Pine Beach, NJ | Academy Vision", "factId": "service-exams-all-ages", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "We see patients of all ages, from young kids coming in for their first exam to adults staying on top of changes in their vision." },
+    { "text": "Unhurried adult eye exams in Pine Beach, NJ.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "Academy Vision checks your prescription and eye health, then explains it all in plain language.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "Eye Exams for Adults in Pine Beach, Without the Rush", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "Eye Exams for Adults in Pine Beach, Without the Rush", "factId": "service-exams-all-ages", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "We see patients of all ages, from young kids coming in for their first exam to adults staying on top of changes in their vision." },
+    { "text": "At Academy Vision, adult exams are unhurried.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "Our optometrists take the time to listen, explain what they find, and make sure you feel comfortable, so bring your questions to our Pine Beach office.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "Our optometrists take the time to listen, explain what they find, and make sure you feel comfortable, so bring your questions to our Pine Beach office.", "factId": "address-display", "page": "/", "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741" },
+    { "text": "A thorough exam, not a quick check.", "factId": "service-comprehensive-eye-exams", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision." },
+    { "text": "Academy Vision provides thorough eye exams, so you can feel confident about your vision.", "factId": "service-comprehensive-eye-exams", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Academy Vision provides thorough eye exams for patients of all ages, so you and your family can feel confident about your vision." },
+    { "text": "Your prescription and your eye health in one visit.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "Your exam is designed to give you a complete picture of how you see and how healthy your eyes are.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "We monitor your eye health closely over the years, which makes slow changes easier to catch early.", "factId": "service-eye-disease", "page": "/eye-care-services/eye-disease-management/", "quote": "At Academy Vision, we monitor your eye health closely and help catch potential issues early." },
+    { "text": "We listen first.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "Tell us how your eyes feel at work, behind the wheel and on screens, and mention any health conditions or medications.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "We check your prescription to make sure you’re seeing clearly.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "We evaluate how your eyes are working together, which matters for reading, screen time and driving.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "We take a close look at your eye health, including any signs of concern, since many conditions don’t cause symptoms early on.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "We talk through anything we find in plain language, so you know what it means and what comes next.", "factId": "service-exam-includes", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "Your exam is designed to give you a complete picture of your vision and eye health." },
+    { "text": "A Pine Beach Practice with Deep Roots", "factId": "history-decades-community", "page": "/hours-location/", "quote": "We’ve been part of this community for decades" },
+    { "text": "Academy Vision was founded in 1984 by Dr. Robert Ullman, and for over 40 years, families in and around Pine Beach have trusted us with their vision.", "factId": "history-founded-1984", "page": "/about-us/", "quote": "Academy Vision was founded in 1984 by Dr. Robert Ullman" },
+    { "text": "Academy Vision was founded in 1984 by Dr. Robert Ullman, and for over 40 years, families in and around Pine Beach have trusted us with their vision.", "factId": "history-over-40-years", "page": "/", "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision." },
+    { "text": "It’s not unusual for us to see several generations of one family in the same week.", "factId": "history-generations", "page": "/eye-care-services/", "quote": "It’s not unusual for us to see multiple generations of the same family, all in the same week." },
+    { "text": "Families throughout Pine Beach, Beachwood and Toms River come back year after year, and seeing the same practice over time makes it easier to notice what has changed and what hasn’t.", "factId": "address-area-served", "page": "/", "quote": "It’s one of the reasons families throughout Pine Beach, Beachwood, and Toms River continue to come back year after year." },
+    { "text": "If you wear contacts, mention it when you book, because a contact lens exam goes a step beyond a standard eye exam.", "factId": "service-contact-lens-exams", "page": "/contact-lenses/contact-lenses-exams/", "quote": "A contact lens exam goes a step beyond a standard eye exam." },
+    { "text": "If it’s easier to schedule everyone together, we can do that.", "factId": "booking-family-together", "page": "/eye-care-services/comprehensive-eye-exams/", "quote": "If it’s easier to schedule everyone together, we can do that too." },
+    { "text": "We see patients at every stage of life, so you can also read about children’s eye care and senior eye exams, or start with our overview of comprehensive eye exams.", "factId": "service-seniors", "page": "/", "quote": "From kids’ first eye exams to ongoing care for adults and seniors, we’re here for every stage of life." },
+    { "text": "Bring your current glasses, your contacts or the boxes they came in, the names and doses of your medications, and all of your insurance cards.", "factId": "booking-registration-insurance-cards", "page": "/patient-registration-form/", "quote": "Please bring all insurance cards with you to your appointment." },
+    { "text": "If there are questions you don’t want to forget, jot them down too—there’s time to ask them.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "Vision insurance is typically used for routine care, while medical insurance comes into play when there’s a health-related concern with your eyes.", "factId": "insurance-vision-routine", "page": "/insurance/", "quote": "Vision insurance is typically used for routine care." },
+    { "text": "Vision insurance is typically used for routine care, while medical insurance comes into play when there’s a health-related concern with your eyes.", "factId": "insurance-medical-concern", "page": "/insurance/", "quote": "Medical insurance comes into play when there’s a health-related concern with your eyes." },
+    { "text": "Our team at Academy Vision will help you sort out your benefits and explain what’s covered, and you can see the plans we accept before you call.", "factId": "staff-benefits-help", "page": "/insurance/", "quote": "Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan." },
+    { "text": "Our team at Academy Vision will help you sort out your benefits and explain what’s covered, and you can see the plans we accept before you call.", "factId": "insurance-plans", "page": "/insurance/", "quote": "Insurance Plans We Accept Medicare" },
+    { "text": "Call us at (732) 978-9306 or book online.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "Whether you’re using vision insurance, medical insurance or paying out of pocket, we’ll walk you through what to expect.", "factId": "insurance-types", "page": "/insurance/", "quote": "Whether you’re using vision insurance, medical insurance, or paying out of pocket for eye care in Pine Beach, we’ll walk you through everything so you know exactly what to expect." }
+  ],
+  "flags": [
+    "No exam length and no exam-frequency rule are stated, because Academy Vision states neither; the frequency answer gives general guidance and tells readers to ask their optometrist. Add a practice rule only if the practice supplies one.",
+    "Dilation and named tests appear only in the comprehensive-exams structured data (fact jsonld-exam-includes), so this page does not mention them. Add them only after the practice approves that wording.",
+    "The patient registration form is not linked here, because the build ships forms unwired (BUILD-CONTRACT 4.5); link /patient-forms/ from the FAQ once the form submits."
+  ],
+  "review": { "overlapLongest": 6, "checkedBy": "checker-G1-exams-kids", "notes": "Writer (writer-G1-exams-kids): tools/overlap-check.mjs --fail 8 (6-word shingles): longest 6, and every shared run comes from claim page paths (the tokenized URL of the comprehensive exams page), not prose; the visible fields alone share 0 runs. A --control run reported DETECTED. tmp/writer-G1-exams-kids/validate.mjs: 0 errors, 0 warnings. Checker (checker-G1-exams-kids, 2026-10-08; no Eye Trends file opened): re-ran the evidence on the final bytes. tools/overlap-check.mjs --fail 8: longest 6, every 6-word run is the tokenized claim page path, not prose; --control reported DETECTED (exit 0); the visible fields alone share 0 six-word runs (5-word shingles: longest 6, stock phrases or Academy Vision’s own wording, kept). All 35 claims: the factId exists, the page equals the fact page, the quote equals the fact quote and is in the visible text of the cited audit/raw page, and the claim text is verbatim in this file. Every we/our/us/Academy Vision sentence was read against its fact and the source page (the exam steps follow the comprehensive-exams page’s own list); no unsupported practice claim. Meta-language, promise, hype, apostrophe, dash, year, doctor and phone scans are clean; tags, links and related paths pass tmp/checker-G1-exams-kids/check.mjs (its planted control fired on every defect) and the pipeline’s own buildPages run in memory (0 errors). Body 777 words. Change (1) sections.putting-it-off, before: “A quick vision screening or an online test can tell you whether letters look blurry. It can’t tell how healthy your eyes are, and passing one doesn’t mean everything is fine.” After: “A quick vision screening or an online test can check how clearly you see letters. Neither can tell you how healthy your eyes are, and passing one doesn’t mean everything is fine.” Why: a screening measures how clearly you see letters, not whether they look blurry (which you already know); “Neither” agrees with the two tests and restores the missing “you”." }
+}

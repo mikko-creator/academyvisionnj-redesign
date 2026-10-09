@@ -1,0 +1,96 @@
+{
+  "id": "cut-reading-glasses",
+  "file": "assets/generated/cut-reading-glasses.png",
+  "kind": "depth-cutout",
+  "planPurpose": "small protruding object for senior and multifocal pages",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 cut-out, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Thin blue metal eyeglasses with round lenses",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of a pair of folded half-rim reading glasses in light blue metal, lying at an angle, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 791773077,
+  "requestId": "01a119f3-0448-7d92-aa0e-dbf608c32312",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/cut-reading-glasses.a1.jpg",
+  "w": 2048,
+  "h": 2048,
+  "sha256": "dd42f19aa92a15d6d88a01fdb0ae3f4d510bf4777f4df205e10ed4a68b14cea5",
+  "master": {
+    "file": "assets/generated/raw/cut-reading-glasses.jpg",
+    "sha256": "cf1b0523682a5fd74e15683ce00ef863dfe48732b61513beb8d4e5d6585a95c0"
+  },
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "input": {
+      "model": "Matting",
+      "operating_resolution": "2048x2048",
+      "output_format": "png"
+    },
+    "source": "assets/generated/raw/cut-reading-glasses.jpg",
+    "requestId": "01a11a52-93b0-7ca2-a5b9-e46ef9d8e86e",
+    "output": "tmp/verify-imagery/gen/attempts/cut-reading-glasses.r1-matting.png"
+  },
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "36% whole frame: one pair of thin blue metal round eyeglasses, temples open (prompt asked folded light-blue half-rims - deviation, alt rewritten)",
+      "50% whole pair: temples and rims plain",
+      "100% both temple segments at the hinges: gold hinge blocks, no letters",
+      "400% both hinges: plain screw/blocks",
+      "100% nose pads: clear silicone, no marks"
+    ],
+    "notes": "",
+    "at": "2026-10-08T05:28:00.427Z",
+    "retries": 0,
+    "cutout": {
+      "verdict": "accept",
+      "checks": [
+        "birefnet kept both clear lenses as opaque grey",
+        "LOCAL fix: seeded flood fill through neutral light-grey pixels only (rims/temples/exterior bound it), alpha x (1-greyness); first ellipse attempt left grey crescents",
+        "20% on navy + magenta + 50% each lens: lenses clear, temples behind, rims and tips intact, clear nose pads kept, natural bevel line"
+      ],
+      "notes": "",
+      "at": "2026-10-08T05:33:40.267Z",
+      "file": "tmp/imagery-run/attempts/cut-reading-glasses.a1.cutfix.png",
+      "sha256": "248805c7697332dac1a4e42a95565b64a14ef46a12003db403011cae3f4535fd"
+    }
+  },
+  "promotedAt": "2026-10-08T05:34:22.590Z",
+  "refuterFix": {
+    "at": "2026-10-08T07:19:59.588Z",
+    "replacedSha256": "248805c7697332dac1a4e42a95565b64a14ef46a12003db403011cae3f4535fd",
+    "attempts": [
+      {
+        "attempt": "r1",
+        "kind": "paid fal-ai/birefnet/v2 (model \"Matting\", 2048x2048, png) on the unchanged raw master",
+        "file": "tmp/verify-imagery/gen/attempts/cut-reading-glasses.r1-matting.png",
+        "cost": 0.01,
+        "requestId": "01a11a52-93b0-7ca2-a5b9-e46ef9d8e86e",
+        "verdict": "accept",
+        "what": "new matte from birefnet's Matting model instead of IMAGERY's flood-fill alpha x (1 - greyness) repair, which had drawn glyph-like specks; RGB follows the raw master (MAD 0.63 on opaque pixels)"
+      }
+    ],
+    "finalChecks": [
+      "navy + cream composites at 100%: lenses clear, no glyph specks, no speckled temple-shadow fringe, no dashed double contour",
+      "400% former glyph spot (1550,1110), temple shadow, nose pads, hinges, rims: clean; clear silicone nose pads read as semi-transparent",
+      "alpha: transparent 96.07%, semi 1.11%, opaque 2.82%, 0 isolated specks, corners transparent"
+    ],
+    "note": "IMAGE REFUTER fix; the fields above this block describe the IMAGERY generation the fix starts from"
+  },
+  "cutoutSuperseded": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a119fb-d97c-74d3-9841-bd99465e9d89",
+    "input": {
+      "image_url": "<data uri of cut-reading-glasses.a1.jpg>",
+      "model": "General Use (Heavy)",
+      "operating_resolution": "2048x2048",
+      "output_format": "png"
+    },
+    "birefnetOutput": "tmp/imagery-run/attempts/cut-reading-glasses.a1.cut.png",
+    "localRepair": "tmp/imagery-run/attempts/cut-reading-glasses.a1.cutfix.png"
+  }
+}

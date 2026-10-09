@@ -1,0 +1,1996 @@
+{
+ "schema": "site-reforge/image-plan@1",
+ "generated": "2026-10-08T02:26:13.291Z",
+ "lane": "imagery",
+ "status": "PLAN ONLY - nothing generated; the build stage runs it",
+ "howToRun": "node tools/fal-gen.mjs --plan src/content/image-plan.json --key-file <path outside the project> [--only id1,id2] [--dry]; loops: tools/hf-run.mjs then tools/make-loop.mjs per motion[] entry",
+ "rules": [
+  "Every prompt: no text, letters, numbers, logos, brand marks or watermarks. fal flux still draws pseudo-text on eyeglass temples, lens edges, packaging and instrument dials (the Riverside run archived a frame with letter-like marks on a temple and rivets it was told not to draw) - so every image gets a full-size review: whole frame, then 100 and 400 percent crops of every temple, hinge, lens edge and any surface that could carry print.",
+  "No generated person stands in for an Academy Vision doctor, staff member or patient: no clinician faces, no white-coat portraits, alts never say \"our\". Generic, diverse models only where a person helps.",
+  "No stand-in for the Academy Vision building, roadside sign, murals or office interiors - no wide exam-room interiors either.",
+  "No medical-result, before/after or outcome depiction; no glucose readings, wounds or graphic eye conditions.",
+  "Cut-outs are reviewed on a magenta composite; shadows are added in CSS, never baked in.",
+  "Every generated file carries an AI label in its metadata/sidecar and an alt that describes what is depicted."
+ ],
+ "defaults": {
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "input": {
+   "output_format": "jpeg",
+   "safety_tolerance": "2"
+  },
+  "style": "natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "cutoutModel": "fal-ai/birefnet/v2",
+  "cutoutInput": {
+   "model": "General Use (Heavy)",
+   "operating_resolution": "2048x2048",
+   "output_format": "png"
+  },
+  "editModel": "fal-ai/flux-pro/kontext",
+  "editInput": {
+   "output_format": "jpeg",
+   "safety_tolerance": "2"
+  },
+  "inputSource": "these input keys, the 16:9 = 2752x1536 output size and the birefnet settings are the ones recorded in riversidefamilyeyecare-reforge/audit/generated-images.json and its image-plan.json defaults"
+ },
+ "gapAnalysis": {
+  "status": "ALIGNED with the IA lane: the gap list equals the 23 ADOPT rows of docs/SITE-ARCHITECTURE.md as read at build time (asserted by this build); still provisional if the IA lane revises",
+  "etPages": 43,
+  "filledByAcademyVision": [
+   {
+    "eyeTrends": "/",
+    "academyVision": "/",
+    "avH1": "Your Eye Doctors in Pine Beach, NJ",
+    "note": null
+   },
+   {
+    "eyeTrends": "/accessibility/",
+    "academyVision": "/website-accessibility-policy/",
+    "avH1": "Website Accessibility Policy",
+    "note": null
+   },
+   {
+    "eyeTrends": "/disclaimer/",
+    "academyVision": "/disclaimer/",
+    "avH1": "Disclaimer",
+    "note": null
+   },
+   {
+    "eyeTrends": "/eye-doctor-clear-lake/",
+    "academyVision": "/hours-location/",
+    "avH1": "Local Eye Doctors in Pine Beach, New Jersey",
+    "note": "IA decision D3: becomes /eye-doctor-pine-beach/"
+   },
+   {
+    "eyeTrends": "/insurance/",
+    "academyVision": "/insurance/",
+    "avH1": "Eye Care Insurance & Payment Options",
+    "note": null
+   },
+   {
+    "eyeTrends": "/our-doctor/",
+    "academyVision": "/our-eye-doctor/",
+    "avH1": "Your Trusted Pine Beach Eye Doctors",
+    "note": "IA path /our-doctors/ (plural)"
+   },
+   {
+    "eyeTrends": "/patient-forms/",
+    "academyVision": "/patient-registration-form/",
+    "avH1": "Patient Registration Form",
+    "note": "IA decision D6"
+   },
+   {
+    "eyeTrends": "/privacy-policy/",
+    "academyVision": "/privacy-policy/",
+    "avH1": "Privacy Policy",
+    "note": null
+   },
+   {
+    "eyeTrends": "/products/",
+    "academyVision": "/eyeglasses/",
+    "avH1": "Eyeglass Frames & Lenses in Pine Beach",
+    "note": null
+   },
+   {
+    "eyeTrends": "/products/contact-lenses/",
+    "academyVision": "/contact-lenses/",
+    "avH1": "Contact Lenses in Pine Beach, NJ",
+    "note": null
+   },
+   {
+    "eyeTrends": "/reviews/",
+    "academyVision": "/location/academy-vision/",
+    "avH1": "Academy Vision",
+    "note": "IA decision D3: the orphan location record (patient reviews + practice photos) moves to /reviews/"
+   },
+   {
+    "eyeTrends": "/services/",
+    "academyVision": "/eye-care-services/",
+    "avH1": "Family-Friendly Eye Care in Pine Beach",
+    "note": null
+   },
+   {
+    "eyeTrends": "/services/pediatric-eye-exams/",
+    "academyVision": "/eye-care-services/pediatric-eye-care/",
+    "avH1": "Eye Care for Kids in Pine Beach, NJ",
+    "note": "IA decision D1: the hub /services/childrens-eye-care/ is adopted"
+   },
+   {
+    "eyeTrends": "/services/comprehensive-eye-exams/",
+    "academyVision": "/eye-care-services/comprehensive-eye-exams/",
+    "avH1": "Comprehensive Eye Exams in Pine Beach",
+    "note": null
+   },
+   {
+    "eyeTrends": "/services/contact-lens-exams/",
+    "academyVision": "/contact-lenses/contact-lenses-exams/",
+    "avH1": "Contact Lens Exams in Pine Beach",
+    "note": null
+   },
+   {
+    "eyeTrends": "/services/dry-eye-treatment/",
+    "academyVision": "/eye-care-services/dry-eye-treatment/",
+    "avH1": "Treatment for Dry Eyes in Pine Beach",
+    "note": null
+   },
+   {
+    "eyeTrends": "/services/lasik-co-management/",
+    "academyVision": "/eye-care-services/lasik-co-management/",
+    "avH1": "Thinking About LASIK Eye Surgery?",
+    "note": null
+   },
+   {
+    "eyeTrends": "/services/medical-eye-care/",
+    "academyVision": "/eye-care-services/eye-disease-management/",
+    "avH1": "Eye Disease care in Pine Beach, NJ",
+    "note": null
+   },
+   {
+    "eyeTrends": "/services/myopia-management/",
+    "academyVision": "/eye-care-services/myopia-management/",
+    "avH1": "Myopia Control for Children in Pine Beach",
+    "note": null
+   },
+   {
+    "eyeTrends": "/services/specialty-contacts/",
+    "academyVision": "/contact-lenses/scleral-lenses/",
+    "avH1": "Scleral Lenses for Complex Needs",
+    "note": "IA decision D2"
+   }
+  ],
+  "gaps": [
+   "/eye-health/",
+   "/products/designer-frames/",
+   "/products/kids-eyewear/",
+   "/products/sunglasses/",
+   "/services/adult-eye-exams/",
+   "/services/back-to-school-eye-exams/",
+   "/services/cataract-co-management/",
+   "/services/childrens-contact-lenses/",
+   "/services/childrens-eye-care/",
+   "/services/diabetic-eye-exams/",
+   "/services/emergency-eye-care/",
+   "/services/flashes-floaters/",
+   "/services/foreign-body-removal/",
+   "/services/gas-permeable-contacts/",
+   "/services/glaucoma-management/",
+   "/services/macular-degeneration/",
+   "/services/multifocal-contacts/",
+   "/services/pink-eye-conjunctivitis/",
+   "/services/red-eye-treatment/",
+   "/services/same-day-contacts/",
+   "/services/senior-eye-exams/",
+   "/services/toric-contacts/",
+   "/terms/"
+  ],
+  "gapCount": 23,
+  "academyVisionPagesWithoutAnEyeTrendsSlot": [
+   "/about-us/",
+   "/appointment-request-form/",
+   "/article/pediatric-eye-exams-beyond-school-screenings/",
+   "/contact-lenses/orthokeratology-ortho-k/",
+   "/eyeglasses/avulux-migraine-lenses/",
+   "/eyeglasses/stellest-lenses/",
+   "/eyeglasses/varilux-lenses/",
+   "/sitemap/",
+   "/team/dr-anthony-giallombardo-od/",
+   "/team/dr-marc-ullman-od/",
+   "/team/dr-tyler-lesko-od/"
+  ],
+  "evidence": "Eye Trends paths from ~\\site-reforge\\eyetrendsclearlake-com\\audit\\content-inventory.json (43 pages); Academy Vision paths and H1s from audit/content-inventory.json; IA decisions D1-D3, D6 and the ADOPT rows from docs/SITE-ARCHITECTURE.md; mapping precedent: riversidefamilyeyecare-reforge/src/lib/restructure.mjs MOVES",
+  "changedFromFirstDraft": [
+   "/services/pediatric-eye-exams/ is filled by Academy Vision's pediatric page and /services/childrens-eye-care/ is adopted (IA D1) - the first draft had them the other way round",
+   "/reviews/ is filled by Academy Vision's moved location record (IA D3) - the first draft counted it as a gap; its hero moved to optionalImages"
+  ],
+  "notes": [
+   "/terms/ gets tex-cream-light instead of a photo (legal page).",
+   "Adopted pages need only the hero generated: each hero lists reuseCandidates (existing masters by topic) for in-page sections."
+  ]
+ },
+ "cost": {
+  "rates": {
+   "ultra": 0.06,
+   "kontext": 0.04,
+   "birefnet": 0.01,
+   "hfLoop5s1080p": 0.6
+  },
+  "ratesSource": "task brief: flux-pro ultra about $0.06/image, kontext about $0.04, birefnet about $0.01, Higgsfield 5 s 1080p kling turbo loop about $0.60 (measured 2026-10-08)",
+  "base": {
+   "ultraCalls": 34,
+   "birefnetCalls": 8,
+   "hfLoops": 2,
+   "usd": 3.32
+  },
+  "reserve": {
+   "reRollRate": 0.6,
+   "why": "the Riverside project (same tools, same model) kept 19 generated images and archived 12 rejected ones (riversidefamilyeyecare-reforge/audit/generated-images.json), about 0.63 re-rolls per kept image",
+   "ultraReRolls": 16,
+   "cutoutReRolls": 5,
+   "kontextFixes": 7,
+   "kontextWhy": "14 plan entries show eyeglasses; assume half need a temple/rivet clean-up edit",
+   "birefnetReCuts": 8,
+   "hfRetries": 1,
+   "usd": 2.22
+  },
+  "maxUsd": 5.54,
+  "breakdown": {
+   "heroes": 1.32,
+   "cutouts": 0.56,
+   "textures": 0.18,
+   "loopStill": 0.06,
+   "loops": 1.2
+  },
+  "stopRule": "stop when base + reserve calls are spent (55 ultra, 7 kontext, 16 birefnet, 3 Higgsfield); report what is still unaccepted instead of spending more"
+ },
+ "images": [
+  {
+   "id": "hero-adult-eye-exams",
+   "purpose": "hero for the routine adult eye exam service page (adopted slot)",
+   "usedOn": [
+    "/services/adult-eye-exams/"
+   ],
+   "usedFor": [
+    "/services/adult-eye-exams/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a man in his early forties with a short dark beard wearing thin navy rectangular eyeglasses, sitting by a large bright window at home and glancing up from a plain unbranded laptop with a relaxed smile, cream knit sweater, soft morning daylight, shallow depth of field, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Man with a short beard in navy-rimmed glasses smiling by a bright window with a laptop",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "eyeglass temples and bridge at 100 percent: no pseudo-text or rivets",
+    "laptop lid: no logo"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-195023748",
+    "photo-as-40637372",
+    "photo-as-101370336",
+    "photo-as-195023420"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-adult-eye-exams.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "9461afa9697f6faf4793baf1b33352f55c3c759cc4945f4a2355dad6eed3c1bb",
+    "alt": "Man with a short beard in navy-rimmed glasses smiling by a bright window with a laptop",
+    "focal": "60%,40%",
+    "attempt": "tmp/imagery-run/attempts/hero-adult-eye-exams.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-senior-eye-exams",
+   "purpose": "hero for the senior eye exam service page (adopted slot)",
+   "usedOn": [
+    "/services/senior-eye-exams/"
+   ],
+   "usedFor": [
+    "/services/senior-eye-exams/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a smiling woman in her early seventies with short silver hair and tortoiseshell eyeglasses watering herbs in plain terracotta pots on a sunny kitchen windowsill, light blue cardigan, warm cream walls, soft morning daylight, shallow depth of field, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Smiling older woman in tortoiseshell glasses watering herbs on a sunny windowsill",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "eyeglass temples at 100 percent",
+    "pots: no labels"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-383878101",
+    "photo-as-569060589",
+    "photo-as-383879247",
+    "photo-as-1704167623"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-senior-eye-exams.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "53e78533e466d9c4be2652a6f977736560080e292ae66a74c1cdfa4f27048408",
+    "alt": "Smiling older woman in tortoiseshell glasses watering herbs on a sunny windowsill",
+    "focal": "65%,30%",
+    "attempt": "tmp/imagery-run/attempts/hero-senior-eye-exams.a1k.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-back-to-school-eye-exams",
+   "purpose": "hero for the back-to-school eye exam page (adopted slot)",
+   "usedOn": [
+    "/services/back-to-school-eye-exams/"
+   ],
+   "usedFor": [
+    "/services/back-to-school-eye-exams/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a cheerful nine-year-old boy with round clear-framed glasses and a plain navy backpack walking along a leafy suburban sidewalk on a crisp autumn morning, golden backlight through trees, soft bokeh, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Smiling boy in round glasses with a navy backpack walking on a leafy sidewalk in autumn",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "backpack: no brand or lettering",
+    "eyeglass temples",
+    "no street signs or house numbers"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-1899226050",
+    "photo-as-321449929",
+    "photo-as-475164525",
+    "photo-as-664048271"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-back-to-school-eye-exams.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "e6d483ff7f307e88c9624c7bbfd953db514009f80dcbd1bd6d429858801c9ca9",
+    "alt": "Smiling boy in round glasses with a navy backpack on a leafy sidewalk in autumn",
+    "focal": "63%,45%",
+    "attempt": "tmp/imagery-run/attempts/hero-back-to-school-eye-exams.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-childrens-contact-lenses",
+   "purpose": "hero for the children's contact lens page (adopted slot)",
+   "usedOn": [
+    "/services/childrens-contact-lenses/"
+   ],
+   "usedFor": [
+    "/services/childrens-contact-lenses/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a smiling twelve-year-old girl without glasses in a plain light blue athletic top with no numbers, holding a plain white soccer ball on a sunny grass field, ponytail, late afternoon light, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Smiling girl in a light blue top holding a soccer ball on a sunny field",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "shirt and ball: no numbers, logos or lettering"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-648663168",
+    "photo-as-467908372",
+    "photo-as-1899226050"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-childrens-contact-lenses.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "588ab81fef8b4522202214782224629ea15e96fd35de5a9d551dd9bb013ee5c7",
+    "alt": "Smiling girl in a light blue top holding a soccer ball on a sunny field",
+    "focal": "66%,40%",
+    "attempt": "tmp/imagery-run/attempts/hero-childrens-contact-lenses.a1kd.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-glaucoma-management",
+   "purpose": "hero for the glaucoma management page (gap)",
+   "usedOn": [
+    "/services/glaucoma-management/"
+   ],
+   "usedFor": [
+    "/services/glaucoma-management/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Macro photograph of a calm adult eye in three-quarter profile, blue-grey iris with fine fibre detail, a small soft round catchlight, gentle navy shadows around the eyelid, smooth out-of-focus skin and deep navy darkness around it, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Close-up of a blue-grey eye in soft cool light",
+   "textRisk": "low",
+   "reviewFocus": [
+    "anatomy: one natural pupil, natural lashes, no overlay graphics"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-293097203",
+    "photo-as-1850300419",
+    "photo-as-1056178795"
+   ],
+   "reuse": "photo-as-293097203",
+   "reuseAlt": "An older woman with white hair rests her face against an eye-imaging instrument while a clinician operates it; its screen shows an image of an eye.",
+   "reuseNote": "INTEGRATOR 2026-10-09 (OPEN-DECISIONS A7): all three generated attempts failed review, so the slot shows Academy Vision's own stock photo (assets/source/2697f414-AdobeStock_293097203.jpeg-w_2000.webp, 2000x1335, used on its comprehensive eye exams page). A real photograph: src/lib/images.mjs serves it without the AI label and never copies it into assets/generated/. \"alt\" above is the planned generated image's alt; the page uses reuseAlt.",
+   "delivered": null,
+   "verdict": "unaccepted",
+   "verdictReason": "retry limit reached (initial + 2 retries) without a clean image; see audit/generated-images.json unaccepted[]"
+  },
+  {
+   "id": "hero-diabetic-eye-exams",
+   "purpose": "hero for the diabetic eye exam page (gap)",
+   "usedOn": [
+    "/services/diabetic-eye-exams/"
+   ],
+   "usedFor": [
+    "/services/diabetic-eye-exams/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a man in his fifties in a light blue shirt and thin metal glasses preparing a breakfast bowl of oats and fresh berries at a bright kitchen counter, warm morning light, no packaging, jars or appliances with labels, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Man in glasses preparing a bowl of oats and berries in a bright kitchen",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "no packaging or appliance lettering",
+    "eyeglass temples",
+    "no glucose meter or medical device"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-383878101",
+    "photo-as-1477380325",
+    "photo-as-569060589"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-diabetic-eye-exams.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "b587fb72a4b1bf501c5d877c1207e9bbd46f5f1d7a8e8b6e1cfc99d72bdb2520",
+    "alt": "Man in glasses preparing a bowl of oats and berries in a bright kitchen",
+    "focal": "72%,30%",
+    "attempt": "tmp/imagery-run/attempts/hero-diabetic-eye-exams.a2.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-macular-degeneration",
+   "purpose": "hero for the macular degeneration page (gap)",
+   "usedOn": [
+    "/services/macular-degeneration/"
+   ],
+   "usedFor": [
+    "/services/macular-degeneration/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of an older woman in her late seventies with white hair in a cream cardigan sitting by a sunlit window and looking out at a green garden with a peaceful expression, soft daylight on her face, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Older woman with white hair looking out of a sunlit window at a garden",
+   "textRisk": "low",
+   "reviewFocus": [
+    "hands and face anatomy"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-1477380325",
+    "photo-as-967309870",
+    "photo-as-569060589"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-macular-degeneration.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "360d0b781123ee8f657be1c67affff19a9479a0a6a167e19d7118107949555af",
+    "alt": "Older woman with white hair looking out of a sunlit window at a garden",
+    "focal": "66%,30%",
+    "attempt": "tmp/imagery-run/attempts/hero-macular-degeneration.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-cataract-co-management",
+   "purpose": "hero for the cataract co-management page (gap)",
+   "usedOn": [
+    "/services/cataract-co-management/"
+   ],
+   "usedFor": [
+    "/services/cataract-co-management/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a silver-haired man in his early seventies in a light blue linen shirt smiling outdoors at a sunlit marina at golden hour, sailboat masts softly blurred behind him with no boat names or lettering, warm bokeh over calm water, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Smiling older man in a light blue shirt at a sunlit marina",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "hulls, sails and buoys: no names, numbers or lettering"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-287787908",
+    "photo-as-190523754",
+    "photo-as-383878101"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-cataract-co-management.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "5014dccef07fc99430e29120a15dd3f7ff1c79307f1de59a0f0ff6fb56903c49",
+    "alt": "Smiling older man in a light blue shirt at a sunlit marina",
+    "focal": "58%,35%",
+    "attempt": "tmp/imagery-run/attempts/hero-cataract-co-management.a1m.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-emergency-eye-care",
+   "purpose": "hero for the emergency eye care page (gap)",
+   "usedOn": [
+    "/services/emergency-eye-care/"
+   ],
+   "usedFor": [
+    "/services/emergency-eye-care/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a young woman sitting on a sofa holding a folded soft white cloth gently against one closed eye, calm but concerned expression, soft daylight, cream and navy cushions, no blood, no wound, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Young woman on a sofa holding a soft cloth to one closed eye",
+   "textRisk": "low",
+   "reviewFocus": [
+    "no injury, blood or graphic detail"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-ss-2143953341",
+    "photo-as-169390989",
+    "photo-as-472045717"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-emergency-eye-care.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "d49a79b9a254499921f9ae63e20a5c8fc889b6529f6a1124deb66a95e0fb1d9b",
+    "alt": "Young woman on a sofa holding a soft cloth to one closed eye",
+    "focal": "68%,40%",
+    "attempt": "tmp/imagery-run/attempts/hero-emergency-eye-care.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-pink-eye-conjunctivitis",
+   "purpose": "hero for the pink eye page (adopted slot)",
+   "usedOn": [
+    "/services/pink-eye-conjunctivitis/"
+   ],
+   "usedFor": [
+    "/services/pink-eye-conjunctivitis/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a young boy resting on a sofa under a light blue blanket and gently rubbing one eye, an adult hand resting reassuringly on his shoulder with the adult out of frame, soft daylight, cream and navy tones, no visible discharge or graphic redness, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Young boy under a blue blanket rubbing one eye while an adult rests a hand on his shoulder",
+   "textRisk": "low",
+   "reviewFocus": [
+    "hand anatomy (the adult hand)",
+    "no graphic eye detail"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-472045717",
+    "photo-as-485352260",
+    "photo-as-528233245-1"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-pink-eye-conjunctivitis.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "84f448b65bdfeac3678c4ba2378bb0c33e592b161a0ade0ae0bfa77085583abf",
+    "alt": "Young boy asleep under a blue blanket with one hand by his eye while an adult rests a hand on his head",
+    "focal": "65%,45%",
+    "attempt": "tmp/imagery-run/attempts/hero-pink-eye-conjunctivitis.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-foreign-body-removal",
+   "purpose": "hero for the foreign body removal page (adopted slot)",
+   "usedOn": [
+    "/services/foreign-body-removal/"
+   ],
+   "usedFor": [
+    "/services/foreign-body-removal/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a woman on a breezy beach shielding her eyes with one hand from wind-blown sand, hair blowing, soft overcast light, pale dunes and dune grass, soft sea and sky, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Woman on a windy beach shielding her eyes from blowing sand",
+   "textRisk": "low",
+   "reviewFocus": [
+    "hand anatomy"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-169390989",
+    "photo-ss-2143953341"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-foreign-body-removal.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "2fbef018a2c9116f73b803262d4fd3ed7f7e5b98ebe6893d8ce4dd04961076b3",
+    "alt": "Woman on a windy beach shielding her eyes from blowing sand",
+    "focal": "75%,35%",
+    "attempt": "tmp/imagery-run/attempts/hero-foreign-body-removal.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-red-eye-treatment",
+   "purpose": "hero for the red / sore eye page (adopted slot)",
+   "usedOn": [
+    "/services/red-eye-treatment/"
+   ],
+   "usedFor": [
+    "/services/red-eye-treatment/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a woman relaxing on a sofa with a plain unbranded soft gel eye mask over her closed eyes, head tilted back on a cushion, cream knit sweater, gentle daylight, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Woman relaxing on a sofa with a soft gel mask over her eyes",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "eye mask: no brand or lettering"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-472045717",
+    "photo-as-583586831",
+    "photo-as-485352260"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-red-eye-treatment.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "02c4f9161383d4ff6a7e020a97f960c52abefc7fdbb1f4591a58ce957636dea2",
+    "alt": "Woman relaxing on a sofa with a soft gel mask over her eyes",
+    "focal": "70%,35%",
+    "attempt": "tmp/imagery-run/attempts/hero-red-eye-treatment.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-flashes-floaters",
+   "purpose": "hero for the flashes and floaters page (adopted slot)",
+   "usedOn": [
+    "/services/flashes-floaters/"
+   ],
+   "usedFor": [
+    "/services/flashes-floaters/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a woman in her fifties pausing on a coastal path on a bright day and looking up at a clear blue sky, one hand shading her eyes, light breeze in her hair, wide open pale blue sky, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Woman on a coastal path shading her eyes and looking up at a clear sky",
+   "textRisk": "low",
+   "reviewFocus": [
+    "sky clean of artefacts",
+    "hand anatomy"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-1056178795",
+    "photo-as-293097203",
+    "photo-as-195023748"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-flashes-floaters.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "f46e12f333a6c9e578cdde6cc23ce0d1b4b58b76b898eb463eb4619f531e8d5f",
+    "alt": "Woman on a coastal path with her face turned up to a clear blue sky and one hand at her brow",
+    "focal": "62%,40%",
+    "attempt": "tmp/imagery-run/attempts/hero-flashes-floaters.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-same-day-contacts",
+   "purpose": "hero for the same-day contacts page (adopted slot)",
+   "usedOn": [
+    "/services/same-day-contacts/"
+   ],
+   "usedFor": [
+    "/services/same-day-contacts/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Macro photograph of a single clear soft contact lens balanced on a fingertip, a small bright highlight on its rim, clean white and pale blue background with soft light, the fingertip entering from the right, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "A clear soft contact lens balanced on a fingertip",
+   "textRisk": "low",
+   "reviewFocus": [
+    "fingertip anatomy and nail",
+    "lens shape: one smooth dome"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-1721158689",
+    "photo-ss-2642237127",
+    "photo-as-82956140"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-same-day-contacts.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "87fdf20cd17eeee457cc1148b5f4c98320d636aa1006e03ad51041a0bab1d61b",
+    "alt": "A clear soft contact lens balanced on a fingertip",
+    "focal": "66%,55%",
+    "attempt": "tmp/imagery-run/attempts/hero-same-day-contacts.a2.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-toric-contacts",
+   "purpose": "hero for the toric contact lens page (gap)",
+   "usedOn": [
+    "/services/toric-contacts/"
+   ],
+   "usedFor": [
+    "/services/toric-contacts/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Macro photograph of a clear soft contact lens resting on a sheet of glass with soft blue reflections and a single water droplet beside it, deep navy background with a gentle light gradient, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "A clear contact lens and a water droplet on glass against navy",
+   "textRisk": "low",
+   "reviewFocus": [
+    "no printed marks or numerals on the lens"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-ss-2642237127",
+    "photo-as-82956140",
+    "photo-as-342238192"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-toric-contacts.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "de736efffd36004baf9a6e22724440c2203d4c5791020f70c6920c039eacc73f",
+    "alt": "A clear contact lens and a water droplet on glass against navy",
+    "focal": "68%,55%",
+    "attempt": "tmp/imagery-run/attempts/hero-toric-contacts.a2.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-gas-permeable-contacts",
+   "purpose": "hero for the gas permeable contact lens page (gap)",
+   "usedOn": [
+    "/services/gas-permeable-contacts/"
+   ],
+   "usedFor": [
+    "/services/gas-permeable-contacts/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Macro photograph of a small rigid gas permeable contact lens with a faint blue tint held between fingertip and thumb, crisp edge highlight, warm cream background with a soft shadow, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "A small blue-tinted rigid contact lens held between finger and thumb",
+   "textRisk": "low",
+   "reviewFocus": [
+    "finger anatomy",
+    "lens edge clean"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-648663168",
+    "photo-as-82956140"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-gas-permeable-contacts.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "dd492804883b518157714976493db4634e8745cd49e07d40e42f1fee2d8b20df",
+    "alt": "A small blue-tinted rigid contact lens resting on a fingertip",
+    "focal": "70%,45%",
+    "attempt": "tmp/imagery-run/attempts/hero-gas-permeable-contacts.a3d.jpg",
+    "retries": 2,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-multifocal-contacts",
+   "purpose": "hero for the multifocal contact lens page (gap)",
+   "usedOn": [
+    "/services/multifocal-contacts/"
+   ],
+   "usedFor": [
+    "/services/multifocal-contacts/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a woman in her early fifties without glasses smiling while tending potted plants on a sunny patio, light blue linen shirt, warm daylight, softly blurred greenery and cream wall, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Smiling woman in a light blue shirt tending plants on a sunny patio",
+   "textRisk": "low",
+   "reviewFocus": [
+    "pots: no labels",
+    "hands anatomy"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-342238192",
+    "photo-as-1721158689"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-multifocal-contacts.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "d986df5292e6ef57d0eda973854d146c4d163e103f06361ebbe354ff6a4ce6e8",
+    "alt": "Smiling woman in a light blue shirt tending plants on a sunny patio",
+    "focal": "47%,25%",
+    "attempt": "tmp/imagery-run/attempts/hero-multifocal-contacts.a3.jpg",
+    "retries": 2,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-childrens-eye-care",
+   "purpose": "hero for the adopted children's eye care hub (IA decision D1; Academy Vision's pediatric page fills /services/pediatric-eye-exams/)",
+   "usedOn": [
+    "/services/childrens-eye-care/"
+   ],
+   "usedFor": [
+    "/services/childrens-eye-care/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial photograph of a laughing three-year-old in a navy and white striped shirt holding a pair of small round toy glasses up to their eyes, sitting on a cream rug at home, soft daylight, no alphabet blocks or printed toys, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Laughing toddler holding small round toy glasses up to their eyes",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "toy glasses: no markings",
+    "child hands anatomy"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [
+    "photo-as-145731674",
+    "photo-as-114077855",
+    "photo-as-181375155",
+    "photo-as-415830666",
+    "photo-pediatric-optometrist-eye-exam"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-childrens-eye-care.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "2dabbcf29a5e3a2b2190ff20483482e979617e0574df04aa9069a55cb9962811",
+    "alt": "Laughing toddler holding small round white toy glasses up to their eyes",
+    "focal": "65%,35%",
+    "attempt": "tmp/imagery-run/attempts/hero-childrens-eye-care.a2.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-designer-frames",
+   "purpose": "hero for the adopted designer frames page (Academy Vision's /eyeglasses/ page keeps its own designer-frames section and brand grid)",
+   "usedOn": [
+    "/products/designer-frames/"
+   ],
+   "usedFor": [
+    "/products/designer-frames/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Still-life photograph of three acetate eyeglass frames, tortoiseshell, deep navy and crystal clear, arranged in a loose diagonal on cream linen, soft directional daylight with gentle shadows, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Three acetate eyeglass frames, tortoiseshell, navy and clear, on cream linen",
+   "textRisk": "high",
+   "reviewFocus": [
+    "every temple outer and inner face, hinges and bridge at 100 and 400 percent: no pseudo-text, rivets, emblems",
+    "count: exactly three frames, each with two temples"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction",
+    "plan a fal-ai/flux-pro/kontext clean-up from the reserve if any temple shows marks"
+   ],
+   "reuseCandidates": [
+    "photo-as-210642677",
+    "photo-ss-2627315263",
+    "photo-ss-2399668487",
+    "photo-customer-shoosing-spectacles-optic-store-wit",
+    "photo-as-465554124"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-designer-frames.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "2936e0b9c34c7d0f71c3be19e6363f2c8c4ae8b4b0fb9f19fa3438c08b11da40",
+    "alt": "Two pairs of folded eyeglasses, tortoiseshell and clear, resting on navy and cream pouches",
+    "focal": "70%,45%",
+    "attempt": "tmp/verify-imagery/gen/attempts/hero-designer-frames.r1.q1.jpg",
+    "retries": 2,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json",
+    "syncedFromAudit": {
+     "at": "2026-10-09",
+     "by": "INTEGRATOR",
+     "previousSha256": "2656befd1f94a45cc6870d8ed2c8a026e3da121372c6afc66f272b0164b1b1e8",
+     "previousAttempt": "tmp/imagery-run/attempts/hero-designer-frames.a3.jpg",
+     "reason": "the IMAGE REFUTER replaced IMAGERY's file (audit review.refuter.fix); fields copied from audit/generated-images.json"
+    }
+   }
+  },
+  {
+   "id": "hero-sunglasses",
+   "purpose": "hero for the sunglasses page (gap)",
+   "usedOn": [
+    "/products/sunglasses/"
+   ],
+   "usedFor": [
+    "/products/sunglasses/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Still-life photograph of a pair of navy-framed sunglasses with blue gradient lenses resting on sun-warmed pale boardwalk planks, soft out-of-focus ocean and sky behind, bright summer light, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Navy sunglasses with blue gradient lenses on sunny boardwalk planks",
+   "textRisk": "high",
+   "reviewFocus": [
+    "temples and lens corners at 100 and 400 percent: no etched logos or pseudo-text",
+    "two temples, one bridge"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction",
+    "plan a fal-ai/flux-pro/kontext clean-up from the reserve if any marks appear"
+   ],
+   "reuseCandidates": [
+    "photo-ss-2725574751"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-sunglasses.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "ced257035149010f1316e276e5a399411d2230471b3fe08ec8ffdc0a3a1b8a1a",
+    "alt": "Navy sunglasses with blue gradient lenses on sunny boardwalk planks",
+    "focal": "52%,55%",
+    "attempt": "tmp/imagery-run/attempts/hero-sunglasses.a2.jpg",
+    "retries": 2,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-kids-eyewear",
+   "purpose": "hero for the kids' eyewear page (gap)",
+   "usedOn": [
+    "/products/kids-eyewear/"
+   ],
+   "usedFor": [
+    "/products/kids-eyewear/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Flat-lay photograph of four small children's eyeglass frames in light blue, navy, crystal clear and pale mint on a warm cream background, playful loose arrangement with soft shadows, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Four small children's eyeglass frames in blue, navy, clear and mint on cream",
+   "textRisk": "high",
+   "reviewFocus": [
+    "every temple at 100 and 400 percent",
+    "count: four frames, two temples each"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction",
+    "plan a fal-ai/flux-pro/kontext clean-up from the reserve if any marks appear"
+   ],
+   "reuseCandidates": [
+    "photo-as-559860257",
+    "photo-as-302486254",
+    "photo-as-522927551",
+    "photo-as-267718649",
+    "photo-as-964691670-1m"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-kids-eyewear.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "f6632252888eff0b59a6a502ded02bcafe6b76f153661e2153e144fbd400cab6",
+    "alt": "Three small children's eyeglass frames in navy, white and light blue on a cream background",
+    "focal": "75%,50%",
+    "attempt": "tmp/imagery-run/attempts/hero-kids-eyewear.a2.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "hero-eye-health",
+   "purpose": "hero for the eye health articles hub (gap)",
+   "usedOn": [
+    "/eye-health/"
+   ],
+   "usedFor": [
+    "/eye-health/"
+   ],
+   "role": "hero",
+   "status": "provisional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Overhead flat-lay photograph of a pair of navy eyeglasses, a cup of tea, a sprig of eucalyptus and a closed linen-bound book with a completely blank cover on a cream tablecloth, soft daylight, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Navy eyeglasses, a cup of tea, eucalyptus and a closed book on a cream tablecloth",
+   "textRisk": "high",
+   "reviewFocus": [
+    "book cover and spine: blank",
+    "temples",
+    "cup: no print"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction"
+   ],
+   "reuseCandidates": [],
+   "delivered": {
+    "file": "assets/generated/hero-eye-health.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "d20913d14b447540ded593303d7e6da2f87a8308ab446d39a758ca3b55a85b81",
+    "alt": "Navy eyeglasses, a cup of tea, eucalyptus and a closed book on a cream tablecloth",
+    "focal": "72%,45%",
+    "attempt": "tmp/imagery-run/attempts/hero-eye-health.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "cut-eyeglasses-navy",
+   "purpose": "protruding frame object for hero and section edges",
+   "usedOn": "global",
+   "usedFor": [
+    "global"
+   ],
+   "role": "depth-cutout",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 (cutout: true)",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "cutout": true,
+   "prompt": "Product photograph of a pair of deep navy acetate eyeglasses with clear lenses in a three-quarter front view, temples open, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout",
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "Navy acetate eyeglasses",
+   "textRisk": "high",
+   "reviewFocus": [
+    "cut-out composited on magenta: no grey shadow patch, halo or missing transparent parts",
+    "temples, hinges and bridge at 400 percent"
+   ],
+   "constraints": [
+    "transparent PNG via fal-ai/birefnet/v2 (General Use (Heavy), 2048x2048); fal-gen writes assets/generated/<id>.png",
+    "no text, letters, logos or brand marks (flux draws pseudo-text on temples and lens edges)",
+    "designed to overlap a section edge with pointer-events none and a soft drop shadow added in CSS, not baked in"
+   ],
+   "delivered": {
+    "file": "assets/generated/cut-eyeglasses-navy.png",
+    "w": 2048,
+    "h": 2048,
+    "sha256": "80968d99632cb9540ed6c28b0c6b07819d5745bcb26f567b4213eff7ccc2f3da",
+    "alt": "Navy acetate eyeglasses",
+    "focal": null,
+    "attempt": "tmp/imagery-run/attempts/cut-eyeglasses-navy.a2.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "cut-eyeglasses-tortoise",
+   "purpose": "protruding frame object (warm accent)",
+   "usedOn": "global",
+   "usedFor": [
+    "global"
+   ],
+   "role": "depth-cutout",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 (cutout: true)",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "cutout": true,
+   "prompt": "Product photograph of a pair of round tortoiseshell acetate eyeglasses with clear lenses, front view tilted slightly, temples open, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout",
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "Round tortoiseshell eyeglasses",
+   "textRisk": "high",
+   "reviewFocus": [
+    "cut-out composited on magenta: no grey shadow patch, halo or missing transparent parts",
+    "temples, hinges and bridge at 400 percent"
+   ],
+   "constraints": [
+    "transparent PNG via fal-ai/birefnet/v2 (General Use (Heavy), 2048x2048); fal-gen writes assets/generated/<id>.png",
+    "no text, letters, logos or brand marks (flux draws pseudo-text on temples and lens edges)",
+    "designed to overlap a section edge with pointer-events none and a soft drop shadow added in CSS, not baked in"
+   ],
+   "delivered": {
+    "file": "assets/generated/cut-eyeglasses-tortoise.png",
+    "w": 2048,
+    "h": 2048,
+    "sha256": "00797f449eb499724121dcc3852cf7f182720ebba57805397f098b0a4f66d8cf",
+    "alt": "Round tortoiseshell eyeglasses",
+    "focal": null,
+    "attempt": "tmp/verify-imagery/gen/attempts/cut-eyeglasses-tortoise.r1-matting.png",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json",
+    "syncedFromAudit": {
+     "at": "2026-10-09",
+     "by": "INTEGRATOR",
+     "previousSha256": "595c5416420f7d9fd43fa2feb5a338ec2013b78c3f7848421bcbdf7e4e1eff75",
+     "previousAttempt": "tmp/imagery-run/attempts/cut-eyeglasses-tortoise.a1kl.jpg",
+     "reason": "the IMAGE REFUTER replaced IMAGERY's file (audit review.refuter.fix); fields copied from audit/generated-images.json"
+    }
+   }
+  },
+  {
+   "id": "cut-sunglasses-aviator",
+   "purpose": "protruding sunglasses object for the eyewear and sunglasses pages",
+   "usedOn": "global",
+   "usedFor": [
+    "global"
+   ],
+   "role": "depth-cutout",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 (cutout: true)",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "cutout": true,
+   "prompt": "Product photograph of a pair of thin gold metal aviator-style sunglasses with blue gradient lenses, three-quarter view, temples open, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout",
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "Gold metal sunglasses with blue gradient lenses",
+   "textRisk": "high",
+   "reviewFocus": [
+    "cut-out composited on magenta: no grey shadow patch, halo or missing transparent parts",
+    "lens corners and temple tips: no etched marks"
+   ],
+   "constraints": [
+    "transparent PNG via fal-ai/birefnet/v2 (General Use (Heavy), 2048x2048); fal-gen writes assets/generated/<id>.png",
+    "no text, letters, logos or brand marks (flux draws pseudo-text on temples and lens edges)",
+    "designed to overlap a section edge with pointer-events none and a soft drop shadow added in CSS, not baked in"
+   ],
+   "delivered": {
+    "file": "assets/generated/cut-sunglasses-aviator.png",
+    "w": 2048,
+    "h": 2048,
+    "sha256": "de63e8c0f5fd569c56ecb66f2320cd308ebb914af550b8d1939a1eb076ba4a26",
+    "alt": "Gold metal sunglasses with blue gradient lenses",
+    "focal": null,
+    "attempt": "tmp/imagery-run/attempts/cut-sunglasses-aviator.a1kl.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "cut-sunglasses-navy",
+   "purpose": "protruding sunglasses object (navy accent)",
+   "usedOn": "global",
+   "usedFor": [
+    "global"
+   ],
+   "role": "depth-cutout",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 (cutout: true)",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "cutout": true,
+   "prompt": "Product photograph of a pair of bold navy square sunglasses with smoke grey lenses, front three-quarter view, temples open, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout",
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "Navy square sunglasses with grey lenses",
+   "textRisk": "high",
+   "reviewFocus": [
+    "cut-out composited on magenta: no grey shadow patch, halo or missing transparent parts",
+    "temples and lens corners"
+   ],
+   "constraints": [
+    "transparent PNG via fal-ai/birefnet/v2 (General Use (Heavy), 2048x2048); fal-gen writes assets/generated/<id>.png",
+    "no text, letters, logos or brand marks (flux draws pseudo-text on temples and lens edges)",
+    "designed to overlap a section edge with pointer-events none and a soft drop shadow added in CSS, not baked in"
+   ],
+   "delivered": {
+    "file": "assets/generated/cut-sunglasses-navy.png",
+    "w": 2048,
+    "h": 2048,
+    "sha256": "b7f4cfdb895e9aff84b693736104ca7ac3c37512bb2241ee63e85fdcf1ecffb6",
+    "alt": "Navy square sunglasses with grey lenses",
+    "focal": null,
+    "attempt": "tmp/imagery-run/attempts/cut-sunglasses-navy.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "cut-contact-lens",
+   "purpose": "small protruding lens object for contact lens pages",
+   "usedOn": "global",
+   "usedFor": [
+    "global"
+   ],
+   "role": "depth-cutout",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 (cutout: true)",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "cutout": true,
+   "prompt": "Product photograph of a single soft contact lens with a faint blue handling tint standing on its edge, a tiny water droplet on the rim, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout",
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "A soft contact lens with a water droplet",
+   "textRisk": "low",
+   "reviewFocus": [
+    "cut-out composited on magenta: no grey shadow patch, halo or missing transparent parts",
+    "transparent body kept partly opaque by the cut-out, not dropped"
+   ],
+   "constraints": [
+    "transparent PNG via fal-ai/birefnet/v2 (General Use (Heavy), 2048x2048); fal-gen writes assets/generated/<id>.png",
+    "no text, letters, logos or brand marks (flux draws pseudo-text on temples and lens edges)",
+    "designed to overlap a section edge with pointer-events none and a soft drop shadow added in CSS, not baked in"
+   ],
+   "delivered": {
+    "file": "assets/generated/cut-contact-lens.png",
+    "w": 2048,
+    "h": 2048,
+    "sha256": "b3831938855e9b76f10e6b1c3801a13457beab31d55945c1b181019cbde0e21c",
+    "alt": "A soft contact lens with a water droplet",
+    "focal": null,
+    "attempt": "tmp/imagery-run/attempts/cut-contact-lens.a2d.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "cut-lens-blank",
+   "purpose": "protruding optical lens disc for lens/technology sections",
+   "usedOn": "global",
+   "usedFor": [
+    "global"
+   ],
+   "role": "depth-cutout",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 (cutout: true)",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "cutout": true,
+   "prompt": "Product photograph of a round uncut optical lens blank, a polished clear glass disc with a soft blue anti-reflective sheen, tilted at forty-five degrees, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout",
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "A round clear optical lens blank with a blue sheen",
+   "textRisk": "low",
+   "reviewFocus": [
+    "cut-out composited on magenta: no grey shadow patch, halo or missing transparent parts",
+    "edges intact after the cut-out",
+    "no rainbow or spectral bands"
+   ],
+   "constraints": [
+    "transparent PNG via fal-ai/birefnet/v2 (General Use (Heavy), 2048x2048); fal-gen writes assets/generated/<id>.png",
+    "no text, letters, logos or brand marks (flux draws pseudo-text on temples and lens edges)",
+    "designed to overlap a section edge with pointer-events none and a soft drop shadow added in CSS, not baked in"
+   ],
+   "delivered": {
+    "file": "assets/generated/cut-lens-blank.png",
+    "w": 2048,
+    "h": 2048,
+    "sha256": "07de1cb5909a229b9ad17dd442d323bf52ee84acc21bf251827e3cbe032ad773",
+    "alt": "A round clear optical lens blank with a blue sheen",
+    "focal": null,
+    "attempt": "tmp/verify-imagery/gen/attempts/cut-lens-blank.r2.png",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json",
+    "syncedFromAudit": {
+     "at": "2026-10-09",
+     "by": "INTEGRATOR",
+     "previousSha256": "2f166906f5ae2a3c190d7c0c63773bfb7c36cf2be4a66a7aaec5516fdbf880f0",
+     "previousAttempt": "tmp/imagery-run/attempts/cut-lens-blank.a1d.jpg",
+     "reason": "the IMAGE REFUTER replaced IMAGERY's file (audit review.refuter.fix); fields copied from audit/generated-images.json"
+    }
+   }
+  },
+  {
+   "id": "cut-trial-lens",
+   "purpose": "protruding optometry object for exam pages (no phoropter)",
+   "usedOn": "global",
+   "usedFor": [
+    "global"
+   ],
+   "role": "depth-cutout",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 (cutout: true)",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "cutout": true,
+   "prompt": "Product photograph of a single round optometrist's trial lens in a thin plain silver metal rim with a short plain handle, no engraving or printed numbers, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout",
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "A single trial lens in a silver rim with a short handle",
+   "textRisk": "high",
+   "reviewFocus": [
+    "cut-out composited on magenta: no grey shadow patch, halo or missing transparent parts",
+    "rim and handle at 400 percent: no numerals"
+   ],
+   "constraints": [
+    "transparent PNG via fal-ai/birefnet/v2 (General Use (Heavy), 2048x2048); fal-gen writes assets/generated/<id>.png",
+    "no text, letters, logos or brand marks (flux draws pseudo-text on temples and lens edges)",
+    "designed to overlap a section edge with pointer-events none and a soft drop shadow added in CSS, not baked in"
+   ],
+   "delivered": {
+    "file": "assets/generated/cut-trial-lens.png",
+    "w": 2048,
+    "h": 2048,
+    "sha256": "1536feb57f1b4b5f544a5548dbab39fcd06ee40200f8f39f1dc2da1fde794825",
+    "alt": "A single trial lens in a silver rim with a short handle",
+    "focal": null,
+    "attempt": "tmp/imagery-run/attempts/cut-trial-lens.a2d.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "cut-reading-glasses",
+   "purpose": "small protruding object for senior and multifocal pages",
+   "usedOn": "global",
+   "usedFor": [
+    "global"
+   ],
+   "role": "depth-cutout",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 (cutout: true)",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "cutout": true,
+   "prompt": "Product photograph of a pair of folded half-rim reading glasses in light blue metal, lying at an angle, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout",
+   "aspect": "1:1",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "Folded light blue half-rim reading glasses",
+   "textRisk": "high",
+   "reviewFocus": [
+    "cut-out composited on magenta: no grey shadow patch, halo or missing transparent parts",
+    "temples at 400 percent"
+   ],
+   "constraints": [
+    "transparent PNG via fal-ai/birefnet/v2 (General Use (Heavy), 2048x2048); fal-gen writes assets/generated/<id>.png",
+    "no text, letters, logos or brand marks (flux draws pseudo-text on temples and lens edges)",
+    "designed to overlap a section edge with pointer-events none and a soft drop shadow added in CSS, not baked in"
+   ],
+   "delivered": {
+    "file": "assets/generated/cut-reading-glasses.png",
+    "w": 2048,
+    "h": 2048,
+    "sha256": "dd42f19aa92a15d6d88a01fdb0ae3f4d510bf4777f4df205e10ed4a68b14cea5",
+    "alt": "Thin blue metal eyeglasses with round lenses",
+    "focal": null,
+    "attempt": "tmp/verify-imagery/gen/attempts/cut-reading-glasses.r1-matting.png",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json",
+    "syncedFromAudit": {
+     "at": "2026-10-09",
+     "by": "INTEGRATOR",
+     "previousSha256": "248805c7697332dac1a4e42a95565b64a14ef46a12003db403011cae3f4535fd",
+     "previousAttempt": "tmp/imagery-run/attempts/cut-reading-glasses.a1.jpg",
+     "reason": "the IMAGE REFUTER replaced IMAGERY's file (audit review.refuter.fix); fields copied from audit/generated-images.json"
+    }
+   }
+  },
+  {
+   "id": "tex-navy-glass",
+   "purpose": "deep navy section and footer background behind glass cards; also the first frame of loop-navy-glass",
+   "usedOn": "global",
+   "usedFor": "global",
+   "role": "background-texture",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Abstract photograph of soft out-of-focus light seen through frosted glass, a deep navy field with gentle mid-blue glows and faint cream highlights, subtle caustic ripples, no objects, no people, smooth gradients, gentle and low contrast",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "",
+   "textRisk": "low",
+   "reviewFocus": [
+    "no neon: mean saturation at or below 0.35 (the ceiling the Riverside review calibrated)",
+    "no rainbow or spectral bands",
+    "no shapes that read as letters"
+   ],
+   "constraints": [
+    "decorative: empty alt",
+    "sits behind glass panels, so it must stay soft and low contrast",
+    "colour fields must match #0f2a4a navy, #3974a0 and #4489bc blues, #f9f4f0 cream"
+   ],
+   "delivered": {
+    "file": "assets/generated/tex-navy-glass.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "6df96bcf885763c4b57603e5afa0e45a4543ec0b4f9b5bb7060cd5b8bef3cb08",
+    "alt": "",
+    "focal": null,
+    "attempt": "tmp/imagery-run/attempts/tex-navy-glass.a2.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "tex-cream-light",
+   "purpose": "light section background (and the /terms/ page header in place of a photo)",
+   "usedOn": [
+    "global",
+    "/terms/"
+   ],
+   "usedFor": [
+    "global",
+    "/terms/"
+   ],
+   "role": "background-texture",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Abstract photograph of a warm cream surface washed with soft diffused window light and faint pale blue refractions from glass, no objects, no people, smooth gradients, gentle and low contrast",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "",
+   "textRisk": "low",
+   "reviewFocus": [
+    "no neon: mean saturation at or below 0.35 (the ceiling the Riverside review calibrated)",
+    "no rainbow or spectral bands",
+    "no shapes that read as letters"
+   ],
+   "constraints": [
+    "decorative: empty alt",
+    "sits behind glass panels, so it must stay soft and low contrast",
+    "colour fields must match #0f2a4a navy, #3974a0 and #4489bc blues, #f9f4f0 cream"
+   ],
+   "delivered": {
+    "file": "assets/generated/tex-cream-light.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "325c25c1025a2c4fe22f6a693ece118f291cab9f288cb80a8180ceb381c13aca",
+    "alt": "",
+    "focal": null,
+    "attempt": "tmp/imagery-run/attempts/tex-cream-light.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "tex-blue-caustics",
+   "purpose": "mid-blue CTA band background",
+   "usedOn": "global",
+   "usedFor": "global",
+   "role": "background-texture",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Abstract photograph of light refracting through clear glass lenses, soft round out-of-focus discs in mid blue and pale blue over a navy-to-blue gradient, no objects, no people, smooth gradients, gentle and low contrast",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "",
+   "textRisk": "low",
+   "reviewFocus": [
+    "no neon: mean saturation at or below 0.35 (the ceiling the Riverside review calibrated)",
+    "no rainbow or spectral bands",
+    "no shapes that read as letters"
+   ],
+   "constraints": [
+    "decorative: empty alt",
+    "sits behind glass panels, so it must stay soft and low contrast",
+    "colour fields must match #0f2a4a navy, #3974a0 and #4489bc blues, #f9f4f0 cream"
+   ],
+   "delivered": {
+    "file": "assets/generated/tex-blue-caustics.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "3ac509d2fae351c6ef4ce024b7418edf293e0b0614b4589a1346db8bb46d4cd5",
+    "alt": "",
+    "focal": null,
+    "attempt": "tmp/verify-imagery/gen/attempts/tex-blue-caustics.gm1.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json",
+    "syncedFromAudit": {
+     "at": "2026-10-09",
+     "by": "INTEGRATOR",
+     "previousSha256": "7242afcda1cce2e6c4eca6a36e0392baca443700220d5ba4e3cac5c59e536a3e",
+     "previousAttempt": "tmp/imagery-run/attempts/tex-blue-caustics.a1.jpg",
+     "reason": "the IMAGE REFUTER replaced IMAGERY's file (audit review.refuter.fix); fields copied from audit/generated-images.json"
+    }
+   }
+  },
+  {
+   "id": "still-loop-lens-light",
+   "purpose": "first frame for loop-lens-light (Higgsfield image-to-video); also usable as a still poster",
+   "usedOn": [
+    "/"
+   ],
+   "usedFor": [
+    "/"
+   ],
+   "role": "motion-loop",
+   "stage": "still",
+   "status": "planned",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Close-up photograph of a single clear round optical lens standing on a cream linen surface by a sunny window, the lens focusing a soft bright circle of light and gentle caustic ripples onto the linen, soft leaf shadows, pale blue window light, no rainbow or spectral colours, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "A clear optical lens on cream linen focusing a soft circle of sunlight",
+   "textRisk": "low",
+   "reviewFocus": [
+    "no rainbow bands",
+    "lens edge clean",
+    "no lettering on the lens rim"
+   ],
+   "constraints": [
+    "no people, no eyeglasses (keeps temple-text risk out of the hero loop)"
+   ],
+   "delivered": {
+    "file": "assets/generated/still-loop-lens-light.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "deac8b6a370dda919747d558d1c6c41ccafbe70b206c7dfe90c03da200ddb5c9",
+    "alt": "A clear optical lens on cream linen focusing a soft circle of sunlight",
+    "focal": "67%,55%",
+    "attempt": "tmp/imagery-run/attempts/still-loop-lens-light.a1.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  }
+ ],
+ "motion": [
+  {
+   "id": "loop-lens-light",
+   "purpose": "home hero ambient loop behind the glass hero panel",
+   "usedOn": [
+    "/"
+   ],
+   "role": "motion-loop",
+   "status": "planned",
+   "engine": "Higgsfield kling-video/v3.0-turbo/image-to-video via tools/hf-run.mjs",
+   "stillFrom": "still-loop-lens-light",
+   "upload": "assets/generated/still-loop-lens-light.jpg (--upload ... --upload-field image_url)",
+   "input": {
+    "prompt": "very slow, gentle drift of sunlight and soft leaf shadows across the linen, the focused circle of light shimmers softly, static camera, calm, no new objects, no people, no text",
+    "duration": 5,
+    "resolution": "1080p"
+   },
+   "aspect": "16:9",
+   "post": "node tools/make-loop.mjs --in <clip> --out assets/media/loop-lens-light --fade 1.5 --width 1920 --phone-width 720 --phone-aspect 9:16 --label \"Higgsfield kling-video/v3.0-turbo/image-to-video\"",
+   "constraints": [
+    "silent (no audio track)",
+    "make-loop calmness: framesOver20 = 0 and a low single-digit p95 YDIF; no flashing (WCAG 2.3.1)",
+    "prefers-reduced-motion: show the poster frame only",
+    "a 5 s clip gives a 3.5 s loop with a 1.5 s crossfade"
+   ],
+   "delivered": {
+    "files": [
+     "assets/generated/loop-lens-light.mp4",
+     "assets/generated/loop-lens-light-960.mp4",
+     "assets/generated/loop-lens-light-phone.mp4",
+     "assets/generated/loop-lens-light.webm",
+     "assets/generated/loop-lens-light-poster.webp"
+    ],
+    "loopDuration": 8.5,
+    "calmness": {
+     "max": 1.57715,
+     "p95": 0.985319,
+     "framesOver20": 0,
+     "seamChange": 1.57715
+    },
+    "verdict": "accepted",
+    "note": "written to assets/generated/ (IMAGERY ownership), not assets/media/; ping-pong pre-pass before make-loop",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "loop-navy-glass",
+   "purpose": "slow ambient drift for one navy CTA/footer band",
+   "usedOn": "global",
+   "role": "motion-loop",
+   "status": "planned",
+   "engine": "Higgsfield kling-video/v3.0-turbo/image-to-video via tools/hf-run.mjs",
+   "stillFrom": "tex-navy-glass",
+   "upload": "assets/generated/tex-navy-glass.jpg (--upload ... --upload-field image_url)",
+   "input": {
+    "prompt": "extremely slow drift of soft glowing light behind frosted glass, gentle parallax, static camera, calm, no objects, no people, no text",
+    "duration": 5,
+    "resolution": "1080p"
+   },
+   "aspect": "16:9",
+   "post": "node tools/make-loop.mjs --in <clip> --out assets/media/loop-navy-glass --fade 1.5 --width 1920 --label \"Higgsfield kling-video/v3.0-turbo/image-to-video\"",
+   "constraints": [
+    "silent",
+    "calmness as above",
+    "reduced-motion: poster only"
+   ],
+   "delivered": {
+    "files": [
+     "assets/generated/loop-navy-glass.mp4",
+     "assets/generated/loop-navy-glass-960.mp4",
+     "assets/generated/loop-navy-glass.webm",
+     "assets/generated/loop-navy-glass-poster.webp"
+    ],
+    "loopDuration": 8.5,
+    "calmness": {
+     "max": 1.20769,
+     "p95": 0.3424,
+     "framesOver20": 0,
+     "seamChange": 1.20769
+    },
+    "verdict": "accepted",
+    "note": "written to assets/generated/ (IMAGERY ownership), not assets/media/; ping-pong pre-pass before make-loop",
+    "audit": "audit/generated-images.json"
+   }
+  }
+ ],
+ "optionalImages": [
+  {
+   "id": "hero-reviews",
+   "purpose": "OPTIONAL hero for /reviews/ (filled by Academy Vision's moved location page, IA decision D3, whose practice photos are 800 px or less) - deliberately no people, so no face can be read as a reviewer; move into images[] only if the design wants a full-bleed hero there",
+   "usedOn": [
+    "/reviews/"
+   ],
+   "usedFor": [
+    "/reviews/"
+   ],
+   "role": "hero",
+   "status": "optional",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Still-life photograph of a pair of clear-rimmed eyeglasses resting folded on a sunny windowsill beside a small potted green plant, morning light casting soft shadows, cream wall and pale blue sky beyond the glass, no people, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "expectedSize": "2752x1536 (16:9 output of this model on the Riverside project)",
+   "alt": "Folded clear-rimmed glasses on a sunny windowsill beside a small plant",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "temples",
+    "no people or faces anywhere, including reflections"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks anywhere (fal flux invents lettering on eyeglass temples, lenses, packaging and instrument dials)",
+    "no person standing in for an Academy Vision doctor, staff member or patient; no clinician face",
+    "no stand-in for the Academy Vision building, sign, murals or office interiors",
+    "no medical-result, before/after or outcome depiction",
+    "never place generated or stock faces beside review text"
+   ],
+   "reuseCandidates": []
+  }
+ ],
+ "optionalNote": "optionalImages are NOT run by tools/fal-gen.mjs (it reads images[] only); move an entry into images[] to generate it. Cost if all are added: 0.06 USD.",
+ "copyGuard": {
+  "method": "no 6-word run of any image/motion entry may appear in Eye Trends body text or headings",
+  "sharedRuns": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,536 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/contact-lenses/scleral-lenses/",
+  "source": "audit/raw/contact-lenses-scleral-lenses.html",
+  "rendered": "tmp/extract/rendered/contact-lenses-scleral-lenses.html",
+  "meta": {
+    "title": "Scleral Lenses Pine Beach, NJ | Academy Vision",
+    "description": "Custom scleral lenses in Pine Beach for keratoconus and hard-to-fit eyes. Restore your vision with specialized care at Academy Vision.",
+    "canonical": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses/",
+      "type": "website",
+      "title": "Scleral Lenses Pine Beach, NJ | Academy Vision",
+      "image": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d2-c711-7078-9221-a33815799e88/AdobeStock_540762318.jpeg",
+      "description": "Custom scleral lenses in Pine Beach for keratoconus and hard-to-fit eyes. Restore your vision with specialized care at Academy Vision.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses/",
+        "url": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses/",
+        "name": "Scleral Lenses",
+        "datePublished": "2026-03-26T18:53:57.732Z",
+        "dateModified": "2026-05-04T18:45:48.693Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Scleral Lenses for Complex Needs",
+  "counts": {
+    "blocks": 6,
+    "nodes": 24,
+    "static": 24,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section-callout-1",
+      "id": "goJwh6tmI8",
+      "at": 104775,
+      "layout": {
+        "columns": [
+          {
+            "role": "text",
+            "width": "50%",
+            "orderMobile": 2
+          },
+          {
+            "role": "imagery",
+            "width": "50%",
+            "orderMobile": 1,
+            "bleed": "right"
+          }
+        ],
+        "imageSide": "right"
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Scleral Lenses for Complex Needs",
+          "html": "Scleral Lenses for Complex Needs",
+          "id": "WXjR4ieUFG",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If you’ve struggled with contact lenses in the past, or your eyes always feel dry, irritated, or uncomfortable, you’re not out of options. Scleral lenses are designed for people who need something more customized. Our Pine Beach eye doctors use these specialty lenses to help patients see clearly and feel comfortable again, even when other solutions haven’t worked.</p>",
+          "id": "0YLOP3yMnR",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "GXNGNXZvYz",
+          "id": "4tZXHsatsb",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "GXNGNXZvYz",
+          "id": "9C9BI9G6AZ",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d2-c711-7078-9221-a33815799e88/AdobeStock_540762318.jpeg",
+          "file": "assets/source/1bedca89-AdobeStock_540762318.jpeg",
+          "alt": "woman smiling with short hair",
+          "w": 7952,
+          "h": 5304,
+          "focal": "50.0% 50.0%",
+          "id": "goJwh6tmI8-image",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "F885tEyZNV",
+      "at": 108447,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "What Are Scleral Lenses?",
+          "html": "What Are Scleral Lenses?",
+          "align": "center",
+          "id": "9RpCcvHSRM",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Scleral lenses are larger than standard contact lenses and rest on the white part of your eye instead of directly on the cornea. This creates a smooth, stable surface for clear vision while holding a layer of moisture between the lens and your eye. The result is improved comfort and clarity, especially for people with sensitive or dry eyes.</p>",
+          "align": "center",
+          "id": "Yi6EVaKtAS",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "dABWrGSbUB",
+          "id": "qGqdglV5SD",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "dABWrGSbUB",
+          "id": "A6ieBmWP87",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "9SP2n2Dhbd",
+      "at": 110101,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "How Scleral Lenses Improve Comfort",
+          "html": "How Scleral Lenses Improve Comfort",
+          "id": "UGszNKKYC6",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Because scleral lenses don’t sit directly on the most sensitive part of your eye, they’re often much more comfortable than traditional contacts.</p><p>The fluid layer they create helps keep your eyes hydrated throughout the day, reducing irritation and dryness. For many patients, it’s the first time contact lenses have truly felt comfortable.</p>",
+          "id": "8Fardk6IJG",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "id": "TRT3305M6v",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d3-6604-7308-b5b7-557dfaf63c80/AdobeStock_967309870.jpeg",
+          "file": "assets/source/42e0b142-AdobeStock_967309870.jpeg-w_2000.webp",
+          "alt": "A doctor examining an eye model in a lab",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "P1wRzq0OA7",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "clbbVP1Gbb",
+      "at": 113590,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "left"
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d4-3809-755e-9436-f47138b969fc/AdobeStock_480807940.jpeg",
+          "file": "assets/source/f4d85748-AdobeStock_480807940.jpeg-w_2000.webp",
+          "alt": "woman with curly hair covering her face with her hands in an office",
+          "w": 2000,
+          "h": 1333,
+          "focal": "50.0% 50.0%",
+          "id": "WMWPjDw7An",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Who Can Benefit from Scleral Lenses",
+          "html": "Who Can Benefit from Scleral Lenses",
+          "id": "yUm0C6U3AB",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>Scleral lenses are often recommended for patients who:</p><ul><li>Have chronic dry eye or irritation</li><li>Struggle to wear standard contact lenses</li><li>Have sensitive eyes</li><li>Need more advanced vision correction</li><li>Keratoconus</li></ul>",
+          "id": "JkTpR1diBG",
+          "col": 1,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "id": "u2QdcphYdH",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "EfGw3pk16h",
+      "at": 117336,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          },
+          {
+            "group": 0,
+            "span": 6,
+            "spanMobile": 12
+          }
+        ],
+        "imageSides": [
+          {
+            "group": 0,
+            "imageSide": "right"
+          }
+        ]
+      },
+      "background": {
+        "color": "#f9f4f0",
+        "textColor": "#000"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 3,
+          "text": "Getting Started with Scleral Lenses",
+          "html": "Getting Started with Scleral Lenses",
+          "id": "nG08V5Ge5d",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>We start with a detailed <a href=\"/eye-care-services/comprehensive-eye-exams/\">eye exam</a> and specialized measurements to design lenses that fit your eyes. You’ll try them on in the office so we can make sure they feel right and give you a clear vision.</p><p>We’ll also walk you through how to use and care for them, step by step. It may take a short adjustment period, but we’ll be here to guide you.</p>",
+          "id": "uWeVzElJTT",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "image",
+          "master": "https://cdn.patientengage.cloud/sites/e752392a-0da3-46cc-8c49-9c11718cae49/live/media/019d49d4-c3f8-76da-b514-26167453f855/AdobeStock_1721158689.jpeg",
+          "file": "assets/source/3f7a1892-AdobeStock_1721158689.jpeg-w_2000.webp",
+          "alt": "A young man is smiling while holding a pair of eyeglasses in one hand and two white contact lenses in the other.",
+          "w": 2000,
+          "h": 1334,
+          "focal": "50.0% 50.0%",
+          "id": "EWMoxhy9QX",
+          "col": 1,
+          "origin": "static"
+        }
+      ]
+    },
+    {
+      "cpt": "section",
+      "id": "y6W3yEjQh0",
+      "at": 120855,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 2,
+          "text": "Schedule a Contact Lens Exam",
+          "html": "Schedule a Contact Lens Exam",
+          "align": "center",
+          "id": "kh3uc53cQO",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "html",
+          "html": "<p>If your eyes have been uncomfortable or other options haven’t worked, it’s worth taking a closer look. We’ll walk you through everything, answer your questions, and help you find a solution that feels right. Give us a call to schedule your visit to our <a href=\"/hours-location/\">Pine Beach eye clinic</a>.</p>",
+          "align": "center",
+          "id": "NuZBpZiUW8",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Call: (732) 978-9306",
+          "href": "tel:+17329789306",
+          "external": false,
+          "variant": "primary",
+          "group": "TQWasIq4rR",
+          "id": "5dAaX3MoBm",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "button",
+          "label": "Book Appointment",
+          "href": "https://scheduleyourexam.com/v3/index.php/3197",
+          "external": true,
+          "newTab": true,
+          "variant": "button_secondary",
+          "group": "TQWasIq4rR",
+          "id": "Q8ORUaqpnC",
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

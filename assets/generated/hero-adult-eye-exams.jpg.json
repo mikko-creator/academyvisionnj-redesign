@@ -1,0 +1,37 @@
+{
+  "id": "hero-adult-eye-exams",
+  "file": "assets/generated/hero-adult-eye-exams.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the routine adult eye exam service page (adopted slot)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Man with a short beard in navy-rimmed glasses smiling by a bright window with a laptop",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Editorial photograph of a man in his early forties with a short dark beard wearing thin navy rectangular eyeglasses, sitting by a large bright window at home and glancing up from a plain unbranded laptop with a relaxed smile, cream knit sweater, soft morning daylight, shallow depth of field, subject placed in the right third of the frame, calm uncluttered softly blurred left half for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, generic model, not a clinician, not presented as a patient or staff member of any real practice, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2257402484,
+  "requestId": "01a119ba-9470-7142-92e1-dd4a961f5ec0",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-adult-eye-exams.a1.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "9461afa9697f6faf4793baf1b33352f55c3c759cc4945f4a2355dad6eed3c1bb",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: bearded man ~40s in navy rectangular glasses, cream knit sweater, by a window, plain grey laptop lid blurred lower-left; subject centre ~60% x; casual, not clinical",
+      "100% glasses: front, bridge, right temple to the ear clean",
+      "400% actual hinge (1745,365) + left end piece: smooth navy acetate, no rivets, marks or emblems",
+      "35% laptop lid: plain grey, no logo"
+    ],
+    "notes": "the 400% window at 1890,430 missed the hinge (hair); re-checked at 1745,365",
+    "at": "2026-10-08T04:20:20.184Z",
+    "retries": 0
+  },
+  "promotedAt": "2026-10-08T04:20:21.102Z"
+}

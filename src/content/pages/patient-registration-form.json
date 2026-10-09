@@ -1,0 +1,4570 @@
+{
+  "schema": "avnj/page-model@1",
+  "path": "/patient-registration-form/",
+  "source": "audit/raw/patient-registration-form.html",
+  "rendered": "tmp/extract/rendered/patient-registration-form.html",
+  "meta": {
+    "title": "Patient Registration Form | Academy Vision",
+    "description": "For your convenience, patients can now register online by submitting our HIPAA compliant form here. We care about your privacy.",
+    "canonical": "https://www.academyvisionnj.com/patient-registration-form/",
+    "robots": null,
+    "og": {
+      "url": "https://www.academyvisionnj.com/patient-registration-form/",
+      "type": "website",
+      "title": "Patient Registration Form | Academy Vision",
+      "description": "For your convenience, patients can now register online by submitting our HIPAA compliant form here. We care about your privacy.",
+      "site_name": "Academy Vision",
+      "locale": "en_US"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.academyvisionnj.com/patient-registration-form/",
+        "url": "https://www.academyvisionnj.com/patient-registration-form/",
+        "name": "Patient Registration Form",
+        "datePublished": "2026-03-26T17:15:53.628Z",
+        "dateModified": "2026-03-26T18:53:12.851Z"
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "Optician",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@context": "http://www.schema.org",
+        "@type": "MedicalSpecialty :: Optometric",
+        "name": "Academy Vision",
+        "url": "https://www.academyvisionnj.com",
+        "logo": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "image": "https://cdn.patientengage.cloud/external/storage.googleapis.com/ecp-samurai/41019/d387ecd85d714da182b1b678a6cc7efd.png",
+        "telephone": "(732) 736-1700",
+        "description": "Eye Clinic & Contact Lens supplier, Eye Exams and Treatment of Dry Eye & Allergies, in Pine Beach, New Jersey, 08741. Call (732) 736-1700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "90 Atlantic City Blvd",
+          "addressLocality": "Pine Beach",
+          "addressRegion": "New Jersey",
+          "postalCode": "08741",
+          "addressCountry": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "(732) 736-1700",
+          "contactType": "customer support"
+        }
+      }
+    ]
+  },
+  "h1": "Patient Registration Form",
+  "counts": {
+    "blocks": 1,
+    "nodes": 2,
+    "static": 2,
+    "rendered": 0
+  },
+  "blocks": [
+    {
+      "cpt": "section",
+      "id": "xTVplMUHQ1",
+      "at": 92979,
+      "layout": {
+        "columns": [
+          {
+            "group": 0,
+            "span": 12,
+            "spanMobile": 12
+          }
+        ]
+      },
+      "background": {
+        "color": "#fff",
+        "textColor": "#202020"
+      },
+      "nodes": [
+        {
+          "t": "heading",
+          "level": 1,
+          "text": "Patient Registration Form",
+          "html": "Patient Registration Form",
+          "id": "hPMWKX8Ec0",
+          "col": 0,
+          "origin": "static"
+        },
+        {
+          "t": "form",
+          "id": "pplzCuTjbk",
+          "identifier": "Patient Registration Form",
+          "fields": [
+            {
+              "id": "VkTyZs3gdi",
+              "type": "html",
+              "required": false,
+              "html": "<p>Please complete the information below and submit the form online, or if you prefer print out the form after full or partial completion, and bring it when you come to our office. This form contains confidential information and is delivered to your doctor through a secure Internet connection.</p>"
+            },
+            {
+              "id": "F5gIm5C2Mk",
+              "type": "heading",
+              "label": "Patient Information",
+              "required": false,
+              "text": "Patient Information",
+              "level": 2
+            },
+            {
+              "id": "FodVaMfHSm",
+              "type": "name",
+              "label": "Name",
+              "required": false,
+              "submitName": "name",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "FodVaMfHSm_input_prefix",
+                  "autocomplete": "honorific-prefix",
+                  "label": "Prefix"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "FodVaMfHSm_input_first_name",
+                  "autocomplete": "given-name",
+                  "label": "First"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "FodVaMfHSm_input_last_name",
+                  "autocomplete": "family-name",
+                  "label": "Last"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "FodVaMfHSm_input_suffix",
+                  "autocomplete": "honorific-suffix",
+                  "label": "Suffix"
+                }
+              ]
+            },
+            {
+              "id": "w9Hs2GaxJb",
+              "type": "address",
+              "label": "Address",
+              "requiredMark": "*",
+              "required": true,
+              "submitName": "address",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "w9Hs2GaxJb_input_street_address",
+                  "autocomplete": "address-line1",
+                  "label": "Street Address"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "w9Hs2GaxJb_input_city",
+                  "autocomplete": "address-level2",
+                  "label": "City"
+                },
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "w9Hs2GaxJb_input_state",
+                  "autocomplete": "address-level1",
+                  "required": true,
+                  "label": "State",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "Alabama",
+                      "label": "Alabama"
+                    },
+                    {
+                      "value": "Alaska",
+                      "label": "Alaska"
+                    },
+                    {
+                      "value": "Arizona",
+                      "label": "Arizona"
+                    },
+                    {
+                      "value": "Arkansas",
+                      "label": "Arkansas"
+                    },
+                    {
+                      "value": "California",
+                      "label": "California"
+                    },
+                    {
+                      "value": "Colorado",
+                      "label": "Colorado"
+                    },
+                    {
+                      "value": "Connecticut",
+                      "label": "Connecticut"
+                    },
+                    {
+                      "value": "Delaware",
+                      "label": "Delaware"
+                    },
+                    {
+                      "value": "Florida",
+                      "label": "Florida"
+                    },
+                    {
+                      "value": "Georgia",
+                      "label": "Georgia"
+                    },
+                    {
+                      "value": "Hawaii",
+                      "label": "Hawaii"
+                    },
+                    {
+                      "value": "Idaho",
+                      "label": "Idaho"
+                    },
+                    {
+                      "value": "Illinois",
+                      "label": "Illinois"
+                    },
+                    {
+                      "value": "Indiana",
+                      "label": "Indiana"
+                    },
+                    {
+                      "value": "Iowa",
+                      "label": "Iowa"
+                    },
+                    {
+                      "value": "Kansas",
+                      "label": "Kansas"
+                    },
+                    {
+                      "value": "Kentucky",
+                      "label": "Kentucky"
+                    },
+                    {
+                      "value": "Louisiana",
+                      "label": "Louisiana"
+                    },
+                    {
+                      "value": "Maine",
+                      "label": "Maine"
+                    },
+                    {
+                      "value": "Maryland",
+                      "label": "Maryland"
+                    },
+                    {
+                      "value": "Massachusetts",
+                      "label": "Massachusetts"
+                    },
+                    {
+                      "value": "Michigan",
+                      "label": "Michigan"
+                    },
+                    {
+                      "value": "Minnesota",
+                      "label": "Minnesota"
+                    },
+                    {
+                      "value": "Mississippi",
+                      "label": "Mississippi"
+                    },
+                    {
+                      "value": "Missouri",
+                      "label": "Missouri"
+                    },
+                    {
+                      "value": "Montana",
+                      "label": "Montana"
+                    },
+                    {
+                      "value": "Nebraska",
+                      "label": "Nebraska"
+                    },
+                    {
+                      "value": "Nevada",
+                      "label": "Nevada"
+                    },
+                    {
+                      "value": "New Hampshire",
+                      "label": "New Hampshire"
+                    },
+                    {
+                      "value": "New Jersey",
+                      "label": "New Jersey"
+                    },
+                    {
+                      "value": "New Mexico",
+                      "label": "New Mexico"
+                    },
+                    {
+                      "value": "New York",
+                      "label": "New York"
+                    },
+                    {
+                      "value": "North Carolina",
+                      "label": "North Carolina"
+                    },
+                    {
+                      "value": "North Dakota",
+                      "label": "North Dakota"
+                    },
+                    {
+                      "value": "Ohio",
+                      "label": "Ohio"
+                    },
+                    {
+                      "value": "Oklahoma",
+                      "label": "Oklahoma"
+                    },
+                    {
+                      "value": "Oregon",
+                      "label": "Oregon"
+                    },
+                    {
+                      "value": "Pennsylvania",
+                      "label": "Pennsylvania"
+                    },
+                    {
+                      "value": "Rhode Island",
+                      "label": "Rhode Island"
+                    },
+                    {
+                      "value": "South Carolina",
+                      "label": "South Carolina"
+                    },
+                    {
+                      "value": "South Dakota",
+                      "label": "South Dakota"
+                    },
+                    {
+                      "value": "Tennessee",
+                      "label": "Tennessee"
+                    },
+                    {
+                      "value": "Texas",
+                      "label": "Texas"
+                    },
+                    {
+                      "value": "Utah",
+                      "label": "Utah"
+                    },
+                    {
+                      "value": "Vermont",
+                      "label": "Vermont"
+                    },
+                    {
+                      "value": "Virginia",
+                      "label": "Virginia"
+                    },
+                    {
+                      "value": "Washington",
+                      "label": "Washington"
+                    },
+                    {
+                      "value": "West Virginia",
+                      "label": "West Virginia"
+                    },
+                    {
+                      "value": "Wisconsin",
+                      "label": "Wisconsin"
+                    },
+                    {
+                      "value": "Wyoming",
+                      "label": "Wyoming"
+                    }
+                  ]
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "w9Hs2GaxJb_input_zip",
+                  "label": "Zip"
+                }
+              ]
+            },
+            {
+              "id": "1mYUMBxuhs",
+              "type": "telephone",
+              "label": "Phone Number",
+              "requiredMark": "*",
+              "labelFor": "1mYUMBxuhs_input",
+              "required": true,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "phone-number",
+                  "id": "1mYUMBxuhs_input",
+                  "placeholder": "(###) ###-####",
+                  "autocomplete": "tel",
+                  "inputmode": "numeric",
+                  "phoneFormat": true,
+                  "required": true,
+                  "label": "Phone Number"
+                }
+              ]
+            },
+            {
+              "id": "sjxWiadFvD",
+              "type": "telephone",
+              "label": "Daytime Phone",
+              "labelFor": "sjxWiadFvD_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "daytime-phone",
+                  "id": "sjxWiadFvD_input",
+                  "placeholder": "(###) ###-####",
+                  "autocomplete": "tel",
+                  "inputmode": "numeric",
+                  "phoneFormat": true,
+                  "label": "Daytime Phone"
+                }
+              ]
+            },
+            {
+              "id": "aNscLzLrI4",
+              "type": "telephone",
+              "label": "Cell Phone",
+              "labelFor": "aNscLzLrI4_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "cell-phone",
+                  "id": "aNscLzLrI4_input",
+                  "placeholder": "(###) ###-####",
+                  "autocomplete": "tel",
+                  "inputmode": "numeric",
+                  "phoneFormat": true,
+                  "label": "Cell Phone"
+                }
+              ]
+            },
+            {
+              "id": "rBLqyB4qIB",
+              "type": "email",
+              "label": "Email Address",
+              "labelFor": "rBLqyB4qIB_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "email",
+                  "name": "email-address",
+                  "id": "rBLqyB4qIB_input",
+                  "label": "Email Address"
+                }
+              ]
+            },
+            {
+              "id": "4OXv6uuo43",
+              "type": "heading",
+              "label": "Personal Information",
+              "required": false,
+              "text": "Personal Information",
+              "level": 2
+            },
+            {
+              "id": "UZn0uGgG81",
+              "type": "radio",
+              "presentation": "chips",
+              "label": "Gender",
+              "requiredMark": "*",
+              "legend": true,
+              "required": true,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "radio",
+                  "name": "gender",
+                  "id": "UZn0uGgG81_input_0",
+                  "value": "Male",
+                  "required": true,
+                  "label": "Male"
+                },
+                {
+                  "el": "input",
+                  "type": "radio",
+                  "name": "gender",
+                  "id": "UZn0uGgG81_input_1",
+                  "value": "Female",
+                  "label": "Female"
+                }
+              ]
+            },
+            {
+              "id": "lTiDepOR2Z",
+              "type": "date",
+              "label": "Date of Birth",
+              "requiredMark": "*",
+              "required": true,
+              "submitName": "date-of-birth",
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "lTiDepOR2Z_input_day",
+                  "required": true,
+                  "ariaLabel": "Date of Birth - Day",
+                  "label": "Day",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "01",
+                      "label": "01"
+                    },
+                    {
+                      "value": "02",
+                      "label": "02"
+                    },
+                    {
+                      "value": "03",
+                      "label": "03"
+                    },
+                    {
+                      "value": "04",
+                      "label": "04"
+                    },
+                    {
+                      "value": "05",
+                      "label": "05"
+                    },
+                    {
+                      "value": "06",
+                      "label": "06"
+                    },
+                    {
+                      "value": "07",
+                      "label": "07"
+                    },
+                    {
+                      "value": "08",
+                      "label": "08"
+                    },
+                    {
+                      "value": "09",
+                      "label": "09"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10"
+                    },
+                    {
+                      "value": "11",
+                      "label": "11"
+                    },
+                    {
+                      "value": "12",
+                      "label": "12"
+                    },
+                    {
+                      "value": "13",
+                      "label": "13"
+                    },
+                    {
+                      "value": "14",
+                      "label": "14"
+                    },
+                    {
+                      "value": "15",
+                      "label": "15"
+                    },
+                    {
+                      "value": "16",
+                      "label": "16"
+                    },
+                    {
+                      "value": "17",
+                      "label": "17"
+                    },
+                    {
+                      "value": "18",
+                      "label": "18"
+                    },
+                    {
+                      "value": "19",
+                      "label": "19"
+                    },
+                    {
+                      "value": "20",
+                      "label": "20"
+                    },
+                    {
+                      "value": "21",
+                      "label": "21"
+                    },
+                    {
+                      "value": "22",
+                      "label": "22"
+                    },
+                    {
+                      "value": "23",
+                      "label": "23"
+                    },
+                    {
+                      "value": "24",
+                      "label": "24"
+                    },
+                    {
+                      "value": "25",
+                      "label": "25"
+                    },
+                    {
+                      "value": "26",
+                      "label": "26"
+                    },
+                    {
+                      "value": "27",
+                      "label": "27"
+                    },
+                    {
+                      "value": "28",
+                      "label": "28"
+                    },
+                    {
+                      "value": "29",
+                      "label": "29"
+                    },
+                    {
+                      "value": "30",
+                      "label": "30"
+                    },
+                    {
+                      "value": "31",
+                      "label": "31"
+                    }
+                  ]
+                },
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "lTiDepOR2Z_input_month",
+                  "required": true,
+                  "ariaLabel": "Date of Birth - Month",
+                  "label": "Month",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "01",
+                      "label": "1 - Jan"
+                    },
+                    {
+                      "value": "02",
+                      "label": "2 - Feb"
+                    },
+                    {
+                      "value": "03",
+                      "label": "3 - Mar"
+                    },
+                    {
+                      "value": "04",
+                      "label": "4 - Apr"
+                    },
+                    {
+                      "value": "05",
+                      "label": "5 - May"
+                    },
+                    {
+                      "value": "06",
+                      "label": "6 - Jun"
+                    },
+                    {
+                      "value": "07",
+                      "label": "7 - Jul"
+                    },
+                    {
+                      "value": "08",
+                      "label": "8 - Aug"
+                    },
+                    {
+                      "value": "09",
+                      "label": "9 - Sep"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10 - Oct"
+                    },
+                    {
+                      "value": "11",
+                      "label": "11 - Nov"
+                    },
+                    {
+                      "value": "12",
+                      "label": "12 - Dec"
+                    }
+                  ]
+                },
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "lTiDepOR2Z_input_year",
+                  "required": true,
+                  "ariaLabel": "Date of Birth - Year",
+                  "label": "Year",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "2026",
+                      "label": "2026"
+                    },
+                    {
+                      "value": "2025",
+                      "label": "2025"
+                    },
+                    {
+                      "value": "2024",
+                      "label": "2024"
+                    },
+                    {
+                      "value": "2023",
+                      "label": "2023"
+                    },
+                    {
+                      "value": "2022",
+                      "label": "2022"
+                    },
+                    {
+                      "value": "2021",
+                      "label": "2021"
+                    },
+                    {
+                      "value": "2020",
+                      "label": "2020"
+                    },
+                    {
+                      "value": "2019",
+                      "label": "2019"
+                    },
+                    {
+                      "value": "2018",
+                      "label": "2018"
+                    },
+                    {
+                      "value": "2017",
+                      "label": "2017"
+                    },
+                    {
+                      "value": "2016",
+                      "label": "2016"
+                    },
+                    {
+                      "value": "2015",
+                      "label": "2015"
+                    },
+                    {
+                      "value": "2014",
+                      "label": "2014"
+                    },
+                    {
+                      "value": "2013",
+                      "label": "2013"
+                    },
+                    {
+                      "value": "2012",
+                      "label": "2012"
+                    },
+                    {
+                      "value": "2011",
+                      "label": "2011"
+                    },
+                    {
+                      "value": "2010",
+                      "label": "2010"
+                    },
+                    {
+                      "value": "2009",
+                      "label": "2009"
+                    },
+                    {
+                      "value": "2008",
+                      "label": "2008"
+                    },
+                    {
+                      "value": "2007",
+                      "label": "2007"
+                    },
+                    {
+                      "value": "2006",
+                      "label": "2006"
+                    },
+                    {
+                      "value": "2005",
+                      "label": "2005"
+                    },
+                    {
+                      "value": "2004",
+                      "label": "2004"
+                    },
+                    {
+                      "value": "2003",
+                      "label": "2003"
+                    },
+                    {
+                      "value": "2002",
+                      "label": "2002"
+                    },
+                    {
+                      "value": "2001",
+                      "label": "2001"
+                    },
+                    {
+                      "value": "2000",
+                      "label": "2000"
+                    },
+                    {
+                      "value": "1999",
+                      "label": "1999"
+                    },
+                    {
+                      "value": "1998",
+                      "label": "1998"
+                    },
+                    {
+                      "value": "1997",
+                      "label": "1997"
+                    },
+                    {
+                      "value": "1996",
+                      "label": "1996"
+                    },
+                    {
+                      "value": "1995",
+                      "label": "1995"
+                    },
+                    {
+                      "value": "1994",
+                      "label": "1994"
+                    },
+                    {
+                      "value": "1993",
+                      "label": "1993"
+                    },
+                    {
+                      "value": "1992",
+                      "label": "1992"
+                    },
+                    {
+                      "value": "1991",
+                      "label": "1991"
+                    },
+                    {
+                      "value": "1990",
+                      "label": "1990"
+                    },
+                    {
+                      "value": "1989",
+                      "label": "1989"
+                    },
+                    {
+                      "value": "1988",
+                      "label": "1988"
+                    },
+                    {
+                      "value": "1987",
+                      "label": "1987"
+                    },
+                    {
+                      "value": "1986",
+                      "label": "1986"
+                    },
+                    {
+                      "value": "1985",
+                      "label": "1985"
+                    },
+                    {
+                      "value": "1984",
+                      "label": "1984"
+                    },
+                    {
+                      "value": "1983",
+                      "label": "1983"
+                    },
+                    {
+                      "value": "1982",
+                      "label": "1982"
+                    },
+                    {
+                      "value": "1981",
+                      "label": "1981"
+                    },
+                    {
+                      "value": "1980",
+                      "label": "1980"
+                    },
+                    {
+                      "value": "1979",
+                      "label": "1979"
+                    },
+                    {
+                      "value": "1978",
+                      "label": "1978"
+                    },
+                    {
+                      "value": "1977",
+                      "label": "1977"
+                    },
+                    {
+                      "value": "1976",
+                      "label": "1976"
+                    },
+                    {
+                      "value": "1975",
+                      "label": "1975"
+                    },
+                    {
+                      "value": "1974",
+                      "label": "1974"
+                    },
+                    {
+                      "value": "1973",
+                      "label": "1973"
+                    },
+                    {
+                      "value": "1972",
+                      "label": "1972"
+                    },
+                    {
+                      "value": "1971",
+                      "label": "1971"
+                    },
+                    {
+                      "value": "1970",
+                      "label": "1970"
+                    },
+                    {
+                      "value": "1969",
+                      "label": "1969"
+                    },
+                    {
+                      "value": "1968",
+                      "label": "1968"
+                    },
+                    {
+                      "value": "1967",
+                      "label": "1967"
+                    },
+                    {
+                      "value": "1966",
+                      "label": "1966"
+                    },
+                    {
+                      "value": "1965",
+                      "label": "1965"
+                    },
+                    {
+                      "value": "1964",
+                      "label": "1964"
+                    },
+                    {
+                      "value": "1963",
+                      "label": "1963"
+                    },
+                    {
+                      "value": "1962",
+                      "label": "1962"
+                    },
+                    {
+                      "value": "1961",
+                      "label": "1961"
+                    },
+                    {
+                      "value": "1960",
+                      "label": "1960"
+                    },
+                    {
+                      "value": "1959",
+                      "label": "1959"
+                    },
+                    {
+                      "value": "1958",
+                      "label": "1958"
+                    },
+                    {
+                      "value": "1957",
+                      "label": "1957"
+                    },
+                    {
+                      "value": "1956",
+                      "label": "1956"
+                    },
+                    {
+                      "value": "1955",
+                      "label": "1955"
+                    },
+                    {
+                      "value": "1954",
+                      "label": "1954"
+                    },
+                    {
+                      "value": "1953",
+                      "label": "1953"
+                    },
+                    {
+                      "value": "1952",
+                      "label": "1952"
+                    },
+                    {
+                      "value": "1951",
+                      "label": "1951"
+                    },
+                    {
+                      "value": "1950",
+                      "label": "1950"
+                    },
+                    {
+                      "value": "1949",
+                      "label": "1949"
+                    },
+                    {
+                      "value": "1948",
+                      "label": "1948"
+                    },
+                    {
+                      "value": "1947",
+                      "label": "1947"
+                    },
+                    {
+                      "value": "1946",
+                      "label": "1946"
+                    },
+                    {
+                      "value": "1945",
+                      "label": "1945"
+                    },
+                    {
+                      "value": "1944",
+                      "label": "1944"
+                    },
+                    {
+                      "value": "1943",
+                      "label": "1943"
+                    },
+                    {
+                      "value": "1942",
+                      "label": "1942"
+                    },
+                    {
+                      "value": "1941",
+                      "label": "1941"
+                    },
+                    {
+                      "value": "1940",
+                      "label": "1940"
+                    },
+                    {
+                      "value": "1939",
+                      "label": "1939"
+                    },
+                    {
+                      "value": "1938",
+                      "label": "1938"
+                    },
+                    {
+                      "value": "1937",
+                      "label": "1937"
+                    },
+                    {
+                      "value": "1936",
+                      "label": "1936"
+                    },
+                    {
+                      "value": "1935",
+                      "label": "1935"
+                    },
+                    {
+                      "value": "1934",
+                      "label": "1934"
+                    },
+                    {
+                      "value": "1933",
+                      "label": "1933"
+                    },
+                    {
+                      "value": "1932",
+                      "label": "1932"
+                    },
+                    {
+                      "value": "1931",
+                      "label": "1931"
+                    },
+                    {
+                      "value": "1930",
+                      "label": "1930"
+                    },
+                    {
+                      "value": "1929",
+                      "label": "1929"
+                    },
+                    {
+                      "value": "1928",
+                      "label": "1928"
+                    },
+                    {
+                      "value": "1927",
+                      "label": "1927"
+                    },
+                    {
+                      "value": "1926",
+                      "label": "1926"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4BxqDQUQsD",
+              "type": "textfield",
+              "label": "Social Security Number",
+              "requiredMark": "*",
+              "labelFor": "4BxqDQUQsD_input",
+              "required": true,
+              "description": "(last 4 digits only!)",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "social-security-number",
+                  "id": "4BxqDQUQsD_input",
+                  "required": true,
+                  "label": "Social Security Number"
+                }
+              ]
+            },
+            {
+              "id": "NrGwhSc8Uz",
+              "type": "select",
+              "label": "Preferred Language",
+              "requiredMark": "*",
+              "labelFor": "NrGwhSc8Uz_input",
+              "required": true,
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "name": "preferred-language",
+                  "id": "NrGwhSc8Uz_input",
+                  "required": true,
+                  "label": "Preferred Language",
+                  "options": [
+                    {
+                      "value": "Select >",
+                      "label": "Select >"
+                    },
+                    {
+                      "value": "English",
+                      "label": "English"
+                    },
+                    {
+                      "value": "Spanish",
+                      "label": "Spanish"
+                    },
+                    {
+                      "value": "French",
+                      "label": "French"
+                    },
+                    {
+                      "value": "Japanese",
+                      "label": "Japanese"
+                    },
+                    {
+                      "value": "Decline to specify",
+                      "label": "Decline to specify"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HKqYlJDzel",
+              "type": "select",
+              "label": "Race",
+              "requiredMark": "*",
+              "labelFor": "HKqYlJDzel_input",
+              "required": true,
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "name": "race",
+                  "id": "HKqYlJDzel_input",
+                  "required": true,
+                  "label": "Race",
+                  "options": [
+                    {
+                      "value": "Select >",
+                      "label": "Select >"
+                    },
+                    {
+                      "value": "American Indian or Alaska Native",
+                      "label": "American Indian or Alaska Native"
+                    },
+                    {
+                      "value": "Asian",
+                      "label": "Asian"
+                    },
+                    {
+                      "value": "Black or African American",
+                      "label": "Black or African American"
+                    },
+                    {
+                      "value": "Hispanic",
+                      "label": "Hispanic"
+                    },
+                    {
+                      "value": "Native Hawaiian or Pacific Islander",
+                      "label": "Native Hawaiian or Pacific Islander"
+                    },
+                    {
+                      "value": "White",
+                      "label": "White"
+                    },
+                    {
+                      "value": "Decline to specify",
+                      "label": "Decline to specify"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "k7FfPl1ViX",
+              "type": "select",
+              "label": "Ethnicity",
+              "requiredMark": "*",
+              "labelFor": "k7FfPl1ViX_input",
+              "required": true,
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "name": "ethnicity",
+                  "id": "k7FfPl1ViX_input",
+                  "required": true,
+                  "label": "Ethnicity",
+                  "options": [
+                    {
+                      "value": "Select >",
+                      "label": "Select >"
+                    },
+                    {
+                      "value": "Decline to specify",
+                      "label": "Decline to specify"
+                    },
+                    {
+                      "value": "Hispanic or Latino",
+                      "label": "Hispanic or Latino"
+                    },
+                    {
+                      "value": "Native Hawaiian or other Pacific Islander",
+                      "label": "Native Hawaiian or other Pacific Islander"
+                    },
+                    {
+                      "value": "Not Hispanic or Latino",
+                      "label": "Not Hispanic or Latino"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "MXiTmCXVs9",
+              "type": "select",
+              "label": "Marital Status",
+              "labelFor": "MXiTmCXVs9_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "name": "marital-status",
+                  "id": "MXiTmCXVs9_input",
+                  "label": "Marital Status",
+                  "options": [
+                    {
+                      "value": "Select >",
+                      "label": "Select >"
+                    },
+                    {
+                      "value": "Divorced",
+                      "label": "Divorced"
+                    },
+                    {
+                      "value": "Legally Separated",
+                      "label": "Legally Separated"
+                    },
+                    {
+                      "value": "Married",
+                      "label": "Married"
+                    },
+                    {
+                      "value": "Single",
+                      "label": "Single"
+                    },
+                    {
+                      "value": "Widowed",
+                      "label": "Widowed"
+                    },
+                    {
+                      "value": "Other",
+                      "label": "Other"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5lNdPBFMjr",
+              "type": "select",
+              "label": "Employment Status",
+              "labelFor": "5lNdPBFMjr_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "name": "employment-status",
+                  "id": "5lNdPBFMjr_input",
+                  "label": "Employment Status",
+                  "options": [
+                    {
+                      "value": "Select >",
+                      "label": "Select >"
+                    },
+                    {
+                      "value": "Employed Full-Time",
+                      "label": "Employed Full-Time"
+                    },
+                    {
+                      "value": "Employed Part-Time",
+                      "label": "Employed Part-Time"
+                    },
+                    {
+                      "value": "Not Employed",
+                      "label": "Not Employed"
+                    },
+                    {
+                      "value": "On Active Military Duty",
+                      "label": "On Active Military Duty"
+                    },
+                    {
+                      "value": "Retired",
+                      "label": "Retired"
+                    },
+                    {
+                      "value": "Self-Employed",
+                      "label": "Self-Employed"
+                    },
+                    {
+                      "value": "Student Full-Time",
+                      "label": "Student Full-Time"
+                    },
+                    {
+                      "value": "Student Part-Time",
+                      "label": "Student Part-Time"
+                    },
+                    {
+                      "value": "Other",
+                      "label": "Other"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CNmVA8nfbc",
+              "type": "textfield",
+              "label": "Employer",
+              "labelFor": "CNmVA8nfbc_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "employer",
+                  "id": "CNmVA8nfbc_input",
+                  "label": "Employer"
+                }
+              ]
+            },
+            {
+              "id": "j4I1t51zqs",
+              "type": "textfield",
+              "label": "Occupation",
+              "labelFor": "j4I1t51zqs_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "occupation",
+                  "id": "j4I1t51zqs_input",
+                  "label": "Occupation"
+                }
+              ]
+            },
+            {
+              "id": "x4XDK95C2N",
+              "type": "select",
+              "label": "How were you referred to our office?",
+              "labelFor": "x4XDK95C2N_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "name": "how-were-you-referred-to-our-office",
+                  "id": "x4XDK95C2N_input",
+                  "label": "How were you referred to our office?",
+                  "options": [
+                    {
+                      "value": "Select >",
+                      "label": "Select >"
+                    },
+                    {
+                      "value": "Friend or Family",
+                      "label": "Friend or Family"
+                    },
+                    {
+                      "value": "Family Doctor",
+                      "label": "Family Doctor"
+                    },
+                    {
+                      "value": "Ophthalmologist",
+                      "label": "Ophthalmologist"
+                    },
+                    {
+                      "value": "Insurance Company",
+                      "label": "Insurance Company"
+                    },
+                    {
+                      "value": "Newspaper",
+                      "label": "Newspaper"
+                    },
+                    {
+                      "value": "Television",
+                      "label": "Television"
+                    },
+                    {
+                      "value": "Radio",
+                      "label": "Radio"
+                    },
+                    {
+                      "value": "Received Mailing",
+                      "label": "Received Mailing"
+                    },
+                    {
+                      "value": "Internet",
+                      "label": "Internet"
+                    },
+                    {
+                      "value": "Other Optometrist",
+                      "label": "Other Optometrist"
+                    },
+                    {
+                      "value": "Other",
+                      "label": "Other"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4rkyxB6rKq",
+              "type": "select",
+              "label": "Communication Preference",
+              "labelFor": "4rkyxB6rKq_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "name": "communication-preference",
+                  "id": "4rkyxB6rKq_input",
+                  "label": "Communication Preference",
+                  "options": []
+                }
+              ]
+            },
+            {
+              "id": "lEfDddpdlY",
+              "type": "heading",
+              "label": "Eye History",
+              "required": false,
+              "text": "Eye History",
+              "level": 2
+            },
+            {
+              "id": "gTNaC4hkmT",
+              "type": "checkboxes",
+              "presentation": "chips",
+              "label": "Please check off any current conditions you suffer from",
+              "legend": true,
+              "required": false,
+              "submitName": "please-check-off-any-current-conditions-you-suffer-from",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_0",
+                  "value": "I stopped wearing glasses",
+                  "label": "I stopped wearing glasses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_1",
+                  "value": "I stopped wearing contact lenses",
+                  "label": "I stopped wearing contact lenses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_2",
+                  "value": "Headaches",
+                  "label": "Headaches"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_3",
+                  "value": "Glare/Light Sensitivity",
+                  "label": "Glare/Light Sensitivity"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_4",
+                  "value": "Tired Eyes",
+                  "label": "Tired Eyes"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_5",
+                  "value": "Amblyopia (lazy eye)",
+                  "label": "Amblyopia (lazy eye)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_6",
+                  "value": "Burning",
+                  "label": "Burning"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_7",
+                  "value": "Dryness",
+                  "label": "Dryness"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_8",
+                  "value": "Watery Eyes",
+                  "label": "Watery Eyes"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_9",
+                  "value": "Eye Pain and/or Soreness",
+                  "label": "Eye Pain and/or Soreness"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_10",
+                  "value": "Foreign Body Sensation",
+                  "label": "Foreign Body Sensation"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_11",
+                  "value": "Infection of Eye or Lid",
+                  "label": "Infection of Eye or Lid"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_12",
+                  "value": "Itching",
+                  "label": "Itching"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_13",
+                  "value": "Mucous Discharge",
+                  "label": "Mucous Discharge"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_14",
+                  "value": "Drooping eyelid(s)",
+                  "label": "Drooping eyelid(s)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_15",
+                  "value": "Redness",
+                  "label": "Redness"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_16",
+                  "value": "Sandy or Gritty Feeling",
+                  "label": "Sandy or Gritty Feeling"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_17",
+                  "value": "Strabismus (crossed eye)",
+                  "label": "Strabismus (crossed eye)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_18",
+                  "value": "Blurred Vision at Distance",
+                  "label": "Blurred Vision at Distance"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_19",
+                  "value": "Blurred Vision at Near",
+                  "label": "Blurred Vision at Near"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_20",
+                  "value": "Haloes",
+                  "label": "Haloes"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_21",
+                  "value": "Double Vision",
+                  "label": "Double Vision"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_22",
+                  "value": "Floaters or Spots",
+                  "label": "Floaters or Spots"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_23",
+                  "value": "Fluctuating Vision",
+                  "label": "Fluctuating Vision"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_24",
+                  "value": "Loss of Vision",
+                  "label": "Loss of Vision"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "gTNaC4hkmT_input_25",
+                  "value": "Loss of Side Vision",
+                  "label": "Loss of Side Vision"
+                }
+              ]
+            },
+            {
+              "id": "sfzwxJ7RCi",
+              "type": "heading",
+              "label": "Glasses History",
+              "required": false,
+              "text": "Glasses History",
+              "level": 2
+            },
+            {
+              "id": "m8rF5M22ag",
+              "type": "radio",
+              "presentation": "chips",
+              "label": "Do you wear glasses?",
+              "requiredMark": "*",
+              "legend": true,
+              "required": true,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "radio",
+                  "name": "do-you-wear-glasses",
+                  "id": "m8rF5M22ag_input_0",
+                  "value": "Yes",
+                  "required": true,
+                  "label": "Yes"
+                },
+                {
+                  "el": "input",
+                  "type": "radio",
+                  "name": "do-you-wear-glasses",
+                  "id": "m8rF5M22ag_input_1",
+                  "value": "No",
+                  "label": "No"
+                }
+              ]
+            },
+            {
+              "id": "tdu4MOGpRd",
+              "type": "checkboxes",
+              "presentation": "chips",
+              "conditional": true,
+              "label": "What glasses do you own?",
+              "legend": true,
+              "required": false,
+              "submitName": "what-glasses-do-you-own",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "tdu4MOGpRd_input_0",
+                  "value": "Single Vision",
+                  "label": "Single Vision"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "tdu4MOGpRd_input_1",
+                  "value": "Bifocals",
+                  "label": "Bifocals"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "tdu4MOGpRd_input_2",
+                  "value": "Safety Glasses",
+                  "label": "Safety Glasses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "tdu4MOGpRd_input_3",
+                  "value": "Backup Glasses",
+                  "label": "Backup Glasses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "tdu4MOGpRd_input_4",
+                  "value": "Progressive",
+                  "label": "Progressive"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "tdu4MOGpRd_input_5",
+                  "value": "Trifocals",
+                  "label": "Trifocals"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "tdu4MOGpRd_input_6",
+                  "value": "Sports Glasses",
+                  "label": "Sports Glasses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "tdu4MOGpRd_input_7",
+                  "value": "Sunglasses",
+                  "label": "Sunglasses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "tdu4MOGpRd_input_8",
+                  "value": "Other",
+                  "label": "Other"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "m8rF5M22ag",
+                    "name": "do-you-wear-glasses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "iKbX6AtBY2",
+              "type": "textfield",
+              "conditional": true,
+              "label": "Other glasses:",
+              "labelFor": "iKbX6AtBY2_input",
+              "required": false,
+              "description": "Please tell us what other kinds of glasses you own.",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "other-glasses",
+                  "id": "iKbX6AtBY2_input",
+                  "label": "Other glasses:"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "m8rF5M22ag",
+                    "name": "do-you-wear-glasses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "9R9vlLT8qm",
+              "type": "textfield",
+              "conditional": true,
+              "label": "How many hours a day do you use a computer?",
+              "labelFor": "9R9vlLT8qm_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "how-many-hours-a-day-do-you-use-a-computer",
+                  "id": "9R9vlLT8qm_input",
+                  "label": "How many hours a day do you use a computer?"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "m8rF5M22ag",
+                    "name": "do-you-wear-glasses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "LkCNc5SkHF",
+              "type": "textfield",
+              "conditional": true,
+              "label": "How many inches away, approximately, do you sit from your computer monitor?",
+              "labelFor": "LkCNc5SkHF_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "how-many-inches-away-approximately-do-you-sit-from-your-computer-monitor",
+                  "id": "LkCNc5SkHF_input",
+                  "label": "How many inches away, approximately, do you sit from your computer monitor?"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "m8rF5M22ag",
+                    "name": "do-you-wear-glasses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "wgkNgWAHIX",
+              "type": "checkboxes",
+              "conditional": true,
+              "label": "Please check off any current conditions you suffer from",
+              "legend": true,
+              "required": false,
+              "submitName": "please-check-off-any-current-conditions-you-suffer-from",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "wgkNgWAHIX_input_0",
+                  "value": "I am having problems with my current glasses",
+                  "label": "I am having problems with my current glasses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "wgkNgWAHIX_input_1",
+                  "value": "There are times when I would rather not be wearing glasses",
+                  "label": "There are times when I would rather not be wearing glasses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "wgkNgWAHIX_input_2",
+                  "value": "I have problems with glare",
+                  "label": "I have problems with glare"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "wgkNgWAHIX_input_3",
+                  "value": "I have problems with night vision",
+                  "label": "I have problems with night vision"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "wgkNgWAHIX_input_4",
+                  "value": "I am allergic to nickel (e.g. frames of glasses)",
+                  "label": "I am allergic to nickel (e.g. frames of glasses)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "wgkNgWAHIX_input_5",
+                  "value": "I don’t have spare set of glasses",
+                  "label": "I don’t have spare set of glasses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "wgkNgWAHIX_input_6",
+                  "value": "My spare glasses have an incorrect prescription",
+                  "label": "My spare glasses have an incorrect prescription"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "wgkNgWAHIX_input_7",
+                  "value": "My sunglasses are missing UV (ultra-violet) protection",
+                  "label": "My sunglasses are missing UV (ultra-violet) protection"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "m8rF5M22ag",
+                    "name": "do-you-wear-glasses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "BvtftMQqTX",
+              "type": "heading",
+              "label": "Contact Lens History",
+              "required": false,
+              "text": "Contact Lens History",
+              "level": 2
+            },
+            {
+              "id": "2AgbsFJMZX",
+              "type": "radio",
+              "presentation": "chips",
+              "label": "Do you wear contact lenses?",
+              "requiredMark": "*",
+              "legend": true,
+              "required": true,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "radio",
+                  "name": "do-you-wear-contact-lenses",
+                  "id": "2AgbsFJMZX_input_0",
+                  "value": "Yes",
+                  "required": true,
+                  "label": "Yes"
+                },
+                {
+                  "el": "input",
+                  "type": "radio",
+                  "name": "do-you-wear-contact-lenses",
+                  "id": "2AgbsFJMZX_input_1",
+                  "value": "No",
+                  "label": "No"
+                }
+              ]
+            },
+            {
+              "id": "kQBPRJ2bjn",
+              "type": "textfield",
+              "conditional": true,
+              "label": "What brand of contact lenses do you wear?",
+              "labelFor": "kQBPRJ2bjn_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "what-brand-of-contact-lenses-do-you-wear",
+                  "id": "kQBPRJ2bjn_input",
+                  "label": "What brand of contact lenses do you wear?"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "2AgbsFJMZX",
+                    "name": "do-you-wear-contact-lenses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "1eKWu8D7mp",
+              "type": "textfield",
+              "conditional": true,
+              "label": "How old are your current lenses?",
+              "labelFor": "1eKWu8D7mp_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "how-old-are-your-current-lenses",
+                  "id": "1eKWu8D7mp_input",
+                  "label": "How old are your current lenses?"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "2AgbsFJMZX",
+                    "name": "do-you-wear-contact-lenses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "rb0B0yIdQs",
+              "type": "textfield",
+              "conditional": true,
+              "label": "How often do you replace or dispose your contact lenses?",
+              "labelFor": "rb0B0yIdQs_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "how-often-do-you-replace-or-dispose-your-contact-lenses",
+                  "id": "rb0B0yIdQs_input",
+                  "label": "How often do you replace or dispose your contact lenses?"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "2AgbsFJMZX",
+                    "name": "do-you-wear-contact-lenses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "TFbGBQp2hG",
+              "type": "textfield",
+              "conditional": true,
+              "label": "What brand of solution do you soak your lenses in?",
+              "labelFor": "TFbGBQp2hG_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "what-brand-of-solution-do-you-soak-your-lenses-in",
+                  "id": "TFbGBQp2hG_input",
+                  "label": "What brand of solution do you soak your lenses in?"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "2AgbsFJMZX",
+                    "name": "do-you-wear-contact-lenses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "BXEepM5hmw",
+              "type": "textfield",
+              "conditional": true,
+              "label": "What is your typical wearing schedule? In hours per day:",
+              "labelFor": "BXEepM5hmw_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "what-is-your-typical-wearing-schedule-in-hours-per-day",
+                  "id": "BXEepM5hmw_input",
+                  "label": "What is your typical wearing schedule? In hours per day:"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "2AgbsFJMZX",
+                    "name": "do-you-wear-contact-lenses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "8A9jaqpq01",
+              "type": "textfield",
+              "conditional": true,
+              "label": "What is your typical wearing schedule? In days per week:",
+              "labelFor": "8A9jaqpq01_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "what-is-your-typical-wearing-schedule-in-days-per-week",
+                  "id": "8A9jaqpq01_input",
+                  "label": "What is your typical wearing schedule? In days per week:"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "2AgbsFJMZX",
+                    "name": "do-you-wear-contact-lenses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "sqEbndtoI4",
+              "type": "checkboxes",
+              "conditional": true,
+              "label": "Please check off all that apply to you",
+              "legend": true,
+              "required": false,
+              "submitName": "please-check-off-all-that-apply-to-you",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "sqEbndtoI4_input_0",
+                  "value": "I am having problems with my current contact lenses",
+                  "label": "I am having problems with my current contact lenses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "sqEbndtoI4_input_1",
+                  "value": "There are times when I would rather not be wearing contact lenses",
+                  "label": "There are times when I would rather not be wearing contact lenses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "sqEbndtoI4_input_2",
+                  "value": "I am interested in changing or enhancing my eye color",
+                  "label": "I am interested in changing or enhancing my eye color"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "sqEbndtoI4_input_3",
+                  "value": "I am interested in a non-surgical method of vision correction",
+                  "label": "I am interested in a non-surgical method of vision correction"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "sqEbndtoI4_input_4",
+                  "value": "I am interested in refractive laser surgery",
+                  "label": "I am interested in refractive laser surgery"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "sqEbndtoI4_input_5",
+                  "value": "I don't have a spare set of contact lenses",
+                  "label": "I don't have a spare set of contact lenses"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "sqEbndtoI4_input_6",
+                  "value": "My spare contact lenses have an incorrect prescription",
+                  "label": "My spare contact lenses have an incorrect prescription"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "m8rF5M22ag",
+                    "name": "do-you-wear-glasses",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ZLDBtbHwKn",
+              "type": "heading",
+              "label": "Medical History",
+              "required": false,
+              "text": "Medical History",
+              "level": 2
+            },
+            {
+              "id": "UbNdCQsM3I",
+              "type": "textfield",
+              "label": "When, approximately, was your last eye exam?",
+              "labelFor": "UbNdCQsM3I_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "when-approximately-was-your-last-eye-exam",
+                  "id": "UbNdCQsM3I_input",
+                  "label": "When, approximately, was your last eye exam?"
+                }
+              ]
+            },
+            {
+              "id": "ap1gj9o70O",
+              "type": "textfield",
+              "label": "Where did you get your last eye exam?",
+              "labelFor": "ap1gj9o70O_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "where-did-you-get-your-last-eye-exam",
+                  "id": "ap1gj9o70O_input",
+                  "label": "Where did you get your last eye exam?"
+                }
+              ]
+            },
+            {
+              "id": "GnsTBgwqRW",
+              "type": "textfield",
+              "label": "When, approximately, was your last physical exam?",
+              "labelFor": "GnsTBgwqRW_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "when-approximately-was-your-last-physical-exam",
+                  "id": "GnsTBgwqRW_input",
+                  "label": "When, approximately, was your last physical exam?"
+                }
+              ]
+            },
+            {
+              "id": "wdVjO0MUWf",
+              "type": "textfield",
+              "label": "Who is your primary care physician?",
+              "labelFor": "wdVjO0MUWf_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "who-is-your-primary-care-physician",
+                  "id": "wdVjO0MUWf_input",
+                  "label": "Who is your primary care physician?"
+                }
+              ]
+            },
+            {
+              "id": "oaijWgHpTi",
+              "type": "select",
+              "label": "Do you drink alcohol?",
+              "labelFor": "oaijWgHpTi_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "name": "do-you-drink-alcohol",
+                  "id": "oaijWgHpTi_input",
+                  "label": "Do you drink alcohol?",
+                  "options": [
+                    {
+                      "value": "Select >",
+                      "label": "Select >"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    },
+                    {
+                      "value": "Yes, 1 per week",
+                      "label": "Yes, 1 per week"
+                    },
+                    {
+                      "value": "Yes, 1 per day",
+                      "label": "Yes, 1 per day"
+                    },
+                    {
+                      "value": "Yes, 2 or 3 per day",
+                      "label": "Yes, 2 or 3 per day"
+                    },
+                    {
+                      "value": "Yes, 4 or more per day",
+                      "label": "Yes, 4 or more per day"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "uyDQpx0GKx",
+              "type": "select",
+              "label": "Do you smoke?",
+              "labelFor": "uyDQpx0GKx_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "name": "do-you-smoke",
+                  "id": "uyDQpx0GKx_input",
+                  "label": "Do you smoke?",
+                  "options": [
+                    {
+                      "value": "Select >",
+                      "label": "Select >"
+                    },
+                    {
+                      "value": "No",
+                      "label": "No"
+                    },
+                    {
+                      "value": "Yes, 1/2 a pack per day",
+                      "label": "Yes, 1/2 a pack per day"
+                    },
+                    {
+                      "value": "Yes, 1 pack per day",
+                      "label": "Yes, 1 pack per day"
+                    },
+                    {
+                      "value": "Yes, more than 1 pack per day",
+                      "label": "Yes, more than 1 pack per day"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Edx3NicW7b",
+              "type": "textarea",
+              "label": "Please list all medical conditions you have ever had (Diabetes, High blood pressure, Arthritis, etc.)",
+              "labelFor": "Edx3NicW7b_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "textarea",
+                  "type": "textarea",
+                  "name": "please-list-all-medical-conditions-you-have-ever-had-diabetes-high-blood-pressure-arthritis-etc",
+                  "id": "Edx3NicW7b_input",
+                  "rows": "4",
+                  "label": "Please list all medical conditions you have ever had (Diabetes, High blood pressure, Arthritis, etc.)"
+                }
+              ]
+            },
+            {
+              "id": "trVTufaVbH",
+              "type": "textarea",
+              "label": "Please list all eye conditions you have ever had (Glaucoma, Cataract, Wandering or Lazy eye, Retinal detachment)",
+              "labelFor": "trVTufaVbH_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "textarea",
+                  "type": "textarea",
+                  "name": "please-list-all-eye-conditions-you-have-ever-had-glaucoma-cataract-wandering-or-lazy-eye-retinal-detachment",
+                  "id": "trVTufaVbH_input",
+                  "rows": "4",
+                  "label": "Please list all eye conditions you have ever had (Glaucoma, Cataract, Wandering or Lazy eye, Retinal detachment)"
+                }
+              ]
+            },
+            {
+              "id": "AtA2PSzJNY",
+              "type": "textarea",
+              "label": "Please list all eye conditions you have ever had (Glaucoma, Cataract, Wandering or Lazy eye, Retinal detachment)",
+              "labelFor": "AtA2PSzJNY_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "textarea",
+                  "type": "textarea",
+                  "name": "please-list-all-eye-conditions-you-have-ever-had-glaucoma-cataract-wandering-or-lazy-eye-retinal-detachment",
+                  "id": "AtA2PSzJNY_input",
+                  "rows": "4",
+                  "label": "Please list all eye conditions you have ever had (Glaucoma, Cataract, Wandering or Lazy eye, Retinal detachment)"
+                }
+              ]
+            },
+            {
+              "id": "nTh1X2fqOq",
+              "type": "textarea",
+              "label": "Please list any medical or eye conditions that run in your family (blood relatives) (Diabetes, High blood pressure, Cancer, Glaucoma, Macular degeneration, etc.)",
+              "labelFor": "nTh1X2fqOq_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "textarea",
+                  "type": "textarea",
+                  "name": "please-list-any-medical-or-eye-conditions-that-run-in-your-family-blood-relatives-diabetes-high-blood-pressure-cancer-glaucoma-macular-degeneration-etc",
+                  "id": "nTh1X2fqOq_input",
+                  "rows": "4",
+                  "label": "Please list any medical or eye conditions that run in your family (blood relatives) (Diabetes, High blood pressure, Cancer, Glaucoma, Macular degeneration, etc.)"
+                }
+              ]
+            },
+            {
+              "id": "6FDLkgpn47",
+              "type": "textarea",
+              "label": "Please list all hospital surgeries you have ever had:",
+              "labelFor": "6FDLkgpn47_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "textarea",
+                  "type": "textarea",
+                  "name": "please-list-all-hospital-surgeries-you-have-ever-had",
+                  "id": "6FDLkgpn47_input",
+                  "rows": "4",
+                  "label": "Please list all hospital surgeries you have ever had:"
+                }
+              ]
+            },
+            {
+              "id": "mSnMOeI9tH",
+              "type": "textarea",
+              "label": "Please list all prescription and over-the-counter medications you take and for what conditions",
+              "labelFor": "mSnMOeI9tH_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "textarea",
+                  "type": "textarea",
+                  "name": "please-list-all-prescription-and-over-the-counter-medications-you-take-and-for-what-conditions",
+                  "id": "mSnMOeI9tH_input",
+                  "rows": "4",
+                  "label": "Please list all prescription and over-the-counter medications you take and for what conditions"
+                }
+              ]
+            },
+            {
+              "id": "RtkDn3l4nF",
+              "type": "textarea",
+              "label": "Please list all drug allergies you have",
+              "labelFor": "RtkDn3l4nF_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "textarea",
+                  "type": "textarea",
+                  "name": "please-list-all-drug-allergies-you-have",
+                  "id": "RtkDn3l4nF_input",
+                  "rows": "4",
+                  "label": "Please list all drug allergies you have"
+                }
+              ]
+            },
+            {
+              "id": "lQ9SusaTFj",
+              "type": "checkboxes",
+              "label": "Please check off any current conditions you suffer from",
+              "legend": true,
+              "required": false,
+              "submitName": "please-check-off-any-current-conditions-you-suffer-from",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_0",
+                  "value": "Chronic fever, unexpected weight loss/gain, fatigue",
+                  "label": "Chronic fever, unexpected weight loss/gain, fatigue"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_1",
+                  "value": "Ear/nose/throat problems ( eg. Hearing loss, sinus problems, sore throat)",
+                  "label": "Ear/nose/throat problems ( eg. Hearing loss, sinus problems, sore throat)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_2",
+                  "value": "Heart problems (eg. Chest pain, irregular heart beat, swelling of feet, cold hands or feet)",
+                  "label": "Heart problems (eg. Chest pain, irregular heart beat, swelling of feet, cold hands or feet)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_3",
+                  "value": "Respiratory problems (eg. Shortness of breath, wheezing, coughing)",
+                  "label": "Respiratory problems (eg. Shortness of breath, wheezing, coughing)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_4",
+                  "value": "Gastrointestinal problems (eg. Heartburn, abdominal pain, diarrhea, vomiting)",
+                  "label": "Gastrointestinal problems (eg. Heartburn, abdominal pain, diarrhea, vomiting)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_5",
+                  "value": "Genitourinary problems (eg. Painful urination, blood in urine, sex organ problems)",
+                  "label": "Genitourinary problems (eg. Painful urination, blood in urine, sex organ problems)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_6",
+                  "value": "Musculoskeletal problems (eg. Muscle aches, joint pain, swollen joints)",
+                  "label": "Musculoskeletal problems (eg. Muscle aches, joint pain, swollen joints)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_7",
+                  "value": "Skin problems (eg. Rashes, excessive dryness, growths or lumps)",
+                  "label": "Skin problems (eg. Rashes, excessive dryness, growths or lumps)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_8",
+                  "value": "Neurological problems (eg. Numbness, weakness, headaches, “blackouts”)",
+                  "label": "Neurological problems (eg. Numbness, weakness, headaches, “blackouts”)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_9",
+                  "value": "Psychiatric problems (eg. Depression, anxiety)",
+                  "label": "Psychiatric problems (eg. Depression, anxiety)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_10",
+                  "value": "Endocrine problems (eg. Frequent urination, thirst, feeling hot or cold all the time)",
+                  "label": "Endocrine problems (eg. Frequent urination, thirst, feeling hot or cold all the time)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_11",
+                  "value": "Blood/Lymph problems (eg. Bruising, weakness, unusual paleness, swollen glands)",
+                  "label": "Blood/Lymph problems (eg. Bruising, weakness, unusual paleness, swollen glands)"
+                },
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "lQ9SusaTFj_input_12",
+                  "value": "Immune problems (eg. Frequent infections, allergic reactions to foods, dust, pollens)",
+                  "label": "Immune problems (eg. Frequent infections, allergic reactions to foods, dust, pollens)"
+                }
+              ]
+            },
+            {
+              "id": "BtUuSzyrFr",
+              "type": "heading",
+              "label": "Primary Insurance",
+              "required": false,
+              "text": "Primary Insurance",
+              "level": 2
+            },
+            {
+              "id": "KCw4Hb71M1",
+              "type": "content",
+              "required": false,
+              "html": "<p>Please bring all insurance cards with you to your appointment.</p>"
+            },
+            {
+              "id": "SBjQddUHxV",
+              "type": "textfield",
+              "label": "Insurance Company Name",
+              "labelFor": "SBjQddUHxV_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "insurance-company-name",
+                  "id": "SBjQddUHxV_input",
+                  "label": "Insurance Company Name"
+                }
+              ]
+            },
+            {
+              "id": "LsxURuU5M8",
+              "type": "telephone",
+              "label": "Insurance Company Phone Number",
+              "labelFor": "LsxURuU5M8_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "insurance-company-phone-number",
+                  "id": "LsxURuU5M8_input",
+                  "placeholder": "(###) ###-####",
+                  "autocomplete": "tel",
+                  "inputmode": "numeric",
+                  "phoneFormat": true,
+                  "label": "Insurance Company Phone Number"
+                }
+              ]
+            },
+            {
+              "id": "D8wPrBXP3I",
+              "type": "address",
+              "label": "Address",
+              "required": false,
+              "submitName": "address",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "D8wPrBXP3I_input_street_address",
+                  "autocomplete": "address-line1",
+                  "label": "Street Address"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "D8wPrBXP3I_input_street_address2",
+                  "autocomplete": "address-line2",
+                  "label": "Address Line 2"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "D8wPrBXP3I_input_city",
+                  "autocomplete": "address-level2",
+                  "label": "City"
+                }
+              ]
+            },
+            {
+              "id": "TgPM5dGyNs",
+              "type": "name",
+              "label": "Insured's Name",
+              "required": false,
+              "submitName": "insured-s-name",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "TgPM5dGyNs_input_first_name",
+                  "autocomplete": "given-name",
+                  "label": "First"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "TgPM5dGyNs_input_last_name",
+                  "autocomplete": "family-name",
+                  "label": "Last"
+                }
+              ]
+            },
+            {
+              "id": "wTUKoGHtJG",
+              "type": "textfield",
+              "label": "Identification Number",
+              "labelFor": "wTUKoGHtJG_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "identification-number",
+                  "id": "wTUKoGHtJG_input",
+                  "label": "Identification Number"
+                }
+              ]
+            },
+            {
+              "id": "gAL0KiGDZ1",
+              "type": "textfield",
+              "label": "Group Number",
+              "labelFor": "gAL0KiGDZ1_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "group-number",
+                  "id": "gAL0KiGDZ1_input",
+                  "label": "Group Number"
+                }
+              ]
+            },
+            {
+              "id": "VmescCirEX",
+              "type": "date",
+              "label": "Insured's Date of Birth",
+              "required": false,
+              "submitName": "insured-s-date-of-birth",
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "VmescCirEX_input_day",
+                  "ariaLabel": "Insured's Date of Birth - Day",
+                  "label": "Day",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "01",
+                      "label": "01"
+                    },
+                    {
+                      "value": "02",
+                      "label": "02"
+                    },
+                    {
+                      "value": "03",
+                      "label": "03"
+                    },
+                    {
+                      "value": "04",
+                      "label": "04"
+                    },
+                    {
+                      "value": "05",
+                      "label": "05"
+                    },
+                    {
+                      "value": "06",
+                      "label": "06"
+                    },
+                    {
+                      "value": "07",
+                      "label": "07"
+                    },
+                    {
+                      "value": "08",
+                      "label": "08"
+                    },
+                    {
+                      "value": "09",
+                      "label": "09"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10"
+                    },
+                    {
+                      "value": "11",
+                      "label": "11"
+                    },
+                    {
+                      "value": "12",
+                      "label": "12"
+                    },
+                    {
+                      "value": "13",
+                      "label": "13"
+                    },
+                    {
+                      "value": "14",
+                      "label": "14"
+                    },
+                    {
+                      "value": "15",
+                      "label": "15"
+                    },
+                    {
+                      "value": "16",
+                      "label": "16"
+                    },
+                    {
+                      "value": "17",
+                      "label": "17"
+                    },
+                    {
+                      "value": "18",
+                      "label": "18"
+                    },
+                    {
+                      "value": "19",
+                      "label": "19"
+                    },
+                    {
+                      "value": "20",
+                      "label": "20"
+                    },
+                    {
+                      "value": "21",
+                      "label": "21"
+                    },
+                    {
+                      "value": "22",
+                      "label": "22"
+                    },
+                    {
+                      "value": "23",
+                      "label": "23"
+                    },
+                    {
+                      "value": "24",
+                      "label": "24"
+                    },
+                    {
+                      "value": "25",
+                      "label": "25"
+                    },
+                    {
+                      "value": "26",
+                      "label": "26"
+                    },
+                    {
+                      "value": "27",
+                      "label": "27"
+                    },
+                    {
+                      "value": "28",
+                      "label": "28"
+                    },
+                    {
+                      "value": "29",
+                      "label": "29"
+                    },
+                    {
+                      "value": "30",
+                      "label": "30"
+                    },
+                    {
+                      "value": "31",
+                      "label": "31"
+                    }
+                  ]
+                },
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "VmescCirEX_input_month",
+                  "ariaLabel": "Insured's Date of Birth - Month",
+                  "label": "Month",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "01",
+                      "label": "1 - Jan"
+                    },
+                    {
+                      "value": "02",
+                      "label": "2 - Feb"
+                    },
+                    {
+                      "value": "03",
+                      "label": "3 - Mar"
+                    },
+                    {
+                      "value": "04",
+                      "label": "4 - Apr"
+                    },
+                    {
+                      "value": "05",
+                      "label": "5 - May"
+                    },
+                    {
+                      "value": "06",
+                      "label": "6 - Jun"
+                    },
+                    {
+                      "value": "07",
+                      "label": "7 - Jul"
+                    },
+                    {
+                      "value": "08",
+                      "label": "8 - Aug"
+                    },
+                    {
+                      "value": "09",
+                      "label": "9 - Sep"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10 - Oct"
+                    },
+                    {
+                      "value": "11",
+                      "label": "11 - Nov"
+                    },
+                    {
+                      "value": "12",
+                      "label": "12 - Dec"
+                    }
+                  ]
+                },
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "VmescCirEX_input_year",
+                  "ariaLabel": "Insured's Date of Birth - Year",
+                  "label": "Year",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "2026",
+                      "label": "2026"
+                    },
+                    {
+                      "value": "2025",
+                      "label": "2025"
+                    },
+                    {
+                      "value": "2024",
+                      "label": "2024"
+                    },
+                    {
+                      "value": "2023",
+                      "label": "2023"
+                    },
+                    {
+                      "value": "2022",
+                      "label": "2022"
+                    },
+                    {
+                      "value": "2021",
+                      "label": "2021"
+                    },
+                    {
+                      "value": "2020",
+                      "label": "2020"
+                    },
+                    {
+                      "value": "2019",
+                      "label": "2019"
+                    },
+                    {
+                      "value": "2018",
+                      "label": "2018"
+                    },
+                    {
+                      "value": "2017",
+                      "label": "2017"
+                    },
+                    {
+                      "value": "2016",
+                      "label": "2016"
+                    },
+                    {
+                      "value": "2015",
+                      "label": "2015"
+                    },
+                    {
+                      "value": "2014",
+                      "label": "2014"
+                    },
+                    {
+                      "value": "2013",
+                      "label": "2013"
+                    },
+                    {
+                      "value": "2012",
+                      "label": "2012"
+                    },
+                    {
+                      "value": "2011",
+                      "label": "2011"
+                    },
+                    {
+                      "value": "2010",
+                      "label": "2010"
+                    },
+                    {
+                      "value": "2009",
+                      "label": "2009"
+                    },
+                    {
+                      "value": "2008",
+                      "label": "2008"
+                    },
+                    {
+                      "value": "2007",
+                      "label": "2007"
+                    },
+                    {
+                      "value": "2006",
+                      "label": "2006"
+                    },
+                    {
+                      "value": "2005",
+                      "label": "2005"
+                    },
+                    {
+                      "value": "2004",
+                      "label": "2004"
+                    },
+                    {
+                      "value": "2003",
+                      "label": "2003"
+                    },
+                    {
+                      "value": "2002",
+                      "label": "2002"
+                    },
+                    {
+                      "value": "2001",
+                      "label": "2001"
+                    },
+                    {
+                      "value": "2000",
+                      "label": "2000"
+                    },
+                    {
+                      "value": "1999",
+                      "label": "1999"
+                    },
+                    {
+                      "value": "1998",
+                      "label": "1998"
+                    },
+                    {
+                      "value": "1997",
+                      "label": "1997"
+                    },
+                    {
+                      "value": "1996",
+                      "label": "1996"
+                    },
+                    {
+                      "value": "1995",
+                      "label": "1995"
+                    },
+                    {
+                      "value": "1994",
+                      "label": "1994"
+                    },
+                    {
+                      "value": "1993",
+                      "label": "1993"
+                    },
+                    {
+                      "value": "1992",
+                      "label": "1992"
+                    },
+                    {
+                      "value": "1991",
+                      "label": "1991"
+                    },
+                    {
+                      "value": "1990",
+                      "label": "1990"
+                    },
+                    {
+                      "value": "1989",
+                      "label": "1989"
+                    },
+                    {
+                      "value": "1988",
+                      "label": "1988"
+                    },
+                    {
+                      "value": "1987",
+                      "label": "1987"
+                    },
+                    {
+                      "value": "1986",
+                      "label": "1986"
+                    },
+                    {
+                      "value": "1985",
+                      "label": "1985"
+                    },
+                    {
+                      "value": "1984",
+                      "label": "1984"
+                    },
+                    {
+                      "value": "1983",
+                      "label": "1983"
+                    },
+                    {
+                      "value": "1982",
+                      "label": "1982"
+                    },
+                    {
+                      "value": "1981",
+                      "label": "1981"
+                    },
+                    {
+                      "value": "1980",
+                      "label": "1980"
+                    },
+                    {
+                      "value": "1979",
+                      "label": "1979"
+                    },
+                    {
+                      "value": "1978",
+                      "label": "1978"
+                    },
+                    {
+                      "value": "1977",
+                      "label": "1977"
+                    },
+                    {
+                      "value": "1976",
+                      "label": "1976"
+                    },
+                    {
+                      "value": "1975",
+                      "label": "1975"
+                    },
+                    {
+                      "value": "1974",
+                      "label": "1974"
+                    },
+                    {
+                      "value": "1973",
+                      "label": "1973"
+                    },
+                    {
+                      "value": "1972",
+                      "label": "1972"
+                    },
+                    {
+                      "value": "1971",
+                      "label": "1971"
+                    },
+                    {
+                      "value": "1970",
+                      "label": "1970"
+                    },
+                    {
+                      "value": "1969",
+                      "label": "1969"
+                    },
+                    {
+                      "value": "1968",
+                      "label": "1968"
+                    },
+                    {
+                      "value": "1967",
+                      "label": "1967"
+                    },
+                    {
+                      "value": "1966",
+                      "label": "1966"
+                    },
+                    {
+                      "value": "1965",
+                      "label": "1965"
+                    },
+                    {
+                      "value": "1964",
+                      "label": "1964"
+                    },
+                    {
+                      "value": "1963",
+                      "label": "1963"
+                    },
+                    {
+                      "value": "1962",
+                      "label": "1962"
+                    },
+                    {
+                      "value": "1961",
+                      "label": "1961"
+                    },
+                    {
+                      "value": "1960",
+                      "label": "1960"
+                    },
+                    {
+                      "value": "1959",
+                      "label": "1959"
+                    },
+                    {
+                      "value": "1958",
+                      "label": "1958"
+                    },
+                    {
+                      "value": "1957",
+                      "label": "1957"
+                    },
+                    {
+                      "value": "1956",
+                      "label": "1956"
+                    },
+                    {
+                      "value": "1955",
+                      "label": "1955"
+                    },
+                    {
+                      "value": "1954",
+                      "label": "1954"
+                    },
+                    {
+                      "value": "1953",
+                      "label": "1953"
+                    },
+                    {
+                      "value": "1952",
+                      "label": "1952"
+                    },
+                    {
+                      "value": "1951",
+                      "label": "1951"
+                    },
+                    {
+                      "value": "1950",
+                      "label": "1950"
+                    },
+                    {
+                      "value": "1949",
+                      "label": "1949"
+                    },
+                    {
+                      "value": "1948",
+                      "label": "1948"
+                    },
+                    {
+                      "value": "1947",
+                      "label": "1947"
+                    },
+                    {
+                      "value": "1946",
+                      "label": "1946"
+                    },
+                    {
+                      "value": "1945",
+                      "label": "1945"
+                    },
+                    {
+                      "value": "1944",
+                      "label": "1944"
+                    },
+                    {
+                      "value": "1943",
+                      "label": "1943"
+                    },
+                    {
+                      "value": "1942",
+                      "label": "1942"
+                    },
+                    {
+                      "value": "1941",
+                      "label": "1941"
+                    },
+                    {
+                      "value": "1940",
+                      "label": "1940"
+                    },
+                    {
+                      "value": "1939",
+                      "label": "1939"
+                    },
+                    {
+                      "value": "1938",
+                      "label": "1938"
+                    },
+                    {
+                      "value": "1937",
+                      "label": "1937"
+                    },
+                    {
+                      "value": "1936",
+                      "label": "1936"
+                    },
+                    {
+                      "value": "1935",
+                      "label": "1935"
+                    },
+                    {
+                      "value": "1934",
+                      "label": "1934"
+                    },
+                    {
+                      "value": "1933",
+                      "label": "1933"
+                    },
+                    {
+                      "value": "1932",
+                      "label": "1932"
+                    },
+                    {
+                      "value": "1931",
+                      "label": "1931"
+                    },
+                    {
+                      "value": "1930",
+                      "label": "1930"
+                    },
+                    {
+                      "value": "1929",
+                      "label": "1929"
+                    },
+                    {
+                      "value": "1928",
+                      "label": "1928"
+                    },
+                    {
+                      "value": "1927",
+                      "label": "1927"
+                    },
+                    {
+                      "value": "1926",
+                      "label": "1926"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UqG6yG7vD0",
+              "type": "textfield",
+              "label": "Patient's Relation to Insured",
+              "labelFor": "UqG6yG7vD0_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "patient-s-relation-to-insured",
+                  "id": "UqG6yG7vD0_input",
+                  "label": "Patient's Relation to Insured"
+                }
+              ]
+            },
+            {
+              "id": "MqAxOpW0X5",
+              "type": "heading",
+              "label": "Secondary Insurance",
+              "required": false,
+              "text": "Secondary Insurance",
+              "level": 2
+            },
+            {
+              "id": "R72IVyCu8e",
+              "type": "radio",
+              "presentation": "chips",
+              "label": "Do you have secondary insurance?",
+              "legend": true,
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "radio",
+                  "name": "do-you-have-secondary-insurance",
+                  "id": "R72IVyCu8e_input_0",
+                  "value": "Yes",
+                  "label": "Yes"
+                },
+                {
+                  "el": "input",
+                  "type": "radio",
+                  "name": "do-you-have-secondary-insurance",
+                  "id": "R72IVyCu8e_input_1",
+                  "value": "No",
+                  "label": "No"
+                }
+              ]
+            },
+            {
+              "id": "BxTP2DUdDk",
+              "type": "content",
+              "conditional": true,
+              "label": "Content",
+              "labelFor": "BxTP2DUdDk",
+              "required": false,
+              "html": "<p>If you have coverage through another plan/organization, please fill in the details below.</p>",
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "R72IVyCu8e",
+                    "name": "do-you-have-secondary-insurance",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "c6cqxfslPx",
+              "type": "textfield",
+              "conditional": true,
+              "label": "Insurance Company Name",
+              "labelFor": "c6cqxfslPx_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "insurance-company-name",
+                  "id": "c6cqxfslPx_input",
+                  "label": "Insurance Company Name"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "R72IVyCu8e",
+                    "name": "do-you-have-secondary-insurance",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "HD3DUqc5jr",
+              "type": "textfield",
+              "conditional": true,
+              "label": "Insurance Company Phone Number",
+              "labelFor": "HD3DUqc5jr_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "insurance-company-phone-number",
+                  "id": "HD3DUqc5jr_input",
+                  "label": "Insurance Company Phone Number"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "R72IVyCu8e",
+                    "name": "do-you-have-secondary-insurance",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "SBLHbavxuY",
+              "type": "address",
+              "conditional": true,
+              "label": "Address",
+              "required": false,
+              "submitName": "address",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "SBLHbavxuY_input_street_address",
+                  "autocomplete": "address-line1",
+                  "label": "Street Address"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "SBLHbavxuY_input_street_address2",
+                  "autocomplete": "address-line2",
+                  "label": "Address Line 2"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "SBLHbavxuY_input_city",
+                  "autocomplete": "address-level2",
+                  "label": "City"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "R72IVyCu8e",
+                    "name": "do-you-have-secondary-insurance",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "nmK0lxP6yw",
+              "type": "name",
+              "conditional": true,
+              "label": "Insured's Name",
+              "required": false,
+              "submitName": "insured-s-name",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "nmK0lxP6yw_input_first_name",
+                  "autocomplete": "given-name",
+                  "label": "First"
+                },
+                {
+                  "el": "input",
+                  "type": "text",
+                  "id": "nmK0lxP6yw_input_last_name",
+                  "autocomplete": "family-name",
+                  "label": "Last"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "R72IVyCu8e",
+                    "name": "do-you-have-secondary-insurance",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "hPEbTLAw5f",
+              "type": "textfield",
+              "conditional": true,
+              "label": "Identification Number",
+              "labelFor": "hPEbTLAw5f_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "identification-number",
+                  "id": "hPEbTLAw5f_input",
+                  "label": "Identification Number"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "R72IVyCu8e",
+                    "name": "do-you-have-secondary-insurance",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "SIV9mXQkxe",
+              "type": "textfield",
+              "conditional": true,
+              "label": "Group Number",
+              "labelFor": "SIV9mXQkxe_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "group-number",
+                  "id": "SIV9mXQkxe_input",
+                  "label": "Group Number"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "R72IVyCu8e",
+                    "name": "do-you-have-secondary-insurance",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "0qoqoQy01G",
+              "type": "date",
+              "conditional": true,
+              "label": "Insured's Date of Birth",
+              "required": false,
+              "submitName": "insured-s-date-of-birth",
+              "inputs": [
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "0qoqoQy01G_input_day",
+                  "ariaLabel": "Insured's Date of Birth - Day",
+                  "label": "Day",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "01",
+                      "label": "01"
+                    },
+                    {
+                      "value": "02",
+                      "label": "02"
+                    },
+                    {
+                      "value": "03",
+                      "label": "03"
+                    },
+                    {
+                      "value": "04",
+                      "label": "04"
+                    },
+                    {
+                      "value": "05",
+                      "label": "05"
+                    },
+                    {
+                      "value": "06",
+                      "label": "06"
+                    },
+                    {
+                      "value": "07",
+                      "label": "07"
+                    },
+                    {
+                      "value": "08",
+                      "label": "08"
+                    },
+                    {
+                      "value": "09",
+                      "label": "09"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10"
+                    },
+                    {
+                      "value": "11",
+                      "label": "11"
+                    },
+                    {
+                      "value": "12",
+                      "label": "12"
+                    },
+                    {
+                      "value": "13",
+                      "label": "13"
+                    },
+                    {
+                      "value": "14",
+                      "label": "14"
+                    },
+                    {
+                      "value": "15",
+                      "label": "15"
+                    },
+                    {
+                      "value": "16",
+                      "label": "16"
+                    },
+                    {
+                      "value": "17",
+                      "label": "17"
+                    },
+                    {
+                      "value": "18",
+                      "label": "18"
+                    },
+                    {
+                      "value": "19",
+                      "label": "19"
+                    },
+                    {
+                      "value": "20",
+                      "label": "20"
+                    },
+                    {
+                      "value": "21",
+                      "label": "21"
+                    },
+                    {
+                      "value": "22",
+                      "label": "22"
+                    },
+                    {
+                      "value": "23",
+                      "label": "23"
+                    },
+                    {
+                      "value": "24",
+                      "label": "24"
+                    },
+                    {
+                      "value": "25",
+                      "label": "25"
+                    },
+                    {
+                      "value": "26",
+                      "label": "26"
+                    },
+                    {
+                      "value": "27",
+                      "label": "27"
+                    },
+                    {
+                      "value": "28",
+                      "label": "28"
+                    },
+                    {
+                      "value": "29",
+                      "label": "29"
+                    },
+                    {
+                      "value": "30",
+                      "label": "30"
+                    },
+                    {
+                      "value": "31",
+                      "label": "31"
+                    }
+                  ]
+                },
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "0qoqoQy01G_input_month",
+                  "ariaLabel": "Insured's Date of Birth - Month",
+                  "label": "Month",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "01",
+                      "label": "1 - Jan"
+                    },
+                    {
+                      "value": "02",
+                      "label": "2 - Feb"
+                    },
+                    {
+                      "value": "03",
+                      "label": "3 - Mar"
+                    },
+                    {
+                      "value": "04",
+                      "label": "4 - Apr"
+                    },
+                    {
+                      "value": "05",
+                      "label": "5 - May"
+                    },
+                    {
+                      "value": "06",
+                      "label": "6 - Jun"
+                    },
+                    {
+                      "value": "07",
+                      "label": "7 - Jul"
+                    },
+                    {
+                      "value": "08",
+                      "label": "8 - Aug"
+                    },
+                    {
+                      "value": "09",
+                      "label": "9 - Sep"
+                    },
+                    {
+                      "value": "10",
+                      "label": "10 - Oct"
+                    },
+                    {
+                      "value": "11",
+                      "label": "11 - Nov"
+                    },
+                    {
+                      "value": "12",
+                      "label": "12 - Dec"
+                    }
+                  ]
+                },
+                {
+                  "el": "select",
+                  "type": "select",
+                  "id": "0qoqoQy01G_input_year",
+                  "ariaLabel": "Insured's Date of Birth - Year",
+                  "label": "Year",
+                  "options": [
+                    {
+                      "value": "",
+                      "label": ""
+                    },
+                    {
+                      "value": "2026",
+                      "label": "2026"
+                    },
+                    {
+                      "value": "2025",
+                      "label": "2025"
+                    },
+                    {
+                      "value": "2024",
+                      "label": "2024"
+                    },
+                    {
+                      "value": "2023",
+                      "label": "2023"
+                    },
+                    {
+                      "value": "2022",
+                      "label": "2022"
+                    },
+                    {
+                      "value": "2021",
+                      "label": "2021"
+                    },
+                    {
+                      "value": "2020",
+                      "label": "2020"
+                    },
+                    {
+                      "value": "2019",
+                      "label": "2019"
+                    },
+                    {
+                      "value": "2018",
+                      "label": "2018"
+                    },
+                    {
+                      "value": "2017",
+                      "label": "2017"
+                    },
+                    {
+                      "value": "2016",
+                      "label": "2016"
+                    },
+                    {
+                      "value": "2015",
+                      "label": "2015"
+                    },
+                    {
+                      "value": "2014",
+                      "label": "2014"
+                    },
+                    {
+                      "value": "2013",
+                      "label": "2013"
+                    },
+                    {
+                      "value": "2012",
+                      "label": "2012"
+                    },
+                    {
+                      "value": "2011",
+                      "label": "2011"
+                    },
+                    {
+                      "value": "2010",
+                      "label": "2010"
+                    },
+                    {
+                      "value": "2009",
+                      "label": "2009"
+                    },
+                    {
+                      "value": "2008",
+                      "label": "2008"
+                    },
+                    {
+                      "value": "2007",
+                      "label": "2007"
+                    },
+                    {
+                      "value": "2006",
+                      "label": "2006"
+                    },
+                    {
+                      "value": "2005",
+                      "label": "2005"
+                    },
+                    {
+                      "value": "2004",
+                      "label": "2004"
+                    },
+                    {
+                      "value": "2003",
+                      "label": "2003"
+                    },
+                    {
+                      "value": "2002",
+                      "label": "2002"
+                    },
+                    {
+                      "value": "2001",
+                      "label": "2001"
+                    },
+                    {
+                      "value": "2000",
+                      "label": "2000"
+                    },
+                    {
+                      "value": "1999",
+                      "label": "1999"
+                    },
+                    {
+                      "value": "1998",
+                      "label": "1998"
+                    },
+                    {
+                      "value": "1997",
+                      "label": "1997"
+                    },
+                    {
+                      "value": "1996",
+                      "label": "1996"
+                    },
+                    {
+                      "value": "1995",
+                      "label": "1995"
+                    },
+                    {
+                      "value": "1994",
+                      "label": "1994"
+                    },
+                    {
+                      "value": "1993",
+                      "label": "1993"
+                    },
+                    {
+                      "value": "1992",
+                      "label": "1992"
+                    },
+                    {
+                      "value": "1991",
+                      "label": "1991"
+                    },
+                    {
+                      "value": "1990",
+                      "label": "1990"
+                    },
+                    {
+                      "value": "1989",
+                      "label": "1989"
+                    },
+                    {
+                      "value": "1988",
+                      "label": "1988"
+                    },
+                    {
+                      "value": "1987",
+                      "label": "1987"
+                    },
+                    {
+                      "value": "1986",
+                      "label": "1986"
+                    },
+                    {
+                      "value": "1985",
+                      "label": "1985"
+                    },
+                    {
+                      "value": "1984",
+                      "label": "1984"
+                    },
+                    {
+                      "value": "1983",
+                      "label": "1983"
+                    },
+                    {
+                      "value": "1982",
+                      "label": "1982"
+                    },
+                    {
+                      "value": "1981",
+                      "label": "1981"
+                    },
+                    {
+                      "value": "1980",
+                      "label": "1980"
+                    },
+                    {
+                      "value": "1979",
+                      "label": "1979"
+                    },
+                    {
+                      "value": "1978",
+                      "label": "1978"
+                    },
+                    {
+                      "value": "1977",
+                      "label": "1977"
+                    },
+                    {
+                      "value": "1976",
+                      "label": "1976"
+                    },
+                    {
+                      "value": "1975",
+                      "label": "1975"
+                    },
+                    {
+                      "value": "1974",
+                      "label": "1974"
+                    },
+                    {
+                      "value": "1973",
+                      "label": "1973"
+                    },
+                    {
+                      "value": "1972",
+                      "label": "1972"
+                    },
+                    {
+                      "value": "1971",
+                      "label": "1971"
+                    },
+                    {
+                      "value": "1970",
+                      "label": "1970"
+                    },
+                    {
+                      "value": "1969",
+                      "label": "1969"
+                    },
+                    {
+                      "value": "1968",
+                      "label": "1968"
+                    },
+                    {
+                      "value": "1967",
+                      "label": "1967"
+                    },
+                    {
+                      "value": "1966",
+                      "label": "1966"
+                    },
+                    {
+                      "value": "1965",
+                      "label": "1965"
+                    },
+                    {
+                      "value": "1964",
+                      "label": "1964"
+                    },
+                    {
+                      "value": "1963",
+                      "label": "1963"
+                    },
+                    {
+                      "value": "1962",
+                      "label": "1962"
+                    },
+                    {
+                      "value": "1961",
+                      "label": "1961"
+                    },
+                    {
+                      "value": "1960",
+                      "label": "1960"
+                    },
+                    {
+                      "value": "1959",
+                      "label": "1959"
+                    },
+                    {
+                      "value": "1958",
+                      "label": "1958"
+                    },
+                    {
+                      "value": "1957",
+                      "label": "1957"
+                    },
+                    {
+                      "value": "1956",
+                      "label": "1956"
+                    },
+                    {
+                      "value": "1955",
+                      "label": "1955"
+                    },
+                    {
+                      "value": "1954",
+                      "label": "1954"
+                    },
+                    {
+                      "value": "1953",
+                      "label": "1953"
+                    },
+                    {
+                      "value": "1952",
+                      "label": "1952"
+                    },
+                    {
+                      "value": "1951",
+                      "label": "1951"
+                    },
+                    {
+                      "value": "1950",
+                      "label": "1950"
+                    },
+                    {
+                      "value": "1949",
+                      "label": "1949"
+                    },
+                    {
+                      "value": "1948",
+                      "label": "1948"
+                    },
+                    {
+                      "value": "1947",
+                      "label": "1947"
+                    },
+                    {
+                      "value": "1946",
+                      "label": "1946"
+                    },
+                    {
+                      "value": "1945",
+                      "label": "1945"
+                    },
+                    {
+                      "value": "1944",
+                      "label": "1944"
+                    },
+                    {
+                      "value": "1943",
+                      "label": "1943"
+                    },
+                    {
+                      "value": "1942",
+                      "label": "1942"
+                    },
+                    {
+                      "value": "1941",
+                      "label": "1941"
+                    },
+                    {
+                      "value": "1940",
+                      "label": "1940"
+                    },
+                    {
+                      "value": "1939",
+                      "label": "1939"
+                    },
+                    {
+                      "value": "1938",
+                      "label": "1938"
+                    },
+                    {
+                      "value": "1937",
+                      "label": "1937"
+                    },
+                    {
+                      "value": "1936",
+                      "label": "1936"
+                    },
+                    {
+                      "value": "1935",
+                      "label": "1935"
+                    },
+                    {
+                      "value": "1934",
+                      "label": "1934"
+                    },
+                    {
+                      "value": "1933",
+                      "label": "1933"
+                    },
+                    {
+                      "value": "1932",
+                      "label": "1932"
+                    },
+                    {
+                      "value": "1931",
+                      "label": "1931"
+                    },
+                    {
+                      "value": "1930",
+                      "label": "1930"
+                    },
+                    {
+                      "value": "1929",
+                      "label": "1929"
+                    },
+                    {
+                      "value": "1928",
+                      "label": "1928"
+                    },
+                    {
+                      "value": "1927",
+                      "label": "1927"
+                    },
+                    {
+                      "value": "1926",
+                      "label": "1926"
+                    }
+                  ]
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "R72IVyCu8e",
+                    "name": "do-you-have-secondary-insurance",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "c9FibCpL4U",
+              "type": "textfield",
+              "conditional": true,
+              "label": "Patient's Relation to Insured",
+              "labelFor": "c9FibCpL4U_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "text",
+                  "name": "patient-s-relation-to-insured",
+                  "id": "c9FibCpL4U_input",
+                  "label": "Patient's Relation to Insured"
+                }
+              ],
+              "showIf": {
+                "action": "show",
+                "logic": "all",
+                "enabled": true,
+                "when": [
+                  {
+                    "field": "R72IVyCu8e",
+                    "name": "do-you-have-secondary-insurance",
+                    "operator": "is",
+                    "value": "Yes",
+                    "mode": "include"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "9Ksd9XsyT2",
+              "type": "heading",
+              "label": "Comments",
+              "required": false,
+              "text": "Comments",
+              "level": 2
+            },
+            {
+              "id": "x8je7r7pwr",
+              "type": "textarea",
+              "label": "If you have any comments you would like to add, please enter them here.",
+              "labelFor": "x8je7r7pwr_input",
+              "required": false,
+              "inputs": [
+                {
+                  "el": "textarea",
+                  "type": "textarea",
+                  "name": "if-you-have-any-comments-you-would-like-to-add-please-enter-them-here",
+                  "id": "x8je7r7pwr_input",
+                  "rows": "4",
+                  "label": "If you have any comments you would like to add, please enter them here."
+                }
+              ]
+            },
+            {
+              "id": "NhPKntIFdP",
+              "type": "heading",
+              "label": "Privacy Policy",
+              "required": false,
+              "text": "Privacy Policy",
+              "level": 2
+            },
+            {
+              "id": "IA3JZQgF71",
+              "type": "checkboxes",
+              "label": "Health Information Protection",
+              "requiredMark": "*",
+              "legend": true,
+              "required": true,
+              "submitName": "health-information-protection",
+              "inputs": [
+                {
+                  "el": "input",
+                  "type": "checkbox",
+                  "id": "IA3JZQgF71_input_0",
+                  "value": "I have read and agree to the  Privacy Policy",
+                  "requiredGroup": true,
+                  "label": "I have read and agree to the Privacy Policy",
+                  "labelHtml": "<a href=\"/privacy-policy/\"> I have read and agree to the Privacy Policy</a>"
+                }
+              ]
+            }
+          ],
+          "submit": {
+            "label": "Submit"
+          },
+          "messages": {
+            "success": "<p>Thanks for contacting us! We will get in touch with you shortly.</p>",
+            "error": "There was an error submitting your form. Please try again.",
+            "submitting": "Submitting...",
+            "validation": {
+              "valueMissing": "This field is required",
+              "radioGroup": "Please select an option",
+              "checkboxGroup": "Please select at least one option"
+            }
+          },
+          "action": {
+            "attribute": null,
+            "method": "get",
+            "novalidate": true,
+            "scriptEndpoint": "https://app.patientengage.ai/api/lead/conversion",
+            "scriptMethod": "POST",
+            "captcha": "recaptcha-enterprise"
+          },
+          "hidden": [
+            {
+              "name": "location",
+              "value": "6999"
+            },
+            {
+              "name": "source_url",
+              "value": "https://www.academyvisionnj.com/patient-registration-form/"
+            },
+            {
+              "name": "identifier",
+              "value": "Patient Registration Form"
+            },
+            {
+              "name": "tokens",
+              "value": null
+            },
+            {
+              "name": "g-recaptcha-response",
+              "value": null
+            },
+            {
+              "name": "action",
+              "value": "validate_captcha"
+            },
+            {
+              "name": "admin-entries-url",
+              "value": "https://app.patientengage.ai/u/5289/marketing/conversions"
+            }
+          ],
+          "col": 0,
+          "origin": "static"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "site-reforge/decontamination@1",
+  "generated": "2026-10-09T01:11:37.091Z",
+  "target": "C:\\Users\\Dell\\academyvisionnj-reforge\\dist",
+  "filesFound": 59,
+  "filesScanned": 59,
+  "filesSkipped": 0,
+  "counts": {},
+  "clean": true,
+  "verdict": "CLEAN",
+  "findings": []
+}

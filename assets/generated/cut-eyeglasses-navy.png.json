@@ -1,0 +1,64 @@
+{
+  "id": "cut-eyeglasses-navy",
+  "file": "assets/generated/cut-eyeglasses-navy.png",
+  "kind": "depth-cutout",
+  "planPurpose": "protruding frame object for hero and section edges",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra + fal-ai/birefnet/v2 cut-out, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Navy acetate eyeglasses",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of one single pair of deep navy acetate eyeglasses with clear lenses in a front three-quarter view with both temples folded closed behind the frame, plain smooth temples and bridge with no markings, no printing, no engraving, no rivets, no emblems, isolated on a seamless light grey background, evenly lit from all sides, no cast shadow and no reflection under the object, the whole object in frame with a generous margin, sharp focus throughout, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 296741148,
+  "requestId": "01a119eb-bb78-71e3-97e1-2a30f9fcdabe",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/cut-eyeglasses-navy.a2.jpg",
+  "w": 2048,
+  "h": 2048,
+  "sha256": "80968d99632cb9540ed6c28b0c6b07819d5745bcb26f567b4213eff7ccc2f3da",
+  "master": {
+    "file": "assets/generated/raw/cut-eyeglasses-navy.jpg",
+    "sha256": "d8466fabf13ca0c835366d5aa544fbc334283f8378be380e84406c84dabbc865"
+  },
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a119ee-8416-7a50-9dbd-b3149b520873",
+    "input": {
+      "image_url": "<data uri of cut-eyeglasses-navy.a2.jpg>",
+      "model": "General Use (Heavy)",
+      "operating_resolution": "2048x2048",
+      "output_format": "png"
+    },
+    "birefnetOutput": "tmp/imagery-run/attempts/cut-eyeglasses-navy.a2.cut.png",
+    "localRepair": null
+  },
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "36% whole frame: one pair of navy acetate eyeglasses, front view, two temples open (prompt asked folded), bridge intact; small gold corner studs",
+      "100% both inner temples: plain navy, no text",
+      "400% right stud: blank gold oval, no marks",
+      "background: diagonal light band + lens shadows (prompt: even light, no shadow) - cut-out must drop them"
+    ],
+    "notes": "master accepted; birefnet next (cut-out reviewed separately)",
+    "at": "2026-10-08T05:13:39.147Z",
+    "retries": 1,
+    "cutout": {
+      "verdict": "accept",
+      "checks": [
+        "birefnet: transparent 0.946, semi 0.0039, opaque 0.05 (lens areas cut through - right for clear lenses), opaque bbox ends at the lower rim (shadow and light band dropped), semi-mean #424658 (dark edges, no grey halo)",
+        "22% on navy/cream/magenta: clean edges, temples visible through the lens holes",
+        "400% both temple tips on navy: rounded, intact, no halo",
+        "400% left hinge: metal hinge parts only, no marks"
+      ],
+      "notes": "",
+      "at": "2026-10-08T05:22:03.924Z",
+      "file": "tmp/imagery-run/attempts/cut-eyeglasses-navy.a2.cut.png",
+      "sha256": "80968d99632cb9540ed6c28b0c6b07819d5745bcb26f567b4213eff7ccc2f3da"
+    }
+  },
+  "promotedAt": "2026-10-08T05:34:20.558Z"
+}

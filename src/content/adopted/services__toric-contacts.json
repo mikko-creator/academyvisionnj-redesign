@@ -1,0 +1,119 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/toric-contacts",
+  "etSource": "services/toric-contacts",
+  "title": "Toric Contact Lenses in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Astigmatism doesn’t have to rule out contacts. Learn how lenses for astigmatism work and what a contact lens exam at Academy Vision in Pine Beach includes.",
+  "h1": "Astigmatism-Correcting Contact Lenses in Pine Beach",
+  "kicker": "Told Astigmatism Rules Out Contacts?",
+  "lede": "<p>If you have astigmatism, you may have heard that contacts won’t work for you, or tried a pair years ago that never seemed quite clear. Lenses made for astigmatism, often called toric lenses, correct the uneven focus it causes, and many people wear them comfortably every day.</p><p>Three of the contact lens options at Academy Vision are made for astigmatism. We’ll measure your eyes, talk through your routine and help you find out whether one of them is a good match.</p>",
+  "sections": [
+    {
+      "id": "astigmatism-and-contacts",
+      "heading": "Astigmatism Doesn’t Rule Out Contacts",
+      "html": "<p>Astigmatism means the front of your eye, or the lens inside it, curves more steeply in one direction than the other, a bit like a football instead of a basketball. Light can’t come to one sharp focus, so things may look blurry or slightly stretched at any distance, and long reading or screen sessions can leave your eyes tired.</p><p>It’s very common and often comes with nearsightedness or farsightedness. The idea that it rules out contacts dates from a time when lens choices were far fewer. Today, soft lenses for astigmatism come in daily and longer-wear designs.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "a-good-fit",
+      "heading": "What a Well-Fitted Astigmatism Lens Gives You",
+      "html": "<ul><li><strong>Correction lined up with your eye.</strong> Astigmatism has a direction, and a toric lens carries its correction along a matching angle. When the two line up, vision can be sharp rather than almost clear.</li><li><strong>A lens that stays in place.</strong> Toric lenses are shaped to settle back into the same position after each blink, so your vision holds steady as you read, drive or look around.</li><li><strong>A fit that feels right.</strong> Fit, material and how moist your eyes stay all affect comfort, and small adjustments can make a noticeable difference by the end of the day.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "fitting-steps",
+      "heading": "What Happens at an Astigmatism Fitting",
+      "html": "<p>Here’s what a contact lens exam at Academy Vision includes. With astigmatism, each step matters a little more.</p><ol><li>We check your vision and overall eye health.</li><li>We take measurements to get the best possible fit.</li><li>We evaluate your tear film, since a healthy layer of tears helps lenses stay comfortable.</li><li>We fit you with trial lenses so you can feel how they sit and how clearly you see.</li><li>We make adjustments based on comfort and clarity.</li></ol><p>The trial step tells you the most. A toric lens needs to settle in the right position to do its job, so how it behaves on your eye says more than the numbers on a prescription.</p>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "continuity",
+      "heading": "Why It Helps When Your Eye Doctor Knows You",
+      "html": "<p>Astigmatism can shift over the years, and so can the way your eyes handle lenses. When the doctor fitting your contacts has seen your eyes before, small changes are easier to spot, and each fitting builds on what has already worked.</p><p>For over 40 years, families in and around Pine Beach have trusted Academy Vision with their vision. Dr. Marc Ullman prides himself on managing difficult contact lens fittings, and Dr. Tyler Lesko’s expertise includes specialty contact lenses and complex lens fittings.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "checked-on-your-eye",
+      "heading": "A Prescription Alone Doesn’t Tell the Whole Story",
+      "html": "<p>Wearing lenses that nobody has checked on your eye skips the step that matters most with astigmatism. A toric lens that turns even slightly out of position can make your vision blur or come and go, and that’s hard to sort out on your own. If your current lenses blur when you blink or glance to the side, or you gave up on contacts because they never looked sharp, it’s worth having the fit checked.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    },
+    {
+      "id": "more-options",
+      "heading": "Other Contact Lens Options",
+      "html": "<ul><li><a href=\"/services/contact-lens-exams/\">Contact lens exams</a>: what to expect, step by step</li><li><a href=\"/services/multifocal-contacts/\">Multifocal contacts</a>: reading and distance vision in a single lens</li><li><a href=\"/services/specialty-contacts/\">Scleral lenses</a>: larger lenses that rest on the white of the eye</li><li><a href=\"/products/contact-lenses/\">Contact lens options</a>: daily and longer-wear lenses</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which lenses for astigmatism can I choose from?",
+      "a": "<p>Our contact lens options include PRECISION1® for Astigmatism, TOTAL30® for Astigmatism and DAILIES TOTAL1® for Astigmatism. Which one suits you depends on your prescription, your eyes and your routine.</p>"
+    },
+    {
+      "q": "Will a lens for astigmatism feel different?",
+      "a": "<p>Many people find it feels much like any other soft lens. It’s shaped a little differently so it can stay in position, but once it fits well, you shouldn’t notice that. If a lens feels uncomfortable or your vision keeps shifting, tell your eye doctor, since a different fit or design may help.</p>"
+    },
+    {
+      "q": "My astigmatism is mild. Do I need a special lens?",
+      "a": "<p>Not always. Some people with mild astigmatism see well in a regular soft lens, while others notice a real improvement with a lens made for astigmatism. Your exam results and how you see in trial lenses help answer that question.</p>"
+    },
+    {
+      "q": "What if I have a lot of astigmatism or keratoconus?",
+      "a": "<p>Higher or irregular astigmatism sometimes needs a different kind of lens. Our Pine Beach eye doctors use scleral lenses to help patients see clearly and comfortably when other options haven’t worked, and keratoconus is one of the conditions they’re often recommended for.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Ready to Try Contacts for Astigmatism?",
+    "html": "<p>Whether you’re new to contacts or you gave up on them years ago, our optometrists take the time to listen and explain your options. Call us at (732) 978-9306 to schedule a contact lens exam at our office at 90 Atlantic City Blvd in Pine Beach.</p>"
+  },
+  "related": [
+    "services/contact-lens-exams",
+    "services/multifocal-contacts",
+    "services/specialty-contacts",
+    "products/contact-lenses"
+  ],
+  "claims": [
+    { "text": "Toric Contact Lenses in Pine Beach, NJ | Academy Vision", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "PRECISION1® for Astigmatism" },
+    { "text": "Toric Contact Lenses in Pine Beach, NJ | Academy Vision", "factId": "address-display", "page": "/", "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741" },
+    { "text": "Learn how lenses for astigmatism work and what a contact lens exam at Academy Vision in Pine Beach includes.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "Astigmatism-Correcting Contact Lenses in Pine Beach", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "Explore our Contact Lens Options in Pine Beach" },
+    { "text": "Astigmatism-Correcting Contact Lenses in Pine Beach", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "PRECISION1® for Astigmatism" },
+    { "text": "Three of the contact lens options at Academy Vision are made for astigmatism.", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "PRECISION1® for Astigmatism" },
+    { "text": "Three of the contact lens options at Academy Vision are made for astigmatism.", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "TOTAL30® for Astigmatism" },
+    { "text": "Three of the contact lens options at Academy Vision are made for astigmatism.", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "DAILIES TOTAL1® for Astigmatism" },
+    { "text": "We’ll measure your eyes, talk through your routine and help you find out whether one of them is a good match.", "factId": "service-contact-lens-fittings", "page": "/contact-lenses/", "quote": "We’ll measure your eyes, talk through your lifestyle, and make sure your lenses feel comfortable and work the way they should." },
+    { "text": "Here’s what a contact lens exam at Academy Vision includes.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "Here’s what you can expect when you come to Academy Vision:" },
+    { "text": "We check your vision and overall eye health.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We check your vision and overall eye health" },
+    { "text": "We take measurements to get the best possible fit.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We take measurements to ensure the best possible fit" },
+    { "text": "We evaluate your tear film, since a healthy layer of tears helps lenses stay comfortable.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We evaluate your tear film to make sure your eyes stay comfortable" },
+    { "text": "We fit you with trial lenses so you can feel how they sit and how clearly you see.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We fit you with trial lenses so you can experience how they feel" },
+    { "text": "We make adjustments based on comfort and clarity.", "factId": "service-contact-lens-exam-steps", "page": "/contact-lenses/contact-lenses-exams/", "quote": "We make adjustments based on comfort and clarity" },
+    { "text": "For over 40 years, families in and around Pine Beach have trusted Academy Vision with their vision.", "factId": "history-over-40-years", "page": "/", "quote": "For over 40 years, families in and around Pine Beach have trusted us with their vision." },
+    { "text": "Dr. Marc Ullman prides himself on managing difficult contact lens fittings, and Dr. Tyler Lesko’s expertise includes specialty contact lenses and complex lens fittings.", "factId": "doctor-mu-difficult-fittings", "page": "/team/dr-marc-ullman-od/", "quote": "Managing difficult contact lens fittings and chronic ocular disease." },
+    { "text": "Dr. Marc Ullman prides himself on managing difficult contact lens fittings, and Dr. Tyler Lesko’s expertise includes specialty contact lenses and complex lens fittings.", "factId": "doctor-tl-specialty-cl", "page": "/team/dr-tyler-lesko-od/", "quote": "Specialty Contact Lenses: Providing life-changing vision for patients through complex lens fittings." },
+    { "text": "Our contact lens options include PRECISION1® for Astigmatism, TOTAL30® for Astigmatism and DAILIES TOTAL1® for Astigmatism.", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "PRECISION1® for Astigmatism" },
+    { "text": "Our contact lens options include PRECISION1® for Astigmatism, TOTAL30® for Astigmatism and DAILIES TOTAL1® for Astigmatism.", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "TOTAL30® for Astigmatism" },
+    { "text": "Our contact lens options include PRECISION1® for Astigmatism, TOTAL30® for Astigmatism and DAILIES TOTAL1® for Astigmatism.", "factId": "contact-lens-brands", "page": "/contact-lenses/", "quote": "DAILIES TOTAL1® for Astigmatism" },
+    { "text": "Our Pine Beach eye doctors use scleral lenses to help patients see clearly and comfortably when other options haven’t worked, and keratoconus is one of the conditions they’re often recommended for.", "factId": "service-scleral", "page": "/contact-lenses/scleral-lenses/", "quote": "Our Pine Beach eye doctors use these specialty lenses to help patients see clearly and feel comfortable again, even when other solutions haven’t worked." },
+    { "text": "Our Pine Beach eye doctors use scleral lenses to help patients see clearly and comfortably when other options haven’t worked, and keratoconus is one of the conditions they’re often recommended for.", "factId": "service-scleral-candidates", "page": "/contact-lenses/scleral-lenses/", "quote": "Keratoconus" },
+    { "text": "Whether you’re new to contacts or you gave up on them years ago, our optometrists take the time to listen and explain your options.", "factId": "doctors-team-optometrists", "page": "/our-eye-doctor/", "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable." },
+    { "text": "Call us at (732) 978-9306 to schedule a contact lens exam at our office at 90 Atlantic City Blvd in Pine Beach.", "factId": "phone-primary", "page": "/", "quote": "Call: (732) 978-9306" },
+    { "text": "Call us at (732) 978-9306 to schedule a contact lens exam at our office at 90 Atlantic City Blvd in Pine Beach.", "factId": "address-display", "page": "/", "quote": "90 Atlantic City Blvd, Pine Beach, NJ 08741" }
+  ],
+  "flags": [
+    "The live site never uses the word “toric”; this page uses it only as the common name for lenses that correct astigmatism. The three lenses named are the astigmatism lenses on the /contact-lenses/ list: PRECISION1® for Astigmatism, TOTAL30® for Astigmatism and DAILIES TOTAL1® for Astigmatism.",
+    "The live site describes no astigmatism-specific fitting. The five steps listed are the general contact lens exam steps from /contact-lenses/contact-lenses-exams/; lens orientation, rotation and blur are explained as general information, not as Academy Vision’s own procedure."
+  ],
+  "review": {
+    "overlapLongest": 0,
+    "checkedBy": "checker-G4-contacts",
+    "notes": "Overlap gate (tools/overlap-check.mjs, 6-word shingles, fail at 8): longest shared span 0; the --control run detected an inserted Eye Trends sentence. A stricter 5-word pass leaves only generic 5-word phrases. The h1 reverted to the proposed wording after the 5-word pass showed the first draft shared a heading phrase with the Eye Trends toric page. Every claim quote was matched against its client-facts.json record and the raw Academy Vision page it cites. || CHECKER checker-G4-contacts, 2026-10-08: re-ran tools/overlap-check.mjs --fail 8 (6-word shingles) on this final file: longest shared span 0 words; the --control run reported DETECTED; a 5-word pass leaves only Academy Vision’s own exam-step phrase. Re-verified all 26 claims with tmp/checker-G4-contacts/audit.mjs: each factId exists in facts/client-facts.json, its page equals the fact’s page, the quote sits in the fact record and on the cited audit/raw page, and the claim text is a whole visible sentence; the script’s 12 planted-defect controls all fired. Raw context read for the doctor sentence (Dr. Ullman’s bio lists ‘He prides himself on:’ then ‘Managing difficult contact lens fittings and chronic ocular disease.’; Dr. Lesko’s bio lists ‘His expertise includes:’ then the specialty contact lens line) and for the lens list (3 of the 7 lenses on /contact-lenses/ are for astigmatism). Every we/our/us/Academy Vision sentence is backed by a claim. Changes: (1) link text for /services/multifocal-contacts/: before ‘one lens for reading and distance’, after ‘reading and distance vision in a single lens’; (2) link text for /services/specialty-contacts/: the hard-to-fit wording replaced by ‘larger lenses that rest on the white of the eye’ (Academy Vision’s /contact-lenses/scleral-lenses/ says they are larger than standard contact lenses and rest on the white part of the eye); a first replacement repeated the scleral card excerpt the theme shows on this page (seen in the pipeline’s 13:13 dist build) and was changed; why for both: precaution, each shared a 5-word run with the Eye Trends crawl (below the 6-word review level). Medical read: astigmatism, toric orientation, mild-astigmatism and keratoconus statements match standard guidance (UNVERIFIED against a citation this run). Body 875 words (886 with h1 and kicker); links 4, all new-site paths; tags and schema pass."
+  }
+}

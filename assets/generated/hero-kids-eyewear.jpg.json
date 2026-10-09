@@ -1,0 +1,37 @@
+{
+  "id": "hero-kids-eyewear",
+  "file": "assets/generated/hero-kids-eyewear.jpg",
+  "kind": "hero",
+  "planPurpose": "hero for the kids' eyewear page (gap)",
+  "aiLabel": "AI-generated image (fal-ai/flux-pro/v1.1-ultra, fal.ai). Illustrative only: not a photograph of Academy Vision, its doctors, staff, patients, office or results.",
+  "alt": "Three small children's eyeglass frames in navy, white and light blue on a cream background",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Flat-lay photograph of exactly four small children's eyeglass frames made of smooth one-piece matte plastic, one light blue, one navy, one crystal clear and one pale mint, arranged in a loose two-by-two cluster in the right third of the frame on a warm cream background, each frame with its temples folded, no metal parts, no visible hinges, no screws, no studs, soft shadows, the left half of the frame empty and softly blurred for an overlaid glass text panel, keep the subject clear of the outer 8 percent so a centred mobile crop still holds it, plain smooth temples and bridge with no markings, no engraving, no rivets, no emblems, natural photographic realism, soft diffused daylight, calm, clean and modern, colour palette leaning to deep navy, soft mid blue, warm cream and white, no text, no letters, no numbers, no logos, no labels, no brand marks, no watermarks",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "2",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 999859611,
+  "requestId": "01a119e8-ed75-7a62-9351-a6ef078480d2",
+  "editOf": null,
+  "sourceAttempt": "tmp/imagery-run/attempts/hero-kids-eyewear.a2.jpg",
+  "w": 2752,
+  "h": 1536,
+  "sha256": "f6632252888eff0b59a6a502ded02bcafe6b76f153661e2153e144fbd400cab6",
+  "master": null,
+  "cutout": null,
+  "review": {
+    "verdict": "accept",
+    "checks": [
+      "whole frame: three small one-piece plastic frames (navy, white, light blue) stacked in the right third, temples folded; left half empty cream",
+      "400% corner stud: plain silver arrow, no marks",
+      "100% all six temple-bar halves: plain matte plastic, thin metal cores, no letters",
+      "COUNT FLAG: plan asks for four frames incl. pale mint; delivered three; alt rewritten"
+    ],
+    "notes": "retry 1",
+    "at": "2026-10-08T05:33:39.026Z",
+    "retries": 1
+  },
+  "promotedAt": "2026-10-08T05:33:39.366Z"
+}

@@ -1,0 +1,122 @@
+/* depth.css - the four depth planes (THEME-CORE; DESIGN-SPEC §6): ambient light, photo planes and frames, the seam band,
+   textures and loops, foreground cut-outs, real-place postcards. Sections are never stacking contexts (§4.1), so a
+   cut-out (z 4) in one section paints over the next section's photo (z 0) and glass (z 2). */
+
+/* ------------------------------------------------------------------ plane 1: ambient (§6.1); pools move only with scroll (motion.css) */
+.ambient { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+.ambient::after {        /* navy depth at the edges */
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(135% 100% at 50% 42%, rgba(15, 42, 74, 0) 58%, rgba(15, 42, 74, .085) 100%);
+}
+.pool { position: absolute; border-radius: 50%; width: min(64vw, 980px); aspect-ratio: 1; will-change: transform; }
+.pool--a { top: -340px; left: -16vw; background: radial-gradient(closest-side, rgba(68, 137, 188, .24), rgba(68, 137, 188, .07) 58%, rgba(68, 137, 188, 0)); }
+.pool--b { top: 34%; right: -22vw; background: radial-gradient(closest-side, rgba(68, 137, 188, .18), rgba(68, 137, 188, 0)); }
+.pool--c { top: 8%; left: 30vw; width: min(46vw, 720px); background: radial-gradient(closest-side, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0)); }
+.pool--d { bottom: -280px; left: -14vw; width: min(48vw, 760px); background: radial-gradient(closest-side, rgba(15, 42, 74, .07), rgba(15, 42, 74, 0)); }
+
+/* ------------------------------------------------------------------ seam band (§6.5): the source's segmented divider in CSS */
+.seam-band {
+  position: relative; z-index: var(--z-wash);
+  height: var(--seam-h);
+  background: linear-gradient(90deg,
+    var(--navy) 0 1.56%, var(--white) 1.56% 8.5%, var(--navy) 8.5% 15%, var(--sky) 15% 26.06%,
+    var(--white) 26.06% 28.75%, var(--navy) 28.75% 34.94%, var(--white) 34.94% 44.19%, var(--sky) 44.19% 55.81%,
+    var(--navy) 55.81% 63.63%, var(--white) 63.63% 65.44%, var(--sky) 65.44% 76.63%, var(--white) 76.63% 88.5%,
+    var(--sky) 88.5% 92.69%, var(--navy) 92.69% 100%);
+}
+
+/* ------------------------------------------------------------------ plane 2: photo frames (13.3) */
+.pic { position: relative; overflow: hidden; }
+.pic img, .pic .img-slot { width: 100%; height: 100%; object-fit: cover; object-position: var(--pos, 50% 50%); }
+.pic__in { position: absolute; inset: -30px 0; }
+.pic--plain { overflow: visible; }
+.pic--plain img { height: auto; }
+.pic--fill { position: absolute; inset: 0; z-index: var(--z-photo); }
+.pic--lens-edge { border-top-right-radius: var(--r-lens-edge); border-bottom-right-radius: var(--r-lens-edge); box-shadow: var(--sh-3); }
+.pic--lens-edge::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; box-shadow: inset -1px 0 0 rgba(255, 255, 255, .9), inset -14px 0 30px -18px rgba(255, 255, 255, .9); }
+.pic--arch { aspect-ratio: 4 / 5; border-radius: var(--r-arch); box-shadow: var(--sh-3); }
+.pic--arch::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .75), inset 0 18px 40px -22px rgba(255, 255, 255, .9); }
+.pic--arch img { transition: transform 1s var(--ease-out); }
+.pic--arch:hover img { transform: scale(1.04); }
+.pic--lens {
+  aspect-ratio: 1; border-radius: 50%; padding: clamp(10px, 1.2vw, 16px); overflow: visible;
+  background: linear-gradient(140deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, .35));
+  -webkit-backdrop-filter: blur(var(--blur)) saturate(var(--sat-hero)); backdrop-filter: blur(var(--blur)) saturate(var(--sat-hero));
+  border: 1px solid rgba(255, 255, 255, .9); box-shadow: inset 0 1px 0 #fff, var(--sh-3);
+}
+.pic--lens .pic__circle { position: relative; width: 100%; height: 100%; border-radius: 50%; overflow: hidden; }
+.pic--lens .pic__circle img { transform: scale(1.35); transition: transform 1.2s var(--ease-out); }
+.pic--lens:hover .pic__circle img { transform: scale(1.42); }
+.pic--lens::after { content: ""; position: absolute; inset: clamp(10px, 1.2vw, 16px); border-radius: 50%; pointer-events: none; background: radial-gradient(60% 45% at 32% 22%, rgba(255, 255, 255, .45), rgba(255, 255, 255, 0) 70%); }
+.pic--card { border-radius: 20px; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .75); }
+.pic--portrait { aspect-ratio: 3 / 4; width: min(150px, 100%); border-radius: 26px; border: 5px solid rgba(255, 255, 255, .95); box-shadow: 0 2px 6px rgba(15, 42, 74, .08), 0 26px 40px -22px rgba(15, 42, 74, .55); }
+.pic--portrait img { object-position: 50% 18%; }
+
+/* textures (planes 1-2): cover, decorative */
+.texture { position: absolute; inset: 0; z-index: var(--z-photo); overflow: hidden; pointer-events: none; opacity: var(--tex-o, 1); }
+.texture img { width: 100%; height: 100%; object-fit: cover; }
+
+/* motion loops (§7.4): the poster shows until site.js plays the video (never without JS or with reduced motion) */
+.loop { position: absolute; inset: 0; z-index: var(--z-photo); overflow: hidden; pointer-events: none; }
+.loop > video, .loop > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* the video is shown only when site.js can play it (.js-motion: JS on, motion allowed); otherwise the poster <img>
+   (without JS Chrome would draw native controls on the <video>; under reduced motion it never plays) */
+.loop > video { display: none; }
+.js-motion .loop > video { display: block; }
+.loop-toggle {
+  position: absolute; z-index: var(--z-cutout);
+  display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border-radius: 50%; cursor: pointer;
+  background: rgba(255, 255, 255, .72); border: 1px solid rgba(255, 255, 255, .95); color: var(--navy);
+  -webkit-backdrop-filter: blur(var(--blur-chip)) saturate(160%); backdrop-filter: blur(var(--blur-chip)) saturate(160%);
+  box-shadow: inset 0 1px 0 #fff, var(--sh-1);
+  transition: background-color .25s, transform .3s var(--ease-out);
+}
+.loop-toggle .ico { width: 18px; height: 18px; fill: currentColor; }
+.loop-toggle .loop-toggle__play { display: none; }
+.loop-toggle[data-state="paused"] .loop-toggle__pause { display: none; }
+.loop-toggle[data-state="paused"] .loop-toggle__play { display: block; }
+.loop-toggle:is(:hover, :focus-visible) { background: #fff; }
+.loop-toggle[hidden] { display: none; }
+
+/* bands: sea-glass (arched top, light) and navy surfaces (plane 1) */
+.band--seaglass { isolation: auto; }
+.band--seaglass::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  border-top-left-radius: var(--band-arch); border-top-right-radius: var(--band-arch);
+  background:
+    radial-gradient(42% 60% at 86% 8%, rgba(255, 255, 255, .75), rgba(255, 255, 255, 0) 70%),
+    radial-gradient(38% 50% at 6% 30%, rgba(68, 137, 188, .14), rgba(68, 137, 188, 0) 70%),
+    linear-gradient(180deg, rgba(222, 236, 247, .88) 0%, rgba(232, 241, 248, .62) 55%, rgba(249, 244, 240, 0) 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .9);
+}
+.band--navy { background: linear-gradient(180deg, var(--navy), var(--navy-deep)); color: var(--ink-inv); }
+.band--navy :where(h1, h2, h3, .h2, .h3, .display) { color: var(--ink-inv); }
+.band--navy .eyebrow { color: var(--label-inv); }
+
+/* ------------------------------------------------------------------ plane 4: cut-outs (10.28, §6.3) */
+/* The element IS the object box (aspect from the alpha bounding box measured in parts.mjs); the untrimmed canvas image
+   is offset inside it. Placement (top/left/right/bottom/transform) belongs to the using component. */
+.cutout {
+  position: absolute; z-index: var(--z-cutout); pointer-events: none;
+  width: var(--cut-w, 240px);
+  rotate: var(--rot, 0deg);
+}
+.cutout__obj { position: relative; aspect-ratio: var(--cut-ar, 1); }
+.cutout__obj img { position: absolute; max-width: none; width: var(--cut-iw, 100%); height: auto; left: var(--cut-l, 0); top: var(--cut-t, 0); filter: var(--sh-cut); }
+
+/* ------------------------------------------------------------------ real-place postcards (10.21, G1) */
+/* width is definite (--pc-w, capped by max-width) so the print contributes its own width, not its image's 800 px, to an
+   `auto` grid track or a shrink-to-fit box (min(--pc-w, 100%) cannot resolve while a track is sized: measured
+   2026-10-09, an `auto` column took 754 px at 1024 and pushed the text column past the viewport) */
+.postcard { position: relative; z-index: var(--z-lift); width: var(--pc-w, 400px); max-width: 100%; margin: 0; rotate: var(--tilt, 3deg); transition: rotate .7s var(--ease-out), transform .7s var(--ease-out); }
+.postcard__print { padding: 8px 8px 10px; border-radius: 14px; background: rgba(255, 255, 255, .94); box-shadow: var(--sh-3); }
+.postcard__print img { border-radius: 8px; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .75); }
+@media (hover: hover) { .postcard:hover { rotate: calc(var(--tilt, 3deg) / 3); transform: translateY(-6px); } }
+.postcard:focus-within { rotate: calc(var(--tilt, 3deg) / 3); transform: translateY(-6px); }
+
+@media (forced-colors: active) {
+  .ambient, .cutout, .seam-band, .eyewin__art, .loop, .texture { display: none; }
+}
+@media print {
+  .ambient, .cutout, .loop, .loop-toggle { display: none !important; }
+}

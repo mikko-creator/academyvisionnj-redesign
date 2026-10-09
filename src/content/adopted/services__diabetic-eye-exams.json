@@ -1,0 +1,213 @@
+{
+  "schema": "academyvision/adopted@1",
+  "path": "services/diabetic-eye-exams",
+  "etSource": "services/diabetic-eye-exams",
+  "title": "Diabetic Eye Exams in Pine Beach, NJ | Academy Vision",
+  "metaDescription": "Diabetes can affect your eyes long before you notice. Academy Vision in Pine Beach offers routine diabetic eye exams to monitor changes and step in if needed.",
+  "h1": "Eye Exams for People Living with Diabetes in Pine Beach",
+  "kicker": "Managing Diabetes? Let’s Look After Your Eyes, Too",
+  "lede": "<p>Living with diabetes means keeping track of a lot: blood sugar, medicines, meals, and appointments. Your eyes belong on that list, because diabetes can affect them quietly, long before your vision feels any different.</p><p>At Academy Vision, routine diabetic eye exams let us monitor those changes and step in if needed. Our optometrists take the time to listen and explain, so you know where your eyes stand.</p>",
+  "sections": [
+    {
+      "id": "retinopathy-without-warning",
+      "heading": "Diabetic Retinopathy Can Develop Without Warning",
+      "html": "<p>Over time, high blood sugar can weaken the tiny blood vessels in the retina, the thin, light-sensing tissue that lines the inside of the eye. Those vessels may leak fluid or blood, and in later stages fragile new ones can grow where they don’t belong. This is diabetic retinopathy, and early on it usually causes no symptoms at all.</p><p>Fluid can also build up in the macula, the part of the retina you use for reading and recognizing faces, and blur your central vision. Diabetes raises the risk of cataracts and glaucoma as well. The encouraging part is that changes found early are much easier to manage, which is why a yearly exam matters even when you see well.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "what-a-yearly-exam-gives-you",
+      "heading": "What a Yearly Diabetic Eye Exam Gives You",
+      "html": "<ul><li><strong>A clear view of the retina.</strong> A careful exam of the retina can turn up changes long before they affect your sight.</li><li><strong>Information for your whole care team.</strong> Your eye results add to the picture your endocrinologist or family doctor is building, so bring them up at your next appointment.</li><li><strong>A record that grows each year.</strong> Every exam gives the next one something to compare against, which makes small changes easier to spot.</li></ul>",
+      "layout": "list",
+      "imageSlot": null
+    },
+    {
+      "id": "what-the-exam-involves",
+      "heading": "What a Diabetic Eye Exam Involves",
+      "html": "<p>A diabetic eye exam centers on the retina. Dilating drops are commonly used to widen the pupil so more of the retina can be seen. They can leave your vision blurry and sensitive to light for several hours, so sunglasses, and possibly a driver, are a good idea.</p><p>The retina, including its network of tiny vessels, gets a close look, along with the rest of the eye. We’ll talk through anything we find in plain language and explain what it means for your next steps.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "the-same-practice-year-after-year",
+      "heading": "The Same Practice, Year After Year",
+      "html": "<p>Diabetic eye care is really a long-term relationship. When the same practice sees you every year, each exam can be measured against the last, and gradual changes are much easier to catch. For decades, we’ve been caring for families throughout the Jersey Shore and building relationships that last well beyond a single visit.</p><p>A screening on its own only helps if someone acts on the result. If an exam shows early changes, the next step might be closer monitoring, a conversation with your diabetes care team, or treatment from a retina specialist. What matters is that every finding leads somewhere.</p>",
+      "layout": "text",
+      "imageSlot": null
+    },
+    {
+      "id": "related-medical-eye-care",
+      "heading": "Part of Your Medical Eye Care",
+      "html": "<p>Diabetic eye disease is one of the conditions we manage as part of our <a href=\"/services/medical-eye-care/\">medical eye care</a>. Because diabetes also raises the risk of glaucoma and cataracts, our pages on <a href=\"/services/glaucoma-management/\">glaucoma monitoring</a> and <a href=\"/services/cataract-co-management/\">cataract care</a> are worth a read too.</p>",
+      "layout": "callout",
+      "imageSlot": null
+    }
+  ],
+  "faq": [
+    {
+      "q": "My vision seems fine. Do I still need a diabetic eye exam?",
+      "a": "<p>Yes. Diabetic retinopathy often has no symptoms until it’s advanced, and a careful look at the retina is the only way to know. Most people with diabetes are advised to have an eye exam at least once a year, or more often if their eye doctor recommends it.</p>"
+    },
+    {
+      "q": "Will my insurance cover a diabetic eye exam?",
+      "a": "<p>That depends on your plan. Vision insurance is typically used for routine care, and medical insurance comes into play when there’s a health-related concern with your eyes. Which one a diabetic eye exam falls under can vary with your coverage and the reason you’re coming in. Our team will help check your benefits and explain what’s covered. You can see the plans we accept on our <a href=\"/insurance/\">insurance page</a>, and please bring all of your insurance cards to your appointment.</p>"
+    },
+    {
+      "q": "Can diabetic eye damage be treated?",
+      "a": "<p>Often, yes. Keeping your blood sugar, blood pressure, and cholesterol in a healthy range helps protect the retina. When more advanced changes appear, retina specialists can use treatments such as injections or laser to help preserve vision. The earlier changes are found, the more options there are.</p>"
+    },
+    {
+      "q": "What if my vision changes suddenly?",
+      "a": "<p>Sudden vision loss, a curtain or shadow over part of your vision, or flashes of light with a sudden shower of new floaters need emergency care immediately. For other changes, like vision that blurs and clears as your blood sugar shifts, call us at (732) 978-9306 so we can talk about what to do next.</p>"
+    }
+  ],
+  "cta": {
+    "heading": "Book Your Diabetic Eye Exam in Pine Beach",
+    "html": "<p>If it’s been a year or more since your last diabetic eye exam, now is a good time to schedule one. Call us at (732) 978-9306 or book your visit online. You’ll find us on Route 9 near the Mizzen Avenue light.</p>"
+  },
+  "related": [
+    "services/medical-eye-care",
+    "services/glaucoma-management",
+    "services/cataract-co-management"
+  ],
+  "claims": [
+    {
+      "text": "Diabetic Eye Exams in Pine Beach, NJ | Academy Vision",
+      "factId": "service-diabetic-eye-exams",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Routine diabetic eye exams help us monitor those changes and step in if needed."
+    },
+    {
+      "text": "Eye Exams for People Living with Diabetes in Pine Beach",
+      "factId": "service-diabetic-eye-exams",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Routine diabetic eye exams help us monitor those changes and step in if needed."
+    },
+    {
+      "text": "Managing Diabetes? Let’s Look After Your Eyes, Too",
+      "factId": "service-diabetic-eye-exams",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Routine diabetic eye exams help us monitor those changes and step in if needed."
+    },
+    {
+      "text": "Book Your Diabetic Eye Exam in Pine Beach",
+      "factId": "service-diabetic-eye-exams",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Routine diabetic eye exams help us monitor those changes and step in if needed."
+    },
+    {
+      "text": "The retina, including its network of tiny vessels, gets a close look, along with the rest of the eye.",
+      "factId": "service-exam-includes",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Take a close look at your eye health, including any signs of concerns"
+    },
+    {
+      "text": "Because diabetes also raises the risk of glaucoma and cataracts, our pages on glaucoma monitoring and cataract care are worth a read too.",
+      "factId": "service-ocular-diseases-managed",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Ocular Diseases We Manage Glaucoma"
+    },
+    {
+      "text": "Academy Vision in Pine Beach offers routine diabetic eye exams to monitor changes and step in if needed.",
+      "factId": "service-diabetic-eye-exams",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Routine diabetic eye exams help us monitor those changes and step in if needed."
+    },
+    {
+      "text": "At Academy Vision, routine diabetic eye exams let us monitor those changes and step in if needed.",
+      "factId": "service-diabetic-eye-exams",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Routine diabetic eye exams help us monitor those changes and step in if needed."
+    },
+    {
+      "text": "Our optometrists take the time to listen and explain, so you know where your eyes stand.",
+      "factId": "doctors-team-optometrists",
+      "page": "/our-eye-doctor/",
+      "quote": "At Academy Vision, our team is made up of experienced optometrists who take the time to listen, explain, and make sure you feel comfortable."
+    },
+    {
+      "text": "We’ll talk through anything we find in plain language and explain what it means for your next steps.",
+      "factId": "service-exam-includes",
+      "page": "/eye-care-services/comprehensive-eye-exams/",
+      "quote": "Talk through anything we find in plain language that you can understand"
+    },
+    {
+      "text": "For decades, we’ve been caring for families throughout the Jersey Shore and building relationships that last well beyond a single visit.",
+      "factId": "address-jersey-shore",
+      "page": "/about-us/",
+      "quote": "For decades, we’ve been taking care of families throughout the Jersey Shore, building relationships that last far beyond a single visit."
+    },
+    {
+      "text": "Diabetic eye disease is one of the conditions we manage as part of our medical eye care.",
+      "factId": "service-ocular-diseases-managed",
+      "page": "/eye-care-services/eye-disease-management/",
+      "quote": "Diabetic Eye Disease"
+    },
+    {
+      "text": "Vision insurance is typically used for routine care, and medical insurance comes into play when there’s a health-related concern with your eyes.",
+      "factId": "insurance-vision-routine",
+      "page": "/insurance/",
+      "quote": "Vision insurance is typically used for routine care."
+    },
+    {
+      "text": "Vision insurance is typically used for routine care, and medical insurance comes into play when there’s a health-related concern with your eyes.",
+      "factId": "insurance-medical-concern",
+      "page": "/insurance/",
+      "quote": "Medical insurance comes into play when there’s a health-related concern with your eyes."
+    },
+    {
+      "text": "Our team will help check your benefits and explain what’s covered.",
+      "factId": "staff-benefits-help",
+      "page": "/insurance/",
+      "quote": "Our team at Academy Vision will help verify your benefits, explain what’s covered, and make sure you’re getting the most out of your plan."
+    },
+    {
+      "text": "You can see the plans we accept on our insurance page, and please bring all of your insurance cards to your appointment.",
+      "factId": "insurance-plans",
+      "page": "/insurance/",
+      "quote": "Insurance Plans We Accept Medicare"
+    },
+    {
+      "text": "You can see the plans we accept on our insurance page, and please bring all of your insurance cards to your appointment.",
+      "factId": "booking-registration-insurance-cards",
+      "page": "/patient-registration-form/",
+      "quote": "Please bring all insurance cards with you to your appointment."
+    },
+    {
+      "text": "For other changes, like vision that blurs and clears as your blood sugar shifts, call us at (732) 978-9306 so we can talk about what to do next.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your visit online.",
+      "factId": "phone-primary",
+      "page": "/",
+      "quote": "Call: (732) 978-9306"
+    },
+    {
+      "text": "Call us at (732) 978-9306 or book your visit online.",
+      "factId": "booking-online",
+      "page": "/",
+      "quote": "https://scheduleyourexam.com/v3/index.php/3197"
+    },
+    {
+      "text": "You’ll find us on Route 9 near the Mizzen Avenue light.",
+      "factId": "address-landmark",
+      "page": "/eyeglasses/",
+      "quote": "You’ll find us right on Route 9 near the Mizzen Avenue light."
+    }
+  ],
+  "flags": [
+    "Dilation: Academy Vision’s visible copy never mentions dilation (it appears only in the comprehensive-exam page’s structured data). The page describes dilating drops only as general information (“Dilating drops are commonly used to widen the pupil”). Please state whether diabetic exams at Academy Vision include dilation or retinal imaging, and the page can say so directly.",
+    "Reports to other doctors: the live site never says Academy Vision sends results to a patient’s primary care doctor or endocrinologist, so the page asks patients to share their results themselves. If the practice sends reports, the page can say so.",
+    "Insurance billing: the answer uses Academy Vision’s own vision-versus-medical wording and says the plan that applies can vary. Please state how diabetic eye exams are billed and which of the 12 listed plans apply.",
+    "Referral path: treatment of advanced retinopathy is described generally as care from a retina specialist; no referral partner is named."
+  ],
+  "review": {
+    "overlapLongest": 6,
+    "checkedBy": "checker-G2-medical",
+    "notes": "Writer (writer-G2-medical): node tools/overlap-check.mjs --files <the four G2 files> --fail 8: longest span shared with the Eye Trends crawl is 6 words (fail at 8); every span of 6+ words is the comprehensive-exams page path that claims cite (claims.page), which the tool reads as words; the visible fields alone share at most 5 words (5-word shingles); a --control run detected the inserted sentence (exit 0). Claims map to facts/client-facts.json by factId. Checker (checker-G2-medical, 2026-10-08): re-ran the overlap gate on the final bytes (longest 6, still only the claim page path read as words; the --control run reported DETECTED), the visible fields alone with 5-word shingles (longest 5), all 21 claims (factId exists, page equals the fact page, quote found in audit/raw), every we/our/us/Academy Vision sentence, meta-language, promise and hype words, tags, links (own checker plus the pipeline's own buildPages: 0 errors) and body words (832). No changes: no unsupported practice claim; dilation is described only as general information, results are not promised to other doctors, the insurance answer uses Academy Vision’s own vision-versus-medical wording, and the emergency signs are present. The one duration ('for several hours', dilation) is general information, not an operational promise, on a DIRECT-evidence page."
+  }
+}

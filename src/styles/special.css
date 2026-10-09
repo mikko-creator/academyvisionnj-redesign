@@ -1,0 +1,94 @@
+/* special.css - adopted-page sections, the FAQ accordion, and fallbacks for THEME-TEMPLATES' blocks (DESIGN-SPEC
+   11.16, 5.6, 7.5). */
+
+/* ================================================================== adopted list: chips on a sea-glass band */
+.list-band { padding-top: clamp(96px, 10vw, 150px); }
+.list-band__inner { max-width: 1060px; }
+.list-band__inner .h2 { max-width: 26ch; }
+.rich--list > p { max-width: 70ch; font-size: var(--fs-lead); line-height: 1.68; }
+.rich--list .chip-list { margin-block: 1.2em 1.4em; }
+
+/* ================================================================== adopted split: glass panel + cut-out crossing the band seam (P-cut) */
+/* --ar (the cut-out's object-box aspect) is set on the section by templates.mjs. Geometry, measured with the R-18 probe:
+   the object box is at least 90 px tall from 900 px up (crossing the band edge by half of it, >= 40 px) and the panel
+   keeps clear of the cut-out's footprint (rotation allowance 1.1); below 900 the cut-out stands in its own row above
+   the panel with the band's top edge through its middle (crossing >= 28 px), and holds still (data-depth-from 900). */
+.ad-split {
+  --pt: clamp(72px, 7vw, 112px);
+  --cw: max(clamp(150px, 20vw, 330px), calc(90px * var(--ar, 1)));
+  --cr: clamp(0px, 3vw, 56px);
+  --ad-band: clamp(190px, 17vw, 250px);
+  padding-top: var(--pt);
+}
+.ad-split__band {
+  position: absolute; inset: var(--ad-band) 0 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(40% 60% at 82% 18%, rgba(255, 255, 255, .7), rgba(255, 255, 255, 0) 70%),
+    radial-gradient(36% 50% at 12% 40%, rgba(68, 137, 188, .18), rgba(68, 137, 188, 0) 70%),
+    linear-gradient(180deg, rgba(214, 231, 245, .95) 0%, rgba(232, 241, 248, .7) 55%, rgba(249, 244, 240, 0) 100%);
+  box-shadow: inset 0 1px 0 #fff, inset 0 2px 0 rgba(68, 137, 188, .18);
+}
+.ad-split__inner { position: relative; }
+.ad-split__panel { width: min(100%, 700px, calc(100% - 1.1 * var(--cw) - var(--cr) - 24px)); padding: clamp(26px, 3.4vw, 50px); border-radius: var(--r-xl); }
+.ad-split__cutout {
+  --cut-w: var(--cw);
+  right: var(--cr);
+  top: calc(var(--ad-band) - var(--pt) - var(--cut-w) / var(--cut-ar, 1) * .5);
+}
+@media (max-width: 899.98px) {
+  .ad-split { --pt: 40px; --cw: max(clamp(140px, 40vw, 240px), calc(56px * var(--ar, 1))); --ad-band: calc(var(--pt) + var(--cw) / var(--ar, 1) * .5); }
+  .ad-split__inner { display: flex; flex-direction: column; }
+  .ad-split__panel { width: 100%; }
+  .ad-split__cutout { position: relative; top: auto; right: auto; order: -1; align-self: flex-end; margin: 0 4vw 12px 0; }
+}
+
+/* ================================================================== adopted callout: smoked navy glass over the navy texture */
+.callout { padding-block: calc(var(--section) * .7); }
+.callout__wrap { position: relative; overflow: hidden; isolation: isolate; border-radius: var(--r-xl); padding: clamp(22px, 5vw, 72px); background: var(--navy); box-shadow: var(--sh-3); }
+.callout__panel { position: relative; z-index: 1; max-width: 840px; padding: clamp(24px, 3.4vw, 48px); border-radius: var(--r-lg); }
+.callout__title { margin-bottom: .5em; }
+.callout__panel .rich--inv { font-size: var(--fs-body); line-height: 1.72; }
+@media (max-width: 767.98px) { .callout__wrap { border-radius: 30px; padding: 14px; } }
+
+/* ================================================================== FAQ accordion (native <details>) */
+.faq { padding-block: calc(var(--section) * .6); }
+.faq__list { display: grid; gap: 14px; max-width: 920px; margin-inline: auto; }
+.faq__item { border-radius: 22px; transition: box-shadow .4s var(--ease-out); }
+.faq__q {
+  display: flex; align-items: center; justify-content: space-between; gap: 18px;
+  min-height: 60px; padding: 16px 22px; border-radius: 22px; cursor: pointer; list-style: none;
+  font: 400 1.15rem/1.4 var(--serif); font-synthesis: none; color: var(--navy);
+}
+.faq__q::-webkit-details-marker { display: none; }
+.faq__q::marker { content: ""; }
+.faq__q:is(:hover, :focus-visible) { color: var(--blue-ink); }
+.faq__q:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+.faq__chev { flex: 0 0 auto; width: 14px; height: 10px; fill: none; stroke: var(--blue); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: rotate .35s var(--ease-out); }
+.faq__item[open] .faq__chev { rotate: 180deg; }
+.faq__item[open] { box-shadow: var(--inner), var(--sh-3); }
+.faq__a { padding: 0 22px 22px; font-size: var(--fs-body); line-height: 1.72; color: var(--ink); }
+.faq__a > :last-child { margin-bottom: 0; }
+
+/* ================================================================== fallbacks (§5.6) and preferences (§7.5) */
+@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  .lightbox { background: rgba(10, 29, 52, .92); }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .lightbox { background: #0c2341; -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .carousel__btn { background: #fff; }
+}
+@media (forced-colors: active) {
+  .chip-list > li, .opt-card, .faq__item, .cta-band, .callout__wrap, .sitemap-card, .lens-card { border: 1px solid CanvasText; }
+  .carousel__dot::before { forced-color-adjust: none; background: CanvasText; }
+  .carousel__dot[aria-current="true"]::before { background: Highlight; }
+  .iris-dot, .chip-list > li::before { forced-color-adjust: none; background: CanvasText; }
+  .tpl-pool::before, .pc-split::before, .lens-split::before, .ad-split__band, .cta-band::before, .opt-cell::before, .opt-cell::after { display: none; }
+}
+@media print {
+  .carousel__controls, .carousel__more { display: none !important; }
+  .carousel__viewport { overflow: visible; }
+  .carousel__track { flex-wrap: wrap; }
+  .carousel__slide { flex: 1 1 280px; }
+  .faq__item > :not(summary) { display: block; }
+  .lightbox { display: none !important; }
+}
