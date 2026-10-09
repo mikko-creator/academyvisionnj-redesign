@@ -1254,7 +1254,14 @@ html.menu-open { overflow: hidden; padding-right: var(--sbw, 0px); }
           mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, .5) 16%, #000 38%);
 }
 .hm-hero__media-in { position: absolute; inset: -36px 0 0; }
-.hm-hero__media img { width: 100%; height: 100%; object-fit: cover; object-position: 62% 32%; }
+/* object-position measured for the regenerated hero hero-home (2350x1536, face 62-86% across) with
+   tmp/hero-regen/facegeo.mjs: from 1280 the frame has no horizontal slack (the face clears the panel by 42 px at
+   1280x585 and 169 px at 1600x662); 15% is the least intrusive at 1024x768 and clear at 1180x820 */
+.hm-hero__media img { width: 100%; height: 100%; object-fit: cover; object-position: 15% 32%; }
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  /* tablet portrait: the 700 px panel covers the frame, so keep the face inside the viewport (behind the frosted glass) */
+  .hm-hero__media img { object-position: 90% 32%; }
+}
 /* the Higgsfield loop is the ambient plane the hero glass frosts (image plan: "behind the glass hero panel") */
 .hm-hero__loop {
   z-index: var(--z-wash); right: auto;
@@ -1501,7 +1508,7 @@ main .hm-hero__lead a:not([class]) { color: var(--navy); text-decoration-color: 
   .hm-hero__media { left: 0; width: 100%; bottom: auto; height: calc(var(--header-h) + 96vw);
     -webkit-mask-image: linear-gradient(180deg, #000 72%, transparent 100%); mask-image: linear-gradient(180deg, #000 72%, transparent 100%); }
   .hm-hero__media-in { inset: 0; }
-  .hm-hero__media img { object-position: 66% 30%; }
+  .hm-hero__media img { object-position: 85% 30%; }   /* face fully inside 360-430 px, above the panel (facegeo.mjs) */
   .hm-hero__loop { top: calc(var(--header-h) + 58vw); width: 100%; -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 22%); mask-image: linear-gradient(180deg, transparent 0, #000 22%); }
   .hm-hero__wash { display: none; }
   .hm-hero__panel { padding: 22px 20px 24px; border-radius: 28px; }
