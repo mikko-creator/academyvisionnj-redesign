@@ -145,3 +145,11 @@ not reuse the reviewers' F/V/CSP ids.
 | QA8 | **Home hero resolution:** the home hero photo's source file is 1600 px wide. A full-width hero at 1600x662@1.2 spans 1,920 device px (computed, not measured). The fixer kept the cap because there is no larger source and a person is never AI-upscaled. A sharper image would need a larger original (see A5); whether the CDN has one was not checked | OPEN (DEFERRED) | V4 |
 | QA9 | **Image weight:** `/eye-health/`'s generated hero `hero-eye-health-2000` is 536,926 B, and the insurance logo `united-healthcare-400` is 95,308 B (DOCS measured both files in `dist/assets/img/`). The reviewer puts the insurance logos at 70-95 KB each. Re-encoding a generated image must keep its AI label (XMP) | OPEN (DEFERRED) | CSP-3, CSP-4 |
 | QA10 | **Header under text spacing:** with WCAG 1.4.12 spacing at 1440 and 1600 px wide, the Book pill ends 12-15 px past the glass bar's right edge. The page does not scroll sideways and nothing is cut. Without JS, Esc cannot close a menu opened by CSS hover or focus | OPEN | FIXER:R1, BUILD-NOTES 5.3; F6 |
+
+## G. Revision 2: home hero regenerated (appended 2026-10-09 by the orchestrator)
+
+| id | item | state | evidence |
+|---|---|---|---|
+| R2-1 | **QA8 resolved.** The operator said "regenerate hero image, the girl looks blurry". The source photo (1600x711 at most) painted 1.5-2.3x upscaled. The home hero is now the generated slot `hero-home`: fal flux-pro ultra, 1 of 4 candidates, cropped losslessly to 2350x1536. Measured file px per painted px: 1280x585@1.5 0.65 -> 1.04; 1600x662@1.2 0.79 -> 1.15; 390x844@3 0.43 -> 1.15 | DONE | `tmp/hero-regen/probe.mjs`; CHANGE-LOG Revision 2 |
+| R2-2 | **For the practice:** the home hero now shows an AI-generated model (labelled as AI in its file metadata), not a stock photograph. Her face clears the glass panel from 1180 px up and on phones (`tmp/hero-regen/facegeo.mjs`). If the practice prefers a real photograph there, supply one at least 2400 px wide with the face in the right third | OPEN | `audit/generated-images.json` `hero-home` |
+| R2-3 | The handoff zip `academyvisionnj-com-handoff-v20261009.zip` predates Revision 2. Re-package before handing it over (`sr-package --force --why`, the reasons in `tmp/orch/package-why.txt`) | OPEN | — |

@@ -132,3 +132,41 @@ the live map and the scheduler, real-network timings and a real screen reader.
 | Gate C25 | `docs/HANDOFF.md` renamed to `docs/DEPLOY.md`; `docs/README.md` added as the docs index. `sr-gate`: 22 PASS · 5 FAIL · 2 UNPROVEN of 29 (C25 now PASS; C13, C17, C19, C20 and C23 FAIL, C12 and C22 UNPROVEN, each with its reason in the package manifest) |
 | Handoff zip | `academyvisionnj-com-handoff-v20261009.zip` re-packaged with `--force --why` (reasons in `tmp/orch/package-why.txt` and the manifest): 3,483 entries, 285,975,892 bytes, decontamination CLEAN. Unpacked: secret scan 0 hits for both API keys and 8 other patterns (control fired for all 10); its `dist/` is IDENTICAL to the workspace `dist/` (`41df3b61…`). It does not hold `tools/` (see README) |
 | Repository | `main` pushed with the final tree (this commit); the raw crawl, stock originals, image cache, `tmp/`, `preview/` and the zip stay out of git |
+
+# Revision 2 - 2026-10-09: the home hero regenerated
+
+**Operator:** "regenerate hero image, the girl looks blurry as fuck".
+
+**Cause, measured:**
+- The home hero was Academy Vision's stock photo `glow-woman-wearing-designer-frames`. Its largest file anywhere is
+  1600x711.
+- The hero frame paints it under `object-fit: cover`, so on the operator's windows the browser upscaled it.
+- File px per painted device px was 0.65 at 1280x585@1.5, 0.79 at 1600x662@1.2 and 0.43 at 390x844@3
+  (`tmp/hero-regen/probe.mjs` on the previous build).
+
+**Change:**
+- **Image:** 4 fal flux-pro v1.1-ultra candidates (2752x1536, $0.24). Candidate 3 was accepted after 100% and 200%
+  crops of the eyes, glasses and background: no pseudo-text, natural anatomy. The others were rejected for a face under
+  the panel, sign-like marks, or a centred face. A lossless crop to 2350x1536 moved her face from about 64% to about 74%
+  across (rgb24 framemd5 identical to the cropped source).
+- **Records and alt:** `assets/generated/hero-home.png`, slot `hero-home` in `src/content/image-plan.json`, and a
+  ledger entry with all 4 paid calls in `audit/generated-images.json`. The source's verbatim alt ("A woman with curly red
+  hair and glasses smiles on a street with blurred background") still describes the image, so text parity is unchanged.
+- **Code:**
+  - `src/theme/home.mjs`: the hero uses the slot, with `sizes` that follow the painted cover width
+    (Chrome honours `max()` in `sizes`: 1280x800@1 picked the 1600 variant).
+  - `src/styles/home.css`: object-position from 1024 px, tablet portrait and phones, measured with
+    `tmp/hero-regen/facegeo.mjs`.
+  - `src/build.mjs`: the home page and the home-hero og:image fallback use the new image (14 pages).
+
+**Re-verified:**
+- **Sharpness:** file px per painted px is 1.04 at 1280x585@1.5, 1.15 at 1600x662@1.2, 1.15 at 390x844@3, 1.07 at
+  1920x1080 and 0.82 at 1440x900@2 (the most a 2350 px source allows; it was 0.38). One image request per window.
+- **Face against the glass panel:** clear by 42 px at 1280x585, 169 px at 1600x662 and 80-673 px from 1366 to 2560 px.
+  On phones it sits fully inside the viewport, above the panel. At 1024x768 it is 13 px under the panel (the least
+  intrusive position).
+- **Contrast** on painted pixels, against the same-build control: h1, lead and location card unchanged; the eyebrow
+  p05 is 4.93-5.13 (was 4.96-5.38). The planted control failed every time.
+- **Build checks:** two builds byte-identical; link-check 0 broken; build-verify 12/12 (299 AI-labelled variants).
+- **Live:** gh-pages `fd57da8` built; the home page and its 2000 w hero variant byte-identical to the build; noindex
+  79/79.
