@@ -198,11 +198,41 @@ export function accent(html, { phrase = null, swoosh = false, none = false } = {
       const n = toks.length;
       let k = n - 2;
       if (STOP.has(plain(toks[k].t).toLowerCase()) && k - 1 >= 1) k -= 1;   // never swallow the whole heading
+      /* never start the accent inside a kept phrase ("Schedule Your Dry <em>Eye Consultation</em>" split "Dry Eye",
+         QA round 1 V3): take the phrase's first word in too */
+      if (k - 1 >= 1 && KEEP.some(([re]) => { re.lastIndex = 0; return re.test(plain(toks[k - 1].t) + ' ' + plain(toks[k].t)); })) k -= 1;
       s = toks[k].i; e = toks[n - 1].i + toks[n - 1].t.length;
     }
   }
   const after = src.slice(e);
   return src.slice(0, s) + '<em class="acc">' + src.slice(s, e) + (swoosh && !after.trim() ? SWOOSH : '') + '</em>' + after;
+}
+
+/**
+ * QA round 1 (V3, V11): line-break control for headings, applied to text only (never inside a tag); the words are
+ * unchanged (U+00A0 instead of U+0020; build-verify and text-parity normalise both to a space).
+ *  - "Pine Beach", "Dry Eye(s)" and "Eye Care" never split across lines (measured: "Pine | Beach" in 9 headings at
+ *    1280x585, 8 at 1600x662 and 12 at 390x844, where the mid-heading accent also lost its swoosh look);
+ *  - a heading of 4+ words never ends on one word: its last two words are joined when the joined run is at most 16
+ *    characters (a longer run could overflow a phone panel, e.g. "Giallombardo, O.D." is left alone).
+ */
+const KEEP = [[/\bPine Beach\b/g, 'Pine&nbsp;Beach'], [/\bDry (Eyes?)\b/g, 'Dry&nbsp;$1'], [/\bEye Care\b/g, 'Eye&nbsp;Care']];
+export function keepLines(html) {
+  const parts = String(html ?? '').split(/(<[^>]*>)/);   // even indexes: text; odd: tags (never touched)
+  for (let i = 0; i < parts.length; i += 2) for (const [re, to] of KEEP) parts[i] = parts[i].replace(re, to);
+  const text = parts.filter((_, i) => i % 2 === 0).join('').replace(/&nbsp;/g, ' ');
+  const words = text.trim().split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w));
+  if (words.length < 4) return parts.join('');
+  for (let i = parts.length - 1; i >= 0; i -= 2) {      /* the last plain space of the heading's text */
+    const seg = parts[i];
+    const k = seg.lastIndexOf(' ');
+    if (k === -1) continue;
+    const after = (seg.slice(k + 1) + parts.slice(i + 1).filter((_, j) => j % 2 === 1).join('')).replace(/&nbsp;/g, ' ').trim();
+    const before = seg.slice(0, k).replace(/&nbsp;/g, ' ').split(' ').pop();
+    if (before && after && (before + ' ' + after).length <= 16) parts[i] = seg.slice(0, k) + '&nbsp;' + seg.slice(k + 1);
+    break;
+  }
+  return parts.join('');
 }
 
 /** A single <p> with no inline markup: wrap its final sentence in <mark class="hl"> (designed type, 10.9). */
@@ -348,6 +378,26 @@ export function formatDate(iso) {
   return m ? MONTHS[Number(m[2]) - 1] + ' ' + Number(m[3]) + ', ' + m[1] : String(iso || '');
 }
 
+/* ------------------------------------------------------------------------------------------------ image size hints */
+/** scale every length of a sizes hint: the conditioned entries by fCond, the final (unconditioned) one by fBase
+    (factors below 1 leave the value as it is) */
+export function scaleSizes(sizes, fCond, fBase = fCond) {
+  return String(sizes || '').split(',').map((part) => {
+    const p = part.trim();
+    const f = Math.max(1, p.startsWith('(') ? fCond : fBase);
+    return p.replace(/([0-9.]+)(vw|px)$/, (_, n, u) => String(Math.round(Number(n) * f)) + u);
+  }).join(', ');
+}
+/** frame aspect ratios (width / height) of cover-cropped frames: [from the conditioned breakpoint, below it]. The
+    lens-edge Split measured 824x700 to 824x995 at 1280-1600 (0.83-1.18; 0.85 covers the tall ones) and is 100% x 78vw
+    below 900 px */
+const FRAME_AR = { lens: [1, 1], arch: [0.8, 0.8], 'lens-edge': [0.85, 1 / 0.78] };
+/** the title-band cut-out's object width (chrome.css + interior.css .tpl-cut rules): desktop max(clamp(150px, 16vw,
+    250px), 72px x ar), 768-1023 max(17vw, 70px x ar), phones max(26vw, 40px x ar); each vw taken at its range's
+    smallest width so the floor is covered */
+const TB_CUT_SIZES = (ar) => '(min-width: 1563px) ' + Math.round(Math.max(250, 72 * ar)) + 'px, (min-width: 1024px) ' + +Math.max(16, 72 * ar / 10.24).toFixed(1)
+  + 'vw, (min-width: 768px) ' + +Math.max(17, 70 * ar / 7.68).toFixed(1) + 'vw, ' + +Math.max(26, 40 * ar / 3.6).toFixed(1) + 'vw';
+
 /* ------------------------------------------------------------------------------------------------ the kit */
 export function createKit(ctx, page = null) {
   const preloads = [];
@@ -400,7 +450,7 @@ export function createKit(ctx, page = null) {
   }
   function heading(html, o = {}) {
     const level = o.level === undefined ? 2 : o.level;
-    const inner = o.accent === false ? String(html ?? '') : accent(html, { phrase: o.phrase, swoosh: !!o.swoosh });
+    const inner = keepLines(o.accent === false ? String(html ?? '') : accent(html, { phrase: o.phrase, swoosh: !!o.swoosh }));
     const tag = level ? 'h' + level : 'p';
     return '<' + tag + attrs({ class: o.cls === undefined ? 'h2' : o.cls || null, id: o.id }) + attrs(o.attrs) + '>' + inner + '</' + tag + '>';
   }
@@ -418,7 +468,13 @@ export function createKit(ctx, page = null) {
     preloads.push({ href, imagesrcset: get('srcset'), imagesizes: get('sizes') });
   }
   function picture(ref, o = {}) {
-    const img = ctx.img(ref, { alt: o.alt, sizes: o.sizes, widths: o.widths, width: o.width, loading: o.loading, fetchpriority: o.fetchpriority, cls: o.imgCls });
+    /* cover-cropped frames show the image wider than the frame when the frame is relatively taller than the photo
+       (a 16:9 photo in a 4:5 arch is drawn at 2.2x the arch width); the sizes hint is scaled by that factor so the
+       browser picks a file that covers the drawn width (QA round 1, V4: 1.4-1.9x upscales with 2000 px files unused) */
+    let sizes = o.sizes;
+    const fa = FRAME_AR[o.frame];
+    if (sizes && fa) { const sz = ctx.imgSize(ref); if (sz && sz.w && sz.h) sizes = scaleSizes(sizes, (sz.w / sz.h) / fa[0], (sz.w / sz.h) / fa[1]); }
+    const img = ctx.img(ref, { alt: o.alt, sizes, widths: o.widths, width: o.width, loading: o.loading, fetchpriority: o.fetchpriority, cls: o.imgCls });
     if (o.preload) preloadImage(img);
     let inner = o.depth ? '<div class="pic__in"' + depth(o.depth, o.depthMax || 28) + '>' + img + '</div>' : img;
     if (o.frame === 'lens') inner = '<div class="pic__circle">' + inner + '</div>';
@@ -434,7 +490,11 @@ export function createKit(ctx, page = null) {
       o.width ? '--cut-w:' + o.width : null,
       o.rotate ? '--rot:' + o.rotate + 'deg' : null,
     ].filter(Boolean).join(';');
-    const img = ctx.img(slot, { alt: '', sizes: o.sizes || '(min-width: 1024px) 34vw, 60vw', loading: o.loading || 'lazy', fetchpriority: o.fetchpriority });
+    /* objSizes(ar): the OBJECT box width per breakpoint; the <img> is wider than the object box by box.cw / box.w (the
+       transparent margin around the object), so the hint is scaled by that (QA round 1, V4: the title-band trial lens
+       drew its 480 w file at 569 CSS px, 1.78x at 1280x585@1.5) */
+    const hint = o.objSizes ? scaleSizes(o.objSizes(box.w / box.h), box.cw / box.w) : o.sizes || '(min-width: 1024px) 34vw, 60vw';
+    const img = ctx.img(slot, { alt: '', sizes: hint, loading: o.loading || 'lazy', fetchpriority: o.fetchpriority });
     const d = o.depth === null ? '' : depth(o.depth === undefined ? -0.14 : o.depth, o.depthMax || 44) + (o.depthFrom ? ' data-depth-from="' + esc(o.depthFrom) + '"' : '');
     return '<div' + attrs({ class: 'cutout' + (o.cls ? ' ' + o.cls : ''), 'aria-hidden': 'true', style }) + d + '><div class="cutout__obj">' + img + '</div></div>';
   }
@@ -456,7 +516,10 @@ export function createKit(ctx, page = null) {
     /* the poster is always an <img>; the <video> is displayed only under .js-motion (depth.css), i.e. when site.js can
        play it: with scripting disabled Chrome exposes native controls on any <video> (seen 2026-10-09 as a dead
        "0:00" bar across the hero), and under reduced motion it never plays */
-    const posterImg = poster ? '<img class="loop__poster" src="' + esc(poster) + '" alt="" loading="lazy" decoding="async">' : '';
+    /* o.lcp: the home hero's poster is the largest element of the first screen at 1280x585 (QA round 1, CSP-2: it was
+       loading="lazy" while the preload went to another image); it loads eagerly at high priority and is preloaded */
+    const posterImg = poster ? '<img class="loop__poster" src="' + esc(poster) + '" alt=""' + (o.lcp ? ' fetchpriority="high"' : ' loading="lazy"') + ' decoding="async">' : '';
+    if (poster && o.lcp && !preloads.some((p) => p.href === poster)) preloads.push({ href: poster, imagesrcset: null, imagesizes: null });
     if (o.posterOnly || !sources.length) return poster ? '<div class="loop' + (o.cls ? ' ' + o.cls : '') + '" aria-hidden="true">' + posterImg + '</div>' : '';
     return '<div class="loop' + (o.cls ? ' ' + o.cls : '') + '" aria-hidden="true">' + posterImg + '<video' + attrs({ class: 'loop__video', id: o.id || null, muted: true, playsinline: true, preload: 'none', poster, 'data-loop': id, width: 1920, height: 1068, disablepictureinpicture: true, disableremoteplayback: true, tabindex: '-1' }) + '>'
       + sources.map(([sfx, type, media]) => '<source' + attrs({ 'data-src': ctx.asset(base + sfx), type, 'data-media': media }) + '>').join('') + '</video></div>';
@@ -480,8 +543,9 @@ export function createKit(ctx, page = null) {
     const id = o.id || 'page-title';
     const h1Html = o.h1 != null ? o.h1 : esc(pg ? pg.h1 : '');
     const long = plain(h1Html).length > 40;
-    const h1 = '<h1 class="display title-band__h1' + (long ? ' title-band__h1--long' : '') + '" id="' + esc(id) + '">' + (o.accent === false ? h1Html : accent(h1Html, { phrase: o.phrase, swoosh: true })) + '</h1>';
-    const cta = o.compact || o.cta === false ? '' : Array.isArray(o.cta) ? buttonGroup(o.cta, {}) : ctaPair();
+    const h1 = '<h1 class="display title-band__h1' + (long ? ' title-band__h1--long' : '') + '" id="' + esc(id) + '">' + keepLines(o.accent === false ? h1Html : accent(h1Html, { phrase: o.phrase, swoosh: true })) + '</h1>';
+    /* a compact band has no CTA row unless the caller asks for one (QA round 1: the 404 keeps Book + Call) */
+    const cta = o.cta === false || (o.compact && o.cta === undefined) ? '' : Array.isArray(o.cta) ? buttonGroup(o.cta, {}) : ctaPair();
     let plane = '', aside = o.aside || '', bandStyle = null;
     if ((variant === 'full' || variant === 'half') && image) {
       const half = variant === 'half';
@@ -501,7 +565,7 @@ export function createKit(ctx, page = null) {
     }
     /* depthFrom 1024: below 1024 px the lede card spans the container and THEME-TEMPLATES' notch reserves the cut-out's
        REST footprint, so the cut-out holds still there (R-18 rule 3 counts the full parallax range) */
-    const cut = o.cutout ? cutout(o.cutout, { cls: 'title-band__cutout', depth: -0.14, depthMax: 40, depthFrom: 1024, rotate: -10, sizes: '(min-width: 1024px) 24vw, 42vw', loading: 'eager' }) : '';
+    const cut = o.cutout ? cutout(o.cutout, { cls: 'title-band__cutout', depth: -0.14, depthMax: 40, depthFrom: 1024, rotate: -10, objSizes: TB_CUT_SIZES, loading: 'eager' }) : '';
     const panel = '<div class="title-band__panel glass glass--hero">' + breadcrumbs(pg) + (o.kicker ? eyebrow(o.kicker) : '') + h1 + cta + (o.after || '') + '</div>';
     return '<section' + attrs({ class: 'title-band title-band--' + variant + (o.compact ? ' title-band--compact' : '') + (aside ? ' title-band--aside' : '') + (cut ? ' title-band--cut' : '') + (o.cls ? ' ' + o.cls : ''), 'aria-labelledby': id, style: bandStyle }) + '>'
       + plane + '<div class="container title-band__inner">' + panel + (aside ? '<div class="title-band__aside">' + aside + '</div>' : '') + '</div>' + cut + '</section>' + seam();

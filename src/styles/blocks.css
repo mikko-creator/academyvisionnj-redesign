@@ -176,6 +176,10 @@
 .sitemap-card { display: inline-block; width: 100%; break-inside: avoid; margin: 0 0 clamp(16px, 2vw, 28px); padding: 22px 24px 16px; border-radius: var(--r-lg); }
 .sitemap-card__head { margin: 0 0 8px; font: 400 1.2rem/1.3 var(--serif); }
 .sitemap-card__head a { display: inline-flex; align-items: center; min-height: 44px; color: var(--navy); text-decoration: none; }
+/* a group without child pages: a one-line link card (QA round 1, V2: a full card holding only a title read as empty) */
+.sitemap-card--solo { padding: 10px 24px; }
+.sitemap-card--solo .sitemap-card__head { margin: 0; }
+.sitemap-card--solo .arrow { color: var(--blue-ink); }
 .sitemap-list { margin: 0; padding: 0; list-style: none; }
 .sitemap-list__item { padding-left: calc(var(--depth, 0) * 16px); }
 .sitemap-list__item a { display: inline-flex; align-items: center; min-height: 36px; padding: 2px 0; font: 600 .9375rem/1.35 var(--sans); color: var(--blue-ink); text-decoration: none; }

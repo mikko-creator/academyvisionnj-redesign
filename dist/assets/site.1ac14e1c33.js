@@ -32,6 +32,9 @@
   menus.forEach((m) => {
     const b = btnOf(m);
     if (!b) return;
+    /* the state is announced only where script keeps it true: without JS the panels open by CSS hover / focus-within
+       and a static aria-expanded="false" was wrong while open (QA round 1, F6) */
+    b.setAttribute('aria-expanded', 'false');
     b.addEventListener('click', () => {
       const open = !m.classList.contains('is-open');
       closeAll(m);
@@ -106,7 +109,7 @@
     if (mnav.open) opened();
     if (scrim) scrim.addEventListener('click', () => close(true));
     panel.addEventListener('click', (e) => { if (e.target.closest('a[href]')) close(false); });
-    window.matchMedia('(min-width: 1240px)').addEventListener('change', (e) => { if (e.matches) close(false); });
+    window.matchMedia('(min-width: 77.5em)').addEventListener('change', (e) => { if (e.matches) close(false); });
   }
 
   /* Esc: closes an open desktop panel (focus back to its trigger, hover re-open suppressed until the pointer leaves).
@@ -236,6 +239,15 @@
   /* second look: the hidden offset can slide a gated element into view */
   pending.forEach((el) => { const r = el.getBoundingClientRect(); if (r.top < window.innerHeight && r.bottom > 0) release(el, true); });
   pending.forEach((el) => io.observe(el));
+  /* keyboard focus never lands on a hidden or half-faded reveal (QA round 1, F4: a Tab onto a related card found its
+     .rv ancestor at opacity 0 for up to ~1.4 s): every reveal around the focused element finishes at once */
+  document.addEventListener('focusin', (e) => {
+    for (let n = e.target instanceof Element ? e.target : null; n && n !== document.body; n = n.parentElement) {
+      if (!n.classList.contains('rv')) continue;
+      if (pending.has(n)) release(n, true);
+      else { n.classList.remove('rv', 'is-in'); n.removeAttribute('data-reveal'); }
+    }
+  }, true);
   const sweep = () => {
     if (!pending.size) return;
     const vh = window.innerHeight;
@@ -446,6 +458,10 @@
       });
     });
     doc.addEventListener('keydown', function (e) { if (e.key === 'Escape' && openBox) { var b = openBtn; close(); if (b) b.focus({ preventScroll: true }); } });
+    /* the enlarged view is a full-viewport overlay with nothing to operate: when focus leaves its opening button (Tab,
+       Shift+Tab or any other move) it closes, so the newly focused control and its ring are never behind it
+       (QA round 1, F3: Tab moved focus to the next photo button under the overlay) */
+    doc.addEventListener('focusin', function (e) { if (openBox && e.target !== openBtn) close(); });
   });
 
   /* ------------------------------------------------------------------ forms (10.23): unwired, BUILD-CONTRACT 4.5 */

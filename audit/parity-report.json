@@ -1,0 +1,1312 @@
+{
+  "schema": "site-reforge/parity-report@1",
+  "generated": "2026-10-09T05:23:15.132Z",
+  "sourcePages": 31,
+  "rebuiltFiles": 55,
+  "mappedPages": 31,
+  "missingPages": [],
+  "extraFiles": [
+    "404.html",
+    "eye-health/index.html",
+    "products/designer-frames/index.html",
+    "products/kids-eyewear/index.html",
+    "products/sunglasses/index.html",
+    "services/adult-eye-exams/index.html",
+    "services/back-to-school-eye-exams/index.html",
+    "services/cataract-co-management/index.html",
+    "services/childrens-contact-lenses/index.html",
+    "services/childrens-eye-care/index.html",
+    "services/diabetic-eye-exams/index.html",
+    "services/emergency-eye-care/index.html",
+    "services/flashes-floaters/index.html",
+    "services/foreign-body-removal/index.html",
+    "services/gas-permeable-contacts/index.html",
+    "services/glaucoma-management/index.html",
+    "services/macular-degeneration/index.html",
+    "services/multifocal-contacts/index.html",
+    "services/pink-eye-conjunctivitis/index.html",
+    "services/red-eye-treatment/index.html",
+    "services/same-day-contacts/index.html",
+    "services/senior-eye-exams/index.html",
+    "services/toric-contacts/index.html",
+    "terms/index.html"
+  ],
+  "recallFloor": 0.95,
+  "contentRunFloor": 12,
+  "meanRecall": 0.988,
+  "counts": {
+    "minor": 35,
+    "blocker": 65,
+    "major": 3
+  },
+  "verdict": "DRIFT",
+  "rows": [
+    {
+      "url": "https://www.academyvisionnj.com/",
+      "file": "index.html",
+      "pageType": "home",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 529,
+      "rebuiltWords": 1075,
+      "sourceH1": [
+        "Your Eye Doctors in Pine Beach, NJ"
+      ],
+      "rebuiltH1": [
+        "Your Eye Doctors in Pine Beach, NJ"
+      ],
+      "sourceLinks": 6,
+      "rebuiltLinks": 173,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "20 image(s) without alt",
+          "detail": "index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/about-us",
+      "file": "about-us/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 252,
+      "rebuiltWords": 304,
+      "sourceH1": [
+        "About Academy Vision in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "About Academy Vision in Pine Beach"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 150,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "section-lost",
+          "title": "1 source H2 section(s) absent",
+          "detail": "from toms river to pine beach—a family legacy"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "11 image(s) without alt",
+          "detail": "about-us/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/appointment-request-form",
+      "file": "appointment-request-form/index.html",
+      "pageType": "form",
+      "status": "DIFFERS",
+      "recall": 0.8925,
+      "missingWords": 10,
+      "longestMissingRun": 2,
+      "sourceWords": 100,
+      "rebuiltWords": 548,
+      "sourceH1": [
+        "Appointment Request Form"
+      ],
+      "rebuiltH1": [
+        "Appointment Request Form"
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 148,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 89.2% (floor 95%)",
+          "detail": "missing words: thanks contacting we will touch with shortly in you for"
+        },
+        {
+          "severity": "blocker",
+          "code": "form-no-action",
+          "title": "Form has no action",
+          "detail": "appointment-request-form/index.html"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "9 image(s) without alt",
+          "detail": "appointment-request-form/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+      "file": "eye-health/pediatric-eye-exams-beyond-school-screenings/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 804,
+      "rebuiltWords": 851,
+      "sourceH1": [],
+      "rebuiltH1": [
+        "Pediatric Eye Exams: Beyond School Screenings"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 152,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "description-changed",
+          "title": "Meta description changed",
+          "detail": "eye-health/pediatric-eye-exams-beyond-school-screenings/index.html"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "9 image(s) without alt",
+          "detail": "eye-health/pediatric-eye-exams-beyond-school-screenings/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/contact-lenses",
+      "file": "products/contact-lenses/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 476,
+      "rebuiltWords": 608,
+      "sourceH1": [
+        "Contact Lenses in Pine Beach, NJ"
+      ],
+      "rebuiltH1": [
+        "Contact Lenses in Pine Beach, NJ"
+      ],
+      "sourceLinks": 9,
+      "rebuiltLinks": 156,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "17 image(s) without alt",
+          "detail": "products/contact-lenses/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams",
+      "file": "services/contact-lens-exams/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 401,
+      "rebuiltWords": 603,
+      "sourceH1": [
+        "Contact Lens Exams in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "Contact Lens Exams in Pine Beach"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 157,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "16 image(s) without alt",
+          "detail": "services/contact-lens-exams/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k",
+      "file": "products/contact-lenses/orthokeratology-ortho-k/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 380,
+      "rebuiltWords": 537,
+      "sourceH1": [
+        "Ortho-K Myopia Lenses in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "Ortho-K Myopia Lenses in Pine Beach"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 157,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "15 image(s) without alt",
+          "detail": "products/contact-lenses/orthokeratology-ortho-k/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses",
+      "file": "services/specialty-contacts/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 364,
+      "rebuiltWords": 534,
+      "sourceH1": [
+        "Scleral Lenses for Complex Needs"
+      ],
+      "rebuiltH1": [
+        "Scleral Lenses for Complex Needs"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 156,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "15 image(s) without alt",
+          "detail": "services/specialty-contacts/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/disclaimer",
+      "file": "disclaimer/index.html",
+      "pageType": "legal",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 379,
+      "rebuiltWords": 428,
+      "sourceH1": [
+        "Disclaimer"
+      ],
+      "rebuiltH1": [
+        "Disclaimer"
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 147,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "9 image(s) without alt",
+          "detail": "disclaimer/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services",
+      "file": "services/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9916,
+      "missingWords": 4,
+      "longestMissingRun": 2,
+      "sourceWords": 452,
+      "rebuiltWords": 557,
+      "sourceH1": [
+        "Family-Friendly Eye Care in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "Family-Friendly Eye Care in Pine Beach"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 154,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "12 image(s) without alt",
+          "detail": "services/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams",
+      "file": "services/comprehensive-eye-exams/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 512,
+      "rebuiltWords": 594,
+      "sourceH1": [
+        "Comprehensive Eye Exams in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "Comprehensive Eye Exams in Pine Beach"
+      ],
+      "sourceLinks": 13,
+      "rebuiltLinks": 152,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "13 image(s) without alt",
+          "detail": "services/comprehensive-eye-exams/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment",
+      "file": "services/dry-eye-treatment/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 431,
+      "rebuiltWords": 583,
+      "sourceH1": [
+        "Treatment for Dry Eyes in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "Treatment for Dry Eyes in Pine Beach"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 156,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "description-changed",
+          "title": "Meta description changed",
+          "detail": "services/dry-eye-treatment/index.html"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "16 image(s) without alt",
+          "detail": "services/dry-eye-treatment/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management",
+      "file": "services/medical-eye-care/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 541,
+      "rebuiltWords": 716,
+      "sourceH1": [
+        "Eye Disease care in Pine Beach, NJ"
+      ],
+      "rebuiltH1": [
+        "Eye Disease care in Pine Beach, NJ"
+      ],
+      "sourceLinks": 11,
+      "rebuiltLinks": 157,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "16 image(s) without alt",
+          "detail": "services/medical-eye-care/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management",
+      "file": "services/lasik-co-management/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 375,
+      "rebuiltWords": 530,
+      "sourceH1": [
+        "Thinking About LASIK Eye Surgery?"
+      ],
+      "rebuiltH1": [
+        "Thinking About LASIK Eye Surgery?"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 157,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "16 image(s) without alt",
+          "detail": "services/lasik-co-management/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/myopia-management",
+      "file": "services/myopia-management/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 490,
+      "rebuiltWords": 567,
+      "sourceH1": [
+        "Myopia Control for Children in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "Myopia Control for Children in Pine Beach"
+      ],
+      "sourceLinks": 13,
+      "rebuiltLinks": 157,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "12 image(s) without alt",
+          "detail": "services/myopia-management/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care",
+      "file": "services/pediatric-eye-exams/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 409,
+      "rebuiltWords": 488,
+      "sourceH1": [
+        "Eye Care for Kids in Pine Beach, NJ"
+      ],
+      "rebuiltH1": [
+        "Eye Care for Kids in Pine Beach, NJ"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 156,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "14 image(s) without alt",
+          "detail": "services/pediatric-eye-exams/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eyeglasses",
+      "file": "products/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 601,
+      "rebuiltWords": 710,
+      "sourceH1": [
+        "Eyeglass Frames & Lenses in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "Eyeglass Frames & Lenses in Pine Beach"
+      ],
+      "sourceLinks": 6,
+      "rebuiltLinks": 154,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "13 image(s) without alt",
+          "detail": "products/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses",
+      "file": "products/avulux-migraine-lenses/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 387,
+      "rebuiltWords": 526,
+      "sourceH1": [
+        "Avulux® Migraine Lenses in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "Avulux® Migraine Lenses in Pine Beach"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 157,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "17 image(s) without alt",
+          "detail": "products/avulux-migraine-lenses/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses",
+      "file": "products/stellest-lenses/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 339,
+      "rebuiltWords": 475,
+      "sourceH1": [
+        "Essilor® Stellest® lenses for Myopia"
+      ],
+      "rebuiltH1": [
+        "Essilor® Stellest® lenses for Myopia"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 156,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "16 image(s) without alt",
+          "detail": "products/stellest-lenses/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses",
+      "file": "products/varilux-lenses/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 361,
+      "rebuiltWords": 499,
+      "sourceH1": [
+        "Varilux® Eyeglass Lenses in Pine Beach"
+      ],
+      "rebuiltH1": [
+        "Varilux® Eyeglass Lenses in Pine Beach"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 157,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "16 image(s) without alt",
+          "detail": "products/varilux-lenses/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/hours-location",
+      "file": "eye-doctor-pine-beach/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 268,
+      "rebuiltWords": 293,
+      "sourceH1": [
+        "Local Eye Doctors in Pine Beach, New Jersey"
+      ],
+      "rebuiltH1": [
+        "Local Eye Doctors in Pine Beach, New Jersey"
+      ],
+      "sourceLinks": 6,
+      "rebuiltLinks": 150,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "9 image(s) without alt",
+          "detail": "eye-doctor-pine-beach/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/insurance",
+      "file": "insurance/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 327,
+      "rebuiltWords": 329,
+      "sourceH1": [
+        "Eye Care Insurance & Payment Options"
+      ],
+      "rebuiltH1": [
+        "Eye Care Insurance & Payment Options"
+      ],
+      "sourceLinks": 8,
+      "rebuiltLinks": 146,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "10 image(s) without alt",
+          "detail": "insurance/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/location/academy-vision",
+      "file": "reviews/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.7489,
+      "missingWords": 342,
+      "longestMissingRun": 13,
+      "sourceWords": 1373,
+      "rebuiltWords": 1521,
+      "sourceH1": [
+        "Academy Vision"
+      ],
+      "rebuiltH1": [
+        "Academy Vision"
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 146,
+      "findings": [
+        {
+          "severity": "blocker",
+          "code": "content-loss",
+          "title": "Body content recall 74.9% (floor 95%)",
+          "detail": "missing words: show modern more grateful depth tools scan vs air don't mind because informative initial appt out less mins ive over wouldn trust honest answers everyone"
+        },
+        {
+          "severity": "major",
+          "code": "content-block-missing",
+          "title": "13 consecutive source words absent from the rebuild (limit 12)",
+          "detail": "\"pleasure being seen by dr giollombardo from the moment i walked in the\""
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "9 image(s) without alt",
+          "detail": "reviews/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/our-eye-doctor",
+      "file": "our-doctors/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 247,
+      "rebuiltWords": 281,
+      "sourceH1": [
+        "Your Trusted Pine Beach Eye Doctors"
+      ],
+      "rebuiltH1": [
+        "Your Trusted Pine Beach Eye Doctors"
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 157,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "12 image(s) without alt",
+          "detail": "our-doctors/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/patient-registration-form",
+      "file": "patient-forms/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9935,
+      "missingWords": 10,
+      "longestMissingRun": 2,
+      "sourceWords": 1581,
+      "rebuiltWords": 2029,
+      "sourceH1": [
+        "Patient Registration Form"
+      ],
+      "rebuiltH1": [
+        "Patient Registration Form"
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 149,
+      "findings": [
+        {
+          "severity": "blocker",
+          "code": "form-no-action",
+          "title": "Form has no action",
+          "detail": "patient-forms/index.html"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "9 image(s) without alt",
+          "detail": "patient-forms/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/privacy-policy",
+      "file": "privacy-policy/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 2155,
+      "rebuiltWords": 2204,
+      "sourceH1": [
+        "Privacy Policy"
+      ],
+      "rebuiltH1": [
+        "Privacy Policy"
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 147,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "9 image(s) without alt",
+          "detail": "privacy-policy/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/sitemap",
+      "file": "sitemap/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 60,
+      "rebuiltWords": 148,
+      "sourceH1": [
+        "Sitemap"
+      ],
+      "rebuiltH1": [
+        "Sitemap"
+      ],
+      "sourceLinks": 7,
+      "rebuiltLinks": 197,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "description-changed",
+          "title": "Meta description changed",
+          "detail": "sitemap/index.html"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "10 image(s) without alt",
+          "detail": "sitemap/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+      "file": "our-doctors/dr-anthony-giallombardo-od/index.html",
+      "pageType": "about",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 109,
+      "rebuiltWords": 142,
+      "sourceH1": [
+        "Dr. Anthony Giallombardo, O.D."
+      ],
+      "rebuiltH1": [
+        "Dr. Anthony Giallombardo, O.D."
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 149,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "description-changed",
+          "title": "Meta description changed",
+          "detail": "our-doctors/dr-anthony-giallombardo-od/index.html"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "11 image(s) without alt",
+          "detail": "our-doctors/dr-anthony-giallombardo-od/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+      "file": "our-doctors/dr-marc-ullman-od/index.html",
+      "pageType": "about",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 181,
+      "rebuiltWords": 214,
+      "sourceH1": [
+        "Dr. Marc Ullman, O.D."
+      ],
+      "rebuiltH1": [
+        "Dr. Marc Ullman, O.D."
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 149,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "11 image(s) without alt",
+          "detail": "our-doctors/dr-marc-ullman-od/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+      "file": "our-doctors/dr-tyler-lesko-od/index.html",
+      "pageType": "about",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 215,
+      "rebuiltWords": 248,
+      "sourceH1": [
+        "Dr. Tyler Lesko, O.D."
+      ],
+      "rebuiltH1": [
+        "Dr. Tyler Lesko, O.D."
+      ],
+      "sourceLinks": 4,
+      "rebuiltLinks": 149,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "11 image(s) without alt",
+          "detail": "our-doctors/dr-tyler-lesko-od/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    },
+    {
+      "url": "https://www.academyvisionnj.com/website-accessibility-policy",
+      "file": "accessibility/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 1153,
+      "rebuiltWords": 1202,
+      "sourceH1": [
+        "Website Accessibility Policy"
+      ],
+      "rebuiltH1": [
+        "Website Accessibility Policy"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 148,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "9 image(s) without alt",
+          "detail": "accessibility/index.html"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "+17327361700"
+        },
+        {
+          "severity": "blocker",
+          "code": "contact-lost",
+          "title": "Phone number missing from rebuild",
+          "detail": "(732) 736-1700"
+        }
+      ]
+    }
+  ]
+}

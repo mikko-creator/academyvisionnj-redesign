@@ -46,7 +46,7 @@ export function renderHome(page, ctx, kit) {
     const btns = M.buttons(b);
     const photo = img ? ctx.img(img.file, { alt: img.alt, sizes: '(min-width: 1600px) 1440px, 100vw', loading: 'eager', fetchpriority: 'high' }) : '';
     kit.preloadImage(photo);
-    const loopHtml = kit.loop('loop-lens-light', { cls: 'hm-hero__loop', id: 'hero-loop' });
+    const loopHtml = kit.loop('loop-lens-light', { cls: 'hm-hero__loop', id: 'hero-loop', lcp: true });
     /* WCAG 2.2.2 control for the loop (aria-label only: pure UI, no shown text, DESIGN-SPEC 2.4); hidden until site.js
        can actually play the loop (no JS / reduced motion: the poster only, nothing moves, no control) */
     const toggle = loopHtml.includes('<video') ? '<button class="loop-toggle hm-hero__toggle" type="button" data-loop-toggle="hero-loop" data-state="playing" aria-label="Pause background video" data-label-pause="Pause background video" data-label-play="Play background video" hidden>' + kit.icon('pause', 'loop-toggle__pause') + kit.icon('play', 'loop-toggle__play') + '</button>' : '';
@@ -60,7 +60,9 @@ export function renderHome(page, ctx, kit) {
       + kit.buttonGroup([...btns, kit.call]) + '</div>'
       + '</div>'
       + '<div class="container hm-hero__locwrap">' + kit.locationCard({ cls: 'hm-hero__loc' }) + '</div>'
-      + kit.cutout('cut-eyeglasses-tortoise', { cls: 'hm-hero__cutout', depth: -0.12, depthMax: 44, rotate: -7, sizes: '(min-width: 1024px) 39vw, 66vw', loading: 'eager' })
+      /* lazy (QA round 1, CSP-13): on phones it starts below the fold (top 952 at 390x844); on desktop Chrome's lazy
+         threshold still fetches it at once */
+      + kit.cutout('cut-eyeglasses-tortoise', { cls: 'hm-hero__cutout', depth: -0.12, depthMax: 44, rotate: -7, sizes: '(min-width: 1024px) 39vw, 66vw', loading: 'lazy' })
       + toggle
       + '</section>');
     if (M.block('x5ehTikftR')) out.push(kit.seam());

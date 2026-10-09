@@ -14,6 +14,13 @@ const NESTED_BUSINESS_TYPES = new Set([...BUSINESS_TYPES, 'MedicalOrganization']
 export const CONSOLIDATED_TYPE = ['Optometrist', 'Optician'];
 const IMAGE_KEYS = new Set(['image', 'logo', 'thumbnailUrl', 'contentUrl']);
 const ORIGIN_URL_RE = /^https?:\/\/(?:www\.)?academyvisionnj\.com(?=[/?#]|$)/i;
+/* QA round 1 (CSP-8): the source's JSON-LD strings carried HTML entities ("practice&rsquo;s", "Specialties &amp;
+   Interests"), which JSON consumers read literally; strings are decoded to the characters they stand for */
+const ENT = { amp: '&', rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', nbsp: ' ', ndash: '–', mdash: '—', hellip: '…', quot: '"', apos: "'", reg: '®', trade: '™', copy: '©' };
+export const decodeEntities = (s) => String(s)
+  .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+  .replace(/&#([0-9]+);/g, (_, d) => String.fromCodePoint(Number(d)))
+  .replace(/&([a-z]+);/gi, (m, n) => (ENT[n.toLowerCase()] !== undefined ? ENT[n.toLowerCase()] : m));
 
 export const typesOf = (o) => [].concat((o && o['@type']) || []);
 const hasType = (o, set) => typesOf(o).some((t) => set.has(t));
@@ -82,7 +89,7 @@ export function seoFor(page, raw, adopted, deps) {
           report.droppedImages.push(key + ' ' + v);
           return undefined;
         }
-        return v;
+        return decodeEntities(v);
       }
       if (Array.isArray(v)) return v.map((x) => transform(x, key, true)).filter((x) => x !== undefined);
       if (v && typeof v === 'object') {
@@ -155,6 +162,8 @@ export function seoHead(page) {
   if (page.verification && page.verification.bing) out.push('<meta name="msvalidate.01" content="' + esc(page.verification.bing) + '">');
   const keys = [...OG_ORDER.filter((k) => page.og[k] !== undefined), ...Object.keys(page.og).filter((k) => !OG_ORDER.includes(k)).sort()];
   for (const k of keys) out.push('<meta property="og:' + esc(k) + '" content="' + esc(page.og[k]) + '">');
+  /* QA round 1 (CSP-5): no page had a twitter:card; with an og:image the large-image card applies */
+  if (page.og && page.og.image) out.push('<meta name="twitter:card" content="summary_large_image">');
   for (const b of page.jsonLd) out.push('<script type="application/ld+json">' + jsonForScript(b) + '</script>');
   return out.join('\n');
 }

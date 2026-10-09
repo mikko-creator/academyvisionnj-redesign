@@ -133,6 +133,7 @@ small { font-size: var(--fs-meta); }
   font: 650 var(--fs-eyebrow)/1.4 var(--sans);
   letter-spacing: .17em; text-transform: uppercase;
   color: var(--blue-ink);
+  text-wrap: pretty;   /* QA round 1 (V11): no one-word last line ("THERE'S A | REASON") */
 }
 .eyebrow::before {
   content: ""; flex: 0 0 13px; width: 13px; height: 13px; border-radius: 50%;

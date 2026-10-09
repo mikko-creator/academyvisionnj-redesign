@@ -21,7 +21,7 @@ Each item names its evidence. **Status** is one of three values:
 |---|---|---|---|
 | A1 | Show all 23 adopted pages in the menus as Eye Trends does? | DEFAULTED: yes. The IA lane's `hold` flags are not applied (operator asked for the full Eye Trends structure). The 8 partial/no-evidence pages are listed in C below | BUILD-CONTRACT 4.1; restructure.json nav holds |
 | A2 | Departures from the brand doc: mixed-case display headings (source CSS forces UPPERCASE), a drawn swoosh instead of the 100×5 px rule, pill buttons, and a measured glass-contrast gate instead of the 0.88-alpha veil | DEFAULTED: accepted as part of the total redesign; words unchanged | DESIGN-SPEC O9; BRAND-SYSTEM §7 |
-| A3 | Publish a preview (public GitHub repo + noindex GitHub Pages, like the other reforge projects)? | OPEN: nothing published; local build only | — |
+| A3 | Publish a preview (public GitHub repo + noindex GitHub Pages, like the other reforge projects)? | DECIDED (operator, 2026-10-09): "Public repo + Pages preview". Published to https://github.com/mikko-creator/academyvisionnj-redesign (`main` = source + dist; raw crawl and stock originals excluded) and https://mikko-creator.github.io/academyvisionnj-redesign/ (`gh-pages`). Every page is noindex, nofollow and robots.txt disallows all. Live-checked: the home page and CSS are byte-identical to the build, 79/79 pages are noindex, and the 404 is styled | operator answer in session 33d21252 |
 | A4 | Children's Eye Care group head: keep Academy Vision's pediatric page at `/services/pediatric-eye-exams/` with a new hub page, or swap them (Q8)? | DEFAULTED: keep (IA decision D1, upheld by the IA verifier) | restructure.json decisions D1, Q8 |
 | A5 | Download the full-resolution Adobe Stock originals from the CDN (57 files, 453.6 MB) for sharper full-bleed photos on DPR-2 screens? | DEFAULTED: no. The local 2000 px files cover 1280×585 @1.5 and 1600×662 @1.2 | IMAGE-INVENTORY §2; BUILD-CONTRACT 4.12 |
 | A6 | AI-upscale the three doctors' headshots (223-300 px)? | DEFAULTED: no. Shown at no more than about 150-196 CSS px. Any upscale needs the practice's approval plus a fidelity check | BUILD-CONTRACT 4.10 |
@@ -125,3 +125,23 @@ but not against a cited source:
   embed (replaced by a keyless embed queried by name and address).
 - The "Powered by EyeCarePro" footer credit.
 - The comic-book illustration `practice-35053-c2274987` (D5).
+
+## F. From QA round 1 (appended 2026-10-09 by the DOCS role)
+
+The QA round sent these items to the operator or left them deferred. Each **evidence** cell names the reviewer's
+finding id, recorded in BUILD-NOTES 5.1. A number marked "DOCS measured" was measured on the final `dist/`
+(`41df3b61…`) in the DOCS stage; every other number is the fixer's or a reviewer's. The ids QA1-QA10 are new and do
+not reuse the reviewers' F/V/CSP ids.
+
+| id | decision or item | default in this build | evidence |
+|---|---|---|---|
+| QA1 | **404 page:** add a sentence that explains the error (the page moved, or does not exist)? Any such sentence would be new copy | DEFAULTED: no sentence. The first screen shows "Page not found", Book Appointment, Call (732) 978-9306 and tiles to 5 service pages | V2 / CSP-6; DOCS measured the 404 `<main>` links |
+| QA2 | **Unwired forms:** after a valid submit, the notice reads the source's own "There was an error submitting your form. Please try again.", which cannot succeed while the forms post nowhere. Keep it until the backend is wired (D1), or write new copy? | DEFAULTED: kept verbatim; 0 requests and no success claim (fixer's re-run) | F5; D1 |
+| QA3 | **No-JS forms:** add a sentence beside the disabled Submit that explains why it is disabled? Academy Vision's Book and Call buttons already show in a `<noscript>` block | DEFAULTED: no sentence (it would be new copy) | F6 |
+| QA4 | **Source alt texts** that the accessibility reviewer questioned on `/insurance/` and `/eye-doctor-pine-beach/` | DEFAULTED: kept verbatim (R-22), the same rule as A9 | F9; A9 |
+| QA5 | **Meta description lengths** outside the usual range on 5 pages. Measured by DOCS on `dist/` in characters: the three bios 244, 198 and 186, and `/privacy-policy/` 54, all Academy Vision's own text. `/services/childrens-contact-lenses/` has 161, but it is new writing (adopted JSON), so it could be shortened without touching source text | DEFAULTED: unchanged | CSP-7 (the reviewer's `desc-length` findings in `tmp/review-content-seo-perf/static.json`) |
+| QA6 | **In-page map titles:** the maps on `/eye-doctor-pine-beach/` and `/reviews/` keep the model's verbatim iframe title "Google Map". The footer map now has a descriptive title | DEFAULTED: verbatim | CSP-11 |
+| QA7 | **Hero art direction:** on `/services/` the patient's back of head sits at the glass panel's edge, with about 20 px of crop room at 1600x662. The home hero has 0 px of horizontal crop room at 1280x585. Both need a different crop or a narrower panel | OPEN (DEFERRED by the fixer). `/insurance/` was shifted (x 0%), but its after-state was not re-captured | V8 |
+| QA8 | **Home hero resolution:** the home hero photo's source file is 1600 px wide. A full-width hero at 1600x662@1.2 spans 1,920 device px (computed, not measured). The fixer kept the cap because there is no larger source and a person is never AI-upscaled. A sharper image would need a larger original (see A5); whether the CDN has one was not checked | OPEN (DEFERRED) | V4 |
+| QA9 | **Image weight:** `/eye-health/`'s generated hero `hero-eye-health-2000` is 536,926 B, and the insurance logo `united-healthcare-400` is 95,308 B (DOCS measured both files in `dist/assets/img/`). The reviewer puts the insurance logos at 70-95 KB each. Re-encoding a generated image must keep its AI label (XMP) | OPEN (DEFERRED) | CSP-3, CSP-4 |
+| QA10 | **Header under text spacing:** with WCAG 1.4.12 spacing at 1440 and 1600 px wide, the Book pill ends 12-15 px past the glass bar's right edge. The page does not scroll sideways and nothing is cut. Without JS, Esc cannot close a menu opened by CSS hover or focus | OPEN | FIXER:R1, BUILD-NOTES 5.3; F6 |

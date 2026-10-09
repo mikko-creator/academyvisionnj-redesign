@@ -271,7 +271,10 @@ main .hm-hero__lead a:not([class]) { color: var(--navy); text-decoration-color: 
   .hm-hero__locwrap { position: relative; padding: 14px 0 20px; pointer-events: auto; }
   .hm-hero__loc { transform: none; width: 100%; }
   .hm-hero__cutout { --cut-w: 46vw; right: 4vw; }
-  .hm-hero__toggle { top: calc(var(--header-h) + 12px); bottom: auto; right: var(--gutter); }
+  /* top-left, over the photo's plain background (QA round 1, V13: top-right sat on the woman's hair) */
+  .hm-hero__toggle { top: calc(var(--header-h) + 12px); bottom: auto; right: auto; left: var(--gutter); }
+  /* the iris keeps clear of the screen edge (QA round 1, V13: at -6 % it was clipped by the left edge at 390) */
+  .eyewin__iris { left: 3%; }
   .hm-about { padding-top: 40px; }
   .hm-about__band { width: 100%; height: 60vw; }
   .hm-about__media { -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 16%, #000 80%, transparent 100%); mask-image: linear-gradient(180deg, transparent 0, #000 16%, #000 80%, transparent 100%); }

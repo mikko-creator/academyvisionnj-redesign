@@ -100,7 +100,7 @@ export function header(page, ctx, kit) {
       const slot = EYEWEAR_THUMB[x.href];
       /* width set in chrome.css by the object's aspect (54 px wide, at most 38 px tall), not inline */
       const cut = slot ? kit.cutout(slot, { cls: 'drop__cut', depth: null, sizes: '80px' }) : '';
-      return '<li>' + c.a(x, 'drop__tile', '<span class="drop__thumb" aria-hidden="true">' + cut + '</span><span>' + esc(x.label) + '</span>') + '</li>';
+      return '<li>' + c.a(x, 'drop__tile', '<div class="drop__thumb" aria-hidden="true">' + cut + '</div><span>' + esc(x.label) + '</span>') + '</li>';
     }).join('');
     const lenses = lensItems.length ? '<div class="drop__group"><p class="drop__label">' + esc(groupLabel) + '</p><ul class="drop__list">' + lensItems.map((x) => '<li>' + c.a(x, 'drop__link') + '</li>').join('') + '</ul></div>' : '';
     return '<div class="drop drop--eyewear" id="' + id + '"><div class="drop__panel"><div class="drop__cols"><ul class="drop__tiles">' + tiles + '</ul>' + lenses + '</div>'
@@ -125,7 +125,7 @@ export function header(page, ctx, kit) {
     const sec = sectionOf(ctx, it.href);
     const isMega = (it.children || []).some((g) => g.group === true);
     const panel = isMega ? megaPanel(it, id) : sec === 'about' ? aboutPanel(it, id) : sec === 'eyewear' ? eyewearPanel(it, id) : sec === 'visit' ? visitPanel(it, id) : genericPanel(it, id);
-    return '<li class="nav-item ' + (isMega ? 'has-mega' : 'has-drop') + '" data-menu><button class="nav-link nav-link--menu' + (c.inBranch(it) ? ' is-current' : '') + '" type="button" aria-expanded="false" aria-controls="' + id + '">' + esc(it.label) + chev + '</button>' + panel + '</li>';
+    return '<li class="nav-item ' + (isMega ? 'has-mega' : 'has-drop') + '" data-menu><button class="nav-link nav-link--menu' + (c.inBranch(it) ? ' is-current' : '') + '" type="button" aria-controls="' + id + '">' + esc(it.label) + chev + '</button>' + panel + '</li>';
   }).join('');
   const desktopNav = '<nav class="site-nav" aria-label="Main"><ul class="nav-list">' + navItems + '</ul></nav>';
 

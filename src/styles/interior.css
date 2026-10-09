@@ -106,6 +106,8 @@ ol.chip-list > li::before {
   font: 650 .8125rem/1 var(--sans); color: #fff; background: var(--blue); box-shadow: none;
 }
 .chip-list--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+/* an odd last chip of a 2-column list spans both columns (QA round 1, V10: "Three Reasons" left its 4th cell empty) */
+.chip-list:not(.chip-list--3) > li:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .chip-list > li > :last-child { margin-bottom: 0; }
 /* the lift mirrors on keyboard focus of a link inside the chip (DESIGN-SPEC 8: :focus-within for cards) */
 @media (hover: hover) { .chip-list > li:hover { transform: translateY(-3px); box-shadow: inset 0 1px 0 #fff, var(--sh-2); } }
@@ -118,7 +120,8 @@ ol.chip-list > li::before {
 .statement__body .actions { margin-top: 1.5em; }
 @media (min-width: 1024px) {
   .statement__grid { grid-template-columns: repeat(12, minmax(0, 1fr)); align-items: start; }
-  .statement__head { grid-column: 1 / span 5; }
+  /* sticky (QA round 1, V10): beside a long body the heading travels with it instead of leaving an empty column */
+  .statement__head { grid-column: 1 / span 5; position: sticky; top: calc(var(--header-h) + 32px); }
   .statement__body { grid-column: 6 / span 7; }
 }
 @media (max-width: 767.98px) {
@@ -317,37 +320,58 @@ ol.chip-list > li::before {
   .tb-portrait .pic--portrait { width: 120px; }
   .title-band--bio .title-band__panel > :is(.crumbs, .eyebrow, .title-band__h1) { margin-right: 0; }
 }
-/* form bands (10.23): the page's job is the form, so its texture band (CTA row kept) takes the compact height and the
-   first fields reach the first screen (at 1440x900 the full band left the form below the fold) */
-@media (min-width: 768px) { .tpl-form.title-band { min-height: clamp(400px, 58svh, 600px); } }
-/* compact band (legal, sitemap: 10.24, 10.25). THEME-CORE's short-window rule (.title-band, min-height 92svh) comes
-   later in the cascade than .title-band--compact and cancels it at 1280x585 (the band filled the first screen and the
-   policy started below the fold); this role's compact bands restate the compact height. */
-@media (min-width: 1024px) and (max-height: 700px) { .tpl-compact.title-band--compact { min-height: clamp(400px, 58svh, 600px); } }
-/* postcard band (/about-us/, 10.5 + 11.5): the print crosses the band's bottom seam (P-frame). kit.titleBand puts it in
-   .title-band__aside, which the band's flex row centres beside the panel, so the print floated at the band's top; the
-   aside aligned to the row's bottom lets the print's own negative bottom margin (chrome.css) carry it over the seam. */
-@media (min-width: 768px) { .tpl-postcard .title-band__aside { align-self: flex-end; } }
+/* utility bands (QA round 1, V2 V7 CSP-6: forms 10.23, legal 10.24 incl. /terms/, sitemap 10.25, the 404 11.17). The
+   earlier compact height (clamp(400px, 58svh, 600px)) centred a one-line H1 in a 640 px panel inside a 400+ px band:
+   the right half and 100-120 px under the panel stayed empty, the policy / form / tiles started below the fold at
+   1280x585, and on the forms a two-row panel (H1 + CTA) sat 16-30 px under the header. The band now sizes to its panel
+   with a fixed gap under the header, the panel to its content (440-640 px), and the first section comes up closer. */
+@media (min-width: 768px) {
+  .title-band.tpl-util { min-height: 0; padding-top: calc(var(--header-h) + clamp(36px, 6vh, 56px)); padding-bottom: clamp(64px, 9vh, 96px); }
+  .tpl-util .title-band__panel { width: auto; min-width: min(100%, 440px); max-width: 640px; }
+  .tpl-util + .seam-band + .section { padding-top: clamp(40px, 5vw, 64px); }
+  .tpl-util + .seam-band + .lede-wrap, .tpl-util + .seam-band + .tpl-lede > .lede-wrap { margin-top: -40px; }
+}
+/* postcard band (/about-us/, 10.5 + 11.5): the print crosses the band's bottom seam (P-frame) on tablets. kit.titleBand
+   puts it in .title-band__aside, aligned to the row's bottom so the print's own negative bottom margin (chrome.css)
+   carries it over the seam. QA round 1 (V1, major): on desktop that put the print in the band's lower right, mostly
+   below the fold at 1280x585 / 1600x662, with the right half above it empty; from 1024 the print sits beside the
+   panel, centred on it (it no longer crosses the seam there; the lede card still straddles it). */
+@media (min-width: 768px) and (max-width: 1023.98px) { .tpl-postcard .title-band__aside { align-self: flex-end; } }
+@media (min-width: 1024px) {
+  .tpl-postcard .title-band__inner { align-items: center; }
+  .tpl-postcard .title-band__aside { align-self: center; margin-right: clamp(0px, 2vw, 40px); }
+  .tpl-postcard .title-band__postcard { margin-bottom: 0; }
+}
+/* reviews (11.9): the panel holds a short H1, Book and the stars; it fits them (QA round 1, V9: a 640 px panel left a
+   large empty glass area) */
+@media (min-width: 768px) { .title-band--reviews .title-band__panel { width: auto; min-width: min(100%, 400px); } }
 
 /* reviews: the stars under the CTA row */
 .tb-stars { margin: 18px 0 0; }
 .tb-stars .stars .ico { width: 22px; height: 22px; }
 
-/* town page: the location card straddles the seam on the right, beside the lede card (11.8, P-straddle) */
+/* town page (11.8): the location card is the title band's aside (QA round 1, V1, major: straddling the seam below the
+   panel it left the band's right half empty in the first screen at 1280x585 and 1600x662). From 1024 px it sits
+   beside the panel, centred on it; below 1024 it follows the panel inside the band. */
 .town-straddle { position: relative; display: flow-root; }
-.town-straddle .lede-card { width: min(100%, 600px); }
-.town-straddle__loc { position: absolute; z-index: var(--z-lift); top: calc(-1 * clamp(80px, 9vw, 132px)); left: 0; right: 0; display: flex; justify-content: flex-end; pointer-events: none; }
-.tb-loc { pointer-events: auto; width: min(100%, 340px); }
-@media (max-width: 1023.98px) { .town-straddle .lede-card { width: min(100%, 520px); } .tb-loc { width: min(100%, 300px); } }
-@media (max-width: 899.98px) {
-  .town-straddle__loc { position: relative; top: auto; margin-top: 18px; justify-content: flex-start; }
-  .town-straddle .lede-card { width: 100%; }
-  .tb-loc { width: min(100%, 360px); }
+.town-straddle .lede-card { width: min(100%, 720px); }
+.tb-loc { width: min(100%, 360px); }
+@media (min-width: 1024px) { .title-band--town .title-band__aside { margin-right: clamp(0px, 3vw, 56px); } }
+@media (max-width: 1023.98px) {
+  .title-band--town .title-band__inner { display: block; }
+  .title-band--town .title-band__aside { margin-top: 20px; }
 }
 
 /* ================================================================== related (10.29) */
 .related__head { margin-bottom: clamp(56px, 6vw, 84px); }
 .related__head .h2 { margin-bottom: 0; }
+/* a short last row is centred (QA round 1, CSP-1: /services/ left an empty third slot; after the de-duplication
+   /products/ has 4 related pages): the grid becomes a centred wrapping row with the same 3 / 2 column widths */
+@media (min-width: 768px) {
+  .card-grid--related { display: flex; flex-wrap: wrap; justify-content: center; }
+  .card-grid--related > .card { flex: 0 1 calc((100% - clamp(16px, 2vw, 28px)) / 2); }
+}
+@media (min-width: 1024px) { .card-grid--related > .card { flex-basis: calc((100% - 2 * clamp(16px, 2vw, 28px)) / 3); } }
 /* doctor portraits stay small (BUILD-CONTRACT 4.10): a 150 px portrait instead of the 16:10 card photo */
 .related .card--portrait .card__media--portrait { aspect-ratio: auto; display: grid; place-items: center; padding-top: 0; background: none; box-shadow: none; overflow: visible; }
 .related .card--portrait .pic--portrait { width: 120px; margin-top: -48px; }
@@ -356,3 +380,8 @@ ol.chip-list > li::before {
   .related .card--portrait .card__media--portrait { width: 96px; }
   .related .card--portrait .pic--portrait { width: 96px; margin-top: 0; border-width: 4px; border-radius: 18px; }
 }
+
+/* ================================================================== 404 tiles (11.17) */
+/* QA round 1 (V2, CSP-6): each tile carried a 16:7 iris placeholder, so at 1280x585 the five group names started below
+   the fold under five empty frames; the placeholder is a short strip here, and the names reach the first screen */
+@media (min-width: 768px) { .nf-tiles .card__media--tile { aspect-ratio: auto; height: clamp(56px, 6vw, 76px); } }

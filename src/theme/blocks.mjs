@@ -212,8 +212,10 @@ export function sitemapGroups(pc, node) {
     const items = head ? g.items.filter((it) => it !== head) : g.items;
     const base = head ? Math.min(...g.items.map((it) => it.depth)) + (g.items.includes(head) ? 1 : 0) : 0;
     const hid = 'sm-' + esc(g.id);
-    return '<div class="sitemap-card glass">'
-      + (head ? '<h2 class="sitemap-card__head" id="' + hid + '"><a href="' + esc(head.href) + '">' + esc(head.label) + '</a></h2>' : '')
+    /* a group with no child pages (Homepage, Insurance) is a one-line link card with the card arrow (QA round 1, V2) */
+    const solo = !!head && !items.length;
+    return '<div class="sitemap-card glass' + (solo ? ' sitemap-card--solo' : '') + '">'
+      + (head ? '<h2 class="sitemap-card__head" id="' + hid + '"><a href="' + esc(head.href) + '">' + esc(head.label) + (solo ? '&nbsp;<span class="arrow" aria-hidden="true">»</span>' : '') + '</a></h2>' : '')
       + (items.length ? '<ul class="sitemap-list">' + items.map((it) => '<li class="sitemap-list__item" style="--depth:' + Math.max(0, it.depth - base) + '"><a href="' + esc(it.href) + '">' + esc(it.label) + '</a></li>').join('') + '</ul>' : '')
       + '</div>';
   }).join('') + '</div>';
@@ -286,7 +288,9 @@ export function form(pc, n) {
     const desc = f.description ? '<p class="field__desc" id="' + descId + '">' + esc(f.description) + '</p>' : '';
     /* DESIGN-SPEC 10.23: errors under the field with role="alert" (as the source runtime wrote them); features.js fills
        them with messages.validation and links them to the control with aria-describedby */
-    const err = '<p class="field__error" id="' + errId + '" role="alert" hidden></p>';
+    /* no role="alert" per field (QA round 1, F10: an empty submit raised 7-8 alerts at once); focus moves to the first
+       invalid control, whose aria-describedby carries its error */
+    const err = '<p class="field__error" id="' + errId + '" hidden></p>';
     const choice = ins.length && ins.every((i) => i.type === 'radio' || i.type === 'checkbox');
     if (choice) {
       return '<fieldset' + attrs({ ...box, 'data-choice': ins[0].type, 'data-required': f.required || ins.some((i) => i.required || i.requiredGroup) ? '1' : null, 'aria-describedby': descId }) + '>'
@@ -309,6 +313,9 @@ export function form(pc, n) {
     + '<div class="form__fields">' + n.fields.map(field).join('') + '</div>'
     /* disabled until features.js runs: without JS an unwired form would GET its fields into a URL (BUILD-NOTES 1.3.3) */
     + '<div class="form__submit"><button type="submit" class="btn btn--primary" disabled data-unwired-submit>' + esc((n.submit && n.submit.label) || '') + kit.icon('arrow', 'btn__arrow') + '</button></div>'
+    /* without JS the Submit stays disabled (the forms are unwired): Academy Vision's own Book and Call buttons sit
+       beside it (QA round 1, F6) */
+    + '<noscript><div class="actions form__noscript">' + kit.ctaPair() + '</div></noscript>'
     /* the honest notice: the source's own error copy plus the practice's scheduler and phone (never a success claim) */
     + '<div class="form__notice" role="alert" tabindex="-1" hidden><p class="form__notice-text"></p>' + kit.ctaPair({ size: 'sm', cls: 'form__notice-actions' }) + '</div>'
     + '</form>';

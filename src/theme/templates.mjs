@@ -65,6 +65,12 @@ const heroPosition = (slot) => HERO_POS[slot] || '70% 45%';
  * and the clinician's face (73-88 % x) right of the panel and below the header at 1280x585, 1600x662 and 390x844.
  */
 const HALF_HEROES = new Set(['hero-multifocal-contacts', 'hero-glaucoma-management']);
+/** half-band photo positions by master (QA round 1, V8): the insurance photo's woman ("cut by the left edge", crop note)
+    sat under the panel's top-right corner at 1280x585; x 0% uses the photo's whole horizontal crop room (about 55 px
+    at 1280x585, 20 px at 1600x662) to move her right */
+const TB_POS = { 'photo-as-213609213': '0% 40%' };
+/** the bios' title-band photo (QA round 1, V1): the doctors page's own half-band photo */
+const BIO_PHOTO = 'photo-as-1227180789';
 
 /* ============================================================================================ title band + lede */
 function titleCutout(page) {
@@ -116,7 +122,7 @@ const isCtaButton = (ctx, b) => b.href === ctx.site.booking.href || /^tel:/i.tes
 const h1Index = (blocks) => blocks.findIndex((b) => (b.nodes || []).some((n) => n.t === 'heading' && n.level === 1));
 
 /** title band (kit) + lede card from a model H1 block (DESIGN-SPEC 10.5 variant rules) */
-function modelTitle(pc, block, { variant = null, aside = '', cta, compact = false, accent = true, after = '', cls = '' } = {}) {
+function modelTitle(pc, block, { variant = null, aside = '', cta, compact = false, accent = true, after = '', cls = '', image: imageOverride = null } = {}) {
   const { page, kit } = pc;
   const nodes = block ? block.nodes : [];
   const kick = nodes.filter((n) => n.t === 'html' && n.hint === 'kicker');
@@ -125,8 +131,8 @@ function modelTitle(pc, block, { variant = null, aside = '', cta, compact = fals
   const btns = nodes.filter((n) => n.t === 'button');
   const img = nodes.find((n) => n.t === 'image');
   const v = variant || (img ? (img.w >= 1000 ? 'half' : 'postcard') : 'texture');
-  const image = img && (v === 'half' || v === 'full') ? { ref: img.file, alt: img.alt, position: '50% 40%' }
-    : img && v === 'postcard' ? { ref: img.file, alt: img.alt, width: Math.min(400, Math.round(img.w / 1.5)) } : undefined;
+  const image = imageOverride || (img && (v === 'half' || v === 'full') ? { ref: img.file, alt: img.alt, position: TB_POS[(masterOf(pc.ctx, img.file) || {}).id] || '50% 40%' }
+    : img && v === 'postcard' ? { ref: img.file, alt: img.alt, width: Math.min(400, Math.round(img.w / 1.5)) } : undefined);
   const h1Html = h1 ? h1.html : esc(page.h1);
   const band = kit.titleBand(page, {
     variant: v, image, kicker: kick.map((k) => kit.unwrapP(k.html)).join(' ') || undefined, h1: h1Html,
@@ -271,7 +277,7 @@ function relatedItems(page, ctx) {
   for (const r of page.related || []) add(r.href, r);
   return out.slice(0, 6);
 }
-function relatedHead(pc, hid) {
+function relatedHead(pc, hid, items = []) {
   const { page, ctx, kit } = pc;
   const fromModel = (path) => {
     const pg = (ctx.pagesByPath || {})[path];
@@ -281,16 +287,26 @@ function relatedHead(pc, hid) {
   let src = null;
   if (page.section === 'services' && page.path !== '/services/') src = fromModel('/services/');
   if (page.section === 'eyewear' && page.path !== '/products/') src = fromModel('/products/');
+  /* QA round 1 (CSP-10): a band of service (or eyewear) pages on a page of another section takes that section's
+     heading (on /eye-health/ the band of Medical / Emergency Eye Care was headed "About Us") */
+  if (!src && page.section !== 'services' && items.length && items.every((r) => r.href.startsWith('/services/'))) src = fromModel('/services/');
+  if (!src && page.section !== 'eyewear' && items.length && items.every((r) => r.href.startsWith('/products/'))) src = fromModel('/products/');
   if (src && src.heading) return (src.kicker ? kit.eyebrow(src.kicker.html) : '') + kit.heading(src.heading.html, { level: 2, cls: 'h2', id: hid, ...accentOpts(src.heading.html) });
   const top = { services: '/services/', eyewear: '/products/', about: '/about-us/', visit: '/eye-doctor-pine-beach/', reviews: '/reviews/', insurance: '/insurance/' }[page.section];
   return top ? kit.heading(esc(navLabel(ctx, top)), { level: 2, cls: 'h2', id: hid, accent: false }) : '';
 }
-function relatedSection(pc) {
+/** the page's main html + its Related band. QA round 1 (CSP-1): a page never repeats in Related a page its own card,
+    post card or tile links already lead to (the hubs /services/, /products/ and /eye-health/ showed their own grid a
+    second time, same photos and excerpts) */
+function withRelated(pc, html) { return html + relatedSection(pc, html); }
+const linkedCards = (html) => new Set([...String(html || '').matchAll(/<a class="stretched" href="([^"]+)"|class="h3 post-card__title"><a href="([^"]+)"/g)].map((m) => m[1] || m[2]));
+function relatedSection(pc, mainHtml = '') {
   const { page, ctx, kit } = pc;
-  const items = relatedItems(page, ctx);
+  const already = linkedCards(mainHtml);
+  const items = relatedItems(page, ctx).filter((r) => !already.has(r.href));
   if (!items.length) return '';
   const hid = 'h-related';
-  const head = relatedHead(pc, hid);
+  const head = relatedHead(pc, hid, items);
   const cards = items.map((r) => {
     const isSlot = r.image && !/[/.]/.test(r.image);
     const m = r.image && !isSlot ? masterOf(ctx, r.image) : null;
@@ -298,10 +314,10 @@ function relatedSection(pc) {
     if (r.image && !isSlot && ((m && m.realPerson) || (sz && sz.w < 600))) {
       /* doctor portraits (223-300 px sources) stay small (BUILD-CONTRACT 4.10): a portrait card in the kit's card look */
       return '<li class="card glass glass--strong card--portrait"' + kit.reveal('up') + '><div class="card__media card__media--portrait">' + kit.picture(r.image, { alt: '', frame: 'portrait', widths: [150, 300], sizes: '150px', width: 150 }) + '</div>'
-        + '<div class="card__body"><h3 class="card__title"><a class="stretched" href="' + esc(r.href) + '">' + esc(r.label) + '&nbsp;<span class="arrow" aria-hidden="true">»</span></a></h3>' + (r.excerpt ? '<p class="card__text">' + esc(r.excerpt) + '</p>' : '') + '</div></li>';
+        + '<div class="card__body"><h' + (head ? 3 : 2) + ' class="card__title"><a class="stretched" href="' + esc(r.href) + '">' + esc(r.label) + '&nbsp;<span class="arrow" aria-hidden="true">»</span></a></h' + (head ? 3 : 2) + '>' + (r.excerpt ? '<p class="card__text">' + esc(r.excerpt) + '</p>' : '') + '</div></li>';
     }
     const image = r.image && (!isSlot || slotExists(ctx, r.image)) ? r.image : null;
-    return kit.card({ href: r.href, title: r.label, excerpt: r.excerpt || undefined, image, alt: '' }, { level: 3 });
+    return kit.card({ href: r.href, title: r.label, excerpt: r.excerpt || undefined, image, alt: '' }, { level: head ? 3 : 2 });
   }).join('');
   return '<section class="section related band--seaglass"' + (head ? ' aria-labelledby="' + hid + '"' : '') + '><div class="container">'
     + (head ? '<div class="related__head"' + kit.reveal('up') + '>' + head + '</div>' : '') + '<ul class="card-grid card-grid--related"' + kit.stagger() + '>' + cards + '</ul></div></section>';
@@ -317,7 +333,7 @@ function modelPage(pc) {
   const before = hi > 0 ? renderBlocks(pc, blocks.slice(0, hi), 0, { skipLeadingDivider: false }).html : '';
   const body = renderBlocks(pc, blocks, hi + 1);
   const strip = body.endsWithCta || page.kind === 'service-hub' ? '' : kit.ctaStrip();
-  return t.band + t.lede + before + (leftovers ? kit.section({ cls: 'section--tight' }, leftovers) : '') + body.html + strip + relatedSection(pc);
+  return withRelated(pc, t.band + t.lede + before + (leftovers ? kit.section({ cls: 'section--tight' }, leftovers) : '') + body.html + strip);
 }
 
 /** DESIGN-SPEC 10.15 doctor bio: texture band with the portrait breaking out of the panel; biography in a veil panel */
@@ -327,7 +343,13 @@ function bioPage(pc) {
   const b = blocks[Math.max(0, h1Index(blocks))];
   const photo = b.nodes.find((n) => n.t === 'team' && n.kind === 'photo');
   const aside = photo ? '<div class="tb-portrait">' + kit.picture(photo.image.file, { alt: photo.image.alt, frame: 'portrait', widths: [150, 300], sizes: '150px', width: 150, loading: 'eager' }) + '</div>' : '';
-  const t = modelTitle(pc, b, { variant: 'texture', after: aside, cls: 'title-band--bio' });
+  /* QA round 1 (V1, major): the texture band left the right half of the first screen empty beside a 150 px portrait.
+     The bios take /our-doctors/' own half-band photo (photo-as-1227180789, an exam room with no person in it, DESIGN-SPEC
+     10.4) as a decorative plane (alt "": it repeats the parent page's image and is never captioned as the practice's
+     room). Fail closed: the build stops if the master is missing. */
+  const room = (pc.ctx.imageMasters || []).find((m) => m.id === BIO_PHOTO);
+  if (!room) throw new Error('templates: bio band photo ' + BIO_PHOTO + ' not in image-masters.json');
+  const t = modelTitle(pc, b, { variant: 'half', image: { ref: room.file, alt: '', position: '62% 40%' }, after: aside, cls: 'title-band--bio' });
   let body = '';
   for (const n of b.nodes) {
     if (t.used.has(n) || n === photo) continue;
@@ -335,7 +357,7 @@ function bioPage(pc) {
     else body += renderNode(pc, n);   /* empty positions / languages / highlights render nothing */
   }
   for (const other of blocks) if (other !== b) body += renderBlocks(pc, [other], 0, { skipLeadingDivider: false }).html;
-  return t.band + t.lede + body + kit.ctaStrip() + relatedSection(pc);
+  return withRelated(pc, t.band + t.lede + body + kit.ctaStrip());
 }
 
 /** DESIGN-SPEC 11.8 town page: block 2 (H1) first as the title band with the location card; hours + map; the mural */
@@ -349,8 +371,10 @@ function locationPage(pc) {
   const summary = info ? info.nodes.find((n) => n.t === 'location' && (n.show || []).some((s) => ['phone', 'address', 'name'].includes(s))) : null;
   const hours = info ? info.nodes.find((n) => n.t === 'location' && (n.show || []).includes('hours')) : null;
   const map = info ? info.nodes.find((n) => n.t === 'location' && (n.show || []).includes('map')) : null;
-  const card = summary ? '<div class="container town-straddle__loc"><div class="tb-loc">' + locationCard(pc, summary, { labelHtml: nameNode ? nameNode.html : null }) + '</div></div>' : '';
-  const t = modelTitle(pc, blocks[hi], { variant: 'texture', cls: 'title-band--town' });
+  /* QA round 1 (V1, major): the card straddled the seam below the panel, leaving the band's right half empty in the
+     first screen; it is now the band's aside (beside the panel from 1024 px, under it below) */
+  const card = summary ? '<div class="tb-loc">' + locationCard(pc, summary, { labelHtml: nameNode ? nameNode.html : null }) + '</div>' : '';
+  const t = modelTitle(pc, blocks[hi], { variant: 'texture', aside: card, cls: 'title-band--town' });
   const used = new Set([nameNode, summary, hours, map].filter(Boolean));
   const extra = info ? info.nodes.filter((n) => !used.has(n)).map((n) => renderNode(pc, n)).join('') : '';
   let rest = '';
@@ -367,7 +391,7 @@ function locationPage(pc) {
       rest += splitSection(pc, b, { layout: 'postcard', side: a.side, image, textNodesList: a.text });
     } else rest += renderBlocks(pc, [b], 0, { skipLeadingDivider: false }).html;
   });
-  return t.band + '<div class="town-straddle">' + t.lede + card + '</div>' + visitBand(pc, { hours, map }) + (extra ? kit.section({ cls: 'section--tight' }, extra) : '') + rest + kit.ctaStrip() + relatedSection(pc);
+  return withRelated(pc, t.band + '<div class="town-straddle">' + t.lede + '</div>' + visitBand(pc, { hours, map }) + (extra ? kit.section({ cls: 'section--tight' }, extra) : '') + rest + kit.ctaStrip());
 }
 
 /** DESIGN-SPEC 11.9 reviews: full band (lens still), stars, Book; the carousel; practice photos; map; CTA strip */
@@ -398,7 +422,7 @@ function reviewsPage(pc) {
   const extra = b.nodes.filter((n) => !used.has(n)).map((n) => renderNode(pc, n)).join('');
   if (extra) out += kit.section({ cls: 'section--tight' }, extra);
   for (const other of blocks) if (other !== b) out += renderBlocks(pc, [other], 0, { skipLeadingDivider: false }).html;
-  return out + kit.ctaStrip() + relatedSection(pc);
+  return withRelated(pc, out + kit.ctaStrip());
 }
 
 /** a single-block page (form, legal, sitemap): texture band, then the block's own node in a panel */
@@ -410,14 +434,15 @@ function singleBlockPage(pc, { compact, cta, panel, sectionCls, strip = true, re
   const body = b.nodes.filter((n) => !t.used.has(n)).map((n) => panel(n)).join('');
   let more = '';
   for (const other of blocks) if (other !== b) more += renderBlocks(pc, [other], 0, { skipLeadingDivider: false }).html;
-  return t.band + t.lede + kit.section({ cls: sectionCls }, body) + more + (strip ? kit.ctaStrip() : '') + (related ? relatedSection(pc) : '');
+  const main = t.band + t.lede + kit.section({ cls: sectionCls }, body) + more + (strip ? kit.ctaStrip() : '');
+  return related ? withRelated(pc, main) : main;
 }
 /** DESIGN-SPEC 10.23 forms: texture band (with Book + Call), the form in a veil panel */
-const formPage = (pc) => singleBlockPage(pc, { compact: false, cta: 'pair', bandCls: 'tpl-form', sectionCls: 'form-section tpl-pool', strip: false, panel: (n) => (n.t === 'form' ? '<div class="form-panel glass glass--veil">' + form(pc, n) + '</div>' : renderNode(pc, n)) });
+const formPage = (pc) => singleBlockPage(pc, { compact: false, cta: 'pair', bandCls: 'tpl-form tpl-util', sectionCls: 'form-section tpl-pool', strip: false, panel: (n) => (n.t === 'form' ? '<div class="form-panel glass glass--veil">' + form(pc, n) + '</div>' : renderNode(pc, n)) });
 /** DESIGN-SPEC 10.24 legal: compact texture band without a CTA row; the policy in a veil reading panel (76ch) */
-const legalPage = (pc) => singleBlockPage(pc, { compact: true, cta: false, sectionCls: 'reading reading--legal tpl-pool', panel: (n) => (n.t === 'legal' ? '<div class="reading__panel reading__panel--legal glass glass--veil">' + renderNode(pc, n) + '</div>' : renderNode(pc, n)) });
+const legalPage = (pc) => singleBlockPage(pc, { compact: true, cta: false, bandCls: 'tpl-util', sectionCls: 'reading reading--legal tpl-pool', panel: (n) => (n.t === 'legal' ? '<div class="reading__panel reading__panel--legal glass glass--veil">' + renderNode(pc, n) + '</div>' : renderNode(pc, n)) });
 /** DESIGN-SPEC 10.25 sitemap: compact texture band; one glass card per group */
-const sitemapPage = (pc) => singleBlockPage(pc, { compact: true, cta: false, sectionCls: 'sitemap-section tpl-pool', related: false, panel: (n) => (n.t === 'list' && n.kind === 'sitemap' ? texturePlane(pc) : '') + renderNode(pc, n) });
+const sitemapPage = (pc) => singleBlockPage(pc, { compact: true, cta: false, bandCls: 'tpl-util', sectionCls: 'sitemap-section tpl-pool', related: false, panel: (n) => (n.t === 'list' && n.kind === 'sitemap' ? texturePlane(pc) : '') + renderNode(pc, n) });
 
 /** DESIGN-SPEC 10.22 article: half band with the article photo, H1 = the BlogPosting headline, body in a veil panel */
 function articlePage(pc) {
@@ -433,7 +458,7 @@ function articlePage(pc) {
     else body += kit.section({ cls: 'section--tight' }, renderNode(pc, n));
   }
   for (const other of blocks.slice(1)) body += renderBlocks(pc, [other], 0, { skipLeadingDivider: false }).html;
-  return band + body + kit.ctaStrip() + relatedSection(pc);
+  return withRelated(pc, band + body + kit.ctaStrip());
 }
 
 /* ---------------------------------------------------------------------------------------------- adopted */
@@ -494,14 +519,14 @@ function adoptedPage(pc) {
   const isTerms = page.path === '/terms/';
   const band = kit.titleBand(page, {
     variant: !full ? 'texture' : HALF_HEROES.has(hero) ? 'half' : 'full', image: full ? { ref: hero, position: heroPosition(hero) } : undefined, kicker: a.kicker ? esc(a.kicker) : undefined,
-    h1: esc(a.h1), ...accentOpts(esc(a.h1)), cta: isTerms ? false : 'pair', cutout: titleCutout(page), cls: bandCls(page, ''),
+    h1: esc(a.h1), ...accentOpts(esc(a.h1)), cta: isTerms ? false : 'pair', cutout: titleCutout(page), compact: isTerms, cls: bandCls(page, isTerms ? 'tpl-util tpl-compact' : ''),
   });
   let out = band + ledeCard(pc, [a.lede], band);
   if (page.kind === 'eye-health') out += featuredGuide(pc);
   (a.sections || []).forEach((s, i) => { out += adoptedSection(pc, s, i); });
   out += faqSection(pc, a.faq);
   out += a.cta ? ctaBand(pc, { id: 'cta', headingHtml: esc(a.cta.heading), htmlList: [a.cta.html], buttons: [kit.book, kit.call] }) : kit.ctaStrip();
-  return out + relatedSection(pc);
+  return withRelated(pc, out);
 }
 
 /* ============================================================================================ exports */
@@ -529,7 +554,7 @@ export function render404Main(ctx, kit) {
   const k = pc.kit;
   const svc = (ctx.nav || []).find((n) => (n.children || []).some((g) => g.group === true));
   const groups = svc ? svc.children.filter((g) => g.group === true) : [];
-  return k.titleBand(pg, { variant: 'texture', compact: true })
+  return k.titleBand(pg, { variant: 'texture', compact: true, cta: 'pair', cls: 'tpl-util' })
     + (groups.length ? k.section({ cls: 'nf-tiles tpl-pool', label: svc.label }, k.cardGrid(groups.map((g) => ({ href: g.href, title: g.label })), { cls: 'card-grid--tiles', level: 2 })) : '')
     + k.ctaStrip();
 }

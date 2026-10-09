@@ -8,7 +8,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/index.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -17,7 +20,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/location-academy-vision.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -26,7 +32,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/contact-lenses-contact-lenses-exams.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -35,7 +44,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -44,7 +56,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/website-accessibility-policy.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -53,7 +68,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/team-dr-tyler-lesko-od.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -62,7 +80,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eyeglasses-stellest-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -71,7 +92,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/sitemap.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -80,7 +104,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eyeglasses-avulux-migraine-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -89,7 +116,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/team-dr-anthony-giallombardo-od.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -98,7 +128,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/contact-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -107,7 +140,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/disclaimer.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -116,7 +152,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-myopia-management.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -125,7 +164,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-eye-disease-management.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -134,7 +176,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/appointment-request-form.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -143,7 +188,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-lasik-co-management.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -152,7 +200,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eyeglasses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -161,7 +212,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-pediatric-eye-care.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -170,7 +224,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/contact-lenses-orthokeratology-ortho-k.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -179,7 +236,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/insurance.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -188,7 +248,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/team-dr-marc-ullman-od.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -197,7 +260,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/our-eye-doctor.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -206,7 +272,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/patient-registration-form.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -215,7 +284,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-dry-eye-treatment.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -224,7 +296,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/about-us.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -233,7 +308,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eyeglasses-varilux-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -242,7 +320,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-comprehensive-eye-exams.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -251,7 +332,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/privacy-policy.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -260,7 +344,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -269,7 +356,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/hours-location.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -278,7 +368,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:48:31.649Z"
+      "at": "2026-10-08T00:48:31.649Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/contact-lenses-scleral-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -287,7 +380,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/index.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -296,7 +392,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/location-academy-vision.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -305,7 +404,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/contact-lenses-contact-lenses-exams.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -314,7 +416,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -323,7 +428,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/website-accessibility-policy.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -332,7 +440,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/team-dr-tyler-lesko-od.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -341,7 +452,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eyeglasses-stellest-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -350,7 +464,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/sitemap.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -359,7 +476,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eyeglasses-avulux-migraine-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -368,7 +488,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/team-dr-anthony-giallombardo-od.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -377,7 +500,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/contact-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -386,7 +512,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/disclaimer.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -395,7 +524,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-myopia-management.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -404,7 +536,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-eye-disease-management.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -413,7 +548,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/appointment-request-form.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -422,7 +560,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-lasik-co-management.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -431,7 +572,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eyeglasses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -440,7 +584,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-pediatric-eye-care.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -449,7 +596,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/contact-lenses-orthokeratology-ortho-k.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -458,7 +608,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/insurance.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -467,7 +620,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/team-dr-marc-ullman-od.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -476,7 +632,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/our-eye-doctor.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -485,7 +644,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/patient-registration-form.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -494,7 +656,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-dry-eye-treatment.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -503,7 +668,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/about-us.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -512,7 +680,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eyeglasses-varilux-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -521,7 +692,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services-comprehensive-eye-exams.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -530,7 +704,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/privacy-policy.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -539,7 +716,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/eye-care-services.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -548,7 +728,10 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/hours-location.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "crawl:page",
@@ -557,193 +740,289 @@
       "extra": {
         "chain": []
       },
-      "at": "2026-10-08T00:52:41.257Z"
+      "at": "2026-10-08T00:52:41.257Z",
+      "resolved": true,
+      "resolvedAt": "2026-10-09T04:42:43.538Z",
+      "resolution": "fetched with status 200 by the completed crawl (2026-10-08T00:57:25.104Z; audit/site-inventory.json: 31/31 html pages, 0 failed, saved as audit/raw/contact-lenses-scleral-lenses.html). This entry is from an earlier stock sr-crawl run that the host reset after its guessed /wp-sitemap.xml request."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:22.632Z"
+      "at": "2026-10-08T00:58:22.632Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/index.html), which the runtime-data probe resolved as the relative URL /_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/about-us/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:22.939Z"
+      "at": "2026-10-08T00:58:22.939Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/about-us.html), which the runtime-data probe resolved as the relative URL /about-us/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/appointment-request-form/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:24.168Z"
+      "at": "2026-10-08T00:58:24.168Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/appointment-request-form.html), which the runtime-data probe resolved as the relative URL /appointment-request-form/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:24.528Z"
+      "at": "2026-10-08T00:58:24.528Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/article-pediatric-eye-exams-beyond-school-screenings.html), which the runtime-data probe resolved as the relative URL /article/pediatric-eye-exams-beyond-school-screenings/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/contact-lenses/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:25.721Z"
+      "at": "2026-10-08T00:58:25.721Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/contact-lenses.html), which the runtime-data probe resolved as the relative URL /contact-lenses/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/contact-lenses/contact-lenses-exams/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:26.132Z"
+      "at": "2026-10-08T00:58:26.132Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/contact-lenses-contact-lenses-exams.html), which the runtime-data probe resolved as the relative URL /contact-lenses/contact-lenses-exams/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/contact-lenses/orthokeratology-ortho-k/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:27.412Z"
+      "at": "2026-10-08T00:58:27.412Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/contact-lenses-orthokeratology-ortho-k.html), which the runtime-data probe resolved as the relative URL /contact-lenses/orthokeratology-ortho-k/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/contact-lenses/scleral-lenses/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:27.820Z"
+      "at": "2026-10-08T00:58:27.820Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/contact-lenses-scleral-lenses.html), which the runtime-data probe resolved as the relative URL /contact-lenses/scleral-lenses/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/disclaimer/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:28.949Z"
+      "at": "2026-10-08T00:58:28.949Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/disclaimer.html), which the runtime-data probe resolved as the relative URL /disclaimer/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eye-care-services/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:29.338Z"
+      "at": "2026-10-08T00:58:29.338Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eye-care-services.html), which the runtime-data probe resolved as the relative URL /eye-care-services/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eye-care-services/comprehensive-eye-exams/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:30.543Z"
+      "at": "2026-10-08T00:58:30.543Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eye-care-services-comprehensive-eye-exams.html), which the runtime-data probe resolved as the relative URL /eye-care-services/comprehensive-eye-exams/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eye-care-services/dry-eye-treatment/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:30.962Z"
+      "at": "2026-10-08T00:58:30.962Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eye-care-services-dry-eye-treatment.html), which the runtime-data probe resolved as the relative URL /eye-care-services/dry-eye-treatment/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eye-care-services/eye-disease-management/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:32.107Z"
+      "at": "2026-10-08T00:58:32.107Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eye-care-services-eye-disease-management.html), which the runtime-data probe resolved as the relative URL /eye-care-services/eye-disease-management/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eye-care-services/lasik-co-management/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:32.523Z"
+      "at": "2026-10-08T00:58:32.523Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eye-care-services-lasik-co-management.html), which the runtime-data probe resolved as the relative URL /eye-care-services/lasik-co-management/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eye-care-services/myopia-management/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:33.747Z"
+      "at": "2026-10-08T00:58:33.747Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eye-care-services-myopia-management.html), which the runtime-data probe resolved as the relative URL /eye-care-services/myopia-management/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eye-care-services/pediatric-eye-care/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:34.097Z"
+      "at": "2026-10-08T00:58:34.097Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eye-care-services-pediatric-eye-care.html), which the runtime-data probe resolved as the relative URL /eye-care-services/pediatric-eye-care/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eyeglasses/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:35.324Z"
+      "at": "2026-10-08T00:58:35.324Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eyeglasses.html), which the runtime-data probe resolved as the relative URL /eyeglasses/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eyeglasses/avulux-migraine-lenses/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:35.761Z"
+      "at": "2026-10-08T00:58:35.761Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eyeglasses-avulux-migraine-lenses.html), which the runtime-data probe resolved as the relative URL /eyeglasses/avulux-migraine-lenses/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eyeglasses/stellest-lenses/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:36.934Z"
+      "at": "2026-10-08T00:58:36.934Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eyeglasses-stellest-lenses.html), which the runtime-data probe resolved as the relative URL /eyeglasses/stellest-lenses/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/eyeglasses/varilux-lenses/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:37.378Z"
+      "at": "2026-10-08T00:58:37.378Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/eyeglasses-varilux-lenses.html), which the runtime-data probe resolved as the relative URL /eyeglasses/varilux-lenses/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/hours-location/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:38.510Z"
+      "at": "2026-10-08T00:58:38.510Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/hours-location.html), which the runtime-data probe resolved as the relative URL /hours-location/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/insurance/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:38.914Z"
+      "at": "2026-10-08T00:58:38.914Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/insurance.html), which the runtime-data probe resolved as the relative URL /insurance/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/location/academy-vision/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:40.169Z"
+      "at": "2026-10-08T00:58:40.169Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/location-academy-vision.html), which the runtime-data probe resolved as the relative URL /location/academy-vision/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/our-eye-doctor/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:40.477Z"
+      "at": "2026-10-08T00:58:40.477Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/our-eye-doctor.html), which the runtime-data probe resolved as the relative URL /our-eye-doctor/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/patient-registration-form/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:41.725Z"
+      "at": "2026-10-08T00:58:41.725Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/patient-registration-form.html), which the runtime-data probe resolved as the relative URL /patient-registration-form/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/privacy-policy/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:42.132Z"
+      "at": "2026-10-08T00:58:42.132Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/privacy-policy.html), which the runtime-data probe resolved as the relative URL /privacy-policy/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/sitemap/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:43.356Z"
+      "at": "2026-10-08T00:58:43.356Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/sitemap.html), which the runtime-data probe resolved as the relative URL /sitemap/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:43.743Z"
+      "at": "2026-10-08T00:58:43.743Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/team-dr-anthony-giallombardo-od.html), which the runtime-data probe resolved as the relative URL /team/dr-anthony-giallombardo-od/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/team/dr-marc-ullman-od/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:44.945Z"
+      "at": "2026-10-08T00:58:44.945Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/team-dr-marc-ullman-od.html), which the runtime-data probe resolved as the relative URL /team/dr-marc-ullman-od/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:45.472Z"
+      "at": "2026-10-08T00:58:45.472Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/team-dr-tyler-lesko-od.html), which the runtime-data probe resolved as the relative URL /team/dr-tyler-lesko-od/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     },
     {
       "stage": "assets:data",
       "target": "https://www.academyvisionnj.com/website-accessibility-policy/_blank",
       "reason": "status 404",
-      "at": "2026-10-08T00:58:46.144Z"
+      "at": "2026-10-08T00:58:46.144Z",
+      "accepted": true,
+      "acceptedAt": "2026-10-09T04:42:43.538Z",
+      "acceptedWhy": "not a resource: \"_blank\" is the window.open target name in the page's inline link script (audit/raw/website-accessibility-policy.html), which the runtime-data probe resolved as the relative URL /website-accessibility-policy/_blank; no page requests it, so the 404 is the host answering a URL nothing uses."
     }
   ]
 }

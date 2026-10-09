@@ -63,7 +63,8 @@ export function buildSite({ sourceChrome: sc, facts, restructure, url }) {
     hoursSpec: p.hoursSpec,
     mapQuery,
     mapEmbedSrc,
-    mapTitle: 'Google Map',
+    /* the footer map names the place it shows (QA round 1, CSP-11); in-page map nodes keep the model's own title */
+    mapTitle: 'Google Map: ' + p.name + ', ' + a.display,
     mapsUrl: sc.nap.mapsUrl,
     mapsNewTab: sc.nap.mapsNewTab === true,
     booking: { label: 'Book Appointment', href: bookingHref, newTab: true, external: true },

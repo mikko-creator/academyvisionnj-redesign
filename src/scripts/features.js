@@ -153,6 +153,10 @@
       });
     });
     doc.addEventListener('keydown', function (e) { if (e.key === 'Escape' && openBox) { var b = openBtn; close(); if (b) b.focus({ preventScroll: true }); } });
+    /* the enlarged view is a full-viewport overlay with nothing to operate: when focus leaves its opening button (Tab,
+       Shift+Tab or any other move) it closes, so the newly focused control and its ring are never behind it
+       (QA round 1, F3: Tab moved focus to the next photo button under the overlay) */
+    doc.addEventListener('focusin', function (e) { if (openBox && e.target !== openBtn) close(); });
   });
 
   /* ------------------------------------------------------------------ forms (10.23): unwired, BUILD-CONTRACT 4.5 */

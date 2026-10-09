@@ -1,0 +1,243 @@
+{
+  "schema": "site-reforge/seo-report@1",
+  "generated": "2026-10-09T05:24:55.575Z",
+  "origin": "https://www.academyvisionnj.com",
+  "buildDir": "dist",
+  "siteUrl": null,
+  "mode": "standing (clone served elsewhere)",
+  "limits": {
+    "titleMax": 60,
+    "titleMin": 15,
+    "descMax": 160,
+    "descMin": 50
+  },
+  "pages": 31,
+  "emitted": null,
+  "externalLinks": null,
+  "repaired": null,
+  "counts": {
+    "source": {
+      "minor": 26,
+      "blocker": 1,
+      "major": 2
+    },
+    "migration": {},
+    "byCode": {
+      "og-image-missing": 18,
+      "h1-missing": 1,
+      "alt-missing": 2,
+      "title-too-long": 1,
+      "description-too-long": 3,
+      "canonical-points-elsewhere": 4
+    }
+  },
+  "findings": {
+    "source": [
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/about-us",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/appointment-request-form",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "blocker",
+        "code": "h1-missing",
+        "page": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+        "field": "h1",
+        "detail": "no H1 on the page"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/article/pediatric-eye-exams-beyond-school-screenings",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/disclaimer",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/eye-care-services",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/eyeglasses",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.academyvisionnj.com/eyeglasses",
+        "field": "alt",
+        "detail": "26 of 64 images have no alt"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/hours-location",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/insurance",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://www.academyvisionnj.com/insurance",
+        "field": "alt",
+        "detail": "12 of 31 images have no alt"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/location/academy-vision",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/our-eye-doctor",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/patient-registration-form",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/privacy-policy",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/sitemap",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "title-too-long",
+        "page": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+        "field": "title",
+        "detail": "65 chars (limit 60)"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+        "field": "description",
+        "detail": "246 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+        "field": "description",
+        "detail": "198 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "description-too-long",
+        "page": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+        "field": "description",
+        "detail": "186 chars (limit 160)"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "og-image-missing",
+        "page": "https://www.academyvisionnj.com/website-accessibility-policy",
+        "field": "og:image",
+        "detail": "no social preview image"
+      },
+      {
+        "severity": "minor",
+        "code": "canonical-points-elsewhere",
+        "page": "https://www.academyvisionnj.com/location/academy-vision",
+        "field": "canonical",
+        "detail": "canonicalises to /hours-location — that page is indexed, this one is not"
+      },
+      {
+        "severity": "minor",
+        "code": "canonical-points-elsewhere",
+        "page": "https://www.academyvisionnj.com/team/dr-anthony-giallombardo-od",
+        "field": "canonical",
+        "detail": "canonicalises to /our-eye-doctor — that page is indexed, this one is not"
+      },
+      {
+        "severity": "minor",
+        "code": "canonical-points-elsewhere",
+        "page": "https://www.academyvisionnj.com/team/dr-marc-ullman-od",
+        "field": "canonical",
+        "detail": "canonicalises to /our-eye-doctor — that page is indexed, this one is not"
+      },
+      {
+        "severity": "minor",
+        "code": "canonical-points-elsewhere",
+        "page": "https://www.academyvisionnj.com/team/dr-tyler-lesko-od",
+        "field": "canonical",
+        "detail": "canonicalises to /our-eye-doctor — that page is indexed, this one is not"
+      }
+    ],
+    "migration": []
+  },
+  "note": "READ-ONLY. This run wrote no page and repaired nothing. SOURCE findings are the live site's own defects and repairing them is an improvement, not a preservation. MIGRATION findings are damage the rebuild created and did not exist on the source."
+}

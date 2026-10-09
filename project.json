@@ -4,7 +4,7 @@
   "targetUrl": "https://www.academyvisionnj.com/",
   "origin": "https://www.academyvisionnj.com",
   "createdAt": "2026-10-08T00:48:13.021Z",
-  "updatedAt": "2026-10-09T01:11:37.396Z",
+  "updatedAt": "2026-10-09T05:42:32.377Z",
   "config": {
     "maxPages": 300,
     "concurrency": 2,
@@ -47,19 +47,19 @@
       "note": "1131/1131 assets on disk"
     },
     "capture": {
-      "status": "pending",
-      "at": null,
-      "note": ""
+      "status": "done",
+      "at": "2026-10-09T04:36:30.978Z",
+      "note": "captures merged"
     },
     "tokens": {
-      "status": "pending",
-      "at": null,
-      "note": ""
+      "status": "done",
+      "at": "2026-10-09T04:37:06.792Z",
+      "note": "computed (browser capture)"
     },
     "motion": {
-      "status": "pending",
-      "at": null,
-      "note": ""
+      "status": "done",
+      "at": "2026-10-09T04:37:07.081Z",
+      "note": "0 keyframes, 208 animated elements"
     },
     "presets": {
       "status": "pending",
@@ -67,14 +67,14 @@
       "note": ""
     },
     "ux": {
-      "status": "pending",
-      "at": null,
-      "note": ""
+      "status": "partial",
+      "at": "2026-10-09T04:37:22.592Z",
+      "note": "267 rows, 267 UNSET"
     },
     "brand": {
-      "status": "pending",
-      "at": null,
-      "note": ""
+      "status": "partial",
+      "at": "2026-10-09T04:37:06.792Z",
+      "note": "tokens emitted; brand-system.md still owed"
     },
     "implement": {
       "status": "pending",
@@ -92,9 +92,9 @@
       "note": ""
     },
     "responsive": {
-      "status": "pending",
-      "at": null,
-      "note": ""
+      "status": "fail",
+      "at": "2026-10-09T05:32:34.789Z",
+      "note": "220 sweeps at 1024/1440/390/768"
     },
     "seo": {
       "status": "pending",
@@ -108,17 +108,17 @@
     },
     "decontaminate": {
       "status": "done",
-      "at": "2026-10-09T01:11:37.093Z",
+      "at": "2026-10-09T05:42:30.294Z",
       "note": "CLEAN (0 traces)"
     },
     "parity": {
-      "status": "pending",
-      "at": null,
-      "note": ""
+      "status": "fail",
+      "at": "2026-10-09T05:23:15.133Z",
+      "note": "DRIFT — 103 findings"
     },
     "fabrication": {
       "status": "fail",
-      "at": "2026-10-09T01:11:37.396Z",
+      "at": "2026-10-09T05:25:31.059Z",
       "note": "FABRICATION — 6 findings"
     },
     "pixeldiff": {
@@ -137,14 +137,14 @@
       "note": ""
     },
     "gate": {
-      "status": "pending",
-      "at": null,
-      "note": ""
+      "status": "fail",
+      "at": "2026-10-09T05:42:30.749Z",
+      "note": "NOT-READY — 22/29 passing"
     },
     "package": {
-      "status": "pending",
-      "at": null,
-      "note": ""
+      "status": "forced",
+      "at": "2026-10-09T05:42:32.377Z",
+      "note": "academyvisionnj-com-handoff-v20261009.zip — 3483 entries, 285975892 bytes"
     }
   },
   "notes": []

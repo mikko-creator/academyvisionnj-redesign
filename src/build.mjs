@@ -203,6 +203,7 @@ async function main() {
   if (smNodes !== 1) errors.push('expected one sitemap list node on /sitemap/, found ' + smNodes);
 
   const seoReport = {};
+  let ogFallbacks = 0;
   const textEdits = [];
   for (const pg of pages.sort((a, b) => (a.path < b.path ? -1 : a.path > b.path ? 1 : 0))) {
     const editText = (s, where) => {
@@ -211,6 +212,17 @@ async function main() {
       return s.split(PHONE_EDIT.from).join(PHONE_EDIT.to);
     };
     const seo = seoFor(pg, pg._raw, pg.adopted, { site, absolute: remap.absolute, resolveImageUrl, logoUrl: LOGO_URL, editText });
+    /* QA round 1 (CSP-5): 41 of 54 pages had no og:image (the source set one on 13). A page without one gets its own
+       title-band image (the H1 block's photo, else its generated hero), else the home hero photo, at 1280 w. */
+    if (seo.og && !seo.og.image) {
+      const h1Block = pg.model && (pg.model.blocks || []).find((b) => (b.nodes || []).some((n) => n.t === 'heading' && n.level === 1));
+      const own = h1Block && (h1Block.nodes || []).find((n) => n.t === 'image' && n.w >= 400);
+      const hero = pg.generated && pg.generated.hero && images.imgSrc(pg.generated.hero, 1280);
+      const homeRaw = byPath.get('/') && byPath.get('/').model;
+      const homeImg = homeRaw && (homeRaw.blocks || []).flatMap((b) => b.nodes || []).find((n) => n.t === 'image' && n.w >= 1000);
+      const u = (own && images.imgSrc(own.file, 1280)) || hero || (homeImg && images.imgSrc(homeImg.file, 1280));
+      if (u) { seo.og.image = ORIGIN + u; ogFallbacks++; }
+    }
     Object.assign(pg, { title: seo.title, metaDescription: seo.metaDescription, canonical: seo.canonical, og: seo.og, jsonLd: seo.jsonLd, robots: seo.robots, verification: seo.verification });
     seoReport[pg.path] = seo.report;
     if (pg.model) pg.model.meta = { title: pg.title, description: pg.metaDescription, canonical: pg.canonical, robots: pg.robots, og: pg.og, jsonLd: pg.jsonLd, verification: pg.verification };

@@ -35,6 +35,17 @@ export function buildRedirects(restructure, { pagePaths, remapOwn }) {
     '<IfModule mod_alias.c>',
     ...rules.map((x) => 'RedirectMatch 301 ^/' + reEsc(x.from) + '/?$ ' + x.to),
     '</IfModule>',
+    /* QA round 1 (CSP-12): compression and caching for an Apache host (site.css is 162 KB raw, 37 KB gzip); every
+       asset name carries a 10-hex content fingerprint, so those files can be cached for a year */
+    '# Compression and caching (ignored where the modules are not loaded).',
+    '<IfModule mod_deflate.c>',
+    'AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json application/xml image/svg+xml text/plain',
+    '</IfModule>',
+    '<IfModule mod_headers.c>',
+    '<FilesMatch "\\.[0-9a-f]{10}\\.(css|js|webp|png|jpe?g|svg|woff2|mp4|webm)$">',
+    'Header set Cache-Control "public, max-age=31536000, immutable"',
+    '</FilesMatch>',
+    '</IfModule>',
   ].join('\n') + '\n';
   return { rules, netlify, htaccess, errors };
 }
