@@ -1,0 +1,21 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Macro photograph of a single crystal-clear eye drop falling from the tip of a plain unlabeled clear glass dropper, the droplet sharply in focus and catching the light, backlit by a soft glow of sky blue against a deep navy background with soft circular bokeh. Dropper tip in the upper right, the droplet near the center, the lower left calm and dark. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+  "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+  },
+  "requestId": "01a11f86-e653-7af1-99c5-7e8b91ef73b0",
+  "seed": 1462749625,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 545013,
+  "sha256": "631ba197393ea206bd3d146b8fb1c1162c307acac1e37cafdd3dda7552f0d764",
+  "file": "assets/generated/menu-medical.jpg",
+  "generatedAt": "2026-10-09T07:18:34.752Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of this practice, its people, its patients or its results."
+}

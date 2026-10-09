@@ -107,6 +107,48 @@ html:not(.js) .nav-item:is(:hover, :focus-within) > :is(.mega, .drop),
 }
 .mega-group__title:is(:hover, :focus-visible), .mega-group__title[aria-current="page"] { color: var(--blue-ink); text-decoration: underline; text-decoration-color: var(--red); text-underline-offset: .2em; }
 .mega-group__dot { flex: 0 0 7px; height: 7px; border-radius: 50%; background: var(--sky); box-shadow: 0 0 0 4px rgba(68, 137, 188, .16); }
+/* Services mega-menu art (operator, 2026-10-09): each group head is an image card (generated photo, slots menu-*), the
+   group name in white over a navy scrim. The height is held so the panel still ends inside a 1280x585 window
+   (R-8, measured by tmp/mega/open.mjs). The brand gradient shows until the photo decodes, and always without JS. */
+.mega-card {
+  position: relative; display: flex; align-items: flex-end; isolation: isolate; overflow: hidden;
+  height: clamp(100px, 9.4vw, 128px); margin: 0 0 8px; border-radius: 14px;
+  color: #fff; text-decoration: none;
+  background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 70%, var(--sky) 100%);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .45), 0 12px 26px -18px rgba(15, 42, 74, .6);
+  transition: box-shadow .35s var(--ease-out), transform .45s var(--ease-out);
+}
+.mega-card__media { position: absolute; inset: 0; z-index: -2; }
+.mega-card__media img { display: block; width: 100%; height: 100%; object-fit: cover; opacity: 0; transform: scale(1.02); transition: opacity .45s var(--ease-out), transform .7s var(--ease-out), filter .45s; }
+.mega-card__media img.is-loaded { opacity: 1; }
+.mega-card::before {   /* glass sheen at the top, navy scrim under the name */
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  /* R-19 on the painted pixels behind the glyphs (tmp/mega/contrast.mjs): the .34/.86 scrim left the brightest pixel
+     behind "Children's Eye Care" and "Emergency Eye Care" at 3.7-3.8:1; these stops hold the worst pixel at >= 4.0 */
+  background: linear-gradient(180deg, rgba(255, 255, 255, .16) 0%, rgba(8, 24, 43, 0) 30%, rgba(8, 24, 43, .44) 54%, rgba(8, 24, 43, .9) 100%);
+}
+.mega-card__label {
+  display: flex; align-items: center; gap: 9px; width: 100%; padding: 10px 12px 11px;
+  font: 400 var(--fs-menu-head)/1.2 var(--serif); color: #fff; text-shadow: 0 1px 3px rgba(8, 24, 43, .5);
+}
+.mega-card .mega-group__dot { background: #fff; box-shadow: 0 0 0 4px rgba(255, 255, 255, .22); }
+/* the 1240-1439 cards are 204-236 px wide: one line for every group name at the default font, which still wraps
+   under a larger font or text spacing (QA round 1, F1) */
+@media (max-width: 1439.98px) { .mega-card__label { gap: 7px; padding-inline: 10px; font-size: calc(var(--fs-menu-head) * .94); } }
+.mega-card:is(:hover, :focus-visible) { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .75), 0 16px 30px -16px rgba(15, 42, 74, .72); transform: translateY(-2px); }
+.mega-card:is(:hover, :focus-visible) .mega-card__media img.is-loaded { transform: scale(1.08); filter: saturate(1.08) brightness(1.05); }
+.mega-card:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+.mega-card[aria-current="page"] { box-shadow: inset 0 0 0 2px #fff, 0 12px 26px -18px rgba(15, 42, 74, .6); }
+.mega-card[aria-current="page"] .mega-card__label { text-decoration: underline; text-decoration-color: rgba(255, 255, 255, .85); text-underline-offset: .2em; }
+@media (prefers-reduced-motion: reduce) {
+  .mega-card, .mega-card__media img { transition: none; }
+  .mega-card:is(:hover, :focus-visible), .mega-card:is(:hover, :focus-visible) .mega-card__media img.is-loaded { transform: none; }
+}
+@media (forced-colors: active) {
+  .mega-card::before, .mega-card__media { display: none; }
+  .mega-card { background: Canvas; border: 1px solid CanvasText; }
+  .mega-card__label { color: LinkText; text-shadow: none; }
+}
 .mega-links a {
   display: flex; align-items: center; gap: 8px; min-height: 34px;
   font: 600 var(--fs-ui)/1.25 var(--sans); color: var(--blue-ink); text-decoration: none;

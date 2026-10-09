@@ -1912,6 +1912,251 @@
     "audit": "audit/generated-images.json",
     "derivation": "Crop x 0-2350 of the accepted candidate tmp/hero-regen/cand-3.jpg (2752x1536), lossless PNG (rgb24 framemd5 identical to the cropped source); moves her face from ~64% to ~74% across so the hero glass panel no longer covers it (1280x585 capture tmp/hero-regen/after.1280x585@1.5.png showed one lens under the panel). Still AI-generated."
    }
+  },
+  {
+   "id": "menu-comprehensive",
+   "purpose": "Services mega-menu card image for the group /services/comprehensive-eye-exams/ (operator request 2026-10-09)",
+   "usedOn": [
+    "global"
+   ],
+   "usedFor": [
+    "header Services mega menu, every page, desktop >= 1240 px"
+   ],
+   "role": "menu-card",
+   "status": "delivered",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "A smiling woman in her early sixties with short silver hair wearing elegant thin navy eyeglasses, seated in soft window light, turning her head slightly toward the camera with a warm, confident expression, plain navy knit sweater, softly blurred cream interior behind her. Subject centered slightly right, her face in the upper half of the frame, the lower left of the frame calm and slightly darker. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "expectedSize": "2752x1536",
+   "alt": "",
+   "textRisk": "medium",
+   "decorative": true,
+   "reviewFocus": [
+    "eyeglass temples, hinges and objects for pseudo-text",
+    "hands and fingertips",
+    "clothing prints"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks",
+    "a generic model or object: never presented as an Academy Vision patient, doctor or staff member",
+    "not the practice's office"
+   ],
+   "delivered": {
+    "file": "assets/generated/menu-comprehensive.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "fc2ea6dac0e013229528155cef6f1f56a9286110b2e3a291d0242c356448f244",
+    "alt": "",
+    "focal": "45%,35%",
+    "attempt": "tmp/mega/gen/comprehensive-1.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "menu-children",
+   "purpose": "Services mega-menu card image for the group /services/childrens-eye-care/ (operator request 2026-10-09)",
+   "usedOn": [
+    "global"
+   ],
+   "usedFor": [
+    "header Services mega menu, every page, desktop >= 1240 px"
+   ],
+   "role": "menu-card",
+   "status": "delivered",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "A joyful girl of about seven wearing bright sky-blue round eyeglasses, laughing with her head slightly tilted, plain cream knit top with no print, soft pastel cream and sky-blue background, natural light. Subject centered slightly right, her face in the upper half of the frame, the lower left calm. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "expectedSize": "2752x1536",
+   "alt": "",
+   "textRisk": "medium",
+   "decorative": true,
+   "reviewFocus": [
+    "eyeglass temples, hinges and objects for pseudo-text",
+    "hands and fingertips",
+    "clothing prints"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks",
+    "a generic model or object: never presented as an Academy Vision patient, doctor or staff member",
+    "not the practice's office"
+   ],
+   "delivered": {
+    "file": "assets/generated/menu-children.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "72db7bac17cd826cb85a70a07aa96bbe9ef083a2d37ece6ab005aca25304b05c",
+    "alt": "",
+    "focal": "47%,40%",
+    "attempt": "tmp/mega/gen/children-1.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "menu-medical",
+   "purpose": "Services mega-menu card image for the group /services/medical-eye-care/ (operator request 2026-10-09)",
+   "usedOn": [
+    "global"
+   ],
+   "usedFor": [
+    "header Services mega menu, every page, desktop >= 1240 px"
+   ],
+   "role": "menu-card",
+   "status": "delivered",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Macro photograph of a single crystal-clear eye drop falling from the tip of a plain unlabeled clear glass dropper, the droplet sharply in focus and catching the light, backlit by a soft glow of sky blue against a deep navy background with soft circular bokeh. Dropper tip in the upper right, the droplet near the center, the lower left calm and dark. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "expectedSize": "2752x1536",
+   "alt": "",
+   "textRisk": "medium",
+   "decorative": true,
+   "reviewFocus": [
+    "eyeglass temples, hinges and objects for pseudo-text",
+    "hands and fingertips",
+    "clothing prints"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks",
+    "a generic model or object: never presented as an Academy Vision patient, doctor or staff member",
+    "not the practice's office"
+   ],
+   "delivered": {
+    "file": "assets/generated/menu-medical.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "631ba197393ea206bd3d146b8fb1c1162c307acac1e37cafdd3dda7552f0d764",
+    "alt": "",
+    "focal": "52%,45%",
+    "attempt": "tmp/mega/gen/medical-1.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "menu-emergency",
+   "purpose": "Services mega-menu card image for the group /services/emergency-eye-care/ (operator request 2026-10-09)",
+   "usedOn": [
+    "global"
+   ],
+   "usedFor": [
+    "header Services mega menu, every page, desktop >= 1240 px"
+   ],
+   "role": "menu-card",
+   "status": "delivered",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "A young woman with dark wavy hair sitting by a bright window, gently pressing a soft folded white cloth compress to one closed eye with a relaxed, reassured expression, plain cream linen top, soft morning light, creamy blurred background. Subject centered slightly right, her face in the upper half of the frame, the lower left calm. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "expectedSize": "2752x1536",
+   "alt": "",
+   "textRisk": "medium",
+   "decorative": true,
+   "reviewFocus": [
+    "eyeglass temples, hinges and objects for pseudo-text",
+    "hands and fingertips",
+    "clothing prints"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks",
+    "a generic model or object: never presented as an Academy Vision patient, doctor or staff member",
+    "not the practice's office"
+   ],
+   "delivered": {
+    "file": "assets/generated/menu-emergency.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "dd74d3b944084a2dc3ea13893b24c1fb438120bd21b2dd059a515adf6c687ace",
+    "alt": "",
+    "focal": "66%,40%",
+    "attempt": "tmp/mega/gen/emergency-1.jpg",
+    "retries": 1,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
+  },
+  {
+   "id": "menu-contacts",
+   "purpose": "Services mega-menu card image for the group /services/contact-lens-exams/ (operator request 2026-10-09)",
+   "usedOn": [
+    "global"
+   ],
+   "usedFor": [
+    "header Services mega menu, every page, desktop >= 1240 px"
+   ],
+   "role": "menu-card",
+   "status": "delivered",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Close-up macro photograph seen slightly from the side of a single soft contact lens balanced on a fingertip: a thin, flexible, transparent cup with a delicate curved edge clearly visible, its hollow inside catching the light, a faint pale blue tint at the rim. Soft sky-blue backlight against a deep navy background with soft bokeh. Fingertip and lens centered slightly right, the lower left calm and dark. Luminous premium editorial photograph, soft diffused light, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere.",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "expectedSize": "2752x1536",
+   "alt": "",
+   "textRisk": "medium",
+   "decorative": true,
+   "reviewFocus": [
+    "eyeglass temples, hinges and objects for pseudo-text",
+    "hands and fingertips",
+    "clothing prints"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks",
+    "a generic model or object: never presented as an Academy Vision patient, doctor or staff member",
+    "not the practice's office"
+   ],
+   "delivered": {
+    "file": "assets/generated/menu-contacts.jpg",
+    "w": 2752,
+    "h": 1536,
+    "sha256": "1604ff7a76ef939f0810a0bd26c4fd289036dfeb8d0abda8382bcc5a4797b9ba",
+    "alt": "",
+    "focal": "58%,52%",
+    "attempt": "tmp/mega/gen/contacts-r2.jpg",
+    "retries": 4,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json"
+   }
   }
  ],
  "motion": [

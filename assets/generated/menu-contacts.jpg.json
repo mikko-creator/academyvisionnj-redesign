@@ -1,0 +1,21 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Close-up macro photograph seen slightly from the side of a single soft contact lens balanced on a fingertip: a thin, flexible, transparent cup with a delicate curved edge clearly visible, its hollow inside catching the light, a faint pale blue tint at the rim. Soft sky-blue backlight against a deep navy background with soft bokeh. Fingertip and lens centered slightly right, the lower left calm and dark. Luminous premium editorial photograph, soft diffused light, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere.",
+  "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+  },
+  "requestId": "01a11f89-78b4-7783-9daa-f4cdf2318370",
+  "seed": 2843798439,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 492547,
+  "sha256": "1604ff7a76ef939f0810a0bd26c4fd289036dfeb8d0abda8382bcc5a4797b9ba",
+  "file": "assets/generated/menu-contacts.jpg",
+  "generatedAt": "2026-10-09T07:21:15.721Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of this practice, its people, its patients or its results."
+}

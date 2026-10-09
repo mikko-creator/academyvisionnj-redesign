@@ -67,7 +67,22 @@ export function header(page, ctx, kit) {
 
   /* ---------------- desktop panels */
   const chev = icon('chev', 'chev');
-  const groupHead = (g) => '<a class="mega-group__title" href="' + esc(g.href) + '"' + c.ac(g.href) + '><span class="mega-group__dot" aria-hidden="true"></span>' + esc(g.label) + '</a>';
+  /* Services mega-menu art (operator, 2026-10-09: "kick ass imagery ... so it's not plain texts"). Each group head is an
+     image card: one generated photo per group (image-plan slots menu-*, AI-labelled), the group name over a navy scrim.
+     The <img> carries data-src only: site.js loads it on the first hover intent or open, so the closed menu downloads
+     nothing. The 640 w variant covers the about 230-270 CSS px cards up to DPR 2.3. The image is decorative (alt="");
+     the link's text is the group name. Without a delivered slot the plain text head stays. */
+  const MEGA_ART = { '/services/comprehensive-eye-exams/': 'menu-comprehensive', '/services/childrens-eye-care/': 'menu-children', '/services/medical-eye-care/': 'menu-medical', '/services/emergency-eye-care/': 'menu-emergency', '/services/contact-lens-exams/': 'menu-contacts' };
+  const groupHead = (g) => {
+    const slot = MEGA_ART[g.href];
+    const art = slot && ctx.generatedSlots && ctx.generatedSlots[slot] && ctx.generatedSlots[slot].exists ? ctx.imgSrc(slot, 640) : null;
+    if (!art) return '<a class="mega-group__title" href="' + esc(g.href) + '"' + c.ac(g.href) + '><span class="mega-group__dot" aria-hidden="true"></span>' + esc(g.label) + '</a>';
+    const sz = ctx.imgSize(slot);
+    const h = sz && sz.w ? Math.round(640 * sz.h / sz.w) : 357;
+    return '<a class="mega-card" href="' + esc(g.href) + '"' + c.ac(g.href) + '>'
+      + '<span class="mega-card__media" aria-hidden="true"><img data-src="' + esc(art) + '" alt="" width="640" height="' + h + '" decoding="async" data-ai-generated="1"></span>'
+      + '<span class="mega-card__label"><span class="mega-group__dot" aria-hidden="true"></span>' + esc(g.label) + '</span></a>';
+  };
   function megaPanel(it, id) {
     const groups = (it.children || []).filter((g) => g.group === true);
     const hub = hubOf(ctx, it);

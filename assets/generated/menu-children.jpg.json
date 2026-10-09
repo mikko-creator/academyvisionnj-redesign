@@ -1,0 +1,21 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A joyful girl of about seven wearing bright sky-blue round eyeglasses, laughing with her head slightly tilted, plain cream knit top with no print, soft pastel cream and sky-blue background, natural light. Subject centered slightly right, her face in the upper half of the frame, the lower left calm. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+  "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+  },
+  "requestId": "01a11f86-e58a-7720-ac4a-5d10673109f4",
+  "seed": 2761527663,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 773819,
+  "sha256": "72db7bac17cd826cb85a70a07aa96bbe9ef083a2d37ece6ab005aca25304b05c",
+  "file": "assets/generated/menu-children.jpg",
+  "generatedAt": "2026-10-09T07:18:32.613Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of this practice, its people, its patients or its results."
+}

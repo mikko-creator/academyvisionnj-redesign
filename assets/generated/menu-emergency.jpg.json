@@ -1,0 +1,21 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A young woman with dark wavy hair sitting by a bright window, gently pressing a soft folded white cloth compress to one closed eye with a relaxed, reassured expression, plain cream linen top, soft morning light, creamy blurred background. Subject centered slightly right, her face in the upper half of the frame, the lower left calm. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+  "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+  },
+  "requestId": "01a11f86-e71f-7361-b596-7c74574094c2",
+  "seed": 4125636891,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 684800,
+  "sha256": "dd74d3b944084a2dc3ea13893b24c1fb438120bd21b2dd059a515adf6c687ace",
+  "file": "assets/generated/menu-emergency.jpg",
+  "generatedAt": "2026-10-09T07:18:37.907Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of this practice, its people, its patients or its results."
+}

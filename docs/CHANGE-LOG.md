@@ -170,3 +170,42 @@ the live map and the scheduler, real-network timings and a real screen reader.
 - **Build checks:** two builds byte-identical; link-check 0 broken; build-verify 12/12 (299 AI-labelled variants).
 - **Live:** gh-pages `fd57da8` built; the home page and its 2000 w hero variant byte-identical to the build; noindex
   79/79.
+
+# Revision 3 - 2026-10-09: the Services mega menu with image cards
+
+**Operator:** "revise the service megamenu, I want it to contain kick ass imagery, generate amazing images to be used
+there so it's not plain texts".
+
+**Change:**
+- **Images:** one cohesive set of five generated photographs (fal flux-pro v1.1-ultra, 16:9, in the navy, sky-blue
+  and cream light of the design), one per group:
+  - Comprehensive Exams: a silver-haired woman in thin navy glasses;
+  - Children's Eye Care: a laughing girl in sky-blue glasses;
+  - Medical Eye Care: a macro of a single drop at a plain glass dropper;
+  - Emergency Eye Care: a woman calmly holding a soft compress to one eye;
+  - Contact Lens Exams: a thin soft lens on a fingertip.
+- **Selection:** 13 paid calls ($0.78). Each pick was reviewed at sheet size and in 100% crops (temples, hinges,
+  hands, fingertip, dropper). Rejected: a fake engraved mark on a temple, rainbow lenses with fused hinges, a
+  malformed dropper tip, a lens that read as a water bead, a lens that read as a marble, and one blank
+  (safety-filtered) frame. Every call and verdict is in `audit/generated-images.json`; slots `menu-*` are in
+  `src/content/image-plan.json`.
+- **Code:**
+  - `src/theme/chrome.mjs`: each group head is an image card, with the name in white over a navy scrim and the photo
+    decorative (alt="", data-ai-generated, IPTC XMP on the 640 w variant).
+  - `src/scripts/site.js`: the images carry `data-src` only and load on the first hover intent or open, then fade in.
+    The closed menu downloads nothing.
+  - `src/styles/chrome.css`: the cards, their hover zoom and lift, keyboard focus parity, reduced motion and forced
+    colours.
+
+**Re-verified:**
+- **Loading and fit:** 0 menu images before opening and 5 after, at 1280x585@1.5 and 1600x662@1.2. The panel ends at
+  540 px of a 561 px budget at 1280x585 (548/638 at 1600x662). Every group name sits on one line from 1240 to 1920 px;
+  with a 20 px default font the names wrap inside their cards, with no sideways scroll.
+- **Contrast:** names on painted pixels, glyph area only, have p05 6.64-11.76 and worst pixel 4.95-10.48 at three
+  windows. The planted grey control failed on 12 of 15, and on the darkest card it passes because that backdrop
+  measures 11.6:1 against white.
+- **Keyboard:** Tab, Enter opens, and Tab lands on the first card with a :focus-visible red ring. Hover zooms the
+  photo to 1.08.
+- **Build checks:** two builds byte-identical; link-check 0 broken; build-verify 12/12 (304 AI-labelled variants).
+- **Live:** gh-pages `0d5b46f` built; the home page and all five 640 w images byte-identical (6.7-15.8 KB each);
+  noindex 79/79.

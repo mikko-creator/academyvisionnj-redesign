@@ -11,9 +11,9 @@
    "birefnet": 16,
    "hf": 3
   },
-  "spentUsd": 5.505,
+  "spentUsd": 6.285,
   "calls": {
-   "ultra": 58,
+   "ultra": 71,
    "kontext": 4,
    "birefnet": 8,
    "hf": 3
@@ -49,14 +49,14 @@
   }
  },
  "summary": {
-  "plannedImages": 35,
+  "plannedImages": 40,
   "plannedLoops": 2,
-  "acceptedImages": 34,
+  "acceptedImages": 39,
   "unacceptedImages": [
    "hero-glaucoma-management"
   ],
   "acceptedLoops": 2,
-  "deliveredFiles": 53,
+  "deliveredFiles": 58,
   "rejectedAttempts": 35,
   "refuter": {
    "pass": 45,
@@ -3107,6 +3107,164 @@
    "cost": 0.06,
    "aiLabel": "trainedAlgorithmicMedia",
    "derivation": "Crop x 0-2350 of the accepted candidate tmp/hero-regen/cand-3.jpg (2752x1536), lossless PNG (rgb24 framemd5 identical to the cropped source); moves her face from ~64% to ~74% across so the hero glass panel no longer covers it (1280x585 capture tmp/hero-regen/after.1280x585@1.5.png showed one lens under the panel). Still AI-generated."
+  },
+  {
+   "id": "menu-comprehensive",
+   "file": "assets/generated/menu-comprehensive.jpg",
+   "kind": "menu-card",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "A smiling woman in her early sixties with short silver hair wearing elegant thin navy eyeglasses, seated in soft window light, turning her head slightly toward the camera with a warm, confident expression, plain navy knit sweater, softly blurred cream interior behind her. Subject centered slightly right, her face in the upper half of the frame, the lower left of the frame calm and slightly darker. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+   "seed": 3465970203,
+   "requestId": "01a11f86-e586-73d1-a6ab-678b6626b523",
+   "w": 2752,
+   "h": 1536,
+   "bytes": 694110,
+   "sha256": "fc2ea6dac0e013229528155cef6f1f56a9286110b2e3a291d0242c356448f244",
+   "alt": "",
+   "decorative": true,
+   "focal": "45%,35%",
+   "description": "silver-haired woman in her sixties in thin navy glasses, warm smile, window light",
+   "review": {
+    "verdict": "accept",
+    "attempt": "tmp/mega/gen/comprehensive-1.jpg",
+    "checks": [
+     "operator: Services mega-menu imagery (2026-10-09); one cohesive set, five groups, one generated image each",
+     "reviewed at sheet size (tmp/mega/gen/sheet.jpg) and at 100% crops (tmp/mega/gen/review-a.png, review-b.png, contacts-r2-100.png)",
+     "comprehensive-1: accepted: natural face and frames; the hinge plates are plain metal, no lettering",
+     "comprehensive-2: rejected: a small engraved, text-like mark on the right temple near the hinge (pseudo brand mark)"
+    ],
+    "retries": 1,
+    "reviewer": "orchestrator, 2026-10-09"
+   },
+   "cost": 0.12,
+   "aiLabel": "trainedAlgorithmicMedia"
+  },
+  {
+   "id": "menu-children",
+   "file": "assets/generated/menu-children.jpg",
+   "kind": "menu-card",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "A joyful girl of about seven wearing bright sky-blue round eyeglasses, laughing with her head slightly tilted, plain cream knit top with no print, soft pastel cream and sky-blue background, natural light. Subject centered slightly right, her face in the upper half of the frame, the lower left calm. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+   "seed": 2761527663,
+   "requestId": "01a11f86-e58a-7720-ac4a-5d10673109f4",
+   "w": 2752,
+   "h": 1536,
+   "bytes": 773819,
+   "sha256": "72db7bac17cd826cb85a70a07aa96bbe9ef083a2d37ece6ab005aca25304b05c",
+   "alt": "",
+   "decorative": true,
+   "focal": "47%,40%",
+   "description": "laughing girl of about seven in bright sky-blue round glasses, plain cream top, pastel blue backdrop",
+   "review": {
+    "verdict": "accept",
+    "attempt": "tmp/mega/gen/children-1.jpg",
+    "checks": [
+     "operator: Services mega-menu imagery (2026-10-09); one cohesive set, five groups, one generated image each",
+     "reviewed at sheet size (tmp/mega/gen/sheet.jpg) and at 100% crops (tmp/mega/gen/review-a.png, review-b.png, contacts-r2-100.png)",
+     "children-1: accepted: natural face, plain rivet dots on the frame front, no print on clothing",
+     "children-2: rejected: rainbow lens sheen and fused-looking hinges"
+    ],
+    "retries": 1,
+    "reviewer": "orchestrator, 2026-10-09"
+   },
+   "cost": 0.12,
+   "aiLabel": "trainedAlgorithmicMedia"
+  },
+  {
+   "id": "menu-medical",
+   "file": "assets/generated/menu-medical.jpg",
+   "kind": "menu-card",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Macro photograph of a single crystal-clear eye drop falling from the tip of a plain unlabeled clear glass dropper, the droplet sharply in focus and catching the light, backlit by a soft glow of sky blue against a deep navy background with soft circular bokeh. Dropper tip in the upper right, the droplet near the center, the lower left calm and dark. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+   "seed": 1462749625,
+   "requestId": "01a11f86-e653-7af1-99c5-7e8b91ef73b0",
+   "w": 2752,
+   "h": 1536,
+   "bytes": 545013,
+   "sha256": "631ba197393ea206bd3d146b8fb1c1162c307acac1e37cafdd3dda7552f0d764",
+   "alt": "",
+   "decorative": true,
+   "focal": "52%,45%",
+   "description": "macro of a single clear drop at the tip of a plain glass dropper, navy and sky-blue bokeh",
+   "review": {
+    "verdict": "accept",
+    "attempt": "tmp/mega/gen/medical-1.jpg",
+    "checks": [
+     "operator: Services mega-menu imagery (2026-10-09); one cohesive set, five groups, one generated image each",
+     "reviewed at sheet size (tmp/mega/gen/sheet.jpg) and at 100% crops (tmp/mega/gen/review-a.png, review-b.png, contacts-r2-100.png)",
+     "medical-1: accepted: plain glass dropper with no graduation marks or text; drop in focus",
+     "medical-2: rejected: malformed glass blob at the dropper tip"
+    ],
+    "retries": 1,
+    "reviewer": "orchestrator, 2026-10-09"
+   },
+   "cost": 0.12,
+   "aiLabel": "trainedAlgorithmicMedia"
+  },
+  {
+   "id": "menu-emergency",
+   "file": "assets/generated/menu-emergency.jpg",
+   "kind": "menu-card",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "A young woman with dark wavy hair sitting by a bright window, gently pressing a soft folded white cloth compress to one closed eye with a relaxed, reassured expression, plain cream linen top, soft morning light, creamy blurred background. Subject centered slightly right, her face in the upper half of the frame, the lower left calm. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+   "seed": 4125636891,
+   "requestId": "01a11f86-e71f-7361-b596-7c74574094c2",
+   "w": 2752,
+   "h": 1536,
+   "bytes": 684800,
+   "sha256": "dd74d3b944084a2dc3ea13893b24c1fb438120bd21b2dd059a515adf6c687ace",
+   "alt": "",
+   "decorative": true,
+   "focal": "66%,40%",
+   "description": "woman by a bright window holding a soft white compress to one closed eye, calm expression",
+   "review": {
+    "verdict": "accept",
+    "attempt": "tmp/mega/gen/emergency-1.jpg",
+    "checks": [
+     "operator: Services mega-menu imagery (2026-10-09); one cohesive set, five groups, one generated image each",
+     "reviewed at sheet size (tmp/mega/gen/sheet.jpg) and at 100% crops (tmp/mega/gen/review-a.png, review-b.png, contacts-r2-100.png)",
+     "emergency-1: accepted: natural hand and fingers, relaxed smile (reads as soothing, not distress)",
+     "emergency-2: not chosen: sound, but the expression could read as crying"
+    ],
+    "retries": 1,
+    "reviewer": "orchestrator, 2026-10-09"
+   },
+   "cost": 0.12,
+   "aiLabel": "trainedAlgorithmicMedia"
+  },
+  {
+   "id": "menu-contacts",
+   "file": "assets/generated/menu-contacts.jpg",
+   "kind": "menu-card",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Close-up macro photograph seen slightly from the side of a single soft contact lens balanced on a fingertip: a thin, flexible, transparent cup with a delicate curved edge clearly visible, its hollow inside catching the light, a faint pale blue tint at the rim. Soft sky-blue backlight against a deep navy background with soft bokeh. Fingertip and lens centered slightly right, the lower left calm and dark. Luminous premium editorial photograph, soft diffused light, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere.",
+   "seed": 2843798439,
+   "requestId": "01a11f89-78b4-7783-9daa-f4cdf2318370",
+   "w": 2752,
+   "h": 1536,
+   "bytes": 492547,
+   "sha256": "1604ff7a76ef939f0810a0bd26c4fd289036dfeb8d0abda8382bcc5a4797b9ba",
+   "alt": "",
+   "decorative": true,
+   "focal": "58%,52%",
+   "description": "macro of a thin transparent soft contact lens with a visible rim, resting on a fingertip, navy bokeh",
+   "review": {
+    "verdict": "accept",
+    "attempt": "tmp/mega/gen/contacts-r2.jpg",
+    "checks": [
+     "operator: Services mega-menu imagery (2026-10-09); one cohesive set, five groups, one generated image each",
+     "reviewed at sheet size (tmp/mega/gen/sheet.jpg) and at 100% crops (tmp/mega/gen/review-a.png, review-b.png, contacts-r2-100.png)",
+     "contacts-1: rejected: the lens reads as a water-drop bead; a faint ghost edge at the fingertip",
+     "contacts-2: rejected: the lens reads as a glass marble",
+     "contacts-r1: rejected: the provider returned a black 1024x768 frame (safety filter)",
+     "contacts-r2: accepted: a thin hollow lens shell with a crisp rim on natural fingerprint ridges; no text",
+     "contacts-r3: rejected: the lens reads as a blue bead at that scale"
+    ],
+    "retries": 4,
+    "reviewer": "orchestrator, 2026-10-09"
+   },
+   "cost": 0.3,
+   "aiLabel": "trainedAlgorithmicMedia"
   }
  ],
  "motion": [
@@ -4730,6 +4888,292 @@
    "h": 1536,
    "cost": 0.06,
    "accepted": false
+  },
+  {
+   "at": "2026-10-09T07:18:32.606Z",
+   "call": "ultra",
+   "id": "menu-comprehensive",
+   "attempt": "comprehensive-1",
+   "out": "tmp/mega/gen/comprehensive-1.jpg",
+   "ok": true,
+   "requestId": "01a11f86-e586-73d1-a6ab-678b6626b523",
+   "seed": 3465970203,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": true,
+   "verdict": "accepted: natural face and frames; the hinge plates are plain metal, no lettering"
+  },
+  {
+   "at": "2026-10-09T07:18:54.986Z",
+   "call": "ultra",
+   "id": "menu-comprehensive",
+   "attempt": "comprehensive-2",
+   "out": "tmp/mega/gen/comprehensive-2.jpg",
+   "ok": true,
+   "requestId": "01a11f87-3c74-7db3-ad5b-5e6219fc19f5",
+   "seed": 24595598,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false,
+   "verdict": "rejected: a small engraved, text-like mark on the right temple near the hinge (pseudo brand mark)"
+  },
+  {
+   "at": "2026-10-09T07:18:32.613Z",
+   "call": "ultra",
+   "id": "menu-children",
+   "attempt": "children-1",
+   "out": "tmp/mega/gen/children-1.jpg",
+   "ok": true,
+   "requestId": "01a11f86-e58a-7720-ac4a-5d10673109f4",
+   "seed": 2761527663,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": true,
+   "verdict": "accepted: natural face, plain rivet dots on the frame front, no print on clothing"
+  },
+  {
+   "at": "2026-10-09T07:18:55.247Z",
+   "call": "ultra",
+   "id": "menu-children",
+   "attempt": "children-2",
+   "out": "tmp/mega/gen/children-2.jpg",
+   "ok": true,
+   "requestId": "01a11f87-3ce1-7bd2-a9dc-b540b92db63f",
+   "seed": 698711421,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false,
+   "verdict": "rejected: rainbow lens sheen and fused-looking hinges"
+  },
+  {
+   "at": "2026-10-09T07:18:34.752Z",
+   "call": "ultra",
+   "id": "menu-medical",
+   "attempt": "medical-1",
+   "out": "tmp/mega/gen/medical-1.jpg",
+   "ok": true,
+   "requestId": "01a11f86-e653-7af1-99c5-7e8b91ef73b0",
+   "seed": 1462749625,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": true,
+   "verdict": "accepted: plain glass dropper with no graduation marks or text; drop in focus"
+  },
+  {
+   "at": "2026-10-09T07:18:58.589Z",
+   "call": "ultra",
+   "id": "menu-medical",
+   "attempt": "medical-2",
+   "out": "tmp/mega/gen/medical-2.jpg",
+   "ok": true,
+   "requestId": "01a11f87-3d2f-7bf0-b73d-866ac87fc236",
+   "seed": 348678970,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false,
+   "verdict": "rejected: malformed glass blob at the dropper tip"
+  },
+  {
+   "at": "2026-10-09T07:18:37.907Z",
+   "call": "ultra",
+   "id": "menu-emergency",
+   "attempt": "emergency-1",
+   "out": "tmp/mega/gen/emergency-1.jpg",
+   "ok": true,
+   "requestId": "01a11f86-e71f-7361-b596-7c74574094c2",
+   "seed": 4125636891,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": true,
+   "verdict": "accepted: natural hand and fingers, relaxed smile (reads as soothing, not distress)"
+  },
+  {
+   "at": "2026-10-09T07:18:56.754Z",
+   "call": "ultra",
+   "id": "menu-emergency",
+   "attempt": "emergency-2",
+   "out": "tmp/mega/gen/emergency-2.jpg",
+   "ok": true,
+   "requestId": "01a11f87-3d6e-7782-9a30-011614985b5c",
+   "seed": 3766847017,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false,
+   "verdict": "not chosen: sound, but the expression could read as crying"
+  },
+  {
+   "at": "2026-10-09T07:18:38.133Z",
+   "call": "ultra",
+   "id": "menu-contacts",
+   "attempt": "contacts-1",
+   "out": "tmp/mega/gen/contacts-1.jpg",
+   "ok": true,
+   "requestId": "01a11f86-e76d-7011-aaa6-bfc099e9ec2d",
+   "seed": 1321794871,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false,
+   "verdict": "rejected: the lens reads as a water-drop bead; a faint ghost edge at the fingertip"
+  },
+  {
+   "at": "2026-10-09T07:19:00.439Z",
+   "call": "ultra",
+   "id": "menu-contacts",
+   "attempt": "contacts-2",
+   "out": "tmp/mega/gen/contacts-2.jpg",
+   "ok": true,
+   "requestId": "01a11f87-3daa-7990-ae0c-a1122133e639",
+   "seed": 1528571539,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false,
+   "verdict": "rejected: the lens reads as a glass marble"
+  },
+  {
+   "at": "2026-10-09T07:21:17.060Z",
+   "call": "ultra",
+   "id": "menu-contacts",
+   "attempt": "contacts-r1",
+   "out": "tmp/mega/gen/contacts-r1.jpg",
+   "ok": true,
+   "requestId": "01a11f89-78c1-74b2-a7e7-4c259294aa3b",
+   "seed": 1047270324,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 1024,
+   "h": 768,
+   "cost": 0.06,
+   "accepted": false,
+   "verdict": "rejected: the provider returned a black 1024x768 frame (safety filter)"
+  },
+  {
+   "at": "2026-10-09T07:21:15.721Z",
+   "call": "ultra",
+   "id": "menu-contacts",
+   "attempt": "contacts-r2",
+   "out": "tmp/mega/gen/contacts-r2.jpg",
+   "ok": true,
+   "requestId": "01a11f89-78b4-7783-9daa-f4cdf2318370",
+   "seed": 2843798439,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": true,
+   "verdict": "accepted: a thin hollow lens shell with a crisp rim on natural fingerprint ridges; no text"
+  },
+  {
+   "at": "2026-10-09T07:21:18.121Z",
+   "call": "ultra",
+   "id": "menu-contacts",
+   "attempt": "contacts-r3",
+   "out": "tmp/mega/gen/contacts-r3.jpg",
+   "ok": true,
+   "requestId": "01a11f89-78c6-75e1-8bb3-3c75cacbb8b1",
+   "seed": 1165667662,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false,
+   "verdict": "rejected: the lens reads as a blue bead at that scale"
   }
  ],
  "reviewLog": "tmp/imagery-run/review-log.jsonl (scratch; every verdict with its crop list and sheets)",

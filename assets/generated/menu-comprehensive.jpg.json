@@ -1,0 +1,21 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A smiling woman in her early sixties with short silver hair wearing elegant thin navy eyeglasses, seated in soft window light, turning her head slightly toward the camera with a warm, confident expression, plain navy knit sweater, softly blurred cream interior behind her. Subject centered slightly right, her face in the upper half of the frame, the lower left of the frame calm and slightly darker. Luminous premium editorial photograph, soft diffused daylight, refined palette of deep navy, soft sky blue and warm cream, shallow depth of field with creamy bokeh, calm, modern and high-end, crisp focus on the subject, natural realistic detail. Absolutely no text, letters, numbers, logos, brand marks or watermarks anywhere, including on clothing, eyeglass temples and objects; plain clothing with no prints.",
+  "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+  },
+  "requestId": "01a11f86-e586-73d1-a6ab-678b6626b523",
+  "seed": 3465970203,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 694110,
+  "sha256": "fc2ea6dac0e013229528155cef6f1f56a9286110b2e3a291d0242c356448f244",
+  "file": "assets/generated/menu-comprehensive.jpg",
+  "generatedAt": "2026-10-09T07:18:32.606Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of this practice, its people, its patients or its results."
+}
