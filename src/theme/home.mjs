@@ -44,7 +44,15 @@ export function renderHome(page, ctx, kit) {
     const h1 = M.heading(b);
     const lead = M.html(b);
     const btns = M.buttons(b);
-    const photo = img ? ctx.img(img.file, { alt: img.alt, sizes: '(min-width: 1600px) 1440px, 100vw', loading: 'eager', fetchpriority: 'high' }) : '';
+    /* Operator, 2026-10-09: "regenerate hero image, the girl looks blurry". The source photo tops out at 1600x711 and painted
+       1.2-1.9x upscaled. The regenerated slot hero-home (2752x1536, AI-labelled through the pipeline) replaces it. It keeps the
+       source's verbatim alt, which describes the new image. The file is a 2350x1536 crop (aspect 1.53), so her face sits
+       about 74% across, clear of the glass panel. sizes follows the painted width under object-fit: cover:
+       - phones: the frame is 100vw x (header + 96vw), so the painted width is about (72px + 96vw) x 1.53;
+       - 1600 px and up: the frame is capped at 1440 px wide and (940 + 36) px tall;
+       - otherwise: the wider of the frame width and (hero height + 36 px) x 1.53, where the hero height is at least 100vh. */
+    const heroSlot = ctx.generatedSlots && ctx.generatedSlots['hero-home'] && ctx.generatedSlots['hero-home'].exists;
+    const photo = img ? ctx.img(heroSlot ? 'hero-home' : img.file, { alt: img.alt, sizes: heroSlot ? '(max-width: 767.98px) calc(147vw + 112px), (min-width: 1600px) max(1440px, min(calc(153vh + 55px), 1495px)), max(100vw, calc(153vh + 55px))' : '(min-width: 1600px) 1440px, 100vw', loading: 'eager', fetchpriority: 'high' }) : '';
     kit.preloadImage(photo);
     const loopHtml = kit.loop('loop-lens-light', { cls: 'hm-hero__loop', id: 'hero-loop', lcp: true });
     /* WCAG 2.2.2 control for the loop (aria-label only: pure UI, no shown text, DESIGN-SPEC 2.4); hidden until site.js

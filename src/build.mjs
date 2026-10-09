@@ -220,7 +220,10 @@ async function main() {
       const hero = pg.generated && pg.generated.hero && images.imgSrc(pg.generated.hero, 1280);
       const homeRaw = byPath.get('/') && byPath.get('/').model;
       const homeImg = homeRaw && (homeRaw.blocks || []).flatMap((b) => b.nodes || []).find((n) => n.t === 'image' && n.w >= 1000);
-      const u = (own && images.imgSrc(own.file, 1280)) || hero || (homeImg && images.imgSrc(homeImg.file, 1280));
+      /* operator 2026-10-09: the home hero is the regenerated slot hero-home (src/theme/home.mjs). The home page's own card
+         and the home-hero fallback follow it, so a shared link shows the photo the page shows. */
+      const heroSwap = images.generatedSlots && images.generatedSlots['hero-home'] && images.generatedSlots['hero-home'].exists ? images.imgSrc('hero-home', 1280) : null;
+      const u = (pg.path === '/' && heroSwap) || (own && images.imgSrc(own.file, 1280)) || hero || heroSwap || (homeImg && images.imgSrc(homeImg.file, 1280));
       if (u) { seo.og.image = ORIGIN + u; ogFallbacks++; }
     }
     Object.assign(pg, { title: seo.title, metaDescription: seo.metaDescription, canonical: seo.canonical, og: seo.og, jsonLd: seo.jsonLd, robots: seo.robots, verification: seo.verification });

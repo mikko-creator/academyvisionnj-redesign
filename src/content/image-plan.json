@@ -1862,6 +1862,56 @@
     "verdict": "accepted",
     "audit": "audit/generated-images.json"
    }
+  },
+  {
+   "id": "hero-home",
+   "purpose": "home hero, replacing the source photo glow-woman-wearing-designer-frames (largest source 1600x711), which upscaled and read blurry on the operator's windows; operator request 2026-10-09",
+   "usedOn": [
+    "/"
+   ],
+   "usedFor": [
+    "/"
+   ],
+   "role": "hero",
+   "status": "delivered",
+   "conditional": false,
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "model": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial lifestyle photograph of a young woman with voluminous natural curly red hair wearing thin round tortoiseshell eyeglasses, smiling warmly with a genuine laugh, head turned slightly toward the camera's left, standing on a sunlit small-town street in soft morning light. She fills the right side of the frame from the chest up, her face placed about two thirds across the frame and in the upper third, with a little space above her hair. The street, storefronts and trees behind her melt into soft creamy bokeh in warm cream, pale sky blue and muted navy tones; the whole left half of the frame is calm, out of focus and uncluttered. Tack-sharp focus on her eyes, eyelashes and the glasses, natural skin texture with fine detail, realistic hair strands, clean lenses with only a soft natural reflection. Bright, airy, premium look, 85mm lens at f/1.8, high resolution. Absolutely no text, letters, numbers, logos or brand marks anywhere, including on the eyeglass temples and frames; no watermark.",
+   "aspect": "16:9",
+   "input": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "expectedSize": "2350x1536 (crop of 2752x1536)",
+   "alt": "A woman with curly red hair and glasses smiles on a street with blurred background",
+   "textRisk": "medium",
+   "reviewFocus": [
+    "eyeglass fronts, bridge and temples for pseudo-text",
+    "eyes and skin realism",
+    "background signage legibility",
+    "face position against the hero glass panel"
+   ],
+   "constraints": [
+    "no text, letters, numbers, logos, brand marks or watermarks",
+    "a generic model: never presented as an Academy Vision patient, doctor or staff member",
+    "not the practice's street, building or office"
+   ],
+   "delivered": {
+    "file": "assets/generated/hero-home.png",
+    "w": 2350,
+    "h": 1536,
+    "sha256": "df3c21535c11f4eb35c636b3bcca8e52dcca8a127f423b5c0aeaf1cc91a90962",
+    "alt": "A woman with curly red hair and glasses smiles on a street with blurred background",
+    "focal": "74%,40%",
+    "attempt": "tmp/hero-regen/cand-3.jpg",
+    "retries": 0,
+    "verdict": "accepted",
+    "audit": "audit/generated-images.json",
+    "derivation": "Crop x 0-2350 of the accepted candidate tmp/hero-regen/cand-3.jpg (2752x1536), lossless PNG (rgb24 framemd5 identical to the cropped source); moves her face from ~64% to ~74% across so the hero glass panel no longer covers it (1280x585 capture tmp/hero-regen/after.1280x585@1.5.png showed one lens under the panel). Still AI-generated."
+   }
   }
  ],
  "motion": [

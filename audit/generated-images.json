@@ -11,9 +11,9 @@
    "birefnet": 16,
    "hf": 3
   },
-  "spentUsd": 5.265,
+  "spentUsd": 5.505,
   "calls": {
-   "ultra": 54,
+   "ultra": 58,
    "kontext": 4,
    "birefnet": 8,
    "hf": 3
@@ -49,14 +49,14 @@
   }
  },
  "summary": {
-  "plannedImages": 34,
+  "plannedImages": 35,
   "plannedLoops": 2,
-  "acceptedImages": 33,
+  "acceptedImages": 34,
   "unacceptedImages": [
    "hero-glaucoma-management"
   ],
   "acceptedLoops": 2,
-  "deliveredFiles": 52,
+  "deliveredFiles": 53,
   "rejectedAttempts": 35,
   "refuter": {
    "pass": 45,
@@ -3071,6 +3071,42 @@
     "slotUsd": 0,
     "note": "counted on loop-navy-glass"
    }
+  },
+  {
+   "id": "hero-home",
+   "file": "assets/generated/hero-home.png",
+   "kind": "hero",
+   "engine": "fal-ai/flux-pro/v1.1-ultra",
+   "prompt": "Editorial lifestyle photograph of a young woman with voluminous natural curly red hair wearing thin round tortoiseshell eyeglasses, smiling warmly with a genuine laugh, head turned slightly toward the camera's left, standing on a sunlit small-town street in soft morning light. She fills the right side of the frame from the chest up, her face placed about two thirds across the frame and in the upper third, with a little space above her hair. The street, storefronts and trees behind her melt into soft creamy bokeh in warm cream, pale sky blue and muted navy tones; the whole left half of the frame is calm, out of focus and uncluttered. Tack-sharp focus on her eyes, eyelashes and the glasses, natural skin texture with fine detail, realistic hair strands, clean lenses with only a soft natural reflection. Bright, airy, premium look, 85mm lens at f/1.8, high resolution. Absolutely no text, letters, numbers, logos or brand marks anywhere, including on the eyeglass temples and frames; no watermark.",
+   "seed": 792705648,
+   "requestId": "01a11f52-335f-7632-a7b8-78bcc93a5fcf",
+   "w": 2350,
+   "h": 1536,
+   "bytes": 3568739,
+   "sha256": "df3c21535c11f4eb35c636b3bcca8e52dcca8a127f423b5c0aeaf1cc91a90962",
+   "alt": "A woman with curly red hair and glasses smiles on a street with blurred background",
+   "decorative": false,
+   "focal": "74%,40%",
+   "review": {
+    "verdict": "accept",
+    "attempt": "tmp/hero-regen/cand-3.jpg",
+    "checks": [
+     "operator: the previous home hero (source photo glow-woman-wearing-designer-frames, 1600x711 at most) painted 1.2-1.5x upscaled at 1280x585@1.5 and 1600x662@1.2 and read blurry",
+     "four flux-pro v1.1-ultra candidates (raw x2, standard x2), 2752x1536 each; contact sheet tmp/hero-regen/sheet.jpg",
+     "cand-1 rejected: face at ~56% x would graze the hero glass panel edge (58% at 1280); cand-2 rejected: sharper storefronts with sign-like marks; cand-4 rejected: face near the centre, under the glass panel",
+     "cand-3 accepted: face centre ~64% x / 39% y (CSS object-position 62% 32% desktop, 66% 30% phones); left half soft bokeh behind the glass panel",
+     "100% crop tmp/hero-regen/c3-face.png: eyes, lashes, skin, hair strands and frames sharp and natural; teeth natural",
+     "200% crop tmp/hero-regen/c3-glasses-2x.png: tortoiseshell frames, two hinge rivet dots, no letters or pseudo-text on fronts, bridge or temples; clean lenses",
+     "left-half crop tmp/hero-regen/c3-left.png: storefront signs fully defocused colour blobs, no legible or pseudo-text",
+     "the source alt (verbatim) describes this image: a woman with curly red hair and glasses smiling on a street with a blurred background",
+     "crop: the face, glasses and hair keep their pixels (lossless crop); right edge at x 2350 leaves the hair clear of the frame edge"
+    ],
+    "retries": 0,
+    "reviewer": "orchestrator, 2026-10-09"
+   },
+   "cost": 0.06,
+   "aiLabel": "trainedAlgorithmicMedia",
+   "derivation": "Crop x 0-2350 of the accepted candidate tmp/hero-regen/cand-3.jpg (2752x1536), lossless PNG (rgb24 framemd5 identical to the cropped source); moves her face from ~64% to ~74% across so the hero glass panel no longer covers it (1280x585 capture tmp/hero-regen/after.1280x585@1.5.png showed one lens under the panel). Still AI-generated."
   }
  ],
  "motion": [
@@ -4610,6 +4646,90 @@
    "w": 2752,
    "h": 1536,
    "cost": 0.06
+  },
+  {
+   "at": "2026-10-09T06:20:54.302Z",
+   "call": "ultra",
+   "id": "hero-home",
+   "attempt": 1,
+   "out": "tmp/hero-regen/cand-1.jpg",
+   "ok": true,
+   "requestId": "01a11f52-32bd-7092-b28f-59476a5ef502",
+   "seed": 1374615639,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": true,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false
+  },
+  {
+   "at": "2026-10-09T06:20:56.015Z",
+   "call": "ultra",
+   "id": "hero-home",
+   "attempt": 2,
+   "out": "tmp/hero-regen/cand-2.jpg",
+   "ok": true,
+   "requestId": "01a11f52-3341-7481-9a29-303f79000eed",
+   "seed": 669062865,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": true,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false
+  },
+  {
+   "at": "2026-10-09T06:20:56.071Z",
+   "call": "ultra",
+   "id": "hero-home",
+   "attempt": 3,
+   "out": "tmp/hero-regen/cand-3.jpg",
+   "ok": true,
+   "requestId": "01a11f52-335f-7632-a7b8-78bcc93a5fcf",
+   "seed": 792705648,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": true
+  },
+  {
+   "at": "2026-10-09T06:20:56.180Z",
+   "call": "ultra",
+   "id": "hero-home",
+   "attempt": 4,
+   "out": "tmp/hero-regen/cand-4.jpg",
+   "ok": true,
+   "requestId": "01a11f52-33aa-7901-ae90-12442cdb0c66",
+   "seed": 3514149305,
+   "promptSource": "orchestrator",
+   "inputOverride": {
+    "aspect_ratio": "16:9",
+    "raw": false,
+    "output_format": "jpeg",
+    "safety_tolerance": "2"
+   },
+   "w": 2752,
+   "h": 1536,
+   "cost": 0.06,
+   "accepted": false
   }
  ],
  "reviewLog": "tmp/imagery-run/review-log.jsonl (scratch; every verdict with its crop list and sheets)",
